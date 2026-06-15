@@ -70,17 +70,16 @@
   .imgwrap.multi.n3{grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;}
   .imgwrap.multi.n3 img:first-child{grid-row:1/3;}
   .imgwrap.multi.n4{grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;}
-  .scrim{position:absolute;inset:0;background:linear-gradient(to top,rgba(10,15,26,.88) 0%,transparent 48%);pointer-events:none;}
+  .scrim{position:absolute;inset:0;background:linear-gradient(to top,rgba(8,12,20,.92) 0%,rgba(8,12,20,.35) 30%,transparent 60%);pointer-events:none;}
   .typetag{position:absolute;top:10px;left:10px;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;padding:4px 8px;border-radius:4px;background:rgba(10,15,26,.78);color:var(--text);border:1px solid var(--border-bright);z-index:2;}
   .statusdot{position:absolute;top:10px;right:10px;display:flex;align-items:center;gap:6px;font-family:'JetBrains Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:.06em;padding:4px 8px;border-radius:4px;background:rgba(10,15,26,.78);color:var(--led);border:1px solid var(--led);z-index:2;}
   .statusdot .led{width:7px;height:7px;border-radius:50%;background:var(--led);box-shadow:0 0 8px var(--led);}
   .card[data-status="stable"]{--led:var(--st-stable);} .card[data-status="beta"]{--led:var(--st-beta);}
   .card[data-status="experimental"]{--led:var(--st-experimental);} .card[data-status="maintenance"]{--led:var(--st-maintenance);}
   .card[data-status="deprecated"]{--led:var(--st-deprecated);} .card[data-status="none"]{--led:var(--st-none);}
-  .boardname{position:absolute;left:12px;bottom:10px;right:12px;z-index:2;}
-  .boardname .bn{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:14px;color:#fff;text-shadow:0 1px 4px rgba(0,0,0,.6);}
-  .boardname .bv{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--accent);letter-spacing:.08em;text-transform:uppercase;}
-  .boardname .bmore{font-family:'JetBrains Mono',monospace;font-size:11px;color:#fff;background:rgba(10,15,26,.7);padding:3px 8px;border-radius:4px;}
+  .boardname{position:absolute;left:10px;bottom:10px;right:10px;z-index:2;}
+  .bchip{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:600;color:#fff;background:rgba(8,12,20,.85);border:1px solid var(--border-bright);padding:4px 9px;border-radius:5px;display:inline-block;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;vertical-align:bottom;}
+  .bchip.dim{color:var(--accent);font-weight:500;letter-spacing:.06em;text-transform:uppercase;}
 
   .body{padding:14px 15px 13px;display:flex;flex-direction:column;flex:1;}
   .reponame{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:13px;color:var(--text);word-break:break-word;margin-bottom:3px;}
@@ -158,7 +157,7 @@ const DATA_SOURCE="auto";  // static | live | auto
 
 const VENDOR_COLOR={ST:"#3CB4E5",NXP:"#E5601F",Microchip:"#EE3124",Renesas:"#2E6FE0",Infineon:"#00C2A8",Espressif:"#E7352C",Avnet:"#0093E9",TRIA:"#A78BFA",Unknown:"#566080"};
 
-const state={ repos:[], facets:{manufacturers:[],boards:[]}, filters:{manufacturer:null,board:null,type:null,language:null,status:null}, query:"", view:"gallery" };
+const state={ repos:[], facets:{manufacturers:[],boards:[]}, filters:{manufacturer:null,tag:null,type:null,language:null,status:null}, query:"", view:"gallery" };
 const $=s=>document.querySelector(s);
 const grid=()=>$("#grid");
 
@@ -191,15 +190,20 @@ function chip(key,val,label,extra=""){ const active=state.filters[key]===val; re
 
 function renderFilters(){
   const f=state.facets;
+  const CAP=new Set(["telemetry","commands","ota","twin","file-upload"]); // capabilities, not topics
   const langs=[...new Set(state.repos.flatMap(r=>r.languages||[]))].sort();
   const types=[...new Set(state.repos.map(r=>r.category).filter(c=>c&&c!=="uncategorized"))].sort();
   const statuses=[...new Set(state.repos.map(r=>r.status).filter(s=>s&&s!=="none"))].sort();
+  // topics: tag frequency across listings, most common first
+  const tagCount={};
+  state.repos.filter(r=>!r.hidden).forEach(r=>(r.features||[]).forEach(t=>{ if(!CAP.has(String(t).toLowerCase())) tagCount[t]=(tagCount[t]||0)+1; }));
+  const tags=Object.keys(tagCount).sort((a,b)=> tagCount[b]-tagCount[a] || a.localeCompare(b));
   const mfrChips=f.manufacturers.map(v=>chip("manufacturer",v,v,`<span class="vdot" style="background:${VENDOR_COLOR[v]||VENDOR_COLOR.Unknown}"></span>`)).join("");
-  const boardChips=f.boards.map(b=>chip("board",b.slug,b.name)).join("");
+  const tagChips=tags.map(t=>chip("tag",t,t)).join("");
   const anyActive=Object.values(state.filters).some(Boolean)||state.query;
   $("#filters").innerHTML=`
     <div class="filter-row"><span class="filter-label">Manufacturer</span>${mfrChips}${anyActive?`<button class="clear" id="clearall">clear all</button>`:""}</div>
-    <div class="filter-row"><span class="filter-label">Board</span>${boardChips}</div>
+    <div class="filter-row"><span class="filter-label">Topic</span>${tagChips}</div>
     <div class="filter-row"><span class="filter-label">Type</span>${types.map(t=>chip("type",t,t)).join("")}</div>
     <div class="filter-row"><span class="filter-label">Language</span>${langs.map(l=>chip("language",l,l)).join("")}</div>
     <div class="filter-row"><span class="filter-label">Status</span>${statuses.map(s=>chip("status",s,s)).join("")}</div>`;
@@ -209,7 +213,7 @@ function matches(r){
   const f=state.filters;
   if(r.hidden)return false;
   if(f.manufacturer && !(r.manufacturers||[]).includes(f.manufacturer))return false;
-  if(f.board && !(r.boards||[]).some(b=>b.slug===f.board))return false;
+  if(f.tag && !(r.features||[]).includes(f.tag))return false;
   if(f.type && r.category!==f.type)return false;
   if(f.language && !(r.languages||[]).includes(f.language))return false;
   if(f.status && r.status!==f.status)return false;
@@ -225,27 +229,31 @@ function imgArea(r){
   const boards=r.boards||[];
   const tags=`<div class="typetag">${esc(r.category)}</div><div class="statusdot"><span class="led"></span>${esc(r.status)}</div>`;
   if(!boards.length){
-    return `<div class="imgwrap"><div class="scrim"></div>${tags}<div class="boardname"><div class="bv">platform-agnostic</div><div class="bn">${esc(r.sdkFlavor||r.languages?.[0]||"")}</div></div></div>`;
+    return `<div class="imgwrap"><div class="scrim"></div>${tags}<div class="boardname"><span class="bchip dim">platform-agnostic</span></div></div>`;
   }
   if(boards.length===1){
     const b=boards[0];
-    return `<div class="imgwrap"><img src="${esc(b.image||"")}" alt="${esc(b.name)}" loading="lazy" onerror="this.style.display='none'"><div class="scrim"></div>${tags}<div class="boardname"><div class="bv">${esc(b.vendor)}</div><div class="bn">${esc(b.name)}</div></div></div>`;
+    return `<div class="imgwrap"><img src="${esc(b.image||"")}" alt="${esc(b.name)}" loading="lazy" onerror="this.style.display='none'"><div class="scrim"></div>${tags}<div class="boardname"><span class="bchip">${esc(b.vendor)} · ${esc(b.name)}</span></div></div>`;
   }
   const show=boards.slice(0,4), n=Math.min(show.length,4);
-  return `<div class="imgwrap multi n${n}">${show.map(b=>`<img src="${esc(b.image||"")}" alt="${esc(b.name)}" loading="lazy" onerror="this.style.visibility='hidden'">`).join("")}<div class="scrim"></div>${tags}<div class="boardname"><span class="bmore">${boards.length} boards · ${esc([...new Set(boards.map(b=>b.vendor))].join(", "))}</span></div></div>`;
+  return `<div class="imgwrap multi n${n}">${show.map(b=>`<img src="${esc(b.image||"")}" alt="${esc(b.name)}" loading="lazy" onerror="this.style.visibility='hidden'">`).join("")}<div class="scrim"></div>${tags}<div class="boardname"><span class="bchip">${boards.length} boards · ${esc([...new Set(boards.map(b=>b.vendor))].join(", "))}</span></div></div>`;
 }
 
 function cardHTML(r){
-  const href=esc(r.url)+(r.subPath?"/tree/main/"+esc(r.subPath):"");
+  const href=esc(r.url||(r.repo?`https://github.com/${ORG}/${r.repo}`:"#"));
+  const main=r.displayName||r.repo||r.id;            // human-readable name leads
+  const sub=(r.repo&&r.repo!==main)?r.repo:"";        // repo slug as secondary, never "null"
+  const CAP=new Set(["telemetry","commands","ota","twin","file-upload"]);
+  const topics=(r.features||[]).filter(t=>!CAP.has(String(t).toLowerCase())).slice(0,3);
   return `<a class="card" href="${href}" target="_blank" rel="noopener" data-status="${esc(r.status)}">
     ${imgArea(r)}
     <div class="body">
-      <div class="reponame">${esc(r.repo)}${r.subPath?`<span style="color:var(--dim)"> / ${esc(r.subPath)}</span>`:""}</div>
-      ${r.displayName&&r.displayName!==r.repo?`<div class="title">${esc(r.displayName)}</div>`:""}
+      <div class="reponame">${esc(main)}</div>
+      ${sub?`<div class="title mono">${esc(sub)}${r.subPath?` / ${esc(r.subPath)}`:""}</div>`:""}
       <div class="desc">${esc(r.description||"No description.")}</div>
       <div class="badges">
         ${(r.languages||[]).slice(0,2).map(l=>`<span class="badge lang">${esc(l)}</span>`).join("")}
-        ${(r.features||[]).slice(0,3).map(x=>`<span class="badge">${esc(x)}</span>`).join("")}
+        ${topics.map(x=>`<span class="badge">${esc(x)}</span>`).join("")}
       </div>
       <div class="foot"><div class="meta"><span>★ ${r.stars??0}</span><span>${timeAgo(r.updated)}</span></div><span>→</span></div>
     </div>
@@ -279,7 +287,7 @@ function render(){
 document.addEventListener("click",e=>{
   const c=e.target.closest(".chip");
   if(c){ const {key,val}=c.dataset; state.filters[key]=state.filters[key]===val?null:val; renderFilters(); render(); return; }
-  if(e.target.id==="clearall"){ state.filters={manufacturer:null,board:null,type:null,language:null,status:null}; state.query=""; $("#q").value=""; renderFilters(); render(); }
+  if(e.target.id==="clearall"){ state.filters={manufacturer:null,tag:null,type:null,language:null,status:null}; state.query=""; $("#q").value=""; renderFilters(); render(); }
 });
 $("#view").addEventListener("click",e=>{ const b=e.target.closest("button"); if(!b)return; state.view=b.dataset.v; document.querySelectorAll("#view button").forEach(x=>x.classList.toggle("active",x===b)); render(); });
 let qt; $("#q").addEventListener("input",e=>{ clearTimeout(qt); qt=setTimeout(()=>{ state.query=e.target.value.trim(); renderFilters(); render(); },120); });
