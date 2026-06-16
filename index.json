@@ -1,21 +1,17 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-06-14T00:00:00Z",
+  "generated": "2026-06-15T21:02:31Z",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "facets": {
     "manufacturers": [
       "Advantech",
-      "Indeema",
       "Infineon",
       "Microchip",
       "NXP",
-      "Nvidia",
       "Raspberry Pi",
       "Renesas",
-      "STMicroelctronics",
       "STMicroelectronics",
       "Seeed Studio",
-      "Seeed Studio / NVIDIA",
       "Tria / AMD",
       "Tria / NXP",
       "Tria / Qualcom",
@@ -27,13 +23,7 @@
         "vendor": "Microchip",
         "name": "AVR-IOT mini Cellular",
         "partNumber": "EV70N78A",
-        "link": "https://www.microchip.com/en-us/development-tool/ev70n78a",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EV70N78A.png"
-      },
-      {
-        "slug": "x-amphenol-clicks",
-        "vendor": "Microchip",
-        "name": "Amphenol Clicks"
       },
       {
         "slug": "steval-astra1b",
@@ -54,10 +44,6 @@
         "vendor": "Renesas",
         "name": "Cloud Kit Based on RA6M5 MCU Group",
         "partNumber": "CK-RA6M5",
-        "qualifications": [
-          "AWS Qualified"
-        ],
-        "link": "https://www.renesas.com/en/design-resources/boards-kits/ck-ra6m5?srsltid=AfmBOoop6bS6IJxusVIJ6-_25nZtY_GGhLwhp2j_Pp_EvG85-Xf1Thto#documents",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CK-RA6M5.png"
       },
       {
@@ -65,10 +51,6 @@
         "vendor": "Renesas",
         "name": "DA16200 Ultra Low Power Wi-Fi Pmod Module Evaluation Board",
         "partNumber": "US159-DA16200MEVZ",
-        "qualifications": [
-          "AWS Qualified"
-        ],
-        "link": "https://www.renesas.com/en/design-resources/boards-kits/us159-da16200mevz?srsltid=AfmBOorWpIcf-wfJAZPoz54Lz-hQ4OuKvsiaw-KyM0bjm-J9Ur1bueBw",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/US159-DA16200MEVZ.png"
       },
       {
@@ -76,10 +58,6 @@
         "vendor": "Renesas",
         "name": "DA16600 Ultra Low Power Wi-Fi and Bluetooth Low Energy Combo Pmod Module Evaluation Board",
         "partNumber": "US159-DA16600EVZ",
-        "qualifications": [
-          "AWS Qualified"
-        ],
-        "link": "https://www.renesas.com/en/products/da16600mod",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/US159-DA16600EVZ.png"
       },
       {
@@ -87,10 +65,6 @@
         "vendor": "Renesas",
         "name": "Development Kit, DA16200, Wireless Communication, WiFi with IOT",
         "partNumber": "DA16200MOD-DEVKT",
-        "qualifications": [
-          "AWS Qualified"
-        ],
-        "link": "https://www.renesas.com/en/design-resources/boards-kits/da16200mod-devkt#overview",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/DA16200MOD-DEVKT.png"
       },
       {
@@ -105,10 +79,6 @@
         "vendor": "Renesas",
         "name": "Evaluation Kit for RA6M4 MCU Group",
         "partNumber": "EK-RA6M4",
-        "qualifications": [
-          "AWS Qualified"
-        ],
-        "link": "https://www.renesas.com/en/products/ra6m4?srsltid=AfmBOoo9q-X5EQu2KKwQ3p2bwF1KRzc_zKRS7gJJB84bXurgF4pSIVKH",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EK-RA6M4.png"
       },
       {
@@ -116,10 +86,6 @@
         "vendor": "Renesas",
         "name": "Evaluation Kit for RA8M1 MCU Group",
         "partNumber": "EK-RA8M1",
-        "qualifications": [
-          "AWS Qualified"
-        ],
-        "link": "https://www.renesas.com/en/products/ra8m1",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EK-RA8M1.png"
       },
       {
@@ -130,15 +96,10 @@
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FPB-RA2E1.png"
       },
       {
-        "slug": "icam-540-30w-2",
+        "slug": "icam-540-30w",
         "vendor": "Advantech",
         "name": "ICAM-540 Industrial AI Camera | NVIDIA Jetson Orin",
         "partNumber": "ICAM-540-30W",
-        "qualifications": [
-          "AWS Qualified",
-          "Greengrass"
-        ],
-        "link": "https://www.advantech.com/en/products/d51faf9f-1457-4702-93f7-f613d7b1460e/icam-540/mod_090d1ba9-cea5-4fb1-98ab-9029aeb0a7e7",
         "image": "https://apn-portal.my.salesforce.com/servlet/servlet.ImageServer?id=015aq000000IvZJAA0&oid=00DE0000000c48tMAA"
       },
       {
@@ -146,45 +107,27 @@
         "vendor": "NXP",
         "name": "IMX93 Freedom Board",
         "partNumber": "FRDM-IMX93",
-        "qualifications": [
-          "AWS Qualified",
-          "Greengrass"
-        ],
-        "link": "https://www.nxp.com/design/design-center/development-boards-and-designs/frdm-i-mx-93-development-board:FRDM-IMX93",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-IMX93.png"
-      },
-      {
-        "slug": "x-iotc-bridge-app",
-        "vendor": "Microchip",
-        "name": "IOTC Bridge App"
-      },
-      {
-        "slug": "x-j4021",
-        "vendor": "Seeed Studio / NVIDIA",
-        "name": "J4021"
-      },
-      {
-        "slug": "x-kerlink-gateway",
-        "vendor": "Renesas",
-        "name": "Kerlink Gateway"
       },
       {
         "slug": "msc-sm2s-imx8plus",
         "vendor": "Tria / NXP",
         "name": "MSC SM2S-IMX8PLUS",
         "partNumber": "MSC SM2S-IMX8PLUS",
-        "link": "https://embedded.avnet.com/product/msc-sm2s-imx8plus/",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/MSC SM2S-IMX8PLUS.png"
+      },
+      {
+        "slug": "ev19j06a",
+        "vendor": "Microchip",
+        "name": "PIC32CX-BZ3 and WBZ35x Curiosity Board",
+        "partNumber": "EV19J06A",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EV19J06A.png"
       },
       {
         "slug": "cy8ckit-062s2-ai",
         "vendor": "Infineon",
         "name": "PSOC\u2122 6 Artificial Intelligence Evaluation Kit",
         "partNumber": "CY8CKIT-062S2-AI",
-        "qualifications": [
-          "AWS Qualified"
-        ],
-        "link": "https://www.infineon.com/evaluation-board/CY8CKIT-062S2-AI",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CKIT-062S2-AI.png"
       },
       {
@@ -206,10 +149,6 @@
         "vendor": "Microchip",
         "name": "PolarFire Discovery Kit",
         "partNumber": "MPFS-DISCO-KIT",
-        "qualifications": [
-          "AWS Qualified"
-        ],
-        "link": "https://www.microchip.com/en-us/development-tool/mpfs-disco-kit",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/MPFS-DISCO-KIT.png"
       },
       {
@@ -231,10 +170,6 @@
         "vendor": "Tria / Renesas",
         "name": "RASynBoard NDP120 Evaluation Kit",
         "partNumber": "AES-RASYNB-120",
-        "qualifications": [
-          "AWS Qualified"
-        ],
-        "link": "https://www.avnet.com/americas/products/avnet-boards/avnet-board-families/rasynboard/",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-RASYNB-120.png"
       },
       {
@@ -242,26 +177,20 @@
         "vendor": "Tria / Renesas",
         "name": "RZBoard V2L",
         "partNumber": "AES-RZB-V2L-SK-G",
-        "qualifications": [
-          "AWS Qualified"
-        ],
-        "link": "https://www.tria-technologies.com/product/rzboard-v2l/",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-RZB-V2L-SK-G.png"
       },
       {
-        "slug": "x-raspberry-pi-5",
+        "slug": "rpi5-4gb-single",
         "vendor": "Raspberry Pi",
-        "name": "Raspberry Pi 5"
+        "name": "Raspberry Pi5 4GB",
+        "partNumber": "RPI5-4GB-SINGLE",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/RPI5.png"
       },
       {
         "slug": "atsama5d27-som1-ek1",
         "vendor": "Microchip",
         "name": "SAMA5D27 SOM Evaluation Kit",
         "partNumber": "ATSAMA5D27-SOM1-EK1",
-        "qualifications": [
-          "AWS Qualified"
-        ],
-        "link": "http://microchip.com/en-us/development-tool/atsama5d27-som1-ek1",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ATSAMA5D27-SOM1-EK1.png"
       },
       {
@@ -269,24 +198,20 @@
         "vendor": "Microchip",
         "name": "SAMA7D65 Curiosity Kit",
         "partNumber": "EV63J76A",
-        "qualifications": [
-          "AWS Qualified",
-          "Greengrass"
-        ],
-        "link": "https://www.microchip.com/en-us/development-tool/ev63j76a",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EV63J76A.png"
       },
       {
-        "slug": "x-som-6873-com-express-t6",
+        "slug": "som-6873-com-express-t6",
         "vendor": "Advantech",
-        "name": "SOM-6873 COM Express T6"
+        "name": "SOM-6873 COM Express Type 6 (Ryzen Embedded)",
+        "partNumber": "SOM-6873 COM Express T6",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/SOM-6873.png"
       },
       {
         "slug": "stm32h573i-dk",
         "vendor": "STMicroelectronics",
         "name": "STM32H5 Discovery Kit",
         "partNumber": "STM32H573I-DK",
-        "link": "https://www.st.com/en/evaluation-tools/stm32h573i-dk.html",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/stm32h573DK.png"
       },
       {
@@ -294,10 +219,6 @@
         "vendor": "STMicroelectronics",
         "name": "STM32L4 Discovery Kit",
         "partNumber": "B-L475E-IOT01A2",
-        "qualifications": [
-          "AWS Qualified"
-        ],
-        "link": "https://www.st.com/en/evaluation-tools/b-l4s5i-iot01a.html",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/B-L475E-IOT01A2.png"
       },
       {
@@ -305,11 +226,6 @@
         "vendor": "STMicroelectronics",
         "name": "STM32MP135 Discovery Kit",
         "partNumber": "STM32MP135F-DK",
-        "qualifications": [
-          "AWS Qualified",
-          "Greengrass"
-        ],
-        "link": "https://www.st.com/en/evaluation-tools/stm32mp135f-dk.html",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP135F-DK.png"
       },
       {
@@ -317,28 +233,13 @@
         "vendor": "STMicroelectronics",
         "name": "STM32MP157 Discovery Kit",
         "partNumber": "STM32MP157F-DK2",
-        "qualifications": [
-          "AWS Qualified",
-          "Greengrass"
-        ],
-        "link": "https://www.st.com/en/evaluation-tools/stm32mp157c-dk2.html",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/stm32mp157.png"
-      },
-      {
-        "slug": "x-stm32mp157f-dk3",
-        "vendor": "STMicroelctronics",
-        "name": "STM32MP157F-DK3"
       },
       {
         "slug": "stm32mp257f-dk",
         "vendor": "STMicroelectronics",
         "name": "STM32MP2 Discovery Kit",
         "partNumber": "STM32MP257F-DK",
-        "qualifications": [
-          "AWS Qualified",
-          "Greengrass"
-        ],
-        "link": "https://www.st.com/en/evaluation-tools/stm32mp257f-dk.html",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-DK.png"
       },
       {
@@ -346,11 +247,6 @@
         "vendor": "STMicroelectronics",
         "name": "STM32MP2 Evaluation Board",
         "partNumber": "STM32MP257F-EV1",
-        "qualifications": [
-          "AWS Qualified",
-          "Greengrass"
-        ],
-        "link": "https://wiki.st.com/stm32mpu/wiki/Getting_started/STM32MP2_boards",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-EV1.png"
       },
       {
@@ -358,10 +254,6 @@
         "vendor": "STMicroelectronics",
         "name": "STM32N6 Discovery Kit",
         "partNumber": "STM32N6570-DK",
-        "qualifications": [
-          "AWS Qualified"
-        ],
-        "link": "https://www.st.com/en/evaluation-tools/stm32n6570-dk.html",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32N6570-DK.png"
       },
       {
@@ -369,10 +261,6 @@
         "vendor": "STMicroelectronics",
         "name": "STM32U5 Discovery Kit",
         "partNumber": "B-U585I-IOT02A",
-        "qualifications": [
-          "AWS Qualified"
-        ],
-        "link": "https://www.st.com/en/evaluation-tools/b-u585i-iot02a.html",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/B-U585I-IOT02A.png"
       },
       {
@@ -390,16 +278,10 @@
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STEVAL-MKBOXPRO.png"
       },
       {
-        "slug": "x-te-clicks",
-        "vendor": "Microchip",
-        "name": "TE Clicks"
-      },
-      {
         "slug": "vision-ai-kit-iq9",
         "vendor": "Tria / Qualcom",
         "name": "Vision AI-KIT IQ9",
         "partNumber": "Vision AI-KIT IQ9",
-        "link": "https://www.tria-technologies.com/product/vision-ai-kit-iq9/",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/Vision%20AI-KIT-IQ9.png"
       },
       {
@@ -407,16 +289,7 @@
         "vendor": "Tria / Qualcom",
         "name": "VisionAI-Kit 6490",
         "partNumber": "AES-QCS6490-DK-G",
-        "qualifications": [
-          "AWS Qualified"
-        ],
-        "link": "https://www.tria-technologies.com/product/vision-ai-kit-6490/",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-QCS6490-DK-G.png"
-      },
-      {
-        "slug": "x-wbz350pe-i",
-        "vendor": "Microchip",
-        "name": "WBZ350PE-I"
       },
       {
         "slug": "ev36w50a",
@@ -430,10 +303,6 @@
         "vendor": "Infineon",
         "name": "XENSIV\u2122 KIT CSK PASCO2",
         "partNumber": "KITCSKPASCO2TOBO1",
-        "qualifications": [
-          "AWS Qualified"
-        ],
-        "link": "https://www.infineon.com/evaluation-board/KIT-CSK-PASCO2",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/KITCSKPASCO2TOBO1.png"
       },
       {
@@ -441,10 +310,6 @@
         "vendor": "Tria / AMD",
         "name": "ZUBoard 1CG",
         "partNumber": "AES-ZUB-1CG-DK-G",
-        "qualifications": [
-          "AWS Qualified"
-        ],
-        "link": "https://www.tria-technologies.com/product/zuboard-1cg/",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-ZUB-1CG-DK-G.png"
       },
       {
@@ -452,7 +317,6 @@
         "vendor": "NXP",
         "name": "i.MX RT1060 Evaluation Kit",
         "partNumber": "MIMXRT1060-EVKB",
-        "link": "https://www.nxp.com/design/design-center/development-boards-and-designs/MIMXRT1060-EVKB",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/MIMXRT1060-EVKB.png"
       },
       {
@@ -460,15 +324,23 @@
         "vendor": "Seeed Studio",
         "name": "reComputer J2021 - Edge AI Computer with NVIDIA\u00ae Jetson Xavier\u2122 NX 8GB",
         "partNumber": "SEEED-j2021",
-        "link": "https://www.seeedstudio.com/reComputer-J2021-p-5438.html?srsltid=AfmBOoqBZskE6NmMEQJpHBTTkDxX9rWng3fbPMfN3jW2FyRzUayqdm9t",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/SEEED-j2021.png"
+      },
+      {
+        "slug": "j4021",
+        "vendor": "Seeed Studio",
+        "name": "reComputer J4021 \u2014 Jetson Orin NX",
+        "partNumber": "J4021",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/J4021.png"
       }
     ]
   },
   "counts": {
-    "total": 72,
-    "manufacturers": 16,
-    "boards": 50
+    "total": 65,
+    "manufacturers": 12,
+    "boards": 45,
+    "sdks": 6,
+    "examples": 59
   },
   "repos": [
     {
@@ -481,15 +353,14 @@
       "languages": [
         "C"
       ],
-      "sdkFlavor": "c-lib",
       "features": [
         "telemetry",
         "commands"
       ],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
+      "stars": 3,
+      "updated": "2026-06-11T19:43:27Z",
       "hidden": false,
-      "id": "iotc-c-lib",
+      "id": "iotconnect-core-c-library",
       "boards": [],
       "board": null,
       "manufacturers": []
@@ -504,15 +375,14 @@
       "languages": [
         "Python"
       ],
-      "sdkFlavor": "python-lib",
       "features": [
         "telemetry",
         "commands"
       ],
       "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
+      "updated": "2026-03-19T21:46:43Z",
       "hidden": false,
-      "id": "iotc-python-lib",
+      "id": "iotconnect-python-library",
       "boards": [],
       "board": null,
       "manufacturers": []
@@ -527,27 +397,22 @@
       "languages": [
         "C"
       ],
-      "sdkFlavor": "c-azurertos",
       "features": [
         "telemetry",
         "commands",
         "ota",
         "twin"
       ],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
+      "stars": 7,
+      "updated": "2025-05-07T19:12:26Z",
       "hidden": false,
-      "id": "iotc-azurertos-sdk",
+      "id": "iotconnect-c-sdk-for-azure-rtos",
       "boards": [
         {
           "slug": "b-u585i-iot02a",
           "vendor": "STMicroelectronics",
           "name": "STM32U5 Discovery Kit",
           "partNumber": "B-U585I-IOT02A",
-          "qualifications": [
-            "AWS Qualified"
-          ],
-          "link": "https://www.st.com/en/evaluation-tools/b-u585i-iot02a.html",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/B-U585I-IOT02A.png"
         },
         {
@@ -555,10 +420,6 @@
           "vendor": "STMicroelectronics",
           "name": "STM32L4 Discovery Kit",
           "partNumber": "B-L475E-IOT01A2",
-          "qualifications": [
-            "AWS Qualified"
-          ],
-          "link": "https://www.st.com/en/evaluation-tools/b-l4s5i-iot01a.html",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/B-L475E-IOT01A2.png"
         },
         {
@@ -566,7 +427,6 @@
           "vendor": "NXP",
           "name": "i.MX RT1060 Evaluation Kit",
           "partNumber": "MIMXRT1060-EVKB",
-          "link": "https://www.nxp.com/design/design-center/development-boards-and-designs/MIMXRT1060-EVKB",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/MIMXRT1060-EVKB.png"
         },
         {
@@ -589,10 +449,6 @@
         "vendor": "STMicroelectronics",
         "name": "STM32U5 Discovery Kit",
         "partNumber": "B-U585I-IOT02A",
-        "qualifications": [
-          "AWS Qualified"
-        ],
-        "link": "https://www.st.com/en/evaluation-tools/b-u585i-iot02a.html",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/B-U585I-IOT02A.png"
       },
       "manufacturers": [
@@ -600,6 +456,58 @@
         "NXP",
         "Renesas",
         "STMicroelectronics"
+      ]
+    },
+    {
+      "repo": "iotc-dialog-da16k-sdk",
+      "url": "https://github.com/avnet-iotconnect/iotc-dialog-da16k-sdk",
+      "displayName": "/IOTCONNECT DA16K SDK",
+      "description": "SDK for Renesas DA16200/DA16600 Wi-Fi modules.",
+      "category": "sdk",
+      "status": "stable",
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "telemetry",
+        "commands"
+      ],
+      "stars": 0,
+      "updated": "2025-04-25T01:01:40Z",
+      "hidden": false,
+      "id": "iotconnect-da16k-sdk",
+      "boards": [
+        {
+          "slug": "us159-da16600evz",
+          "vendor": "Renesas",
+          "name": "DA16600 Ultra Low Power Wi-Fi and Bluetooth Low Energy Combo Pmod Module Evaluation Board",
+          "partNumber": "US159-DA16600EVZ",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/US159-DA16600EVZ.png"
+        },
+        {
+          "slug": "us159-da16200mevz",
+          "vendor": "Renesas",
+          "name": "DA16200 Ultra Low Power Wi-Fi Pmod Module Evaluation Board",
+          "partNumber": "US159-DA16200MEVZ",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/US159-DA16200MEVZ.png"
+        },
+        {
+          "slug": "da16200mod-devkt",
+          "vendor": "Renesas",
+          "name": "Development Kit, DA16200, Wireless Communication, WiFi with IOT",
+          "partNumber": "DA16200MOD-DEVKT",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/DA16200MOD-DEVKT.png"
+        }
+      ],
+      "board": {
+        "slug": "us159-da16600evz",
+        "vendor": "Renesas",
+        "name": "DA16600 Ultra Low Power Wi-Fi and Bluetooth Low Energy Combo Pmod Module Evaluation Board",
+        "partNumber": "US159-DA16600EVZ",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/US159-DA16600EVZ.png"
+      },
+      "manufacturers": [
+        "Renesas"
       ]
     },
     {
@@ -612,16 +520,15 @@
       "languages": [
         "C"
       ],
-      "sdkFlavor": "c-mtb",
       "features": [
         "telemetry",
         "commands",
         "ota"
       ],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
+      "stars": 2,
+      "updated": "2026-06-03T15:37:59Z",
       "hidden": false,
-      "id": "avnet-iotc-mtb-sdk",
+      "id": "iotconnect-modustoolbox-sdk",
       "boards": [
         {
           "slug": "cy8ckit-062-wifi-bt",
@@ -642,10 +549,6 @@
           "vendor": "Infineon",
           "name": "PSOC\u2122 6 Artificial Intelligence Evaluation Kit",
           "partNumber": "CY8CKIT-062S2-AI",
-          "qualifications": [
-            "AWS Qualified"
-          ],
-          "link": "https://www.infineon.com/evaluation-board/CY8CKIT-062S2-AI",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CKIT-062S2-AI.png"
         }
       ],
@@ -670,27 +573,21 @@
       "languages": [
         "Python"
       ],
-      "sdkFlavor": "python-lite",
       "features": [
         "telemetry",
         "commands",
         "ota"
       ],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
+      "stars": 1,
+      "updated": "2026-04-21T01:57:11Z",
       "hidden": false,
-      "id": "iotc-python-lite-sdk",
+      "id": "iotconnect-python-lite-sdk",
       "boards": [
         {
           "slug": "frdm-imx93",
           "vendor": "NXP",
           "name": "IMX93 Freedom Board",
           "partNumber": "FRDM-IMX93",
-          "qualifications": [
-            "AWS Qualified",
-            "Greengrass"
-          ],
-          "link": "https://www.nxp.com/design/design-center/development-boards-and-designs/frdm-i-mx-93-development-board:FRDM-IMX93",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-IMX93.png"
         },
         {
@@ -698,11 +595,6 @@
           "vendor": "STMicroelectronics",
           "name": "STM32MP135 Discovery Kit",
           "partNumber": "STM32MP135F-DK",
-          "qualifications": [
-            "AWS Qualified",
-            "Greengrass"
-          ],
-          "link": "https://www.st.com/en/evaluation-tools/stm32mp135f-dk.html",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP135F-DK.png"
         },
         {
@@ -710,10 +602,6 @@
           "vendor": "Microchip",
           "name": "SAMA5D27 SOM Evaluation Kit",
           "partNumber": "ATSAMA5D27-SOM1-EK1",
-          "qualifications": [
-            "AWS Qualified"
-          ],
-          "link": "http://microchip.com/en-us/development-tool/atsama5d27-som1-ek1",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ATSAMA5D27-SOM1-EK1.png"
         }
       ],
@@ -722,724 +610,12 @@
         "vendor": "NXP",
         "name": "IMX93 Freedom Board",
         "partNumber": "FRDM-IMX93",
-        "qualifications": [
-          "AWS Qualified",
-          "Greengrass"
-        ],
-        "link": "https://www.nxp.com/design/design-center/development-boards-and-designs/frdm-i-mx-93-development-board:FRDM-IMX93",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-IMX93.png"
       },
       "manufacturers": [
         "Microchip",
         "NXP",
         "STMicroelectronics"
-      ]
-    },
-    {
-      "repo": "iotc-dialog-da16k-sdk",
-      "url": "https://github.com/avnet-iotconnect/iotc-dialog-da16k-sdk",
-      "displayName": "/IOTCONNECT DA16K SDK",
-      "description": "SDK for Renesas DA16200/DA16600 Wi-Fi modules.",
-      "category": "sdk",
-      "status": "stable",
-      "languages": [
-        "C"
-      ],
-      "sdkFlavor": "da16k",
-      "features": [
-        "telemetry",
-        "commands"
-      ],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
-      "hidden": false,
-      "id": "iotc-dialog-da16k-sdk",
-      "boards": [
-        {
-          "slug": "us159-da16600evz",
-          "vendor": "Renesas",
-          "name": "DA16600 Ultra Low Power Wi-Fi and Bluetooth Low Energy Combo Pmod Module Evaluation Board",
-          "partNumber": "US159-DA16600EVZ",
-          "qualifications": [
-            "AWS Qualified"
-          ],
-          "link": "https://www.renesas.com/en/products/da16600mod",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/US159-DA16600EVZ.png"
-        },
-        {
-          "slug": "us159-da16200mevz",
-          "vendor": "Renesas",
-          "name": "DA16200 Ultra Low Power Wi-Fi Pmod Module Evaluation Board",
-          "partNumber": "US159-DA16200MEVZ",
-          "qualifications": [
-            "AWS Qualified"
-          ],
-          "link": "https://www.renesas.com/en/design-resources/boards-kits/us159-da16200mevz?srsltid=AfmBOorWpIcf-wfJAZPoz54Lz-hQ4OuKvsiaw-KyM0bjm-J9Ur1bueBw",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/US159-DA16200MEVZ.png"
-        },
-        {
-          "slug": "da16200mod-devkt",
-          "vendor": "Renesas",
-          "name": "Development Kit, DA16200, Wireless Communication, WiFi with IOT",
-          "partNumber": "DA16200MOD-DEVKT",
-          "qualifications": [
-            "AWS Qualified"
-          ],
-          "link": "https://www.renesas.com/en/design-resources/boards-kits/da16200mod-devkt#overview",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/DA16200MOD-DEVKT.png"
-        }
-      ],
-      "board": {
-        "slug": "us159-da16600evz",
-        "vendor": "Renesas",
-        "name": "DA16600 Ultra Low Power Wi-Fi and Bluetooth Low Energy Combo Pmod Module Evaluation Board",
-        "partNumber": "US159-DA16600EVZ",
-        "qualifications": [
-          "AWS Qualified"
-        ],
-        "link": "https://www.renesas.com/en/products/da16600mod",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/US159-DA16600EVZ.png"
-      },
-      "manufacturers": [
-        "Renesas"
-      ]
-    },
-    {
-      "repo": null,
-      "url": "https://indeema.com/industries/drones-and-uav",
-      "displayName": "Drone",
-      "description": "Drone demo for /IOTCONNECT.",
-      "category": "sample",
-      "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [
-        "agriculture",
-        "uavoperations",
-        "drone"
-      ],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
-      "hidden": false,
-      "id": "drone::drone",
-      "boards": [],
-      "board": null,
-      "manufacturers": [
-        "Indeema"
-      ]
-    },
-    {
-      "repo": "avnet-iotc-mtb-ai-imagimob-rm",
-      "url": "https://github.com/avnet-iotconnect/avnet-iotc-mtb-ai-imagimob-rm",
-      "displayName": "Smart Home Baby Monitor",
-      "description": "This project demonstrates ModusToolbox\u2122 machine learning with Imagimob ready models, combining audio and radar sensor data. It can detect a variety of audio events such as sirens, baby cry, alarms, coughs and snoring, and also recognises hand gestures using the board's radar sensor.",
-      "category": "sample",
-      "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [
-        "edge-AI",
-        "audio"
-      ],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
-      "hidden": false,
-      "id": "avnet-iotc-mtb-ai-imagimob-rm::smart-home-baby-monitor",
-      "boards": [
-        {
-          "slug": "cy8ckit-062s2-ai",
-          "vendor": "Infineon",
-          "name": "PSOC\u2122 6 Artificial Intelligence Evaluation Kit",
-          "partNumber": "CY8CKIT-062S2-AI",
-          "qualifications": [
-            "AWS Qualified"
-          ],
-          "link": "https://www.infineon.com/evaluation-board/CY8CKIT-062S2-AI",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CKIT-062S2-AI.png"
-        }
-      ],
-      "board": {
-        "slug": "cy8ckit-062s2-ai",
-        "vendor": "Infineon",
-        "name": "PSOC\u2122 6 Artificial Intelligence Evaluation Kit",
-        "partNumber": "CY8CKIT-062S2-AI",
-        "qualifications": [
-          "AWS Qualified"
-        ],
-        "link": "https://www.infineon.com/evaluation-board/CY8CKIT-062S2-AI",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CKIT-062S2-AI.png"
-      },
-      "manufacturers": [
-        "Infineon"
-      ]
-    },
-    {
-      "repo": "avnet-iotc-mtb-ai-imagimob-rm",
-      "url": "https://github.com/avnet-iotconnect/avnet-iotc-mtb-ai-imagimob-rm",
-      "displayName": "PSOC6 AI-Kit Ready Models",
-      "description": "This project demonstrates ModusToolbox\u2122 machine learning with Imagimob ready models, combining audio and radar sensor data. It can detect a variety of audio events such as sirens, baby cry, alarms, coughs and snoring, and also recognises hand gestures using the board's radar sensor.",
-      "category": "sample",
-      "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [
-        "edge-AI",
-        "audio",
-        "radar",
-        "imu"
-      ],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
-      "hidden": false,
-      "id": "avnet-iotc-mtb-ai-imagimob-rm::psoc6-ai-kit-ready-models",
-      "boards": [
-        {
-          "slug": "cy8ckit-062s2-ai",
-          "vendor": "Infineon",
-          "name": "PSOC\u2122 6 Artificial Intelligence Evaluation Kit",
-          "partNumber": "CY8CKIT-062S2-AI",
-          "qualifications": [
-            "AWS Qualified"
-          ],
-          "link": "https://www.infineon.com/evaluation-board/CY8CKIT-062S2-AI",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CKIT-062S2-AI.png"
-        }
-      ],
-      "board": {
-        "slug": "cy8ckit-062s2-ai",
-        "vendor": "Infineon",
-        "name": "PSOC\u2122 6 Artificial Intelligence Evaluation Kit",
-        "partNumber": "CY8CKIT-062S2-AI",
-        "qualifications": [
-          "AWS Qualified"
-        ],
-        "link": "https://www.infineon.com/evaluation-board/CY8CKIT-062S2-AI",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CKIT-062S2-AI.png"
-      },
-      "manufacturers": [
-        "Infineon"
-      ]
-    },
-    {
-      "repo": "avnet-iotc-mtb-ai-fall-detection",
-      "url": "https://github.com/avnet-iotconnect/avnet-iotc-mtb-ai-fall-detection",
-      "displayName": "PSOC6 AI-Kit Fall Detect",
-      "description": "This fall detection demo integrates Infineon's ModusToolbox\u2122 machine\u2011learning flow with Avnet's IOTCONNECT platform. The application uses data from the on\u2011board inertial measurement unit (IMU) to recognise when a person has fallen and reports these events to IOTCONNECT.",
-      "category": "sample",
-      "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [
-        "edge-AI",
-        "fall_det",
-        "imu"
-      ],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
-      "hidden": false,
-      "id": "avnet-iotc-mtb-ai-fall-detection::psoc6-ai-kit-fall-detect",
-      "boards": [
-        {
-          "slug": "cy8ckit-062s2-ai",
-          "vendor": "Infineon",
-          "name": "PSOC\u2122 6 Artificial Intelligence Evaluation Kit",
-          "partNumber": "CY8CKIT-062S2-AI",
-          "qualifications": [
-            "AWS Qualified"
-          ],
-          "link": "https://www.infineon.com/evaluation-board/CY8CKIT-062S2-AI",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CKIT-062S2-AI.png"
-        }
-      ],
-      "board": {
-        "slug": "cy8ckit-062s2-ai",
-        "vendor": "Infineon",
-        "name": "PSOC\u2122 6 Artificial Intelligence Evaluation Kit",
-        "partNumber": "CY8CKIT-062S2-AI",
-        "qualifications": [
-          "AWS Qualified"
-        ],
-        "link": "https://www.infineon.com/evaluation-board/CY8CKIT-062S2-AI",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CKIT-062S2-AI.png"
-      },
-      "manufacturers": [
-        "Infineon"
-      ]
-    },
-    {
-      "repo": "avnet-iotc-mtb-ai-imagimob-rm",
-      "url": "https://github.com/avnet-iotconnect/avnet-iotc-mtb-ai-imagimob-rm",
-      "displayName": "PSOC6 AI-Kit Gesture Detect",
-      "description": "This project demonstrates ModusToolbox\u2122 machine learning with Imagimob ready models, combining audio and radar sensor data. It can detect a variety of audio events such as sirens, baby cry, alarms, coughs and snoring, and also recognises hand gestures using the board's radar sensor.",
-      "category": "sample",
-      "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [
-        "edge-AI",
-        "gesture_det",
-        "radar"
-      ],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
-      "hidden": false,
-      "id": "avnet-iotc-mtb-ai-imagimob-rm::psoc6-ai-kit-gesture-detect",
-      "boards": [
-        {
-          "slug": "cy8ckit-062s2-ai",
-          "vendor": "Infineon",
-          "name": "PSOC\u2122 6 Artificial Intelligence Evaluation Kit",
-          "partNumber": "CY8CKIT-062S2-AI",
-          "qualifications": [
-            "AWS Qualified"
-          ],
-          "link": "https://www.infineon.com/evaluation-board/CY8CKIT-062S2-AI",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CKIT-062S2-AI.png"
-        }
-      ],
-      "board": {
-        "slug": "cy8ckit-062s2-ai",
-        "vendor": "Infineon",
-        "name": "PSOC\u2122 6 Artificial Intelligence Evaluation Kit",
-        "partNumber": "CY8CKIT-062S2-AI",
-        "qualifications": [
-          "AWS Qualified"
-        ],
-        "link": "https://www.infineon.com/evaluation-board/CY8CKIT-062S2-AI",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CKIT-062S2-AI.png"
-      },
-      "manufacturers": [
-        "Infineon"
-      ]
-    },
-    {
-      "repo": "avnet-iotc-mtb-ai-imagimob-rm",
-      "url": "https://github.com/avnet-iotconnect/avnet-iotc-mtb-ai-imagimob-rm",
-      "displayName": "PSOC6 AI-Kit Human Activity",
-      "description": "This project demonstrates ModusToolbox\u2122 machine learning with Imagimob ready models, combining audio and radar sensor data. It can detect a variety of audio events such as sirens, baby cry, alarms, coughs and snoring, and also recognises hand gestures using the board's radar sensor.",
-      "category": "sample",
-      "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [
-        "edge-AI",
-        "human_activity",
-        "imu"
-      ],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
-      "hidden": false,
-      "id": "avnet-iotc-mtb-ai-imagimob-rm::psoc6-ai-kit-human-activity",
-      "boards": [
-        {
-          "slug": "cy8ckit-062s2-ai",
-          "vendor": "Infineon",
-          "name": "PSOC\u2122 6 Artificial Intelligence Evaluation Kit",
-          "partNumber": "CY8CKIT-062S2-AI",
-          "qualifications": [
-            "AWS Qualified"
-          ],
-          "link": "https://www.infineon.com/evaluation-board/CY8CKIT-062S2-AI",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CKIT-062S2-AI.png"
-        }
-      ],
-      "board": {
-        "slug": "cy8ckit-062s2-ai",
-        "vendor": "Infineon",
-        "name": "PSOC\u2122 6 Artificial Intelligence Evaluation Kit",
-        "partNumber": "CY8CKIT-062S2-AI",
-        "qualifications": [
-          "AWS Qualified"
-        ],
-        "link": "https://www.infineon.com/evaluation-board/CY8CKIT-062S2-AI",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CKIT-062S2-AI.png"
-      },
-      "manufacturers": [
-        "Infineon"
-      ]
-    },
-    {
-      "repo": "avnet-iotc-mtb-ai-imagimob-rm",
-      "url": "https://github.com/avnet-iotconnect/avnet-iotc-mtb-ai-imagimob-rm",
-      "displayName": "PSOC6 AI-Kit Siren Detection",
-      "description": "This project demonstrates ModusToolbox\u2122 machine learning with Imagimob ready models, combining audio and radar sensor data. It can detect a variety of audio events such as sirens, baby cry, alarms, coughs and snoring, and also recognises hand gestures using the board's radar sensor.",
-      "category": "sample",
-      "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [
-        "edge-AI",
-        "siren_det",
-        "audio"
-      ],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
-      "hidden": false,
-      "id": "avnet-iotc-mtb-ai-imagimob-rm::psoc6-ai-kit-siren-detection",
-      "boards": [
-        {
-          "slug": "cy8ckit-062s2-ai",
-          "vendor": "Infineon",
-          "name": "PSOC\u2122 6 Artificial Intelligence Evaluation Kit",
-          "partNumber": "CY8CKIT-062S2-AI",
-          "qualifications": [
-            "AWS Qualified"
-          ],
-          "link": "https://www.infineon.com/evaluation-board/CY8CKIT-062S2-AI",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CKIT-062S2-AI.png"
-        }
-      ],
-      "board": {
-        "slug": "cy8ckit-062s2-ai",
-        "vendor": "Infineon",
-        "name": "PSOC\u2122 6 Artificial Intelligence Evaluation Kit",
-        "partNumber": "CY8CKIT-062S2-AI",
-        "qualifications": [
-          "AWS Qualified"
-        ],
-        "link": "https://www.infineon.com/evaluation-board/CY8CKIT-062S2-AI",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CKIT-062S2-AI.png"
-      },
-      "manufacturers": [
-        "Infineon"
-      ]
-    },
-    {
-      "repo": "avnet-iotc-mtb-xensiv-example",
-      "url": "https://github.com/avnet-iotconnect/avnet-iotc-mtb-xensiv-example/blob/main/QUICKSTART.md",
-      "displayName": "PSOC6 Xensiv CO2 Monitor",
-      "description": "Quickstart for Infineon\u2019s XENSIV PAS CO2 kit. The guide shows how to connect the sensor board to IOTCONNECT using the Optiga Trust M secure element for hardware security. It walks through flashing the PSoC6 Wi\u2011Fi/Bluetooth controller, provisioning the secure element and registering the device on IOTCONNECT, then demonstrates streaming CO\u2082 measurements to an IOTCONNECT dashboard.",
-      "category": "sample",
-      "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [
-        "enviro-sense",
-        "CO2"
-      ],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
-      "hidden": false,
-      "id": "avnet-iotc-mtb-xensiv-example::psoc6-xensiv-co2-monitor",
-      "boards": [
-        {
-          "slug": "kitcskpasco2tobo1",
-          "vendor": "Infineon",
-          "name": "XENSIV\u2122 KIT CSK PASCO2",
-          "partNumber": "KITCSKPASCO2TOBO1",
-          "qualifications": [
-            "AWS Qualified"
-          ],
-          "link": "https://www.infineon.com/evaluation-board/KIT-CSK-PASCO2",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/KITCSKPASCO2TOBO1.png"
-        }
-      ],
-      "board": {
-        "slug": "kitcskpasco2tobo1",
-        "vendor": "Infineon",
-        "name": "XENSIV\u2122 KIT CSK PASCO2",
-        "partNumber": "KITCSKPASCO2TOBO1",
-        "qualifications": [
-          "AWS Qualified"
-        ],
-        "link": "https://www.infineon.com/evaluation-board/KIT-CSK-PASCO2",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/KITCSKPASCO2TOBO1.png"
-      },
-      "manufacturers": [
-        "Infineon"
-      ]
-    },
-    {
-      "repo": "iotc-azurertos-sdk",
-      "url": "https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/wfi32iot",
-      "displayName": "WFI-32 Sensor Clicks",
-      "description": "This example connects the WFI32-IoT Development Board to Avnet's IOTCONNECT platform built on Microsoft Azure and uses Azure RTOS to simplify cloud firmware development.  The WFI32 board features integrated sensors and supports mikroBUS\u2122 expansion for additional click\u2011board sensors.",
-      "category": "sample",
-      "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [
-        "clicks",
-        "wifi",
-        "sensors",
-        "hvac"
-      ],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
-      "hidden": false,
-      "id": "iotc-azurertos-sdk::wfi-32-sensor-clicks::ev36w50a",
-      "boards": [
-        {
-          "slug": "ev36w50a",
-          "vendor": "Microchip",
-          "name": "WFI32-IoT Development Board",
-          "partNumber": "EV36W50A",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EV36W50A.png"
-        }
-      ],
-      "board": {
-        "slug": "ev36w50a",
-        "vendor": "Microchip",
-        "name": "WFI32-IoT Development Board",
-        "partNumber": "EV36W50A",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EV36W50A.png"
-      },
-      "manufacturers": [
-        "Microchip"
-      ]
-    },
-    {
-      "repo": "iotc-azurertos-sdk",
-      "url": "https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/wfi32iot",
-      "displayName": "WFI-32 Sensor Clicks",
-      "description": "This example connects the WFI32-IoT Development Board to Avnet's IOTCONNECT platform built on Microsoft Azure and uses Azure RTOS to simplify cloud firmware development.  The WFI32 board features integrated sensors and supports mikroBUS\u2122 expansion for additional click\u2011board sensors.",
-      "category": "sample",
-      "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [
-        "clicks",
-        "wifi",
-        "sensors",
-        "hvac"
-      ],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
-      "hidden": false,
-      "id": "iotc-azurertos-sdk::wfi-32-sensor-clicks::x-te-clicks",
-      "boards": [
-        {
-          "slug": "x-te-clicks",
-          "vendor": "Microchip",
-          "name": "TE Clicks"
-        }
-      ],
-      "board": {
-        "slug": "x-te-clicks",
-        "vendor": "Microchip",
-        "name": "TE Clicks"
-      },
-      "manufacturers": [
-        "Microchip"
-      ]
-    },
-    {
-      "repo": "iotc-azurertos-sdk",
-      "url": "https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/wfi32iot",
-      "displayName": "WFI-32 Sensor Clicks",
-      "description": "This example connects the WFI32-IoT Development Board to Avnet's IOTCONNECT platform built on Microsoft Azure and uses Azure RTOS to simplify cloud firmware development.  The WFI32 board features integrated sensors and supports mikroBUS\u2122 expansion for additional click\u2011board sensors.",
-      "category": "sample",
-      "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [
-        "clicks",
-        "wifi",
-        "sensors",
-        "hvac"
-      ],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
-      "hidden": false,
-      "id": "iotc-azurertos-sdk::wfi-32-sensor-clicks::x-amphenol-clicks",
-      "boards": [
-        {
-          "slug": "x-amphenol-clicks",
-          "vendor": "Microchip",
-          "name": "Amphenol Clicks"
-        }
-      ],
-      "board": {
-        "slug": "x-amphenol-clicks",
-        "vendor": "Microchip",
-        "name": "Amphenol Clicks"
-      },
-      "manufacturers": [
-        "Microchip"
-      ]
-    },
-    {
-      "repo": "iotc-arduino-mchp-avr-sdk",
-      "url": "https://github.com/avnet-iotconnect/iotc-arduino-mchp-avr-sdk",
-      "displayName": "AVR-IOT mini Cellular",
-      "description": "IOTCONNECT C SDK example for the AVR IoT Cellular Mini board. The application records button presses and collects on\u2011board sensor readings (temperature and RGB light) and sends telemetry to IOTCONNECT. It also supports simple commands to control LEDs and guides you through provisioning the board and activating the cellular modem.",
-      "category": "sample",
-      "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [
-        "cellular"
-      ],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
-      "hidden": false,
-      "id": "iotc-arduino-mchp-avr-sdk::avr-iot-mini-cellular",
-      "boards": [
-        {
-          "slug": "ev70n78a",
-          "vendor": "Microchip",
-          "name": "AVR-IOT mini Cellular",
-          "partNumber": "EV70N78A",
-          "link": "https://www.microchip.com/en-us/development-tool/ev70n78a",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EV70N78A.png"
-        }
-      ],
-      "board": {
-        "slug": "ev70n78a",
-        "vendor": "Microchip",
-        "name": "AVR-IOT mini Cellular",
-        "partNumber": "EV70N78A",
-        "link": "https://www.microchip.com/en-us/development-tool/ev70n78a",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EV70N78A.png"
-      },
-      "manufacturers": [
-        "Microchip"
-      ]
-    },
-    {
-      "repo": null,
-      "url": null,
-      "displayName": "Smart Asset Monitoring",
-      "description": "This demo showcases a smart factory monitoring system using embedded devices to simulate real industrial equipment such as pumps, compressors, cranes, and inspection systems. Telemetry is securely transmitted to the cloud, where real-time KPIs\u2014like utilization, duty cycles, rejection rates, and anomaly detection\u2014are calculated using DURATION-based logic. The system demonstrates how manufacturers can gain operational insights, trigger alerts, and improve uptime without requiring physical assets on-site.",
-      "category": "sample",
-      "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
-      "hidden": false,
-      "id": "smart-asset-monitoring::smart-asset-monitoring::mpfs-disco-kit",
-      "boards": [
-        {
-          "slug": "mpfs-disco-kit",
-          "vendor": "Microchip",
-          "name": "PolarFire Discovery Kit",
-          "partNumber": "MPFS-DISCO-KIT",
-          "qualifications": [
-            "AWS Qualified"
-          ],
-          "link": "https://www.microchip.com/en-us/development-tool/mpfs-disco-kit",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/MPFS-DISCO-KIT.png"
-        }
-      ],
-      "board": {
-        "slug": "mpfs-disco-kit",
-        "vendor": "Microchip",
-        "name": "PolarFire Discovery Kit",
-        "partNumber": "MPFS-DISCO-KIT",
-        "qualifications": [
-          "AWS Qualified"
-        ],
-        "link": "https://www.microchip.com/en-us/development-tool/mpfs-disco-kit",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/MPFS-DISCO-KIT.png"
-      },
-      "manufacturers": [
-        "Microchip"
-      ]
-    },
-    {
-      "repo": null,
-      "url": null,
-      "displayName": "Smart Asset Monitoring",
-      "description": "This demo showcases a smart factory monitoring system using embedded devices to simulate real industrial equipment such as pumps, compressors, cranes, and inspection systems. Telemetry is securely transmitted to the cloud, where real-time KPIs\u2014like utilization, duty cycles, rejection rates, and anomaly detection\u2014are calculated using DURATION-based logic. The system demonstrates how manufacturers can gain operational insights, trigger alerts, and improve uptime without requiring physical assets on-site.",
-      "category": "sample",
-      "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
-      "hidden": false,
-      "id": "smart-asset-monitoring::smart-asset-monitoring::ev63j76a",
-      "boards": [
-        {
-          "slug": "ev63j76a",
-          "vendor": "Microchip",
-          "name": "SAMA7D65 Curiosity Kit",
-          "partNumber": "EV63J76A",
-          "qualifications": [
-            "AWS Qualified",
-            "Greengrass"
-          ],
-          "link": "https://www.microchip.com/en-us/development-tool/ev63j76a",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EV63J76A.png"
-        }
-      ],
-      "board": {
-        "slug": "ev63j76a",
-        "vendor": "Microchip",
-        "name": "SAMA7D65 Curiosity Kit",
-        "partNumber": "EV63J76A",
-        "qualifications": [
-          "AWS Qualified",
-          "Greengrass"
-        ],
-        "link": "https://www.microchip.com/en-us/development-tool/ev63j76a",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EV63J76A.png"
-      },
-      "manufacturers": [
-        "Microchip"
-      ]
-    },
-    {
-      "repo": "iotc-gateway-mobile-app",
-      "url": "https://github.com/avnet-iotconnect/iotc-gateway-mobile-app",
-      "displayName": "Telehealth",
-      "description": "Mobile phone/tablet application that acts as a Bluetooth gateway for IOTCONNECT. The app connects to edge devices such as the ST SensorTile.box Pro, captures telemetry via BLE and forwards it to IOTCONNECT. It guides users through account setup, device onboarding and viewing live dashboards on the platform.",
-      "category": "sample",
-      "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
-      "hidden": false,
-      "id": "iotc-gateway-mobile-app::telehealth::x-wbz350pe-i",
-      "boards": [
-        {
-          "slug": "x-wbz350pe-i",
-          "vendor": "Microchip",
-          "name": "WBZ350PE-I"
-        }
-      ],
-      "board": {
-        "slug": "x-wbz350pe-i",
-        "vendor": "Microchip",
-        "name": "WBZ350PE-I"
-      },
-      "manufacturers": [
-        "Microchip"
-      ]
-    },
-    {
-      "repo": "iotc-gateway-mobile-app",
-      "url": "https://github.com/avnet-iotconnect/iotc-gateway-mobile-app",
-      "displayName": "Telehealth",
-      "description": "Mobile phone/tablet application that acts as a Bluetooth gateway for IOTCONNECT. The app connects to edge devices such as the ST SensorTile.box Pro, captures telemetry via BLE and forwards it to IOTCONNECT. It guides users through account setup, device onboarding and viewing live dashboards on the platform.",
-      "category": "sample",
-      "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
-      "hidden": false,
-      "id": "iotc-gateway-mobile-app::telehealth::x-iotc-bridge-app",
-      "boards": [
-        {
-          "slug": "x-iotc-bridge-app",
-          "vendor": "Microchip",
-          "name": "IOTC Bridge App"
-        }
-      ],
-      "board": {
-        "slug": "x-iotc-bridge-app",
-        "vendor": "Microchip",
-        "name": "IOTC Bridge App"
-      },
-      "manufacturers": [
-        "Microchip"
       ]
     },
     {
@@ -1450,19 +626,21 @@
       "category": "sample",
       "status": "beta",
       "languages": [],
-      "sdkFlavor": null,
-      "features": [],
+      "features": [
+        "agriculture",
+        "sensors",
+        "cellular"
+      ],
       "stars": 0,
       "updated": "2026-06-01T00:00:00Z",
       "hidden": false,
-      "id": "agrisense-with-avr-iot::agrisense-with-avr-iot",
+      "id": "agrisense-with-avr-iot",
       "boards": [
         {
           "slug": "ev70n78a",
           "vendor": "Microchip",
           "name": "AVR-IOT mini Cellular",
           "partNumber": "EV70N78A",
-          "link": "https://www.microchip.com/en-us/development-tool/ev70n78a",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EV70N78A.png"
         }
       ],
@@ -1471,11 +649,256 @@
         "vendor": "Microchip",
         "name": "AVR-IOT mini Cellular",
         "partNumber": "EV70N78A",
-        "link": "https://www.microchip.com/en-us/development-tool/ev70n78a",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EV70N78A.png"
       },
       "manufacturers": [
         "Microchip"
+      ]
+    },
+    {
+      "repo": "iotc-lora-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-lora-demos/blob/master/docs/iotc-lora-device-onboard.md",
+      "displayName": "Astra Asset Tracker",
+      "description": "Guide for onboarding LoRaWAN devices to IOTCONNECT. It walks through creating templates and configuring device attributes such as temperature, pressure, humidity and accelerometer for ST ASTRA1B and NUCLEO-WL55JC boards, creating LoRaWAN devices in the portal and sending telemetry and commands.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "asset-tracking",
+        "lora"
+      ],
+      "stars": 0,
+      "updated": "2025-05-09T17:10:06Z",
+      "hidden": false,
+      "id": "astra-asset-tracker",
+      "boards": [
+        {
+          "slug": "steval-astra1b",
+          "vendor": "STMicroelectronics",
+          "name": "Astra Module",
+          "partNumber": "STEVAL-ASTRA1B",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STEVAL-ASTRA1B.png"
+        }
+      ],
+      "board": {
+        "slug": "steval-astra1b",
+        "vendor": "STMicroelectronics",
+        "name": "Astra Module",
+        "partNumber": "STEVAL-ASTRA1B",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STEVAL-ASTRA1B.png"
+      },
+      "manufacturers": [
+        "STMicroelectronics"
+      ]
+    },
+    {
+      "repo": "iotc-arduino-mchp-avr-sdk",
+      "url": "https://github.com/avnet-iotconnect/iotc-arduino-mchp-avr-sdk",
+      "displayName": "AVR-IOT mini Cellular",
+      "description": "IOTCONNECT C SDK example for the AVR IoT Cellular Mini board. The application records button presses and collects on\u2011board sensor readings (temperature and RGB light) and sends telemetry to IOTCONNECT. It also supports simple commands to control LEDs and guides you through provisioning the board and activating the cellular modem.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [
+        "C++"
+      ],
+      "features": [
+        "cellular"
+      ],
+      "stars": 0,
+      "updated": "2025-02-04T22:25:25Z",
+      "hidden": false,
+      "id": "avr-iot-mini-cellular",
+      "boards": [
+        {
+          "slug": "ev70n78a",
+          "vendor": "Microchip",
+          "name": "AVR-IOT mini Cellular",
+          "partNumber": "EV70N78A",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EV70N78A.png"
+        }
+      ],
+      "board": {
+        "slug": "ev70n78a",
+        "vendor": "Microchip",
+        "name": "AVR-IOT mini Cellular",
+        "partNumber": "EV70N78A",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EV70N78A.png"
+      },
+      "manufacturers": [
+        "Microchip"
+      ]
+    },
+    {
+      "repo": null,
+      "url": "https://indeema.com/industries/drones-and-uav",
+      "displayName": "Drone",
+      "description": "Drone demo for /IOTCONNECT.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [],
+      "features": [
+        "agriculture",
+        "uavoperations",
+        "drone"
+      ],
+      "stars": 0,
+      "updated": "2026-06-01T00:00:00Z",
+      "hidden": false,
+      "id": "drone",
+      "boards": [],
+      "board": null,
+      "manufacturers": []
+    },
+    {
+      "repo": null,
+      "url": null,
+      "displayName": "Edge AI Inference Pipeline (Jetson Orin NX)",
+      "description": "This demo performs compute-intensive AI inference on the edge and sends the processed results to the cloud. IoTConnect then visualizes the inference output and system performance in real time.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [],
+      "features": [
+        "ai",
+        "vision",
+        "edge-ai"
+      ],
+      "stars": 0,
+      "updated": "2026-06-01T00:00:00Z",
+      "hidden": false,
+      "id": "edge-ai-inference-pipeline-jetson-orin-nx::j4021",
+      "boards": [
+        {
+          "slug": "j4021",
+          "vendor": "Seeed Studio",
+          "name": "reComputer J4021 \u2014 Jetson Orin NX",
+          "partNumber": "J4021",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/J4021.png"
+        }
+      ],
+      "board": {
+        "slug": "j4021",
+        "vendor": "Seeed Studio",
+        "name": "reComputer J4021 \u2014 Jetson Orin NX",
+        "partNumber": "J4021",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/J4021.png"
+      },
+      "manufacturers": [
+        "Seeed Studio"
+      ]
+    },
+    {
+      "repo": null,
+      "url": null,
+      "displayName": "Edge AI Inference Pipeline (Jetson Orin NX)",
+      "description": "This demo performs compute-intensive AI inference on the edge and sends the processed results to the cloud. IoTConnect then visualizes the inference output and system performance in real time.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [],
+      "features": [
+        "ai",
+        "vision",
+        "edge-ai"
+      ],
+      "stars": 0,
+      "updated": "2026-06-01T00:00:00Z",
+      "hidden": false,
+      "id": "edge-ai-inference-pipeline-jetson-orin-nx::seeed-j2021",
+      "boards": [
+        {
+          "slug": "seeed-j2021",
+          "vendor": "Seeed Studio",
+          "name": "reComputer J2021 - Edge AI Computer with NVIDIA\u00ae Jetson Xavier\u2122 NX 8GB",
+          "partNumber": "SEEED-j2021",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/SEEED-j2021.png"
+        }
+      ],
+      "board": {
+        "slug": "seeed-j2021",
+        "vendor": "Seeed Studio",
+        "name": "reComputer J2021 - Edge AI Computer with NVIDIA\u00ae Jetson Xavier\u2122 NX 8GB",
+        "partNumber": "SEEED-j2021",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/SEEED-j2021.png"
+      },
+      "manufacturers": [
+        "Seeed Studio"
+      ]
+    },
+    {
+      "repo": null,
+      "url": null,
+      "displayName": "Edge AI Inference Pipeline (Jetson Orin NX)",
+      "description": "This demo performs compute-intensive AI inference on the edge and sends the processed results to the cloud. IoTConnect then visualizes the inference output and system performance in real time.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [],
+      "features": [
+        "ai",
+        "vision",
+        "edge-ai"
+      ],
+      "stars": 0,
+      "updated": "2026-06-01T00:00:00Z",
+      "hidden": false,
+      "id": "edge-ai-inference-pipeline-jetson-orin-nx",
+      "boards": [
+        {
+          "slug": "icam-540-30w",
+          "vendor": "Advantech",
+          "name": "ICAM-540 Industrial AI Camera | NVIDIA Jetson Orin",
+          "partNumber": "ICAM-540-30W",
+          "image": "https://apn-portal.my.salesforce.com/servlet/servlet.ImageServer?id=015aq000000IvZJAA0&oid=00DE0000000c48tMAA"
+        }
+      ],
+      "board": {
+        "slug": "icam-540-30w",
+        "vendor": "Advantech",
+        "name": "ICAM-540 Industrial AI Camera | NVIDIA Jetson Orin",
+        "partNumber": "ICAM-540-30W",
+        "image": "https://apn-portal.my.salesforce.com/servlet/servlet.ImageServer?id=015aq000000IvZJAA0&oid=00DE0000000c48tMAA"
+      },
+      "manufacturers": [
+        "Advantech"
+      ]
+    },
+    {
+      "repo": "meta-iotconnect-docs",
+      "url": "https://github.com/avnet-iotconnect/meta-iotconnect-docs/tree/main/Build/STM32MP1/mickledore-st-x-linux-ai-demo",
+      "displayName": "Edge AI Object Detection - Fruit",
+      "description": "This demo features the STM32MP135, a cost-effective MPU running ST\u2019s OpenSTLinux and X-Linux-AI packages. The device performs real-time object detection, locally identifying up to three objects and sending results to the cloud. The AI model can be toggled independently of the IOTCONNECT connection for uninterrupted functionality.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [
+        "Python"
+      ],
+      "features": [
+        "ai",
+        "vision",
+        "agriculture"
+      ],
+      "stars": 4,
+      "updated": "2026-05-09T14:16:15Z",
+      "hidden": false,
+      "id": "edge-ai-object-detection-fruit",
+      "boards": [
+        {
+          "slug": "stm32mp135f-dk",
+          "vendor": "STMicroelectronics",
+          "name": "STM32MP135 Discovery Kit",
+          "partNumber": "STM32MP135F-DK",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP135F-DK.png"
+        }
+      ],
+      "board": {
+        "slug": "stm32mp135f-dk",
+        "vendor": "STMicroelectronics",
+        "name": "STM32MP135 Discovery Kit",
+        "partNumber": "STM32MP135F-DK",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP135F-DK.png"
+      },
+      "manufacturers": [
+        "STMicroelectronics"
       ]
     },
     {
@@ -1486,60 +909,54 @@
       "category": "sample",
       "status": "beta",
       "languages": [],
-      "sdkFlavor": null,
-      "features": [],
+      "features": [
+        "ai",
+        "vision",
+        "edge-ai"
+      ],
       "stars": 0,
       "updated": "2026-06-01T00:00:00Z",
       "hidden": false,
-      "id": "edge-ai-solutions-featuring-jetson::edge-ai-solutions-featuring-jetson",
+      "id": "edge-ai-solutions-featuring-jetson",
       "boards": [],
       "board": null,
-      "manufacturers": [
-        "Nvidia"
-      ]
+      "manufacturers": []
     },
     {
-      "repo": "iotc-python-greengrass-sdk",
-      "url": "https://github.com/avnet-iotconnect/iotc-python-greengrass-sdk",
-      "displayName": "GGL Basic - Health, Serial",
-      "description": "Python SDK for building AWS Greengrass components that integrate with IOTCONNECT. The SDK provides examples showing how to send telemetry, receive commands and perform OTA updates from IOTCONNECT.",
+      "repo": null,
+      "url": null,
+      "displayName": "Edge People Detection & Tracking with Ryzen 7 AI",
+      "description": "This platform runs AI inference using Ryzen\u2019s CPU/GPU/NPU architecture to perform advanced vision processing at the edge. Inference output and system metrics are delivered to IoTConnect for cloud-level insight and device management.",
       "category": "sample",
       "status": "beta",
       "languages": [],
-      "sdkFlavor": null,
-      "features": [],
+      "features": [
+        "ai",
+        "vision",
+        "edge-ai"
+      ],
       "stars": 0,
       "updated": "2026-06-01T00:00:00Z",
       "hidden": false,
-      "id": "iotc-python-greengrass-sdk::ggl-basic-health-serial",
+      "id": "edge-people-detection-tracking-with-ryzen-7-ai",
       "boards": [
         {
-          "slug": "frdm-imx93",
-          "vendor": "NXP",
-          "name": "IMX93 Freedom Board",
-          "partNumber": "FRDM-IMX93",
-          "qualifications": [
-            "AWS Qualified",
-            "Greengrass"
-          ],
-          "link": "https://www.nxp.com/design/design-center/development-boards-and-designs/frdm-i-mx-93-development-board:FRDM-IMX93",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-IMX93.png"
+          "slug": "som-6873-com-express-t6",
+          "vendor": "Advantech",
+          "name": "SOM-6873 COM Express Type 6 (Ryzen Embedded)",
+          "partNumber": "SOM-6873 COM Express T6",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/SOM-6873.png"
         }
       ],
       "board": {
-        "slug": "frdm-imx93",
-        "vendor": "NXP",
-        "name": "IMX93 Freedom Board",
-        "partNumber": "FRDM-IMX93",
-        "qualifications": [
-          "AWS Qualified",
-          "Greengrass"
-        ],
-        "link": "https://www.nxp.com/design/design-center/development-boards-and-designs/frdm-i-mx-93-development-board:FRDM-IMX93",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-IMX93.png"
+        "slug": "som-6873-com-express-t6",
+        "vendor": "Advantech",
+        "name": "SOM-6873 COM Express Type 6 (Ryzen Embedded)",
+        "partNumber": "SOM-6873 COM Express T6",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/SOM-6873.png"
       },
       "manufacturers": [
-        "NXP"
+        "Advantech"
       ]
     },
     {
@@ -1550,21 +967,19 @@
       "category": "sample",
       "status": "beta",
       "languages": [],
-      "sdkFlavor": null,
       "features": [
         "EV Charging"
       ],
       "stars": 0,
       "updated": "2026-06-01T00:00:00Z",
       "hidden": false,
-      "id": "ev-charging-commercial::ev-charging-commercial",
+      "id": "ev-charging-commercial",
       "boards": [
         {
           "slug": "msc-sm2s-imx8plus",
           "vendor": "Tria / NXP",
           "name": "MSC SM2S-IMX8PLUS",
           "partNumber": "MSC SM2S-IMX8PLUS",
-          "link": "https://embedded.avnet.com/product/msc-sm2s-imx8plus/",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/MSC SM2S-IMX8PLUS.png"
         }
       ],
@@ -1573,7 +988,6 @@
         "vendor": "Tria / NXP",
         "name": "MSC SM2S-IMX8PLUS",
         "partNumber": "MSC SM2S-IMX8PLUS",
-        "link": "https://embedded.avnet.com/product/msc-sm2s-imx8plus/",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/MSC SM2S-IMX8PLUS.png"
       },
       "manufacturers": [
@@ -1587,22 +1001,22 @@
       "description": "Electric Vehicle Supply Equipment (EVSE) demo that connects a charging station to IOTCONNECT. It showcases how to monitor charging sessions, report energy consumption and control the charger via cloud commands, providing a starting point for building smart EV charging solutions.",
       "category": "sample",
       "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
+      "languages": [
+        "C"
+      ],
       "features": [
         "EV Charging"
       ],
       "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
+      "updated": "2024-03-12T03:21:37Z",
       "hidden": false,
-      "id": "iotc-evse-example::ev-charging-residential",
+      "id": "ev-charging-residential",
       "boards": [
         {
           "slug": "mimxrt1060-evkb",
           "vendor": "NXP",
           "name": "i.MX RT1060 Evaluation Kit",
           "partNumber": "MIMXRT1060-EVKB",
-          "link": "https://www.nxp.com/design/design-center/development-boards-and-designs/MIMXRT1060-EVKB",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/MIMXRT1060-EVKB.png"
         }
       ],
@@ -1611,7 +1025,6 @@
         "vendor": "NXP",
         "name": "i.MX RT1060 Evaluation Kit",
         "partNumber": "MIMXRT1060-EVKB",
-        "link": "https://www.nxp.com/design/design-center/development-boards-and-designs/MIMXRT1060-EVKB",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/MIMXRT1060-EVKB.png"
       },
       "manufacturers": [
@@ -1619,32 +1032,145 @@
       ]
     },
     {
-      "repo": "iotc-python-lite-sdk-demos",
-      "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/nxp-frdm-imx-93",
-      "displayName": "Worker Safety Compliance",
-      "description": "Quickstart demo for the NXP FRDM i.MX 93 platform using the IOTCONNECT Python Lite SDK. The board features tri\u2011radio connectivity (Wi\u2011Fi\u00a06, Bluetooth\u00a05.4 and 802.15.4), enabling rapid development of IoT applications. This project shows how to push telemetry to IOTCONNECT and receive commands from the cloud.",
+      "repo": null,
+      "url": "https://www.hackster.io/AlbertaBeef/asl-classification-with-vitis-ai-025765",
+      "displayName": "FPGA-Driven Industrial Gesture Recognition",
+      "description": "Uses the ZU1CG MPSoC\u2019s FPGA fabric to perform vision-based industrial gesture recognition with custom edge-optimized logic. A trained American Sign Language (ASL) classification model using Vitis AI. Detected gestures drive industrial control actions while reporting telemetry to IOTCONNECT.",
       "category": "sample",
       "status": "beta",
       "languages": [],
-      "sdkFlavor": null,
       "features": [
-        "edge-AI"
+        "ai",
+        "gesture",
+        "industrial"
       ],
       "stars": 0,
       "updated": "2026-06-01T00:00:00Z",
       "hidden": false,
-      "id": "iotc-python-lite-sdk-demos::worker-safety-compliance",
+      "id": "fpga-driven-industrial-gesture-recognition",
+      "boards": [
+        {
+          "slug": "aes-zub-1cg-dk-g",
+          "vendor": "Tria / AMD",
+          "name": "ZUBoard 1CG",
+          "partNumber": "AES-ZUB-1CG-DK-G",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-ZUB-1CG-DK-G.png"
+        }
+      ],
+      "board": {
+        "slug": "aes-zub-1cg-dk-g",
+        "vendor": "Tria / AMD",
+        "name": "ZUBoard 1CG",
+        "partNumber": "AES-ZUB-1CG-DK-G",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-ZUB-1CG-DK-G.png"
+      },
+      "manufacturers": [
+        "Tria / AMD"
+      ]
+    },
+    {
+      "repo": "iotc-python-greengrass-sdk",
+      "url": "https://github.com/avnet-iotconnect/iotc-python-greengrass-sdk",
+      "displayName": "GGL Basic - Health, Serial",
+      "description": "Python SDK for building AWS Greengrass components that integrate with IOTCONNECT. The SDK provides examples showing how to send telemetry, receive commands and perform OTA updates from IOTCONNECT.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [
+        "Python"
+      ],
+      "features": [
+        "greengrass",
+        "gateway",
+        "healthcare"
+      ],
+      "stars": 0,
+      "updated": "2026-04-09T21:44:36Z",
+      "hidden": false,
+      "id": "ggl-basic-health-serial",
+      "boards": [
+        {
+          "slug": "stm32mp157f-dk2",
+          "vendor": "STMicroelectronics",
+          "name": "STM32MP157 Discovery Kit",
+          "partNumber": "STM32MP157F-DK2",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/stm32mp157.png"
+        }
+      ],
+      "board": {
+        "slug": "stm32mp157f-dk2",
+        "vendor": "STMicroelectronics",
+        "name": "STM32MP157 Discovery Kit",
+        "partNumber": "STM32MP157F-DK2",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/stm32mp157.png"
+      },
+      "manufacturers": [
+        "STMicroelectronics"
+      ]
+    },
+    {
+      "repo": "iotc-python-greengrass-sdk",
+      "url": "https://github.com/avnet-iotconnect/iotc-python-greengrass-sdk",
+      "displayName": "GGL Basic - Health, Serial",
+      "description": "Python SDK for building AWS Greengrass components that integrate with IOTCONNECT. The SDK provides examples showing how to send telemetry, receive commands and perform OTA updates from IOTCONNECT.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [
+        "Python"
+      ],
+      "features": [
+        "greengrass",
+        "gateway",
+        "healthcare"
+      ],
+      "stars": 0,
+      "updated": "2026-04-09T21:44:36Z",
+      "hidden": false,
+      "id": "ggl-basic-health-serial",
+      "boards": [
+        {
+          "slug": "stm32mp257f-dk",
+          "vendor": "STMicroelectronics",
+          "name": "STM32MP2 Discovery Kit",
+          "partNumber": "STM32MP257F-DK",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-DK.png"
+        }
+      ],
+      "board": {
+        "slug": "stm32mp257f-dk",
+        "vendor": "STMicroelectronics",
+        "name": "STM32MP2 Discovery Kit",
+        "partNumber": "STM32MP257F-DK",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-DK.png"
+      },
+      "manufacturers": [
+        "STMicroelectronics"
+      ]
+    },
+    {
+      "repo": "iotc-python-greengrass-sdk",
+      "url": "https://github.com/avnet-iotconnect/iotc-python-greengrass-sdk",
+      "displayName": "GGL Basic - Health, Serial",
+      "description": "Python SDK for building AWS Greengrass components that integrate with IOTCONNECT. The SDK provides examples showing how to send telemetry, receive commands and perform OTA updates from IOTCONNECT.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [
+        "Python"
+      ],
+      "features": [
+        "greengrass",
+        "gateway",
+        "healthcare"
+      ],
+      "stars": 0,
+      "updated": "2026-04-09T21:44:36Z",
+      "hidden": false,
+      "id": "ggl-basic-health-serial",
       "boards": [
         {
           "slug": "frdm-imx93",
           "vendor": "NXP",
           "name": "IMX93 Freedom Board",
           "partNumber": "FRDM-IMX93",
-          "qualifications": [
-            "AWS Qualified",
-            "Greengrass"
-          ],
-          "link": "https://www.nxp.com/design/design-center/development-boards-and-designs/frdm-i-mx-93-development-board:FRDM-IMX93",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-IMX93.png"
         }
       ],
@@ -1653,11 +1179,6 @@
         "vendor": "NXP",
         "name": "IMX93 Freedom Board",
         "partNumber": "FRDM-IMX93",
-        "qualifications": [
-          "AWS Qualified",
-          "Greengrass"
-        ],
-        "link": "https://www.nxp.com/design/design-center/development-boards-and-designs/frdm-i-mx-93-development-board:FRDM-IMX93",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-IMX93.png"
       },
       "manufacturers": [
@@ -1671,27 +1192,302 @@
       "description": "Python SDK for building AWS Greengrass components that integrate with IOTCONNECT. The SDK provides examples showing how to send telemetry, receive commands and perform OTA updates from IOTCONNECT.",
       "category": "sample",
       "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [],
+      "languages": [
+        "Python"
+      ],
+      "features": [
+        "greengrass",
+        "gateway",
+        "healthcare"
+      ],
       "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
+      "updated": "2026-04-09T21:44:36Z",
       "hidden": false,
-      "id": "iotc-python-greengrass-sdk::ggl-basic-health-serial",
+      "id": "ggl-basic-health-serial",
       "boards": [
         {
-          "slug": "x-raspberry-pi-5",
-          "vendor": "Raspberry Pi",
-          "name": "Raspberry Pi 5"
+          "slug": "stm32mp135f-dk",
+          "vendor": "STMicroelectronics",
+          "name": "STM32MP135 Discovery Kit",
+          "partNumber": "STM32MP135F-DK",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP135F-DK.png"
         }
       ],
       "board": {
-        "slug": "x-raspberry-pi-5",
+        "slug": "stm32mp135f-dk",
+        "vendor": "STMicroelectronics",
+        "name": "STM32MP135 Discovery Kit",
+        "partNumber": "STM32MP135F-DK",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP135F-DK.png"
+      },
+      "manufacturers": [
+        "STMicroelectronics"
+      ]
+    },
+    {
+      "repo": "iotc-python-greengrass-sdk",
+      "url": "https://github.com/avnet-iotconnect/iotc-python-greengrass-sdk",
+      "displayName": "GGL Basic - Health, Serial",
+      "description": "Python SDK for building AWS Greengrass components that integrate with IOTCONNECT. The SDK provides examples showing how to send telemetry, receive commands and perform OTA updates from IOTCONNECT.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [
+        "Python"
+      ],
+      "features": [
+        "greengrass",
+        "gateway",
+        "healthcare"
+      ],
+      "stars": 0,
+      "updated": "2026-04-09T21:44:36Z",
+      "hidden": false,
+      "id": "ggl-basic-health-serial",
+      "boards": [
+        {
+          "slug": "rpi5-4gb-single",
+          "vendor": "Raspberry Pi",
+          "name": "Raspberry Pi5 4GB",
+          "partNumber": "RPI5-4GB-SINGLE",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/RPI5.png"
+        }
+      ],
+      "board": {
+        "slug": "rpi5-4gb-single",
         "vendor": "Raspberry Pi",
-        "name": "Raspberry Pi 5"
+        "name": "Raspberry Pi5 4GB",
+        "partNumber": "RPI5-4GB-SINGLE",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/RPI5.png"
       },
       "manufacturers": [
         "Raspberry Pi"
+      ]
+    },
+    {
+      "repo": "iotc-python-greengrass-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-python-greengrass-demos",
+      "displayName": "GGL Components - AI Vision Demo / PROTEUS BLE / SensorTileBox Pro BLE",
+      "description": "Collection of AWS Greengrass components built with the IOTCONNECT Python SDK. Includes an AI vision demo that detects objects using a connected camera and BLE demos that gather battery, accelerometer, gyroscope and temperature data from sensors and send it to IOTCONNECT.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [],
+      "features": [
+        "greengrass",
+        "ai",
+        "vision",
+        "ble"
+      ],
+      "stars": 0,
+      "updated": "2026-03-11T08:56:53Z",
+      "hidden": false,
+      "id": "ggl-components-ai-vision-demo-proteus-ble-sensortilebox-pro-ble",
+      "boards": [
+        {
+          "slug": "stm32mp157f-dk2",
+          "vendor": "STMicroelectronics",
+          "name": "STM32MP157 Discovery Kit",
+          "partNumber": "STM32MP157F-DK2",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/stm32mp157.png"
+        }
+      ],
+      "board": {
+        "slug": "stm32mp157f-dk2",
+        "vendor": "STMicroelectronics",
+        "name": "STM32MP157 Discovery Kit",
+        "partNumber": "STM32MP157F-DK2",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/stm32mp157.png"
+      },
+      "manufacturers": [
+        "STMicroelectronics"
+      ]
+    },
+    {
+      "repo": "iotc-python-greengrass-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-python-greengrass-demos",
+      "displayName": "GGL Components - AI Vision Demo / PROTEUS BLE / SensorTileBox Pro BLE",
+      "description": "Collection of AWS Greengrass components built with the IOTCONNECT Python SDK. Includes an AI vision demo that detects objects using a connected camera and BLE demos that gather battery, accelerometer, gyroscope and temperature data from sensors and send it to IOTCONNECT.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [],
+      "features": [
+        "greengrass",
+        "ai",
+        "vision",
+        "ble"
+      ],
+      "stars": 0,
+      "updated": "2026-03-11T08:56:53Z",
+      "hidden": false,
+      "id": "ggl-components-ai-vision-demo-proteus-ble-sensortilebox-pro-ble",
+      "boards": [
+        {
+          "slug": "stm32mp135f-dk",
+          "vendor": "STMicroelectronics",
+          "name": "STM32MP135 Discovery Kit",
+          "partNumber": "STM32MP135F-DK",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP135F-DK.png"
+        }
+      ],
+      "board": {
+        "slug": "stm32mp135f-dk",
+        "vendor": "STMicroelectronics",
+        "name": "STM32MP135 Discovery Kit",
+        "partNumber": "STM32MP135F-DK",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP135F-DK.png"
+      },
+      "manufacturers": [
+        "STMicroelectronics"
+      ]
+    },
+    {
+      "repo": "iotc-python-greengrass-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-python-greengrass-demos",
+      "displayName": "GGL Components - AI Vision Demo / PROTEUS BLE / SensorTileBox Pro BLE",
+      "description": "Collection of AWS Greengrass components built with the IOTCONNECT Python SDK. Includes an AI vision demo that detects objects using a connected camera and BLE demos that gather battery, accelerometer, gyroscope and temperature data from sensors and send it to IOTCONNECT.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [],
+      "features": [
+        "greengrass",
+        "ai",
+        "vision",
+        "ble"
+      ],
+      "stars": 0,
+      "updated": "2026-03-11T08:56:53Z",
+      "hidden": false,
+      "id": "ggl-components-ai-vision-demo-proteus-ble-sensortilebox-pro-ble",
+      "boards": [
+        {
+          "slug": "stm32mp257f-dk",
+          "vendor": "STMicroelectronics",
+          "name": "STM32MP2 Discovery Kit",
+          "partNumber": "STM32MP257F-DK",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-DK.png"
+        }
+      ],
+      "board": {
+        "slug": "stm32mp257f-dk",
+        "vendor": "STMicroelectronics",
+        "name": "STM32MP2 Discovery Kit",
+        "partNumber": "STM32MP257F-DK",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-DK.png"
+      },
+      "manufacturers": [
+        "STMicroelectronics"
+      ]
+    },
+    {
+      "repo": null,
+      "url": null,
+      "displayName": "Hand-Gesture Robotics Control",
+      "description": "Controlling a wheeled vehicle in ROS2.  CV Controller using Edge Impulse custom model to detect Face and Hands (open and close).  Demonstration running at 45FPS",
+      "category": "sample",
+      "status": "beta",
+      "languages": [],
+      "features": [
+        "robotics",
+        "ai",
+        "gesture"
+      ],
+      "stars": 0,
+      "updated": "2026-06-01T00:00:00Z",
+      "hidden": false,
+      "id": "hand-gesture-robotics-control",
+      "boards": [
+        {
+          "slug": "aes-qcs6490-dk-g",
+          "vendor": "Tria / Qualcom",
+          "name": "VisionAI-Kit 6490",
+          "partNumber": "AES-QCS6490-DK-G",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-QCS6490-DK-G.png"
+        }
+      ],
+      "board": {
+        "slug": "aes-qcs6490-dk-g",
+        "vendor": "Tria / Qualcom",
+        "name": "VisionAI-Kit 6490",
+        "partNumber": "AES-QCS6490-DK-G",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-QCS6490-DK-G.png"
+      },
+      "manufacturers": [
+        "Tria / Qualcom"
+      ]
+    },
+    {
+      "repo": "iotc-st-image-classification",
+      "url": "https://github.com/avnet-iotconnect/iotc-st-image-classification/tree/initial",
+      "displayName": "Image Classification\u00a0and Remote Training",
+      "description": "Image classification demo for the STM32MP2 platform. The project converts a TensorFlow model to TFLite, deploys it via IOTCONNECT OTA and performs inference on images from a USB or MIPI camera. It includes instructions for flashing the device, setting up the camera and running the application using a MobileNet\u00a0V2 model.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [
+        "Python"
+      ],
+      "features": [
+        "ai",
+        "vision"
+      ],
+      "stars": 0,
+      "updated": "2026-03-30T19:21:15Z",
+      "hidden": false,
+      "id": "image-classification-and-remote-training",
+      "boards": [
+        {
+          "slug": "stm32mp257f-dk",
+          "vendor": "STMicroelectronics",
+          "name": "STM32MP2 Discovery Kit",
+          "partNumber": "STM32MP257F-DK",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-DK.png"
+        }
+      ],
+      "board": {
+        "slug": "stm32mp257f-dk",
+        "vendor": "STMicroelectronics",
+        "name": "STM32MP2 Discovery Kit",
+        "partNumber": "STM32MP257F-DK",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-DK.png"
+      },
+      "manufacturers": [
+        "STMicroelectronics"
+      ]
+    },
+    {
+      "repo": "iotc-isp-tune-stm32",
+      "url": "https://github.com/avnet-iotconnect/iotc-isp-tune-stm32",
+      "displayName": "ISP",
+      "description": "Demonstration of remote ISP tuning using IOTCONNECT. On STM32MP257F Discovery Kit it allows users to stream live video, adjust image signal processor parameters like exposure and gain, and view real\u2011time telemetry from the image sensor through a cloud dashboard.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [
+        "Python"
+      ],
+      "features": [
+        "vision",
+        "camera"
+      ],
+      "stars": 1,
+      "updated": "2025-06-19T01:47:52Z",
+      "hidden": false,
+      "id": "isp",
+      "boards": [
+        {
+          "slug": "stm32mp257f-dk",
+          "vendor": "STMicroelectronics",
+          "name": "STM32MP2 Discovery Kit",
+          "partNumber": "STM32MP257F-DK",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-DK.png"
+        }
+      ],
+      "board": {
+        "slug": "stm32mp257f-dk",
+        "vendor": "STMicroelectronics",
+        "name": "STM32MP2 Discovery Kit",
+        "partNumber": "STM32MP257F-DK",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-DK.png"
+      },
+      "manufacturers": [
+        "STMicroelectronics"
       ]
     },
     {
@@ -1701,13 +1497,17 @@
       "description": "Guide for onboarding LoRaWAN devices to IOTCONNECT. It walks through creating templates and configuring device attributes such as temperature, pressure, humidity and accelerometer for ST ASTRA1B and NUCLEO-WL55JC boards, creating LoRaWAN devices in the portal and sending telemetry and commands.",
       "category": "sample",
       "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [],
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "lora",
+        "sensors"
+      ],
       "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
+      "updated": "2025-05-09T17:10:06Z",
       "hidden": false,
-      "id": "iotc-lora-demos::lorawan-sensor-monitoring::ek-ra2l1",
+      "id": "lorawan-sensor-monitoring::ek-ra2l1",
       "boards": [
         {
           "slug": "ek-ra2l1",
@@ -1735,13 +1535,17 @@
       "description": "Guide for onboarding LoRaWAN devices to IOTCONNECT. It walks through creating templates and configuring device attributes such as temperature, pressure, humidity and accelerometer for ST ASTRA1B and NUCLEO-WL55JC boards, creating LoRaWAN devices in the portal and sending telemetry and commands.",
       "category": "sample",
       "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [],
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "lora",
+        "sensors"
+      ],
       "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
+      "updated": "2025-05-09T17:10:06Z",
       "hidden": false,
-      "id": "iotc-lora-demos::lorawan-sensor-monitoring::fpb-ra0e1",
+      "id": "lorawan-sensor-monitoring::fpb-ra0e1",
       "boards": [
         {
           "slug": "fpb-ra0e1",
@@ -1769,13 +1573,17 @@
       "description": "Guide for onboarding LoRaWAN devices to IOTCONNECT. It walks through creating templates and configuring device attributes such as temperature, pressure, humidity and accelerometer for ST ASTRA1B and NUCLEO-WL55JC boards, creating LoRaWAN devices in the portal and sending telemetry and commands.",
       "category": "sample",
       "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [],
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "lora",
+        "sensors"
+      ],
       "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
+      "updated": "2025-05-09T17:10:06Z",
       "hidden": false,
-      "id": "iotc-lora-demos::lorawan-sensor-monitoring::fpb-ra2e1",
+      "id": "lorawan-sensor-monitoring::fpb-ra2e1",
       "boards": [
         {
           "slug": "fpb-ra2e1",
@@ -1797,143 +1605,29 @@
       ]
     },
     {
-      "repo": "iotc-lora-demos",
-      "url": "https://github.com/avnet-iotconnect/iotc-lora-demos",
-      "displayName": "LoRaWAN Sensor Monitoring",
-      "description": "Guide for onboarding LoRaWAN devices to IOTCONNECT. It walks through creating templates and configuring device attributes such as temperature, pressure, humidity and accelerometer for ST ASTRA1B and NUCLEO-WL55JC boards, creating LoRaWAN devices in the portal and sending telemetry and commands.",
-      "category": "sample",
-      "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
-      "hidden": false,
-      "id": "iotc-lora-demos::lorawan-sensor-monitoring::x-kerlink-gateway",
-      "boards": [
-        {
-          "slug": "x-kerlink-gateway",
-          "vendor": "Renesas",
-          "name": "Kerlink Gateway"
-        }
-      ],
-      "board": {
-        "slug": "x-kerlink-gateway",
-        "vendor": "Renesas",
-        "name": "Kerlink Gateway"
-      },
-      "manufacturers": [
-        "Renesas"
-      ]
-    },
-    {
-      "repo": "iotc-freertos-ek-ra8m1-pmod",
-      "url": "https://github.com/avnet-iotconnect/iotc-freertos-ek-ra8m1-pmod/blob/main/QUICKSTART.md",
-      "displayName": "RA Cloud Ready Platforms",
-      "description": "Example project for the Renesas EK\u2011RA8M1 evaluation kit that uses a DA16600 Wi\u2011Fi/BLE module to connect to IOTCONNECT. The application streams telemetry and allows controlling the on\u2011board LEDs via IOTCONNECT commands. It includes guidance for configuring IOTCONNECT credentials and automatically provisioning the Wi\u2011Fi module.",
-      "category": "sample",
-      "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
-      "hidden": false,
-      "id": "iotc-freertos-ek-ra8m1-pmod::ra-cloud-ready-platforms::ek-ra6m4",
-      "boards": [
-        {
-          "slug": "ek-ra6m4",
-          "vendor": "Renesas",
-          "name": "Evaluation Kit for RA6M4 MCU Group",
-          "partNumber": "EK-RA6M4",
-          "qualifications": [
-            "AWS Qualified"
-          ],
-          "link": "https://www.renesas.com/en/products/ra6m4?srsltid=AfmBOoo9q-X5EQu2KKwQ3p2bwF1KRzc_zKRS7gJJB84bXurgF4pSIVKH",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EK-RA6M4.png"
-        }
-      ],
-      "board": {
-        "slug": "ek-ra6m4",
-        "vendor": "Renesas",
-        "name": "Evaluation Kit for RA6M4 MCU Group",
-        "partNumber": "EK-RA6M4",
-        "qualifications": [
-          "AWS Qualified"
-        ],
-        "link": "https://www.renesas.com/en/products/ra6m4?srsltid=AfmBOoo9q-X5EQu2KKwQ3p2bwF1KRzc_zKRS7gJJB84bXurgF4pSIVKH",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EK-RA6M4.png"
-      },
-      "manufacturers": [
-        "Renesas"
-      ]
-    },
-    {
-      "repo": "iotc-freertos-ek-ra8m1-pmod",
-      "url": "https://github.com/avnet-iotconnect/iotc-freertos-ek-ra8m1-pmod/blob/main/QUICKSTART.md",
-      "displayName": "RA Cloud Ready Platforms",
-      "description": "Example project for the Renesas EK\u2011RA8M1 evaluation kit that uses a DA16600 Wi\u2011Fi/BLE module to connect to IOTCONNECT. The application streams telemetry and allows controlling the on\u2011board LEDs via IOTCONNECT commands. It includes guidance for configuring IOTCONNECT credentials and automatically provisioning the Wi\u2011Fi module.",
-      "category": "sample",
-      "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
-      "hidden": false,
-      "id": "iotc-freertos-ek-ra8m1-pmod::ra-cloud-ready-platforms::ek-ra8m1",
-      "boards": [
-        {
-          "slug": "ek-ra8m1",
-          "vendor": "Renesas",
-          "name": "Evaluation Kit for RA8M1 MCU Group",
-          "partNumber": "EK-RA8M1",
-          "qualifications": [
-            "AWS Qualified"
-          ],
-          "link": "https://www.renesas.com/en/products/ra8m1",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EK-RA8M1.png"
-        }
-      ],
-      "board": {
-        "slug": "ek-ra8m1",
-        "vendor": "Renesas",
-        "name": "Evaluation Kit for RA8M1 MCU Group",
-        "partNumber": "EK-RA8M1",
-        "qualifications": [
-          "AWS Qualified"
-        ],
-        "link": "https://www.renesas.com/en/products/ra8m1",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EK-RA8M1.png"
-      },
-      "manufacturers": [
-        "Renesas"
-      ]
-    },
-    {
       "repo": "iotc-freertos-ck-ra6m5-v2-pmod",
       "url": "https://github.com/avnet-iotconnect/iotc-freertos-ck-ra6m5-v2-pmod/blob/master/QUICKSTART.md",
       "displayName": "Machine Monitoring",
       "description": "Example project for the Renesas CK\u2011RA6M5 v2 Cloud Kit. It uses an IOTCONNECT AT\u2011command\u2011enabled Wi\u2011Fi module (DA16600) to connect the board to IOTCONNECT. The demo sends telemetry and supports commands such as toggling the red LED and setting the LED blink frequency on the board.",
       "category": "sample",
       "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [],
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "industrial",
+        "predictive-maintenance"
+      ],
       "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
+      "updated": "2026-06-10T23:42:28Z",
       "hidden": false,
-      "id": "iotc-freertos-ck-ra6m5-v2-pmod::machine-monitoring",
+      "id": "machine-monitoring",
       "boards": [
         {
           "slug": "ck-ra6m5",
           "vendor": "Renesas",
           "name": "Cloud Kit Based on RA6M5 MCU Group",
           "partNumber": "CK-RA6M5",
-          "qualifications": [
-            "AWS Qualified"
-          ],
-          "link": "https://www.renesas.com/en/design-resources/boards-kits/ck-ra6m5?srsltid=AfmBOoop6bS6IJxusVIJ6-_25nZtY_GGhLwhp2j_Pp_EvG85-Xf1Thto#documents",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CK-RA6M5.png"
         }
       ],
@@ -1942,10 +1636,6 @@
         "vendor": "Renesas",
         "name": "Cloud Kit Based on RA6M5 MCU Group",
         "partNumber": "CK-RA6M5",
-        "qualifications": [
-          "AWS Qualified"
-        ],
-        "link": "https://www.renesas.com/en/design-resources/boards-kits/ck-ra6m5?srsltid=AfmBOoop6bS6IJxusVIJ6-_25nZtY_GGhLwhp2j_Pp_EvG85-Xf1Thto#documents",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CK-RA6M5.png"
       },
       "manufacturers": [
@@ -1953,617 +1643,79 @@
       ]
     },
     {
-      "repo": "iotc-python-greengrass-demos",
-      "url": "https://github.com/avnet-iotconnect/iotc-python-greengrass-demos",
-      "displayName": "GGL Components - AI Vision Demo / PROTEUS BLE / SensorTileBox Pro BLE",
-      "description": "Collection of AWS Greengrass components built with the IOTCONNECT Python SDK. Includes an AI vision demo that detects objects using a connected camera and BLE demos that gather battery, accelerometer, gyroscope and temperature data from sensors and send it to IOTCONNECT.",
-      "category": "sample",
-      "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
-      "hidden": false,
-      "id": "iotc-python-greengrass-demos::ggl-components-ai-vision-demo-proteus-ble-sensortilebox-pro-ble",
-      "boards": [
-        {
-          "slug": "stm32mp135f-dk",
-          "vendor": "STMicroelectronics",
-          "name": "STM32MP135 Discovery Kit",
-          "partNumber": "STM32MP135F-DK",
-          "qualifications": [
-            "AWS Qualified",
-            "Greengrass"
-          ],
-          "link": "https://www.st.com/en/evaluation-tools/stm32mp135f-dk.html",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP135F-DK.png"
-        }
-      ],
-      "board": {
-        "slug": "stm32mp135f-dk",
-        "vendor": "STMicroelectronics",
-        "name": "STM32MP135 Discovery Kit",
-        "partNumber": "STM32MP135F-DK",
-        "qualifications": [
-          "AWS Qualified",
-          "Greengrass"
-        ],
-        "link": "https://www.st.com/en/evaluation-tools/stm32mp135f-dk.html",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP135F-DK.png"
-      },
-      "manufacturers": [
-        "STMicroelectronics"
-      ]
-    },
-    {
-      "repo": "iotc-python-greengrass-demos",
-      "url": "https://github.com/avnet-iotconnect/iotc-python-greengrass-demos",
-      "displayName": "GGL Components - AI Vision Demo / PROTEUS BLE / SensorTileBox Pro BLE",
-      "description": "Collection of AWS Greengrass components built with the IOTCONNECT Python SDK. Includes an AI vision demo that detects objects using a connected camera and BLE demos that gather battery, accelerometer, gyroscope and temperature data from sensors and send it to IOTCONNECT.",
-      "category": "sample",
-      "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
-      "hidden": false,
-      "id": "iotc-python-greengrass-demos::ggl-components-ai-vision-demo-proteus-ble-sensortilebox-pro-ble",
-      "boards": [
-        {
-          "slug": "stm32mp257f-dk",
-          "vendor": "STMicroelectronics",
-          "name": "STM32MP2 Discovery Kit",
-          "partNumber": "STM32MP257F-DK",
-          "qualifications": [
-            "AWS Qualified",
-            "Greengrass"
-          ],
-          "link": "https://www.st.com/en/evaluation-tools/stm32mp257f-dk.html",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-DK.png"
-        }
-      ],
-      "board": {
-        "slug": "stm32mp257f-dk",
-        "vendor": "STMicroelectronics",
-        "name": "STM32MP2 Discovery Kit",
-        "partNumber": "STM32MP257F-DK",
-        "qualifications": [
-          "AWS Qualified",
-          "Greengrass"
-        ],
-        "link": "https://www.st.com/en/evaluation-tools/stm32mp257f-dk.html",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-DK.png"
-      },
-      "manufacturers": [
-        "STMicroelectronics"
-      ]
-    },
-    {
-      "repo": "iotc-python-greengrass-demos",
-      "url": "https://github.com/avnet-iotconnect/iotc-python-greengrass-demos",
-      "displayName": "GGL Components - AI Vision Demo / PROTEUS BLE / SensorTileBox Pro BLE",
-      "description": "Collection of AWS Greengrass components built with the IOTCONNECT Python SDK. Includes an AI vision demo that detects objects using a connected camera and BLE demos that gather battery, accelerometer, gyroscope and temperature data from sensors and send it to IOTCONNECT.",
-      "category": "sample",
-      "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
-      "hidden": false,
-      "id": "iotc-python-greengrass-demos::ggl-components-ai-vision-demo-proteus-ble-sensortilebox-pro-ble",
-      "boards": [
-        {
-          "slug": "stm32mp157f-dk2",
-          "vendor": "STMicroelectronics",
-          "name": "STM32MP157 Discovery Kit",
-          "partNumber": "STM32MP157F-DK2",
-          "qualifications": [
-            "AWS Qualified",
-            "Greengrass"
-          ],
-          "link": "https://www.st.com/en/evaluation-tools/stm32mp157c-dk2.html",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/stm32mp157.png"
-        }
-      ],
-      "board": {
-        "slug": "stm32mp157f-dk2",
-        "vendor": "STMicroelectronics",
-        "name": "STM32MP157 Discovery Kit",
-        "partNumber": "STM32MP157F-DK2",
-        "qualifications": [
-          "AWS Qualified",
-          "Greengrass"
-        ],
-        "link": "https://www.st.com/en/evaluation-tools/stm32mp157c-dk2.html",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/stm32mp157.png"
-      },
-      "manufacturers": [
-        "STMicroelectronics"
-      ]
-    },
-    {
-      "repo": "iotc-python-greengrass-sdk",
-      "url": "https://github.com/avnet-iotconnect/iotc-python-greengrass-sdk",
-      "displayName": "GGL Basic - Health, Serial",
-      "description": "Python SDK for building AWS Greengrass components that integrate with IOTCONNECT. The SDK provides examples showing how to send telemetry, receive commands and perform OTA updates from IOTCONNECT.",
-      "category": "sample",
-      "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
-      "hidden": false,
-      "id": "iotc-python-greengrass-sdk::ggl-basic-health-serial",
-      "boards": [
-        {
-          "slug": "stm32mp135f-dk",
-          "vendor": "STMicroelectronics",
-          "name": "STM32MP135 Discovery Kit",
-          "partNumber": "STM32MP135F-DK",
-          "qualifications": [
-            "AWS Qualified",
-            "Greengrass"
-          ],
-          "link": "https://www.st.com/en/evaluation-tools/stm32mp135f-dk.html",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP135F-DK.png"
-        }
-      ],
-      "board": {
-        "slug": "stm32mp135f-dk",
-        "vendor": "STMicroelectronics",
-        "name": "STM32MP135 Discovery Kit",
-        "partNumber": "STM32MP135F-DK",
-        "qualifications": [
-          "AWS Qualified",
-          "Greengrass"
-        ],
-        "link": "https://www.st.com/en/evaluation-tools/stm32mp135f-dk.html",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP135F-DK.png"
-      },
-      "manufacturers": [
-        "STMicroelectronics"
-      ]
-    },
-    {
-      "repo": "iotc-python-greengrass-sdk",
-      "url": "https://github.com/avnet-iotconnect/iotc-python-greengrass-sdk",
-      "displayName": "GGL Basic - Health, Serial",
-      "description": "Python SDK for building AWS Greengrass components that integrate with IOTCONNECT. The SDK provides examples showing how to send telemetry, receive commands and perform OTA updates from IOTCONNECT.",
-      "category": "sample",
-      "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
-      "hidden": false,
-      "id": "iotc-python-greengrass-sdk::ggl-basic-health-serial",
-      "boards": [
-        {
-          "slug": "stm32mp257f-dk",
-          "vendor": "STMicroelectronics",
-          "name": "STM32MP2 Discovery Kit",
-          "partNumber": "STM32MP257F-DK",
-          "qualifications": [
-            "AWS Qualified",
-            "Greengrass"
-          ],
-          "link": "https://www.st.com/en/evaluation-tools/stm32mp257f-dk.html",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-DK.png"
-        }
-      ],
-      "board": {
-        "slug": "stm32mp257f-dk",
-        "vendor": "STMicroelectronics",
-        "name": "STM32MP2 Discovery Kit",
-        "partNumber": "STM32MP257F-DK",
-        "qualifications": [
-          "AWS Qualified",
-          "Greengrass"
-        ],
-        "link": "https://www.st.com/en/evaluation-tools/stm32mp257f-dk.html",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-DK.png"
-      },
-      "manufacturers": [
-        "STMicroelectronics"
-      ]
-    },
-    {
-      "repo": "iotc-python-greengrass-sdk",
-      "url": "https://github.com/avnet-iotconnect/iotc-python-greengrass-sdk",
-      "displayName": "GGL Basic - Health, Serial",
-      "description": "Python SDK for building AWS Greengrass components that integrate with IOTCONNECT. The SDK provides examples showing how to send telemetry, receive commands and perform OTA updates from IOTCONNECT.",
-      "category": "sample",
-      "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
-      "hidden": false,
-      "id": "iotc-python-greengrass-sdk::ggl-basic-health-serial",
-      "boards": [
-        {
-          "slug": "stm32mp157f-dk2",
-          "vendor": "STMicroelectronics",
-          "name": "STM32MP157 Discovery Kit",
-          "partNumber": "STM32MP157F-DK2",
-          "qualifications": [
-            "AWS Qualified",
-            "Greengrass"
-          ],
-          "link": "https://www.st.com/en/evaluation-tools/stm32mp157c-dk2.html",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/stm32mp157.png"
-        }
-      ],
-      "board": {
-        "slug": "stm32mp157f-dk2",
-        "vendor": "STMicroelectronics",
-        "name": "STM32MP157 Discovery Kit",
-        "partNumber": "STM32MP157F-DK2",
-        "qualifications": [
-          "AWS Qualified",
-          "Greengrass"
-        ],
-        "link": "https://www.st.com/en/evaluation-tools/stm32mp157c-dk2.html",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/stm32mp157.png"
-      },
-      "manufacturers": [
-        "STMicroelectronics"
-      ]
-    },
-    {
-      "repo": "iotc-azurertos-stm32-h5",
-      "url": "https://github.com/avnet-iotconnect/iotc-azurertos-stm32-h5/tree/solar-demo",
-      "displayName": "Protected Hybrid Solar Inverter",
-      "description": "Quick\u2011start application for the STM32H573I\u2011DK Discovery Kit using the IOTCONNECT Azure RTOS SDK. The guide demonstrates how to program the board, provision secure credentials using STM32 Trust TEE and connect the device to IOTCONNECT. It includes step\u2011by\u2011step instructions for flashing the demo firmware and configuring IOTCONNECT templates and devices.",
-      "category": "sample",
-      "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
-      "hidden": false,
-      "id": "iotc-azurertos-stm32-h5::protected-hybrid-solar-inverter",
-      "boards": [
-        {
-          "slug": "stm32h573i-dk",
-          "vendor": "STMicroelectronics",
-          "name": "STM32H5 Discovery Kit",
-          "partNumber": "STM32H573I-DK",
-          "link": "https://www.st.com/en/evaluation-tools/stm32h573i-dk.html",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/stm32h573DK.png"
-        }
-      ],
-      "board": {
-        "slug": "stm32h573i-dk",
-        "vendor": "STMicroelectronics",
-        "name": "STM32H5 Discovery Kit",
-        "partNumber": "STM32H573I-DK",
-        "link": "https://www.st.com/en/evaluation-tools/stm32h573i-dk.html",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/stm32h573DK.png"
-      },
-      "manufacturers": [
-        "STMicroelectronics"
-      ]
-    },
-    {
-      "repo": "iotc-stm32-n6-demos",
-      "url": "https://github.com/avnet-iotconnect/iotc-stm32-n6-demos",
-      "displayName": "STM32N6 Edge AI Object Detection",
-      "description": "This demo showcases a new STMicroelectronics microcontroller with an integrated NPU for edge AI, using the ST Cube AI library for real-time person detection. The system assigns a unique ID to the first person in the frame and dynamically tracks them using a motorized camera base, keeping the individual centered in the frame.",
-      "category": "sample",
-      "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
-      "hidden": false,
-      "id": "iotc-stm32-n6-demos::stm32n6-edge-ai-object-detection::stm32n6570-dk",
-      "boards": [
-        {
-          "slug": "stm32n6570-dk",
-          "vendor": "STMicroelectronics",
-          "name": "STM32N6 Discovery Kit",
-          "partNumber": "STM32N6570-DK",
-          "qualifications": [
-            "AWS Qualified"
-          ],
-          "link": "https://www.st.com/en/evaluation-tools/stm32n6570-dk.html",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32N6570-DK.png"
-        }
-      ],
-      "board": {
-        "slug": "stm32n6570-dk",
-        "vendor": "STMicroelectronics",
-        "name": "STM32N6 Discovery Kit",
-        "partNumber": "STM32N6570-DK",
-        "qualifications": [
-          "AWS Qualified"
-        ],
-        "link": "https://www.st.com/en/evaluation-tools/stm32n6570-dk.html",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32N6570-DK.png"
-      },
-      "manufacturers": [
-        "STMicroelectronics"
-      ]
-    },
-    {
-      "repo": "iotc-stm32-n6-demos",
-      "url": "https://github.com/avnet-iotconnect/iotc-stm32-n6-demos",
-      "displayName": "STM32N6 Edge AI Object Detection",
-      "description": "This demo showcases a new STMicroelectronics microcontroller with an integrated NPU for edge AI, using the ST Cube AI library for real-time person detection. The system assigns a unique ID to the first person in the frame and dynamically tracks them using a motorized camera base, keeping the individual centered in the frame.",
-      "category": "sample",
-      "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
-      "hidden": false,
-      "id": "iotc-stm32-n6-demos::stm32n6-edge-ai-object-detection::us159-da16200mevz",
-      "boards": [
-        {
-          "slug": "us159-da16200mevz",
-          "vendor": "Renesas",
-          "name": "DA16200 Ultra Low Power Wi-Fi Pmod Module Evaluation Board",
-          "partNumber": "US159-DA16200MEVZ",
-          "qualifications": [
-            "AWS Qualified"
-          ],
-          "link": "https://www.renesas.com/en/design-resources/boards-kits/us159-da16200mevz?srsltid=AfmBOorWpIcf-wfJAZPoz54Lz-hQ4OuKvsiaw-KyM0bjm-J9Ur1bueBw",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/US159-DA16200MEVZ.png"
-        }
-      ],
-      "board": {
-        "slug": "us159-da16200mevz",
-        "vendor": "Renesas",
-        "name": "DA16200 Ultra Low Power Wi-Fi Pmod Module Evaluation Board",
-        "partNumber": "US159-DA16200MEVZ",
-        "qualifications": [
-          "AWS Qualified"
-        ],
-        "link": "https://www.renesas.com/en/design-resources/boards-kits/us159-da16200mevz?srsltid=AfmBOorWpIcf-wfJAZPoz54Lz-hQ4OuKvsiaw-KyM0bjm-J9Ur1bueBw",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/US159-DA16200MEVZ.png"
-      },
-      "manufacturers": [
-        "Renesas"
-      ]
-    },
-    {
-      "repo": "iotc-gateway-mobile-app",
-      "url": "https://github.com/avnet-iotconnect/iotc-gateway-mobile-app",
-      "displayName": "SensorTile.Box Pro with Bridge Mobile App",
-      "description": "Mobile phone/tablet application that acts as a Bluetooth gateway for IOTCONNECT. The app connects to edge devices such as the ST SensorTile.box Pro, captures telemetry via BLE and forwards it to IOTCONNECT. It guides users through account setup, device onboarding and viewing live dashboards on the platform.",
-      "category": "sample",
-      "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
-      "hidden": false,
-      "id": "iotc-gateway-mobile-app::sensortile-box-pro-with-bridge-mobile-app::steval-mkboxpro",
-      "boards": [
-        {
-          "slug": "steval-mkboxpro",
-          "vendor": "STMicroelectronics",
-          "name": "SensorTile.box PRO",
-          "partNumber": "STEVAL-MKBOXPRO",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STEVAL-MKBOXPRO.png"
-        }
-      ],
-      "board": {
-        "slug": "steval-mkboxpro",
-        "vendor": "STMicroelectronics",
-        "name": "SensorTile.box PRO",
-        "partNumber": "STEVAL-MKBOXPRO",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STEVAL-MKBOXPRO.png"
-      },
-      "manufacturers": [
-        "STMicroelectronics"
-      ]
-    },
-    {
-      "repo": "iotc-gateway-mobile-app",
-      "url": "https://github.com/avnet-iotconnect/iotc-gateway-mobile-app",
-      "displayName": "SensorTile.Box Pro with Bridge Mobile App",
-      "description": "Mobile phone/tablet application that acts as a Bluetooth gateway for IOTCONNECT. The app connects to edge devices such as the ST SensorTile.box Pro, captures telemetry via BLE and forwards it to IOTCONNECT. It guides users through account setup, device onboarding and viewing live dashboards on the platform.",
-      "category": "sample",
-      "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
-      "hidden": false,
-      "id": "iotc-gateway-mobile-app::sensortile-box-pro-with-bridge-mobile-app::x-iotc-bridge-app",
-      "boards": [
-        {
-          "slug": "x-iotc-bridge-app",
-          "vendor": "Microchip",
-          "name": "IOTC Bridge App"
-        }
-      ],
-      "board": {
-        "slug": "x-iotc-bridge-app",
-        "vendor": "Microchip",
-        "name": "IOTC Bridge App"
-      },
-      "manufacturers": [
-        "Microchip"
-      ]
-    },
-    {
-      "repo": "iotc-st-image-classification",
-      "url": "https://github.com/avnet-iotconnect/iotc-st-image-classification/tree/initial",
-      "displayName": "Image Classification\u00a0and Remote Training",
-      "description": "Image classification demo for the STM32MP2 platform. The project converts a TensorFlow model to TFLite, deploys it via IOTCONNECT OTA and performs inference on images from a USB or MIPI camera. It includes instructions for flashing the device, setting up the camera and running the application using a MobileNet\u00a0V2 model.",
-      "category": "sample",
-      "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
-      "hidden": false,
-      "id": "iotc-st-image-classification::image-classification-and-remote-training",
-      "boards": [
-        {
-          "slug": "stm32mp257f-dk",
-          "vendor": "STMicroelectronics",
-          "name": "STM32MP2 Discovery Kit",
-          "partNumber": "STM32MP257F-DK",
-          "qualifications": [
-            "AWS Qualified",
-            "Greengrass"
-          ],
-          "link": "https://www.st.com/en/evaluation-tools/stm32mp257f-dk.html",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-DK.png"
-        }
-      ],
-      "board": {
-        "slug": "stm32mp257f-dk",
-        "vendor": "STMicroelectronics",
-        "name": "STM32MP2 Discovery Kit",
-        "partNumber": "STM32MP257F-DK",
-        "qualifications": [
-          "AWS Qualified",
-          "Greengrass"
-        ],
-        "link": "https://www.st.com/en/evaluation-tools/stm32mp257f-dk.html",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-DK.png"
-      },
-      "manufacturers": [
-        "STMicroelectronics"
-      ]
-    },
-    {
-      "repo": "iotc-isp-tune-stm32",
-      "url": "https://github.com/avnet-iotconnect/iotc-isp-tune-stm32",
-      "displayName": "ISP",
-      "description": "Demonstration of remote ISP tuning using IOTCONNECT. On STM32MP257F Discovery Kit it allows users to stream live video, adjust image signal processor parameters like exposure and gain, and view real\u2011time telemetry from the image sensor through a cloud dashboard.",
-      "category": "sample",
-      "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
-      "hidden": false,
-      "id": "iotc-isp-tune-stm32::isp",
-      "boards": [
-        {
-          "slug": "stm32mp257f-dk",
-          "vendor": "STMicroelectronics",
-          "name": "STM32MP2 Discovery Kit",
-          "partNumber": "STM32MP257F-DK",
-          "qualifications": [
-            "AWS Qualified",
-            "Greengrass"
-          ],
-          "link": "https://www.st.com/en/evaluation-tools/stm32mp257f-dk.html",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-DK.png"
-        }
-      ],
-      "board": {
-        "slug": "stm32mp257f-dk",
-        "vendor": "STMicroelectronics",
-        "name": "STM32MP2 Discovery Kit",
-        "partNumber": "STM32MP257F-DK",
-        "qualifications": [
-          "AWS Qualified",
-          "Greengrass"
-        ],
-        "link": "https://www.st.com/en/evaluation-tools/stm32mp257f-dk.html",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-DK.png"
-      },
-      "manufacturers": [
-        "STMicroelectronics"
-      ]
-    },
-    {
       "repo": "meta-iotconnect-docs",
-      "url": "https://github.com/avnet-iotconnect/meta-iotconnect-docs/blob/main/QuickStart/ST/STM32MP257/demo-iotc-x-linux-ai/QuickStart_Webinar.md",
-      "displayName": "Vision AI Demonstrator",
-      "description": "This demo highlights the STM32MP257 evaluation kit's real-time image classification capabilities using an S3 bucket as the image source. Leveraging its Neural-ART Accelerator, the device processes images locally, sending results with labels and confidence scores to the cloud for centralized analysis",
+      "url": "https://github.com/avnet-iotconnect/meta-iotconnect-docs/blob/main/QuickStart/RZBoardV2L.md",
+      "displayName": "Managing Edge AI:  RZBoard V2L",
+      "description": "Quickstart guide for connecting the Renesas RZBoard\u00a0V2L to IOTCONNECT and running the on\u2011board AI camera demo. The document covers flashing the SD card image, configuring the board and IOTCONNECT account, and using an attached USB camera for object recognition with real\u2011time telemetry streamed to IOTCONNECT.",
       "category": "sample",
       "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
+      "languages": [
+        "Python"
+      ],
+      "features": [
+        "ai",
+        "vision",
+        "edge-ai"
+      ],
+      "stars": 4,
+      "updated": "2026-05-09T14:16:15Z",
       "hidden": false,
-      "id": "meta-iotconnect-docs::vision-ai-demonstrator",
+      "id": "managing-edge-ai-rzboard-v2l",
       "boards": [
         {
-          "slug": "stm32mp257f-ev1",
-          "vendor": "STMicroelectronics",
-          "name": "STM32MP2 Evaluation Board",
-          "partNumber": "STM32MP257F-EV1",
-          "qualifications": [
-            "AWS Qualified",
-            "Greengrass"
-          ],
-          "link": "https://wiki.st.com/stm32mpu/wiki/Getting_started/STM32MP2_boards",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-EV1.png"
+          "slug": "aes-rzb-v2l-sk-g",
+          "vendor": "Tria / Renesas",
+          "name": "RZBoard V2L",
+          "partNumber": "AES-RZB-V2L-SK-G",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-RZB-V2L-SK-G.png"
         }
       ],
       "board": {
-        "slug": "stm32mp257f-ev1",
-        "vendor": "STMicroelectronics",
-        "name": "STM32MP2 Evaluation Board",
-        "partNumber": "STM32MP257F-EV1",
-        "qualifications": [
-          "AWS Qualified",
-          "Greengrass"
-        ],
-        "link": "https://wiki.st.com/stm32mpu/wiki/Getting_started/STM32MP2_boards",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-EV1.png"
+        "slug": "aes-rzb-v2l-sk-g",
+        "vendor": "Tria / Renesas",
+        "name": "RZBoard V2L",
+        "partNumber": "AES-RZB-V2L-SK-G",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-RZB-V2L-SK-G.png"
       },
       "manufacturers": [
-        "STMicroelectronics"
+        "Tria / Renesas"
       ]
     },
     {
-      "repo": "iotc-lora-demos",
-      "url": "https://github.com/avnet-iotconnect/iotc-lora-demos/blob/master/docs/iotc-lora-device-onboard.md",
-      "displayName": "Astra Asset Tracker",
-      "description": "Guide for onboarding LoRaWAN devices to IOTCONNECT. It walks through creating templates and configuring device attributes such as temperature, pressure, humidity and accelerometer for ST ASTRA1B and NUCLEO-WL55JC boards, creating LoRaWAN devices in the portal and sending telemetry and commands.",
+      "repo": null,
+      "url": null,
+      "displayName": "Multi Stream Video and AI",
+      "description": "The\u00a0Vision AI Kit IQ9\u00a0Demonstrates 9 conncurent video feeds, decoded with various AI models running in real time.",
       "category": "sample",
       "status": "beta",
       "languages": [],
-      "sdkFlavor": null,
-      "features": [],
+      "features": [
+        "ai",
+        "vision",
+        "video"
+      ],
       "stars": 0,
       "updated": "2026-06-01T00:00:00Z",
       "hidden": false,
-      "id": "iotc-lora-demos::astra-asset-tracker",
+      "id": "multi-stream-video-and-ai",
       "boards": [
         {
-          "slug": "steval-astra1b",
-          "vendor": "STMicroelectronics",
-          "name": "Astra Module",
-          "partNumber": "STEVAL-ASTRA1B",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STEVAL-ASTRA1B.png"
+          "slug": "vision-ai-kit-iq9",
+          "vendor": "Tria / Qualcom",
+          "name": "Vision AI-KIT IQ9",
+          "partNumber": "Vision AI-KIT IQ9",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/Vision%20AI-KIT-IQ9.png"
         }
       ],
       "board": {
-        "slug": "steval-astra1b",
-        "vendor": "STMicroelectronics",
-        "name": "Astra Module",
-        "partNumber": "STEVAL-ASTRA1B",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STEVAL-ASTRA1B.png"
+        "slug": "vision-ai-kit-iq9",
+        "vendor": "Tria / Qualcom",
+        "name": "Vision AI-KIT IQ9",
+        "partNumber": "Vision AI-KIT IQ9",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/Vision%20AI-KIT-IQ9.png"
       },
       "manufacturers": [
-        "STMicroelectronics"
+        "Tria / Qualcom"
       ]
     },
     {
@@ -2573,13 +1725,18 @@
       "description": "NEAI anomaly detection demo using the STM32MP157F Discovery Kit and the STEVAL\u2011PROTEUS1 sensor module. The application runs AI models on the edge to detect unusual patterns and reports anomalies to IOTCONNECT for real\u2011time monitoring.",
       "category": "sample",
       "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [],
+      "languages": [
+        "Python"
+      ],
+      "features": [
+        "ai",
+        "predictive-maintenance",
+        "sensors"
+      ],
       "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
+      "updated": "2024-10-24T18:53:34Z",
       "hidden": false,
-      "id": "proteus-neai-demo::nano-edge-ai-anomaly-detection::steval-proteus1",
+      "id": "nano-edge-ai-anomaly-detection::steval-proteus1",
       "boards": [
         {
           "slug": "steval-proteus1",
@@ -2607,236 +1764,492 @@
       "description": "NEAI anomaly detection demo using the STM32MP157F Discovery Kit and the STEVAL\u2011PROTEUS1 sensor module. The application runs AI models on the edge to detect unusual patterns and reports anomalies to IOTCONNECT for real\u2011time monitoring.",
       "category": "sample",
       "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
-      "hidden": false,
-      "id": "proteus-neai-demo::nano-edge-ai-anomaly-detection::x-stm32mp157f-dk3",
-      "boards": [
-        {
-          "slug": "x-stm32mp157f-dk3",
-          "vendor": "STMicroelctronics",
-          "name": "STM32MP157F-DK3"
-        }
+      "languages": [
+        "Python"
       ],
-      "board": {
-        "slug": "x-stm32mp157f-dk3",
-        "vendor": "STMicroelctronics",
-        "name": "STM32MP157F-DK3"
-      },
-      "manufacturers": [
-        "STMicroelctronics"
-      ]
-    },
-    {
-      "repo": "iotc-freertos-stm32-u5-ml-demo",
-      "url": "https://github.com/avnet-iotconnect/iotc-freertos-stm32-u5-ml-demo",
-      "displayName": "Urban Sound Event Classifier",
-      "description": "Smart\u2011city noise detection demo for the STM32U5 MCU. The system uses machine\u2011learning to classify sounds such as alarms, dog barks, speech and car horns and runs inference locally on the microcontroller. Recognised events and confidence scores are sent to IOTCONNECT for visualisation.",
-      "category": "sample",
-      "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [],
+      "features": [
+        "ai",
+        "predictive-maintenance",
+        "sensors"
+      ],
       "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
+      "updated": "2024-10-24T18:53:34Z",
       "hidden": false,
-      "id": "iotc-freertos-stm32-u5-ml-demo::urban-sound-event-classifier::b-u585i-iot02a",
+      "id": "nano-edge-ai-anomaly-detection::stm32mp157f-dk2",
       "boards": [
         {
-          "slug": "b-u585i-iot02a",
+          "slug": "stm32mp157f-dk2",
           "vendor": "STMicroelectronics",
-          "name": "STM32U5 Discovery Kit",
-          "partNumber": "B-U585I-IOT02A",
-          "qualifications": [
-            "AWS Qualified"
-          ],
-          "link": "https://www.st.com/en/evaluation-tools/b-u585i-iot02a.html",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/B-U585I-IOT02A.png"
+          "name": "STM32MP157 Discovery Kit",
+          "partNumber": "STM32MP157F-DK2",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/stm32mp157.png"
         }
       ],
       "board": {
-        "slug": "b-u585i-iot02a",
+        "slug": "stm32mp157f-dk2",
         "vendor": "STMicroelectronics",
-        "name": "STM32U5 Discovery Kit",
-        "partNumber": "B-U585I-IOT02A",
-        "qualifications": [
-          "AWS Qualified"
-        ],
-        "link": "https://www.st.com/en/evaluation-tools/b-u585i-iot02a.html",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/B-U585I-IOT02A.png"
+        "name": "STM32MP157 Discovery Kit",
+        "partNumber": "STM32MP157F-DK2",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/stm32mp157.png"
       },
       "manufacturers": [
         "STMicroelectronics"
       ]
     },
     {
-      "repo": "iotc-freertos-stm32-u5-ml-demo",
-      "url": "https://github.com/avnet-iotconnect/iotc-freertos-stm32-u5-ml-demo",
-      "displayName": "Urban Sound Event Classifier",
-      "description": "Smart\u2011city noise detection demo for the STM32U5 MCU. The system uses machine\u2011learning to classify sounds such as alarms, dog barks, speech and car horns and runs inference locally on the microcontroller. Recognised events and confidence scores are sent to IOTCONNECT for visualisation.",
+      "repo": "iotc-azurertos-stm32-h5",
+      "url": "https://github.com/avnet-iotconnect/iotc-azurertos-stm32-h5/tree/solar-demo",
+      "displayName": "Protected Hybrid Solar Inverter",
+      "description": "Quick\u2011start application for the STM32H573I\u2011DK Discovery Kit using the IOTCONNECT Azure RTOS SDK. The guide demonstrates how to program the board, provision secure credentials using STM32 Trust TEE and connect the device to IOTCONNECT. It includes step\u2011by\u2011step instructions for flashing the demo firmware and configuring IOTCONNECT templates and devices.",
       "category": "sample",
       "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [],
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "energy",
+        "security"
+      ],
       "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
+      "updated": "2024-05-08T13:50:36Z",
       "hidden": false,
-      "id": "iotc-freertos-stm32-u5-ml-demo::urban-sound-event-classifier::b-u585i-iot02a",
+      "id": "protected-hybrid-solar-inverter",
       "boards": [
         {
-          "slug": "b-u585i-iot02a",
+          "slug": "stm32h573i-dk",
           "vendor": "STMicroelectronics",
-          "name": "STM32U5 Discovery Kit",
-          "partNumber": "B-U585I-IOT02A",
-          "qualifications": [
-            "AWS Qualified"
-          ],
-          "link": "https://www.st.com/en/evaluation-tools/b-u585i-iot02a.html",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/B-U585I-IOT02A.png"
+          "name": "STM32H5 Discovery Kit",
+          "partNumber": "STM32H573I-DK",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/stm32h573DK.png"
         }
       ],
       "board": {
-        "slug": "b-u585i-iot02a",
+        "slug": "stm32h573i-dk",
         "vendor": "STMicroelectronics",
-        "name": "STM32U5 Discovery Kit",
-        "partNumber": "B-U585I-IOT02A",
-        "qualifications": [
-          "AWS Qualified"
-        ],
-        "link": "https://www.st.com/en/evaluation-tools/b-u585i-iot02a.html",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/B-U585I-IOT02A.png"
+        "name": "STM32H5 Discovery Kit",
+        "partNumber": "STM32H573I-DK",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/stm32h573DK.png"
       },
       "manufacturers": [
         "STMicroelectronics"
       ]
     },
     {
-      "repo": "iotc-stm32-n6-demos",
-      "url": "https://github.com/avnet-iotconnect/iotc-stm32-n6-demos/blob/main/doc/QUICKSTART.md",
-      "displayName": "STM32N6 Edge AI Demos",
-      "description": "Edge AI demo for the STM32N6 platform demonstrating object detection using an embedded vision model. The application streams detection results to IOTCONNECT where bounding boxes and labels can be visualised.",
+      "repo": "avnet-iotc-mtb-ai-fall-detection",
+      "url": "https://github.com/avnet-iotconnect/avnet-iotc-mtb-ai-fall-detection",
+      "displayName": "PSOC6 AI-Kit Fall Detect",
+      "description": "This fall detection demo integrates Infineon's ModusToolbox\u2122 machine\u2011learning flow with Avnet's IOTCONNECT platform. The application uses data from the on\u2011board inertial measurement unit (IMU) to recognise when a person has fallen and reports these events to IOTCONNECT.",
       "category": "sample",
       "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [],
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "edge-AI",
+        "fall_det",
+        "imu"
+      ],
       "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
+      "updated": "2025-07-28T18:16:53Z",
       "hidden": false,
-      "id": "iotc-stm32-n6-demos::stm32n6-edge-ai-demos",
+      "id": "psoc6-ai-kit-fall-detect",
       "boards": [
         {
-          "slug": "stm32n6570-dk",
-          "vendor": "STMicroelectronics",
-          "name": "STM32N6 Discovery Kit",
-          "partNumber": "STM32N6570-DK",
-          "qualifications": [
-            "AWS Qualified"
-          ],
-          "link": "https://www.st.com/en/evaluation-tools/stm32n6570-dk.html",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32N6570-DK.png"
+          "slug": "cy8ckit-062s2-ai",
+          "vendor": "Infineon",
+          "name": "PSOC\u2122 6 Artificial Intelligence Evaluation Kit",
+          "partNumber": "CY8CKIT-062S2-AI",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CKIT-062S2-AI.png"
         }
       ],
       "board": {
-        "slug": "stm32n6570-dk",
-        "vendor": "STMicroelectronics",
-        "name": "STM32N6 Discovery Kit",
-        "partNumber": "STM32N6570-DK",
-        "qualifications": [
-          "AWS Qualified"
-        ],
-        "link": "https://www.st.com/en/evaluation-tools/stm32n6570-dk.html",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32N6570-DK.png"
+        "slug": "cy8ckit-062s2-ai",
+        "vendor": "Infineon",
+        "name": "PSOC\u2122 6 Artificial Intelligence Evaluation Kit",
+        "partNumber": "CY8CKIT-062S2-AI",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CKIT-062S2-AI.png"
       },
       "manufacturers": [
-        "STMicroelectronics"
+        "Infineon"
       ]
     },
     {
-      "repo": "stsafe-demo",
-      "url": "https://github.com/mlamp99/stsafe-demo",
-      "displayName": "STSAFE Authentification",
-      "description": "Device logger demo that manages two USB\u2011connected devices via serial communication. It integrates with IOTCONNECT to send telemetry, handle start/stop commands and store logs. The project demonstrates how to build a simple command and logging system using the IOTCONNECT SDK.",
+      "repo": "avnet-iotc-mtb-ai-imagimob-rm",
+      "url": "https://github.com/avnet-iotconnect/avnet-iotc-mtb-ai-imagimob-rm",
+      "displayName": "PSOC6 AI-Kit Gesture Detect",
+      "description": "This project demonstrates ModusToolbox\u2122 machine learning with Imagimob ready models, combining audio and radar sensor data. It can detect a variety of audio events such as sirens, baby cry, alarms, coughs and snoring, and also recognises hand gestures using the board's radar sensor.",
       "category": "sample",
       "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "edge-AI",
+        "gesture_det",
+        "radar"
+      ],
+      "stars": 1,
+      "updated": "2025-08-08T19:48:42Z",
       "hidden": false,
-      "id": "stsafe-demo::stsafe-authentification",
+      "id": "psoc6-ai-kit-gesture-detect",
       "boards": [
         {
-          "slug": "b-u585i-iot02a",
-          "vendor": "STMicroelectronics",
-          "name": "STM32U5 Discovery Kit",
-          "partNumber": "B-U585I-IOT02A",
-          "qualifications": [
-            "AWS Qualified"
-          ],
-          "link": "https://www.st.com/en/evaluation-tools/b-u585i-iot02a.html",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/B-U585I-IOT02A.png"
+          "slug": "cy8ckit-062s2-ai",
+          "vendor": "Infineon",
+          "name": "PSOC\u2122 6 Artificial Intelligence Evaluation Kit",
+          "partNumber": "CY8CKIT-062S2-AI",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CKIT-062S2-AI.png"
         }
       ],
       "board": {
-        "slug": "b-u585i-iot02a",
-        "vendor": "STMicroelectronics",
-        "name": "STM32U5 Discovery Kit",
-        "partNumber": "B-U585I-IOT02A",
-        "qualifications": [
-          "AWS Qualified"
-        ],
-        "link": "https://www.st.com/en/evaluation-tools/b-u585i-iot02a.html",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/B-U585I-IOT02A.png"
+        "slug": "cy8ckit-062s2-ai",
+        "vendor": "Infineon",
+        "name": "PSOC\u2122 6 Artificial Intelligence Evaluation Kit",
+        "partNumber": "CY8CKIT-062S2-AI",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CKIT-062S2-AI.png"
       },
       "manufacturers": [
-        "STMicroelectronics"
+        "Infineon"
       ]
     },
     {
-      "repo": "meta-iotconnect-docs",
-      "url": "https://github.com/avnet-iotconnect/meta-iotconnect-docs/tree/main/Build/STM32MP1/mickledore-st-x-linux-ai-demo",
-      "displayName": "Edge AI Object Detection - Fruit",
-      "description": "This demo features the STM32MP135, a cost-effective MPU running ST\u2019s OpenSTLinux and X-Linux-AI packages. The device performs real-time object detection, locally identifying up to three objects and sending results to the cloud. The AI model can be toggled independently of the IOTCONNECT connection for uninterrupted functionality.",
+      "repo": "avnet-iotc-mtb-ai-imagimob-rm",
+      "url": "https://github.com/avnet-iotconnect/avnet-iotc-mtb-ai-imagimob-rm",
+      "displayName": "PSOC6 AI-Kit Human Activity",
+      "description": "This project demonstrates ModusToolbox\u2122 machine learning with Imagimob ready models, combining audio and radar sensor data. It can detect a variety of audio events such as sirens, baby cry, alarms, coughs and snoring, and also recognises hand gestures using the board's radar sensor.",
       "category": "sample",
       "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "edge-AI",
+        "human_activity",
+        "imu"
+      ],
+      "stars": 1,
+      "updated": "2025-08-08T19:48:42Z",
       "hidden": false,
-      "id": "meta-iotconnect-docs::edge-ai-object-detection-fruit",
+      "id": "psoc6-ai-kit-human-activity",
       "boards": [
         {
-          "slug": "stm32mp135f-dk",
-          "vendor": "STMicroelectronics",
-          "name": "STM32MP135 Discovery Kit",
-          "partNumber": "STM32MP135F-DK",
-          "qualifications": [
-            "AWS Qualified",
-            "Greengrass"
-          ],
-          "link": "https://www.st.com/en/evaluation-tools/stm32mp135f-dk.html",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP135F-DK.png"
+          "slug": "cy8ckit-062s2-ai",
+          "vendor": "Infineon",
+          "name": "PSOC\u2122 6 Artificial Intelligence Evaluation Kit",
+          "partNumber": "CY8CKIT-062S2-AI",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CKIT-062S2-AI.png"
         }
       ],
       "board": {
-        "slug": "stm32mp135f-dk",
+        "slug": "cy8ckit-062s2-ai",
+        "vendor": "Infineon",
+        "name": "PSOC\u2122 6 Artificial Intelligence Evaluation Kit",
+        "partNumber": "CY8CKIT-062S2-AI",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CKIT-062S2-AI.png"
+      },
+      "manufacturers": [
+        "Infineon"
+      ]
+    },
+    {
+      "repo": "avnet-iotc-mtb-ai-imagimob-rm",
+      "url": "https://github.com/avnet-iotconnect/avnet-iotc-mtb-ai-imagimob-rm",
+      "displayName": "PSOC6 AI-Kit Ready Models",
+      "description": "This project demonstrates ModusToolbox\u2122 machine learning with Imagimob ready models, combining audio and radar sensor data. It can detect a variety of audio events such as sirens, baby cry, alarms, coughs and snoring, and also recognises hand gestures using the board's radar sensor.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "edge-AI",
+        "audio",
+        "radar",
+        "imu"
+      ],
+      "stars": 1,
+      "updated": "2025-08-08T19:48:42Z",
+      "hidden": false,
+      "id": "psoc6-ai-kit-ready-models",
+      "boards": [
+        {
+          "slug": "cy8ckit-062s2-ai",
+          "vendor": "Infineon",
+          "name": "PSOC\u2122 6 Artificial Intelligence Evaluation Kit",
+          "partNumber": "CY8CKIT-062S2-AI",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CKIT-062S2-AI.png"
+        }
+      ],
+      "board": {
+        "slug": "cy8ckit-062s2-ai",
+        "vendor": "Infineon",
+        "name": "PSOC\u2122 6 Artificial Intelligence Evaluation Kit",
+        "partNumber": "CY8CKIT-062S2-AI",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CKIT-062S2-AI.png"
+      },
+      "manufacturers": [
+        "Infineon"
+      ]
+    },
+    {
+      "repo": "avnet-iotc-mtb-ai-imagimob-rm",
+      "url": "https://github.com/avnet-iotconnect/avnet-iotc-mtb-ai-imagimob-rm",
+      "displayName": "PSOC6 AI-Kit Siren Detection",
+      "description": "This project demonstrates ModusToolbox\u2122 machine learning with Imagimob ready models, combining audio and radar sensor data. It can detect a variety of audio events such as sirens, baby cry, alarms, coughs and snoring, and also recognises hand gestures using the board's radar sensor.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "edge-AI",
+        "siren_det",
+        "audio"
+      ],
+      "stars": 1,
+      "updated": "2025-08-08T19:48:42Z",
+      "hidden": false,
+      "id": "psoc6-ai-kit-siren-detection",
+      "boards": [
+        {
+          "slug": "cy8ckit-062s2-ai",
+          "vendor": "Infineon",
+          "name": "PSOC\u2122 6 Artificial Intelligence Evaluation Kit",
+          "partNumber": "CY8CKIT-062S2-AI",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CKIT-062S2-AI.png"
+        }
+      ],
+      "board": {
+        "slug": "cy8ckit-062s2-ai",
+        "vendor": "Infineon",
+        "name": "PSOC\u2122 6 Artificial Intelligence Evaluation Kit",
+        "partNumber": "CY8CKIT-062S2-AI",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CKIT-062S2-AI.png"
+      },
+      "manufacturers": [
+        "Infineon"
+      ]
+    },
+    {
+      "repo": "avnet-iotc-mtb-xensiv-example",
+      "url": "https://github.com/avnet-iotconnect/avnet-iotc-mtb-xensiv-example/blob/main/QUICKSTART.md",
+      "displayName": "PSOC6 Xensiv CO2 Monitor",
+      "description": "Quickstart for Infineon\u2019s XENSIV PAS CO2 kit. The guide shows how to connect the sensor board to IOTCONNECT using the Optiga Trust M secure element for hardware security. It walks through flashing the PSoC6 Wi\u2011Fi/Bluetooth controller, provisioning the secure element and registering the device on IOTCONNECT, then demonstrates streaming CO\u2082 measurements to an IOTCONNECT dashboard.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "enviro-sense",
+        "CO2"
+      ],
+      "stars": 1,
+      "updated": "2024-09-11T20:31:12Z",
+      "hidden": false,
+      "id": "psoc6-xensiv-co2-monitor",
+      "boards": [
+        {
+          "slug": "kitcskpasco2tobo1",
+          "vendor": "Infineon",
+          "name": "XENSIV\u2122 KIT CSK PASCO2",
+          "partNumber": "KITCSKPASCO2TOBO1",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/KITCSKPASCO2TOBO1.png"
+        }
+      ],
+      "board": {
+        "slug": "kitcskpasco2tobo1",
+        "vendor": "Infineon",
+        "name": "XENSIV\u2122 KIT CSK PASCO2",
+        "partNumber": "KITCSKPASCO2TOBO1",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/KITCSKPASCO2TOBO1.png"
+      },
+      "manufacturers": [
+        "Infineon"
+      ]
+    },
+    {
+      "repo": "QCS6490-Vision-AI-Demo",
+      "url": "https://github.com/Avnet/QCS6490-Vision-AI-Demo/pull/1",
+      "displayName": "QCS6490-Vision-AI-Demo",
+      "description": "On-device hand-gesture recognition using Qualcomm\u2019s advanced CPU/GPU/NPU AI engine. The system translates left- and right-hand movements into real-time robotic control signals while streaming the results to IoTConnect.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [],
+      "features": [
+        "ai",
+        "vision",
+        "edge-ai"
+      ],
+      "stars": 0,
+      "updated": "2026-06-01T00:00:00Z",
+      "hidden": false,
+      "id": "qcs6490-vision-ai-demo",
+      "boards": [
+        {
+          "slug": "aes-qcs6490-dk-g",
+          "vendor": "Tria / Qualcom",
+          "name": "VisionAI-Kit 6490",
+          "partNumber": "AES-QCS6490-DK-G",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-QCS6490-DK-G.png"
+        }
+      ],
+      "board": {
+        "slug": "aes-qcs6490-dk-g",
+        "vendor": "Tria / Qualcom",
+        "name": "VisionAI-Kit 6490",
+        "partNumber": "AES-QCS6490-DK-G",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-QCS6490-DK-G.png"
+      },
+      "manufacturers": [
+        "Tria / Qualcom"
+      ]
+    },
+    {
+      "repo": "iotc-freertos-ek-ra8m1-pmod",
+      "url": "https://github.com/avnet-iotconnect/iotc-freertos-ek-ra8m1-pmod/blob/main/QUICKSTART.md",
+      "displayName": "RA Cloud Ready Platforms",
+      "description": "Example project for the Renesas EK\u2011RA8M1 evaluation kit that uses a DA16600 Wi\u2011Fi/BLE module to connect to IOTCONNECT. The application streams telemetry and allows controlling the on\u2011board LEDs via IOTCONNECT commands. It includes guidance for configuring IOTCONNECT credentials and automatically provisioning the Wi\u2011Fi module.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "connectivity",
+        "wifi"
+      ],
+      "stars": 0,
+      "updated": "2025-02-04T22:24:29Z",
+      "hidden": false,
+      "id": "ra-cloud-ready-platforms::ek-ra6m4",
+      "boards": [
+        {
+          "slug": "ek-ra6m4",
+          "vendor": "Renesas",
+          "name": "Evaluation Kit for RA6M4 MCU Group",
+          "partNumber": "EK-RA6M4",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EK-RA6M4.png"
+        }
+      ],
+      "board": {
+        "slug": "ek-ra6m4",
+        "vendor": "Renesas",
+        "name": "Evaluation Kit for RA6M4 MCU Group",
+        "partNumber": "EK-RA6M4",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EK-RA6M4.png"
+      },
+      "manufacturers": [
+        "Renesas"
+      ]
+    },
+    {
+      "repo": "iotc-freertos-ek-ra8m1-pmod",
+      "url": "https://github.com/avnet-iotconnect/iotc-freertos-ek-ra8m1-pmod/blob/main/QUICKSTART.md",
+      "displayName": "RA Cloud Ready Platforms",
+      "description": "Example project for the Renesas EK\u2011RA8M1 evaluation kit that uses a DA16600 Wi\u2011Fi/BLE module to connect to IOTCONNECT. The application streams telemetry and allows controlling the on\u2011board LEDs via IOTCONNECT commands. It includes guidance for configuring IOTCONNECT credentials and automatically provisioning the Wi\u2011Fi module.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "connectivity",
+        "wifi"
+      ],
+      "stars": 0,
+      "updated": "2025-02-04T22:24:29Z",
+      "hidden": false,
+      "id": "ra-cloud-ready-platforms::ek-ra8m1",
+      "boards": [
+        {
+          "slug": "ek-ra8m1",
+          "vendor": "Renesas",
+          "name": "Evaluation Kit for RA8M1 MCU Group",
+          "partNumber": "EK-RA8M1",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EK-RA8M1.png"
+        }
+      ],
+      "board": {
+        "slug": "ek-ra8m1",
+        "vendor": "Renesas",
+        "name": "Evaluation Kit for RA8M1 MCU Group",
+        "partNumber": "EK-RA8M1",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EK-RA8M1.png"
+      },
+      "manufacturers": [
+        "Renesas"
+      ]
+    },
+    {
+      "repo": "RASynBoard-Out-of-Box-Demo",
+      "url": "https://github.com/Avnet/RASynBoard-Out-of-Box-Demo/blob/rasynboard_v2_tiny/docs/RASynPuckDemo.md",
+      "displayName": "RASyn Puck",
+      "description": "The RASynPuck demo was created to showcase the RASynBoard and Avnet's Cloud Solution\u00a0IOTCONNECT.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [],
+      "features": [
+        "ai",
+        "audio",
+        "edge-ai"
+      ],
+      "stars": 0,
+      "updated": "2026-06-01T00:00:00Z",
+      "hidden": false,
+      "id": "rasyn-puck",
+      "boards": [
+        {
+          "slug": "aes-rasynb-120",
+          "vendor": "Tria / Renesas",
+          "name": "RASynBoard NDP120 Evaluation Kit",
+          "partNumber": "AES-RASYNB-120",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-RASYNB-120.png"
+        }
+      ],
+      "board": {
+        "slug": "aes-rasynb-120",
+        "vendor": "Tria / Renesas",
+        "name": "RASynBoard NDP120 Evaluation Kit",
+        "partNumber": "AES-RASYNB-120",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-RASYNB-120.png"
+      },
+      "manufacturers": [
+        "Tria / Renesas"
+      ]
+    },
+    {
+      "repo": "iotc-gateway-mobile-app",
+      "url": "https://github.com/avnet-iotconnect/iotc-gateway-mobile-app",
+      "displayName": "SensorTile.Box Pro with Bridge Mobile App",
+      "description": "Mobile phone/tablet application that acts as a Bluetooth gateway for IOTCONNECT. The app connects to edge devices such as the ST SensorTile.box Pro, captures telemetry via BLE and forwards it to IOTCONNECT. It guides users through account setup, device onboarding and viewing live dashboards on the platform.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [],
+      "features": [
+        "sensors",
+        "ble",
+        "mobile"
+      ],
+      "stars": 0,
+      "updated": "2024-05-29T16:39:00Z",
+      "hidden": false,
+      "id": "sensortile-box-pro-with-bridge-mobile-app",
+      "boards": [
+        {
+          "slug": "steval-mkboxpro",
+          "vendor": "STMicroelectronics",
+          "name": "SensorTile.box PRO",
+          "partNumber": "STEVAL-MKBOXPRO",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STEVAL-MKBOXPRO.png"
+        }
+      ],
+      "board": {
+        "slug": "steval-mkboxpro",
         "vendor": "STMicroelectronics",
-        "name": "STM32MP135 Discovery Kit",
-        "partNumber": "STM32MP135F-DK",
-        "qualifications": [
-          "AWS Qualified",
-          "Greengrass"
-        ],
-        "link": "https://www.st.com/en/evaluation-tools/stm32mp135f-dk.html",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP135F-DK.png"
+        "name": "SensorTile.box PRO",
+        "partNumber": "STEVAL-MKBOXPRO",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STEVAL-MKBOXPRO.png"
       },
       "manufacturers": [
         "STMicroelectronics"
@@ -2850,12 +2263,14 @@
       "category": "sample",
       "status": "beta",
       "languages": [],
-      "sdkFlavor": null,
-      "features": [],
+      "features": [
+        "amazon-sidewalk",
+        "connectivity"
+      ],
       "stars": 0,
       "updated": "2026-06-01T00:00:00Z",
       "hidden": false,
-      "id": "sidewalk::sidewalk",
+      "id": "sidewalk",
       "boards": [
         {
           "slug": "nucleo-wl55jc",
@@ -2878,44 +2293,112 @@
     },
     {
       "repo": null,
-      "url": "https://www.hackster.io/AlbertaBeef/asl-classification-with-vitis-ai-025765",
-      "displayName": "FPGA-Driven Industrial Gesture Recognition",
-      "description": "Uses the ZU1CG MPSoC\u2019s FPGA fabric to perform vision-based industrial gesture recognition with custom edge-optimized logic. A trained American Sign Language (ASL) classification model using Vitis AI. Detected gestures drive industrial control actions while reporting telemetry to IOTCONNECT.",
+      "url": null,
+      "displayName": "Smart Asset Monitoring",
+      "description": "This demo showcases a smart factory monitoring system using embedded devices to simulate real industrial equipment such as pumps, compressors, cranes, and inspection systems. Telemetry is securely transmitted to the cloud, where real-time KPIs\u2014like utilization, duty cycles, rejection rates, and anomaly detection\u2014are calculated using DURATION-based logic. The system demonstrates how manufacturers can gain operational insights, trigger alerts, and improve uptime without requiring physical assets on-site.",
       "category": "sample",
       "status": "beta",
       "languages": [],
-      "sdkFlavor": null,
-      "features": [],
+      "features": [
+        "asset-tracking",
+        "sensors"
+      ],
       "stars": 0,
       "updated": "2026-06-01T00:00:00Z",
       "hidden": false,
-      "id": "fpga-driven-industrial-gesture-recognition::fpga-driven-industrial-gesture-recognition",
+      "id": "smart-asset-monitoring::mpfs-disco-kit",
       "boards": [
         {
-          "slug": "aes-zub-1cg-dk-g",
-          "vendor": "Tria / AMD",
-          "name": "ZUBoard 1CG",
-          "partNumber": "AES-ZUB-1CG-DK-G",
-          "qualifications": [
-            "AWS Qualified"
-          ],
-          "link": "https://www.tria-technologies.com/product/zuboard-1cg/",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-ZUB-1CG-DK-G.png"
+          "slug": "mpfs-disco-kit",
+          "vendor": "Microchip",
+          "name": "PolarFire Discovery Kit",
+          "partNumber": "MPFS-DISCO-KIT",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/MPFS-DISCO-KIT.png"
         }
       ],
       "board": {
-        "slug": "aes-zub-1cg-dk-g",
-        "vendor": "Tria / AMD",
-        "name": "ZUBoard 1CG",
-        "partNumber": "AES-ZUB-1CG-DK-G",
-        "qualifications": [
-          "AWS Qualified"
-        ],
-        "link": "https://www.tria-technologies.com/product/zuboard-1cg/",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-ZUB-1CG-DK-G.png"
+        "slug": "mpfs-disco-kit",
+        "vendor": "Microchip",
+        "name": "PolarFire Discovery Kit",
+        "partNumber": "MPFS-DISCO-KIT",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/MPFS-DISCO-KIT.png"
       },
       "manufacturers": [
-        "Tria / AMD"
+        "Microchip"
+      ]
+    },
+    {
+      "repo": null,
+      "url": null,
+      "displayName": "Smart Asset Monitoring",
+      "description": "This demo showcases a smart factory monitoring system using embedded devices to simulate real industrial equipment such as pumps, compressors, cranes, and inspection systems. Telemetry is securely transmitted to the cloud, where real-time KPIs\u2014like utilization, duty cycles, rejection rates, and anomaly detection\u2014are calculated using DURATION-based logic. The system demonstrates how manufacturers can gain operational insights, trigger alerts, and improve uptime without requiring physical assets on-site.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [],
+      "features": [
+        "asset-tracking",
+        "sensors"
+      ],
+      "stars": 0,
+      "updated": "2026-06-01T00:00:00Z",
+      "hidden": false,
+      "id": "smart-asset-monitoring::ev63j76a",
+      "boards": [
+        {
+          "slug": "ev63j76a",
+          "vendor": "Microchip",
+          "name": "SAMA7D65 Curiosity Kit",
+          "partNumber": "EV63J76A",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EV63J76A.png"
+        }
+      ],
+      "board": {
+        "slug": "ev63j76a",
+        "vendor": "Microchip",
+        "name": "SAMA7D65 Curiosity Kit",
+        "partNumber": "EV63J76A",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EV63J76A.png"
+      },
+      "manufacturers": [
+        "Microchip"
+      ]
+    },
+    {
+      "repo": "avnet-iotc-mtb-ai-imagimob-rm",
+      "url": "https://github.com/avnet-iotconnect/avnet-iotc-mtb-ai-imagimob-rm",
+      "displayName": "Smart Home Baby Monitor",
+      "description": "This project demonstrates ModusToolbox\u2122 machine learning with Imagimob ready models, combining audio and radar sensor data. It can detect a variety of audio events such as sirens, baby cry, alarms, coughs and snoring, and also recognises hand gestures using the board's radar sensor.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "edge-AI",
+        "audio"
+      ],
+      "stars": 1,
+      "updated": "2025-08-08T19:48:42Z",
+      "hidden": false,
+      "id": "smart-home-baby-monitor",
+      "boards": [
+        {
+          "slug": "cy8ckit-062s2-ai",
+          "vendor": "Infineon",
+          "name": "PSOC\u2122 6 Artificial Intelligence Evaluation Kit",
+          "partNumber": "CY8CKIT-062S2-AI",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CKIT-062S2-AI.png"
+        }
+      ],
+      "board": {
+        "slug": "cy8ckit-062s2-ai",
+        "vendor": "Infineon",
+        "name": "PSOC\u2122 6 Artificial Intelligence Evaluation Kit",
+        "partNumber": "CY8CKIT-062S2-AI",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CKIT-062S2-AI.png"
+      },
+      "manufacturers": [
+        "Infineon"
       ]
     },
     {
@@ -2926,19 +2409,20 @@
       "category": "sample",
       "status": "beta",
       "languages": [],
-      "sdkFlavor": null,
-      "features": [],
+      "features": [
+        "agriculture",
+        "ai"
+      ],
       "stars": 0,
       "updated": "2026-06-01T00:00:00Z",
       "hidden": false,
-      "id": "smart-tractor::smart-tractor",
+      "id": "smart-tractor",
       "boards": [
         {
           "slug": "msc-sm2s-imx8plus",
           "vendor": "Tria / NXP",
           "name": "MSC SM2S-IMX8PLUS",
           "partNumber": "MSC SM2S-IMX8PLUS",
-          "link": "https://embedded.avnet.com/product/msc-sm2s-imx8plus/",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/MSC SM2S-IMX8PLUS.png"
         }
       ],
@@ -2947,7 +2431,6 @@
         "vendor": "Tria / NXP",
         "name": "MSC SM2S-IMX8PLUS",
         "partNumber": "MSC SM2S-IMX8PLUS",
-        "link": "https://embedded.avnet.com/product/msc-sm2s-imx8plus/",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/MSC SM2S-IMX8PLUS.png"
       },
       "manufacturers": [
@@ -2955,132 +2438,6 @@
       ]
     },
     {
-      "repo": "QCS6490-Vision-AI-Demo",
-      "url": "https://github.com/Avnet/QCS6490-Vision-AI-Demo/pull/1",
-      "displayName": "QCS6490-Vision-AI-Demo",
-      "description": "On-device hand-gesture recognition using Qualcomm\u2019s advanced CPU/GPU/NPU AI engine. The system translates left- and right-hand movements into real-time robotic control signals while streaming the results to IoTConnect.",
-      "category": "sample",
-      "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
-      "hidden": false,
-      "id": "QCS6490-Vision-AI-Demo::qcs6490-vision-ai-demo",
-      "boards": [
-        {
-          "slug": "aes-qcs6490-dk-g",
-          "vendor": "Tria / Qualcom",
-          "name": "VisionAI-Kit 6490",
-          "partNumber": "AES-QCS6490-DK-G",
-          "qualifications": [
-            "AWS Qualified"
-          ],
-          "link": "https://www.tria-technologies.com/product/vision-ai-kit-6490/",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-QCS6490-DK-G.png"
-        }
-      ],
-      "board": {
-        "slug": "aes-qcs6490-dk-g",
-        "vendor": "Tria / Qualcom",
-        "name": "VisionAI-Kit 6490",
-        "partNumber": "AES-QCS6490-DK-G",
-        "qualifications": [
-          "AWS Qualified"
-        ],
-        "link": "https://www.tria-technologies.com/product/vision-ai-kit-6490/",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-QCS6490-DK-G.png"
-      },
-      "manufacturers": [
-        "Tria / Qualcom"
-      ]
-    },
-    {
-      "repo": null,
-      "url": null,
-      "displayName": "Hand-Gesture Robotics Control",
-      "description": "Controlling a wheeled vehicle in ROS2.  CV Controller using Edge Impulse custom model to detect Face and Hands (open and close).  Demonstration running at 45FPS",
-      "category": "sample",
-      "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
-      "hidden": false,
-      "id": "hand-gesture-robotics-control::hand-gesture-robotics-control",
-      "boards": [
-        {
-          "slug": "aes-qcs6490-dk-g",
-          "vendor": "Tria / Qualcom",
-          "name": "VisionAI-Kit 6490",
-          "partNumber": "AES-QCS6490-DK-G",
-          "qualifications": [
-            "AWS Qualified"
-          ],
-          "link": "https://www.tria-technologies.com/product/vision-ai-kit-6490/",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-QCS6490-DK-G.png"
-        }
-      ],
-      "board": {
-        "slug": "aes-qcs6490-dk-g",
-        "vendor": "Tria / Qualcom",
-        "name": "VisionAI-Kit 6490",
-        "partNumber": "AES-QCS6490-DK-G",
-        "qualifications": [
-          "AWS Qualified"
-        ],
-        "link": "https://www.tria-technologies.com/product/vision-ai-kit-6490/",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-QCS6490-DK-G.png"
-      },
-      "manufacturers": [
-        "Tria / Qualcom"
-      ]
-    },
-    {
-      "repo": "RASynBoard-Out-of-Box-Demo",
-      "url": "https://github.com/Avnet/RASynBoard-Out-of-Box-Demo/blob/rasynboard_v2_tiny/docs/RASynPuckDemo.md",
-      "displayName": "RASyn Puck",
-      "description": "The RASynPuck demo was created to showcase the RASynBoard and Avnet's Cloud Solution\u00a0IOTCONNECT.",
-      "category": "sample",
-      "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
-      "hidden": false,
-      "id": "RASynBoard-Out-of-Box-Demo::rasyn-puck",
-      "boards": [
-        {
-          "slug": "aes-rasynb-120",
-          "vendor": "Tria / Renesas",
-          "name": "RASynBoard NDP120 Evaluation Kit",
-          "partNumber": "AES-RASYNB-120",
-          "qualifications": [
-            "AWS Qualified"
-          ],
-          "link": "https://www.avnet.com/americas/products/avnet-boards/avnet-board-families/rasynboard/",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-RASYNB-120.png"
-        }
-      ],
-      "board": {
-        "slug": "aes-rasynb-120",
-        "vendor": "Tria / Renesas",
-        "name": "RASynBoard NDP120 Evaluation Kit",
-        "partNumber": "AES-RASYNB-120",
-        "qualifications": [
-          "AWS Qualified"
-        ],
-        "link": "https://www.avnet.com/americas/products/avnet-boards/avnet-board-families/rasynboard/",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-RASYNB-120.png"
-      },
-      "manufacturers": [
-        "Tria / Renesas"
-      ]
-    },
-    {
       "repo": "SPARK",
       "url": "https://github.com/Avnet/SPARK",
       "displayName": "SPARK Smart Parking Demo",
@@ -3088,22 +2445,21 @@
       "category": "sample",
       "status": "beta",
       "languages": [],
-      "sdkFlavor": null,
-      "features": [],
+      "features": [
+        "smart-city",
+        "vision",
+        "parking"
+      ],
       "stars": 0,
       "updated": "2026-06-01T00:00:00Z",
       "hidden": false,
-      "id": "SPARK::spark-smart-parking-demo::aes-rzb-v2l-sk-g",
+      "id": "spark-smart-parking-demo",
       "boards": [
         {
           "slug": "aes-rzb-v2l-sk-g",
           "vendor": "Tria / Renesas",
           "name": "RZBoard V2L",
           "partNumber": "AES-RZB-V2L-SK-G",
-          "qualifications": [
-            "AWS Qualified"
-          ],
-          "link": "https://www.tria-technologies.com/product/rzboard-v2l/",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-RZB-V2L-SK-G.png"
         }
       ],
@@ -3112,10 +2468,6 @@
         "vendor": "Tria / Renesas",
         "name": "RZBoard V2L",
         "partNumber": "AES-RZB-V2L-SK-G",
-        "qualifications": [
-          "AWS Qualified"
-        ],
-        "link": "https://www.tria-technologies.com/product/rzboard-v2l/",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-RZB-V2L-SK-G.png"
       },
       "manufacturers": [
@@ -3123,263 +2475,347 @@
       ]
     },
     {
-      "repo": "SPARK",
-      "url": "https://github.com/Avnet/SPARK",
-      "displayName": "SPARK Smart Parking Demo",
-      "description": "SPARK is a smart parking and EV charging demo running on the Renesas RZBoard V2L. It uses a convolutional neural network to detect vehicle occupancy in real\u2011time, scales to hundreds of parking spots and can stream analytics data to IOTCONNECT or display it locally via HDMI.",
+      "repo": "iotc-stm32-n6-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-stm32-n6-demos/blob/main/doc/QUICKSTART.md",
+      "displayName": "STM32N6 Edge AI Demos",
+      "description": "Edge AI demo for the STM32N6 platform demonstrating object detection using an embedded vision model. The application streams detection results to IOTCONNECT where bounding boxes and labels can be visualised.",
       "category": "sample",
       "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "ai",
+        "vision",
+        "edge-ai"
+      ],
+      "stars": 9,
+      "updated": "2026-05-11T22:52:02Z",
       "hidden": false,
-      "id": "SPARK::spark-smart-parking-demo::aes-rzb-v2l-sk-g",
+      "id": "stm32n6-edge-ai-demos",
       "boards": [
         {
-          "slug": "aes-rzb-v2l-sk-g",
-          "vendor": "Tria / Renesas",
-          "name": "RZBoard V2L",
-          "partNumber": "AES-RZB-V2L-SK-G",
-          "qualifications": [
-            "AWS Qualified"
-          ],
-          "link": "https://www.tria-technologies.com/product/rzboard-v2l/",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-RZB-V2L-SK-G.png"
+          "slug": "stm32n6570-dk",
+          "vendor": "STMicroelectronics",
+          "name": "STM32N6 Discovery Kit",
+          "partNumber": "STM32N6570-DK",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32N6570-DK.png"
         }
       ],
       "board": {
-        "slug": "aes-rzb-v2l-sk-g",
-        "vendor": "Tria / Renesas",
-        "name": "RZBoard V2L",
-        "partNumber": "AES-RZB-V2L-SK-G",
-        "qualifications": [
-          "AWS Qualified"
-        ],
-        "link": "https://www.tria-technologies.com/product/rzboard-v2l/",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-RZB-V2L-SK-G.png"
+        "slug": "stm32n6570-dk",
+        "vendor": "STMicroelectronics",
+        "name": "STM32N6 Discovery Kit",
+        "partNumber": "STM32N6570-DK",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32N6570-DK.png"
       },
       "manufacturers": [
-        "Tria / Renesas"
+        "STMicroelectronics"
+      ]
+    },
+    {
+      "repo": "iotc-stm32-n6-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-stm32-n6-demos",
+      "displayName": "STM32N6 Edge AI Object Detection",
+      "description": "This demo showcases a new STMicroelectronics microcontroller with an integrated NPU for edge AI, using the ST Cube AI library for real-time person detection. The system assigns a unique ID to the first person in the frame and dynamically tracks them using a motorized camera base, keeping the individual centered in the frame.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "ai",
+        "vision",
+        "edge-ai"
+      ],
+      "stars": 9,
+      "updated": "2026-05-11T22:52:02Z",
+      "hidden": false,
+      "id": "stm32n6-edge-ai-object-detection::stm32n6570-dk",
+      "boards": [
+        {
+          "slug": "stm32n6570-dk",
+          "vendor": "STMicroelectronics",
+          "name": "STM32N6 Discovery Kit",
+          "partNumber": "STM32N6570-DK",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32N6570-DK.png"
+        }
+      ],
+      "board": {
+        "slug": "stm32n6570-dk",
+        "vendor": "STMicroelectronics",
+        "name": "STM32N6 Discovery Kit",
+        "partNumber": "STM32N6570-DK",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32N6570-DK.png"
+      },
+      "manufacturers": [
+        "STMicroelectronics"
+      ]
+    },
+    {
+      "repo": "iotc-stm32-n6-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-stm32-n6-demos",
+      "displayName": "STM32N6 Edge AI Object Detection",
+      "description": "This demo showcases a new STMicroelectronics microcontroller with an integrated NPU for edge AI, using the ST Cube AI library for real-time person detection. The system assigns a unique ID to the first person in the frame and dynamically tracks them using a motorized camera base, keeping the individual centered in the frame.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "ai",
+        "vision",
+        "edge-ai"
+      ],
+      "stars": 9,
+      "updated": "2026-05-11T22:52:02Z",
+      "hidden": false,
+      "id": "stm32n6-edge-ai-object-detection::us159-da16200mevz",
+      "boards": [
+        {
+          "slug": "us159-da16200mevz",
+          "vendor": "Renesas",
+          "name": "DA16200 Ultra Low Power Wi-Fi Pmod Module Evaluation Board",
+          "partNumber": "US159-DA16200MEVZ",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/US159-DA16200MEVZ.png"
+        }
+      ],
+      "board": {
+        "slug": "us159-da16200mevz",
+        "vendor": "Renesas",
+        "name": "DA16200 Ultra Low Power Wi-Fi Pmod Module Evaluation Board",
+        "partNumber": "US159-DA16200MEVZ",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/US159-DA16200MEVZ.png"
+      },
+      "manufacturers": [
+        "Renesas"
+      ]
+    },
+    {
+      "repo": "stsafe-demo",
+      "url": "https://github.com/mlamp99/stsafe-demo",
+      "displayName": "STSAFE Authentification",
+      "description": "Device logger demo that manages two USB\u2011connected devices via serial communication. It integrates with IOTCONNECT to send telemetry, handle start/stop commands and store logs. The project demonstrates how to build a simple command and logging system using the IOTCONNECT SDK.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [],
+      "features": [
+        "security"
+      ],
+      "stars": 0,
+      "updated": "2026-06-01T00:00:00Z",
+      "hidden": false,
+      "id": "stsafe-authentification",
+      "boards": [
+        {
+          "slug": "b-u585i-iot02a",
+          "vendor": "STMicroelectronics",
+          "name": "STM32U5 Discovery Kit",
+          "partNumber": "B-U585I-IOT02A",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/B-U585I-IOT02A.png"
+        }
+      ],
+      "board": {
+        "slug": "b-u585i-iot02a",
+        "vendor": "STMicroelectronics",
+        "name": "STM32U5 Discovery Kit",
+        "partNumber": "B-U585I-IOT02A",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/B-U585I-IOT02A.png"
+      },
+      "manufacturers": [
+        "STMicroelectronics"
+      ]
+    },
+    {
+      "repo": "iotc-gateway-mobile-app",
+      "url": "https://github.com/avnet-iotconnect/iotc-gateway-mobile-app",
+      "displayName": "Telehealth",
+      "description": "Mobile phone/tablet application that acts as a Bluetooth gateway for IOTCONNECT. The app connects to edge devices such as the ST SensorTile.box Pro, captures telemetry via BLE and forwards it to IOTCONNECT. It guides users through account setup, device onboarding and viewing live dashboards on the platform.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [],
+      "features": [
+        "healthcare",
+        "ble",
+        "mobile"
+      ],
+      "stars": 0,
+      "updated": "2024-05-29T16:39:00Z",
+      "hidden": false,
+      "id": "telehealth",
+      "boards": [
+        {
+          "slug": "ev19j06a",
+          "vendor": "Microchip",
+          "name": "PIC32CX-BZ3 and WBZ35x Curiosity Board",
+          "partNumber": "EV19J06A",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EV19J06A.png"
+        }
+      ],
+      "board": {
+        "slug": "ev19j06a",
+        "vendor": "Microchip",
+        "name": "PIC32CX-BZ3 and WBZ35x Curiosity Board",
+        "partNumber": "EV19J06A",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EV19J06A.png"
+      },
+      "manufacturers": [
+        "Microchip"
+      ]
+    },
+    {
+      "repo": "iotc-freertos-stm32-u5-ml-demo",
+      "url": "https://github.com/avnet-iotconnect/iotc-freertos-stm32-u5-ml-demo",
+      "displayName": "Urban Sound Event Classifier",
+      "description": "Smart\u2011city noise detection demo for the STM32U5 MCU. The system uses machine\u2011learning to classify sounds such as alarms, dog barks, speech and car horns and runs inference locally on the microcontroller. Recognised events and confidence scores are sent to IOTCONNECT for visualisation.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "ai",
+        "audio",
+        "edge-ai"
+      ],
+      "stars": 1,
+      "updated": "2025-03-05T12:53:54Z",
+      "hidden": false,
+      "id": "urban-sound-event-classifier",
+      "boards": [
+        {
+          "slug": "b-u585i-iot02a",
+          "vendor": "STMicroelectronics",
+          "name": "STM32U5 Discovery Kit",
+          "partNumber": "B-U585I-IOT02A",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/B-U585I-IOT02A.png"
+        }
+      ],
+      "board": {
+        "slug": "b-u585i-iot02a",
+        "vendor": "STMicroelectronics",
+        "name": "STM32U5 Discovery Kit",
+        "partNumber": "B-U585I-IOT02A",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/B-U585I-IOT02A.png"
+      },
+      "manufacturers": [
+        "STMicroelectronics"
       ]
     },
     {
       "repo": "meta-iotconnect-docs",
-      "url": "https://github.com/avnet-iotconnect/meta-iotconnect-docs/blob/main/QuickStart/RZBoardV2L.md",
-      "displayName": "Managing Edge AI:  RZBoard V2L",
-      "description": "Quickstart guide for connecting the Renesas RZBoard\u00a0V2L to IOTCONNECT and running the on\u2011board AI camera demo. The document covers flashing the SD card image, configuring the board and IOTCONNECT account, and using an attached USB camera for object recognition with real\u2011time telemetry streamed to IOTCONNECT.",
+      "url": "https://github.com/avnet-iotconnect/meta-iotconnect-docs/blob/main/QuickStart/ST/STM32MP257/demo-iotc-x-linux-ai/QuickStart_Webinar.md",
+      "displayName": "Vision AI Demonstrator",
+      "description": "This demo highlights the STM32MP257 evaluation kit's real-time image classification capabilities using an S3 bucket as the image source. Leveraging its Neural-ART Accelerator, the device processes images locally, sending results with labels and confidence scores to the cloud for centralized analysis",
       "category": "sample",
       "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
+      "languages": [
+        "Python"
+      ],
+      "features": [
+        "ai",
+        "vision",
+        "edge-ai"
+      ],
+      "stars": 4,
+      "updated": "2026-05-09T14:16:15Z",
       "hidden": false,
-      "id": "meta-iotconnect-docs::managing-edge-ai-rzboard-v2l",
+      "id": "vision-ai-demonstrator",
       "boards": [
         {
-          "slug": "aes-rzb-v2l-sk-g",
-          "vendor": "Tria / Renesas",
-          "name": "RZBoard V2L",
-          "partNumber": "AES-RZB-V2L-SK-G",
-          "qualifications": [
-            "AWS Qualified"
-          ],
-          "link": "https://www.tria-technologies.com/product/rzboard-v2l/",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-RZB-V2L-SK-G.png"
+          "slug": "stm32mp257f-ev1",
+          "vendor": "STMicroelectronics",
+          "name": "STM32MP2 Evaluation Board",
+          "partNumber": "STM32MP257F-EV1",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-EV1.png"
         }
       ],
       "board": {
-        "slug": "aes-rzb-v2l-sk-g",
-        "vendor": "Tria / Renesas",
-        "name": "RZBoard V2L",
-        "partNumber": "AES-RZB-V2L-SK-G",
-        "qualifications": [
-          "AWS Qualified"
-        ],
-        "link": "https://www.tria-technologies.com/product/rzboard-v2l/",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-RZB-V2L-SK-G.png"
+        "slug": "stm32mp257f-ev1",
+        "vendor": "STMicroelectronics",
+        "name": "STM32MP2 Evaluation Board",
+        "partNumber": "STM32MP257F-EV1",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-EV1.png"
       },
       "manufacturers": [
-        "Tria / Renesas"
+        "STMicroelectronics"
       ]
     },
     {
-      "repo": null,
-      "url": null,
-      "displayName": "Multi Stream Video and AI",
-      "description": "The\u00a0Vision AI Kit IQ9\u00a0Demonstrates 9 conncurent video feeds, decoded with various AI models running in real time.",
+      "repo": "iotc-azurertos-sdk",
+      "url": "https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/wfi32iot",
+      "displayName": "WFI-32 Sensor Clicks",
+      "description": "This example connects the WFI32-IoT Development Board to Avnet's IOTCONNECT platform built on Microsoft Azure and uses Azure RTOS to simplify cloud firmware development.  The WFI32 board features integrated sensors and supports mikroBUS\u2122 expansion for additional click\u2011board sensors.",
       "category": "sample",
       "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "clicks",
+        "wifi",
+        "sensors",
+        "hvac"
+      ],
+      "stars": 7,
+      "updated": "2025-05-07T19:12:26Z",
       "hidden": false,
-      "id": "multi-stream-video-and-ai::multi-stream-video-and-ai",
+      "id": "wfi-32-sensor-clicks",
       "boards": [
         {
-          "slug": "vision-ai-kit-iq9",
-          "vendor": "Tria / Qualcom",
-          "name": "Vision AI-KIT IQ9",
-          "partNumber": "Vision AI-KIT IQ9",
-          "link": "https://www.tria-technologies.com/product/vision-ai-kit-iq9/",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/Vision%20AI-KIT-IQ9.png"
+          "slug": "ev36w50a",
+          "vendor": "Microchip",
+          "name": "WFI32-IoT Development Board",
+          "partNumber": "EV36W50A",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EV36W50A.png"
         }
       ],
       "board": {
-        "slug": "vision-ai-kit-iq9",
-        "vendor": "Tria / Qualcom",
-        "name": "Vision AI-KIT IQ9",
-        "partNumber": "Vision AI-KIT IQ9",
-        "link": "https://www.tria-technologies.com/product/vision-ai-kit-iq9/",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/Vision%20AI-KIT-IQ9.png"
+        "slug": "ev36w50a",
+        "vendor": "Microchip",
+        "name": "WFI32-IoT Development Board",
+        "partNumber": "EV36W50A",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EV36W50A.png"
       },
       "manufacturers": [
-        "Tria / Qualcom"
+        "Microchip"
       ]
     },
     {
-      "repo": null,
-      "url": null,
-      "displayName": "Edge AI Inference Pipeline (Jetson Orin NX)",
-      "description": "This demo performs compute-intensive AI inference on the edge and sends the processed results to the cloud. IoTConnect then visualizes the inference output and system performance in real time.",
+      "repo": "iotc-python-lite-sdk-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/nxp-frdm-imx-93",
+      "displayName": "Worker Safety Compliance",
+      "description": "Quickstart demo for the NXP FRDM i.MX 93 platform using the IOTCONNECT Python Lite SDK. The board features tri\u2011radio connectivity (Wi\u2011Fi\u00a06, Bluetooth\u00a05.4 and 802.15.4), enabling rapid development of IoT applications. This project shows how to push telemetry to IOTCONNECT and receive commands from the cloud.",
       "category": "sample",
       "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
+      "languages": [
+        "Python"
+      ],
+      "features": [
+        "edge-AI"
+      ],
+      "stars": 3,
+      "updated": "2026-05-14T16:56:32Z",
       "hidden": false,
-      "id": "edge-ai-inference-pipeline-jetson-orin-nx::edge-ai-inference-pipeline-jetson-orin-nx::x-j4021",
+      "id": "worker-safety-compliance",
       "boards": [
         {
-          "slug": "x-j4021",
-          "vendor": "Seeed Studio / NVIDIA",
-          "name": "J4021"
+          "slug": "frdm-imx93",
+          "vendor": "NXP",
+          "name": "IMX93 Freedom Board",
+          "partNumber": "FRDM-IMX93",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-IMX93.png"
         }
       ],
       "board": {
-        "slug": "x-j4021",
-        "vendor": "Seeed Studio / NVIDIA",
-        "name": "J4021"
+        "slug": "frdm-imx93",
+        "vendor": "NXP",
+        "name": "IMX93 Freedom Board",
+        "partNumber": "FRDM-IMX93",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-IMX93.png"
       },
       "manufacturers": [
-        "Seeed Studio / NVIDIA"
-      ]
-    },
-    {
-      "repo": null,
-      "url": null,
-      "displayName": "Edge AI Inference Pipeline (Jetson Orin NX)",
-      "description": "This demo performs compute-intensive AI inference on the edge and sends the processed results to the cloud. IoTConnect then visualizes the inference output and system performance in real time.",
-      "category": "sample",
-      "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
-      "hidden": false,
-      "id": "edge-ai-inference-pipeline-jetson-orin-nx::edge-ai-inference-pipeline-jetson-orin-nx::seeed-j2021",
-      "boards": [
-        {
-          "slug": "seeed-j2021",
-          "vendor": "Seeed Studio",
-          "name": "reComputer J2021 - Edge AI Computer with NVIDIA\u00ae Jetson Xavier\u2122 NX 8GB",
-          "partNumber": "SEEED-j2021",
-          "link": "https://www.seeedstudio.com/reComputer-J2021-p-5438.html?srsltid=AfmBOoqBZskE6NmMEQJpHBTTkDxX9rWng3fbPMfN3jW2FyRzUayqdm9t",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/SEEED-j2021.png"
-        }
-      ],
-      "board": {
-        "slug": "seeed-j2021",
-        "vendor": "Seeed Studio",
-        "name": "reComputer J2021 - Edge AI Computer with NVIDIA\u00ae Jetson Xavier\u2122 NX 8GB",
-        "partNumber": "SEEED-j2021",
-        "link": "https://www.seeedstudio.com/reComputer-J2021-p-5438.html?srsltid=AfmBOoqBZskE6NmMEQJpHBTTkDxX9rWng3fbPMfN3jW2FyRzUayqdm9t",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/SEEED-j2021.png"
-      },
-      "manufacturers": [
-        "Seeed Studio"
-      ]
-    },
-    {
-      "repo": null,
-      "url": null,
-      "displayName": "Edge AI Inference Pipeline (Jetson Orin NX)",
-      "description": "This demo performs compute-intensive AI inference on the edge and sends the processed results to the cloud. IoTConnect then visualizes the inference output and system performance in real time.",
-      "category": "sample",
-      "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
-      "hidden": false,
-      "id": "edge-ai-inference-pipeline-jetson-orin-nx::edge-ai-inference-pipeline-jetson-orin-nx",
-      "boards": [
-        {
-          "slug": "icam-540-30w-2",
-          "vendor": "Advantech",
-          "name": "ICAM-540 Industrial AI Camera | NVIDIA Jetson Orin",
-          "partNumber": "ICAM-540-30W",
-          "qualifications": [
-            "AWS Qualified",
-            "Greengrass"
-          ],
-          "link": "https://www.advantech.com/en/products/d51faf9f-1457-4702-93f7-f613d7b1460e/icam-540/mod_090d1ba9-cea5-4fb1-98ab-9029aeb0a7e7",
-          "image": "https://apn-portal.my.salesforce.com/servlet/servlet.ImageServer?id=015aq000000IvZJAA0&oid=00DE0000000c48tMAA"
-        }
-      ],
-      "board": {
-        "slug": "icam-540-30w-2",
-        "vendor": "Advantech",
-        "name": "ICAM-540 Industrial AI Camera | NVIDIA Jetson Orin",
-        "partNumber": "ICAM-540-30W",
-        "qualifications": [
-          "AWS Qualified",
-          "Greengrass"
-        ],
-        "link": "https://www.advantech.com/en/products/d51faf9f-1457-4702-93f7-f613d7b1460e/icam-540/mod_090d1ba9-cea5-4fb1-98ab-9029aeb0a7e7",
-        "image": "https://apn-portal.my.salesforce.com/servlet/servlet.ImageServer?id=015aq000000IvZJAA0&oid=00DE0000000c48tMAA"
-      },
-      "manufacturers": [
-        "Advantech"
-      ]
-    },
-    {
-      "repo": null,
-      "url": null,
-      "displayName": "Edge People Detection & Tracking with Ryzen 7 AI",
-      "description": "This platform runs AI inference using Ryzen\u2019s CPU/GPU/NPU architecture to perform advanced vision processing at the edge. Inference output and system metrics are delivered to IoTConnect for cloud-level insight and device management.",
-      "category": "sample",
-      "status": "beta",
-      "languages": [],
-      "sdkFlavor": null,
-      "features": [],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
-      "hidden": false,
-      "id": "edge-people-detection-tracking-with-ryzen-7-ai::edge-people-detection-tracking-with-ryzen-7-ai",
-      "boards": [
-        {
-          "slug": "x-som-6873-com-express-t6",
-          "vendor": "Advantech",
-          "name": "SOM-6873 COM Express T6"
-        }
-      ],
-      "board": {
-        "slug": "x-som-6873-com-express-t6",
-        "vendor": "Advantech",
-        "name": "SOM-6873 COM Express T6"
-      },
-      "manufacturers": [
-        "Advantech"
+        "NXP"
       ]
     }
   ]
