@@ -1,6 +1,6 @@
 # /IOTCONNECT Index — Audit Report
 
-_Generated 2026-06-16T03:06:24Z_  ·  72 listings · 50 boards in use · 11 manufacturers
+_Generated 2026-06-18T23:12:51Z_  ·  72 listings · 50 boards in use · 11 manufacturers
 
 ## ⚠ Boards referenced but missing from the Boards sheet
 - **Amphenol Clicks** — referenced by: WFI-32 Sensor Clicks
@@ -49,12 +49,12 @@ _Generated 2026-06-16T03:06:24Z_  ·  72 listings · 50 boards in use · 11 manu
 - Tria / NXP · NXP MaaxBoard RT (AES-MC-SBC-IMXRT1176-G)
 
 ## Org repos with no listing (candidates to add)
-- avnet-iotc-mtb-psoc-edge-aivision-webrtc — /IOTCONNECT Infineon Modus Toolbox PSOC™ Edge WebRTC with DEEPCRAFT™ AI Vision Demo
+- iotc-tria-vision-ai-kit-robotic-arm — This repo showcases TRIA Vision AI Kit 6490 running /IOTCONNECT integration with the Hiwonder XArm 1S robotic arm. 
 - iotc-stm32-sidewalk — provides /IOTCONNECT assets and documentation for STM32 Sidewalk SDK examples across multiple board configurations. It is organized to keep device templates, dashboard templates, decoders, and media separate, while each example has its own detailed README.
+- avnet-iotc-mtb-psoc-edge-aivision-webrtc — /IOTCONNECT Infineon Modus Toolbox PSOC™ Edge WebRTC with DEEPCRAFT™ AI Vision Demo
 - avnet-iotconnect.github.io — no description
 - avnet-iotc-mtb-ce-manifest — no description
 - iotc-python-lite-snap-examples — Working examples for deploying IOTCONNECT SDK using the Snapcraft Package Manager 
-- iotc-tria-vision-ai-kit-robotic-arm — This repo showcases TRIA Vision AI Kit 6490 running /IOTCONNECT integration with the Hiwonder XArm 1S robotic arm. 
 - avnet-iotc-mtb-mw-manifest — no description
 - iotc-freertos-ek-ra6w1 — no description
 - stm32n6570_dk_w6x_iot_reference — Modular FreeRTOS kernel and libraries, LwIP and MbedTLS to enable secure, connected IoT applications
@@ -99,7 +99,6 @@ _Generated 2026-06-16T03:06:24Z_  ·  72 listings · 50 boards in use · 11 manu
 - iotc-freertos-ek-ra6m4-pmod — Sample project to connect the Renesas EK-RA6M4 using AT commands via a DA16K PMOD module gateway to Avnet /IOTCONNECT.
 - iotc-freertos-wolfssl-wfi32 — /IOTCONNECT demo for Microchip WFI32-IoT with wolfSSL and Amazon-FreeRTOS.
 - iotc-freertos-sdk — iotc-freertos-sdk
-- X-CUBE-IoTC-DA16k-PMOD — This repository has all the materials used to create the X-CUBE pack to use DA16K PMOD with various ST hardware.
 - iotc-stm32-u5-esp32-c3-demo — Connect stm32-u5 board with esp32-c3-mini shield to IoTConnect with AT commands.
 - meta-iotconnect-demos — Yocto IoTConnect demo application layer
 - iotc-arduino-pro-portenta-h7-demo — Arduino sketch example showing connection of an Arduino Pro Portenta H7 to IoTConnect
