@@ -1,0 +1,332 @@
+{
+ "rawCount": 25,
+ "raw": [
+  {
+   "title": "Demo cards with no repo/url render as dead links that open a blank tab",
+   "severity": "high",
+   "area": "frontend",
+   "detail": "index.json contains 9 software entries whose `repo` and `url` are both null (e.g. \"Edge AI Inference Pipeline (Jetson Orin NX)\", \"Hand-Gesture Robotics Control\", \"Smart Tractor\", all category \"sample\"/demo). In repoCard() (index.html ~line 468) the whole card is `<a class=\"card\" href=\"${esc(r.url||\"#\")}\" target=\"_blank\" rel=\"noopener\">`, so r.url=null falls back to href=\"#\". Because target=\"_blank\" is set, clicking these cards opens a NEW blank tab pointing at the site root (\"#\") instead of navigating anywhere useful. The same bug recurs in the drawer's \"In this catalog\" related list: relitem uses `href=\"${esc(r.url||\"#\")}\" target=\"_blank\"` (index.html ~line 538), so a related demo with no url also opens an empty new tab.",
+   "fix": "When r.url is falsy, do not render the card as a link/new-tab. Render those entries as a non-anchor element (e.g. a `<div class=\"card\">` with no href and no target), or omit target=\"_blank\"/href when url is missing so the card is inert. Apply the same guard to the relitem markup in openDrawer()."
+  },
+  {
+   "title": "Board cards are non-focusable <div>s — keyboard users cannot open the detail drawer",
+   "severity": "high",
+   "area": "frontend",
+   "detail": "boardCard() (index.html line 429) renders `<div class=\"card\" data-board=\"...\">` with no tabindex, no role, and no key handler. The drawer is only opened via the global click handler (`card=e.target.closest('.card[data-board]')`, line 567). There is no keydown/Enter handling for these divs, so the entire hardware view and the board half of the maker view are unreachable by keyboard. (Repo cards are real <a> elements and are fine; only the board <div> cards are affected.)",
+   "fix": "Make board cards keyboard-operable: add role=\"button\" and tabindex=\"0\" to the `.card[data-board]` div, and add a keydown handler that calls openDrawer(card.dataset.board) on Enter/Space. Alternatively render the board card as a `<button>`/`<a>` element."
+  },
+  {
+   "title": "Drawer has no focus management (focus not moved in, not trapped, not restored)",
+   "severity": "high",
+   "area": "frontend",
+   "detail": "openDrawer() (index.html ~line 525) toggles `.open` and sets aria-hidden=\"false\" but never moves focus into the drawer (e.g. to the close button #drClose), does not trap Tab focus inside the drawer while it is open, and closeDrawer() (line 562) never returns focus to the card/element that opened it. With the scrim shown, a keyboard user's focus remains on the page behind the drawer, which is also not inert, so Tab moves through hidden background content. Escape itself does work (keydown listener at line 579 calls closeDrawer on e.key===\"Escape\"), but the rest of focus management is missing.",
+   "fix": "On open, store document.activeElement, then focus #drClose (or the drawer container with tabindex=\"-1\"). While open, trap Tab within the drawer (wrap from last to first focusable and vice-versa). On close, restore focus to the stored trigger element. Optionally set inert/aria-hidden on the main content while the drawer is open."
+  },
+  {
+   "title": "Search input has no accessible label",
+   "severity": "medium",
+   "area": "frontend",
+   "detail": "The catalog search field (index.html line 275) is `<input id=\"q\" type=\"search\" placeholder=\"Search board, MCU, part number, SDK, topic…\">` with only a placeholder. There is no <label for=\"q\">, no aria-label, and no aria-labelledby. Placeholder text is not a substitute for a label and disappears on input, so screen-reader users get an unlabeled search box.",
+   "fix": "Add aria-label=\"Search hardware and software\" to the input (or add a visually-hidden <label for=\"q\">). The decorative search <svg> should also get aria-hidden=\"true\"."
+  },
+  {
+   "title": "Muted/dim text fails WCAG AA contrast",
+   "severity": "medium",
+   "area": "frontend",
+   "detail": "--dim (#9AA8BA) on white yields a contrast ratio of ~2.42:1, far below the 4.5:1 AA threshold for normal text. It is used for small (10px, uppercase) and important UI text: the filter group labels via .flabel (\"PARTNER\", \"TOPIC\", \"TYPE\", \"LANGUAGE\", index.html line 111), the \"Silicon partners\" .label (line 77), and the search icon stroke (line 108). --muted (#6B7C92) on white is ~4.27:1, still under 4.5:1, and is used for body-sized text such as .sec-head p, .prop p, card .foot and result counts.",
+   "fix": "Darken --dim and --muted so text meets 4.5:1 on white (e.g. --dim to roughly #5E6E82 and --muted to about #5A6B80, then re-verify each usage). At minimum darken --dim, since the small uppercase filter labels are the worst offenders."
+  },
+  {
+   "title": "Hero \"Partners\" stat (5) contradicts the 22 partners shown in the By-partner view",
+   "severity": "low",
+   "area": "data",
+   "detail": "renderHero() (index.html line 360) reads state.data.counts and shows the value for key \"partners\". In index.json counts.partners=5, but data.partners has 22 entries and the \"By partner\" view groups by all of them (and facets.manufacturers lists 16). So the hero headline number reads \"5 Partners\" while the By-partner view renders ~22 partner groups and the partner strip shows 5 (only the ones with logos). The hero label is just \"Partners\", not \"Silicon partners\", so the 5 looks like an undercount/inconsistency to the user.",
+   "fix": "Make the hero stat consistent with what the views show: either set counts.partners to the full partner total (22) in the data generator, or relabel the hero stat to \"Silicon partners\" to match the 5 logo'd partners. Confirm which number the design intends and align label and value."
+  },
+  {
+   "title": "Infineon PSOC Edge E84 AI Kit 'buy' link points to the EVAL kit's URL, not the AI kit",
+   "severity": "high",
+   "area": "data",
+   "detail": "Board facet slug 'kitpse84aitobo1' (name 'PSOC Edge E84 AI Evaluation Kit') has buy = 'https://www.newark.com/infineon/kitpse84evaltobo1/eval-kit-32bit-arm-cortex-m55f/dp/49AM4460' and a resource titled 'Buy KIT_PSE84_AI on Newark' with that same URL (index.json lines ~1300-1317). That Newark URL (kitpse84evaltobo1 / dp/49AM4460) is the EVAL kit, which the index correctly uses for the separate 'kit-pse84-eval' board (line ~1384). The Infineon README (partners/infineon/readme.md line 8) lists the AI kit purchase as KIT_PSE84_AI -> https://www.newark.com/infineon/kitpse84aitobo1/ai-eval-kit-32bit-arm-cortex-m55f/dp/49AM4459 (note kitpse84aitobo1 / dp/49AM4459). The board's own second buy resource (element14) carries nsku=49AM4459, confirming 49AM4459 is the AI kit. So the AI kit's primary buy link is wrong (points at the wrong product).",
+   "fix": "Change kitpse84aitobo1.buy and its 'Buy KIT_PSE84_AI on Newark' resource URL to 'https://www.newark.com/infineon/kitpse84aitobo1/ai-eval-kit-32bit-arm-cortex-m55f/dp/49AM4459' per the Infineon README."
+  },
+  {
+   "title": "'STM32N6 Edge AI Object Detection' listing is wrongly attached to a Renesas DA16200 Wi-Fi Pmod board",
+   "severity": "high",
+   "area": "data",
+   "detail": "Listing id 'stm32n6-edge-ai-object-detection::us159-da16200mevz' (repo iotc-stm32-n6-demos, index.json lines ~4994-5034) describes an ST STM32N6 NPU person-detection/object-detection demo but has board = US159-DA16200MEVZ (Renesas 'DA16200 Ultra Low Power Wi-Fi Pmod Module') and manufacturers = ['Renesas']. The iotc-stm32-n6-demos repo is an ST STM32N6570-DK vision demo (see the sibling entry stm32n6-edge-ai-object-detection::stm32n6570-dk). A Renesas Wi-Fi Pmod has no role in an STM32N6 NPU vision demo. This also wrongly raises the us159-da16200mevz board 'listings' count to 2 (its only legitimate listing is the DA16K SDK).",
+   "fix": "Remove the us159-da16200mevz board variant from the STM32N6 Edge AI Object Detection listing (drop the '::us159-da16200mevz' entry, or re-point it to stm32n6570-dk). Recompute us159-da16200mevz.listings to 1."
+  },
+  {
+   "title": "'Edge AI Inference Pipeline (Jetson Orin NX)' listing tied to an Advantech ICAM-540 camera, not a Jetson board",
+   "severity": "high",
+   "area": "content",
+   "detail": "Listing id 'edge-ai-inference-pipeline-jetson-orin-nx' (index.json lines ~3046-3083) has displayName 'Edge AI Inference Pipeline (Jetson Orin NX)' and description about NVIDIA Jetson Orin NX edge inference, but board = ICAM-540-30W ('Edge AI Camera', vendor Advantech). The title/description say Jetson Orin NX while the bound board is an Advantech Greengrass AI camera (an unrelated product). The same displayName/description is also duplicated across two genuine Seeed Jetson boards (j4021, seeed-j2021), so the Advantech variant is a mis-tag.",
+   "fix": "Either retitle/redescribe this variant to match the Advantech ICAM-540-30W Edge AI Camera, or remove the Advantech board from this 'Jetson Orin NX' listing so the title matches the bound hardware."
+  },
+  {
+   "title": "'Edge AI Solutions featuring Jetson' is actually a Telehealth BLE-gateway demo (title/content mismatch)",
+   "severity": "high",
+   "area": "content",
+   "detail": "Listing id 'edge-ai-solutions-featuring-jetson' (index.json lines ~3128-3150) has displayName 'Edge AI Solutions featuring Jetson' but url = 'https://saleshosted.z13.web.core.windows.net/dashboard/r2/mcp-telehealth.png', description = a Telehealth BLE mobile-gateway demo, and features = ['ble','gateway','healthcare','telemetry']. Nothing about it relates to NVIDIA Jetson or edge AI; it is a telehealth/mobile-app demo. The displayName does not match the project.",
+   "fix": "Rename the listing to reflect the telehealth mobile-gateway demo (e.g. 'Telehealth Edge Gateway') and adjust topics accordingly, or correct the asset/description if it truly is meant to be a Jetson demo."
+  },
+  {
+   "title": "'Telehealth' listing on Microchip PIC32CX (EV19J06A) carries the wrong (SensorTile mobile-app) description and repo",
+   "severity": "medium",
+   "area": "content",
+   "detail": "Listing id 'telehealth::ev19j06a' (index.json lines ~5077-5113) binds the Microchip 'PIC32CX-BZ3 and WBZ35x Curiosity Board' (EV19J06A, manufacturers ['Microchip']) to repo iotc-gateway-mobile-app with the generic mobile-app description ('connects to edge devices such as the ST SensorTile.box Pro...'). The iotc-gateway-mobile-app repo is the BLE phone/tablet gateway app and is unrelated to the PIC32CX Curiosity board; the description never mentions the PIC32CX. The board/repo pairing and description do not match the project.",
+   "fix": "Detach the EV19J06A board from the iotc-gateway-mobile-app 'Telehealth' listing, or replace the description/repo with one that actually targets the PIC32CX-BZ3/WBZ35x board."
+  },
+  {
+   "title": "Single imagimob Ready-Models repo is split into 5 near-duplicate listings",
+   "severity": "medium",
+   "area": "completeness",
+   "detail": "repo avnet-iotc-mtb-ai-imagimob-rm (url https://github.com/avnet-iotconnect/avnet-iotc-mtb-ai-imagimob-rm) appears as 5 separate listings, all on board cy8ckit-062s2-ai with the identical description: 'PSOC6 AI-Kit Gesture Detect', 'PSOC6 AI-Kit Human Activity', 'PSOC6 AI-Kit Ready Models', 'PSOC6 AI-Kit Siren Detection', 'Smart Home Baby Monitor' (index.json ~4212-4380 and ~4787-4826). The Infineon README lists this as a single guide ('Imagimob Ready Model Demo QuickStart'). This is duplicate/near-duplicate inflation of the Infineon listing count (Infineon listings=19).",
+   "fix": "Collapse the five imagimob-rm entries into one listing (the Ready Models demo), or give each a distinct repo/URL. Recompute the Infineon listings count after dedup."
+  },
+  {
+   "title": "Baby Monitor and Human Activity demos are each represented twice via two different repos",
+   "severity": "medium",
+   "area": "completeness",
+   "detail": "Baby monitor: 'Smart Home Baby Monitor' (repo avnet-iotc-mtb-ai-imagimob-rm, index ~4787) and 'PSOC AI-Kit Baby Monitor' (repo avnet-iotc-mtb-ai-baby-monitor, index ~5769) both describe an Imagimob baby-cry monitor on cy8ckit-062s2-ai. Human activity: 'PSOC6 AI-Kit Human Activity' (repo avnet-iotc-mtb-ai-imagimob-rm with features human-activity/imu, index ~4254) and 'PSOC AI-Kit Human Activity Detection' (repo avnet-iotc-mtb-ai-imu-example, index ~5726) both describe IMU human-activity detection on the same board. Per the Infineon README these correspond to the distinct repos avnet-iotc-mtb-ai-baby-monitor and avnet-iotc-mtb-ai-imu-example, so the imagimob-rm copies are duplicates.",
+   "fix": "Keep the dedicated-repo listings (avnet-iotc-mtb-ai-baby-monitor, avnet-iotc-mtb-ai-imu-example) and drop the duplicate baby-monitor/human-activity variants generated from avnet-iotc-mtb-ai-imagimob-rm."
+  },
+  {
+   "title": "'PSOC6 AI-Kit Human Activity' tagged human-activity/imu but its description is about siren/baby-cry audio + radar gesture",
+   "severity": "low",
+   "area": "content",
+   "detail": "Listing 'psoc6-ai-kit-human-activity' (index.json ~4254-4294) has features ['edge-ai','human-activity','imu'] yet its description (shared imagimob-rm boilerplate) only covers audio events (sirens, baby cry, alarms, coughs, snoring) and radar hand-gesture recognition - it never mentions IMU or human-activity. The topic tags do not match the listed description.",
+   "fix": "Either correct the description to actually cover IMU human-activity detection, or retag this entry to audio/radar/gesture to match its description (and ideally fold it into the deduped Ready Models listing)."
+  },
+  {
+   "title": "'STSAFE Authentification' listing description does not match the security/STSAFE project",
+   "severity": "low",
+   "area": "content",
+   "detail": "Listing id 'stsafe-authentification' (repo stsafe-demo at github.com/mlamp99/stsafe-demo, board STM32U5 Discovery Kit, index.json ~5037-5074) is titled for STSAFE secure-element authentication and tagged ['commands','security','telemetry'], but its description is a generic 'Device logger demo that manages two USB-connected devices via serial communication ... start/stop commands and store logs' with no mention of STSAFE, secure elements, or authentication. Also note the repo is under a personal org (mlamp99) rather than avnet-iotconnect, unlike all sibling listings.",
+   "fix": "Replace the description with text describing the STSAFE secure-element authentication demo, and verify the repo URL (github.com/mlamp99/stsafe-demo) is the intended source rather than an avnet-iotconnect repo."
+  },
+  {
+   "title": "'QCS6490-Vision-AI-Demo' listing URL points to a pull request, not the repo/demo",
+   "severity": "low",
+   "area": "data",
+   "detail": "Listing id 'qcs6490-vision-ai-demo' (index.json ~4422-4459) has url 'https://github.com/Avnet/QCS6490-Vision-AI-Demo/pull/1' - a PR link - instead of the repo root 'https://github.com/Avnet/QCS6490-Vision-AI-Demo'. All other repo-backed listings link to the repo root or a doc, so a /pull/1 link is an incorrect/unstable target.",
+   "fix": "Change the url to the repository root 'https://github.com/Avnet/QCS6490-Vision-AI-Demo'."
+  },
+  {
+   "title": "Flagship iotc-python-sdk (full Python SDK) is absent from the catalog",
+   "severity": "high",
+   "area": "completeness",
+   "detail": "AUDIT.md 'Org repos with no listing' (index.json line 56) flags iotc-python-sdk — 'Full-featured Python SDK for /IOTCONNECT. Desktop, server, or embedded Linux' — yet it has no entry in the repos[] array. The catalog lists 16 SDKs (C, Python Lite, Azure RTOS, ModusToolbox, Node, .NET, iOS, Android, Generic C, Yocto C/Python, Greengrass, etc.) but NOT the general-purpose full Python SDK, which is the most common starting point for a developer evaluating /IOTCONNECT on Linux. This is the single biggest 'engineering-friendly' gap.",
+   "fix": "Add a repos[] entry with category 'sdk': repo 'iotc-python-sdk', url https://github.com/avnet-iotconnect/iotc-python-sdk, displayName '/IOTCONNECT Python SDK', languages ['Python'], features ['commands','telemetry','ota']. Pair it with iotc-python-rest-api (line 58) as a second 'sdk' card so the REST surface is discoverable too."
+  },
+  {
+   "title": "Nordic boards are orphaned despite an existing iotc-nrf-sdk that targets them",
+   "severity": "high",
+   "area": "data",
+   "detail": "Two Nordic boards are orphans with 0 listings: Thingy-91 (nRF6943, index.json ~line 2304) and nRF52840 DK (nRF52840-DK, ~line 1000). AUDIT.md line 74 shows the org repo 'iotc-nrf-sdk — IoTConnect SDK for nRF9160 - DK, Thingy91 and AVT9152' exists but is unlisted. So the demo that would light these cards up is in the org but not wired to them. Both cards currently have no buy link and no resources, making them dead-ends.",
+   "fix": "Add an 'sdk'/'sample' repos[] entry for iotc-nrf-sdk (url https://github.com/avnet-iotconnect/iotc-nrf-sdk) with boards [nrf6943, nrf52840-dk], and add a 'quickstart' resource pointing at that repo to both board entries. This converts two dead-end orphan cards into working listings with one repo addition."
+  },
+  {
+   "title": "Jetson 'Edge AI Inference Pipeline' listings AND the J4021 board card are complete dead-ends (no link anywhere)",
+   "severity": "critical",
+   "area": "data",
+   "detail": "Three listings titled 'Edge AI Inference Pipeline (Jetson Orin NX)' (index.json lines 2968, 3006, 3044) have BOTH repo:null and url:null — the cards have no clickable destination at all. Worse, the J4021 board card (lines 1709-1726) has image:null, imageLocal:null, link:null, buy:null and resources:[] — a totally blank card whose only listing is itself a no-url dead-end. The Seeed J2021 card (line 1696) also has no buy link and no resources. AUDIT line 52 shows org repo 'iotc-jetson-demo' exists but is unlisted — it is almost certainly the missing source for these cards.",
+   "fix": "Set url (and repo if applicable) on the three Edge AI Inference Pipeline listings to https://github.com/avnet-iotconnect/iotc-jetson-demo, and add that as a 'quickstart'/'doc' resource on the seeed-j2021 and j4021 board entries. For j4021 also set image to the Azure board image or the existing digikey URL already embedded in the listing copy (line 2993: https://media.digikey.com/photos/Seeed%20Tech/114993234.jpg) and add the Seeed product link."
+  },
+  {
+   "title": "STM32MP2 Discovery Kit (and its 'Image Classification' demo) reference the WRONG local board image",
+   "severity": "medium",
+   "area": "data",
+   "detail": "The stm32mp257f-dk board entry (index.json line 2105) and the 'Image Classification and Remote Training' listing (line 3696) both set imageLocal to 'assets/boards/STM32N6570-DK.jpg' — that is the STM32N6 board photo, not the MP2. The correct file already exists on disk (assets/boards/STM32MP257F-DK.jpg). The Azure image masks this on the live card, but any local-asset fallback renders the wrong product.",
+   "fix": "Change both imageLocal values from 'assets/boards/STM32N6570-DK.jpg' to 'assets/boards/STM32MP257F-DK.jpg' (file is already present in the repo)."
+  },
+  {
+   "title": "mikroBUS Click sensor cards (Amphenol, TE Connectivity) are dead-ends with no image, link, buy, or resources",
+   "severity": "high",
+   "area": "data",
+   "detail": "AMPHENOL-MIKROBUS-CLICKS (index.json line 397) and TE-MIKROBUS-CLICKS (line 2286) each have image:null, imageLocal:null, link:null, buy:null, resources:[] yet listings:1 — fully blank cards. These are the only two boards in the catalog with literally nothing actionable (no destination at all).",
+   "fix": "Cheapest fix: add a 'link' to the vendor's mikroBUS Click landing page (e.g. mikroe.com Click boards, or the Amphenol/TE sensor pages) and one 'doc' resource pointing at the click-sensor demo repo. If no demo exists, at minimum add the vendor link and a representative product image so the card is not blank; otherwise consider hiding these two cards until content exists."
+  },
+  {
+   "title": "High-value Avnet Bridge Mobile App card is blank despite having 2 listings",
+   "severity": "medium",
+   "area": "data",
+   "detail": "IOTC-BRIDGE-APP (index.json line 365) drives 2 listings (SensorTile.Box Pro BLE flows) and links to repo iotc-gateway-mobile-app, but the card itself has image:null, imageLocal:null, buy:null, resources:[]. It is the BLE-to-cloud entry point referenced by other ST sensor boards, so a blank card here undercuts a whole demo path.",
+   "fix": "Add an app-store/screenshot image and at least one resource (kind 'doc', url https://github.com/avnet-iotconnect/iotc-gateway-mobile-app, plus the iOS/Android store links). The repo is already referenced elsewhere, so this is a copy-paste of an existing resource block."
+  },
+  {
+   "title": "Several active boards have no 'buy' link, weakening the purchase path on otherwise-good cards",
+   "severity": "medium",
+   "area": "completeness",
+   "detail": "Boards with live listings but zero resources/buy: ICAM-540-30W (Edge AI Camera, line 700), EK-RA2L1 (line 716), FPB-RA2E1 (line 812), FPB-RA0E1 (line 1612), EV19J06A (PIC32CX-BZ3, line 1205), RPI5-4GB-SINGLE (line 1626), Vision AI-KIT IQ9 (line 2351), AES-QCS6490-DK-G (line 2365), AES-ZUB-1CG-DK-G (line 2493). They render an image but offer no QuickStart or buy button, so a developer can see the part but cannot act on it. The Renesas FPB/EK and Microchip parts all have standard Avnet/Newark product pages available.",
+   "fix": "Add a 'buy' resource (Avnet/Newark/microchipDIRECT product URL) and, where a demo exists, a 'quickstart' resource to each. Highest leverage: the three Tria Vision AI kits (IQ9, QCS6490, ZUBoard 1CG) and Raspberry Pi 5, since they anchor flagship vision/edge-AI demos but currently dead-end after the card."
+  },
+  {
+   "title": "Multiple demo listings carry empty features/topics, hurting facet filtering",
+   "severity": "low",
+   "area": "content",
+   "detail": "AUDIT.md flags 'FPGA-Driven Industrial Gesture Recognition' and 'Image Classification and Remote Training' as missing topics. Both have good descriptions but features:[] (index.json lines 3272 and 3683). The three Jetson 'Edge AI Inference Pipeline' listings also have languages:[]. Empty feature arrays mean these demos never surface under the topic facets (vision/edge-ai/gesture/npu) shown in facets.topics, so they are effectively unfilterable on an 'engineering-friendly' faceted site.",
+   "fix": "Populate features on these listings from their descriptions: FPGA listing -> ['edge-ai','vision','gesture','fpga']; Image Classification -> ['edge-ai','vision','mpu','ota']; Jetson pipeline -> add languages ['Python'] and keep the existing ai/edge-ai/vision features. These tags already exist in facets.topics so no new facet plumbing is needed."
+  },
+  {
+   "title": "STM32N6 W6X IoT reference and aws-stm32-ml-at-edge-accelerator missing for a board that anchors the EdgeAI story",
+   "severity": "low",
+   "area": "completeness",
+   "detail": "AUDIT lines 46 and 76 list org repos 'stm32n6570_dk_w6x_iot_reference' (FreeRTOS + LwIP + MbedTLS secure connected reference) and 'aws-stm32-ml-at-edge-accelerator' as unlisted. The STM32N6 Discovery Kit (stm32n6570-dk, index.json line 2190) is a marquee EdgeAI board with only 2 listings and would benefit from these additional reference designs as resources.",
+   "fix": "Add the two repos as 'doc'/'sample' resources under the stm32n6570-dk board (and as standalone repos[] cards if they should appear in the demo grid). Skip the pure manifest/meta-* source repos from the AUDIT list (avnet-iotc-mtb-*-manifest, meta-iotconnect-*-source, .github) — those are correctly excluded."
+  }
+ ],
+ "triaged": {
+  "fixes": [
+   {
+    "title": "Null-url demo cards render as new-tab links to '#' (open blank tabs)",
+    "severity": "high",
+    "area": "frontend",
+    "action": "In repoCard() (index.html ~line 468), when r.url is falsy render the card as a non-anchor element (e.g. <div class=\"card\">) with no href and no target=\"_blank\"; apply the same guard to the relitem markup in openDrawer() (~line 538). This makes the 9 repo/url-null 'sample' entries (3x Jetson Edge AI Inference Pipeline, Hand-Gesture Robotics, Smart Tractor, Smart Asset Monitoring x2, Multi Stream Video, Ryzen 7 AI) inert instead of opening a blank tab to site root.",
+    "confidence": "high"
+   },
+   {
+    "title": "Board cards are unreachable by keyboard (non-focusable divs)",
+    "severity": "high",
+    "area": "frontend",
+    "action": "Add role=\"button\" and tabindex=\"0\" to the .card[data-board] div in boardCard() (index.html line 429), and add a keydown handler that calls openDrawer(card.dataset.board) on Enter/Space. The entire hardware view and the board half of the partner view currently have no keyboard path to the drawer.",
+    "confidence": "high"
+   },
+   {
+    "title": "STM32N6 vision demo wrongly bound to a Renesas DA16200 Wi-Fi Pmod board",
+    "severity": "high",
+    "area": "data",
+    "action": "In the build/catalog source, remove the 'stm32n6-edge-ai-object-detection::us159-da16200mevz' variant (board US159-DA16200MEVZ, manufacturers ['Renesas']) from the iotc-stm32-n6-demos STM32N6 NPU listing, and recompute us159-da16200mevz.listings from 2 to 1 (its only legitimate listing is the DA16K SDK).",
+    "confidence": "high"
+   },
+   {
+    "title": "Infineon PSOC Edge E84 AI Kit buy link points to the EVAL kit (wrong product)",
+    "severity": "high",
+    "area": "data",
+    "action": "Change board kitpse84aitobo1 buy and its 'Buy KIT_PSE84_AI on Newark' resource URL from the EVAL kit (kitpse84evaltobo1 / dp/49AM4460) to 'https://www.newark.com/infineon/kitpse84aitobo1/ai-eval-kit-32bit-arm-cortex-m55f/dp/49AM4459'. Confirmed by partners/infineon/readme.md line 8 and the board's own element14 resource (nsku=49AM4459).",
+    "confidence": "high"
+   },
+   {
+    "title": "'Edge AI Solutions featuring Jetson' is actually a telehealth BLE-gateway demo",
+    "severity": "high",
+    "area": "content",
+    "action": "Rename listing edge-ai-solutions-featuring-jetson to reflect the telehealth mobile-gateway demo (e.g. 'Telehealth Edge Gateway') to match its url (mcp-telehealth.png), description, and features ['ble','gateway','healthcare','telemetry']; the current 'Jetson' title is unrelated to the content.",
+    "confidence": "high"
+   },
+   {
+    "title": "'Edge AI Inference Pipeline (Jetson Orin NX)' variant bound to an Advantech ICAM-540 camera",
+    "severity": "high",
+    "area": "content",
+    "action": "In the Edge AI Inference Pipeline listing, remove the Advantech ICAM-540-30W board variant (manufacturers ['Advantech']) so the 'Jetson Orin NX' title matches its bound hardware (the genuine Seeed j4021/seeed-j2021 variants remain).",
+    "confidence": "high"
+   },
+   {
+    "title": "Drawer has no focus management (focus not moved in, trapped, or restored)",
+    "severity": "high",
+    "area": "frontend",
+    "action": "In openDrawer() store document.activeElement then focus #drClose; trap Tab within the drawer while open (wrap last->first and first->last); in closeDrawer() restore focus to the stored trigger. Escape already works, but the rest is missing.",
+    "confidence": "high"
+   },
+   {
+    "title": "Single imagimob Ready-Models repo split into 5 near-duplicate listings",
+    "severity": "medium",
+    "area": "completeness",
+    "action": "Collapse the 5 avnet-iotc-mtb-ai-imagimob-rm listings (Gesture Detect, Human Activity, Ready Models, Siren Detection, Smart Home Baby Monitor, all on cy8ckit-062s2-ai) into a single 'Ready Models' listing, and drop the imagimob-rm baby-monitor and human-activity copies in favor of the dedicated repos avnet-iotc-mtb-ai-baby-monitor and avnet-iotc-mtb-ai-imu-example; recompute the Infineon listings count afterward.",
+    "confidence": "high"
+   },
+   {
+    "title": "Muted/dim text fails WCAG AA contrast",
+    "severity": "medium",
+    "area": "frontend",
+    "action": "Darken --dim (#9AA8BA, ~2.42:1 on white) to about #5E6E82 and --muted (#6B7C92, ~4.27:1) to about #5A6B80 in index.html line 14 so all text meets 4.5:1; --dim drives the 10px uppercase filter labels (.flabel) and is the worst offender. Also add aria-hidden=\"true\" to the decorative search svg.",
+    "confidence": "high"
+   },
+   {
+    "title": "Search input has no accessible label",
+    "severity": "medium",
+    "area": "frontend",
+    "action": "Add aria-label=\"Search hardware and software\" to <input id=\"q\"> (index.html line 275); placeholder text alone is not an accessible name.",
+    "confidence": "high"
+   },
+   {
+    "title": "'Telehealth' on Microchip PIC32CX (EV19J06A) carries the wrong SensorTile mobile-app description/repo",
+    "severity": "medium",
+    "area": "content",
+    "action": "Detach board EV19J06A (PIC32CX-BZ3/WBZ35x) from the telehealth::ev19j06a listing (repo iotc-gateway-mobile-app), whose description is about the ST SensorTile.box Pro BLE gateway and never mentions the PIC32CX; or rebind it to a repo/description that actually targets the PIC32CX.",
+    "confidence": "high"
+   },
+   {
+    "title": "QCS6490-Vision-AI-Demo URL points to a pull request, not the repo",
+    "severity": "medium",
+    "area": "data",
+    "action": "Change qcs6490-vision-ai-demo url from 'https://github.com/Avnet/QCS6490-Vision-AI-Demo/pull/1' to the repo root 'https://github.com/Avnet/QCS6490-Vision-AI-Demo'.",
+    "confidence": "high"
+   },
+   {
+    "title": "STM32MP2 Discovery Kit references the wrong local board image",
+    "severity": "medium",
+    "area": "data",
+    "action": "Change imageLocal from 'assets/boards/STM32N6570-DK.jpg' to 'assets/boards/STM32MP257F-DK.jpg' (file already present) on both the stm32mp257f-dk board entry and the 'Image Classification and Remote Training' listing's board object.",
+    "confidence": "high"
+   },
+   {
+    "title": "Flagship full Python SDK (iotc-python-sdk) is absent from the catalog",
+    "severity": "medium",
+    "area": "completeness",
+    "action": "Add a repos[] entry category 'sdk' for repo iotc-python-sdk (url https://github.com/avnet-iotconnect/iotc-python-sdk, languages ['Python']); AUDIT.md line 58 flags it unlisted and it is the most common Linux starting point. Optionally add iotc-python-rest-api (AUDIT line 60) as a second sdk card.",
+    "confidence": "medium"
+   },
+   {
+    "title": "'STSAFE Authentification' description is a generic device-logger, not the STSAFE security demo",
+    "severity": "low",
+    "area": "content",
+    "action": "Replace the stsafe-authentification description (currently 'Device logger demo that manages two USB-connected devices via serial...') with text describing the STSAFE secure-element authentication demo, and confirm the repo url github.com/mlamp99/stsafe-demo (a personal org, unlike all sibling avnet-iotconnect repos) is the intended source.",
+    "confidence": "high"
+   },
+   {
+    "title": "Wire up iotc-jetson-demo so the three Jetson pipeline listings and j4021/seeed-j2021 cards have a destination",
+    "severity": "medium",
+    "area": "data",
+    "action": "Set url (and repo) on the remaining Edge AI Inference Pipeline Jetson listings to https://github.com/avnet-iotconnect/iotc-jetson-demo (AUDIT line 54 shows it unlisted) and add it as a quickstart resource on the seeed-j2021 and j4021 board entries; this gives the currently url-null Jetson cards a real link.",
+    "confidence": "medium"
+   },
+   {
+    "title": "Empty features/languages on several listings break facet filtering",
+    "severity": "low",
+    "area": "content",
+    "action": "Populate features on the empty-array listings: fpga-driven-industrial-gesture-recognition -> ['edge-ai','vision','gesture','fpga']; image-classification-and-remote-training -> ['edge-ai','vision','mpu','ota']; and add languages ['Python'] to the Jetson Edge AI Inference Pipeline listings. These tags already exist in facets.topics.",
+    "confidence": "high"
+   },
+   {
+    "title": "mikroBUS Click sensor cards (Amphenol, TE) are fully blank dead-ends",
+    "severity": "medium",
+    "area": "data",
+    "action": "For amphenol-mikrobus-clicks and te-mikrobus-clicks (image, imageLocal, link, buy all null, resources []), add at minimum a vendor 'link' (mikroe.com Click landing or the Amphenol/TE product page) and a representative image; if no demo content exists, consider hiding these two cards until content is available.",
+    "confidence": "medium"
+   },
+   {
+    "title": "Avnet Bridge Mobile App card is blank despite driving 2 listings",
+    "severity": "low",
+    "area": "data",
+    "action": "Add an image/screenshot and at least one resource to iotc-bridge-app (it has link to iotc-gateway-mobile-app but image/imageLocal/buy null, resources []); reuse the existing iotc-gateway-mobile-app doc resource block plus iOS/Android store links.",
+    "confidence": "medium"
+   },
+   {
+    "title": "Hero 'Partners' stat (5) contradicts the 22 partner groups shown",
+    "severity": "low",
+    "area": "data",
+    "action": "Resolve the mismatch: either relabel the hero stat from 'Partners' to 'Silicon partners' (matching counts.partners=5 logo'd partners) in renderHero() stats array (index.html line 359), or set counts.partners to the full partner total (22) in the data generator. Pick the one the design intends and align label and value.",
+    "confidence": "medium"
+   },
+   {
+    "title": "Nordic boards (Thingy-91, nRF52840-DK) have 0 listings despite an existing iotc-nrf-sdk",
+    "severity": "low",
+    "area": "completeness",
+    "action": "Add a repos[] sdk entry for iotc-nrf-sdk (url https://github.com/avnet-iotconnect/iotc-nrf-sdk, boards nrf6943 + nrf52840-dk; AUDIT line 76) and a quickstart resource on both board entries. Note these cards already have a working product 'link' and image, so they are not fully dead-ends — this only closes a content gap.",
+    "confidence": "medium"
+   }
+  ],
+  "summary": "Verified all 25 raw findings against index.html, index.json, AUDIT.md, and partners/infineon/readme.md, then deduplicated to 21 actionable fixes (most-important-first). Dropped/merged: the three reviewers' separate takes on the same dead-link/Jetson-dead-end problem were split into one frontend fix (render url-null cards inert) plus a separate data fix (wire up iotc-jetson-demo); the imagimob 5-way split, the baby-monitor/human-activity duplicate repos, and the human-activity mistag were merged into one dedup action; the Advantech ICAM-540 mis-tag was kept distinct from the Jetson url-null issue since they are different defects on the same listings. I downgraded two findings that overstated severity: the Nordic 'orphan' boards actually have working product links and images (not dead-ends), and the broad 'boards missing buy link' completeness sweep was narrowed to the genuinely blank cards (amphenol/te mikroBUS clicks, iotc-bridge-app). Top priority is the cluster of confirmed high-confidence data integrity bugs that mislead buyers/engineers: STM32N6 demo bound to a Renesas board, the Infineon AI-kit buy link pointing at the wrong (EVAL) product, two title/content mismatches (telehealth mislabeled as Jetson; Advantech camera mislabeled as Jetson), plus the two highest-impact a11y blockers (keyboard-unreachable board cards, new-tab-to-'#' dead links). All data claims were confirmed against the actual JSON and the Infineon README (which proves 49AM4459/kitpse84aitobo1 is the AI kit). I excluded no purely stylistic or speculative items beyond trimming the speculative image-recovery sub-suggestions; the contrast and search-label a11y items are real WCAG AA failures and were retained."
+ }
+}

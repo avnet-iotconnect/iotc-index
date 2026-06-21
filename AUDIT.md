@@ -1,20 +1,18 @@
 # /IOTCONNECT Index — Audit Report
 
-_Generated 2026-06-18T23:12:51Z_  ·  72 listings · 50 boards in use · 11 manufacturers
+_Generated 2026-06-21T19:36:11Z_  ·  104 listings · 73 boards (56 in use) · 17 manufacturers · 187 resources
 
 ## ⚠ Boards referenced but missing from the Boards sheet
-- **Amphenol Clicks** — referenced by: WFI-32 Sensor Clicks
-- **IOTC Bridge App** — referenced by: SensorTile.Box Pro with Bridge Mobile App, Telehealth
-- **J4021** — referenced by: Edge AI Inference Pipeline (Jetson Orin NX)
-- **Kerlink Gateway** — referenced by: LoRaWAN Sensor Monitoring
-- **Raspberry Pi 5** — referenced by: GGL Basic - Health, Serial
-- **SOM-6873 COM Express T6** — referenced by: Edge People Detection & Tracking with Ryzen 7 AI
-- **STM32MP157F-DK3** — referenced by: Nano Edge AI Anomaly Detection
-- **TE Clicks** — referenced by: WFI-32 Sensor Clicks
-- **WBZ350PE-I** — referenced by: Telehealth
+- none — every referenced board is defined.
 
-## Boards with no image
-- none.
+## Boards with no image (Azure or local)
+- Advantech · AI System (Lite) Based on NVIDIA® Jetson Nano (MIC-710AIL)
+- Seeed Studio · reComputer J4021 - Edge AI Computer with NVIDIA Jetson Orin NX 16GB (J4021)
+- Kerlink · Wirnet iStation Outdoor LoRaWAN Gateway (WIRNET-ISTATION)
+- Advantech · SOM-6873 AMD Ryzen Embedded 8000 COM Express Compact Type 6 Module (SOM-6873)
+- Avnet · /IOTCONNECT Bridge Mobile Gateway App (IOTC-BRIDGE-APP)
+- TE Connectivity · TE Connectivity mikroBUS Click Sensor Boards (TE-MIKROBUS-CLICKS)
+- Amphenol · Amphenol mikroBUS Click Sensor Boards (AMPHENOL-MIKROBUS-CLICKS)
 
 ## Boards not used by any listing (orphans)
 - ADLINK · MXE-230 Series with Intel (MXE-210)
@@ -25,76 +23,38 @@ _Generated 2026-06-18T23:12:51Z_  ·  72 listings · 50 boards in use · 11 manu
 - Asus · PE100A (PE100A)
 - Dell · Dell Edge Gateway 3200 (3200)
 - Dell · Dell Edge Gateway 5200 (5200)
-- Infineon · PSOC Edge E84 AI Evaluation Kit (KITPSE84AITOBO1)
-- Infineon · PSOC Edge E84 Evaluation Kit (KIT_PSE84_EVAL)
 - Infineon · PSOC™ 62S3 Wi-Fi Bluetooth® prototyping kit (CY8CPROTO-062S3-4343W)
 - Infineon · PSOC™ Control C3M5 Evaluation Kit (KIT_PSC3M5_EVK)
 - Infineon · XENSIV™ KIT CSK BGT60TR13C (KIT_CSK_BGT60TR13C)
-- Microchip · PIC32CX-BZ3 and WBZ35x Curiosity Board (EV19J06A)
-- Microchip · PIC64GX Curiosity Kit (CURIOSITY-PIC64GX1000-KIT)
 - Microchip · SAM E54 Xplained Pro Evaluation Kit (ATSAME54-XPRO)
-- NXP · FRDM Development Board for MCX N94/N54 MCUs (FRDM-MCXN947)
 - NXP · GoldBox for Vehicle Networking Development Platform (S32G-VNP-GLDBOX)
-- Nordic · Thingy-91 (nRF6943)
-- Nordic · nRF52840 DK (nRF52840-DK)
-- Raspberry Pi · Raspberry Pi5 4GB (RPI5-4GB-SINGLE)
 - Renesas · Development Kit, DA 16200, 2.4GHz Wireless Communication (DA16600MOD-DEVKT)
 - Renesas · Fast Prototyping Board for RA0E2 MCU Group (FPB-RA0E2)
 - STMicroelectronics · STM32 Nucleo-144 development board with STM32H755ZI MCU (NUCLEO-H755ZI-Q)
 - Tria / AMD · VE2302 Development Kit (AES-VE2302-DK-G)
 - Tria / NXP · NXP MaaXBoard 8M (AES-MC-SBC-IMX8M-G)
 - Tria / NXP · NXP MaaXBoard Mini (AES-MC-SBC-IMX8MINI-G)
-- Tria / NXP · NXP MaaXBoard OSM93 (AES-MAAXB-OSM93-DK-G)
 - Tria / NXP · NXP MaaXBoard ULP (AES-MAAXB-8ULP-SK-G)
 - Tria / NXP · NXP MaaxBoard RT (AES-MC-SBC-IMXRT1176-G)
 
 ## Org repos with no listing (candidates to add)
-- iotc-tria-vision-ai-kit-robotic-arm — This repo showcases TRIA Vision AI Kit 6490 running /IOTCONNECT integration with the Hiwonder XArm 1S robotic arm. 
-- iotc-stm32-sidewalk — provides /IOTCONNECT assets and documentation for STM32 Sidewalk SDK examples across multiple board configurations. It is organized to keep device templates, dashboard templates, decoders, and media separate, while each example has its own detailed README.
-- avnet-iotc-mtb-psoc-edge-aivision-webrtc — /IOTCONNECT Infineon Modus Toolbox PSOC™ Edge WebRTC with DEEPCRAFT™ AI Vision Demo
 - avnet-iotconnect.github.io — no description
 - avnet-iotc-mtb-ce-manifest — no description
 - iotc-python-lite-snap-examples — Working examples for deploying IOTCONNECT SDK using the Snapcraft Package Manager 
 - avnet-iotc-mtb-mw-manifest — no description
 - iotc-freertos-ek-ra6w1 — no description
 - stm32n6570_dk_w6x_iot_reference — Modular FreeRTOS kernel and libraries, LwIP and MbedTLS to enable secure, connected IoT applications
-- iotc-generic-c-sdk — Generic C SDK providing a reference implementation of /IOTCONNECT client functionality for Linux, Windows and MacOS.  Easily adapt or extend for different C-based platforms and hardware.
 - iotc-ameba-pro2-webrtc-kvs — no description
-- avnet-iotc-mtb-psoc-edge-motion — /IOTCONNECT Infineon Modus Toolbox PSOC™ Edge DEEPCRAFT™ Motion (IMU) Demo
-- avnet-iotc-mtb-psoc-edge-psa-tfm — /IOTCONNECT Infineon Modus Toolbox PSOC™ Edge DEEPCRAFT™ Secure PSA with TF-M Ready Models Demo
-- avnet-iotc-mtb-psoc-edge-rm — /IOTCONNECT Infineon Modus Toolbox PSOC™ Edge DEEPCRAFT™ Ready Models Demo
-- iotc-greengrass-c-sdk — Avnet /IOTCONNECT SDK for C Greengrass Component
-- avnet-iotc-mtb-ai-imu-example — Avnet /IOTCONNECT sample integration of the Infineon's Imagimob Human Activity Detection AI sample
-- iotc-python-greengrass-components — A repository to contain python-lite AWS greengrass components for IoTConnect-supported hardware
 - iotc-freertos-stm32-u5 — no description
-- iotc-arduino-uno-q-app-lab — no description
-- iotc-relay-service — A service designed to allow users to plug existing applications into /IOTCONNECT to enable telemetry-reporting and cloud commands with minimal modifications.
 - iotc-gg-nucleus-snap — Greengrass v2 Nucleus snap for Ubuntu Core, prepackaged for IOTCONNECT deployments across amd64/arm64/armhf/riscv64.
-- iotc-home-assistant-bridge — A bidirectional MQTT bridge between Home Assistant and Avnet IoTConnect, enabling real-time telemetry ingestion, cloud dashboards, and remote control of Home Assistant entities such as switches and lights.
-- iotc-mcx-zephyr-demos — Repository of Zephyr MCU examples
 - iotc-python-lite-snap — no description
-- x-cube-iotc-st67-sdk — no description
 - iotc-freertos-stm32-h5 — IoTConnect Demo with FreeRTOS, ST Secure Manager on STM32H5 73I-DK board
-- iotc-jetson-demo — no description
-- avnet-iotc-mtb-psoc-edge-voice-assistant — /IOTCONNECT Infineon Modus Toolbox PSOC™ Edge DEEPCRAFT™ Voice Assistant
-- avnet-iotc-mtb-psoc-edge-baby-monitor — /IOTCONNECT Infineon Modus Toolbox PSOC™ Edge DEEPCRAFT™ Baby Monitor
-- avnet-iotc-mtb-basic-example — Avnet /IOTCONNECT project example for Infineon's ModusToolbox IDE and framework
 - iotc-freertos-stm32-u5-ml-demo-v2 — no description
-- Maaxboard-OSM93-Demos — Demo Projects for MaaXBoard OSM93
-- iotc-ios-swift-sdk — Swift SDK to integrate /IOTCONNECT features on iOS devices. iPhone or iPad applications requiring IoT telemetry, device provisioning, etc.
-- iotc-android-sdk — Android SDK (Java/Kotlin) for /IOTCONNECT. Mobile or IoT Edge devices running Android, collecting telemetry and interacting with /IOTCONNECT.
-- avnet-iotc-mtb-ai-baby-monitor — Avnet /IOTCONNECT sample integration of the Infineon's Imagimob MTBML deployment AI sample with the Baby Monitor example.
 - iotc-aws-greengrass — IoTConnect AWS Greengrass SDL
-- iotc-yocto-python-sdk — A Yocto-compatible Python SDK for /IOTCONNECT, integrating easily into embedded Linux builds. Automated Python-based builds for devices running Yocto.
 - meta-iotc-sdk-lite — Meta-layer integration of the “lite” Python SDK for Yocto-based Linux. Building images for embedded platforms via Yocto, pre-integrated with /IOTCONNECT.
-- iotc-python-sdk — Full-featured Python SDK for /IOTCONNECT. Desktop, server, or embedded Linux for straightforward device-to-cloud integrations.
 - iotc-python-examples — no description
-- iotc-python-rest-api — This repository contains the Python Rest API to Interface with Avnet's /IOTCONNECT platform.
 - iotc-freertos-wfi32 — no description
 - .github — no description
-- iotc-node-sdk — Official Node.js SDK for /IOTCONNECT. Server-side or embedded JS runtimes on Linux, Windows, etc.
-- iotc-dotnet-sdk — .NET SDK enabling /IOTCONNECT capabilities primarily via C#. Windows or Linux .NET environments, Azure Sphere, etc.
-- iotc-yocto-c-sdk — A Yocto-compatible C SDK for /IOTCONNECT, integrating easily into embedded Linux builds. Automated builds for IoT devices running Yocto-based Linux.
 - iotc-freertos-da16k-atcmd-lib — Ready-To-Use /IOTCONNECT interface code via AT Commands using Dialog 16k-based PMOD modules for FreeRTOS-based MCUs
 - iotc-freertos-ek-ra6m4-pmod — Sample project to connect the Renesas EK-RA6M4 using AT commands via a DA16K PMOD module gateway to Avnet /IOTCONNECT.
 - iotc-freertos-wolfssl-wfi32 — /IOTCONNECT demo for Microchip WFI32-IoT with wolfSSL and Amazon-FreeRTOS.
@@ -108,49 +68,10 @@ _Generated 2026-06-18T23:12:51Z_  ·  72 listings · 50 boards in use · 11 manu
 - meta-iotconnect-c-demo-source — Yocto IoTConnect Demo C source
 - meta-iotconnect-python-demo-source — Yocto IoTConnect Python Demo source
 - avnet-iotc-mtb-super-manifest — no description
-- iotc-nrf-sdk — IoTConnect SDK for nRF9160 - DK, Thingy91 and AVT9152
 - iotc-arduino-sdk — IoTConnect SDK for Arduino boards
 - aws-stm32-ml-at-edge-accelerator — no description
 - iotc-azurertos-stm32-u5 — IoTConnect Azure RTOS TFM demo for STM32 U5
 - iotc-yocto-greengrass-sdk — no description
 
 ## Listings missing description or topics
-- Agrisense with AVR_IOT
-- Astra Asset Tracker
-- Edge AI Inference Pipeline (Jetson Orin NX)
-- Edge AI Inference Pipeline (Jetson Orin NX)
-- Edge AI Object Detection - Fruit
-- Edge AI Solutions featuring Jetson
-- Edge People Detection & Tracking with Ryzen 7 AI
-- FPGA-Driven Industrial Gesture Recognition
-- GGL Basic - Health, Serial
-- GGL Basic - Health, Serial
-- GGL Basic - Health, Serial
-- GGL Basic - Health, Serial
-- GGL Basic - Health, Serial
-- GGL Components - AI Vision Demo / PROTEUS BLE / SensorTileBox Pro BLE
-- GGL Components - AI Vision Demo / PROTEUS BLE / SensorTileBox Pro BLE
-- GGL Components - AI Vision Demo / PROTEUS BLE / SensorTileBox Pro BLE
-- Hand-Gesture Robotics Control
-- Image Classification and Remote Training
-- ISP
-- LoRaWAN Sensor Monitoring
-- Machine Monitoring
-- Managing Edge AI:  RZBoard V2L
-- Multi Stream Video and AI
-- Nano Edge AI Anomaly Detection
-- Protected Hybrid Solar Inverter
-- QCS6490-Vision-AI-Demo
-- RA Cloud Ready Platforms
-- RASyn Puck
-- SensorTile.Box Pro with Bridge Mobile App
-- Sidewalk
-- Smart Asset Monitoring
-- Smart Tractor
-- SPARK Smart Parking Demo
-- STM32N6 Edge AI Demos
-- STM32N6 Edge AI Object Detection
-- STSAFE Authentification
-- Telehealth
-- Urban Sound Event Classifier
-- Vision AI Demonstrator
+- none.

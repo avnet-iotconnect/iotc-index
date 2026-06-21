@@ -1,0 +1,11 @@
+# transient build / QA artifacts
+__pycache__/
+*.pyc
+_shot_*.png
+_dom.html
+_check.js
+.DS_Store
+
+# office lock files (e.g. LibreOffice while editing the workbook)
+.~lock.*#
+~$*

@@ -1,0 +1,88 @@
+{
+ "patches": [
+  {
+   "name": "Agrisense with AVR_IOT",
+   "languages": "C",
+   "repo": "avnet-iotconnect/iotc-arduino-mchp-avr-sdk",
+   "link": "https://www.youtube.com/watch?v=OFP0efBtGyg",
+   "image": "",
+   "note": "Verified Avnet/IOTCONNECT C SDK repo (iotc-arduino-mchp-avr-sdk) for AVR IoT Cellular Mini; Arduino-based, C/C++ (SDK is C, demo uses C SDK per context). No Agrisense-specific repo exists. Replaced generic Hackster getting-started link (WebFetch confirmed it's NOT agriculture-related) with the directly relevant Avnet webinar 'Developing a Soil Moisture Sensor with the AVR-IoT Cellular Mini Board and Avnet IoTConnect' (YouTube). High confidence."
+  },
+  {
+   "name": "Drone",
+   "languages": "C++",
+   "repo": "",
+   "link": "https://aws.amazon.com/marketplace/pp/prodview-cskaj6vsde6xu",
+   "image": "https://scroll.media/wp-content/uploads/2025/09/indeema-office_drone-project-scaled.png",
+   "note": "Indeema \"Connected UAV Drone Platform\" — firmware bridge connecting drones to AWS via /IOTCONNECT (AWS IoT Core/Greengrass). Optimized flight firmware -> C/C++. No GitHub repo exists (checked avnet-iotconnect org + searches). Replaced generic Indeema services page with the /IOTCONNECT-specific AWS Marketplace listing. Image is a verified-hotlinkable PNG of the Indeema drone project from the Scroll Media article."
+  },
+  {
+   "name": "Telehealth Mobile Gateway",
+   "languages": "Mobile",
+   "repo": "avnet-iotconnect/iotc-gateway-mobile-app",
+   "link": "https://github.com/avnet-iotconnect/iotc-gateway-mobile-app",
+   "image": "https://saleshosted.z13.web.core.windows.net/dashboard/r2/mcp-telehealth.png",
+   "note": "No-code /IOTCONNECT mobile gateway app (iOS/Android) bridges BLE health sensors to cloud; matches Microchip Telehealth Remote Patient Monitoring Reference Design. Repo iotc-gateway-mobile-app verified via GitHub. Current link verified as valid telehealth dashboard PNG (Temp/Pulse/SpO2). High confidence."
+  },
+  {
+   "name": "Edge People Detection & Tracking with Ryzen 7 AI",
+   "languages": "Python",
+   "repo": "",
+   "link": "https://www.advantech.com/en-us/products/e5f3ee70-5c26-4757-93f4-a9d4150a860f/som-6873/mod_1d0156b1-61b6-48fb-b768-549bb1be3c1c",
+   "image": "",
+   "note": "No dedicated GitHub repo or Avnet/Hackster demo page found for this exact demo in github.com/avnet-iotconnect or github.com/Avnet (searched ryzen/amd/advantech/people/detection - none match). Language inferred as Python (AMD Ryzen AI Software / ONNX Runtime + YOLO vision stack; comparable AMD Ryzen AI object-detection Hackster demos are Python). Best verified public URL is the Advantech SOM-6873 product page (the target hardware), which describes its AMD XDNA NPU vision/AI capability. Medium confidence on link; low confidence a project-specific page exists."
+  },
+  {
+   "name": "EV Charging - Commercial",
+   "languages": "C++",
+   "repo": "",
+   "link": "https://witekio.com/blog/ev-charging-software/",
+   "image": "",
+   "note": "Witekio EV charging software demo on Tria/NXP SM2S-IMX8PLUS (i.MX8M Plus, Linux) with IOTCONNECT + smart-charger load balancing. Current Witekio blog link verified live (HTTP 200 via browser UA; WebFetch gets bot-blocked 403) and is the canonical demo page — no better Avnet/Hackster/video page found. Lang = C++ (i.MX Linux app, Witekio's typical stack). Found avnet-iotconnect/iotc-evse-example repo but it is an Azure RTOS MCU C SDK example, a different EVSE target, so left repo blank rather than mismatch. Medium confidence on language; high on link."
+  },
+  {
+   "name": "FPGA-Driven Industrial Gesture Recognition",
+   "languages": "Python",
+   "repo": "AlbertaBeef/asl_tutorial",
+   "link": "https://www.hackster.io/AlbertaBeef/asl-classification-with-vitis-ai-025765",
+   "image": "",
+   "note": "Verified Hackster page: ASL classification with Vitis AI on ZUBoard 1CG (also Ultra96-V2), Zynq UltraScale+. Python/Jupyter implementation (asl_classify_live.py, OpenCV, MobileNetV2/VGG-16 DPU deployment). Real repo github.com/AlbertaBeef/asl_tutorial confirmed (99% Jupyter Notebook). No dedicated avnet-iotconnect or Avnet repo found for this specific demo. Current link is good and relevant; kept it."
+  },
+  {
+   "name": "Hand-Gesture Robotics Control",
+   "languages": "Python",
+   "repo": "Avnet/hand_controller",
+   "link": "https://www.hackster.io/538636/hand-controlled-robot-car-5324ec",
+   "image": "",
+   "note": "Verified repo github.com/Avnet/hand_controller (\"Control a ROS2 robot using your hands\", Python 96.1%, release tag GTKGUI-6490, Nov 2025) — the actual implementation for this QCS6490/Vision AI-Kit 6490 hand-gesture ROS2 robot demo. Link is the Hackster \"Hand-Controlled Robot Car\" quickstart (Houston/Bergeron/Saka, Dec 2025) covering the exact demo. High confidence."
+  },
+  {
+   "name": "Multi Stream Video and AI",
+   "languages": "Python",
+   "repo": "",
+   "link": "https://www.youtube.com/watch?v=mNAb2_xOkrs",
+   "image": "",
+   "note": "No dedicated GitHub repo exists for this IQ9 demo (checked avnet-iotconnect and Avnet orgs; only related repo Avnet/QCS6490-Vision-AI-Demo targets the 6490 kit, max 2 models, not IQ9's 9 feeds). Best link is the YouTube video \"Multi-Stream Edge AI with Qualcomm Dragonwing demo at Embedded World 2025\" showing multiple concurrent streams + multiple AI models in real time on Dragonwing IQ9. Demos/example apps are Python (GStreamer/GTK) on Yocto Linux. Medium confidence on link match; high on language and no-repo."
+  },
+  {
+   "name": "Smart Asset Monitoring",
+   "languages": "Python",
+   "repo": "",
+   "link": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/microchip-polarfire-soc-dk",
+   "image": "",
+   "note": "\"Smart Asset Monitoring\" is an Avnet /IOTCONNECT Solution Accelerator (cloud dashboard with KPIs, anomaly detection, predictive analytics) layered on edge telemetry; no demo-specific GitHub repo exists. Target boards (PolarFire MPFS-DISCO-KIT, SAMA7D65 EV63J76A) are enabled via the Python Lite SDK demos, so language is Python. Link points to the verified-live PolarFire SoC DK QuickStart demo (SAMA7D65 equivalent: .../microchip-sama7d65-curiosity). Avnet solution pages (avnet.com .../iot-accelerators/asset-monitoring/ and AWS Marketplace listing) exist but block automated fetch (HTTP 400). Medium confidence on link choice."
+  },
+  {
+   "name": "Smart Tractor",
+   "languages": "Python",
+   "repo": "",
+   "link": "https://www.tria-technologies.com/product/tria-sm2s-imx8plus/",
+   "image": "",
+   "note": "No demo-specific repo exists: searched github.com/avnet-iotconnect (tractor/simpleflex/sm2s/imx8 all 0 hits) and Avnet org. It's a Linux/Yocto MPU app on Tria SM2S-IMX8PLUS; /IOTCONNECT path is the Python SDK (iotc-yocto-python-sdk has an sm2s-imx8mp board readme), so language=Python. No Smart-Tractor-specific Hackster/video/blog found; best verified URL is the target hardware (SimpleFlex SMARC COM) product page on Tria (formerly embedded.avnet.com, now 301-redirects to tria-technologies.com). Medium confidence on link, high on no-repo."
+  }
+ ],
+ "verify": {
+  "checked": "Verified all 10 patches by WebFetching the questionable image and link URLs.\n\nIMAGES (both resolve as valid PNGs, NOT problems):\n- Drone image https://scroll.media/.../indeema-office_drone-project-scaled.png -> downloaded as valid image/png (1012KB). Real image.\n- Telehealth image https://saleshosted.z13.web.core.windows.net/dashboard/r2/mcp-telehealth.png -> downloaded as valid image/png (73KB). Real image. (The text-rendering helper reported both as \"corrupted\" only because it cannot render binary; the binaries downloaded fine and are valid PNGs.)\n\nLINKS (all resolve and match their demos):\n- Agrisense YouTube OFP0efBtGyg -> title \"Developing a Soil Moisture Sensor with the AVR-IoT Cellular Mini Board and Avnet IoTConnect\". Matches. C/Arduino plausible.\n- Drone AWS Marketplace prodview-cskaj6vsde6xu -> \"Connected UAV Drone Platform by Indeema\", sold by Avnet, built on /IOTCONNECT. Exact match. C++ plausible.\n- Telehealth repo/link github.com/avnet-iotconnect/iotc-gateway-mobile-app -> valid. Mobile language fits.\n- Advantech SOM-6873 page -> valid; AMD Ryzen Embedded 8000 + AMD XDNA NPU 16 TOPS confirmed. Python (Ryzen AI/ONNX/YOLO) is a reasonable inference for a vision demo.\n- EV Charging Witekio blog -> HTTP 403 (bot-blocked). Note already discloses this and says it is live via browser UA. Not a fabrication; consistent with note.\n- FPGA Gesture Hackster asl-classification-with-vitis-ai-025765 -> valid; ASL classification, Vitis AI, ZUBoard 1CG/Ultra96-V2, Python scripts (asl_classify_live.py). Repo AlbertaBeef/asl_tutorial matches. Correct.\n- Hand-Gesture Hackster 538636/hand-controlled-robot-car-5324ec -> valid; Tria Vision AI Kit 6490 (QCS6490), ROS2 distributed app, GTK + Flask UI, Python. Matches repo Avnet/hand_controller. Correct.\n- Multi Stream YouTube mNAb2_xOkrs -> title \"Multi-Stream Edge AI with Qualcomm Dragonwing demo at Embedded World 2025\". Matches (video does not name IQ9 explicitly, but Dragonwing multi-stream is the right demo). Python plausible.\n- Smart Asset Monitoring github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/microchip-polarfire-soc-dk -> valid; PolarFire SoC DK + IoTConnect Python Lite SDK. Python fits.\n- Smart Tractor tria-technologies.com/product/tria-sm2s-imx8plus/ -> valid; Tria SM2S-IMX8PLUS SMARC (i.MX 8M Plus), Linux/Android/Windows BSPs. Python (Yocto Python SDK) plausible.",
+  "problems": []
+ }
+}
