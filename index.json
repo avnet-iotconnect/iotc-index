@@ -1,33 +1,17 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-06-22T23:38:56Z",
+  "generated": "2026-06-22T23:53:56Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
   "brandBase": "assets/brand/",
   "partners": [
     {
-      "name": "ADLINK",
-      "slug": "adlink",
-      "logo": null,
-      "info": null,
-      "boards": 1,
-      "listings": 0
-    },
-    {
       "name": "AMD",
       "slug": "amd",
-      "logo": null,
+      "logo": "assets/brand/amd-logo.svg",
       "info": null,
-      "boards": 1,
-      "listings": 0
-    },
-    {
-      "name": "Advantech",
-      "slug": "advantech",
-      "logo": null,
-      "info": null,
-      "boards": 3,
+      "boards": 4,
       "listings": 2
     },
     {
@@ -39,22 +23,6 @@
       "listings": 1
     },
     {
-      "name": "Arduino",
-      "slug": "arduino",
-      "logo": null,
-      "info": null,
-      "boards": 2,
-      "listings": 1
-    },
-    {
-      "name": "Asus",
-      "slug": "asus",
-      "logo": null,
-      "info": null,
-      "boards": 1,
-      "listings": 0
-    },
-    {
       "name": "Avnet",
       "slug": "avnet",
       "logo": null,
@@ -63,12 +31,12 @@
       "listings": 2
     },
     {
-      "name": "Dell",
-      "slug": "dell",
+      "name": "Broadcom",
+      "slug": "broadcom",
       "logo": null,
       "info": null,
-      "boards": 2,
-      "listings": 0
+      "boards": 1,
+      "listings": 2
     },
     {
       "name": "Infineon",
@@ -79,12 +47,12 @@
       "listings": 18
     },
     {
-      "name": "Kerlink",
-      "slug": "kerlink",
-      "logo": null,
+      "name": "Intel",
+      "slug": "intel",
+      "logo": "assets/brand/intel-logo.svg",
       "info": null,
-      "boards": 1,
-      "listings": 1
+      "boards": 4,
+      "listings": 0
     },
     {
       "name": "Microchip",
@@ -97,18 +65,18 @@
     {
       "name": "NVIDIA",
       "slug": "nvidia",
-      "logo": null,
+      "logo": "assets/brand/nvidia-logo.svg",
       "info": null,
-      "boards": 1,
-      "listings": 1
+      "boards": 4,
+      "listings": 4
     },
     {
       "name": "NXP",
       "slug": "nxp",
       "logo": "assets/brand/nxp-logo.png",
       "info": "https://www.avnet.com/iotconnect/nxp",
-      "boards": 4,
-      "listings": 13
+      "boards": 10,
+      "listings": 19
     },
     {
       "name": "Nordic",
@@ -119,36 +87,36 @@
       "listings": 1
     },
     {
-      "name": "Raspberry Pi",
-      "slug": "raspberry-pi",
-      "logo": null,
+      "name": "Qualcomm",
+      "slug": "qualcomm",
+      "logo": "assets/brand/qualcomm-logo.svg",
       "info": null,
-      "boards": 1,
-      "listings": 2
+      "boards": 3,
+      "listings": 8
     },
     {
       "name": "Renesas",
       "slug": "renesas",
       "logo": "assets/brand/renesas-logo.png",
       "info": "https://www.avnet.com/iotconnect/renesas",
-      "boards": 14,
-      "listings": 11
+      "boards": 16,
+      "listings": 14
     },
     {
       "name": "STMicroelectronics",
       "slug": "stmicroelectronics",
       "logo": "assets/brand/st-logo.png",
       "info": "https://www.avnet.com/iotconnect/st",
-      "boards": 14,
+      "boards": 15,
       "listings": 43
     },
     {
-      "name": "Seeed Studio",
-      "slug": "seeed-studio",
+      "name": "Semtech",
+      "slug": "semtech",
       "logo": null,
       "info": null,
       "boards": 1,
-      "listings": 2
+      "listings": 1
     },
     {
       "name": "TE Connectivity",
@@ -157,61 +125,24 @@
       "info": null,
       "boards": 0,
       "listings": 1
-    },
-    {
-      "name": "Tria / AMD",
-      "slug": "tria-amd",
-      "logo": null,
-      "info": null,
-      "boards": 2,
-      "listings": 1
-    },
-    {
-      "name": "Tria / NXP",
-      "slug": "tria-nxp",
-      "logo": null,
-      "info": null,
-      "boards": 6,
-      "listings": 7
-    },
-    {
-      "name": "Tria / Qualcom",
-      "slug": "tria-qualcom",
-      "logo": null,
-      "info": null,
-      "boards": 2,
-      "listings": 7
-    },
-    {
-      "name": "Tria / Renesas",
-      "slug": "tria-renesas",
-      "logo": null,
-      "info": null,
-      "boards": 2,
-      "listings": 3
     }
   ],
   "facets": {
     "manufacturers": [
-      "Advantech",
+      "AMD",
       "Amphenol",
-      "Arduino",
       "Avnet",
+      "Broadcom",
       "Infineon",
-      "Kerlink",
       "Microchip",
       "NVIDIA",
       "NXP",
       "Nordic",
-      "Raspberry Pi",
+      "Qualcomm",
       "Renesas",
       "STMicroelectronics",
-      "Seeed Studio",
-      "TE Connectivity",
-      "Tria / AMD",
-      "Tria / NXP",
-      "Tria / Qualcom",
-      "Tria / Renesas"
+      "Semtech",
+      "TE Connectivity"
     ],
     "topics": [
       {
@@ -408,11 +339,12 @@
           "mobile"
         ],
         "resources": [],
+        "integrator": "Avnet",
         "listings": 2
       },
       {
         "slug": "afx00001",
-        "vendor": "Arduino",
+        "vendor": "STMicroelectronics",
         "name": "Arduino OPTA RS485",
         "partNumber": "AFX00001",
         "image": "https://store-usa.arduino.cc/cdn/shop/files/AFX00001_01.iso_643x483.jpg?v=1744099182",
@@ -426,11 +358,12 @@
           "AWS Qual"
         ],
         "resources": [],
+        "integrator": "Arduino",
         "listings": 0
       },
       {
         "slug": "arduino-uno-q",
-        "vendor": "Arduino",
+        "vendor": "Qualcomm",
         "name": "Arduino UNO Q",
         "partNumber": "ARDUINO-UNO-Q",
         "image": null,
@@ -450,6 +383,7 @@
             "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/arduino-uno-q"
           }
         ],
+        "integrator": "Arduino",
         "listings": 1
       },
       {
@@ -475,6 +409,7 @@
             "url": "https://github.com/avnet-iotconnect/iotc-lora-demos"
           }
         ],
+        "integrator": "STMicroelectronics",
         "listings": 1
       },
       {
@@ -510,6 +445,7 @@
             "url": "https://github.com/avnet-iotconnect/iotc-arduino-mchp-avr-sdk"
           }
         ],
+        "integrator": "Microchip",
         "listings": 2
       },
       {
@@ -545,6 +481,7 @@
             "url": "https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/ck-rx65n"
           }
         ],
+        "integrator": "Renesas",
         "listings": 1
       },
       {
@@ -579,6 +516,7 @@
             "url": "https://github.com/avnet-iotconnect/iotc-freertos-ck-ra6m5-v2-pmod"
           }
         ],
+        "integrator": "Renesas",
         "listings": 1
       },
       {
@@ -606,6 +544,7 @@
             "url": "https://github.com/avnet-iotconnect/iotc-dialog-da16k-sdk/tree/main"
           }
         ],
+        "integrator": "Renesas",
         "listings": 1
       },
       {
@@ -630,11 +569,12 @@
             "url": "https://github.com/avnet-iotconnect/iotc-dialog-da16k-sdk/tree/main"
           }
         ],
+        "integrator": "Renesas",
         "listings": 1
       },
       {
         "slug": "3200",
-        "vendor": "Dell",
+        "vendor": "Intel",
         "name": "Dell Edge Gateway 3200",
         "partNumber": "3200",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/Dell_3200.png",
@@ -649,11 +589,12 @@
           "Greengrass"
         ],
         "resources": [],
+        "integrator": "Dell",
         "listings": 0
       },
       {
         "slug": "5200",
-        "vendor": "Dell",
+        "vendor": "Intel",
         "name": "Dell Edge Gateway 5200",
         "partNumber": "5200",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/Dell-5200.png",
@@ -668,6 +609,7 @@
           "Greengrass"
         ],
         "resources": [],
+        "integrator": "Dell",
         "listings": 0
       },
       {
@@ -688,6 +630,7 @@
             "url": "https://github.com/avnet-iotconnect/iotc-dialog-da16k-sdk/tree/main"
           }
         ],
+        "integrator": "Renesas",
         "listings": 1
       },
       {
@@ -717,11 +660,12 @@
             "url": "https://github.com/avnet-iotconnect/iotc-dialog-da16k-sdk/tree/main"
           }
         ],
+        "integrator": "Renesas",
         "listings": 1
       },
       {
         "slug": "icam-540-30w",
-        "vendor": "Advantech",
+        "vendor": "NVIDIA",
         "name": "Edge AI Camera",
         "partNumber": "ICAM-540-30W",
         "image": "https://apn-portal.my.salesforce.com/servlet/servlet.ImageServer?id=015aq000000IvZJAA0&oid=00DE0000000c48tMAA",
@@ -733,6 +677,7 @@
           "Greengrass"
         ],
         "resources": [],
+        "integrator": "Advantech",
         "listings": 1
       },
       {
@@ -747,6 +692,7 @@
         "qualifications": [],
         "tags": [],
         "resources": [],
+        "integrator": "Renesas",
         "listings": 1
       },
       {
@@ -781,6 +727,7 @@
             "url": "https://github.com/avnet-iotconnect/iotc-freertos-ek-ra6m4-pmod"
           }
         ],
+        "integrator": "Renesas",
         "listings": 1
       },
       {
@@ -815,6 +762,7 @@
             "url": "https://github.com/avnet-iotconnect/iotc-freertos-ek-ra8m1-pmod"
           }
         ],
+        "integrator": "Renesas",
         "listings": 1
       },
       {
@@ -829,6 +777,7 @@
         "qualifications": [],
         "tags": [],
         "resources": [],
+        "integrator": "Renesas",
         "listings": 0
       },
       {
@@ -843,6 +792,7 @@
         "qualifications": [],
         "tags": [],
         "resources": [],
+        "integrator": "Renesas",
         "listings": 1
       },
       {
@@ -873,6 +823,7 @@
             "url": "https://github.com/avnet-iotconnect/iotc-mcx-zephyr-demos"
           }
         ],
+        "integrator": "NXP",
         "listings": 1
       },
       {
@@ -898,6 +849,7 @@
             "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/nxp-s32g-vnp-gldbox3"
           }
         ],
+        "integrator": "NXP",
         "listings": 1
       },
       {
@@ -923,6 +875,7 @@
             "url": "https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/mimxrt1060"
           }
         ],
+        "integrator": "NXP",
         "listings": 2
       },
       {
@@ -956,6 +909,7 @@
             "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/nxp-frdm-imx-93"
           }
         ],
+        "integrator": "NXP",
         "listings": 9
       },
       {
@@ -980,6 +934,7 @@
             "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/nvidia-jetson-orin"
           }
         ],
+        "integrator": "NVIDIA",
         "listings": 1
       },
       {
@@ -998,11 +953,12 @@
           "Greengrass"
         ],
         "resources": [],
+        "integrator": "AMD",
         "listings": 0
       },
       {
         "slug": "msc-sm2s-imx8plus",
-        "vendor": "Tria / NXP",
+        "vendor": "NXP",
         "name": "MSC SM2S-IMX8PLUS",
         "partNumber": "MSC SM2S-IMX8PLUS",
         "image": null,
@@ -1033,11 +989,12 @@
             "url": "https://embedded.avnet.com/product/msc-sm2s-imx8plus"
           }
         ],
+        "integrator": "Tria / NXP",
         "listings": 2
       },
       {
         "slug": "mxe-210",
-        "vendor": "ADLINK",
+        "vendor": "Intel",
         "name": "MXE-230 Series with Intel",
         "partNumber": "MXE-210",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ADLINK_MXE-230.png",
@@ -1052,6 +1009,7 @@
           "Greengrass"
         ],
         "resources": [],
+        "integrator": "ADLINK",
         "listings": 0
       },
       {
@@ -1070,11 +1028,12 @@
           "AWS Qual"
         ],
         "resources": [],
+        "integrator": "Nordic",
         "listings": 1
       },
       {
         "slug": "aes-mc-sbc-imx8m-g",
-        "vendor": "Tria / NXP",
+        "vendor": "NXP",
         "name": "NXP MaaXBoard 8M",
         "partNumber": "AES-MC-SBC-IMX8M-G",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-MC-SBC-IMX8M-G.png",
@@ -1124,11 +1083,12 @@
             "url": "https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-yocto-c-sdk/voyager-demo/templates/device/Voyager%20Sensors_template.JSON"
           }
         ],
+        "integrator": "Tria / NXP",
         "listings": 1
       },
       {
         "slug": "aes-mc-sbc-imx8mini-g",
-        "vendor": "Tria / NXP",
+        "vendor": "NXP",
         "name": "NXP MaaXBoard Mini",
         "partNumber": "AES-MC-SBC-IMX8MINI-G",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-MC-SBC-IMX8MINI-G.png",
@@ -1154,11 +1114,12 @@
             "url": "https://bcove.video/3A04q5f"
           }
         ],
+        "integrator": "Tria / NXP",
         "listings": 0
       },
       {
         "slug": "aes-maaxb-osm93-dk-g",
-        "vendor": "Tria / NXP",
+        "vendor": "NXP",
         "name": "NXP MaaXBoard OSM93",
         "partNumber": "AES-MAAXB-OSM93-DK-G",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-MAAXB-OSM93-DK-G.png",
@@ -1194,11 +1155,12 @@
             "url": "https://github.com/Avnet/MaaXBoard-OSM93-HUB"
           }
         ],
+        "integrator": "Tria / NXP",
         "listings": 2
       },
       {
         "slug": "aes-mc-sbc-imxrt1176-g",
-        "vendor": "Tria / NXP",
+        "vendor": "NXP",
         "name": "NXP MaaxBoard RT",
         "partNumber": "AES-MC-SBC-IMXRT1176-G",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-MC-SBC-IMXRT1176-G.png",
@@ -1219,11 +1181,12 @@
             "url": "https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/maaxboardrt"
           }
         ],
+        "integrator": "Tria / NXP",
         "listings": 1
       },
       {
         "slug": "aes-maaxb-8ulp-sk-g",
-        "vendor": "Tria / NXP",
+        "vendor": "NXP",
         "name": "NXP MaaXBoard ULP",
         "partNumber": "AES-MAAXB-8ULP-SK-G",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-MAAXB-8ULP-SK-G.png",
@@ -1253,11 +1216,12 @@
             "url": "https://github.com/avnet-iotconnect/iotc-yocto-python-sdk/blob/hardknott/board_specific_readmes/maaxboard.md"
           }
         ],
+        "integrator": "Tria / NXP",
         "listings": 1
       },
       {
         "slug": "pe100a",
-        "vendor": "Asus",
+        "vendor": "NVIDIA",
         "name": "PE100A",
         "partNumber": "PE100A",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/Asus_PE100a.png",
@@ -1272,6 +1236,7 @@
           "Greengrass"
         ],
         "resources": [],
+        "integrator": "Asus",
         "listings": 0
       },
       {
@@ -1286,6 +1251,7 @@
         "qualifications": [],
         "tags": [],
         "resources": [],
+        "integrator": "Microchip",
         "listings": 1
       },
       {
@@ -1313,6 +1279,7 @@
             "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/microchip-pic64gx1000"
           }
         ],
+        "integrator": "Microchip",
         "listings": 1
       },
       {
@@ -1342,6 +1309,7 @@
             "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/microchip-polarfire-soc-dk"
           }
         ],
+        "integrator": "Microchip",
         "listings": 4
       },
       {
@@ -1367,6 +1335,7 @@
             "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/microchip-polarfire-soc-vk"
           }
         ],
+        "integrator": "Microchip",
         "listings": 3
       },
       {
@@ -1392,6 +1361,7 @@
             "url": "https://github.com/avnet-iotconnect/iotc-python-examples/tree/main/PROTEUS_MP157F_Demo"
           }
         ],
+        "integrator": "STMicroelectronics",
         "listings": 1
       },
       {
@@ -1464,6 +1434,7 @@
             "url": "https://github.com/avnet-iotconnect/avnet-iotc-mtb-psoc-edge-rm"
           }
         ],
+        "integrator": "Infineon",
         "listings": 1
       },
       {
@@ -1531,6 +1502,7 @@
             "url": "https://github.com/avnet-iotconnect/avnet-iotc-mtb-psoc-edge-rm"
           }
         ],
+        "integrator": "Infineon",
         "listings": 6
       },
       {
@@ -1595,6 +1567,7 @@
             "url": "https://github.com/avnet-iotconnect/avnet-iotc-mtb-ai-baby-monitor"
           }
         ],
+        "integrator": "Infineon",
         "listings": 7
       },
       {
@@ -1625,6 +1598,7 @@
             "url": "https://github.com/avnet-iotconnect/avnet-iotc-mtb-basic-example"
           }
         ],
+        "integrator": "Infineon",
         "listings": 2
       },
       {
@@ -1655,6 +1629,7 @@
             "url": "https://github.com/avnet-iotconnect/avnet-iotc-mtb-basic-example"
           }
         ],
+        "integrator": "Infineon",
         "listings": 2
       },
       {
@@ -1685,6 +1660,7 @@
             "url": "https://github.com/avnet-iotconnect/avnet-iotc-mtb-basic-example"
           }
         ],
+        "integrator": "Infineon",
         "listings": 1
       },
       {
@@ -1699,6 +1675,7 @@
         "qualifications": [],
         "tags": [],
         "resources": [],
+        "integrator": "Infineon",
         "listings": 0
       },
       {
@@ -1713,11 +1690,12 @@
         "qualifications": [],
         "tags": [],
         "resources": [],
+        "integrator": "Renesas",
         "listings": 1
       },
       {
         "slug": "rpi5-4gb-single",
-        "vendor": "Raspberry Pi",
+        "vendor": "Broadcom",
         "name": "Raspberry Pi5 4GB",
         "partNumber": "RPI5-4GB-SINGLE",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/RPI5.png",
@@ -1740,11 +1718,12 @@
             "url": "https://github.com/avnet-iotconnect/meta-iotconnect-docs/tree/main/Build/RaspberryPi"
           }
         ],
+        "integrator": "Raspberry Pi",
         "listings": 2
       },
       {
         "slug": "aes-rasynb-120",
-        "vendor": "Tria / Renesas",
+        "vendor": "Renesas",
         "name": "RASynBoard NDP120 Evaluation Kit",
         "partNumber": "AES-RASYNB-120",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-RASYNB-120.png",
@@ -1794,11 +1773,12 @@
             "url": "https://www.hackster.io/bwilless/the-rasynpuck-demo-what-can-you-build-with-the-rasynboard-bfd912"
           }
         ],
+        "integrator": "Tria / Renesas",
         "listings": 1
       },
       {
         "slug": "seeed-j2021",
-        "vendor": "Seeed Studio",
+        "vendor": "NVIDIA",
         "name": "reComputer J2021 - Edge AI Computer with NVIDIA® Jetson Xavier™ NX 8GB",
         "partNumber": "SEEED-j2021",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/SEEED-j2021.png",
@@ -1808,6 +1788,7 @@
         "qualifications": [],
         "tags": [],
         "resources": [],
+        "integrator": "Seeed Studio",
         "listings": 1
       },
       {
@@ -1832,6 +1813,7 @@
             "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/renesas-rzg3e-evk"
           }
         ],
+        "integrator": "Renesas",
         "listings": 1
       },
       {
@@ -1855,11 +1837,12 @@
             "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/renesas-rzv2h-evk"
           }
         ],
+        "integrator": "Renesas",
         "listings": 2
       },
       {
         "slug": "aes-rzb-v2l-sk-g",
-        "vendor": "Tria / Renesas",
+        "vendor": "Renesas",
         "name": "RZBoard V2L",
         "partNumber": "AES-RZB-V2L-SK-G",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-RZB-V2L-SK-G.png",
@@ -1934,6 +1917,7 @@
             "url": "https://www.hackster.io/lucas-keller/preview-rzbuddy-the-smart-pet-companion-for-anxiety-c50c87"
           }
         ],
+        "integrator": "Tria / Renesas",
         "listings": 2
       },
       {
@@ -1959,6 +1943,7 @@
             "url": "https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/same54xpro"
           }
         ],
+        "integrator": "Microchip",
         "listings": 1
       },
       {
@@ -1998,6 +1983,7 @@
             "url": "https://github.com/avnet-iotconnect/meta-iotconnect-docs/tree/main/Build/SAMA5D2/kirkstone"
           }
         ],
+        "integrator": "Microchip",
         "listings": 1
       },
       {
@@ -2029,6 +2015,7 @@
             "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/microchip-sama7d65-curiosity"
           }
         ],
+        "integrator": "Microchip",
         "listings": 5
       },
       {
@@ -2059,11 +2046,12 @@
             "url": "https://github.com/avnet-iotconnect/iotc-python-examples/tree/main/MKBOXPRO_MP157F_Demo"
           }
         ],
+        "integrator": "STMicroelectronics",
         "listings": 1
       },
       {
         "slug": "som-6873",
-        "vendor": "Advantech",
+        "vendor": "AMD",
         "name": "SOM-6873 AMD Ryzen Embedded 8000 COM Express Compact Type 6 Module",
         "partNumber": "SOM-6873",
         "image": null,
@@ -2077,6 +2065,7 @@
           "edge"
         ],
         "resources": [],
+        "integrator": "Advantech",
         "listings": 1
       },
       {
@@ -2093,6 +2082,7 @@
         ],
         "tags": [],
         "resources": [],
+        "integrator": "STMicroelectronics",
         "listings": 0
       },
       {
@@ -2123,6 +2113,7 @@
             "url": "https://github.com/avnet-iotconnect/iotc-azurertos-stm32-h5"
           }
         ],
+        "integrator": "STMicroelectronics",
         "listings": 1
       },
       {
@@ -2152,6 +2143,7 @@
             "url": "https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/stm32l4"
           }
         ],
+        "integrator": "STMicroelectronics",
         "listings": 1
       },
       {
@@ -2197,6 +2189,7 @@
             "url": "https://github.com/avnet-iotconnect/meta-iotconnect-docs/tree/main/Build/STM32MP1/mickledore-st-x-linux-ai-demo"
           }
         ],
+        "integrator": "STMicroelectronics",
         "listings": 10
       },
       {
@@ -2257,6 +2250,7 @@
             "url": "https://github.com/avnet-iotconnect/iotc-python-examples/tree/main/PROTEUS_MP157F_Demo"
           }
         ],
+        "integrator": "STMicroelectronics",
         "listings": 9
       },
       {
@@ -2302,6 +2296,7 @@
             "url": "https://github.com/avnet-iotconnect/meta-iotconnect-docs/tree/main/QuickStart/ST/STM32MP257/demo-iotc-x-linux-ai"
           }
         ],
+        "integrator": "STMicroelectronics",
         "listings": 9
       },
       {
@@ -2367,6 +2362,7 @@
             "url": "https://players.brightcove.net/4598493563001/BkZJhSKu_default/index.html?videoId=6363655095112"
           }
         ],
+        "integrator": "STMicroelectronics",
         "listings": 4
       },
       {
@@ -2391,6 +2387,7 @@
             "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/stm32mp215f-dk"
           }
         ],
+        "integrator": "STMicroelectronics",
         "listings": 1
       },
       {
@@ -2423,6 +2420,7 @@
             "url": "https://news.avnet.com/news-blog/news-blog-details/2024/Unlocking-the-Power-of-EdgeAI-Avnet-STMicroelectronics-and-AWS-team-up-to-show-the-power-of-the-STM32N6-MCU/default.aspx"
           }
         ],
+        "integrator": "STMicroelectronics",
         "listings": 2
       },
       {
@@ -2462,6 +2460,7 @@
             "url": "https://github.com/avnet-iotconnect/iotc-freertos-stm32-u5-ml-demo"
           }
         ],
+        "integrator": "STMicroelectronics",
         "listings": 3
       },
       {
@@ -2487,6 +2486,7 @@
             "url": "https://github.com/avnet-iotconnect/iotc-lora-demos"
           }
         ],
+        "integrator": "STMicroelectronics",
         "listings": 1
       },
       {
@@ -2501,11 +2501,12 @@
         "qualifications": [],
         "tags": [],
         "resources": [],
+        "integrator": "Nordic",
         "listings": 1
       },
       {
         "slug": "uno-148-v2",
-        "vendor": "Advantech",
+        "vendor": "Intel",
         "name": "UNO-148_V2",
         "partNumber": "UNO-148_V2",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AD-UNO-148.png",
@@ -2520,11 +2521,12 @@
           "Greengrass"
         ],
         "resources": [],
+        "integrator": "Advantech",
         "listings": 0
       },
       {
         "slug": "aes-ve2302-dk-g",
-        "vendor": "Tria / AMD",
+        "vendor": "AMD",
         "name": "VE2302 Development Kit",
         "partNumber": "AES-VE2302-DK-G",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/VE2302_Development_Kit.png",
@@ -2534,11 +2536,12 @@
         "qualifications": [],
         "tags": [],
         "resources": [],
+        "integrator": "Tria / AMD",
         "listings": 0
       },
       {
         "slug": "vision-ai-kit-iq9",
-        "vendor": "Tria / Qualcom",
+        "vendor": "Qualcomm",
         "name": "Vision AI-KIT IQ9",
         "partNumber": "Vision AI-KIT IQ9",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/Vision-AI-KIT-IQ9.png",
@@ -2548,11 +2551,12 @@
         "qualifications": [],
         "tags": [],
         "resources": [],
+        "integrator": "Tria / Qualcom",
         "listings": 1
       },
       {
         "slug": "aes-qcs6490-dk-g",
-        "vendor": "Tria / Qualcom",
+        "vendor": "Qualcomm",
         "name": "VisionAI-Kit 6490",
         "partNumber": "AES-QCS6490-DK-G",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-QCS6490-DK-G.png",
@@ -2572,6 +2576,7 @@
             "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/tria-vision-ai-kit-6490"
           }
         ],
+        "integrator": "Tria / Qualcom",
         "listings": 6
       },
       {
@@ -2602,11 +2607,12 @@
             "url": "https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/wfi32iot"
           }
         ],
+        "integrator": "Microchip",
         "listings": 2
       },
       {
         "slug": "wirnet-istation",
-        "vendor": "Kerlink",
+        "vendor": "Semtech",
         "name": "Wirnet iStation Outdoor LoRaWAN Gateway",
         "partNumber": "WIRNET-ISTATION",
         "image": null,
@@ -2620,6 +2626,7 @@
           "gateway"
         ],
         "resources": [],
+        "integrator": "Kerlink",
         "listings": 1
       },
       {
@@ -2638,6 +2645,7 @@
           "AWS Qual"
         ],
         "resources": [],
+        "integrator": "Infineon",
         "listings": 0
       },
       {
@@ -2682,11 +2690,12 @@
             "url": "https://github.com/avnet-iotconnect/avnet-iotc-mtb-xensiv-example"
           }
         ],
+        "integrator": "Infineon",
         "listings": 1
       },
       {
         "slug": "aes-zub-1cg-dk-g",
-        "vendor": "Tria / AMD",
+        "vendor": "AMD",
         "name": "ZUBoard 1CG",
         "partNumber": "AES-ZUB-1CG-DK-G",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-ZUB-1CG-DK-G.png",
@@ -2706,19 +2715,20 @@
             "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/tria-zuboard-1cg"
           }
         ],
+        "integrator": "Tria / AMD",
         "listings": 1
       }
     ]
   },
   "counts": {
     "total": 149,
-    "manufacturers": 19,
+    "manufacturers": 14,
     "boards": 79,
     "sdks": 18,
     "examples": 131,
     "guides": 80,
     "demos": 12,
-    "partners": 5
+    "partners": 9
   },
   "repos": [
     {
@@ -2831,8 +2841,9 @@
         },
         {
           "slug": "aes-mc-sbc-imxrt1176-g",
-          "vendor": "Tria / NXP",
+          "vendor": "NXP",
           "name": "NXP MaaxBoard RT",
+          "integrator": "Tria / NXP",
           "partNumber": "AES-MC-SBC-IMXRT1176-G",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-MC-SBC-IMXRT1176-G.png",
           "imageLocal": "assets/boards/AES-MC-SBC-IMXRT1176-G.jpg"
@@ -2850,8 +2861,7 @@
         "Microchip",
         "NXP",
         "Renesas",
-        "STMicroelectronics",
-        "Tria / NXP"
+        "STMicroelectronics"
       ]
     },
     {
@@ -3205,19 +3215,21 @@
       "boards": [
         {
           "slug": "j4021",
-          "vendor": "Seeed Studio",
+          "vendor": "NVIDIA",
           "name": "reComputer J4021 - Edge AI Computer with NVIDIA Jetson Orin NX 16GB",
+          "integrator": "Seeed Studio",
           "partNumber": "J4021"
         }
       ],
       "board": {
         "slug": "j4021",
-        "vendor": "Seeed Studio",
+        "vendor": "NVIDIA",
         "name": "reComputer J4021 - Edge AI Computer with NVIDIA Jetson Orin NX 16GB",
+        "integrator": "Seeed Studio",
         "partNumber": "J4021"
       },
       "manufacturers": [
-        "Seeed Studio"
+        "NVIDIA"
       ]
     },
     {
@@ -3244,21 +3256,23 @@
       "boards": [
         {
           "slug": "seeed-j2021",
-          "vendor": "Seeed Studio",
+          "vendor": "NVIDIA",
           "name": "reComputer J2021 - Edge AI Computer with NVIDIA® Jetson Xavier™ NX 8GB",
+          "integrator": "Seeed Studio",
           "partNumber": "SEEED-j2021",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/SEEED-j2021.png"
         }
       ],
       "board": {
         "slug": "seeed-j2021",
-        "vendor": "Seeed Studio",
+        "vendor": "NVIDIA",
         "name": "reComputer J2021 - Edge AI Computer with NVIDIA® Jetson Xavier™ NX 8GB",
+        "integrator": "Seeed Studio",
         "partNumber": "SEEED-j2021",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/SEEED-j2021.png"
       },
       "manufacturers": [
-        "Seeed Studio"
+        "NVIDIA"
       ]
     },
     {
@@ -3285,21 +3299,23 @@
       "boards": [
         {
           "slug": "icam-540-30w",
-          "vendor": "Advantech",
+          "vendor": "NVIDIA",
           "name": "Edge AI Camera",
+          "integrator": "Advantech",
           "partNumber": "ICAM-540-30W",
           "image": "https://apn-portal.my.salesforce.com/servlet/servlet.ImageServer?id=015aq000000IvZJAA0&oid=00DE0000000c48tMAA"
         }
       ],
       "board": {
         "slug": "icam-540-30w",
-        "vendor": "Advantech",
+        "vendor": "NVIDIA",
         "name": "Edge AI Camera",
+        "integrator": "Advantech",
         "partNumber": "ICAM-540-30W",
         "image": "https://apn-portal.my.salesforce.com/servlet/servlet.ImageServer?id=015aq000000IvZJAA0&oid=00DE0000000c48tMAA"
       },
       "manufacturers": [
-        "Advantech"
+        "NVIDIA"
       ]
     },
     {
@@ -3396,21 +3412,23 @@
       "boards": [
         {
           "slug": "som-6873",
-          "vendor": "Advantech",
+          "vendor": "AMD",
           "name": "SOM-6873 AMD Ryzen Embedded 8000 COM Express Compact Type 6 Module",
+          "integrator": "Advantech",
           "partNumber": "SOM-6873",
           "imageLocal": "assets/boards/SOM-6873.jpg"
         }
       ],
       "board": {
         "slug": "som-6873",
-        "vendor": "Advantech",
+        "vendor": "AMD",
         "name": "SOM-6873 AMD Ryzen Embedded 8000 COM Express Compact Type 6 Module",
+        "integrator": "Advantech",
         "partNumber": "SOM-6873",
         "imageLocal": "assets/boards/SOM-6873.jpg"
       },
       "manufacturers": [
-        "Advantech"
+        "AMD"
       ]
     },
     {
@@ -3435,21 +3453,23 @@
       "boards": [
         {
           "slug": "msc-sm2s-imx8plus",
-          "vendor": "Tria / NXP",
+          "vendor": "NXP",
           "name": "MSC SM2S-IMX8PLUS",
+          "integrator": "Tria / NXP",
           "partNumber": "MSC SM2S-IMX8PLUS",
           "imageLocal": "assets/boards/board_SM_MSC_IMX8PLUS_small.png"
         }
       ],
       "board": {
         "slug": "msc-sm2s-imx8plus",
-        "vendor": "Tria / NXP",
+        "vendor": "NXP",
         "name": "MSC SM2S-IMX8PLUS",
+        "integrator": "Tria / NXP",
         "partNumber": "MSC SM2S-IMX8PLUS",
         "imageLocal": "assets/boards/board_SM_MSC_IMX8PLUS_small.png"
       },
       "manufacturers": [
-        "Tria / NXP"
+        "NXP"
       ]
     },
     {
@@ -3518,21 +3538,23 @@
       "boards": [
         {
           "slug": "aes-zub-1cg-dk-g",
-          "vendor": "Tria / AMD",
+          "vendor": "AMD",
           "name": "ZUBoard 1CG",
+          "integrator": "Tria / AMD",
           "partNumber": "AES-ZUB-1CG-DK-G",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-ZUB-1CG-DK-G.png"
         }
       ],
       "board": {
         "slug": "aes-zub-1cg-dk-g",
-        "vendor": "Tria / AMD",
+        "vendor": "AMD",
         "name": "ZUBoard 1CG",
+        "integrator": "Tria / AMD",
         "partNumber": "AES-ZUB-1CG-DK-G",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-ZUB-1CG-DK-G.png"
       },
       "manufacturers": [
-        "Tria / AMD"
+        "AMD"
       ]
     },
     {
@@ -3721,21 +3743,23 @@
       "boards": [
         {
           "slug": "rpi5-4gb-single",
-          "vendor": "Raspberry Pi",
+          "vendor": "Broadcom",
           "name": "Raspberry Pi5 4GB",
+          "integrator": "Raspberry Pi",
           "partNumber": "RPI5-4GB-SINGLE",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/RPI5.png"
         }
       ],
       "board": {
         "slug": "rpi5-4gb-single",
-        "vendor": "Raspberry Pi",
+        "vendor": "Broadcom",
         "name": "Raspberry Pi5 4GB",
+        "integrator": "Raspberry Pi",
         "partNumber": "RPI5-4GB-SINGLE",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/RPI5.png"
       },
       "manufacturers": [
-        "Raspberry Pi"
+        "Broadcom"
       ]
     },
     {
@@ -3895,21 +3919,23 @@
       "boards": [
         {
           "slug": "aes-qcs6490-dk-g",
-          "vendor": "Tria / Qualcom",
+          "vendor": "Qualcomm",
           "name": "VisionAI-Kit 6490",
+          "integrator": "Tria / Qualcom",
           "partNumber": "AES-QCS6490-DK-G",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-QCS6490-DK-G.png"
         }
       ],
       "board": {
         "slug": "aes-qcs6490-dk-g",
-        "vendor": "Tria / Qualcom",
+        "vendor": "Qualcomm",
         "name": "VisionAI-Kit 6490",
+        "integrator": "Tria / Qualcom",
         "partNumber": "AES-QCS6490-DK-G",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-QCS6490-DK-G.png"
       },
       "manufacturers": [
-        "Tria / Qualcom"
+        "Qualcomm"
       ]
     },
     {
@@ -4145,21 +4171,23 @@
       "boards": [
         {
           "slug": "wirnet-istation",
-          "vendor": "Kerlink",
+          "vendor": "Semtech",
           "name": "Wirnet iStation Outdoor LoRaWAN Gateway",
+          "integrator": "Kerlink",
           "partNumber": "WIRNET-ISTATION",
           "imageLocal": "assets/boards/WIRNET-ISTATION.png"
         }
       ],
       "board": {
         "slug": "wirnet-istation",
-        "vendor": "Kerlink",
+        "vendor": "Semtech",
         "name": "Wirnet iStation Outdoor LoRaWAN Gateway",
+        "integrator": "Kerlink",
         "partNumber": "WIRNET-ISTATION",
         "imageLocal": "assets/boards/WIRNET-ISTATION.png"
       },
       "manufacturers": [
-        "Kerlink"
+        "Semtech"
       ]
     },
     {
@@ -4228,8 +4256,9 @@
       "boards": [
         {
           "slug": "aes-rzb-v2l-sk-g",
-          "vendor": "Tria / Renesas",
+          "vendor": "Renesas",
           "name": "RZBoard V2L",
+          "integrator": "Tria / Renesas",
           "partNumber": "AES-RZB-V2L-SK-G",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-RZB-V2L-SK-G.png",
           "imageLocal": "assets/boards/AES-RZB-V2L-SK-G.jpg"
@@ -4237,14 +4266,15 @@
       ],
       "board": {
         "slug": "aes-rzb-v2l-sk-g",
-        "vendor": "Tria / Renesas",
+        "vendor": "Renesas",
         "name": "RZBoard V2L",
+        "integrator": "Tria / Renesas",
         "partNumber": "AES-RZB-V2L-SK-G",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-RZB-V2L-SK-G.png",
         "imageLocal": "assets/boards/AES-RZB-V2L-SK-G.jpg"
       },
       "manufacturers": [
-        "Tria / Renesas"
+        "Renesas"
       ]
     },
     {
@@ -4272,21 +4302,23 @@
       "boards": [
         {
           "slug": "vision-ai-kit-iq9",
-          "vendor": "Tria / Qualcom",
+          "vendor": "Qualcomm",
           "name": "Vision AI-KIT IQ9",
+          "integrator": "Tria / Qualcom",
           "partNumber": "Vision AI-KIT IQ9",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/Vision-AI-KIT-IQ9.png"
         }
       ],
       "board": {
         "slug": "vision-ai-kit-iq9",
-        "vendor": "Tria / Qualcom",
+        "vendor": "Qualcomm",
         "name": "Vision AI-KIT IQ9",
+        "integrator": "Tria / Qualcom",
         "partNumber": "Vision AI-KIT IQ9",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/Vision-AI-KIT-IQ9.png"
       },
       "manufacturers": [
-        "Tria / Qualcom"
+        "Qualcomm"
       ]
     },
     {
@@ -4659,21 +4691,23 @@
       "boards": [
         {
           "slug": "aes-qcs6490-dk-g",
-          "vendor": "Tria / Qualcom",
+          "vendor": "Qualcomm",
           "name": "VisionAI-Kit 6490",
+          "integrator": "Tria / Qualcom",
           "partNumber": "AES-QCS6490-DK-G",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-QCS6490-DK-G.png"
         }
       ],
       "board": {
         "slug": "aes-qcs6490-dk-g",
-        "vendor": "Tria / Qualcom",
+        "vendor": "Qualcomm",
         "name": "VisionAI-Kit 6490",
+        "integrator": "Tria / Qualcom",
         "partNumber": "AES-QCS6490-DK-G",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-QCS6490-DK-G.png"
       },
       "manufacturers": [
-        "Tria / Qualcom"
+        "Qualcomm"
       ]
     },
     {
@@ -4785,8 +4819,9 @@
       "boards": [
         {
           "slug": "aes-rasynb-120",
-          "vendor": "Tria / Renesas",
+          "vendor": "Renesas",
           "name": "RASynBoard NDP120 Evaluation Kit",
+          "integrator": "Tria / Renesas",
           "partNumber": "AES-RASYNB-120",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-RASYNB-120.png",
           "imageLocal": "assets/boards/AES-RASYNB-120.jpg"
@@ -4794,14 +4829,15 @@
       ],
       "board": {
         "slug": "aes-rasynb-120",
-        "vendor": "Tria / Renesas",
+        "vendor": "Renesas",
         "name": "RASynBoard NDP120 Evaluation Kit",
+        "integrator": "Tria / Renesas",
         "partNumber": "AES-RASYNB-120",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-RASYNB-120.png",
         "imageLocal": "assets/boards/AES-RASYNB-120.jpg"
       },
       "manufacturers": [
-        "Tria / Renesas"
+        "Renesas"
       ]
     },
     {
@@ -5035,21 +5071,23 @@
       "boards": [
         {
           "slug": "msc-sm2s-imx8plus",
-          "vendor": "Tria / NXP",
+          "vendor": "NXP",
           "name": "MSC SM2S-IMX8PLUS",
+          "integrator": "Tria / NXP",
           "partNumber": "MSC SM2S-IMX8PLUS",
           "imageLocal": "assets/boards/board_SM_MSC_IMX8PLUS_small.png"
         }
       ],
       "board": {
         "slug": "msc-sm2s-imx8plus",
-        "vendor": "Tria / NXP",
+        "vendor": "NXP",
         "name": "MSC SM2S-IMX8PLUS",
+        "integrator": "Tria / NXP",
         "partNumber": "MSC SM2S-IMX8PLUS",
         "imageLocal": "assets/boards/board_SM_MSC_IMX8PLUS_small.png"
       },
       "manufacturers": [
-        "Tria / NXP"
+        "NXP"
       ]
     },
     {
@@ -5077,8 +5115,9 @@
       "boards": [
         {
           "slug": "aes-rzb-v2l-sk-g",
-          "vendor": "Tria / Renesas",
+          "vendor": "Renesas",
           "name": "RZBoard V2L",
+          "integrator": "Tria / Renesas",
           "partNumber": "AES-RZB-V2L-SK-G",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-RZB-V2L-SK-G.png",
           "imageLocal": "assets/boards/AES-RZB-V2L-SK-G.jpg"
@@ -5086,14 +5125,15 @@
       ],
       "board": {
         "slug": "aes-rzb-v2l-sk-g",
-        "vendor": "Tria / Renesas",
+        "vendor": "Renesas",
         "name": "RZBoard V2L",
+        "integrator": "Tria / Renesas",
         "partNumber": "AES-RZB-V2L-SK-G",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-RZB-V2L-SK-G.png",
         "imageLocal": "assets/boards/AES-RZB-V2L-SK-G.jpg"
       },
       "manufacturers": [
-        "Tria / Renesas"
+        "Renesas"
       ]
     },
     {
@@ -5585,21 +5625,23 @@
       "boards": [
         {
           "slug": "aes-qcs6490-dk-g",
-          "vendor": "Tria / Qualcom",
+          "vendor": "Qualcomm",
           "name": "VisionAI-Kit 6490",
+          "integrator": "Tria / Qualcom",
           "partNumber": "AES-QCS6490-DK-G",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-QCS6490-DK-G.png"
         }
       ],
       "board": {
         "slug": "aes-qcs6490-dk-g",
-        "vendor": "Tria / Qualcom",
+        "vendor": "Qualcomm",
         "name": "VisionAI-Kit 6490",
+        "integrator": "Tria / Qualcom",
         "partNumber": "AES-QCS6490-DK-G",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-QCS6490-DK-G.png"
       },
       "manufacturers": [
-        "Tria / Qualcom"
+        "Qualcomm"
       ]
     },
     {
@@ -6215,8 +6257,9 @@
       "boards": [
         {
           "slug": "aes-maaxb-osm93-dk-g",
-          "vendor": "Tria / NXP",
+          "vendor": "NXP",
           "name": "NXP MaaXBoard OSM93",
+          "integrator": "Tria / NXP",
           "partNumber": "AES-MAAXB-OSM93-DK-G",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-MAAXB-OSM93-DK-G.png",
           "imageLocal": "assets/boards/AES-MAAXB-OSM93-DK-G.jpg"
@@ -6224,14 +6267,15 @@
       ],
       "board": {
         "slug": "aes-maaxb-osm93-dk-g",
-        "vendor": "Tria / NXP",
+        "vendor": "NXP",
         "name": "NXP MaaXBoard OSM93",
+        "integrator": "Tria / NXP",
         "partNumber": "AES-MAAXB-OSM93-DK-G",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-MAAXB-OSM93-DK-G.png",
         "imageLocal": "assets/boards/AES-MAAXB-OSM93-DK-G.jpg"
       },
       "manufacturers": [
-        "Tria / NXP"
+        "NXP"
       ]
     },
     {
@@ -8019,8 +8063,9 @@
       "boards": [
         {
           "slug": "aes-maaxb-osm93-dk-g",
-          "vendor": "Tria / NXP",
+          "vendor": "NXP",
           "name": "NXP MaaXBoard OSM93",
+          "integrator": "Tria / NXP",
           "partNumber": "AES-MAAXB-OSM93-DK-G",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-MAAXB-OSM93-DK-G.png",
           "imageLocal": "assets/boards/AES-MAAXB-OSM93-DK-G.jpg"
@@ -8028,14 +8073,15 @@
       ],
       "board": {
         "slug": "aes-maaxb-osm93-dk-g",
-        "vendor": "Tria / NXP",
+        "vendor": "NXP",
         "name": "NXP MaaXBoard OSM93",
+        "integrator": "Tria / NXP",
         "partNumber": "AES-MAAXB-OSM93-DK-G",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-MAAXB-OSM93-DK-G.png",
         "imageLocal": "assets/boards/AES-MAAXB-OSM93-DK-G.jpg"
       },
       "manufacturers": [
-        "Tria / NXP"
+        "NXP"
       ]
     },
     {
@@ -8063,21 +8109,23 @@
       "boards": [
         {
           "slug": "aes-qcs6490-dk-g",
-          "vendor": "Tria / Qualcom",
+          "vendor": "Qualcomm",
           "name": "VisionAI-Kit 6490",
+          "integrator": "Tria / Qualcom",
           "partNumber": "AES-QCS6490-DK-G",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-QCS6490-DK-G.png"
         }
       ],
       "board": {
         "slug": "aes-qcs6490-dk-g",
-        "vendor": "Tria / Qualcom",
+        "vendor": "Qualcomm",
         "name": "VisionAI-Kit 6490",
+        "integrator": "Tria / Qualcom",
         "partNumber": "AES-QCS6490-DK-G",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-QCS6490-DK-G.png"
       },
       "manufacturers": [
-        "Tria / Qualcom"
+        "Qualcomm"
       ]
     },
     {
@@ -8106,21 +8154,23 @@
       "boards": [
         {
           "slug": "aes-qcs6490-dk-g",
-          "vendor": "Tria / Qualcom",
+          "vendor": "Qualcomm",
           "name": "VisionAI-Kit 6490",
+          "integrator": "Tria / Qualcom",
           "partNumber": "AES-QCS6490-DK-G",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-QCS6490-DK-G.png"
         }
       ],
       "board": {
         "slug": "aes-qcs6490-dk-g",
-        "vendor": "Tria / Qualcom",
+        "vendor": "Qualcomm",
         "name": "VisionAI-Kit 6490",
+        "integrator": "Tria / Qualcom",
         "partNumber": "AES-QCS6490-DK-G",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-QCS6490-DK-G.png"
       },
       "manufacturers": [
-        "Tria / Qualcom"
+        "Qualcomm"
       ]
     },
     {
@@ -8147,21 +8197,23 @@
       "boards": [
         {
           "slug": "aes-qcs6490-dk-g",
-          "vendor": "Tria / Qualcom",
+          "vendor": "Qualcomm",
           "name": "VisionAI-Kit 6490",
+          "integrator": "Tria / Qualcom",
           "partNumber": "AES-QCS6490-DK-G",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-QCS6490-DK-G.png"
         }
       ],
       "board": {
         "slug": "aes-qcs6490-dk-g",
-        "vendor": "Tria / Qualcom",
+        "vendor": "Qualcomm",
         "name": "VisionAI-Kit 6490",
+        "integrator": "Tria / Qualcom",
         "partNumber": "AES-QCS6490-DK-G",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-QCS6490-DK-G.png"
       },
       "manufacturers": [
-        "Tria / Qualcom"
+        "Qualcomm"
       ]
     },
     {
@@ -8227,21 +8279,23 @@
       "boards": [
         {
           "slug": "rpi5-4gb-single",
-          "vendor": "Raspberry Pi",
+          "vendor": "Broadcom",
           "name": "Raspberry Pi5 4GB",
+          "integrator": "Raspberry Pi",
           "partNumber": "RPI5-4GB-SINGLE",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/RPI5.png"
         }
       ],
       "board": {
         "slug": "rpi5-4gb-single",
-        "vendor": "Raspberry Pi",
+        "vendor": "Broadcom",
         "name": "Raspberry Pi5 4GB",
+        "integrator": "Raspberry Pi",
         "partNumber": "RPI5-4GB-SINGLE",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/RPI5.png"
       },
       "manufacturers": [
-        "Raspberry Pi"
+        "Broadcom"
       ]
     },
     {
@@ -8469,21 +8523,23 @@
       "boards": [
         {
           "slug": "arduino-uno-q",
-          "vendor": "Arduino",
+          "vendor": "Qualcomm",
           "name": "Arduino UNO Q",
+          "integrator": "Arduino",
           "partNumber": "ARDUINO-UNO-Q",
           "imageLocal": "assets/boards/ARDUINO-UNO-Q.jpg"
         }
       ],
       "board": {
         "slug": "arduino-uno-q",
-        "vendor": "Arduino",
+        "vendor": "Qualcomm",
         "name": "Arduino UNO Q",
+        "integrator": "Arduino",
         "partNumber": "ARDUINO-UNO-Q",
         "imageLocal": "assets/boards/ARDUINO-UNO-Q.jpg"
       },
       "manufacturers": [
-        "Arduino"
+        "Qualcomm"
       ]
     },
     {
@@ -8588,8 +8644,9 @@
       "boards": [
         {
           "slug": "aes-mc-sbc-imx8m-g",
-          "vendor": "Tria / NXP",
+          "vendor": "NXP",
           "name": "NXP MaaXBoard 8M",
+          "integrator": "Tria / NXP",
           "partNumber": "AES-MC-SBC-IMX8M-G",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-MC-SBC-IMX8M-G.png",
           "imageLocal": "assets/boards/AES-MC-SBC-IMX8M-G.jpg"
@@ -8597,14 +8654,15 @@
       ],
       "board": {
         "slug": "aes-mc-sbc-imx8m-g",
-        "vendor": "Tria / NXP",
+        "vendor": "NXP",
         "name": "NXP MaaXBoard 8M",
+        "integrator": "Tria / NXP",
         "partNumber": "AES-MC-SBC-IMX8M-G",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-MC-SBC-IMX8M-G.png",
         "imageLocal": "assets/boards/AES-MC-SBC-IMX8M-G.jpg"
       },
       "manufacturers": [
-        "Tria / NXP"
+        "NXP"
       ]
     },
     {
@@ -8629,8 +8687,9 @@
       "boards": [
         {
           "slug": "aes-maaxb-8ulp-sk-g",
-          "vendor": "Tria / NXP",
+          "vendor": "NXP",
           "name": "NXP MaaXBoard ULP",
+          "integrator": "Tria / NXP",
           "partNumber": "AES-MAAXB-8ULP-SK-G",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-MAAXB-8ULP-SK-G.png",
           "imageLocal": "assets/boards/AES-MAAXB-8ULP-SK-G.jpg"
@@ -8638,14 +8697,15 @@
       ],
       "board": {
         "slug": "aes-maaxb-8ulp-sk-g",
-        "vendor": "Tria / NXP",
+        "vendor": "NXP",
         "name": "NXP MaaXBoard ULP",
+        "integrator": "Tria / NXP",
         "partNumber": "AES-MAAXB-8ULP-SK-G",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-MAAXB-8ULP-SK-G.png",
         "imageLocal": "assets/boards/AES-MAAXB-8ULP-SK-G.jpg"
       },
       "manufacturers": [
-        "Tria / NXP"
+        "NXP"
       ]
     },
     {

@@ -1,31 +1,31 @@
 # /IOTCONNECT Index — Audit Report
 
-_Generated 2026-06-22T23:38:56Z_  ·  149 listings · 79 boards (69 in use) · 19 manufacturers · 212 resources
+_Generated 2026-06-22T23:53:56Z_  ·  149 listings · 79 boards (69 in use) · 14 manufacturers · 212 resources
 
 ## ⚠ Boards referenced but missing from the Boards sheet
 - none — every referenced board is defined.
 
 ## Boards with no image (Azure or local)
-- Advantech · AI System (Lite) Based on NVIDIA® Jetson Nano (MIC-710AIL)
-- Seeed Studio · reComputer J4021 - Edge AI Computer with NVIDIA Jetson Orin NX 16GB (J4021)
+- NVIDIA · AI System (Lite) Based on NVIDIA® Jetson Nano (MIC-710AIL)
+- NVIDIA · reComputer J4021 - Edge AI Computer with NVIDIA Jetson Orin NX 16GB (J4021)
 - TE Connectivity · TE Connectivity mikroBUS Click Sensor Boards (TE-MIKROBUS-CLICKS)
 - Amphenol · Amphenol mikroBUS Click Sensor Boards (AMPHENOL-MIKROBUS-CLICKS)
 
 ## Boards not used by any listing (orphans)
-- ADLINK · MXE-230 Series with Intel (MXE-210)
+- Intel · MXE-230 Series with Intel (MXE-210)
 - AMD · Kria KV260 Vision AI Starter Kit (SK-KV260-G)
-- Advantech · AI System (Lite) Based on NVIDIA® Jetson Nano (MIC-710AIL)
-- Advantech · UNO-148_V2 (UNO-148_V2)
-- Arduino · Arduino OPTA RS485 (AFX00001)
-- Asus · PE100A (PE100A)
-- Dell · Dell Edge Gateway 3200 (3200)
-- Dell · Dell Edge Gateway 5200 (5200)
+- NVIDIA · AI System (Lite) Based on NVIDIA® Jetson Nano (MIC-710AIL)
+- Intel · UNO-148_V2 (UNO-148_V2)
+- STMicroelectronics · Arduino OPTA RS485 (AFX00001)
+- NVIDIA · PE100A (PE100A)
+- Intel · Dell Edge Gateway 3200 (3200)
+- Intel · Dell Edge Gateway 5200 (5200)
 - Infineon · PSOC™ Control C3M5 Evaluation Kit (KIT_PSC3M5_EVK)
 - Infineon · XENSIV™ KIT CSK BGT60TR13C (KIT_CSK_BGT60TR13C)
 - Renesas · Fast Prototyping Board for RA0E2 MCU Group (FPB-RA0E2)
 - STMicroelectronics · STM32 Nucleo-144 development board with STM32H755ZI MCU (NUCLEO-H755ZI-Q)
-- Tria / AMD · VE2302 Development Kit (AES-VE2302-DK-G)
-- Tria / NXP · NXP MaaXBoard Mini (AES-MC-SBC-IMX8MINI-G)
+- AMD · VE2302 Development Kit (AES-VE2302-DK-G)
+- NXP · NXP MaaXBoard Mini (AES-MC-SBC-IMX8MINI-G)
 
 ## Org repos with no listing (candidates to add)
 - iotc-index — Index of IOTCONNECT libaries, sdks and demos

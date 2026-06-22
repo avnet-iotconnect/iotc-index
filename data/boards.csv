@@ -1,84 +1,84 @@
-Manufacturer,Board Name,Part Number,Image File,Image Local,Product Link,AWS Qualified,Greengrass,Tags,Include
-ADLINK,MXE-230 Series with Intel,MXE-210,ADLINK_MXE-230.png,,https://www.adlinktech.com/products/industrial_pcs_fanless_embedded_pcs/integratedfanlessembeddedcomputers/mxe-230_series,yes,yes,Greengrass,yes
-AMD,Kria KV260 Vision AI Starter Kit,SK-KV260-G,https://www.amd.com/content/dam/amd/en/images/products/som/2362834-kv260-product.jpg,,https://www.amd.com/en/products/system-on-modules/kria/k26/kv260-vision-starter-kit.html,no,yes,Greengrass,yes
-Advantech,AI System (Lite) Based on NVIDIA® Jetson Nano,MIC-710AIL,,,,no,no,,yes
-Advantech,Edge AI Camera,ICAM-540-30W,https://apn-portal.my.salesforce.com/servlet/servlet.ImageServer?id=015aq000000IvZJAA0&oid=00DE0000000c48tMAA,,https://www.advantech.com/en-us/products/edge-ai-camera/sub_d51faf9f-1457-4702-93f7-f613d7b1460e,no,no,Greengrass,yes
-Advantech,UNO-148_V2,UNO-148_V2,AD-UNO-148.png,,https://www.advantech.com/zh-tw/products/gf-bvl2/uno-148-v2/mod_61073522-ec4a-4da8-a3d2-735a95499608,yes,yes,Greengrass,yes
-Arduino,Arduino OPTA RS485,AFX00001,https://store-usa.arduino.cc/cdn/shop/files/AFX00001_01.iso_643x483.jpg?v=1744099182,,https://store.arduino.cc/products/opta-rs485,yes,no,AWS Qual,yes
-Asus,PE100A,PE100A,Asus_PE100a.png,,https://www.asus.com/networking-iot-servers/aiot-industrial-solutions/embedded-computers-edge-ai-systems/pe1000s/,yes,yes,Greengrass,yes
-Dell,Dell Edge Gateway 3200,3200,Dell_3200.png,,https://www.dell.com/en-us/shop/network-hardware-devices/dell-edge-gateway-3200/spd/dell-edge-gateway-3200/dn_edge3200_15514_vp,yes,yes,Greengrass,yes
-Dell,Dell Edge Gateway 5200,5200,Dell-5200.png,,https://www.dell.com/en-us/shop/network-hardware-devices/dell-edge-gateway-5200/spd/dell-edge-gateway-5200/dn_edge5200_15513_vi,yes,yes,Greengrass,yes
-Infineon,PSOC Edge E84 AI Evaluation Kit,KITPSE84AITOBO1,KITPSE84AITOBO1.png,,https://www.infineon.com/evaluation-board/KIT-PSE84-AI,no,no,AWS_Qual - In_Progress,yes
-Infineon,PSOC Edge E84 Evaluation Kit,KIT_PSE84_EVAL,KIT_PSE84_EVAL.png,,https://www.infineon.com/evaluation-board/KIT-PSE84-EVAL,no,no,AWS_Qual - In_Progress,yes
-Infineon,PSOC™ 6 Artificial Intelligence Evaluation Kit,CY8CKIT-062S2-AI,CY8CKIT-062S2-AI.png,CY8CKIT-062S2-AI.jpg,https://www.infineon.com/evaluation-board/CY8CKIT-062S2-AI,yes,no,AWS Qual,yes
-Infineon,PSOC™ 6 Wi-Fi Bluetooth® pioneer kit,CY8CKIT-062-WIFI-BT,CY8CKIT-062-WIFI-BT.png,CY8CKIT-062-WIFI-BT.jpg,https://www.infineon.com/evaluation-board/CY8CKIT-062-WIFI-BT,no,no,,yes
-Infineon,PSOC™ 6 Wi-Fi Bluetooth® prototyping kit,CY8CPROTO-062-4343W,CY8CPROTO-062-4343W.png,PSOC6kit.jpg,https://www.infineon.com/evaluation-board/CY8CPROTO-062-4343W,no,no,,yes
-Infineon,PSOC™ 62S3 Wi-Fi Bluetooth® prototyping kit,CY8CPROTO-062S3-4343W,CY8CPROTO-062S3-4343W.png,CY8CPROTO-062S3-4343W.jpg,https://www.infineon.com/evaluation-board/cy8cproto-062s3-4343w,no,no,,yes
-Infineon,PSOC™ Control C3M5 Evaluation Kit,KIT_PSC3M5_EVK,KIT_PSC3M5_EVK.png,,https://www.infineon.com/evaluation-board/KIT-PSC3M5-EVK,no,no,,yes
-Infineon,XENSIV™ KIT CSK BGT60TR13C,KIT_CSK_BGT60TR13C,https://apn-portal.my.salesforce.com/servlet/servlet.ImageServer?id=0158a000006l3bIAAQ&oid=00DE0000000c48tMAA,,https://www.infineon.com/evaluation-board/KIT-CSK-BGT60TR13C,yes,no,AWS Qual,yes
-Infineon,XENSIV™ KIT CSK PASCO2,KITCSKPASCO2TOBO1,KITCSKPASCO2TOBO1.png,XENSIV.jpg,https://www.infineon.com/evaluation-board/KIT-CSK-PASCO2,yes,no,AWS Qual,yes
-Microchip,AVR-IOT mini Cellular,EV70N78A,EV70N78A.png,EV70N78A.jpg,https://www.microchip.com/en-us/development-tool/ev70n78a,no,no,,yes
-Microchip,PIC32CX-BZ3 and WBZ35x Curiosity Board,EV19J06A,EV19J06A.png,,https://www.microchip.com/en-us/product/wbz350pe,no,no,,yes
-Microchip,PIC64GX Curiosity Kit,CURIOSITY-PIC64GX1000-KIT,CURIOSITY-PIC64GX1000-KIT.png,CURIOSITY-PIC64GX1000-KIT.png,https://www.microchip.com/en-us/development-tool/CURIOSITY-PIC64GX1000-KIT,no,no,AWS_Qual - In_Progress,yes
-Microchip,PolarFire Discovery Kit,MPFS-DISCO-KIT,MPFS-DISCO-KIT.png,MPFS-DISCO-KIT.png,https://www.microchip.com/en-us/development-tool/mpfs-disco-kit,yes,no,AWS_Qual - In_Progress,yes
-Microchip,SAM E54 Xplained Pro Evaluation Kit,ATSAME54-XPRO,ATSAME54-XPRO.png,ATSAME54-XPRO.jpg,https://www.microchip.com/en-us/development-tool/atsame54-xpro,no,no,,yes
-Microchip,SAMA5D27 SOM Evaluation Kit,ATSAMA5D27-SOM1-EK1,ATSAMA5D27-SOM1-EK1.png,ATSAMA5D27-SOM1-EK1.jpg,http://microchip.com/en-us/development-tool/atsama5d27-som1-ek1,yes,no,AWS Qual,yes
-Microchip,SAMA7D65 Curiosity Kit,EV63J76A,EV63J76A.png,,https://www.microchip.com/en-us/development-tool/ev63j76a,yes,yes,"AWS_Qual - In_Progress, Greengrass",yes
-Microchip,WFI32-IoT Development Board,EV36W50A,EV36W50A.png,EV36W50A.jpg,https://www.microchip.com/en-us/development-tool/ev36w50a,no,no,,yes
-NXP,FRDM Development Board for MCX N94/N54 MCUs,FRDM-MCXN947,FRDM-MCXN947.png,,https://www.nxp.com/design/design-center/development-boards-and-designs/FRDM-MCXN947,no,no,,yes
-NXP,GoldBox for Vehicle Networking Development Platform,S32G-VNP-GLDBOX,https://apn-portal.my.salesforce.com/servlet/servlet.ImageServer?id=0158W00000CPkYGQA1&oid=00DE0000000c48tMAA,,https://www.nxp.com/design/design-center/development-boards-and-designs/GOLDBOX,yes,yes,Greengrass,yes
-NXP,IMX93 Freedom Board,FRDM-IMX93,FRDM-IMX93.png,FRDM-IMX93.jpg,https://www.nxp.com/design/design-center/development-boards-and-designs/frdm-i-mx-93-development-board:FRDM-IMX93,yes,yes,,yes
-NXP,i.MX RT1060 Evaluation Kit,MIMXRT1060-EVKB,MIMXRT1060-EVKB.png,MIMXRT1060-EVKB.jpg,https://www.nxp.com/design/design-center/development-boards-and-designs/MIMXRT1060-EVKB,no,no,,yes
-Nordic,Thingy-91,nRF6943,Nordic-Thingy-91.png,,https://www.nordicsemi.com/Products/Development-hardware/Nordic-Thingy-91,no,no,,yes
-Nordic,nRF52840 DK,nRF52840-DK,nrf5280.png,,http://nordicsemi.com/Products/Development-hardware/nRF52840-DK,yes,no,AWS Qual,yes
-Raspberry Pi,Raspberry Pi5 4GB,RPI5-4GB-SINGLE,RPI5.png,,https://www.newark.com/raspberry-pi/rpi5-4gb-single/rpi-5-board-2-4ghz-4gb-arm-cortex/dp/81AK1346?CMP=KNC-GUSA-PMAX-SHOPPING-ONBOARD-COMP-NEW&mckv=_dc|pcrid||plid||kword||match||slid||product|81AK1346|pgrid||ptaid||&gad_source=1&gad_campaignid=22957739450&gbraid=0AAAAAD5U_g0CKzRKzITipRenqq3YkBcxH&gclid=Cj0KCQjw0Y3HBhCxARIsAN7931WXmy00sdeNSE4JHaECFiiL4HF4DSMP4eWFtE6qIYgpN5O5CtIP4ooaApk9EALw_wcB,no,yes,,yes
-Renesas,CK-RX65N Cloud Kit,CK-RK65N,CK-RK65N.png,CK-RK65N.jpg,https://www.renesas.com/en/design-resources/boards-kits/ck-rx65n,no,no,,yes
-Renesas,Cloud Kit Based on RA6M5 MCU Group,CK-RA6M5,CK-RA6M5.png,CK-RA6M5.jpg,https://www.renesas.com/en/design-resources/boards-kits/ck-ra6m5?srsltid=AfmBOoop6bS6IJxusVIJ6-_25nZtY_GGhLwhp2j_Pp_EvG85-Xf1Thto#documents,yes,no,AWS Qual,yes
-Renesas,DA16200 Ultra Low Power Wi-Fi Pmod Module Evaluation Board,US159-DA16200MEVZ,US159-DA16200MEVZ.png,US159-DA16200MEVZ.jpg,https://www.renesas.com/en/design-resources/boards-kits/us159-da16200mevz?srsltid=AfmBOorWpIcf-wfJAZPoz54Lz-hQ4OuKvsiaw-KyM0bjm-J9Ur1bueBw,yes,no,,yes
-Renesas,DA16600 Ultra Low Power Wi-Fi and Bluetooth Low Energy Combo Pmod Module Evaluation Board,US159-DA16600EVZ,US159-DA16600EVZ.png,US159-DA16600EVZ.jpg,https://www.renesas.com/en/products/da16600mod,yes,no,AWS Qual,yes
-Renesas,"Development Kit, DA 16200, 2.4GHz Wireless Communication",DA16600MOD-DEVKT,DA16600MOD-DEVKT.png,DA16600MOD-DEVKT.jpg,https://www.renesas.com/en/design-resources/boards-kits/da16600mod-devkt,no,no,,yes
-Renesas,"Development Kit, DA16200, Wireless Communication, WiFi with IOT",DA16200MOD-DEVKT,DA16200MOD-DEVKT.png,DA16200MOD-DEVKT.jpg,https://www.renesas.com/en/design-resources/boards-kits/da16200mod-devkt#overview,yes,no,AWS Qual,yes
-Renesas,Evaluation Kit for RA2L1 MCU Group,EK-RA2L1,EK-RA2L1.png,,https://www.renesas.com/en/design-resources/boards-kits/ek-ra2l1,no,no,,yes
-Renesas,Evaluation Kit for RA6M4 MCU Group,EK-RA6M4,EK-RA6M4.png,EK-RA6M4.jpg,https://www.renesas.com/en/products/ra6m4?srsltid=AfmBOoo9q-X5EQu2KKwQ3p2bwF1KRzc_zKRS7gJJB84bXurgF4pSIVKH,yes,no,AWS Qual,yes
-Renesas,Evaluation Kit for RA8M1 MCU Group,EK-RA8M1,EK-RA8M1.png,EK-RA8M1.jpg,https://www.renesas.com/en/products/ra8m1,yes,no,AWS Qual,yes
-Renesas,Fast Prototyping Board for RA0E2 MCU Group,FPB-RA0E2,FPB-RA0E2.png,,https://www.renesas.com/en/design-resources/boards-kits/fpb-ra0e2,no,no,,yes
-Renesas,Fast Prototyping Board for RA2E1 MCU Group,FPB-RA2E1,FPB-RA2E1.png,,https://www.renesas.com/en/design-resources/boards-kits/fpb-ra2e1,no,no,,yes
-Renesas,RA0E1 Fast Prototyping Board,FPB-RA0E1,FPB-RA0E1.png,,https://www.renesas.com/en/design-resources/boards-kits/fpb-ra0e1,no,no,,yes
-STMicroelectronics,Astra Module,STEVAL-ASTRA1B,STEVAL-ASTRA1B.png,STEVAL-ASTRA1B.jpg,https://www.st.com/en/evaluation-tools/steval-astra1b.html,no,no,,yes
-STMicroelectronics,Proteus,STEVAL-PROTEUS1,STEVAL-PROTEUS1.png,proteus.jpg,https://www.st.com/en/evaluation-tools/steval-proteus1.html,no,no,,yes
-STMicroelectronics,STM32 Nucleo-144 development board with STM32H755ZI MCU,NUCLEO-H755ZI-Q,NUCLEO-H755ZI-Q.png,,https://www.st.com/en/evaluation-tools/nucleo-h755zi-q.html,yes,no,,yes
-STMicroelectronics,STM32H5 Discovery Kit,STM32H573I-DK,stm32h573DK.png,STM32H5.jpg,https://www.st.com/en/evaluation-tools/stm32h573i-dk.html,no,no,,yes
-STMicroelectronics,STM32L4 Discovery Kit,B-L475E-IOT01A2,B-L475E-IOT01A2.png,STM32L4.jpg,https://www.st.com/en/evaluation-tools/b-l4s5i-iot01a.html,yes,no,AWS Qual,yes
-STMicroelectronics,STM32MP135 Discovery Kit,STM32MP135F-DK,STM32MP135F-DK.png,STM32MP135F.jpg,https://www.st.com/en/evaluation-tools/stm32mp135f-dk.html,yes,yes,Greengrass,yes
-STMicroelectronics,STM32MP157 Discovery Kit,STM32MP157F-DK2,stm32mp157.png,STM32MP157F.jpg,https://www.st.com/en/evaluation-tools/stm32mp157c-dk2.html,yes,yes,Greengrass,yes
-STMicroelectronics,STM32MP2 Discovery Kit,STM32MP257F-DK,STM32MP257F-DK.png,STM32MP257F-DK.jpg,https://www.st.com/en/evaluation-tools/stm32mp257f-dk.html,yes,yes,Greengrass,yes
-STMicroelectronics,STM32MP2 Evaluation Board,STM32MP257F-EV1,STM32MP257F-EV1.png,STM32MP257F-EV1.jpg,https://wiki.st.com/stm32mpu/wiki/Getting_started/STM32MP2_boards,yes,yes,Greengrass,yes
-STMicroelectronics,STM32N6 Discovery Kit,STM32N6570-DK,STM32N6570-DK.png,STM32N6570-DK.jpg,https://www.st.com/en/evaluation-tools/stm32n6570-dk.html,yes,no,,yes
-STMicroelectronics,STM32U5 Discovery Kit,B-U585I-IOT02A,B-U585I-IOT02A.png,STM32U5.jpg,https://www.st.com/en/evaluation-tools/b-u585i-iot02a.html,yes,no,AWS Qual,yes
-STMicroelectronics,STM32WL55JC Nucleo-64 for LPWAN,NUCLEO-WL55JC,NUCLEO-WL55JC1.png,,https://www.st.com/en/evaluation-tools/nucleo-wl55jc.html,no,no,,yes
-STMicroelectronics,SensorTile.box PRO,STEVAL-MKBOXPRO,STEVAL-MKBOXPRO.png,SensorTilebox-PRO.jpg,https://www.st.com/en/evaluation-tools/steval-mkboxpro.html,no,no,,yes
-Seeed Studio,reComputer J2021 - Edge AI Computer with NVIDIA® Jetson Xavier™ NX 8GB,SEEED-j2021,SEEED-j2021.png,,https://www.seeedstudio.com/reComputer-J2021-p-5438.html?srsltid=AfmBOoqBZskE6NmMEQJpHBTTkDxX9rWng3fbPMfN3jW2FyRzUayqdm9t,no,no,,yes
-Tria / AMD,VE2302 Development Kit,AES-VE2302-DK-G,VE2302_Development_Kit.png,,https://www.tria-technologies.com/product/ve2302-development-kit/,no,no,,yes
-Tria / AMD,ZUBoard 1CG,AES-ZUB-1CG-DK-G,AES-ZUB-1CG-DK-G.png,,https://www.tria-technologies.com/product/zuboard-1cg/,yes,no,AWS_Qual - In_Progress,yes
-Tria / NXP,MSC SM2S-IMX8PLUS,MSC SM2S-IMX8PLUS,,board_SM_MSC_IMX8PLUS_small.png,https://embedded.avnet.com/product/msc-sm2s-imx8plus/,no,no,,yes
-Tria / NXP,NXP MaaXBoard 8M,AES-MC-SBC-IMX8M-G,AES-MC-SBC-IMX8M-G.png,AES-MC-SBC-IMX8M-G.jpg,https://www.tria-technologies.com/product/maaxboard/,yes,no,AWS Qual,yes
-Tria / NXP,NXP MaaXBoard Mini,AES-MC-SBC-IMX8MINI-G,AES-MC-SBC-IMX8MINI-G.png,AES-MC-SBC-IMX8MINI-G.jpg,https://www.tria-technologies.com/product/maaxboard-mini/,no,no,,yes
-Tria / NXP,NXP MaaXBoard OSM93,AES-MAAXB-OSM93-DK-G,AES-MAAXB-OSM93-DK-G.png,AES-MAAXB-OSM93-DK-G.jpg,https://www.tria-technologies.com/product/maaxboard-osm93/,yes,yes,AWS Qual,yes
-Tria / NXP,NXP MaaXBoard ULP,AES-MAAXB-8ULP-SK-G,AES-MAAXB-8ULP-SK-G.png,AES-MAAXB-8ULP-SK-G.jpg,https://www.tria-technologies.com/product/maaxboard-8ulp/,yes,no,AWS Qual,yes
-Tria / NXP,NXP MaaxBoard RT,AES-MC-SBC-IMXRT1176-G,AES-MC-SBC-IMXRT1176-G.png,AES-MC-SBC-IMXRT1176-G.jpg,https://www.tria-technologies.com/product/maaxboard-rt/,no,no,,yes
-Tria / Qualcom,Vision AI-KIT IQ9,Vision AI-KIT IQ9,Vision-AI-KIT-IQ9.png,,https://www.tria-technologies.com/product/vision-ai-kit-iq9/,no,no,,yes
-Tria / Qualcom,VisionAI-Kit 6490,AES-QCS6490-DK-G,AES-QCS6490-DK-G.png,,https://www.tria-technologies.com/product/vision-ai-kit-6490/,yes,no,AWS_Qual - In_Progress,yes
-Tria / Renesas,RASynBoard NDP120 Evaluation Kit,AES-RASYNB-120,AES-RASYNB-120.png,AES-RASYNB-120.jpg,https://www.avnet.com/americas/products/avnet-boards/avnet-board-families/rasynboard/,yes,no,AWS Qual,yes
-Tria / Renesas,RZBoard V2L,AES-RZB-V2L-SK-G,AES-RZB-V2L-SK-G.png,AES-RZB-V2L-SK-G.jpg,https://www.tria-technologies.com/product/rzboard-v2l/,yes,no,AWS Qual,yes
-Seeed Studio,reComputer J4021 - Edge AI Computer with NVIDIA Jetson Orin NX 16GB,J4021,,,,no,no,"ai,vision,edge",yes
-Kerlink,Wirnet iStation Outdoor LoRaWAN Gateway,WIRNET-ISTATION,,WIRNET-ISTATION.png,https://www.kerlink.com/product/wirnet-istation/,no,no,"lora,lorawan,gateway",yes
-Advantech,SOM-6873 AMD Ryzen Embedded 8000 COM Express Compact Type 6 Module,SOM-6873,,SOM-6873.jpg,https://www.advantech.com/en-us/products/e5f3ee70-5c26-4757-93f4-a9d4150a860f/som-6873/mod_1d0156b1-61b6-48fb-b768-549bb1be3c1c,no,no,"ai,vision,edge",yes
-Avnet,/IOTCONNECT Bridge Mobile Gateway App,IOTC-BRIDGE-APP,,IOTC-BRIDGE-APP.jpg,https://github.com/avnet-iotconnect/iotc-gateway-mobile-app,no,no,"gateway,ble,mobile",yes
-TE Connectivity,TE Connectivity mikroBUS Click Sensor Boards,TE-MIKROBUS-CLICKS,,,,no,no,"clicks,sensors,mikrobus",yes
-Amphenol,Amphenol mikroBUS Click Sensor Boards,AMPHENOL-MIKROBUS-CLICKS,,,,no,no,"clicks,sensors,mikrobus",yes
-Arduino,Arduino UNO Q,ARDUINO-UNO-Q,,ARDUINO-UNO-Q.jpg,https://store.arduino.cc/products/uno-q,no,no,"AI, IoT, Linux",yes
-Microchip,PolarFire SoC Video Kit,MPFS-VIDEO-KIT,,MPFS-VIDEO-KIT.jpg,https://www.microchip.com/en-us/development-tool/mpfs250-video-kit,no,no,"AI, Vision, FPGA, RISC-V",yes
-NVIDIA,Jetson AGX Orin Developer Kit,JETSON-ORIN,,JETSON-ORIN.jpg,https://developer.nvidia.com/embedded/jetson-developer-kits,no,no,"AI, Edge, Robotics",yes
-Renesas,RZ/G3E Evaluation Kit,RZ-G3E-EVK,,RZ-G3E-EVK.jpg,https://www.renesas.com/en/design-resources/boards-kits/rz-g3e-evkit,no,no,"AI, HMI, NPU",yes
-Renesas,RZ/V2H Evaluation Kit,RZ-V2H-EVK,,RZ-V2H-EVK.jpg,https://www.renesas.com/en/design-resources/boards-kits/rz-v2h-evk,no,no,"AI, Vision",yes
-STMicroelectronics,STM32MP215F-DK Discovery Kit,STM32MP215F-DK,,STM32MP215F-DK.jpg,https://www.st.com/en/evaluation-tools/stm32mp215f-dk.html,no,no,"AI, IoT, Edge",yes
+Manufacturer,Board Name,Part Number,Image File,Image Local,Product Link,AWS Qualified,Greengrass,Tags,Include,Silicon
+ADLINK,MXE-230 Series with Intel,MXE-210,ADLINK_MXE-230.png,,https://www.adlinktech.com/products/industrial_pcs_fanless_embedded_pcs/integratedfanlessembeddedcomputers/mxe-230_series,yes,yes,Greengrass,yes,Intel
+AMD,Kria KV260 Vision AI Starter Kit,SK-KV260-G,https://www.amd.com/content/dam/amd/en/images/products/som/2362834-kv260-product.jpg,,https://www.amd.com/en/products/system-on-modules/kria/k26/kv260-vision-starter-kit.html,no,yes,Greengrass,yes,AMD
+Advantech,AI System (Lite) Based on NVIDIA® Jetson Nano,MIC-710AIL,,,,no,no,,yes,NVIDIA
+Advantech,Edge AI Camera,ICAM-540-30W,https://apn-portal.my.salesforce.com/servlet/servlet.ImageServer?id=015aq000000IvZJAA0&oid=00DE0000000c48tMAA,,https://www.advantech.com/en-us/products/edge-ai-camera/sub_d51faf9f-1457-4702-93f7-f613d7b1460e,no,no,Greengrass,yes,NVIDIA
+Advantech,UNO-148_V2,UNO-148_V2,AD-UNO-148.png,,https://www.advantech.com/zh-tw/products/gf-bvl2/uno-148-v2/mod_61073522-ec4a-4da8-a3d2-735a95499608,yes,yes,Greengrass,yes,Intel
+Arduino,Arduino OPTA RS485,AFX00001,https://store-usa.arduino.cc/cdn/shop/files/AFX00001_01.iso_643x483.jpg?v=1744099182,,https://store.arduino.cc/products/opta-rs485,yes,no,AWS Qual,yes,STMicroelectronics
+Asus,PE100A,PE100A,Asus_PE100a.png,,https://www.asus.com/networking-iot-servers/aiot-industrial-solutions/embedded-computers-edge-ai-systems/pe1000s/,yes,yes,Greengrass,yes,NVIDIA
+Dell,Dell Edge Gateway 3200,3200,Dell_3200.png,,https://www.dell.com/en-us/shop/network-hardware-devices/dell-edge-gateway-3200/spd/dell-edge-gateway-3200/dn_edge3200_15514_vp,yes,yes,Greengrass,yes,Intel
+Dell,Dell Edge Gateway 5200,5200,Dell-5200.png,,https://www.dell.com/en-us/shop/network-hardware-devices/dell-edge-gateway-5200/spd/dell-edge-gateway-5200/dn_edge5200_15513_vi,yes,yes,Greengrass,yes,Intel
+Infineon,PSOC Edge E84 AI Evaluation Kit,KITPSE84AITOBO1,KITPSE84AITOBO1.png,,https://www.infineon.com/evaluation-board/KIT-PSE84-AI,no,no,AWS_Qual - In_Progress,yes,Infineon
+Infineon,PSOC Edge E84 Evaluation Kit,KIT_PSE84_EVAL,KIT_PSE84_EVAL.png,,https://www.infineon.com/evaluation-board/KIT-PSE84-EVAL,no,no,AWS_Qual - In_Progress,yes,Infineon
+Infineon,PSOC™ 6 Artificial Intelligence Evaluation Kit,CY8CKIT-062S2-AI,CY8CKIT-062S2-AI.png,CY8CKIT-062S2-AI.jpg,https://www.infineon.com/evaluation-board/CY8CKIT-062S2-AI,yes,no,AWS Qual,yes,Infineon
+Infineon,PSOC™ 6 Wi-Fi Bluetooth® pioneer kit,CY8CKIT-062-WIFI-BT,CY8CKIT-062-WIFI-BT.png,CY8CKIT-062-WIFI-BT.jpg,https://www.infineon.com/evaluation-board/CY8CKIT-062-WIFI-BT,no,no,,yes,Infineon
+Infineon,PSOC™ 6 Wi-Fi Bluetooth® prototyping kit,CY8CPROTO-062-4343W,CY8CPROTO-062-4343W.png,PSOC6kit.jpg,https://www.infineon.com/evaluation-board/CY8CPROTO-062-4343W,no,no,,yes,Infineon
+Infineon,PSOC™ 62S3 Wi-Fi Bluetooth® prototyping kit,CY8CPROTO-062S3-4343W,CY8CPROTO-062S3-4343W.png,CY8CPROTO-062S3-4343W.jpg,https://www.infineon.com/evaluation-board/cy8cproto-062s3-4343w,no,no,,yes,Infineon
+Infineon,PSOC™ Control C3M5 Evaluation Kit,KIT_PSC3M5_EVK,KIT_PSC3M5_EVK.png,,https://www.infineon.com/evaluation-board/KIT-PSC3M5-EVK,no,no,,yes,Infineon
+Infineon,XENSIV™ KIT CSK BGT60TR13C,KIT_CSK_BGT60TR13C,https://apn-portal.my.salesforce.com/servlet/servlet.ImageServer?id=0158a000006l3bIAAQ&oid=00DE0000000c48tMAA,,https://www.infineon.com/evaluation-board/KIT-CSK-BGT60TR13C,yes,no,AWS Qual,yes,Infineon
+Infineon,XENSIV™ KIT CSK PASCO2,KITCSKPASCO2TOBO1,KITCSKPASCO2TOBO1.png,XENSIV.jpg,https://www.infineon.com/evaluation-board/KIT-CSK-PASCO2,yes,no,AWS Qual,yes,Infineon
+Microchip,AVR-IOT mini Cellular,EV70N78A,EV70N78A.png,EV70N78A.jpg,https://www.microchip.com/en-us/development-tool/ev70n78a,no,no,,yes,Microchip
+Microchip,PIC32CX-BZ3 and WBZ35x Curiosity Board,EV19J06A,EV19J06A.png,,https://www.microchip.com/en-us/product/wbz350pe,no,no,,yes,Microchip
+Microchip,PIC64GX Curiosity Kit,CURIOSITY-PIC64GX1000-KIT,CURIOSITY-PIC64GX1000-KIT.png,CURIOSITY-PIC64GX1000-KIT.png,https://www.microchip.com/en-us/development-tool/CURIOSITY-PIC64GX1000-KIT,no,no,AWS_Qual - In_Progress,yes,Microchip
+Microchip,PolarFire Discovery Kit,MPFS-DISCO-KIT,MPFS-DISCO-KIT.png,MPFS-DISCO-KIT.png,https://www.microchip.com/en-us/development-tool/mpfs-disco-kit,yes,no,AWS_Qual - In_Progress,yes,Microchip
+Microchip,SAM E54 Xplained Pro Evaluation Kit,ATSAME54-XPRO,ATSAME54-XPRO.png,ATSAME54-XPRO.jpg,https://www.microchip.com/en-us/development-tool/atsame54-xpro,no,no,,yes,Microchip
+Microchip,SAMA5D27 SOM Evaluation Kit,ATSAMA5D27-SOM1-EK1,ATSAMA5D27-SOM1-EK1.png,ATSAMA5D27-SOM1-EK1.jpg,http://microchip.com/en-us/development-tool/atsama5d27-som1-ek1,yes,no,AWS Qual,yes,Microchip
+Microchip,SAMA7D65 Curiosity Kit,EV63J76A,EV63J76A.png,,https://www.microchip.com/en-us/development-tool/ev63j76a,yes,yes,"AWS_Qual - In_Progress, Greengrass",yes,Microchip
+Microchip,WFI32-IoT Development Board,EV36W50A,EV36W50A.png,EV36W50A.jpg,https://www.microchip.com/en-us/development-tool/ev36w50a,no,no,,yes,Microchip
+NXP,FRDM Development Board for MCX N94/N54 MCUs,FRDM-MCXN947,FRDM-MCXN947.png,,https://www.nxp.com/design/design-center/development-boards-and-designs/FRDM-MCXN947,no,no,,yes,NXP
+NXP,GoldBox for Vehicle Networking Development Platform,S32G-VNP-GLDBOX,https://apn-portal.my.salesforce.com/servlet/servlet.ImageServer?id=0158W00000CPkYGQA1&oid=00DE0000000c48tMAA,,https://www.nxp.com/design/design-center/development-boards-and-designs/GOLDBOX,yes,yes,Greengrass,yes,NXP
+NXP,IMX93 Freedom Board,FRDM-IMX93,FRDM-IMX93.png,FRDM-IMX93.jpg,https://www.nxp.com/design/design-center/development-boards-and-designs/frdm-i-mx-93-development-board:FRDM-IMX93,yes,yes,,yes,NXP
+NXP,i.MX RT1060 Evaluation Kit,MIMXRT1060-EVKB,MIMXRT1060-EVKB.png,MIMXRT1060-EVKB.jpg,https://www.nxp.com/design/design-center/development-boards-and-designs/MIMXRT1060-EVKB,no,no,,yes,NXP
+Nordic,Thingy-91,nRF6943,Nordic-Thingy-91.png,,https://www.nordicsemi.com/Products/Development-hardware/Nordic-Thingy-91,no,no,,yes,Nordic
+Nordic,nRF52840 DK,nRF52840-DK,nrf5280.png,,http://nordicsemi.com/Products/Development-hardware/nRF52840-DK,yes,no,AWS Qual,yes,Nordic
+Raspberry Pi,Raspberry Pi5 4GB,RPI5-4GB-SINGLE,RPI5.png,,https://www.newark.com/raspberry-pi/rpi5-4gb-single/rpi-5-board-2-4ghz-4gb-arm-cortex/dp/81AK1346?CMP=KNC-GUSA-PMAX-SHOPPING-ONBOARD-COMP-NEW&mckv=_dc|pcrid||plid||kword||match||slid||product|81AK1346|pgrid||ptaid||&gad_source=1&gad_campaignid=22957739450&gbraid=0AAAAAD5U_g0CKzRKzITipRenqq3YkBcxH&gclid=Cj0KCQjw0Y3HBhCxARIsAN7931WXmy00sdeNSE4JHaECFiiL4HF4DSMP4eWFtE6qIYgpN5O5CtIP4ooaApk9EALw_wcB,no,yes,,yes,Broadcom
+Renesas,CK-RX65N Cloud Kit,CK-RK65N,CK-RK65N.png,CK-RK65N.jpg,https://www.renesas.com/en/design-resources/boards-kits/ck-rx65n,no,no,,yes,Renesas
+Renesas,Cloud Kit Based on RA6M5 MCU Group,CK-RA6M5,CK-RA6M5.png,CK-RA6M5.jpg,https://www.renesas.com/en/design-resources/boards-kits/ck-ra6m5?srsltid=AfmBOoop6bS6IJxusVIJ6-_25nZtY_GGhLwhp2j_Pp_EvG85-Xf1Thto#documents,yes,no,AWS Qual,yes,Renesas
+Renesas,DA16200 Ultra Low Power Wi-Fi Pmod Module Evaluation Board,US159-DA16200MEVZ,US159-DA16200MEVZ.png,US159-DA16200MEVZ.jpg,https://www.renesas.com/en/design-resources/boards-kits/us159-da16200mevz?srsltid=AfmBOorWpIcf-wfJAZPoz54Lz-hQ4OuKvsiaw-KyM0bjm-J9Ur1bueBw,yes,no,,yes,Renesas
+Renesas,DA16600 Ultra Low Power Wi-Fi and Bluetooth Low Energy Combo Pmod Module Evaluation Board,US159-DA16600EVZ,US159-DA16600EVZ.png,US159-DA16600EVZ.jpg,https://www.renesas.com/en/products/da16600mod,yes,no,AWS Qual,yes,Renesas
+Renesas,"Development Kit, DA 16200, 2.4GHz Wireless Communication",DA16600MOD-DEVKT,DA16600MOD-DEVKT.png,DA16600MOD-DEVKT.jpg,https://www.renesas.com/en/design-resources/boards-kits/da16600mod-devkt,no,no,,yes,Renesas
+Renesas,"Development Kit, DA16200, Wireless Communication, WiFi with IOT",DA16200MOD-DEVKT,DA16200MOD-DEVKT.png,DA16200MOD-DEVKT.jpg,https://www.renesas.com/en/design-resources/boards-kits/da16200mod-devkt#overview,yes,no,AWS Qual,yes,Renesas
+Renesas,Evaluation Kit for RA2L1 MCU Group,EK-RA2L1,EK-RA2L1.png,,https://www.renesas.com/en/design-resources/boards-kits/ek-ra2l1,no,no,,yes,Renesas
+Renesas,Evaluation Kit for RA6M4 MCU Group,EK-RA6M4,EK-RA6M4.png,EK-RA6M4.jpg,https://www.renesas.com/en/products/ra6m4?srsltid=AfmBOoo9q-X5EQu2KKwQ3p2bwF1KRzc_zKRS7gJJB84bXurgF4pSIVKH,yes,no,AWS Qual,yes,Renesas
+Renesas,Evaluation Kit for RA8M1 MCU Group,EK-RA8M1,EK-RA8M1.png,EK-RA8M1.jpg,https://www.renesas.com/en/products/ra8m1,yes,no,AWS Qual,yes,Renesas
+Renesas,Fast Prototyping Board for RA0E2 MCU Group,FPB-RA0E2,FPB-RA0E2.png,,https://www.renesas.com/en/design-resources/boards-kits/fpb-ra0e2,no,no,,yes,Renesas
+Renesas,Fast Prototyping Board for RA2E1 MCU Group,FPB-RA2E1,FPB-RA2E1.png,,https://www.renesas.com/en/design-resources/boards-kits/fpb-ra2e1,no,no,,yes,Renesas
+Renesas,RA0E1 Fast Prototyping Board,FPB-RA0E1,FPB-RA0E1.png,,https://www.renesas.com/en/design-resources/boards-kits/fpb-ra0e1,no,no,,yes,Renesas
+STMicroelectronics,Astra Module,STEVAL-ASTRA1B,STEVAL-ASTRA1B.png,STEVAL-ASTRA1B.jpg,https://www.st.com/en/evaluation-tools/steval-astra1b.html,no,no,,yes,STMicroelectronics
+STMicroelectronics,Proteus,STEVAL-PROTEUS1,STEVAL-PROTEUS1.png,proteus.jpg,https://www.st.com/en/evaluation-tools/steval-proteus1.html,no,no,,yes,STMicroelectronics
+STMicroelectronics,STM32 Nucleo-144 development board with STM32H755ZI MCU,NUCLEO-H755ZI-Q,NUCLEO-H755ZI-Q.png,,https://www.st.com/en/evaluation-tools/nucleo-h755zi-q.html,yes,no,,yes,STMicroelectronics
+STMicroelectronics,STM32H5 Discovery Kit,STM32H573I-DK,stm32h573DK.png,STM32H5.jpg,https://www.st.com/en/evaluation-tools/stm32h573i-dk.html,no,no,,yes,STMicroelectronics
+STMicroelectronics,STM32L4 Discovery Kit,B-L475E-IOT01A2,B-L475E-IOT01A2.png,STM32L4.jpg,https://www.st.com/en/evaluation-tools/b-l4s5i-iot01a.html,yes,no,AWS Qual,yes,STMicroelectronics
+STMicroelectronics,STM32MP135 Discovery Kit,STM32MP135F-DK,STM32MP135F-DK.png,STM32MP135F.jpg,https://www.st.com/en/evaluation-tools/stm32mp135f-dk.html,yes,yes,Greengrass,yes,STMicroelectronics
+STMicroelectronics,STM32MP157 Discovery Kit,STM32MP157F-DK2,stm32mp157.png,STM32MP157F.jpg,https://www.st.com/en/evaluation-tools/stm32mp157c-dk2.html,yes,yes,Greengrass,yes,STMicroelectronics
+STMicroelectronics,STM32MP2 Discovery Kit,STM32MP257F-DK,STM32MP257F-DK.png,STM32MP257F-DK.jpg,https://www.st.com/en/evaluation-tools/stm32mp257f-dk.html,yes,yes,Greengrass,yes,STMicroelectronics
+STMicroelectronics,STM32MP2 Evaluation Board,STM32MP257F-EV1,STM32MP257F-EV1.png,STM32MP257F-EV1.jpg,https://wiki.st.com/stm32mpu/wiki/Getting_started/STM32MP2_boards,yes,yes,Greengrass,yes,STMicroelectronics
+STMicroelectronics,STM32N6 Discovery Kit,STM32N6570-DK,STM32N6570-DK.png,STM32N6570-DK.jpg,https://www.st.com/en/evaluation-tools/stm32n6570-dk.html,yes,no,,yes,STMicroelectronics
+STMicroelectronics,STM32U5 Discovery Kit,B-U585I-IOT02A,B-U585I-IOT02A.png,STM32U5.jpg,https://www.st.com/en/evaluation-tools/b-u585i-iot02a.html,yes,no,AWS Qual,yes,STMicroelectronics
+STMicroelectronics,STM32WL55JC Nucleo-64 for LPWAN,NUCLEO-WL55JC,NUCLEO-WL55JC1.png,,https://www.st.com/en/evaluation-tools/nucleo-wl55jc.html,no,no,,yes,STMicroelectronics
+STMicroelectronics,SensorTile.box PRO,STEVAL-MKBOXPRO,STEVAL-MKBOXPRO.png,SensorTilebox-PRO.jpg,https://www.st.com/en/evaluation-tools/steval-mkboxpro.html,no,no,,yes,STMicroelectronics
+Seeed Studio,reComputer J2021 - Edge AI Computer with NVIDIA® Jetson Xavier™ NX 8GB,SEEED-j2021,SEEED-j2021.png,,https://www.seeedstudio.com/reComputer-J2021-p-5438.html?srsltid=AfmBOoqBZskE6NmMEQJpHBTTkDxX9rWng3fbPMfN3jW2FyRzUayqdm9t,no,no,,yes,NVIDIA
+Tria / AMD,VE2302 Development Kit,AES-VE2302-DK-G,VE2302_Development_Kit.png,,https://www.tria-technologies.com/product/ve2302-development-kit/,no,no,,yes,AMD
+Tria / AMD,ZUBoard 1CG,AES-ZUB-1CG-DK-G,AES-ZUB-1CG-DK-G.png,,https://www.tria-technologies.com/product/zuboard-1cg/,yes,no,AWS_Qual - In_Progress,yes,AMD
+Tria / NXP,MSC SM2S-IMX8PLUS,MSC SM2S-IMX8PLUS,,board_SM_MSC_IMX8PLUS_small.png,https://embedded.avnet.com/product/msc-sm2s-imx8plus/,no,no,,yes,NXP
+Tria / NXP,NXP MaaXBoard 8M,AES-MC-SBC-IMX8M-G,AES-MC-SBC-IMX8M-G.png,AES-MC-SBC-IMX8M-G.jpg,https://www.tria-technologies.com/product/maaxboard/,yes,no,AWS Qual,yes,NXP
+Tria / NXP,NXP MaaXBoard Mini,AES-MC-SBC-IMX8MINI-G,AES-MC-SBC-IMX8MINI-G.png,AES-MC-SBC-IMX8MINI-G.jpg,https://www.tria-technologies.com/product/maaxboard-mini/,no,no,,yes,NXP
+Tria / NXP,NXP MaaXBoard OSM93,AES-MAAXB-OSM93-DK-G,AES-MAAXB-OSM93-DK-G.png,AES-MAAXB-OSM93-DK-G.jpg,https://www.tria-technologies.com/product/maaxboard-osm93/,yes,yes,AWS Qual,yes,NXP
+Tria / NXP,NXP MaaXBoard ULP,AES-MAAXB-8ULP-SK-G,AES-MAAXB-8ULP-SK-G.png,AES-MAAXB-8ULP-SK-G.jpg,https://www.tria-technologies.com/product/maaxboard-8ulp/,yes,no,AWS Qual,yes,NXP
+Tria / NXP,NXP MaaxBoard RT,AES-MC-SBC-IMXRT1176-G,AES-MC-SBC-IMXRT1176-G.png,AES-MC-SBC-IMXRT1176-G.jpg,https://www.tria-technologies.com/product/maaxboard-rt/,no,no,,yes,NXP
+Tria / Qualcom,Vision AI-KIT IQ9,Vision AI-KIT IQ9,Vision-AI-KIT-IQ9.png,,https://www.tria-technologies.com/product/vision-ai-kit-iq9/,no,no,,yes,Qualcomm
+Tria / Qualcom,VisionAI-Kit 6490,AES-QCS6490-DK-G,AES-QCS6490-DK-G.png,,https://www.tria-technologies.com/product/vision-ai-kit-6490/,yes,no,AWS_Qual - In_Progress,yes,Qualcomm
+Tria / Renesas,RASynBoard NDP120 Evaluation Kit,AES-RASYNB-120,AES-RASYNB-120.png,AES-RASYNB-120.jpg,https://www.avnet.com/americas/products/avnet-boards/avnet-board-families/rasynboard/,yes,no,AWS Qual,yes,Renesas
+Tria / Renesas,RZBoard V2L,AES-RZB-V2L-SK-G,AES-RZB-V2L-SK-G.png,AES-RZB-V2L-SK-G.jpg,https://www.tria-technologies.com/product/rzboard-v2l/,yes,no,AWS Qual,yes,Renesas
+Seeed Studio,reComputer J4021 - Edge AI Computer with NVIDIA Jetson Orin NX 16GB,J4021,,,,no,no,"ai,vision,edge",yes,NVIDIA
+Kerlink,Wirnet iStation Outdoor LoRaWAN Gateway,WIRNET-ISTATION,,WIRNET-ISTATION.png,https://www.kerlink.com/product/wirnet-istation/,no,no,"lora,lorawan,gateway",yes,Semtech
+Advantech,SOM-6873 AMD Ryzen Embedded 8000 COM Express Compact Type 6 Module,SOM-6873,,SOM-6873.jpg,https://www.advantech.com/en-us/products/e5f3ee70-5c26-4757-93f4-a9d4150a860f/som-6873/mod_1d0156b1-61b6-48fb-b768-549bb1be3c1c,no,no,"ai,vision,edge",yes,AMD
+Avnet,/IOTCONNECT Bridge Mobile Gateway App,IOTC-BRIDGE-APP,,IOTC-BRIDGE-APP.jpg,https://github.com/avnet-iotconnect/iotc-gateway-mobile-app,no,no,"gateway,ble,mobile",yes,Avnet
+TE Connectivity,TE Connectivity mikroBUS Click Sensor Boards,TE-MIKROBUS-CLICKS,,,,no,no,"clicks,sensors,mikrobus",yes,TE Connectivity
+Amphenol,Amphenol mikroBUS Click Sensor Boards,AMPHENOL-MIKROBUS-CLICKS,,,,no,no,"clicks,sensors,mikrobus",yes,Amphenol
+Arduino,Arduino UNO Q,ARDUINO-UNO-Q,,ARDUINO-UNO-Q.jpg,https://store.arduino.cc/products/uno-q,no,no,"AI, IoT, Linux",yes,Qualcomm
+Microchip,PolarFire SoC Video Kit,MPFS-VIDEO-KIT,,MPFS-VIDEO-KIT.jpg,https://www.microchip.com/en-us/development-tool/mpfs250-video-kit,no,no,"AI, Vision, FPGA, RISC-V",yes,Microchip
+NVIDIA,Jetson AGX Orin Developer Kit,JETSON-ORIN,,JETSON-ORIN.jpg,https://developer.nvidia.com/embedded/jetson-developer-kits,no,no,"AI, Edge, Robotics",yes,NVIDIA
+Renesas,RZ/G3E Evaluation Kit,RZ-G3E-EVK,,RZ-G3E-EVK.jpg,https://www.renesas.com/en/design-resources/boards-kits/rz-g3e-evkit,no,no,"AI, HMI, NPU",yes,Renesas
+Renesas,RZ/V2H Evaluation Kit,RZ-V2H-EVK,,RZ-V2H-EVK.jpg,https://www.renesas.com/en/design-resources/boards-kits/rz-v2h-evk,no,no,"AI, Vision",yes,Renesas
+STMicroelectronics,STM32MP215F-DK Discovery Kit,STM32MP215F-DK,,STM32MP215F-DK.jpg,https://www.st.com/en/evaluation-tools/stm32mp215f-dk.html,no,no,"AI, IoT, Edge",yes,STMicroelectronics

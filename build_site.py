@@ -54,10 +54,12 @@ def resolve_image(v):
     if re.match(r'^(https?:|data:|//)', s): return s
     return (IMAGE_BASE or "") + s
 
-# Manufacturers with brand logos shown in the partner showcase.
+# Silicon vendors with brand logos shown in the partner showcase.
 PARTNER_LOGO = {
     "STMicroelectronics": "st-logo.png", "Infineon": "infineon-logo.png",
     "Microchip": "microchip-logo.png", "NXP": "nxp-logo.png", "Renesas": "renesas-logo.png",
+    "AMD": "amd-logo.svg", "NVIDIA": "nvidia-logo.svg", "Intel": "intel-logo.svg",
+    "Qualcomm": "qualcomm-logo.svg",
 }
 # ---------- Resources ----------
 res_rows, _ = read_csv("resources")
@@ -91,7 +93,9 @@ for row in brows:
                  key=lambda x: ["buy","quickstart","developer","demo","webinar","video","blog","doc","info"].index(x["kind"])
                  if x["kind"] in ["buy","quickstart","developer","demo","webinar","video","blog","doc","info"] else 99)
     buy = next((x["url"] for x in res if x["kind"] == "buy"), None)
-    d = {"slug": sg, "vendor": str(row.get("Manufacturer") or "Other").strip(),
+    integrator = str(row.get("Manufacturer") or "Other").strip()
+    silicon = str(row.get("Silicon") or "").strip() or integrator   # vendor = silicon (chip maker)
+    d = {"slug": sg, "vendor": silicon, "integrator": integrator,
          "name": nm or pn, "partNumber": pn,
          "image": resolve_image(row.get("Image File")),
          "imageLocal": (IMAGE_LOCAL + img_local) if img_local else None,
@@ -111,7 +115,7 @@ def resolve_ref(ref, listing_name):
     if k in boards_by_name: return boards_by_name[k]
     missing_boards.setdefault(ref, set()).add(listing_name)
     sg = "x-" + slug(ref)
-    board_defs.setdefault(sg, {"slug": sg, "vendor": "Other", "name": ref, "partNumber": "",
+    board_defs.setdefault(sg, {"slug": sg, "vendor": "Other", "integrator": "Other", "name": ref, "partNumber": "",
                                "image": None, "imageLocal": None, "link": None, "buy": None,
                                "qualifications": [], "tags": [], "resources": []})
     return sg
@@ -167,6 +171,8 @@ except Exception as e:
 def board_ref(sg):
     b = board_defs[sg]
     o = {"slug": sg, "vendor": b["vendor"], "name": b["name"]}
+    integ = b.get("integrator", b["vendor"])
+    if integ and integ != b["vendor"]: o["integrator"] = integ
     if b.get("partNumber"): o["partNumber"] = b["partNumber"]
     if b.get("image"): o["image"] = b["image"]
     if b.get("imageLocal"): o["imageLocal"] = b["imageLocal"]
@@ -218,6 +224,7 @@ for sg in sorted([s for s in board_defs if not s.startswith("x-")],
         continue
     rec = {k: b[k] for k in ["slug","vendor","name","partNumber","image","imageLocal",
                              "link","buy","qualifications","tags","resources"]}
+    rec["integrator"] = b.get("integrator", b["vendor"])
     rec["listings"] = board_listings.get(sg, 0)
     busd.append(rec)
 

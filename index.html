@@ -325,10 +325,11 @@
 const ORG="avnet-iotconnect";
 const VENDOR_COLOR={
   "STMicroelectronics":"#03234B","Infineon":"#0A8276","Microchip":"#EE3124","NXP":"#0C7DBB","Renesas":"#1A2A6C",
-  "Tria / NXP":"#7C5CD6","Tria / AMD":"#ED1C24","Tria / Qualcom":"#3253DC","Tria / Renesas":"#1A2A6C",
-  "AMD":"#ED1C24","Advantech":"#C8102E","ADLINK":"#0067B9","Arduino":"#00979D","Asus":"#00539B",
-  "Dell":"#007DB8","Nordic":"#00A9CE","Raspberry Pi":"#C51A4A","Seeed Studio":"#04A54E",
-  "Kerlink":"#E2001A","TE Connectivity":"#FF6600","Amphenol":"#005DAA","Avnet":"#41C363","Other":"#6B7C92"};
+  "AMD":"#ED1C24","NVIDIA":"#76B900","Intel":"#0071C5","Qualcomm":"#3253DC",
+  "Nordic":"#00A9CE","Broadcom":"#CC0000","Semtech":"#00A4E4","Raspberry Pi":"#C51A4A",
+  "Advantech":"#C8102E","ADLINK":"#0067B9","Arduino":"#00979D","Asus":"#00539B","Dell":"#007DB8",
+  "Seeed Studio":"#04A54E","Kerlink":"#E2001A","Avnet":"#41C363","Other":"#6B7C92"};
+const integLabel=s=>String(s||"").split(" / ")[0].trim();   // "Tria / NXP" -> "Tria"
 const KIND_META={
   buy:{ic:"🛒",label:"Buy"},quickstart:{ic:"⚡",label:"QuickStart"},developer:{ic:"🛠️",label:"Developer guide"},
   demo:{ic:"🎬",label:"Demo"},webinar:{ic:"🎙️",label:"Webinar"},video:{ic:"▶️",label:"Video"},
@@ -440,7 +441,7 @@ function boardCard(b){
       ${quals?`<div class="qbadges">${quals}</div>`:""}
     </div>
     <div class="body">
-      <div class="vrow"><span class="vd" style="background:${vcolor(b.vendor)}"></span><span class="vn">${esc(b.vendor)}</span></div>
+      <div class="vrow"><span class="vd" style="background:${vcolor(b.vendor)}"></span><span class="vn">${esc(b.vendor)}${(b.integrator&&integLabel(b.integrator)!==b.vendor)?` · ${esc(integLabel(b.integrator))}`:""}</span></div>
       <div class="cname">${esc(b.name)}</div>
       ${b.partNumber?`<div class="cpn">${esc(b.partNumber)}</div>`:""}
       <div class="foot">
@@ -594,7 +595,7 @@ function openDrawer(slug){
   $("#drawer").innerHTML=`
     <div class="dr-head">
       <button class="dr-close" id="drClose">×</button>
-      <div class="dr-vendor"><span class="vd" style="background:${vcolor(b.vendor)}"></span><span>${esc(b.vendor)}</span></div>
+      <div class="dr-vendor"><span class="vd" style="background:${vcolor(b.vendor)}"></span><span>${esc(b.vendor)}${(b.integrator&&integLabel(b.integrator)!==b.vendor)?` · ${esc(integLabel(b.integrator))}`:""}</span></div>
       <h2>${esc(b.name)}</h2>
       ${b.partNumber?`<div class="dr-pn">${esc(b.partNumber)}</div>`:""}
       ${quals?`<div class="dr-quals">${quals}</div>`:""}
