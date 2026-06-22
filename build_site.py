@@ -23,6 +23,8 @@ TOPIC_NORM = {
     "gesture_det": "gesture", "siren_det": "siren-detection", "human_activity": "human-activity",
     "uavoperations": "uav", "enviro-sense": "sensors",
 }
+# Topics dropped everywhere: every sample provides these, so they're noise as filters.
+DROP_TOPICS = {"telemetry", "commands", "ota", "twin"}
 
 def slug(s): return re.sub(r'[^a-z0-9]+', '-', str(s).lower()).strip('-') or "x"
 def split(s): return [x.strip() for x in str(s or "").replace(";", ",").split(",") if x.strip()]
@@ -132,7 +134,7 @@ for row in lrows:
         "category": str(row.get("Type") or "uncategorized").strip().lower(),
         "status": str(row.get("Status") or DEFAULT_STATUS).strip().lower(),
         "languages": split(row.get("Languages")),
-        "features": sorted({TOPIC_NORM.get(t.lower(), t.lower()) for t in split(row.get("Topics"))}),
+        "features": sorted({TOPIC_NORM.get(t.lower(), t.lower()) for t in split(row.get("Topics"))} - DROP_TOPICS),
         "boards": refs, "description": str(row.get("Description") or "").strip(),
         "url": (str(row.get("Link")).strip() or None) if row.get("Link") else None,
         "image": resolve_listing_image(row.get("Image")),
@@ -219,8 +221,8 @@ for sg in sorted([s for s in board_defs if not s.startswith("x-")],
     rec["listings"] = board_listings.get(sg, 0)
     busd.append(rec)
 
-# topic facet (frequency)
-CAP = {"telemetry","commands","ota","twin","file-upload"}
+# topic facet (frequency) — features are already cleaned of DROP_TOPICS upstream
+CAP = set()
 tagcount = {}
 for r in vis:
     for t in r["features"]:
@@ -277,7 +279,8 @@ orphan = [d for s, d in board_defs.items() if not s.startswith("x-") and s not i
 no_image = [d for s, d in board_defs.items()
             if not s.startswith("x-") and not d.get("image") and not d.get("imageLocal")]
 uncatalogued = [r for r in org_repos if not r.get("archived") and r["name"] not in used_repos] if org_repos else []
-incomplete = [L["name"] for L in listings if (not L["features"]) or (not L["description"] and not L["repo"])]
+incomplete = [L["name"] for L in listings
+              if (L["category"] == "sample" and not L["features"]) or (not L["description"] and not L["repo"])]
 
 A = ["# /IOTCONNECT Index — Audit Report", "",
      f"_Generated {index['generated']}_  ·  {len(vis)} listings · {len(busd)} boards "

@@ -1,0 +1,450 @@
+{
+ "iotc-python-lite-sdk-demos": {
+  "arduino-uno-q": {
+   "pn": null,
+   "new": [
+    "NEW",
+    "Arduino",
+    "Arduino Uno Q"
+   ],
+   "examples": []
+  },
+  "microchip-pic64gx1000": {
+   "pn": "CURIOSITY-PIC64GX1000-KIT",
+   "new": null,
+   "examples": []
+  },
+  "microchip-polarfire-soc-dk": {
+   "pn": "MPFS-DISCO-KIT",
+   "new": null,
+   "examples": [
+    {
+     "folder": "archive",
+     "title": "",
+     "desc": "",
+     "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/microchip-polarfire-soc-dk/archive"
+    },
+    {
+     "folder": "images",
+     "title": "Technical Machine Learning Images",
+     "desc": "This folder stores local copies of public images used across workshop navigation and track documentation.",
+     "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/microchip-polarfire-soc-dk/images"
+    },
+    {
+     "folder": "ml-complex-nn-accelerator",
+     "title": "/IOTCONNECT Complex Neural Network Accelerator Expansion Demo",
+     "desc": "This demo targets stronger HW acceleration gains by combining a larger model with batched execution.",
+     "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/microchip-polarfire-soc-dk/ml-complex-nn-accelerator"
+    },
+    {
+     "folder": "ml-simple-nn-accelerator",
+     "title": "/IOTCONNECT Simple Neural Network Accelerator Expansion Demo",
+     "desc": "This demo introduces a compact fixed-point neural-network accelerator while preserving the same `/IOTCONNECT` command interface used in the [Template Correlation Classifier](../ml-template-correlation-classifier/) demo.",
+     "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/microchip-polarfire-soc-dk/ml-simple-nn-accelerator"
+    },
+    {
+     "folder": "ml-template-correlation-classifier",
+     "title": "/IOTCONNECT Template Correlation Classifier Expansion Demo",
+     "desc": "This is a deterministic template-correlation classifier demo for validating end-to-end cloud command/control and telemetry on the Microchip PolarFire SoC.",
+     "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/microchip-polarfire-soc-dk/ml-template-correlation-classifier"
+    }
+   ]
+  },
+  "microchip-polarfire-soc-vk": {
+   "pn": null,
+   "new": [
+    "NEW",
+    "Microchip",
+    "PolarFire SoC Video Kit"
+   ],
+   "examples": [
+    {
+     "folder": "archive",
+     "title": "",
+     "desc": "",
+     "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/microchip-polarfire-soc-vk/archive"
+    },
+    {
+     "folder": "images",
+     "title": "Technical ML Images",
+     "desc": "This folder stores local copies of public images used across workshop navigation and track documentation.",
+     "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/microchip-polarfire-soc-vk/images"
+    },
+    {
+     "folder": "track1-iotc-ml-classifier",
+     "title": "/IOTCONNECT Template Correlation Classifier Expansion Demo",
+     "desc": "This is a deterministic template-correlation classifier demo for validating end-to-end cloud command/control and telemetry on the Microchip PolarFire SoC Video Kit.",
+     "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/microchip-polarfire-soc-vk/track1-iotc-ml-classifier"
+    },
+    {
+     "folder": "track2-iotc-ml-nn-accelerator",
+     "title": "/IOTCONNECT Simple Neural Network Accelerator Expansion Demo",
+     "desc": "This demo introduces a compact fixed-point neural-network accelerator while preserving the same `/IOTCONNECT` command interface used in the [Template Correlation Classifier](../track1-iotc-ml-classifier/) demo.",
+     "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/microchip-polarfire-soc-vk/track2-iotc-ml-nn-accelerator"
+    },
+    {
+     "folder": "track3-iotc-ml-complex-accelerator",
+     "title": "/IOTCONNECT Complex Neural Network Accelerator Expansion Demo",
+     "desc": "This demo targets stronger HW acceleration gains by combining a larger model with batched execution.",
+     "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/microchip-polarfire-soc-vk/track3-iotc-ml-complex-accelerator"
+    }
+   ]
+  },
+  "microchip-sama5d27": {
+   "pn": "ATSAMA5D27-SOM1-EK1",
+   "new": null,
+   "examples": []
+  },
+  "microchip-sama7d65-curiosity": {
+   "pn": "EV63J76A",
+   "new": null,
+   "examples": [
+    {
+     "folder": "kws-demo",
+     "title": "Keyword Spotting Demo",
+     "desc": "Upgrades the /IOTCONNECT Starter Demo on the Microchip SAMA7D65-Curiosity Kit to a USB microphone keyword spotter that publishes inference results to /IOTCONNECT.",
+     "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/microchip-sama7d65-curiosity/kws-demo"
+    },
+    {
+     "folder": "kws-game",
+     "title": "Voice Blackjack (KWS Game)",
+     "desc": "Upgrades the /IOTCONNECT Starter Demo on the Microchip SAMA7D65-Curiosity Kit to a voice-controlled blackjack game",
+     "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/microchip-sama7d65-curiosity/kws-game"
+    },
+    {
+     "folder": "kws-training",
+     "title": "KWS Training Studio",
+     "desc": "This folder contains a complete retraining pipeline for board-hosted keyword spotting:",
+     "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/microchip-sama7d65-curiosity/kws-training"
+    },
+    {
+     "folder": "pac1934-demo",
+     "title": "PAC1934 Power Monitoring Demo",
+     "desc": "Upgrades the /IOTCONNECT Starter Demo on the Microchip SAMA7D65-Curiosity Kit to read voltage, current, and power measurements from the on-board PAC1934 power monitor IC and publish them to /IOTCONNECT.",
+     "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/microchip-sama7d65-curiosity/pac1934-demo"
+    }
+   ]
+  },
+  "nvidia-jetson-orin": {
+   "pn": null,
+   "new": [
+    "NEW",
+    "NVIDIA",
+    "Jetson Orin Developer Kit"
+   ],
+   "examples": [
+    {
+     "folder": "kvs-putmedia",
+     "title": "KVS PutMedia Expansion Demo",
+     "desc": "Upgrades the /IOTCONNECT Starter Demo on the NVIDIA Jetson Orin to the AWS Kinesis Video Streams (KVS) PutMedia video streaming demo.",
+     "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/nvidia-jetson-orin/kvs-putmedia"
+    }
+   ]
+  },
+  "nxp-frdm-imx-93": {
+   "pn": "FRDM-IMX93",
+   "new": null,
+   "examples": [
+    {
+     "folder": "dms-demo",
+     "title": "EIQ Vision AI Driver Monitoring System (DMS) Expansion Demo",
+     "desc": "Upgrades the /IOTCONNECT Starter Demo on the NXP FRDM i.MX 93 to the EIQ Vision AI Driver Monitoring System demo.",
+     "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/nxp-frdm-imx-93/dms-demo"
+    },
+    {
+     "folder": "dms_plus_face_recog-demo",
+     "title": "",
+     "desc": "",
+     "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/nxp-frdm-imx-93/dms_plus_face_recog-demo"
+    },
+    {
+     "folder": "file-upload-demo",
+     "title": "File Upload Demo",
+     "desc": "Upgrades the /IOTCONNECT Starter Demo on the NXP FRDM-IMX93 to a media capture and file upload demo.",
+     "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/nxp-frdm-imx-93/file-upload-demo"
+    },
+    {
+     "folder": "kvs-putmedia",
+     "title": "KVS PutMedia Expansion Demo",
+     "desc": "Upgrades the /IOTCONNECT Starter Demo on the NXP FRDM-IMX93 to the AWS Kinesis Video Streams (KVS) PutMedia video streaming demo.",
+     "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/nxp-frdm-imx-93/kvs-putmedia"
+    },
+    {
+     "folder": "kvs-webrtc",
+     "title": "KVS WebRTC Expansion Demo",
+     "desc": "Upgrades the /IOTCONNECT Starter Demo on the NXP FRDM i.MX93 to the AWS Kinesis Video Streams (KVS) WebRTC live video streaming demo.",
+     "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/nxp-frdm-imx-93/kvs-webrtc"
+    }
+   ]
+  },
+  "nxp-s32g-vnp-gldbox3": {
+   "pn": "S32G-VNP-GLDBOX",
+   "new": null,
+   "examples": []
+  },
+  "raspberry-pi": {
+   "pn": "RPI5-4GB-SINGLE",
+   "new": null,
+   "examples": []
+  },
+  "renesas-rzg3e-evk": {
+   "pn": null,
+   "new": [
+    "NEW",
+    "Renesas",
+    "RZ/G3E Evaluation Kit"
+   ],
+   "examples": [
+    {
+     "folder": "scripts",
+     "title": "",
+     "desc": "",
+     "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/renesas-rzg3e-evk/scripts"
+    }
+   ]
+  },
+  "renesas-rzv2h-evk": {
+   "pn": null,
+   "new": [
+    "NEW",
+    "Renesas",
+    "RZ/V2H Evaluation Kit"
+   ],
+   "examples": [
+    {
+     "folder": "ai-demo",
+     "title": "RZ/V2H EVK — AI Inference Expansion Demo",
+     "desc": "Upgrades the /IOTCONNECT Starter Demo on the Renesas RZ/V2H EVK to a full AI inference demo — Python computer-vision",
+     "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/renesas-rzv2h-evk/ai-demo"
+    },
+    {
+     "folder": "system-monitor-demo",
+     "title": "RZ/V2H EVK — System Monitor Expansion Demo",
+     "desc": "Upgrades the /IOTCONNECT Starter Demo on the Renesas RZ/V2H EVK to the System Monitor Demo, which streams real-time system",
+     "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/renesas-rzv2h-evk/system-monitor-demo"
+    }
+   ]
+  },
+  "stm32mp135f-dk": {
+   "pn": "STM32MP135F-DK",
+   "new": null,
+   "examples": [
+    {
+     "folder": "ai-vision",
+     "title": "X-LINUX-AI Vision Expansion Demo",
+     "desc": "Upgrades the /IOTCONNECT Starter Demo on the STM32MP135F-DK to the X-LINUX-AI object detection vision demo.",
+     "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/stm32mp135f-dk/ai-vision"
+    },
+    {
+     "folder": "kvs-putmedia",
+     "title": "KVS PutMedia Expansion Demo",
+     "desc": "Upgrades the /IOTCONNECT Starter Demo on the STM32MP135F-DK to the AWS Kinesis Video Streams (KVS) PutMedia video streaming demo.",
+     "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/stm32mp135f-dk/kvs-putmedia"
+    },
+    {
+     "folder": "kvs-webrtc",
+     "title": "KVS WebRTC Expansion Demo",
+     "desc": "Upgrades the /IOTCONNECT Starter Demo on the STM32MP135F-DK to the AWS Kinesis Video Streams (KVS) WebRTC live video streaming demo.",
+     "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/stm32mp135f-dk/kvs-webrtc"
+    },
+    {
+     "folder": "mkboxpro-demo",
+     "title": "MKBOXPRO Expansion Demo",
+     "desc": "Upgrades the /IOTCONNECT Starter Demo on the STM32MP135F-DK to the MKBOXPRO BLE sensor pack demo.",
+     "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/stm32mp135f-dk/mkboxpro-demo"
+    },
+    {
+     "folder": "proteus-standard-demo",
+     "title": "Standard PROTEUS Expansion Demo",
+     "desc": "Upgrades the /IOTCONNECT Starter Demo on the STM32MP135F-DK to the standard PROTEUS sensor pack demo.",
+     "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/stm32mp135f-dk/proteus-standard-demo"
+    }
+   ]
+  },
+  "stm32mp157f-dk2": {
+   "pn": "STM32MP157F-DK2",
+   "new": null,
+   "examples": [
+    {
+     "folder": "ai-vision",
+     "title": "X-LINUX-AI Vision Expansion Demo",
+     "desc": "Upgrades the /IOTCONNECT Starter Demo on the STM32MP157F-DK2 to the X-LINUX-AI object detection vision demo.",
+     "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/stm32mp157f-dk2/ai-vision"
+    },
+    {
+     "folder": "kvs-putmedia",
+     "title": "KVS PutMedia Expansion Demo",
+     "desc": "Upgrades the /IOTCONNECT Starter Demo on the STM32MP157F-DK2 to the AWS Kinesis Video Streams (KVS) PutMedia video streaming demo.",
+     "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/stm32mp157f-dk2/kvs-putmedia"
+    },
+    {
+     "folder": "kvs-webrtc",
+     "title": "KVS WebRTC Expansion Demo",
+     "desc": "Upgrades the /IOTCONNECT Starter Demo on the STM32MP157F-DK2 to the AWS Kinesis Video Streams (KVS) WebRTC live video streaming demo.",
+     "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/stm32mp157f-dk2/kvs-webrtc"
+    },
+    {
+     "folder": "mkboxpro-demo",
+     "title": "MKBOXPRO Expansion Demo",
+     "desc": "Upgrades the /IOTCONNECT Starter Demo on the STM32MP157F-DK2 to the MKBOXPRO BLE sensor pack demo.",
+     "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/stm32mp157f-dk2/mkboxpro-demo"
+    },
+    {
+     "folder": "proteus-standard-demo",
+     "title": "Standard PROTEUS Expansion Demo",
+     "desc": "Upgrades the /IOTCONNECT Starter Demo on the STM32MP157F-DK2 to the standard PROTEUS sensor pack demo.",
+     "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/stm32mp157f-dk2/proteus-standard-demo"
+    }
+   ]
+  },
+  "stm32mp215f-dk": {
+   "pn": null,
+   "new": [
+    "NEW",
+    "STMicroelectronics",
+    "STM32MP215F-DK Discovery Kit"
+   ],
+   "examples": []
+  },
+  "stm32mp257f-dk": {
+   "pn": "STM32MP257F-DK",
+   "new": null,
+   "examples": [
+    {
+     "folder": "kvs-putmedia",
+     "title": "KVS PutMedia Expansion Demo",
+     "desc": "Upgrades the /IOTCONNECT Starter Demo on the STM32MP257F-DK to the AWS Kinesis Video Streams (KVS) PutMedia video streaming demo.",
+     "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/stm32mp257f-dk/kvs-putmedia"
+    },
+    {
+     "folder": "kvs-webrtc",
+     "title": "KVS WebRTC Expansion Demo",
+     "desc": "Upgrades the /IOTCONNECT Starter Demo on the STM32MP257F-DK to the AWS Kinesis Video Streams (KVS) WebRTC live video streaming demo.",
+     "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/stm32mp257f-dk/kvs-webrtc"
+    },
+    {
+     "folder": "mkboxpro-demo",
+     "title": "MKBOXPRO Expansion Demo",
+     "desc": "Upgrades the /IOTCONNECT Starter Demo on the STM32MP257F-DK to the MKBOXPRO BLE sensor pack demo.",
+     "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/stm32mp257f-dk/mkboxpro-demo"
+    },
+    {
+     "folder": "proteus-standard-demo",
+     "title": "Standard PROTEUS Expansion Demo",
+     "desc": "Upgrades the /IOTCONNECT Starter Demo on the STM32MP257F-DK to the standard PROTEUS sensor pack demo.",
+     "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/stm32mp257f-dk/proteus-standard-demo"
+    }
+   ]
+  },
+  "stm32mp257f-ev1": {
+   "pn": "STM32MP257F-EV1",
+   "new": null,
+   "examples": [
+    {
+     "folder": "kvs-putmedia",
+     "title": "KVS PutMedia Expansion Demo",
+     "desc": "Upgrades the /IOTCONNECT Starter Demo on the STM32MP257F-EV1 to the AWS Kinesis Video Streams (KVS) PutMedia video streaming demo.",
+     "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/stm32mp257f-ev1/kvs-putmedia"
+    },
+    {
+     "folder": "kvs-webrtc",
+     "title": "KVS WebRTC Expansion Demo",
+     "desc": "Upgrades the /IOTCONNECT Starter Demo on the STM32MP257F-EV1 to the AWS Kinesis Video Streams (KVS) WebRTC live video streaming demo.",
+     "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/stm32mp257f-ev1/kvs-webrtc"
+    }
+   ]
+  },
+  "tria-maaxboard-8m": {
+   "pn": "AES-MC-SBC-IMX8M-G",
+   "new": null,
+   "examples": []
+  },
+  "tria-maaxboard-8ulp": {
+   "pn": "AES-MAAXB-8ULP-SK-G",
+   "new": null,
+   "examples": []
+  },
+  "tria-maaxboard-osm93": {
+   "pn": "AES-MAAXB-OSM93-DK-G",
+   "new": null,
+   "examples": [
+    {
+     "folder": "dms-demo",
+     "title": "EIQ Vision AI Driver Monitoring System (DMS) Expansion Demo",
+     "desc": "Upgrades the /IOTCONNECT Starter Demo on the Tria MAAXBoard OSM93 to the EIQ Vision AI Driver Monitoring System demo.",
+     "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/tria-maaxboard-osm93/dms-demo"
+    }
+   ]
+  },
+  "tria-vision-ai-kit-6490": {
+   "pn": "AES-QCS6490-DK-G",
+   "new": null,
+   "examples": [
+    {
+     "folder": "kvs-putmedia",
+     "title": "KVS PutMedia Expansion Demo",
+     "desc": "Upgrades the /IOTCONNECT Starter Demo on the Tria Vision AI-KIT 6490 to the AWS Kinesis Video Streams (KVS) PutMedia video streaming demo.",
+     "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/tria-vision-ai-kit-6490/kvs-putmedia"
+    },
+    {
+     "folder": "kvs-webrtc",
+     "title": "KVS WebRTC Expansion Demo",
+     "desc": "Upgrades the /IOTCONNECT Starter Demo on the Tria Vision AI-KIT 6490 to the AWS Kinesis Video Streams (KVS) WebRTC live video streaming demo.",
+     "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/tria-vision-ai-kit-6490/kvs-webrtc"
+    },
+    {
+     "folder": "vision-ai",
+     "title": "Tria Vision AI-KIT 6490: /IOTCONNECT-Enabled Vision-AI Demo Guide",
+     "desc": "This guide will help you set up your Tria Vision AI-KIT 6490 to send AI inference and system status telemetry to /IOTCONNECT,",
+     "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/tria-vision-ai-kit-6490/vision-ai"
+    }
+   ]
+  },
+  "tria-zuboard-1cg": {
+   "pn": "AES-ZUB-1CG-DK-G",
+   "new": null,
+   "examples": []
+  }
+ },
+ "iotc-python-greengrass-demos": {
+  "nxp-frdm-imx-93": {
+   "pn": "FRDM-IMX93",
+   "new": null,
+   "examples": []
+  },
+  "raspberry-pi": {
+   "pn": "RPI5-4GB-SINGLE",
+   "new": null,
+   "examples": []
+  },
+  "stm32mp135f-dk": {
+   "pn": "STM32MP135F-DK",
+   "new": null,
+   "examples": []
+  },
+  "stm32mp157f-dk2": {
+   "pn": "STM32MP157F-DK2",
+   "new": null,
+   "examples": []
+  },
+  "stm32mp215f-dk": {
+   "pn": null,
+   "new": [
+    "NEW",
+    "STMicroelectronics",
+    "STM32MP215F-DK Discovery Kit"
+   ],
+   "examples": []
+  },
+  "stm32mp257f-dk": {
+   "pn": "STM32MP257F-DK",
+   "new": null,
+   "examples": []
+  },
+  "stm32mp257f-ev1": {
+   "pn": "STM32MP257F-EV1",
+   "new": null,
+   "examples": []
+  }
+ }
+}

@@ -1,0 +1,506 @@
+{
+ "newBoards": [
+  {
+   "manufacturer": "Arduino",
+   "boardName": "Arduino UNO Q",
+   "partNumber": "ABX00162",
+   "productLink": "https://store.arduino.cc/products/uno-q",
+   "awsQualified": "no",
+   "greengrass": "no",
+   "tags": "AI, IoT, Linux"
+  },
+  {
+   "manufacturer": "Microchip",
+   "boardName": "PolarFire SoC Video Kit",
+   "partNumber": "MPFS250-VIDEO-KIT",
+   "productLink": "https://www.microchip.com/en-us/development-tool/mpfs250-video-kit",
+   "awsQualified": "no",
+   "greengrass": "no",
+   "tags": "AI, Vision, FPGA, RISC-V"
+  },
+  {
+   "manufacturer": "NVIDIA",
+   "boardName": "Jetson AGX Orin Developer Kit",
+   "partNumber": "945-13730-0000-000",
+   "productLink": "https://developer.nvidia.com/embedded/jetson-developer-kits",
+   "awsQualified": "no",
+   "greengrass": "no",
+   "tags": "AI, Edge, Robotics"
+  },
+  {
+   "manufacturer": "Renesas",
+   "boardName": "RZ/G3E Evaluation Kit",
+   "partNumber": "RTK9947E57S01000BE",
+   "productLink": "https://www.renesas.com/en/design-resources/boards-kits/rz-g3e-evkit",
+   "awsQualified": "no",
+   "greengrass": "no",
+   "tags": "AI, HMI, NPU"
+  },
+  {
+   "manufacturer": "Renesas",
+   "boardName": "RZ/V2H Evaluation Kit",
+   "partNumber": "RTK0EF0168C04000BJ",
+   "productLink": "https://www.renesas.com/en/design-resources/boards-kits/rz-v2h-evk",
+   "awsQualified": "no",
+   "greengrass": "no",
+   "tags": "AI, Vision"
+  },
+  {
+   "manufacturer": "STMicroelectronics",
+   "boardName": "STM32MP215F-DK Discovery Kit",
+   "partNumber": "STM32MP215F-DK",
+   "productLink": "https://www.st.com/en/evaluation-tools/stm32mp215f-dk.html",
+   "awsQualified": "no",
+   "greengrass": "no",
+   "tags": "AI, IoT, Edge"
+  }
+ ],
+ "liteListings": [
+  {
+   "name": "PolarFire SoC DK — Complex Neural Network Accelerator",
+   "boards": "MPFS-DISCO-KIT",
+   "topics": "edge-ai, ai, npu",
+   "description": "Runs a larger model with batched execution on the PolarFire SoC to maximize hardware neural-network acceleration gains while reporting results to /IOTCONNECT.",
+   "link": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/microchip-polarfire-soc-dk/ml-complex-nn-accelerator"
+  },
+  {
+   "name": "PolarFire SoC DK — Simple Neural Network Accelerator",
+   "boards": "MPFS-DISCO-KIT",
+   "topics": "edge-ai, ai, npu",
+   "description": "Demonstrates a compact fixed-point neural-network accelerator on the PolarFire SoC using the same /IOTCONNECT command interface as the template-correlation classifier.",
+   "link": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/microchip-polarfire-soc-dk/ml-simple-nn-accelerator"
+  },
+  {
+   "name": "PolarFire SoC DK — Template Correlation Classifier",
+   "boards": "MPFS-DISCO-KIT",
+   "topics": "edge-ai, ai, telemetry",
+   "description": "Validates end-to-end cloud command/control and telemetry on the PolarFire SoC with a deterministic template-correlation classifier.",
+   "link": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/microchip-polarfire-soc-dk/ml-template-correlation-classifier"
+  },
+  {
+   "name": "PolarFire Video Kit — Template Correlation Classifier",
+   "boards": "MPFS-VIDEO-KIT",
+   "topics": "edge-ai, ai, telemetry",
+   "description": "Validates end-to-end cloud command/control and telemetry on the PolarFire SoC Video Kit with a deterministic template-correlation classifier.",
+   "link": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/microchip-polarfire-soc-vk/track1-iotc-ml-classifier"
+  },
+  {
+   "name": "PolarFire Video Kit — Simple Neural Network Accelerator",
+   "boards": "MPFS-VIDEO-KIT",
+   "topics": "edge-ai, ai, npu",
+   "description": "Demonstrates a compact fixed-point neural-network accelerator on the PolarFire SoC Video Kit using the same /IOTCONNECT command interface as the template-correlation classifier.",
+   "link": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/microchip-polarfire-soc-vk/track2-iotc-ml-nn-accelerator"
+  },
+  {
+   "name": "PolarFire Video Kit — Complex Neural Network Accelerator",
+   "boards": "MPFS-VIDEO-KIT",
+   "topics": "edge-ai, ai, npu",
+   "description": "Runs a larger model with batched execution on the PolarFire SoC Video Kit to maximize hardware neural-network acceleration gains.",
+   "link": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/microchip-polarfire-soc-vk/track3-iotc-ml-complex-accelerator"
+  },
+  {
+   "name": "SAMA7D65 Curiosity — Keyword Spotting",
+   "boards": "EV63J76A",
+   "topics": "edge-ai, audio",
+   "description": "Turns the SAMA7D65-Curiosity Kit into a USB-microphone keyword spotter that publishes inference results to /IOTCONNECT.",
+   "link": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/microchip-sama7d65-curiosity/kws-demo"
+  },
+  {
+   "name": "SAMA7D65 Curiosity — Voice Blackjack (KWS Game)",
+   "boards": "EV63J76A",
+   "topics": "edge-ai, audio",
+   "description": "Plays a voice-controlled blackjack game on the SAMA7D65-Curiosity Kit driven by on-device keyword spotting.",
+   "link": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/microchip-sama7d65-curiosity/kws-game"
+  },
+  {
+   "name": "SAMA7D65 Curiosity — KWS Training Studio",
+   "boards": "EV63J76A",
+   "topics": "edge-ai, audio, ai",
+   "description": "Provides a complete on-board retraining pipeline for customizing the SAMA7D65 keyword-spotting model.",
+   "link": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/microchip-sama7d65-curiosity/kws-training"
+  },
+  {
+   "name": "SAMA7D65 Curiosity — PAC1934 Power Monitoring",
+   "boards": "EV63J76A",
+   "topics": "sensors, telemetry, industrial",
+   "description": "Reads voltage, current, and power from the on-board PAC1934 power-monitor IC and publishes the measurements to /IOTCONNECT.",
+   "link": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/microchip-sama7d65-curiosity/pac1934-demo"
+  },
+  {
+   "name": "Jetson Orin — Amazon KVS PutMedia",
+   "boards": "JETSON-ORIN",
+   "topics": "vision, video",
+   "description": "Streams live video from the Jetson Orin to AWS Kinesis Video Streams using the KVS PutMedia API.",
+   "link": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/nvidia-jetson-orin/kvs-putmedia"
+  },
+  {
+   "name": "i.MX93 — Driver Monitoring (DMS) Vision AI",
+   "boards": "FRDM-IMX93",
+   "topics": "edge-ai, vision",
+   "description": "Runs the eIQ Vision AI driver-monitoring system on the FRDM i.MX 93 to detect driver attention and alertness.",
+   "link": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/nxp-frdm-imx-93/dms-demo"
+  },
+  {
+   "name": "i.MX93 — Driver Monitoring with Face Recognition",
+   "boards": "FRDM-IMX93",
+   "topics": "edge-ai, vision, security",
+   "description": "Extends the i.MX 93 driver-monitoring vision demo with face recognition to identify the driver alongside attention tracking.",
+   "link": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/nxp-frdm-imx-93/dms_plus_face_recog-demo"
+  },
+  {
+   "name": "i.MX93 — Media Capture & File Upload",
+   "boards": "FRDM-IMX93",
+   "topics": "sensors, file-upload",
+   "description": "Captures media on the FRDM-IMX93 and uploads the resulting files to /IOTCONNECT.",
+   "link": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/nxp-frdm-imx-93/file-upload-demo"
+  },
+  {
+   "name": "i.MX93 — Amazon KVS PutMedia",
+   "boards": "FRDM-IMX93",
+   "topics": "vision, video",
+   "description": "Streams live video from the FRDM-IMX93 to AWS Kinesis Video Streams using the KVS PutMedia API.",
+   "link": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/nxp-frdm-imx-93/kvs-putmedia"
+  },
+  {
+   "name": "i.MX93 — Amazon KVS WebRTC",
+   "boards": "FRDM-IMX93",
+   "topics": "vision, video",
+   "description": "Streams live video from the FRDM-IMX93 over AWS Kinesis Video Streams WebRTC for low-latency viewing.",
+   "link": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/nxp-frdm-imx-93/kvs-webrtc"
+  },
+  {
+   "name": "RZ/V2H EVK — AI Inference Vision",
+   "boards": "RZ-V2H-EVK",
+   "topics": "edge-ai, vision, npu",
+   "description": "Runs a full Python computer-vision AI inference pipeline on the Renesas RZ/V2H EVK and reports results to /IOTCONNECT.",
+   "link": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/renesas-rzv2h-evk/ai-demo"
+  },
+  {
+   "name": "RZ/V2H EVK — System Monitor",
+   "boards": "RZ-V2H-EVK",
+   "topics": "sensors, telemetry",
+   "description": "Streams real-time system metrics from the Renesas RZ/V2H EVK to /IOTCONNECT.",
+   "link": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/renesas-rzv2h-evk/system-monitor-demo"
+  },
+  {
+   "name": "STM32MP135F-DK — X-LINUX-AI Vision",
+   "boards": "STM32MP135F-DK",
+   "topics": "edge-ai, vision",
+   "description": "Runs the X-LINUX-AI object-detection vision pipeline on the STM32MP135F-DK and publishes detections to /IOTCONNECT.",
+   "link": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/stm32mp135f-dk/ai-vision"
+  },
+  {
+   "name": "STM32MP135F-DK — Amazon KVS PutMedia",
+   "boards": "STM32MP135F-DK",
+   "topics": "vision, video",
+   "description": "Streams live video from the STM32MP135F-DK to AWS Kinesis Video Streams using the KVS PutMedia API.",
+   "link": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/stm32mp135f-dk/kvs-putmedia"
+  },
+  {
+   "name": "STM32MP135F-DK — Amazon KVS WebRTC",
+   "boards": "STM32MP135F-DK",
+   "topics": "vision, video",
+   "description": "Streams live video from the STM32MP135F-DK over AWS Kinesis Video Streams WebRTC for low-latency viewing.",
+   "link": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/stm32mp135f-dk/kvs-webrtc"
+  },
+  {
+   "name": "STM32MP135F-DK — MKBOXPRO BLE Sensors",
+   "boards": "STM32MP135F-DK",
+   "topics": "sensors, telemetry",
+   "description": "Streams telemetry from the STEVAL-MKBOXPRO BLE sensor pack to /IOTCONNECT via the STM32MP135F-DK.",
+   "link": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/stm32mp135f-dk/mkboxpro-demo"
+  },
+  {
+   "name": "STM32MP135F-DK — PROTEUS Sensors",
+   "boards": "STM32MP135F-DK",
+   "topics": "sensors, telemetry, industrial",
+   "description": "Streams telemetry from the standard STEVAL-PROTEUS sensor pack to /IOTCONNECT via the STM32MP135F-DK.",
+   "link": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/stm32mp135f-dk/proteus-standard-demo"
+  },
+  {
+   "name": "STM32MP157F-DK2 — X-LINUX-AI Vision",
+   "boards": "STM32MP157F-DK2",
+   "topics": "edge-ai, vision",
+   "description": "Runs the X-LINUX-AI object-detection vision pipeline on the STM32MP157F-DK2 and publishes detections to /IOTCONNECT.",
+   "link": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/stm32mp157f-dk2/ai-vision"
+  },
+  {
+   "name": "STM32MP157F-DK2 — Amazon KVS PutMedia",
+   "boards": "STM32MP157F-DK2",
+   "topics": "vision, video",
+   "description": "Streams live video from the STM32MP157F-DK2 to AWS Kinesis Video Streams using the KVS PutMedia API.",
+   "link": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/stm32mp157f-dk2/kvs-putmedia"
+  },
+  {
+   "name": "STM32MP157F-DK2 — Amazon KVS WebRTC",
+   "boards": "STM32MP157F-DK2",
+   "topics": "vision, video",
+   "description": "Streams live video from the STM32MP157F-DK2 over AWS Kinesis Video Streams WebRTC for low-latency viewing.",
+   "link": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/stm32mp157f-dk2/kvs-webrtc"
+  },
+  {
+   "name": "STM32MP157F-DK2 — MKBOXPRO BLE Sensors",
+   "boards": "STM32MP157F-DK2",
+   "topics": "sensors, telemetry",
+   "description": "Streams telemetry from the STEVAL-MKBOXPRO BLE sensor pack to /IOTCONNECT via the STM32MP157F-DK2.",
+   "link": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/stm32mp157f-dk2/mkboxpro-demo"
+  },
+  {
+   "name": "STM32MP157F-DK2 — PROTEUS Sensors",
+   "boards": "STM32MP157F-DK2",
+   "topics": "sensors, telemetry, industrial",
+   "description": "Streams telemetry from the standard STEVAL-PROTEUS sensor pack to /IOTCONNECT via the STM32MP157F-DK2.",
+   "link": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/stm32mp157f-dk2/proteus-standard-demo"
+  },
+  {
+   "name": "STM32MP257-DK — Amazon KVS PutMedia",
+   "boards": "STM32MP257F-DK",
+   "topics": "vision, video",
+   "description": "Streams live video from the STM32MP257F-DK to AWS Kinesis Video Streams using the KVS PutMedia API.",
+   "link": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/stm32mp257f-dk/kvs-putmedia"
+  },
+  {
+   "name": "STM32MP257-DK — Amazon KVS WebRTC",
+   "boards": "STM32MP257F-DK",
+   "topics": "vision, video",
+   "description": "Streams live video from the STM32MP257F-DK over AWS Kinesis Video Streams WebRTC for low-latency viewing.",
+   "link": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/stm32mp257f-dk/kvs-webrtc"
+  },
+  {
+   "name": "STM32MP257-DK — MKBOXPRO BLE Sensors",
+   "boards": "STM32MP257F-DK",
+   "topics": "sensors, telemetry",
+   "description": "Streams telemetry from the STEVAL-MKBOXPRO BLE sensor pack to /IOTCONNECT via the STM32MP257F-DK.",
+   "link": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/stm32mp257f-dk/mkboxpro-demo"
+  },
+  {
+   "name": "STM32MP257-DK — PROTEUS Sensors",
+   "boards": "STM32MP257F-DK",
+   "topics": "sensors, telemetry, industrial",
+   "description": "Streams telemetry from the standard STEVAL-PROTEUS sensor pack to /IOTCONNECT via the STM32MP257F-DK.",
+   "link": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/stm32mp257f-dk/proteus-standard-demo"
+  },
+  {
+   "name": "STM32MP257-EV1 — Amazon KVS PutMedia",
+   "boards": "STM32MP257F-EV1",
+   "topics": "vision, video",
+   "description": "Streams live video from the STM32MP257F-EV1 to AWS Kinesis Video Streams using the KVS PutMedia API.",
+   "link": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/stm32mp257f-ev1/kvs-putmedia"
+  },
+  {
+   "name": "STM32MP257-EV1 — Amazon KVS WebRTC",
+   "boards": "STM32MP257F-EV1",
+   "topics": "vision, video",
+   "description": "Streams live video from the STM32MP257F-EV1 over AWS Kinesis Video Streams WebRTC for low-latency viewing.",
+   "link": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/stm32mp257f-ev1/kvs-webrtc"
+  },
+  {
+   "name": "MaaXBoard OSM93 — Driver Monitoring (DMS) Vision AI",
+   "boards": "AES-MAAXB-OSM93-DK-G",
+   "topics": "edge-ai, vision",
+   "description": "Runs the eIQ Vision AI driver-monitoring system on the Tria MaaXBoard OSM93 to detect driver attention and alertness.",
+   "link": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/tria-maaxboard-osm93/dms-demo"
+  },
+  {
+   "name": "Vision AI-Kit 6490 — Amazon KVS PutMedia",
+   "boards": "AES-QCS6490-DK-G",
+   "topics": "vision, video",
+   "description": "Streams live video from the Tria Vision AI-Kit 6490 to AWS Kinesis Video Streams using the KVS PutMedia API.",
+   "link": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/tria-vision-ai-kit-6490/kvs-putmedia"
+  },
+  {
+   "name": "Vision AI-Kit 6490 — Amazon KVS WebRTC",
+   "boards": "AES-QCS6490-DK-G",
+   "topics": "vision, video",
+   "description": "Streams live video from the Tria Vision AI-Kit 6490 over AWS Kinesis Video Streams WebRTC for low-latency viewing.",
+   "link": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/tria-vision-ai-kit-6490/kvs-webrtc"
+  },
+  {
+   "name": "Vision AI-Kit 6490 — Vision AI Telemetry",
+   "boards": "AES-QCS6490-DK-G",
+   "topics": "edge-ai, vision, telemetry",
+   "description": "Sends AI inference and system-status telemetry from the Tria Vision AI-Kit 6490 to /IOTCONNECT.",
+   "link": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/tria-vision-ai-kit-6490/vision-ai"
+  }
+ ],
+ "ggListings": [
+  {
+   "name": "i.MX93 — Greengrass nucleus lite",
+   "boards": "FRDM-IMX93",
+   "topics": "greengrass, telemetry, mpu",
+   "description": "Deploy /IOTCONNECT telemetry and commands as an AWS IoT Greengrass nucleus-lite component on the FRDM i.MX93 board.",
+   "link": "https://github.com/avnet-iotconnect/iotc-python-greengrass-demos/tree/main/nxp-frdm-imx-93"
+  },
+  {
+   "name": "Raspberry Pi 5 — Greengrass nucleus lite",
+   "boards": "RPI5-4GB-SINGLE",
+   "topics": "greengrass, telemetry, mpu",
+   "description": "Deploy /IOTCONNECT telemetry and commands as an AWS IoT Greengrass nucleus-lite component on the Raspberry Pi 5.",
+   "link": "https://github.com/avnet-iotconnect/iotc-python-greengrass-demos/tree/main/raspberry-pi"
+  },
+  {
+   "name": "STM32MP135F-DK — Greengrass nucleus lite",
+   "boards": "STM32MP135F-DK",
+   "topics": "greengrass, telemetry, mpu",
+   "description": "Deploy /IOTCONNECT telemetry and commands as an AWS IoT Greengrass nucleus-lite component on the STM32MP135F Discovery Kit.",
+   "link": "https://github.com/avnet-iotconnect/iotc-python-greengrass-demos/tree/main/stm32mp135f-dk"
+  },
+  {
+   "name": "STM32MP157F-DK2 — Greengrass nucleus lite",
+   "boards": "STM32MP157F-DK2",
+   "topics": "greengrass, telemetry, mpu",
+   "description": "Deploy /IOTCONNECT telemetry and commands as an AWS IoT Greengrass nucleus-lite component on the STM32MP157F Discovery Kit.",
+   "link": "https://github.com/avnet-iotconnect/iotc-python-greengrass-demos/tree/main/stm32mp157f-dk2"
+  },
+  {
+   "name": "STM32MP215F-DK — Greengrass nucleus lite",
+   "boards": "STM32MP215F-DK",
+   "topics": "greengrass, telemetry, mpu",
+   "description": "Deploy /IOTCONNECT telemetry and commands as an AWS IoT Greengrass nucleus-lite component on the STM32MP215F Discovery Kit.",
+   "link": "https://github.com/avnet-iotconnect/iotc-python-greengrass-demos/tree/main/stm32mp215f-dk"
+  },
+  {
+   "name": "STM32MP257F-DK — Greengrass nucleus lite",
+   "boards": "STM32MP257F-DK",
+   "topics": "greengrass, telemetry, mpu",
+   "description": "Deploy /IOTCONNECT telemetry and commands as an AWS IoT Greengrass nucleus-lite component on the STM32MP257F Discovery Kit.",
+   "link": "https://github.com/avnet-iotconnect/iotc-python-greengrass-demos/tree/main/stm32mp257f-dk"
+  },
+  {
+   "name": "STM32MP257F-EV1 — Greengrass nucleus lite",
+   "boards": "STM32MP257F-EV1",
+   "topics": "greengrass, telemetry, mpu",
+   "description": "Deploy /IOTCONNECT telemetry and commands as an AWS IoT Greengrass nucleus-lite component on the STM32MP257F Evaluation Board.",
+   "link": "https://github.com/avnet-iotconnect/iotc-python-greengrass-demos/tree/main/stm32mp257f-ev1"
+  }
+ ],
+ "resources": [
+  {
+   "ref": "ARDUINO-UNO-Q",
+   "title": "Python Lite SDK — Arduino Uno Q QuickStart",
+   "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/arduino-uno-q"
+  },
+  {
+   "ref": "CURIOSITY-PIC64GX1000-KIT",
+   "title": "Python Lite SDK — PIC64GX Curiosity QuickStart",
+   "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/microchip-pic64gx1000"
+  },
+  {
+   "ref": "MPFS-DISCO-KIT",
+   "title": "Python Lite SDK — PolarFire SoC DK QuickStart",
+   "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/microchip-polarfire-soc-dk"
+  },
+  {
+   "ref": "MPFS-VIDEO-KIT",
+   "title": "Python Lite SDK — PolarFire Video Kit QuickStart",
+   "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/microchip-polarfire-soc-vk"
+  },
+  {
+   "ref": "ATSAMA5D27-SOM1-EK1",
+   "title": "Python Lite SDK — SAMA5D27 SOM QuickStart",
+   "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/microchip-sama5d27"
+  },
+  {
+   "ref": "EV63J76A",
+   "title": "Python Lite SDK — SAMA7D65 Curiosity QuickStart",
+   "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/microchip-sama7d65-curiosity"
+  },
+  {
+   "ref": "JETSON-ORIN",
+   "title": "Python Lite SDK — Jetson Orin QuickStart",
+   "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/nvidia-jetson-orin"
+  },
+  {
+   "ref": "FRDM-IMX93",
+   "title": "Python Lite SDK — i.MX93 QuickStart",
+   "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/nxp-frdm-imx-93"
+  },
+  {
+   "ref": "S32G-VNP-GLDBOX",
+   "title": "Python Lite SDK — GoldBox 3 QuickStart",
+   "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/nxp-s32g-vnp-gldbox3"
+  },
+  {
+   "ref": "RPI5-4GB-SINGLE",
+   "title": "Python Lite SDK — Raspberry Pi 5 QuickStart",
+   "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/raspberry-pi"
+  },
+  {
+   "ref": "RZ-G3E-EVK",
+   "title": "Python Lite SDK — RZ/G3E EVK QuickStart",
+   "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/renesas-rzg3e-evk"
+  },
+  {
+   "ref": "RZ-V2H-EVK",
+   "title": "Python Lite SDK — RZ/V2H EVK QuickStart",
+   "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/renesas-rzv2h-evk"
+  },
+  {
+   "ref": "STM32MP135F-DK",
+   "title": "Python Lite SDK — STM32MP135F-DK QuickStart",
+   "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/stm32mp135f-dk"
+  },
+  {
+   "ref": "STM32MP157F-DK2",
+   "title": "Python Lite SDK — STM32MP157F-DK2 QuickStart",
+   "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/stm32mp157f-dk2"
+  },
+  {
+   "ref": "STM32MP215F-DK",
+   "title": "Python Lite SDK — STM32MP215F-DK QuickStart",
+   "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/stm32mp215f-dk"
+  },
+  {
+   "ref": "STM32MP257F-DK",
+   "title": "Python Lite SDK — STM32MP257-DK QuickStart",
+   "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/stm32mp257f-dk"
+  },
+  {
+   "ref": "STM32MP257F-EV1",
+   "title": "Python Lite SDK — STM32MP257-EV1 QuickStart",
+   "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/stm32mp257f-ev1"
+  },
+  {
+   "ref": "AES-MC-SBC-IMX8M-G",
+   "title": "Python Lite SDK — MaaXBoard 8M QuickStart",
+   "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/tria-maaxboard-8m"
+  },
+  {
+   "ref": "AES-MAAXB-8ULP-SK-G",
+   "title": "Python Lite SDK — MaaXBoard 8ULP QuickStart",
+   "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/tria-maaxboard-8ulp"
+  },
+  {
+   "ref": "AES-MAAXB-OSM93-DK-G",
+   "title": "Python Lite SDK — MaaXBoard OSM93 QuickStart",
+   "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/tria-maaxboard-osm93"
+  },
+  {
+   "ref": "AES-QCS6490-DK-G",
+   "title": "Python Lite SDK — Vision AI-Kit 6490 QuickStart",
+   "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/tria-vision-ai-kit-6490"
+  },
+  {
+   "ref": "AES-ZUB-1CG-DK-G",
+   "title": "Python Lite SDK — ZUBoard 1CG QuickStart",
+   "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/tria-zuboard-1cg"
+  }
+ ],
+ "verify": {
+  "problems": [
+   {
+    "item": "PolarFire SoC Video Kit board ref vs lite listings",
+    "issue": "Internal board-reference inconsistency: the new board catalog entry carries manufacturer PN MPFS250-VIDEO-KIT, but the three Video Kit lite listings and the quickstart resource reference the board as MPFS-VIDEO-KIT. Both are valid identifiers, but catalog vs listings/quickstart use different ref strings for the same board, which may break a board-to-listing join. Confirm the join key is intentional."
+   },
+   {
+    "item": "PolarFire npu topic tags (MPFS-DISCO-KIT and MPFS-VIDEO-KIT NN-accelerator listings)",
+    "issue": "Soft accuracy concern, not a vocab violation: npu is in the allowed vocabulary, but PolarFire SoC has no hardware NPU. NEW BOARDS tags it FPGA/RISC-V and the repo describes these demos as a neural network in FPGA fabric. Tagging FPGA-fabric NN-accelerator demos as npu is arguably misleading; edge-ai/ai alone may be more accurate."
+   },
+   {
+    "item": "i.MX93 Driver Monitoring with Face Recognition link slug",
+    "issue": "Cosmetic only (path verified to exist): the folder slug dms_plus_face_recog-demo mixes underscores and a hyphen, unlike the consistently hyphenated slugs elsewhere. Link is valid, so no action strictly required."
+   }
+  ],
+  "verdict": "Mostly clean. All six NEW BOARDS part numbers verified correct against manufacturer/distributor sources (ABX00162 = Arduino UNO Q, MPFS250-VIDEO-KIT = PolarFire SoC Video Kit, 945-13730-0000-000 = Jetson AGX Orin Dev Kit, RTK9947E57S01000BE = RZ/G3E EVK, RTK0EF0168C04000BJ = RZ/V2H EVK, STM32MP215F-DK). No topics fall outside the allowed vocabulary. No duplicate listing names. All links follow the real github.com/avnet-iotconnect/.../tree/main/... pattern, and the non-obvious paths I spot-checked (i.MX93 face-recog, PolarFire VK track1/2/3, i.MX93 greengrass) actually exist. The items listed are minor/soft concerns rather than hard errors; no blocking problems found."
+ }
+}

@@ -1,6 +1,6 @@
 # /IOTCONNECT Index — Audit Report
 
-_Generated 2026-06-22T15:39:48Z_  ·  104 listings · 73 boards (56 in use) · 17 manufacturers · 187 resources
+_Generated 2026-06-22T20:35:55Z_  ·  142 listings · 79 boards (59 in use) · 18 manufacturers · 212 resources
 
 ## ⚠ Boards referenced but missing from the Boards sheet
 - none — every referenced board is defined.
@@ -13,6 +13,12 @@ _Generated 2026-06-22T15:39:48Z_  ·  104 listings · 73 boards (56 in use) · 1
 - Avnet · /IOTCONNECT Bridge Mobile Gateway App (IOTC-BRIDGE-APP)
 - TE Connectivity · TE Connectivity mikroBUS Click Sensor Boards (TE-MIKROBUS-CLICKS)
 - Amphenol · Amphenol mikroBUS Click Sensor Boards (AMPHENOL-MIKROBUS-CLICKS)
+- Arduino · Arduino UNO Q (ARDUINO-UNO-Q)
+- Microchip · PolarFire SoC Video Kit (MPFS-VIDEO-KIT)
+- NVIDIA · Jetson AGX Orin Developer Kit (JETSON-ORIN)
+- Renesas · RZ/G3E Evaluation Kit (RZ-G3E-EVK)
+- Renesas · RZ/V2H Evaluation Kit (RZ-V2H-EVK)
+- STMicroelectronics · STM32MP215F-DK Discovery Kit (STM32MP215F-DK)
 
 ## Boards not used by any listing (orphans)
 - ADLINK · MXE-230 Series with Intel (MXE-210)
@@ -26,6 +32,7 @@ _Generated 2026-06-22T15:39:48Z_  ·  104 listings · 73 boards (56 in use) · 1
 - Infineon · PSOC™ 62S3 Wi-Fi Bluetooth® prototyping kit (CY8CPROTO-062S3-4343W)
 - Infineon · PSOC™ Control C3M5 Evaluation Kit (KIT_PSC3M5_EVK)
 - Infineon · XENSIV™ KIT CSK BGT60TR13C (KIT_CSK_BGT60TR13C)
+- Microchip · PIC64GX Curiosity Kit (CURIOSITY-PIC64GX1000-KIT)
 - Microchip · SAM E54 Xplained Pro Evaluation Kit (ATSAME54-XPRO)
 - NXP · GoldBox for Vehicle Networking Development Platform (S32G-VNP-GLDBOX)
 - Renesas · Development Kit, DA 16200, 2.4GHz Wireless Communication (DA16600MOD-DEVKT)
@@ -36,6 +43,8 @@ _Generated 2026-06-22T15:39:48Z_  ·  104 listings · 73 boards (56 in use) · 1
 - Tria / NXP · NXP MaaXBoard Mini (AES-MC-SBC-IMX8MINI-G)
 - Tria / NXP · NXP MaaXBoard ULP (AES-MAAXB-8ULP-SK-G)
 - Tria / NXP · NXP MaaxBoard RT (AES-MC-SBC-IMXRT1176-G)
+- Arduino · Arduino UNO Q (ARDUINO-UNO-Q)
+- Renesas · RZ/G3E Evaluation Kit (RZ-G3E-EVK)
 
 ## Org repos with no listing (candidates to add)
 - iotc-index — Index of IOTCONNECT libaries, sdks and demos

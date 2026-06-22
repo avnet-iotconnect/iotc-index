@@ -76,3 +76,9 @@ Advantech,SOM-6873 AMD Ryzen Embedded 8000 COM Express Compact Type 6 Module,SOM
 Avnet,/IOTCONNECT Bridge Mobile Gateway App,IOTC-BRIDGE-APP,,,https://github.com/avnet-iotconnect/iotc-gateway-mobile-app,no,no,"gateway,ble,mobile",yes
 TE Connectivity,TE Connectivity mikroBUS Click Sensor Boards,TE-MIKROBUS-CLICKS,,,,no,no,"clicks,sensors,mikrobus",yes
 Amphenol,Amphenol mikroBUS Click Sensor Boards,AMPHENOL-MIKROBUS-CLICKS,,,,no,no,"clicks,sensors,mikrobus",yes
+Arduino,Arduino UNO Q,ARDUINO-UNO-Q,,,https://store.arduino.cc/products/uno-q,no,no,"AI, IoT, Linux",yes
+Microchip,PolarFire SoC Video Kit,MPFS-VIDEO-KIT,,,https://www.microchip.com/en-us/development-tool/mpfs250-video-kit,no,no,"AI, Vision, FPGA, RISC-V",yes
+NVIDIA,Jetson AGX Orin Developer Kit,JETSON-ORIN,,,https://developer.nvidia.com/embedded/jetson-developer-kits,no,no,"AI, Edge, Robotics",yes
+Renesas,RZ/G3E Evaluation Kit,RZ-G3E-EVK,,,https://www.renesas.com/en/design-resources/boards-kits/rz-g3e-evkit,no,no,"AI, HMI, NPU",yes
+Renesas,RZ/V2H Evaluation Kit,RZ-V2H-EVK,,,https://www.renesas.com/en/design-resources/boards-kits/rz-v2h-evk,no,no,"AI, Vision",yes
+STMicroelectronics,STM32MP215F-DK Discovery Kit,STM32MP215F-DK,,,https://www.st.com/en/evaluation-tools/stm32mp215f-dk.html,no,no,"AI, IoT, Edge",yes
