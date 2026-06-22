@@ -1,6 +1,6 @@
 # /IOTCONNECT Index — Audit Report
 
-_Generated 2026-06-22T14:52:46Z_  ·  104 listings · 73 boards (56 in use) · 17 manufacturers · 187 resources
+_Generated 2026-06-22T15:39:48Z_  ·  104 listings · 73 boards (56 in use) · 17 manufacturers · 187 resources
 
 ## ⚠ Boards referenced but missing from the Boards sheet
 - none — every referenced board is defined.
@@ -38,6 +38,7 @@ _Generated 2026-06-22T14:52:46Z_  ·  104 listings · 73 boards (56 in use) · 1
 - Tria / NXP · NXP MaaxBoard RT (AES-MC-SBC-IMXRT1176-G)
 
 ## Org repos with no listing (candidates to add)
+- iotc-index — Index of IOTCONNECT libaries, sdks and demos
 - avnet-iotconnect.github.io — no description
 - avnet-iotc-mtb-ce-manifest — no description
 - iotc-python-lite-snap-examples — Working examples for deploying IOTCONNECT SDK using the Snapcraft Package Manager 
