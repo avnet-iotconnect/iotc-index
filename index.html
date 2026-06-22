@@ -495,6 +495,31 @@ function repoCard(r){
 }
 
 /* ---------------- render ---------------- */
+/* ---- manufacturer deep-links: #partner/<slug> (or ?partner=<slug>) ---- */
+const mslug=s=>String(s||"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/(^-|-$)/g,"");
+const MFR_ALIAS={st:"STMicroelectronics",stmicro:"STMicroelectronics",ti:"Texas Instruments"};
+function resolveMfr(id){
+  id=decodeURIComponent(String(id||"")).trim().toLowerCase();
+  if(!id)return null;
+  const names=(state.data&&state.data.facets.manufacturers)||[];
+  if(MFR_ALIAS[id]&&names.includes(MFR_ALIAS[id]))return MFR_ALIAS[id];
+  return names.find(x=>x.toLowerCase()===id) || names.find(x=>mslug(x)===id)
+      || names.find(x=>mslug(x).startsWith(id)||x.toLowerCase().startsWith(id)) || null;
+}
+function syncHash(){
+  if(!history.replaceState)return;
+  const m=state.filters.manufacturer;
+  history.replaceState(null,"",m?("#partner/"+mslug(m)):(location.pathname+location.search));
+}
+function applyPartner(id,scroll){
+  const m=resolveMfr(id); if(!m)return false;
+  state.filters.manufacturer=m;
+  setView((state.view==="software"||state.view==="maker")?state.view:"hardware");
+  syncHash();
+  if(scroll){const t=document.getElementById("hardware");if(t)t.scrollIntoView({behavior:"smooth",block:"start"});}
+  return true;
+}
+
 function setView(v){
   state.view=v;
   document.querySelectorAll("#viewSeg button").forEach(b=>b.classList.toggle("active",b.dataset.v===v));
@@ -593,17 +618,17 @@ function closeDrawer(){
   $("#scrim").classList.remove("open");dr.classList.remove("open");dr.setAttribute("aria-hidden","true");
   dr.removeEventListener("keydown",trapFocus);
   if(lastFocus&&lastFocus.focus){lastFocus.focus();lastFocus=null;}
-  if(history.replaceState)history.replaceState(null,"",location.pathname+location.search);}
+  syncHash();}   /* restore #partner/<slug> if a manufacturer filter is active, else clear */
 
 /* ---------------- events ---------------- */
 document.addEventListener("click",e=>{
   const card=e.target.closest(".card[data-board]");
   if(card){openDrawer(card.dataset.board);return;}
   const chipEl=e.target.closest(".chip");
-  if(chipEl){const {key,val}=chipEl.dataset;state.filters[key]=state.filters[key]===val?null:val;renderFilters();render();return;}
-  if(e.target.id==="clearall"){state.filters={manufacturer:null,topic:null,language:null,type:null,status:null,qual:null};state.query="";$("#q").value="";renderFilters();render();return;}
+  if(chipEl){const {key,val}=chipEl.dataset;state.filters[key]=state.filters[key]===val?null:val;renderFilters();render();syncHash();return;}
+  if(e.target.id==="clearall"){state.filters={manufacturer:null,topic:null,language:null,type:null,status:null,qual:null};state.query="";$("#q").value="";renderFilters();render();syncHash();return;}
   const pl=e.target.closest(".plogo");
-  if(pl){state.filters.manufacturer=pl.dataset.mfr;setView("hardware");document.getElementById("hardware").scrollIntoView({behavior:"smooth",block:"start"});return;}
+  if(pl){applyPartner(pl.dataset.mfr,true);return;}
   const jump=e.target.closest("[data-jump]");
   if(jump){const v=jump.dataset.jump;if(v==="partners"){document.getElementById("partners").scrollIntoView({behavior:"smooth"});}else{setView(v);document.getElementById("hardware").scrollIntoView({behavior:"smooth",block:"start"});}return;}
 });
@@ -614,6 +639,12 @@ document.addEventListener("keydown",e=>{
   if((e.key==="Enter"||e.key===" ")){const c=e.target.closest(".card[data-board]");if(c){e.preventDefault();openDrawer(c.dataset.board);}}
 });
 let qt;$("#q").addEventListener("input",e=>{clearTimeout(qt);qt=setTimeout(()=>{state.query=e.target.value.trim();render();},110);});
+window.addEventListener("hashchange",()=>{
+  const pm=location.hash.match(/#partner\/(.+)/);
+  if(pm){applyPartner(pm[1],true);return;}
+  const bm=location.hash.match(/#board\/(.+)/);
+  if(bm&&state.boardBySlug[bm[1]])openDrawer(bm[1]);
+});
 
 /* ---------------- boot ---------------- */
 (async()=>{
@@ -634,7 +665,11 @@ let qt;$("#q").addEventListener("input",e=>{clearTimeout(qt);qt=setTimeout(()=>{
     renderHero();renderPartners();
     document.querySelectorAll("#viewSeg button").forEach(b=>b.classList.toggle("active",b.dataset.v===state.view));
     setView(state.view);
-    // deep link to a board
+    // deep link to a manufacturer (#partner/<slug> or ?partner=<slug>) ...
+    const pm=location.hash.match(/#partner\/(.+)/);
+    const qp=new URLSearchParams(location.search).get("partner");
+    if(pm)applyPartner(pm[1],false); else if(qp)applyPartner(qp,false);
+    // ... or a board
     const m=location.hash.match(/#board\/(.+)/);if(m&&state.boardBySlug[m[1]])openDrawer(m[1]);
   }catch(err){
     $("#results").innerHTML=`<div class="grid"><div class="empty">Failed to load <span class="mono">index.json</span>: ${esc(err.message)}.<br>Run <span class="mono">python build_site.py</span> and serve over HTTP.</div></div>`;
