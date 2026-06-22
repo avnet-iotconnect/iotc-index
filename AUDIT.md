@@ -1,6 +1,6 @@
 # /IOTCONNECT Index — Audit Report
 
-_Generated 2026-06-22T20:35:55Z_  ·  142 listings · 79 boards (59 in use) · 18 manufacturers · 212 resources
+_Generated 2026-06-22T22:32:29Z_  ·  142 listings · 79 boards (59 in use) · 18 manufacturers · 212 resources
 
 ## ⚠ Boards referenced but missing from the Boards sheet
 - none — every referenced board is defined.
@@ -8,17 +8,8 @@ _Generated 2026-06-22T20:35:55Z_  ·  142 listings · 79 boards (59 in use) · 1
 ## Boards with no image (Azure or local)
 - Advantech · AI System (Lite) Based on NVIDIA® Jetson Nano (MIC-710AIL)
 - Seeed Studio · reComputer J4021 - Edge AI Computer with NVIDIA Jetson Orin NX 16GB (J4021)
-- Kerlink · Wirnet iStation Outdoor LoRaWAN Gateway (WIRNET-ISTATION)
-- Advantech · SOM-6873 AMD Ryzen Embedded 8000 COM Express Compact Type 6 Module (SOM-6873)
-- Avnet · /IOTCONNECT Bridge Mobile Gateway App (IOTC-BRIDGE-APP)
 - TE Connectivity · TE Connectivity mikroBUS Click Sensor Boards (TE-MIKROBUS-CLICKS)
 - Amphenol · Amphenol mikroBUS Click Sensor Boards (AMPHENOL-MIKROBUS-CLICKS)
-- Arduino · Arduino UNO Q (ARDUINO-UNO-Q)
-- Microchip · PolarFire SoC Video Kit (MPFS-VIDEO-KIT)
-- NVIDIA · Jetson AGX Orin Developer Kit (JETSON-ORIN)
-- Renesas · RZ/G3E Evaluation Kit (RZ-G3E-EVK)
-- Renesas · RZ/V2H Evaluation Kit (RZ-V2H-EVK)
-- STMicroelectronics · STM32MP215F-DK Discovery Kit (STM32MP215F-DK)
 
 ## Boards not used by any listing (orphans)
 - ADLINK · MXE-230 Series with Intel (MXE-210)

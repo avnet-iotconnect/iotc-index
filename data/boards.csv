@@ -71,14 +71,14 @@ Tria / Qualcom,VisionAI-Kit 6490,AES-QCS6490-DK-G,AES-QCS6490-DK-G.png,,https://
 Tria / Renesas,RASynBoard NDP120 Evaluation Kit,AES-RASYNB-120,AES-RASYNB-120.png,AES-RASYNB-120.jpg,https://www.avnet.com/americas/products/avnet-boards/avnet-board-families/rasynboard/,yes,no,AWS Qual,yes
 Tria / Renesas,RZBoard V2L,AES-RZB-V2L-SK-G,AES-RZB-V2L-SK-G.png,AES-RZB-V2L-SK-G.jpg,https://www.tria-technologies.com/product/rzboard-v2l/,yes,no,AWS Qual,yes
 Seeed Studio,reComputer J4021 - Edge AI Computer with NVIDIA Jetson Orin NX 16GB,J4021,,,,no,no,"ai,vision,edge",yes
-Kerlink,Wirnet iStation Outdoor LoRaWAN Gateway,WIRNET-ISTATION,,,https://www.kerlink.com/product/wirnet-istation/,no,no,"lora,lorawan,gateway",yes
-Advantech,SOM-6873 AMD Ryzen Embedded 8000 COM Express Compact Type 6 Module,SOM-6873,,,https://www.advantech.com/en-us/products/e5f3ee70-5c26-4757-93f4-a9d4150a860f/som-6873/mod_1d0156b1-61b6-48fb-b768-549bb1be3c1c,no,no,"ai,vision,edge",yes
-Avnet,/IOTCONNECT Bridge Mobile Gateway App,IOTC-BRIDGE-APP,,,https://github.com/avnet-iotconnect/iotc-gateway-mobile-app,no,no,"gateway,ble,mobile",yes
+Kerlink,Wirnet iStation Outdoor LoRaWAN Gateway,WIRNET-ISTATION,,WIRNET-ISTATION.png,https://www.kerlink.com/product/wirnet-istation/,no,no,"lora,lorawan,gateway",yes
+Advantech,SOM-6873 AMD Ryzen Embedded 8000 COM Express Compact Type 6 Module,SOM-6873,,SOM-6873.jpg,https://www.advantech.com/en-us/products/e5f3ee70-5c26-4757-93f4-a9d4150a860f/som-6873/mod_1d0156b1-61b6-48fb-b768-549bb1be3c1c,no,no,"ai,vision,edge",yes
+Avnet,/IOTCONNECT Bridge Mobile Gateway App,IOTC-BRIDGE-APP,,IOTC-BRIDGE-APP.jpg,https://github.com/avnet-iotconnect/iotc-gateway-mobile-app,no,no,"gateway,ble,mobile",yes
 TE Connectivity,TE Connectivity mikroBUS Click Sensor Boards,TE-MIKROBUS-CLICKS,,,,no,no,"clicks,sensors,mikrobus",yes
 Amphenol,Amphenol mikroBUS Click Sensor Boards,AMPHENOL-MIKROBUS-CLICKS,,,,no,no,"clicks,sensors,mikrobus",yes
-Arduino,Arduino UNO Q,ARDUINO-UNO-Q,,,https://store.arduino.cc/products/uno-q,no,no,"AI, IoT, Linux",yes
-Microchip,PolarFire SoC Video Kit,MPFS-VIDEO-KIT,,,https://www.microchip.com/en-us/development-tool/mpfs250-video-kit,no,no,"AI, Vision, FPGA, RISC-V",yes
-NVIDIA,Jetson AGX Orin Developer Kit,JETSON-ORIN,,,https://developer.nvidia.com/embedded/jetson-developer-kits,no,no,"AI, Edge, Robotics",yes
-Renesas,RZ/G3E Evaluation Kit,RZ-G3E-EVK,,,https://www.renesas.com/en/design-resources/boards-kits/rz-g3e-evkit,no,no,"AI, HMI, NPU",yes
-Renesas,RZ/V2H Evaluation Kit,RZ-V2H-EVK,,,https://www.renesas.com/en/design-resources/boards-kits/rz-v2h-evk,no,no,"AI, Vision",yes
-STMicroelectronics,STM32MP215F-DK Discovery Kit,STM32MP215F-DK,,,https://www.st.com/en/evaluation-tools/stm32mp215f-dk.html,no,no,"AI, IoT, Edge",yes
+Arduino,Arduino UNO Q,ARDUINO-UNO-Q,,ARDUINO-UNO-Q.jpg,https://store.arduino.cc/products/uno-q,no,no,"AI, IoT, Linux",yes
+Microchip,PolarFire SoC Video Kit,MPFS-VIDEO-KIT,,MPFS-VIDEO-KIT.jpg,https://www.microchip.com/en-us/development-tool/mpfs250-video-kit,no,no,"AI, Vision, FPGA, RISC-V",yes
+NVIDIA,Jetson AGX Orin Developer Kit,JETSON-ORIN,,JETSON-ORIN.jpg,https://developer.nvidia.com/embedded/jetson-developer-kits,no,no,"AI, Edge, Robotics",yes
+Renesas,RZ/G3E Evaluation Kit,RZ-G3E-EVK,,RZ-G3E-EVK.jpg,https://www.renesas.com/en/design-resources/boards-kits/rz-g3e-evkit,no,no,"AI, HMI, NPU",yes
+Renesas,RZ/V2H Evaluation Kit,RZ-V2H-EVK,,RZ-V2H-EVK.jpg,https://www.renesas.com/en/design-resources/boards-kits/rz-v2h-evk,no,no,"AI, Vision",yes
+STMicroelectronics,STM32MP215F-DK Discovery Kit,STM32MP215F-DK,,STM32MP215F-DK.jpg,https://www.st.com/en/evaluation-tools/stm32mp215f-dk.html,no,no,"AI, IoT, Edge",yes
