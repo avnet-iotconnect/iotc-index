@@ -24,8 +24,26 @@ commit it, and a GitHub Action rebuilds the data the page renders.
 - **SDKs & Demos view** — the open-source repos across the org (SDKs, libraries, example
   projects) with language, topic and status filters.
 - **By-partner view** — everything grouped by silicon vendor.
-- Full-text search, deep-links (`#board/<slug>`, `#software`), keyboard-accessible
-  cards/drawer, and a robust image fallback (Azure host → bundled local image → monogram).
+- Full-text search, deep-links (see below), keyboard-accessible cards/drawer, and a
+  robust image fallback (Azure host → bundled local image → monogram).
+
+---
+
+## Sharing links
+
+The site is a single page, so you can deep-link to a filtered/expanded state by
+appending to the URL. The address bar also updates as you click around, so you can
+just navigate to what you want and copy the link.
+
+| To share… | Append | Example |
+|---|---|---|
+| One **manufacturer** | `#partner/<slug>` (or `?partner=<slug>`) | `…/#partner/st` · `…/#partner/nxp` |
+| A specific **board** | `#board/<slug>` | `…/#board/aes-rzb-v2l-sk-g` |
+| A **view** | `#hardware` · `#software` · `#maker` | `…/#software` |
+
+Manufacturer resolves by name, slug, or alias — `st`, `nxp`, `infineon`, `microchip`,
+`renesas`, plus any other vendor in the catalog (`advantech`, `amd`, `nordic`,
+`raspberry-pi`, `tria-nxp`, …). `st` is a shortcut for `stmicroelectronics`.
 
 ---
 
