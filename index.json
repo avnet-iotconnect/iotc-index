@@ -1,6 +1,6 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-06-22T22:32:29Z",
+  "generated": "2026-06-22T23:38:56Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
@@ -44,7 +44,7 @@
       "logo": null,
       "info": null,
       "boards": 2,
-      "listings": 0
+      "listings": 1
     },
     {
       "name": "Asus",
@@ -76,7 +76,7 @@
       "logo": "assets/brand/infineon-logo.png",
       "info": "https://www.avnet.com/iotconnect/infineon",
       "boards": 9,
-      "listings": 17
+      "listings": 18
     },
     {
       "name": "Kerlink",
@@ -92,7 +92,7 @@
       "logo": "assets/brand/microchip-logo.png",
       "info": "https://www.avnet.com/iotconnect/microchip",
       "boards": 9,
-      "listings": 18
+      "listings": 19
     },
     {
       "name": "NVIDIA",
@@ -108,7 +108,7 @@
       "logo": "assets/brand/nxp-logo.png",
       "info": "https://www.avnet.com/iotconnect/nxp",
       "boards": 4,
-      "listings": 12
+      "listings": 13
     },
     {
       "name": "Nordic",
@@ -132,7 +132,7 @@
       "logo": "assets/brand/renesas-logo.png",
       "info": "https://www.avnet.com/iotconnect/renesas",
       "boards": 14,
-      "listings": 10
+      "listings": 11
     },
     {
       "name": "STMicroelectronics",
@@ -172,7 +172,7 @@
       "logo": null,
       "info": null,
       "boards": 6,
-      "listings": 4
+      "listings": 7
     },
     {
       "name": "Tria / Qualcom",
@@ -195,6 +195,7 @@
     "manufacturers": [
       "Advantech",
       "Amphenol",
+      "Arduino",
       "Avnet",
       "Infineon",
       "Kerlink",
@@ -215,7 +216,7 @@
     "topics": [
       {
         "tag": "edge-ai",
-        "count": 56
+        "count": 57
       },
       {
         "tag": "vision",
@@ -238,6 +239,10 @@
         "count": 17
       },
       {
+        "tag": "mpu",
+        "count": 14
+      },
+      {
         "tag": "kvs",
         "count": 13
       },
@@ -255,15 +260,11 @@
       },
       {
         "tag": "modustoolbox",
-        "count": 11
+        "count": 12
       },
       {
         "tag": "npu",
         "count": 10
-      },
-      {
-        "tag": "mpu",
-        "count": 8
       },
       {
         "tag": "fpga",
@@ -449,7 +450,7 @@
             "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/arduino-uno-q"
           }
         ],
-        "listings": 0
+        "listings": 1
       },
       {
         "slug": "steval-astra1b",
@@ -687,7 +688,7 @@
             "url": "https://github.com/avnet-iotconnect/iotc-dialog-da16k-sdk/tree/main"
           }
         ],
-        "listings": 0
+        "listings": 1
       },
       {
         "slug": "da16200mod-devkt",
@@ -897,7 +898,7 @@
             "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/nxp-s32g-vnp-gldbox3"
           }
         ],
-        "listings": 0
+        "listings": 1
       },
       {
         "slug": "mimxrt1060-evkb",
@@ -1123,7 +1124,7 @@
             "url": "https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-yocto-c-sdk/voyager-demo/templates/device/Voyager%20Sensors_template.JSON"
           }
         ],
-        "listings": 0
+        "listings": 1
       },
       {
         "slug": "aes-mc-sbc-imx8mini-g",
@@ -1218,7 +1219,7 @@
             "url": "https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/maaxboardrt"
           }
         ],
-        "listings": 0
+        "listings": 1
       },
       {
         "slug": "aes-maaxb-8ulp-sk-g",
@@ -1252,7 +1253,7 @@
             "url": "https://github.com/avnet-iotconnect/iotc-yocto-python-sdk/blob/hardknott/board_specific_readmes/maaxboard.md"
           }
         ],
-        "listings": 0
+        "listings": 1
       },
       {
         "slug": "pe100a",
@@ -1312,7 +1313,7 @@
             "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/microchip-pic64gx1000"
           }
         ],
-        "listings": 0
+        "listings": 1
       },
       {
         "slug": "mpfs-disco-kit",
@@ -1684,7 +1685,7 @@
             "url": "https://github.com/avnet-iotconnect/avnet-iotc-mtb-basic-example"
           }
         ],
-        "listings": 0
+        "listings": 1
       },
       {
         "slug": "kit-psc3m5-evk",
@@ -1831,7 +1832,7 @@
             "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/renesas-rzg3e-evk"
           }
         ],
-        "listings": 0
+        "listings": 1
       },
       {
         "slug": "rz-v2h-evk",
@@ -1958,7 +1959,7 @@
             "url": "https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/same54xpro"
           }
         ],
-        "listings": 0
+        "listings": 1
       },
       {
         "slug": "atsama5d27-som1-ek1",
@@ -2710,11 +2711,11 @@
     ]
   },
   "counts": {
-    "total": 142,
-    "manufacturers": 18,
+    "total": 149,
+    "manufacturers": 19,
     "boards": 79,
     "sdks": 18,
-    "examples": 124,
+    "examples": 131,
     "guides": 80,
     "demos": 12,
     "partners": 5
@@ -2819,6 +2820,22 @@
           "partNumber": "CK-RK65N",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CK-RK65N.png",
           "imageLocal": "assets/boards/CK-RK65N.jpg"
+        },
+        {
+          "slug": "atsame54-xpro",
+          "vendor": "Microchip",
+          "name": "SAM E54 Xplained Pro Evaluation Kit",
+          "partNumber": "ATSAME54-XPRO",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ATSAME54-XPRO.png",
+          "imageLocal": "assets/boards/ATSAME54-XPRO.jpg"
+        },
+        {
+          "slug": "aes-mc-sbc-imxrt1176-g",
+          "vendor": "Tria / NXP",
+          "name": "NXP MaaxBoard RT",
+          "partNumber": "AES-MC-SBC-IMXRT1176-G",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-MC-SBC-IMXRT1176-G.png",
+          "imageLocal": "assets/boards/AES-MC-SBC-IMXRT1176-G.jpg"
         }
       ],
       "board": {
@@ -2833,7 +2850,8 @@
         "Microchip",
         "NXP",
         "Renesas",
-        "STMicroelectronics"
+        "STMicroelectronics",
+        "Tria / NXP"
       ]
     },
     {
@@ -2877,6 +2895,14 @@
           "partNumber": "DA16200MOD-DEVKT",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/DA16200MOD-DEVKT.png",
           "imageLocal": "assets/boards/DA16200MOD-DEVKT.jpg"
+        },
+        {
+          "slug": "da16600mod-devkt",
+          "vendor": "Renesas",
+          "name": "Development Kit, DA 16200, 2.4GHz Wireless Communication",
+          "partNumber": "DA16600MOD-DEVKT",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/DA16600MOD-DEVKT.png",
+          "imageLocal": "assets/boards/DA16600MOD-DEVKT.jpg"
         }
       ],
       "board": {
@@ -6039,6 +6065,47 @@
       ]
     },
     {
+      "repo": "avnet-iotc-mtb-basic-example",
+      "url": "https://github.com/avnet-iotconnect/avnet-iotc-mtb-basic-example",
+      "displayName": "ModusToolbox Basic Example",
+      "description": "Minimal ModusToolbox starter that connects an Infineon PSOC 6 Wi-Fi board to /IOTCONNECT. A clean baseline for sending telemetry and handling cloud commands before adding application logic.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "modustoolbox"
+      ],
+      "stars": 0,
+      "updated": "2025-10-20T21:10:01Z",
+      "image": null,
+      "described": true,
+      "hidden": false,
+      "id": "modustoolbox-basic-example::cy8cproto-062s3-4343w",
+      "boards": [
+        {
+          "slug": "cy8cproto-062s3-4343w",
+          "vendor": "Infineon",
+          "name": "PSOC™ 62S3 Wi-Fi Bluetooth® prototyping kit",
+          "partNumber": "CY8CPROTO-062S3-4343W",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CPROTO-062S3-4343W.png",
+          "imageLocal": "assets/boards/CY8CPROTO-062S3-4343W.jpg"
+        }
+      ],
+      "board": {
+        "slug": "cy8cproto-062s3-4343w",
+        "vendor": "Infineon",
+        "name": "PSOC™ 62S3 Wi-Fi Bluetooth® prototyping kit",
+        "partNumber": "CY8CPROTO-062S3-4343W",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CPROTO-062S3-4343W.png",
+        "imageLocal": "assets/boards/CY8CPROTO-062S3-4343W.jpg"
+      },
+      "manufacturers": [
+        "Infineon"
+      ]
+    },
+    {
       "repo": "iotc-home-assistant-bridge",
       "url": "https://github.com/avnet-iotconnect/iotc-home-assistant-bridge",
       "displayName": "Home Assistant Bridge",
@@ -8378,6 +8445,247 @@
       },
       "manufacturers": [
         "STMicroelectronics"
+      ]
+    },
+    {
+      "repo": "iotc-python-lite-sdk-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/arduino-uno-q",
+      "displayName": "Arduino UNO Q — Python Lite SDK",
+      "description": "Get started with the /IOTCONNECT Python Lite SDK on the Arduino UNO Q: stream telemetry, receive cloud commands and run OTA updates from a Python app.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [
+        "Python"
+      ],
+      "features": [
+        "mpu"
+      ],
+      "stars": 3,
+      "updated": "2026-06-22T22:24:45Z",
+      "image": null,
+      "described": true,
+      "hidden": false,
+      "id": "arduino-uno-q-python-lite-sdk",
+      "boards": [
+        {
+          "slug": "arduino-uno-q",
+          "vendor": "Arduino",
+          "name": "Arduino UNO Q",
+          "partNumber": "ARDUINO-UNO-Q",
+          "imageLocal": "assets/boards/ARDUINO-UNO-Q.jpg"
+        }
+      ],
+      "board": {
+        "slug": "arduino-uno-q",
+        "vendor": "Arduino",
+        "name": "Arduino UNO Q",
+        "partNumber": "ARDUINO-UNO-Q",
+        "imageLocal": "assets/boards/ARDUINO-UNO-Q.jpg"
+      },
+      "manufacturers": [
+        "Arduino"
+      ]
+    },
+    {
+      "repo": "iotc-python-lite-sdk-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/microchip-pic64gx1000",
+      "displayName": "PIC64GX Curiosity — Python Lite SDK",
+      "description": "Get started with the /IOTCONNECT Python Lite SDK on the Microchip PIC64GX Curiosity Kit: stream telemetry, receive cloud commands and run OTA updates from a Python app.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [
+        "Python"
+      ],
+      "features": [
+        "mpu"
+      ],
+      "stars": 3,
+      "updated": "2026-06-22T22:24:45Z",
+      "image": null,
+      "described": true,
+      "hidden": false,
+      "id": "pic64gx-curiosity-python-lite-sdk",
+      "boards": [
+        {
+          "slug": "curiosity-pic64gx1000-kit",
+          "vendor": "Microchip",
+          "name": "PIC64GX Curiosity Kit",
+          "partNumber": "CURIOSITY-PIC64GX1000-KIT",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CURIOSITY-PIC64GX1000-KIT.png",
+          "imageLocal": "assets/boards/CURIOSITY-PIC64GX1000-KIT.png"
+        }
+      ],
+      "board": {
+        "slug": "curiosity-pic64gx1000-kit",
+        "vendor": "Microchip",
+        "name": "PIC64GX Curiosity Kit",
+        "partNumber": "CURIOSITY-PIC64GX1000-KIT",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CURIOSITY-PIC64GX1000-KIT.png",
+        "imageLocal": "assets/boards/CURIOSITY-PIC64GX1000-KIT.png"
+      },
+      "manufacturers": [
+        "Microchip"
+      ]
+    },
+    {
+      "repo": "iotc-python-lite-sdk-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/nxp-s32g-vnp-gldbox3",
+      "displayName": "S32G GoldBox — Python Lite SDK",
+      "description": "Get started with the /IOTCONNECT Python Lite SDK on the NXP S32G GoldBox: stream telemetry, receive cloud commands and run OTA updates from a Python app.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [
+        "Python"
+      ],
+      "features": [
+        "mpu"
+      ],
+      "stars": 3,
+      "updated": "2026-06-22T22:24:45Z",
+      "image": null,
+      "described": true,
+      "hidden": false,
+      "id": "s32g-goldbox-python-lite-sdk",
+      "boards": [
+        {
+          "slug": "s32g-vnp-gldbox",
+          "vendor": "NXP",
+          "name": "GoldBox for Vehicle Networking Development Platform",
+          "partNumber": "S32G-VNP-GLDBOX",
+          "image": "https://apn-portal.my.salesforce.com/servlet/servlet.ImageServer?id=0158W00000CPkYGQA1&oid=00DE0000000c48tMAA"
+        }
+      ],
+      "board": {
+        "slug": "s32g-vnp-gldbox",
+        "vendor": "NXP",
+        "name": "GoldBox for Vehicle Networking Development Platform",
+        "partNumber": "S32G-VNP-GLDBOX",
+        "image": "https://apn-portal.my.salesforce.com/servlet/servlet.ImageServer?id=0158W00000CPkYGQA1&oid=00DE0000000c48tMAA"
+      },
+      "manufacturers": [
+        "NXP"
+      ]
+    },
+    {
+      "repo": "iotc-python-lite-sdk-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/tria-maaxboard-8m",
+      "displayName": "MaaXBoard 8M — Python Lite SDK",
+      "description": "Get started with the /IOTCONNECT Python Lite SDK on the Avnet MaaXBoard 8M: stream telemetry, receive cloud commands and run OTA updates from a Python app.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [
+        "Python"
+      ],
+      "features": [
+        "mpu"
+      ],
+      "stars": 3,
+      "updated": "2026-06-22T22:24:45Z",
+      "image": null,
+      "described": true,
+      "hidden": false,
+      "id": "maaxboard-8m-python-lite-sdk",
+      "boards": [
+        {
+          "slug": "aes-mc-sbc-imx8m-g",
+          "vendor": "Tria / NXP",
+          "name": "NXP MaaXBoard 8M",
+          "partNumber": "AES-MC-SBC-IMX8M-G",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-MC-SBC-IMX8M-G.png",
+          "imageLocal": "assets/boards/AES-MC-SBC-IMX8M-G.jpg"
+        }
+      ],
+      "board": {
+        "slug": "aes-mc-sbc-imx8m-g",
+        "vendor": "Tria / NXP",
+        "name": "NXP MaaXBoard 8M",
+        "partNumber": "AES-MC-SBC-IMX8M-G",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-MC-SBC-IMX8M-G.png",
+        "imageLocal": "assets/boards/AES-MC-SBC-IMX8M-G.jpg"
+      },
+      "manufacturers": [
+        "Tria / NXP"
+      ]
+    },
+    {
+      "repo": "iotc-python-lite-sdk-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/tria-maaxboard-8ulp",
+      "displayName": "MaaXBoard 8ULP — Python Lite SDK",
+      "description": "Get started with the /IOTCONNECT Python Lite SDK on the Avnet MaaXBoard 8ULP: stream telemetry, receive cloud commands and run OTA updates from a Python app.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [
+        "Python"
+      ],
+      "features": [
+        "mpu"
+      ],
+      "stars": 3,
+      "updated": "2026-06-22T22:24:45Z",
+      "image": null,
+      "described": true,
+      "hidden": false,
+      "id": "maaxboard-8ulp-python-lite-sdk",
+      "boards": [
+        {
+          "slug": "aes-maaxb-8ulp-sk-g",
+          "vendor": "Tria / NXP",
+          "name": "NXP MaaXBoard ULP",
+          "partNumber": "AES-MAAXB-8ULP-SK-G",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-MAAXB-8ULP-SK-G.png",
+          "imageLocal": "assets/boards/AES-MAAXB-8ULP-SK-G.jpg"
+        }
+      ],
+      "board": {
+        "slug": "aes-maaxb-8ulp-sk-g",
+        "vendor": "Tria / NXP",
+        "name": "NXP MaaXBoard ULP",
+        "partNumber": "AES-MAAXB-8ULP-SK-G",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-MAAXB-8ULP-SK-G.png",
+        "imageLocal": "assets/boards/AES-MAAXB-8ULP-SK-G.jpg"
+      },
+      "manufacturers": [
+        "Tria / NXP"
+      ]
+    },
+    {
+      "repo": "iotc-python-lite-sdk-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/renesas-rzg3e-evk",
+      "displayName": "RZ/G3E EVK — Python Lite SDK",
+      "description": "Get started with the /IOTCONNECT Python Lite SDK on the Renesas RZ/G3E Evaluation Kit: stream telemetry, receive cloud commands and run OTA updates from a Python app.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [
+        "Python"
+      ],
+      "features": [
+        "edge-ai",
+        "mpu"
+      ],
+      "stars": 3,
+      "updated": "2026-06-22T22:24:45Z",
+      "image": null,
+      "described": true,
+      "hidden": false,
+      "id": "rz-g3e-evk-python-lite-sdk",
+      "boards": [
+        {
+          "slug": "rz-g3e-evk",
+          "vendor": "Renesas",
+          "name": "RZ/G3E Evaluation Kit",
+          "partNumber": "RZ-G3E-EVK",
+          "imageLocal": "assets/boards/RZ-G3E-EVK.jpg"
+        }
+      ],
+      "board": {
+        "slug": "rz-g3e-evk",
+        "vendor": "Renesas",
+        "name": "RZ/G3E Evaluation Kit",
+        "partNumber": "RZ-G3E-EVK",
+        "imageLocal": "assets/boards/RZ-G3E-EVK.jpg"
+      },
+      "manufacturers": [
+        "Renesas"
       ]
     }
   ]

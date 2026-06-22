@@ -1,6 +1,6 @@
 # /IOTCONNECT Index — Audit Report
 
-_Generated 2026-06-22T22:32:29Z_  ·  142 listings · 79 boards (59 in use) · 18 manufacturers · 212 resources
+_Generated 2026-06-22T23:38:56Z_  ·  149 listings · 79 boards (69 in use) · 19 manufacturers · 212 resources
 
 ## ⚠ Boards referenced but missing from the Boards sheet
 - none — every referenced board is defined.
@@ -20,22 +20,12 @@ _Generated 2026-06-22T22:32:29Z_  ·  142 listings · 79 boards (59 in use) · 1
 - Asus · PE100A (PE100A)
 - Dell · Dell Edge Gateway 3200 (3200)
 - Dell · Dell Edge Gateway 5200 (5200)
-- Infineon · PSOC™ 62S3 Wi-Fi Bluetooth® prototyping kit (CY8CPROTO-062S3-4343W)
 - Infineon · PSOC™ Control C3M5 Evaluation Kit (KIT_PSC3M5_EVK)
 - Infineon · XENSIV™ KIT CSK BGT60TR13C (KIT_CSK_BGT60TR13C)
-- Microchip · PIC64GX Curiosity Kit (CURIOSITY-PIC64GX1000-KIT)
-- Microchip · SAM E54 Xplained Pro Evaluation Kit (ATSAME54-XPRO)
-- NXP · GoldBox for Vehicle Networking Development Platform (S32G-VNP-GLDBOX)
-- Renesas · Development Kit, DA 16200, 2.4GHz Wireless Communication (DA16600MOD-DEVKT)
 - Renesas · Fast Prototyping Board for RA0E2 MCU Group (FPB-RA0E2)
 - STMicroelectronics · STM32 Nucleo-144 development board with STM32H755ZI MCU (NUCLEO-H755ZI-Q)
 - Tria / AMD · VE2302 Development Kit (AES-VE2302-DK-G)
-- Tria / NXP · NXP MaaXBoard 8M (AES-MC-SBC-IMX8M-G)
 - Tria / NXP · NXP MaaXBoard Mini (AES-MC-SBC-IMX8MINI-G)
-- Tria / NXP · NXP MaaXBoard ULP (AES-MAAXB-8ULP-SK-G)
-- Tria / NXP · NXP MaaxBoard RT (AES-MC-SBC-IMXRT1176-G)
-- Arduino · Arduino UNO Q (ARDUINO-UNO-Q)
-- Renesas · RZ/G3E Evaluation Kit (RZ-G3E-EVK)
 
 ## Org repos with no listing (candidates to add)
 - iotc-index — Index of IOTCONNECT libaries, sdks and demos
