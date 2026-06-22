@@ -240,8 +240,8 @@
 <header class="hero" id="top"><div class="wrap hero-grid">
   <div>
     <div class="eyebrow">Avnet · Enablement Hub</div>
-    <h1>Ship IoT faster on <span class="slash">/</span>IOTCONNECT®</h1>
-    <p class="lede">The complete index of Avnet <b style="color:#fff">pre-enabled development boards</b>, SDKs, and ready-to-run demos — each with QuickStart guides, source, and a direct path from chip to cloud.</p>
+    <h1>Pre-enabled hardware<br>for <span class="slash">/</span>IOTCONNECT®</h1>
+    <p class="lede">The complete index of Avnet <b style="color:#fff">development boards, SDKs and ready-to-run demos</b> that connect to /IOTCONNECT out of the box — each with QuickStart guides, source, and a direct path from chip to cloud.</p>
     <div class="cta">
       <a class="btn btn-primary" data-jump="hardware">Browse hardware →</a>
       <a class="btn btn-ghost" data-jump="software">Explore SDKs &amp; demos</a>
@@ -363,7 +363,7 @@ function boardImgEl(b,cls=""){
 /* ---------------- hero + partners ---------------- */
 function renderHero(){
   const c=state.data.counts;
-  const stats=[["boards","Boards"],["sdks","SDKs"],["demos","Demos"],["guides","Guides"]];
+  const stats=[["boards","Boards"],["sdks","SDKs"],["examples","Demos"],["guides","Guides"]];
   $("#heroStats").innerHTML=stats.map(([k,l])=>`<div class="s"><div class="n">${c[k]??"—"}</div><div class="l">${l}</div></div>`).join("");
   // collage: 4 marquee boards with images, distinct vendors
   const pref=["STM32N6570-DK","CY8CKIT-062S2-AI","AES-RZB-V2L-SK-G","FRDM-IMX93","AES-QCS6490-DK-G","EK-RA8M1"];
