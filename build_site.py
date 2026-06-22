@@ -257,8 +257,20 @@ index = {
                "partners": sum(1 for p in partners if p["logo"])},
     "repos": out,
 }
+def write_stable(path, new_text, ts_re):
+    """Write new_text, but if the only difference from the existing file is the
+    timestamp (matched by ts_re), leave the file untouched. Keeps generated
+    artifacts byte-identical when nothing real changed, so CI commits nothing."""
+    if os.path.exists(path):
+        old = open(path, encoding="utf-8").read()
+        if re.sub(ts_re, "TS", old) == re.sub(ts_re, "TS", new_text):
+            return False
+    open(path, "w", encoding="utf-8").write(new_text)
+    return True
+
 os.makedirs(OUT, exist_ok=True)
-json.dump(index, open(os.path.join(OUT, "index.json"), "w", encoding="utf-8"), indent=2, ensure_ascii=False)
+index_text = json.dumps(index, indent=2, ensure_ascii=False)
+changed_index = write_stable(os.path.join(OUT, "index.json"), index_text, r'"generated": "[^"]*"')
 
 # ---------- AUDIT ----------
 orphan = [d for s, d in board_defs.items() if not s.startswith("x-") and s not in used_slugs]
@@ -287,9 +299,11 @@ else:
     A.append("- (run with GITHUB_TOKEN to detect uncatalogued repos)")
 A += ["", "## Listings missing description or topics"]
 A += [f"- {n}" for n in incomplete] or ["- none."]
-open(os.path.join(OUT, "AUDIT.md"), "w", encoding="utf-8").write("\n".join(A) + "\n")
+changed_audit = write_stable(os.path.join(OUT, "AUDIT.md"), "\n".join(A) + "\n", r'_Generated \S+Z_')
 
 print(f"index.json: {len(vis)} listings, {len(mfrs)} manufacturers, {len(busd)} boards, "
       f"{len(res_rows)} resources, {n_guides} guides, {n_demos} demos")
 print(f"AUDIT: {len(missing_boards)} missing-board refs, {len(no_image)} no-image, {len(orphan)} orphan, "
       f"{len(uncatalogued)} uncatalogued repos, {len(incomplete)} incomplete listings")
+print("changed: " + (", ".join(f for f, c in [("index.json", changed_index), ("AUDIT.md", changed_audit)] if c)
+                     or "nothing (timestamp-only; no rewrite)"))
