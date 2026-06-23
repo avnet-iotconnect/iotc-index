@@ -1,6 +1,6 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-06-22T23:53:56Z",
+  "generated": "2026-06-23T01:26:35Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
@@ -202,6 +202,10 @@
         "count": 7
       },
       {
+        "tag": "webrtc",
+        "count": 7
+      },
+      {
         "tag": "wifi",
         "count": 7
       },
@@ -211,10 +215,6 @@
       },
       {
         "tag": "lora",
-        "count": 6
-      },
-      {
-        "tag": "webrtc",
         "count": 6
       },
       {
@@ -2551,7 +2551,7 @@
         "qualifications": [],
         "tags": [],
         "resources": [],
-        "integrator": "Tria / Qualcom",
+        "integrator": "Tria / Qualcomm",
         "listings": 1
       },
       {
@@ -2576,7 +2576,7 @@
             "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/tria-vision-ai-kit-6490"
           }
         ],
-        "integrator": "Tria / Qualcom",
+        "integrator": "Tria / Qualcomm",
         "listings": 6
       },
       {
@@ -3921,7 +3921,7 @@
           "slug": "aes-qcs6490-dk-g",
           "vendor": "Qualcomm",
           "name": "VisionAI-Kit 6490",
-          "integrator": "Tria / Qualcom",
+          "integrator": "Tria / Qualcomm",
           "partNumber": "AES-QCS6490-DK-G",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-QCS6490-DK-G.png"
         }
@@ -3930,7 +3930,7 @@
         "slug": "aes-qcs6490-dk-g",
         "vendor": "Qualcomm",
         "name": "VisionAI-Kit 6490",
-        "integrator": "Tria / Qualcom",
+        "integrator": "Tria / Qualcomm",
         "partNumber": "AES-QCS6490-DK-G",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-QCS6490-DK-G.png"
       },
@@ -4304,7 +4304,7 @@
           "slug": "vision-ai-kit-iq9",
           "vendor": "Qualcomm",
           "name": "Vision AI-KIT IQ9",
-          "integrator": "Tria / Qualcom",
+          "integrator": "Tria / Qualcomm",
           "partNumber": "Vision AI-KIT IQ9",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/Vision-AI-KIT-IQ9.png"
         }
@@ -4313,7 +4313,7 @@
         "slug": "vision-ai-kit-iq9",
         "vendor": "Qualcomm",
         "name": "Vision AI-KIT IQ9",
-        "integrator": "Tria / Qualcom",
+        "integrator": "Tria / Qualcomm",
         "partNumber": "Vision AI-KIT IQ9",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/Vision-AI-KIT-IQ9.png"
       },
@@ -4693,7 +4693,7 @@
           "slug": "aes-qcs6490-dk-g",
           "vendor": "Qualcomm",
           "name": "VisionAI-Kit 6490",
-          "integrator": "Tria / Qualcom",
+          "integrator": "Tria / Qualcomm",
           "partNumber": "AES-QCS6490-DK-G",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-QCS6490-DK-G.png"
         }
@@ -4702,7 +4702,7 @@
         "slug": "aes-qcs6490-dk-g",
         "vendor": "Qualcomm",
         "name": "VisionAI-Kit 6490",
-        "integrator": "Tria / Qualcom",
+        "integrator": "Tria / Qualcomm",
         "partNumber": "AES-QCS6490-DK-G",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-QCS6490-DK-G.png"
       },
@@ -5627,7 +5627,7 @@
           "slug": "aes-qcs6490-dk-g",
           "vendor": "Qualcomm",
           "name": "VisionAI-Kit 6490",
-          "integrator": "Tria / Qualcom",
+          "integrator": "Tria / Qualcomm",
           "partNumber": "AES-QCS6490-DK-G",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-QCS6490-DK-G.png"
         }
@@ -5636,7 +5636,7 @@
         "slug": "aes-qcs6490-dk-g",
         "vendor": "Qualcomm",
         "name": "VisionAI-Kit 6490",
-        "integrator": "Tria / Qualcom",
+        "integrator": "Tria / Qualcomm",
         "partNumber": "AES-QCS6490-DK-G",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-QCS6490-DK-G.png"
       },
@@ -5658,7 +5658,8 @@
         "edge-ai",
         "modustoolbox",
         "npu",
-        "vision"
+        "vision",
+        "webrtc"
       ],
       "stars": 0,
       "updated": "2026-06-15T16:00:56Z",
@@ -8111,7 +8112,7 @@
           "slug": "aes-qcs6490-dk-g",
           "vendor": "Qualcomm",
           "name": "VisionAI-Kit 6490",
-          "integrator": "Tria / Qualcom",
+          "integrator": "Tria / Qualcomm",
           "partNumber": "AES-QCS6490-DK-G",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-QCS6490-DK-G.png"
         }
@@ -8120,7 +8121,7 @@
         "slug": "aes-qcs6490-dk-g",
         "vendor": "Qualcomm",
         "name": "VisionAI-Kit 6490",
-        "integrator": "Tria / Qualcom",
+        "integrator": "Tria / Qualcomm",
         "partNumber": "AES-QCS6490-DK-G",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-QCS6490-DK-G.png"
       },
@@ -8156,7 +8157,7 @@
           "slug": "aes-qcs6490-dk-g",
           "vendor": "Qualcomm",
           "name": "VisionAI-Kit 6490",
-          "integrator": "Tria / Qualcom",
+          "integrator": "Tria / Qualcomm",
           "partNumber": "AES-QCS6490-DK-G",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-QCS6490-DK-G.png"
         }
@@ -8165,7 +8166,7 @@
         "slug": "aes-qcs6490-dk-g",
         "vendor": "Qualcomm",
         "name": "VisionAI-Kit 6490",
-        "integrator": "Tria / Qualcom",
+        "integrator": "Tria / Qualcomm",
         "partNumber": "AES-QCS6490-DK-G",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-QCS6490-DK-G.png"
       },
@@ -8199,7 +8200,7 @@
           "slug": "aes-qcs6490-dk-g",
           "vendor": "Qualcomm",
           "name": "VisionAI-Kit 6490",
-          "integrator": "Tria / Qualcom",
+          "integrator": "Tria / Qualcomm",
           "partNumber": "AES-QCS6490-DK-G",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-QCS6490-DK-G.png"
         }
@@ -8208,7 +8209,7 @@
         "slug": "aes-qcs6490-dk-g",
         "vendor": "Qualcomm",
         "name": "VisionAI-Kit 6490",
-        "integrator": "Tria / Qualcom",
+        "integrator": "Tria / Qualcomm",
         "partNumber": "AES-QCS6490-DK-G",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-QCS6490-DK-G.png"
       },

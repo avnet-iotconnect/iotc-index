@@ -66,8 +66,8 @@ Tria / NXP,NXP MaaXBoard Mini,AES-MC-SBC-IMX8MINI-G,AES-MC-SBC-IMX8MINI-G.png,AE
 Tria / NXP,NXP MaaXBoard OSM93,AES-MAAXB-OSM93-DK-G,AES-MAAXB-OSM93-DK-G.png,AES-MAAXB-OSM93-DK-G.jpg,https://www.tria-technologies.com/product/maaxboard-osm93/,yes,yes,AWS Qual,yes,NXP
 Tria / NXP,NXP MaaXBoard ULP,AES-MAAXB-8ULP-SK-G,AES-MAAXB-8ULP-SK-G.png,AES-MAAXB-8ULP-SK-G.jpg,https://www.tria-technologies.com/product/maaxboard-8ulp/,yes,no,AWS Qual,yes,NXP
 Tria / NXP,NXP MaaxBoard RT,AES-MC-SBC-IMXRT1176-G,AES-MC-SBC-IMXRT1176-G.png,AES-MC-SBC-IMXRT1176-G.jpg,https://www.tria-technologies.com/product/maaxboard-rt/,no,no,,yes,NXP
-Tria / Qualcom,Vision AI-KIT IQ9,Vision AI-KIT IQ9,Vision-AI-KIT-IQ9.png,,https://www.tria-technologies.com/product/vision-ai-kit-iq9/,no,no,,yes,Qualcomm
-Tria / Qualcom,VisionAI-Kit 6490,AES-QCS6490-DK-G,AES-QCS6490-DK-G.png,,https://www.tria-technologies.com/product/vision-ai-kit-6490/,yes,no,AWS_Qual - In_Progress,yes,Qualcomm
+Tria / Qualcomm,Vision AI-KIT IQ9,Vision AI-KIT IQ9,Vision-AI-KIT-IQ9.png,,https://www.tria-technologies.com/product/vision-ai-kit-iq9/,no,no,,yes,Qualcomm
+Tria / Qualcomm,VisionAI-Kit 6490,AES-QCS6490-DK-G,AES-QCS6490-DK-G.png,,https://www.tria-technologies.com/product/vision-ai-kit-6490/,yes,no,AWS_Qual - In_Progress,yes,Qualcomm
 Tria / Renesas,RASynBoard NDP120 Evaluation Kit,AES-RASYNB-120,AES-RASYNB-120.png,AES-RASYNB-120.jpg,https://www.avnet.com/americas/products/avnet-boards/avnet-board-families/rasynboard/,yes,no,AWS Qual,yes,Renesas
 Tria / Renesas,RZBoard V2L,AES-RZB-V2L-SK-G,AES-RZB-V2L-SK-G.png,AES-RZB-V2L-SK-G.jpg,https://www.tria-technologies.com/product/rzboard-v2l/,yes,no,AWS Qual,yes,Renesas
 Seeed Studio,reComputer J4021 - Edge AI Computer with NVIDIA Jetson Orin NX 16GB,J4021,,,,no,no,"ai,vision,edge",yes,NVIDIA
