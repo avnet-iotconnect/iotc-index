@@ -328,7 +328,7 @@ const VENDOR_COLOR={
   "AMD":"#ED1C24","NVIDIA":"#76B900","Intel":"#0071C5","Qualcomm":"#3253DC",
   "Nordic":"#00A9CE","Broadcom":"#CC0000","Semtech":"#00A4E4","Raspberry Pi":"#C51A4A",
   "Advantech":"#C8102E","ADLINK":"#0067B9","Arduino":"#00979D","Asus":"#00539B","Dell":"#007DB8",
-  "Seeed Studio":"#04A54E","Kerlink":"#E2001A","Avnet":"#41C363","Other":"#6B7C92"};
+  "Seeed Studio":"#04A54E","Kerlink":"#E2001A","Avnet":"#41C363","Tria":"#7C5CD6","Other":"#6B7C92"};
 const integLabel=s=>String(s||"").split(" / ")[0].trim();   // "Tria / NXP" -> "Tria"
 const KIND_META={
   buy:{ic:"🛒",label:"Buy"},quickstart:{ic:"⚡",label:"QuickStart"},developer:{ic:"🛠️",label:"Developer guide"},
@@ -343,7 +343,9 @@ const vcolor=v=>VENDOR_COLOR[v]||VENDOR_COLOR.Other;
 function timeAgo(iso){const d=(Date.now()-new Date(iso).getTime())/864e5;if(isNaN(d))return"";if(d<1)return"today";if(d<7)return Math.floor(d)+"d";if(d<60)return Math.floor(d/7)+"w";if(d<730)return Math.floor(d/30)+"mo";return Math.floor(d/365)+"y";}
 
 const state={data:null,boards:[],repos:[],partners:[],boardBySlug:{},
-  view:"hardware",query:"",filters:{manufacturer:null,topic:null,language:null,type:null,status:null,qual:null}};
+  view:"hardware",query:"",filters:{manufacturer:[],maker:[],topic:[],language:[],type:[],status:[],qual:[]}};
+const EMPTY_FILTERS=()=>({manufacturer:[],maker:[],topic:[],language:[],type:[],status:[],qual:[]});
+const anyFilter=()=>Object.values(state.filters).some(a=>a.length)||state.query;
 
 function skel(n=8){$("#grid").innerHTML=Array.from({length:n},()=>`<div class="skel"></div>`).join("");}
 skel();
@@ -385,14 +387,15 @@ function renderPartners(){
 }
 
 /* ---------------- filters ---------------- */
-function chip(key,val,label,extra=""){const a=state.filters[key]===val;return `<button class="chip ${a?"active":""}" data-key="${key}" data-val="${esc(val)}">${extra}${esc(label)}</button>`;}
+function chip(key,val,label,extra=""){const a=(state.filters[key]||[]).includes(val);return `<button class="chip ${a?"active":""}" data-key="${key}" data-val="${esc(val)}">${extra}${esc(label)}</button>`;}
 function renderFilters(){
   const f=document.createDocumentFragment(),el=$("#filters");
-  const mfrs=state.partners.map(p=>p.name);
-  const anyActive=Object.values(state.filters).some(Boolean)||state.query;
-  let html=`<div class="frow"><span class="flabel">Partner</span>${
+  const makers=state.data.facets.makers||[];
+  let html=`<div class="frow"><span class="flabel">Silicon</span>${
     state.data.facets.manufacturers.map(v=>chip("manufacturer",v,v,`<span class="vdot" style="background:${vcolor(v)}"></span>`)).join("")
-  }${anyActive?`<button class="clear" id="clearall">Clear all</button>`:""}</div>`;
+  }${anyFilter()?`<button class="clear" id="clearall">Clear all</button>`:""}</div>
+    <div class="frow"><span class="flabel">Board maker</span>${
+    makers.map(v=>chip("maker",v,v,`<span class="vdot" style="background:${vcolor(v)}"></span>`)).join("")}</div>`;
   if(state.view==="hardware"){
     html+=`<div class="frow"><span class="flabel">Qualified</span>${chip("qual","AWS Qualified","AWS Qualified")}${chip("qual","Greengrass","Greengrass")}</div>`;
   }else{
@@ -407,22 +410,25 @@ function renderFilters(){
 }
 
 /* ---------------- matching ---------------- */
+const hasAny=(sel,vals)=>!sel.length||(vals||[]).some(v=>sel.includes(v));   // OR within a facet
 function boardMatch(b){
   const f=state.filters;
-  if(f.manufacturer&&b.vendor!==f.manufacturer)return false;
-  if(f.qual&&!(b.qualifications||[]).includes(f.qual))return false;
+  if(!hasAny(f.manufacturer,[b.vendor]))return false;
+  if(!hasAny(f.maker,[b.maker||b.vendor]))return false;
+  if(f.qual.length&&!f.qual.some(q=>(b.qualifications||[]).includes(q)))return false;
   if(state.query){const q=state.query.toLowerCase();
-    const hay=[b.name,b.partNumber,b.vendor,(b.tags||[]).join(" "),(b.resources||[]).map(r=>r.title).join(" ")].join(" ").toLowerCase();
+    const hay=[b.name,b.partNumber,b.vendor,b.maker,(b.tags||[]).join(" "),(b.resources||[]).map(r=>r.title).join(" ")].join(" ").toLowerCase();
     if(!hay.includes(q))return false;}
   return true;
 }
 function repoMatch(r){
   const f=state.filters;
   if(r.hidden)return false;
-  if(f.manufacturer&&!(r.manufacturers||[]).includes(f.manufacturer))return false;
-  if(f.topic&&!(r.features||[]).includes(f.topic))return false;
-  if(f.type&&r.category!==f.type)return false;
-  if(f.language&&!(r.languages||[]).includes(f.language))return false;
+  if(!hasAny(f.manufacturer,r.manufacturers))return false;
+  if(!hasAny(f.maker,r.makers))return false;
+  if(!hasAny(f.topic,r.features))return false;
+  if(!hasAny(f.type,[r.category]))return false;
+  if(!hasAny(f.language,r.languages))return false;
   if(state.query){const q=state.query.toLowerCase();
     const hay=[r.repo,r.displayName,r.description,(r.languages||[]).join(" "),(r.manufacturers||[]).join(" "),
       (r.boards||[]).map(b=>b.name+" "+(b.partNumber||"")).join(" "),(r.features||[]).join(" ")].join(" ").toLowerCase();
@@ -510,11 +516,12 @@ function resolveMfr(id){
 function syncHash(){
   if(!history.replaceState)return;
   const m=state.filters.manufacturer;
-  history.replaceState(null,"",m?("#partner/"+mslug(m)):(location.pathname+location.search));
+  history.replaceState(null,"",m.length?("#partner/"+m.map(mslug).join(",")):(location.pathname+location.search));
 }
-function applyPartner(id,scroll){
-  const m=resolveMfr(id); if(!m)return false;
-  state.filters.manufacturer=m;
+function applyPartner(idCsv,scroll){
+  const ids=String(idCsv).split(",").map(s=>resolveMfr(s)).filter(Boolean);
+  if(!ids.length)return false;
+  state.filters.manufacturer=[...new Set(ids)];
   setView((state.view==="software"||state.view==="maker")?state.view:"hardware");
   syncHash();
   if(scroll){const t=document.getElementById("hardware");if(t)t.scrollIntoView({behavior:"smooth",block:"start"});}
@@ -538,7 +545,7 @@ function sortRepos(a,b){
 }
 function render(){
   const results=$("#results"),rb=$("#resultbar");
-  const filtered=Object.values(state.filters).some(Boolean)||state.query;
+  const filtered=anyFilter();
   if(state.view==="hardware"){
     const list=state.boards.filter(boardMatch).sort((a,b)=>(b.listings-a.listings)||a.name.localeCompare(b.name));
     rb.textContent=`${list.length} board${list.length===1?"":"s"}`+(filtered?" (filtered)":"");
@@ -626,10 +633,12 @@ document.addEventListener("click",e=>{
   const card=e.target.closest(".card[data-board]");
   if(card){openDrawer(card.dataset.board);return;}
   const chipEl=e.target.closest(".chip");
-  if(chipEl){const {key,val}=chipEl.dataset;state.filters[key]=state.filters[key]===val?null:val;renderFilters();render();syncHash();return;}
-  if(e.target.id==="clearall"){state.filters={manufacturer:null,topic:null,language:null,type:null,status:null,qual:null};state.query="";$("#q").value="";renderFilters();render();syncHash();return;}
+  if(chipEl){const {key,val}=chipEl.dataset;const arr=state.filters[key];const i=arr.indexOf(val);i>=0?arr.splice(i,1):arr.push(val);renderFilters();render();syncHash();return;}
+  if(e.target.id==="clearall"){state.filters=EMPTY_FILTERS();state.query="";$("#q").value="";renderFilters();render();syncHash();return;}
   const pl=e.target.closest(".plogo");
-  if(pl){applyPartner(pl.dataset.mfr,true);return;}
+  if(pl){const v=pl.dataset.mfr,arr=state.filters.manufacturer,i=arr.indexOf(v);i>=0?arr.splice(i,1):arr.push(v);
+    setView((state.view==="software"||state.view==="maker")?state.view:"hardware");syncHash();
+    const t=document.getElementById("hardware");if(t)t.scrollIntoView({behavior:"smooth",block:"start"});return;}
   const jump=e.target.closest("[data-jump]");
   if(jump){const v=jump.dataset.jump;if(v==="partners"){document.getElementById("partners").scrollIntoView({behavior:"smooth"});}else{setView(v);document.getElementById("hardware").scrollIntoView({behavior:"smooth",block:"start"});}return;}
 });

@@ -1,6 +1,6 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-06-23T01:26:35Z",
+  "generated": "2026-06-24T13:25:54Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
@@ -143,6 +143,17 @@
       "STMicroelectronics",
       "Semtech",
       "TE Connectivity"
+    ],
+    "makers": [
+      "ADLINK",
+      "Advantech",
+      "Arduino",
+      "Asus",
+      "Dell",
+      "Kerlink",
+      "Raspberry Pi",
+      "Seeed Studio",
+      "Tria"
     ],
     "topics": [
       {
@@ -340,6 +351,7 @@
         ],
         "resources": [],
         "integrator": "Avnet",
+        "maker": "Avnet",
         "listings": 2
       },
       {
@@ -359,6 +371,7 @@
         ],
         "resources": [],
         "integrator": "Arduino",
+        "maker": "Arduino",
         "listings": 0
       },
       {
@@ -384,6 +397,7 @@
           }
         ],
         "integrator": "Arduino",
+        "maker": "Arduino",
         "listings": 1
       },
       {
@@ -410,6 +424,7 @@
           }
         ],
         "integrator": "STMicroelectronics",
+        "maker": "STMicroelectronics",
         "listings": 1
       },
       {
@@ -446,6 +461,7 @@
           }
         ],
         "integrator": "Microchip",
+        "maker": "Microchip",
         "listings": 2
       },
       {
@@ -482,6 +498,7 @@
           }
         ],
         "integrator": "Renesas",
+        "maker": "Renesas",
         "listings": 1
       },
       {
@@ -517,6 +534,7 @@
           }
         ],
         "integrator": "Renesas",
+        "maker": "Renesas",
         "listings": 1
       },
       {
@@ -545,6 +563,7 @@
           }
         ],
         "integrator": "Renesas",
+        "maker": "Renesas",
         "listings": 1
       },
       {
@@ -570,6 +589,7 @@
           }
         ],
         "integrator": "Renesas",
+        "maker": "Renesas",
         "listings": 1
       },
       {
@@ -590,6 +610,7 @@
         ],
         "resources": [],
         "integrator": "Dell",
+        "maker": "Dell",
         "listings": 0
       },
       {
@@ -610,6 +631,7 @@
         ],
         "resources": [],
         "integrator": "Dell",
+        "maker": "Dell",
         "listings": 0
       },
       {
@@ -631,6 +653,7 @@
           }
         ],
         "integrator": "Renesas",
+        "maker": "Renesas",
         "listings": 1
       },
       {
@@ -661,6 +684,7 @@
           }
         ],
         "integrator": "Renesas",
+        "maker": "Renesas",
         "listings": 1
       },
       {
@@ -678,6 +702,7 @@
         ],
         "resources": [],
         "integrator": "Advantech",
+        "maker": "Advantech",
         "listings": 1
       },
       {
@@ -693,6 +718,7 @@
         "tags": [],
         "resources": [],
         "integrator": "Renesas",
+        "maker": "Renesas",
         "listings": 1
       },
       {
@@ -728,6 +754,7 @@
           }
         ],
         "integrator": "Renesas",
+        "maker": "Renesas",
         "listings": 1
       },
       {
@@ -763,6 +790,7 @@
           }
         ],
         "integrator": "Renesas",
+        "maker": "Renesas",
         "listings": 1
       },
       {
@@ -778,6 +806,7 @@
         "tags": [],
         "resources": [],
         "integrator": "Renesas",
+        "maker": "Renesas",
         "listings": 0
       },
       {
@@ -793,6 +822,7 @@
         "tags": [],
         "resources": [],
         "integrator": "Renesas",
+        "maker": "Renesas",
         "listings": 1
       },
       {
@@ -824,6 +854,7 @@
           }
         ],
         "integrator": "NXP",
+        "maker": "NXP",
         "listings": 1
       },
       {
@@ -850,6 +881,7 @@
           }
         ],
         "integrator": "NXP",
+        "maker": "NXP",
         "listings": 1
       },
       {
@@ -876,6 +908,7 @@
           }
         ],
         "integrator": "NXP",
+        "maker": "NXP",
         "listings": 2
       },
       {
@@ -910,6 +943,7 @@
           }
         ],
         "integrator": "NXP",
+        "maker": "NXP",
         "listings": 9
       },
       {
@@ -935,6 +969,7 @@
           }
         ],
         "integrator": "NVIDIA",
+        "maker": "NVIDIA",
         "listings": 1
       },
       {
@@ -954,6 +989,7 @@
         ],
         "resources": [],
         "integrator": "AMD",
+        "maker": "AMD",
         "listings": 0
       },
       {
@@ -990,6 +1026,7 @@
           }
         ],
         "integrator": "Tria / NXP",
+        "maker": "Tria",
         "listings": 2
       },
       {
@@ -1010,6 +1047,7 @@
         ],
         "resources": [],
         "integrator": "ADLINK",
+        "maker": "ADLINK",
         "listings": 0
       },
       {
@@ -1029,6 +1067,7 @@
         ],
         "resources": [],
         "integrator": "Nordic",
+        "maker": "Nordic",
         "listings": 1
       },
       {
@@ -1084,6 +1123,7 @@
           }
         ],
         "integrator": "Tria / NXP",
+        "maker": "Tria",
         "listings": 1
       },
       {
@@ -1115,6 +1155,7 @@
           }
         ],
         "integrator": "Tria / NXP",
+        "maker": "Tria",
         "listings": 0
       },
       {
@@ -1156,6 +1197,7 @@
           }
         ],
         "integrator": "Tria / NXP",
+        "maker": "Tria",
         "listings": 2
       },
       {
@@ -1182,6 +1224,7 @@
           }
         ],
         "integrator": "Tria / NXP",
+        "maker": "Tria",
         "listings": 1
       },
       {
@@ -1217,6 +1260,7 @@
           }
         ],
         "integrator": "Tria / NXP",
+        "maker": "Tria",
         "listings": 1
       },
       {
@@ -1237,6 +1281,7 @@
         ],
         "resources": [],
         "integrator": "Asus",
+        "maker": "Asus",
         "listings": 0
       },
       {
@@ -1252,6 +1297,7 @@
         "tags": [],
         "resources": [],
         "integrator": "Microchip",
+        "maker": "Microchip",
         "listings": 1
       },
       {
@@ -1280,6 +1326,7 @@
           }
         ],
         "integrator": "Microchip",
+        "maker": "Microchip",
         "listings": 1
       },
       {
@@ -1310,6 +1357,7 @@
           }
         ],
         "integrator": "Microchip",
+        "maker": "Microchip",
         "listings": 4
       },
       {
@@ -1336,6 +1384,7 @@
           }
         ],
         "integrator": "Microchip",
+        "maker": "Microchip",
         "listings": 3
       },
       {
@@ -1362,6 +1411,7 @@
           }
         ],
         "integrator": "STMicroelectronics",
+        "maker": "STMicroelectronics",
         "listings": 1
       },
       {
@@ -1435,6 +1485,7 @@
           }
         ],
         "integrator": "Infineon",
+        "maker": "Infineon",
         "listings": 1
       },
       {
@@ -1503,6 +1554,7 @@
           }
         ],
         "integrator": "Infineon",
+        "maker": "Infineon",
         "listings": 6
       },
       {
@@ -1568,6 +1620,7 @@
           }
         ],
         "integrator": "Infineon",
+        "maker": "Infineon",
         "listings": 7
       },
       {
@@ -1599,6 +1652,7 @@
           }
         ],
         "integrator": "Infineon",
+        "maker": "Infineon",
         "listings": 2
       },
       {
@@ -1630,6 +1684,7 @@
           }
         ],
         "integrator": "Infineon",
+        "maker": "Infineon",
         "listings": 2
       },
       {
@@ -1661,6 +1716,7 @@
           }
         ],
         "integrator": "Infineon",
+        "maker": "Infineon",
         "listings": 1
       },
       {
@@ -1676,6 +1732,7 @@
         "tags": [],
         "resources": [],
         "integrator": "Infineon",
+        "maker": "Infineon",
         "listings": 0
       },
       {
@@ -1691,6 +1748,7 @@
         "tags": [],
         "resources": [],
         "integrator": "Renesas",
+        "maker": "Renesas",
         "listings": 1
       },
       {
@@ -1719,6 +1777,7 @@
           }
         ],
         "integrator": "Raspberry Pi",
+        "maker": "Raspberry Pi",
         "listings": 2
       },
       {
@@ -1774,6 +1833,7 @@
           }
         ],
         "integrator": "Tria / Renesas",
+        "maker": "Tria",
         "listings": 1
       },
       {
@@ -1789,6 +1849,7 @@
         "tags": [],
         "resources": [],
         "integrator": "Seeed Studio",
+        "maker": "Seeed Studio",
         "listings": 1
       },
       {
@@ -1814,6 +1875,7 @@
           }
         ],
         "integrator": "Renesas",
+        "maker": "Renesas",
         "listings": 1
       },
       {
@@ -1838,6 +1900,7 @@
           }
         ],
         "integrator": "Renesas",
+        "maker": "Renesas",
         "listings": 2
       },
       {
@@ -1918,6 +1981,7 @@
           }
         ],
         "integrator": "Tria / Renesas",
+        "maker": "Tria",
         "listings": 2
       },
       {
@@ -1944,6 +2008,7 @@
           }
         ],
         "integrator": "Microchip",
+        "maker": "Microchip",
         "listings": 1
       },
       {
@@ -1984,6 +2049,7 @@
           }
         ],
         "integrator": "Microchip",
+        "maker": "Microchip",
         "listings": 1
       },
       {
@@ -2016,6 +2082,7 @@
           }
         ],
         "integrator": "Microchip",
+        "maker": "Microchip",
         "listings": 5
       },
       {
@@ -2047,6 +2114,7 @@
           }
         ],
         "integrator": "STMicroelectronics",
+        "maker": "STMicroelectronics",
         "listings": 1
       },
       {
@@ -2066,6 +2134,7 @@
         ],
         "resources": [],
         "integrator": "Advantech",
+        "maker": "Advantech",
         "listings": 1
       },
       {
@@ -2083,6 +2152,7 @@
         "tags": [],
         "resources": [],
         "integrator": "STMicroelectronics",
+        "maker": "STMicroelectronics",
         "listings": 0
       },
       {
@@ -2114,6 +2184,7 @@
           }
         ],
         "integrator": "STMicroelectronics",
+        "maker": "STMicroelectronics",
         "listings": 1
       },
       {
@@ -2144,6 +2215,7 @@
           }
         ],
         "integrator": "STMicroelectronics",
+        "maker": "STMicroelectronics",
         "listings": 1
       },
       {
@@ -2190,6 +2262,7 @@
           }
         ],
         "integrator": "STMicroelectronics",
+        "maker": "STMicroelectronics",
         "listings": 10
       },
       {
@@ -2251,6 +2324,7 @@
           }
         ],
         "integrator": "STMicroelectronics",
+        "maker": "STMicroelectronics",
         "listings": 9
       },
       {
@@ -2297,6 +2371,7 @@
           }
         ],
         "integrator": "STMicroelectronics",
+        "maker": "STMicroelectronics",
         "listings": 9
       },
       {
@@ -2363,6 +2438,7 @@
           }
         ],
         "integrator": "STMicroelectronics",
+        "maker": "STMicroelectronics",
         "listings": 4
       },
       {
@@ -2388,6 +2464,7 @@
           }
         ],
         "integrator": "STMicroelectronics",
+        "maker": "STMicroelectronics",
         "listings": 1
       },
       {
@@ -2421,6 +2498,7 @@
           }
         ],
         "integrator": "STMicroelectronics",
+        "maker": "STMicroelectronics",
         "listings": 2
       },
       {
@@ -2461,6 +2539,7 @@
           }
         ],
         "integrator": "STMicroelectronics",
+        "maker": "STMicroelectronics",
         "listings": 3
       },
       {
@@ -2487,6 +2566,7 @@
           }
         ],
         "integrator": "STMicroelectronics",
+        "maker": "STMicroelectronics",
         "listings": 1
       },
       {
@@ -2502,6 +2582,7 @@
         "tags": [],
         "resources": [],
         "integrator": "Nordic",
+        "maker": "Nordic",
         "listings": 1
       },
       {
@@ -2522,6 +2603,7 @@
         ],
         "resources": [],
         "integrator": "Advantech",
+        "maker": "Advantech",
         "listings": 0
       },
       {
@@ -2537,6 +2619,7 @@
         "tags": [],
         "resources": [],
         "integrator": "Tria / AMD",
+        "maker": "Tria",
         "listings": 0
       },
       {
@@ -2552,6 +2635,7 @@
         "tags": [],
         "resources": [],
         "integrator": "Tria / Qualcomm",
+        "maker": "Tria",
         "listings": 1
       },
       {
@@ -2577,6 +2661,7 @@
           }
         ],
         "integrator": "Tria / Qualcomm",
+        "maker": "Tria",
         "listings": 6
       },
       {
@@ -2608,6 +2693,7 @@
           }
         ],
         "integrator": "Microchip",
+        "maker": "Microchip",
         "listings": 2
       },
       {
@@ -2627,6 +2713,7 @@
         ],
         "resources": [],
         "integrator": "Kerlink",
+        "maker": "Kerlink",
         "listings": 1
       },
       {
@@ -2646,6 +2733,7 @@
         ],
         "resources": [],
         "integrator": "Infineon",
+        "maker": "Infineon",
         "listings": 0
       },
       {
@@ -2691,6 +2779,7 @@
           }
         ],
         "integrator": "Infineon",
+        "maker": "Infineon",
         "listings": 1
       },
       {
@@ -2716,6 +2805,7 @@
           }
         ],
         "integrator": "Tria / AMD",
+        "maker": "Tria",
         "listings": 1
       }
     ]
@@ -2750,7 +2840,8 @@
       "id": "iotconnect-core-c-library",
       "boards": [],
       "board": null,
-      "manufacturers": []
+      "manufacturers": [],
+      "makers": []
     },
     {
       "repo": "iotc-python-lib",
@@ -2771,7 +2862,8 @@
       "id": "iotconnect-python-library",
       "boards": [],
       "board": null,
-      "manufacturers": []
+      "manufacturers": [],
+      "makers": []
     },
     {
       "repo": "iotc-azurertos-sdk",
@@ -2795,6 +2887,7 @@
           "slug": "b-u585i-iot02a",
           "vendor": "STMicroelectronics",
           "name": "STM32U5 Discovery Kit",
+          "maker": "STMicroelectronics",
           "partNumber": "B-U585I-IOT02A",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/B-U585I-IOT02A.png",
           "imageLocal": "assets/boards/STM32U5.jpg"
@@ -2803,6 +2896,7 @@
           "slug": "b-l475e-iot01a2",
           "vendor": "STMicroelectronics",
           "name": "STM32L4 Discovery Kit",
+          "maker": "STMicroelectronics",
           "partNumber": "B-L475E-IOT01A2",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/B-L475E-IOT01A2.png",
           "imageLocal": "assets/boards/STM32L4.jpg"
@@ -2811,6 +2905,7 @@
           "slug": "mimxrt1060-evkb",
           "vendor": "NXP",
           "name": "i.MX RT1060 Evaluation Kit",
+          "maker": "NXP",
           "partNumber": "MIMXRT1060-EVKB",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/MIMXRT1060-EVKB.png",
           "imageLocal": "assets/boards/MIMXRT1060-EVKB.jpg"
@@ -2819,6 +2914,7 @@
           "slug": "ev36w50a",
           "vendor": "Microchip",
           "name": "WFI32-IoT Development Board",
+          "maker": "Microchip",
           "partNumber": "EV36W50A",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EV36W50A.png",
           "imageLocal": "assets/boards/EV36W50A.jpg"
@@ -2827,6 +2923,7 @@
           "slug": "ck-rk65n",
           "vendor": "Renesas",
           "name": "CK-RX65N Cloud Kit",
+          "maker": "Renesas",
           "partNumber": "CK-RK65N",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CK-RK65N.png",
           "imageLocal": "assets/boards/CK-RK65N.jpg"
@@ -2835,6 +2932,7 @@
           "slug": "atsame54-xpro",
           "vendor": "Microchip",
           "name": "SAM E54 Xplained Pro Evaluation Kit",
+          "maker": "Microchip",
           "partNumber": "ATSAME54-XPRO",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ATSAME54-XPRO.png",
           "imageLocal": "assets/boards/ATSAME54-XPRO.jpg"
@@ -2843,6 +2941,7 @@
           "slug": "aes-mc-sbc-imxrt1176-g",
           "vendor": "NXP",
           "name": "NXP MaaxBoard RT",
+          "maker": "Tria",
           "integrator": "Tria / NXP",
           "partNumber": "AES-MC-SBC-IMXRT1176-G",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-MC-SBC-IMXRT1176-G.png",
@@ -2853,6 +2952,7 @@
         "slug": "b-u585i-iot02a",
         "vendor": "STMicroelectronics",
         "name": "STM32U5 Discovery Kit",
+        "maker": "STMicroelectronics",
         "partNumber": "B-U585I-IOT02A",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/B-U585I-IOT02A.png",
         "imageLocal": "assets/boards/STM32U5.jpg"
@@ -2862,6 +2962,13 @@
         "NXP",
         "Renesas",
         "STMicroelectronics"
+      ],
+      "makers": [
+        "Microchip",
+        "NXP",
+        "Renesas",
+        "STMicroelectronics",
+        "Tria"
       ]
     },
     {
@@ -2886,6 +2993,7 @@
           "slug": "us159-da16600evz",
           "vendor": "Renesas",
           "name": "DA16600 Ultra Low Power Wi-Fi and Bluetooth Low Energy Combo Pmod Module Evaluation Board",
+          "maker": "Renesas",
           "partNumber": "US159-DA16600EVZ",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/US159-DA16600EVZ.png",
           "imageLocal": "assets/boards/US159-DA16600EVZ.jpg"
@@ -2894,6 +3002,7 @@
           "slug": "us159-da16200mevz",
           "vendor": "Renesas",
           "name": "DA16200 Ultra Low Power Wi-Fi Pmod Module Evaluation Board",
+          "maker": "Renesas",
           "partNumber": "US159-DA16200MEVZ",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/US159-DA16200MEVZ.png",
           "imageLocal": "assets/boards/US159-DA16200MEVZ.jpg"
@@ -2902,6 +3011,7 @@
           "slug": "da16200mod-devkt",
           "vendor": "Renesas",
           "name": "Development Kit, DA16200, Wireless Communication, WiFi with IOT",
+          "maker": "Renesas",
           "partNumber": "DA16200MOD-DEVKT",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/DA16200MOD-DEVKT.png",
           "imageLocal": "assets/boards/DA16200MOD-DEVKT.jpg"
@@ -2910,6 +3020,7 @@
           "slug": "da16600mod-devkt",
           "vendor": "Renesas",
           "name": "Development Kit, DA 16200, 2.4GHz Wireless Communication",
+          "maker": "Renesas",
           "partNumber": "DA16600MOD-DEVKT",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/DA16600MOD-DEVKT.png",
           "imageLocal": "assets/boards/DA16600MOD-DEVKT.jpg"
@@ -2919,11 +3030,15 @@
         "slug": "us159-da16600evz",
         "vendor": "Renesas",
         "name": "DA16600 Ultra Low Power Wi-Fi and Bluetooth Low Energy Combo Pmod Module Evaluation Board",
+        "maker": "Renesas",
         "partNumber": "US159-DA16600EVZ",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/US159-DA16600EVZ.png",
         "imageLocal": "assets/boards/US159-DA16600EVZ.jpg"
       },
       "manufacturers": [
+        "Renesas"
+      ],
+      "makers": [
         "Renesas"
       ]
     },
@@ -2949,6 +3064,7 @@
           "slug": "cy8ckit-062-wifi-bt",
           "vendor": "Infineon",
           "name": "PSOC™ 6 Wi-Fi Bluetooth® pioneer kit",
+          "maker": "Infineon",
           "partNumber": "CY8CKIT-062-WIFI-BT",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CKIT-062-WIFI-BT.png",
           "imageLocal": "assets/boards/CY8CKIT-062-WIFI-BT.jpg"
@@ -2957,6 +3073,7 @@
           "slug": "cy8cproto-062-4343w",
           "vendor": "Infineon",
           "name": "PSOC™ 6 Wi-Fi Bluetooth® prototyping kit",
+          "maker": "Infineon",
           "partNumber": "CY8CPROTO-062-4343W",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CPROTO-062-4343W.png",
           "imageLocal": "assets/boards/PSOC6kit.jpg"
@@ -2965,6 +3082,7 @@
           "slug": "cy8ckit-062s2-ai",
           "vendor": "Infineon",
           "name": "PSOC™ 6 Artificial Intelligence Evaluation Kit",
+          "maker": "Infineon",
           "partNumber": "CY8CKIT-062S2-AI",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CKIT-062S2-AI.png",
           "imageLocal": "assets/boards/CY8CKIT-062S2-AI.jpg"
@@ -2974,11 +3092,15 @@
         "slug": "cy8ckit-062-wifi-bt",
         "vendor": "Infineon",
         "name": "PSOC™ 6 Wi-Fi Bluetooth® pioneer kit",
+        "maker": "Infineon",
         "partNumber": "CY8CKIT-062-WIFI-BT",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CKIT-062-WIFI-BT.png",
         "imageLocal": "assets/boards/CY8CKIT-062-WIFI-BT.jpg"
       },
       "manufacturers": [
+        "Infineon"
+      ],
+      "makers": [
         "Infineon"
       ]
     },
@@ -3004,6 +3126,7 @@
           "slug": "frdm-imx93",
           "vendor": "NXP",
           "name": "IMX93 Freedom Board",
+          "maker": "NXP",
           "partNumber": "FRDM-IMX93",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-IMX93.png",
           "imageLocal": "assets/boards/FRDM-IMX93.jpg"
@@ -3012,6 +3135,7 @@
           "slug": "stm32mp135f-dk",
           "vendor": "STMicroelectronics",
           "name": "STM32MP135 Discovery Kit",
+          "maker": "STMicroelectronics",
           "partNumber": "STM32MP135F-DK",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP135F-DK.png",
           "imageLocal": "assets/boards/STM32MP135F.jpg"
@@ -3020,6 +3144,7 @@
           "slug": "atsama5d27-som1-ek1",
           "vendor": "Microchip",
           "name": "SAMA5D27 SOM Evaluation Kit",
+          "maker": "Microchip",
           "partNumber": "ATSAMA5D27-SOM1-EK1",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ATSAMA5D27-SOM1-EK1.png",
           "imageLocal": "assets/boards/ATSAMA5D27-SOM1-EK1.jpg"
@@ -3029,11 +3154,17 @@
         "slug": "frdm-imx93",
         "vendor": "NXP",
         "name": "IMX93 Freedom Board",
+        "maker": "NXP",
         "partNumber": "FRDM-IMX93",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-IMX93.png",
         "imageLocal": "assets/boards/FRDM-IMX93.jpg"
       },
       "manufacturers": [
+        "Microchip",
+        "NXP",
+        "STMicroelectronics"
+      ],
+      "makers": [
         "Microchip",
         "NXP",
         "STMicroelectronics"
@@ -3065,6 +3196,7 @@
           "slug": "ev70n78a",
           "vendor": "Microchip",
           "name": "AVR-IOT mini Cellular",
+          "maker": "Microchip",
           "partNumber": "EV70N78A",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EV70N78A.png",
           "imageLocal": "assets/boards/EV70N78A.jpg"
@@ -3074,11 +3206,15 @@
         "slug": "ev70n78a",
         "vendor": "Microchip",
         "name": "AVR-IOT mini Cellular",
+        "maker": "Microchip",
         "partNumber": "EV70N78A",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EV70N78A.png",
         "imageLocal": "assets/boards/EV70N78A.jpg"
       },
       "manufacturers": [
+        "Microchip"
+      ],
+      "makers": [
         "Microchip"
       ]
     },
@@ -3108,6 +3244,7 @@
           "slug": "steval-astra1b",
           "vendor": "STMicroelectronics",
           "name": "Astra Module",
+          "maker": "STMicroelectronics",
           "partNumber": "STEVAL-ASTRA1B",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STEVAL-ASTRA1B.png",
           "imageLocal": "assets/boards/STEVAL-ASTRA1B.jpg"
@@ -3117,11 +3254,15 @@
         "slug": "steval-astra1b",
         "vendor": "STMicroelectronics",
         "name": "Astra Module",
+        "maker": "STMicroelectronics",
         "partNumber": "STEVAL-ASTRA1B",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STEVAL-ASTRA1B.png",
         "imageLocal": "assets/boards/STEVAL-ASTRA1B.jpg"
       },
       "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
         "STMicroelectronics"
       ]
     },
@@ -3149,6 +3290,7 @@
           "slug": "ev70n78a",
           "vendor": "Microchip",
           "name": "AVR-IOT mini Cellular",
+          "maker": "Microchip",
           "partNumber": "EV70N78A",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EV70N78A.png",
           "imageLocal": "assets/boards/EV70N78A.jpg"
@@ -3158,11 +3300,15 @@
         "slug": "ev70n78a",
         "vendor": "Microchip",
         "name": "AVR-IOT mini Cellular",
+        "maker": "Microchip",
         "partNumber": "EV70N78A",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EV70N78A.png",
         "imageLocal": "assets/boards/EV70N78A.jpg"
       },
       "manufacturers": [
+        "Microchip"
+      ],
+      "makers": [
         "Microchip"
       ]
     },
@@ -3189,7 +3335,8 @@
       "id": "drone",
       "boards": [],
       "board": null,
-      "manufacturers": []
+      "manufacturers": [],
+      "makers": []
     },
     {
       "repo": "iotc-jetson-demo",
@@ -3217,6 +3364,7 @@
           "slug": "j4021",
           "vendor": "NVIDIA",
           "name": "reComputer J4021 - Edge AI Computer with NVIDIA Jetson Orin NX 16GB",
+          "maker": "Seeed Studio",
           "integrator": "Seeed Studio",
           "partNumber": "J4021"
         }
@@ -3225,11 +3373,15 @@
         "slug": "j4021",
         "vendor": "NVIDIA",
         "name": "reComputer J4021 - Edge AI Computer with NVIDIA Jetson Orin NX 16GB",
+        "maker": "Seeed Studio",
         "integrator": "Seeed Studio",
         "partNumber": "J4021"
       },
       "manufacturers": [
         "NVIDIA"
+      ],
+      "makers": [
+        "Seeed Studio"
       ]
     },
     {
@@ -3258,6 +3410,7 @@
           "slug": "seeed-j2021",
           "vendor": "NVIDIA",
           "name": "reComputer J2021 - Edge AI Computer with NVIDIA® Jetson Xavier™ NX 8GB",
+          "maker": "Seeed Studio",
           "integrator": "Seeed Studio",
           "partNumber": "SEEED-j2021",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/SEEED-j2021.png"
@@ -3267,12 +3420,16 @@
         "slug": "seeed-j2021",
         "vendor": "NVIDIA",
         "name": "reComputer J2021 - Edge AI Computer with NVIDIA® Jetson Xavier™ NX 8GB",
+        "maker": "Seeed Studio",
         "integrator": "Seeed Studio",
         "partNumber": "SEEED-j2021",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/SEEED-j2021.png"
       },
       "manufacturers": [
         "NVIDIA"
+      ],
+      "makers": [
+        "Seeed Studio"
       ]
     },
     {
@@ -3301,6 +3458,7 @@
           "slug": "icam-540-30w",
           "vendor": "NVIDIA",
           "name": "Edge AI Camera",
+          "maker": "Advantech",
           "integrator": "Advantech",
           "partNumber": "ICAM-540-30W",
           "image": "https://apn-portal.my.salesforce.com/servlet/servlet.ImageServer?id=015aq000000IvZJAA0&oid=00DE0000000c48tMAA"
@@ -3310,12 +3468,16 @@
         "slug": "icam-540-30w",
         "vendor": "NVIDIA",
         "name": "Edge AI Camera",
+        "maker": "Advantech",
         "integrator": "Advantech",
         "partNumber": "ICAM-540-30W",
         "image": "https://apn-portal.my.salesforce.com/servlet/servlet.ImageServer?id=015aq000000IvZJAA0&oid=00DE0000000c48tMAA"
       },
       "manufacturers": [
         "NVIDIA"
+      ],
+      "makers": [
+        "Advantech"
       ]
     },
     {
@@ -3345,6 +3507,7 @@
           "slug": "stm32mp135f-dk",
           "vendor": "STMicroelectronics",
           "name": "STM32MP135 Discovery Kit",
+          "maker": "STMicroelectronics",
           "partNumber": "STM32MP135F-DK",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP135F-DK.png",
           "imageLocal": "assets/boards/STM32MP135F.jpg"
@@ -3354,11 +3517,15 @@
         "slug": "stm32mp135f-dk",
         "vendor": "STMicroelectronics",
         "name": "STM32MP135 Discovery Kit",
+        "maker": "STMicroelectronics",
         "partNumber": "STM32MP135F-DK",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP135F-DK.png",
         "imageLocal": "assets/boards/STM32MP135F.jpg"
       },
       "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
         "STMicroelectronics"
       ]
     },
@@ -3385,7 +3552,8 @@
       "id": "telehealth-mobile-gateway",
       "boards": [],
       "board": null,
-      "manufacturers": []
+      "manufacturers": [],
+      "makers": []
     },
     {
       "repo": null,
@@ -3414,6 +3582,7 @@
           "slug": "som-6873",
           "vendor": "AMD",
           "name": "SOM-6873 AMD Ryzen Embedded 8000 COM Express Compact Type 6 Module",
+          "maker": "Advantech",
           "integrator": "Advantech",
           "partNumber": "SOM-6873",
           "imageLocal": "assets/boards/SOM-6873.jpg"
@@ -3423,12 +3592,16 @@
         "slug": "som-6873",
         "vendor": "AMD",
         "name": "SOM-6873 AMD Ryzen Embedded 8000 COM Express Compact Type 6 Module",
+        "maker": "Advantech",
         "integrator": "Advantech",
         "partNumber": "SOM-6873",
         "imageLocal": "assets/boards/SOM-6873.jpg"
       },
       "manufacturers": [
         "AMD"
+      ],
+      "makers": [
+        "Advantech"
       ]
     },
     {
@@ -3455,6 +3628,7 @@
           "slug": "msc-sm2s-imx8plus",
           "vendor": "NXP",
           "name": "MSC SM2S-IMX8PLUS",
+          "maker": "Tria",
           "integrator": "Tria / NXP",
           "partNumber": "MSC SM2S-IMX8PLUS",
           "imageLocal": "assets/boards/board_SM_MSC_IMX8PLUS_small.png"
@@ -3464,12 +3638,16 @@
         "slug": "msc-sm2s-imx8plus",
         "vendor": "NXP",
         "name": "MSC SM2S-IMX8PLUS",
+        "maker": "Tria",
         "integrator": "Tria / NXP",
         "partNumber": "MSC SM2S-IMX8PLUS",
         "imageLocal": "assets/boards/board_SM_MSC_IMX8PLUS_small.png"
       },
       "manufacturers": [
         "NXP"
+      ],
+      "makers": [
+        "Tria"
       ]
     },
     {
@@ -3496,6 +3674,7 @@
           "slug": "mimxrt1060-evkb",
           "vendor": "NXP",
           "name": "i.MX RT1060 Evaluation Kit",
+          "maker": "NXP",
           "partNumber": "MIMXRT1060-EVKB",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/MIMXRT1060-EVKB.png",
           "imageLocal": "assets/boards/MIMXRT1060-EVKB.jpg"
@@ -3505,11 +3684,15 @@
         "slug": "mimxrt1060-evkb",
         "vendor": "NXP",
         "name": "i.MX RT1060 Evaluation Kit",
+        "maker": "NXP",
         "partNumber": "MIMXRT1060-EVKB",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/MIMXRT1060-EVKB.png",
         "imageLocal": "assets/boards/MIMXRT1060-EVKB.jpg"
       },
       "manufacturers": [
+        "NXP"
+      ],
+      "makers": [
         "NXP"
       ]
     },
@@ -3540,6 +3723,7 @@
           "slug": "aes-zub-1cg-dk-g",
           "vendor": "AMD",
           "name": "ZUBoard 1CG",
+          "maker": "Tria",
           "integrator": "Tria / AMD",
           "partNumber": "AES-ZUB-1CG-DK-G",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-ZUB-1CG-DK-G.png"
@@ -3549,12 +3733,16 @@
         "slug": "aes-zub-1cg-dk-g",
         "vendor": "AMD",
         "name": "ZUBoard 1CG",
+        "maker": "Tria",
         "integrator": "Tria / AMD",
         "partNumber": "AES-ZUB-1CG-DK-G",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-ZUB-1CG-DK-G.png"
       },
       "manufacturers": [
         "AMD"
+      ],
+      "makers": [
+        "Tria"
       ]
     },
     {
@@ -3581,6 +3769,7 @@
           "slug": "stm32mp157f-dk2",
           "vendor": "STMicroelectronics",
           "name": "STM32MP157 Discovery Kit",
+          "maker": "STMicroelectronics",
           "partNumber": "STM32MP157F-DK2",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/stm32mp157.png",
           "imageLocal": "assets/boards/STM32MP157F.jpg"
@@ -3590,11 +3779,15 @@
         "slug": "stm32mp157f-dk2",
         "vendor": "STMicroelectronics",
         "name": "STM32MP157 Discovery Kit",
+        "maker": "STMicroelectronics",
         "partNumber": "STM32MP157F-DK2",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/stm32mp157.png",
         "imageLocal": "assets/boards/STM32MP157F.jpg"
       },
       "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
         "STMicroelectronics"
       ]
     },
@@ -3622,6 +3815,7 @@
           "slug": "stm32mp257f-dk",
           "vendor": "STMicroelectronics",
           "name": "STM32MP2 Discovery Kit",
+          "maker": "STMicroelectronics",
           "partNumber": "STM32MP257F-DK",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-DK.png",
           "imageLocal": "assets/boards/STM32MP257F-DK.jpg"
@@ -3631,11 +3825,15 @@
         "slug": "stm32mp257f-dk",
         "vendor": "STMicroelectronics",
         "name": "STM32MP2 Discovery Kit",
+        "maker": "STMicroelectronics",
         "partNumber": "STM32MP257F-DK",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-DK.png",
         "imageLocal": "assets/boards/STM32MP257F-DK.jpg"
       },
       "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
         "STMicroelectronics"
       ]
     },
@@ -3663,6 +3861,7 @@
           "slug": "frdm-imx93",
           "vendor": "NXP",
           "name": "IMX93 Freedom Board",
+          "maker": "NXP",
           "partNumber": "FRDM-IMX93",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-IMX93.png",
           "imageLocal": "assets/boards/FRDM-IMX93.jpg"
@@ -3672,11 +3871,15 @@
         "slug": "frdm-imx93",
         "vendor": "NXP",
         "name": "IMX93 Freedom Board",
+        "maker": "NXP",
         "partNumber": "FRDM-IMX93",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-IMX93.png",
         "imageLocal": "assets/boards/FRDM-IMX93.jpg"
       },
       "manufacturers": [
+        "NXP"
+      ],
+      "makers": [
         "NXP"
       ]
     },
@@ -3704,6 +3907,7 @@
           "slug": "stm32mp135f-dk",
           "vendor": "STMicroelectronics",
           "name": "STM32MP135 Discovery Kit",
+          "maker": "STMicroelectronics",
           "partNumber": "STM32MP135F-DK",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP135F-DK.png",
           "imageLocal": "assets/boards/STM32MP135F.jpg"
@@ -3713,11 +3917,15 @@
         "slug": "stm32mp135f-dk",
         "vendor": "STMicroelectronics",
         "name": "STM32MP135 Discovery Kit",
+        "maker": "STMicroelectronics",
         "partNumber": "STM32MP135F-DK",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP135F-DK.png",
         "imageLocal": "assets/boards/STM32MP135F.jpg"
       },
       "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
         "STMicroelectronics"
       ]
     },
@@ -3745,6 +3953,7 @@
           "slug": "rpi5-4gb-single",
           "vendor": "Broadcom",
           "name": "Raspberry Pi5 4GB",
+          "maker": "Raspberry Pi",
           "integrator": "Raspberry Pi",
           "partNumber": "RPI5-4GB-SINGLE",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/RPI5.png"
@@ -3754,12 +3963,16 @@
         "slug": "rpi5-4gb-single",
         "vendor": "Broadcom",
         "name": "Raspberry Pi5 4GB",
+        "maker": "Raspberry Pi",
         "integrator": "Raspberry Pi",
         "partNumber": "RPI5-4GB-SINGLE",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/RPI5.png"
       },
       "manufacturers": [
         "Broadcom"
+      ],
+      "makers": [
+        "Raspberry Pi"
       ]
     },
     {
@@ -3789,6 +4002,7 @@
           "slug": "stm32mp157f-dk2",
           "vendor": "STMicroelectronics",
           "name": "STM32MP157 Discovery Kit",
+          "maker": "STMicroelectronics",
           "partNumber": "STM32MP157F-DK2",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/stm32mp157.png",
           "imageLocal": "assets/boards/STM32MP157F.jpg"
@@ -3798,11 +4012,15 @@
         "slug": "stm32mp157f-dk2",
         "vendor": "STMicroelectronics",
         "name": "STM32MP157 Discovery Kit",
+        "maker": "STMicroelectronics",
         "partNumber": "STM32MP157F-DK2",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/stm32mp157.png",
         "imageLocal": "assets/boards/STM32MP157F.jpg"
       },
       "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
         "STMicroelectronics"
       ]
     },
@@ -3833,6 +4051,7 @@
           "slug": "stm32mp135f-dk",
           "vendor": "STMicroelectronics",
           "name": "STM32MP135 Discovery Kit",
+          "maker": "STMicroelectronics",
           "partNumber": "STM32MP135F-DK",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP135F-DK.png",
           "imageLocal": "assets/boards/STM32MP135F.jpg"
@@ -3842,11 +4061,15 @@
         "slug": "stm32mp135f-dk",
         "vendor": "STMicroelectronics",
         "name": "STM32MP135 Discovery Kit",
+        "maker": "STMicroelectronics",
         "partNumber": "STM32MP135F-DK",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP135F-DK.png",
         "imageLocal": "assets/boards/STM32MP135F.jpg"
       },
       "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
         "STMicroelectronics"
       ]
     },
@@ -3877,6 +4100,7 @@
           "slug": "stm32mp257f-dk",
           "vendor": "STMicroelectronics",
           "name": "STM32MP2 Discovery Kit",
+          "maker": "STMicroelectronics",
           "partNumber": "STM32MP257F-DK",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-DK.png",
           "imageLocal": "assets/boards/STM32MP257F-DK.jpg"
@@ -3886,11 +4110,15 @@
         "slug": "stm32mp257f-dk",
         "vendor": "STMicroelectronics",
         "name": "STM32MP2 Discovery Kit",
+        "maker": "STMicroelectronics",
         "partNumber": "STM32MP257F-DK",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-DK.png",
         "imageLocal": "assets/boards/STM32MP257F-DK.jpg"
       },
       "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
         "STMicroelectronics"
       ]
     },
@@ -3921,6 +4149,7 @@
           "slug": "aes-qcs6490-dk-g",
           "vendor": "Qualcomm",
           "name": "VisionAI-Kit 6490",
+          "maker": "Tria",
           "integrator": "Tria / Qualcomm",
           "partNumber": "AES-QCS6490-DK-G",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-QCS6490-DK-G.png"
@@ -3930,12 +4159,16 @@
         "slug": "aes-qcs6490-dk-g",
         "vendor": "Qualcomm",
         "name": "VisionAI-Kit 6490",
+        "maker": "Tria",
         "integrator": "Tria / Qualcomm",
         "partNumber": "AES-QCS6490-DK-G",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-QCS6490-DK-G.png"
       },
       "manufacturers": [
         "Qualcomm"
+      ],
+      "makers": [
+        "Tria"
       ]
     },
     {
@@ -3964,6 +4197,7 @@
           "slug": "stm32mp257f-dk",
           "vendor": "STMicroelectronics",
           "name": "STM32MP2 Discovery Kit",
+          "maker": "STMicroelectronics",
           "partNumber": "STM32MP257F-DK",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-DK.png",
           "imageLocal": "assets/boards/STM32MP257F-DK.jpg"
@@ -3973,11 +4207,15 @@
         "slug": "stm32mp257f-dk",
         "vendor": "STMicroelectronics",
         "name": "STM32MP2 Discovery Kit",
+        "maker": "STMicroelectronics",
         "partNumber": "STM32MP257F-DK",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-DK.png",
         "imageLocal": "assets/boards/STM32MP257F-DK.jpg"
       },
       "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
         "STMicroelectronics"
       ]
     },
@@ -4007,6 +4245,7 @@
           "slug": "stm32mp257f-dk",
           "vendor": "STMicroelectronics",
           "name": "STM32MP2 Discovery Kit",
+          "maker": "STMicroelectronics",
           "partNumber": "STM32MP257F-DK",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-DK.png",
           "imageLocal": "assets/boards/STM32MP257F-DK.jpg"
@@ -4016,11 +4255,15 @@
         "slug": "stm32mp257f-dk",
         "vendor": "STMicroelectronics",
         "name": "STM32MP2 Discovery Kit",
+        "maker": "STMicroelectronics",
         "partNumber": "STM32MP257F-DK",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-DK.png",
         "imageLocal": "assets/boards/STM32MP257F-DK.jpg"
       },
       "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
         "STMicroelectronics"
       ]
     },
@@ -4050,6 +4293,7 @@
           "slug": "ek-ra2l1",
           "vendor": "Renesas",
           "name": "Evaluation Kit for RA2L1 MCU Group",
+          "maker": "Renesas",
           "partNumber": "EK-RA2L1",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EK-RA2L1.png"
         }
@@ -4058,10 +4302,14 @@
         "slug": "ek-ra2l1",
         "vendor": "Renesas",
         "name": "Evaluation Kit for RA2L1 MCU Group",
+        "maker": "Renesas",
         "partNumber": "EK-RA2L1",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EK-RA2L1.png"
       },
       "manufacturers": [
+        "Renesas"
+      ],
+      "makers": [
         "Renesas"
       ]
     },
@@ -4091,6 +4339,7 @@
           "slug": "fpb-ra0e1",
           "vendor": "Renesas",
           "name": "RA0E1 Fast Prototyping Board",
+          "maker": "Renesas",
           "partNumber": "FPB-RA0E1",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FPB-RA0E1.png"
         }
@@ -4099,10 +4348,14 @@
         "slug": "fpb-ra0e1",
         "vendor": "Renesas",
         "name": "RA0E1 Fast Prototyping Board",
+        "maker": "Renesas",
         "partNumber": "FPB-RA0E1",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FPB-RA0E1.png"
       },
       "manufacturers": [
+        "Renesas"
+      ],
+      "makers": [
         "Renesas"
       ]
     },
@@ -4132,6 +4385,7 @@
           "slug": "fpb-ra2e1",
           "vendor": "Renesas",
           "name": "Fast Prototyping Board for RA2E1 MCU Group",
+          "maker": "Renesas",
           "partNumber": "FPB-RA2E1",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FPB-RA2E1.png"
         }
@@ -4140,10 +4394,14 @@
         "slug": "fpb-ra2e1",
         "vendor": "Renesas",
         "name": "Fast Prototyping Board for RA2E1 MCU Group",
+        "maker": "Renesas",
         "partNumber": "FPB-RA2E1",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FPB-RA2E1.png"
       },
       "manufacturers": [
+        "Renesas"
+      ],
+      "makers": [
         "Renesas"
       ]
     },
@@ -4173,6 +4431,7 @@
           "slug": "wirnet-istation",
           "vendor": "Semtech",
           "name": "Wirnet iStation Outdoor LoRaWAN Gateway",
+          "maker": "Kerlink",
           "integrator": "Kerlink",
           "partNumber": "WIRNET-ISTATION",
           "imageLocal": "assets/boards/WIRNET-ISTATION.png"
@@ -4182,12 +4441,16 @@
         "slug": "wirnet-istation",
         "vendor": "Semtech",
         "name": "Wirnet iStation Outdoor LoRaWAN Gateway",
+        "maker": "Kerlink",
         "integrator": "Kerlink",
         "partNumber": "WIRNET-ISTATION",
         "imageLocal": "assets/boards/WIRNET-ISTATION.png"
       },
       "manufacturers": [
         "Semtech"
+      ],
+      "makers": [
+        "Kerlink"
       ]
     },
     {
@@ -4205,7 +4468,7 @@
         "wifi"
       ],
       "stars": 0,
-      "updated": "2026-06-10T23:42:28Z",
+      "updated": "2026-06-23T16:02:36Z",
       "image": null,
       "described": true,
       "hidden": false,
@@ -4215,6 +4478,7 @@
           "slug": "ck-ra6m5",
           "vendor": "Renesas",
           "name": "Cloud Kit Based on RA6M5 MCU Group",
+          "maker": "Renesas",
           "partNumber": "CK-RA6M5",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CK-RA6M5.png",
           "imageLocal": "assets/boards/CK-RA6M5.jpg"
@@ -4224,11 +4488,15 @@
         "slug": "ck-ra6m5",
         "vendor": "Renesas",
         "name": "Cloud Kit Based on RA6M5 MCU Group",
+        "maker": "Renesas",
         "partNumber": "CK-RA6M5",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CK-RA6M5.png",
         "imageLocal": "assets/boards/CK-RA6M5.jpg"
       },
       "manufacturers": [
+        "Renesas"
+      ],
+      "makers": [
         "Renesas"
       ]
     },
@@ -4258,6 +4526,7 @@
           "slug": "aes-rzb-v2l-sk-g",
           "vendor": "Renesas",
           "name": "RZBoard V2L",
+          "maker": "Tria",
           "integrator": "Tria / Renesas",
           "partNumber": "AES-RZB-V2L-SK-G",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-RZB-V2L-SK-G.png",
@@ -4268,6 +4537,7 @@
         "slug": "aes-rzb-v2l-sk-g",
         "vendor": "Renesas",
         "name": "RZBoard V2L",
+        "maker": "Tria",
         "integrator": "Tria / Renesas",
         "partNumber": "AES-RZB-V2L-SK-G",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-RZB-V2L-SK-G.png",
@@ -4275,6 +4545,9 @@
       },
       "manufacturers": [
         "Renesas"
+      ],
+      "makers": [
+        "Tria"
       ]
     },
     {
@@ -4304,6 +4577,7 @@
           "slug": "vision-ai-kit-iq9",
           "vendor": "Qualcomm",
           "name": "Vision AI-KIT IQ9",
+          "maker": "Tria",
           "integrator": "Tria / Qualcomm",
           "partNumber": "Vision AI-KIT IQ9",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/Vision-AI-KIT-IQ9.png"
@@ -4313,12 +4587,16 @@
         "slug": "vision-ai-kit-iq9",
         "vendor": "Qualcomm",
         "name": "Vision AI-KIT IQ9",
+        "maker": "Tria",
         "integrator": "Tria / Qualcomm",
         "partNumber": "Vision AI-KIT IQ9",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/Vision-AI-KIT-IQ9.png"
       },
       "manufacturers": [
         "Qualcomm"
+      ],
+      "makers": [
+        "Tria"
       ]
     },
     {
@@ -4348,6 +4626,7 @@
           "slug": "steval-proteus1",
           "vendor": "STMicroelectronics",
           "name": "Proteus",
+          "maker": "STMicroelectronics",
           "partNumber": "STEVAL-PROTEUS1",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STEVAL-PROTEUS1.png",
           "imageLocal": "assets/boards/proteus.jpg"
@@ -4357,11 +4636,15 @@
         "slug": "steval-proteus1",
         "vendor": "STMicroelectronics",
         "name": "Proteus",
+        "maker": "STMicroelectronics",
         "partNumber": "STEVAL-PROTEUS1",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STEVAL-PROTEUS1.png",
         "imageLocal": "assets/boards/proteus.jpg"
       },
       "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
         "STMicroelectronics"
       ]
     },
@@ -4392,6 +4675,7 @@
           "slug": "stm32mp157f-dk2",
           "vendor": "STMicroelectronics",
           "name": "STM32MP157 Discovery Kit",
+          "maker": "STMicroelectronics",
           "partNumber": "STM32MP157F-DK2",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/stm32mp157.png",
           "imageLocal": "assets/boards/STM32MP157F.jpg"
@@ -4401,11 +4685,15 @@
         "slug": "stm32mp157f-dk2",
         "vendor": "STMicroelectronics",
         "name": "STM32MP157 Discovery Kit",
+        "maker": "STMicroelectronics",
         "partNumber": "STM32MP157F-DK2",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/stm32mp157.png",
         "imageLocal": "assets/boards/STM32MP157F.jpg"
       },
       "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
         "STMicroelectronics"
       ]
     },
@@ -4434,6 +4722,7 @@
           "slug": "stm32h573i-dk",
           "vendor": "STMicroelectronics",
           "name": "STM32H5 Discovery Kit",
+          "maker": "STMicroelectronics",
           "partNumber": "STM32H573I-DK",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/stm32h573DK.png",
           "imageLocal": "assets/boards/STM32H5.jpg"
@@ -4443,11 +4732,15 @@
         "slug": "stm32h573i-dk",
         "vendor": "STMicroelectronics",
         "name": "STM32H5 Discovery Kit",
+        "maker": "STMicroelectronics",
         "partNumber": "STM32H573I-DK",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/stm32h573DK.png",
         "imageLocal": "assets/boards/STM32H5.jpg"
       },
       "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
         "STMicroelectronics"
       ]
     },
@@ -4477,6 +4770,7 @@
           "slug": "cy8ckit-062s2-ai",
           "vendor": "Infineon",
           "name": "PSOC™ 6 Artificial Intelligence Evaluation Kit",
+          "maker": "Infineon",
           "partNumber": "CY8CKIT-062S2-AI",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CKIT-062S2-AI.png",
           "imageLocal": "assets/boards/CY8CKIT-062S2-AI.jpg"
@@ -4486,11 +4780,15 @@
         "slug": "cy8ckit-062s2-ai",
         "vendor": "Infineon",
         "name": "PSOC™ 6 Artificial Intelligence Evaluation Kit",
+        "maker": "Infineon",
         "partNumber": "CY8CKIT-062S2-AI",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CKIT-062S2-AI.png",
         "imageLocal": "assets/boards/CY8CKIT-062S2-AI.jpg"
       },
       "manufacturers": [
+        "Infineon"
+      ],
+      "makers": [
         "Infineon"
       ]
     },
@@ -4520,6 +4818,7 @@
           "slug": "cy8ckit-062s2-ai",
           "vendor": "Infineon",
           "name": "PSOC™ 6 Artificial Intelligence Evaluation Kit",
+          "maker": "Infineon",
           "partNumber": "CY8CKIT-062S2-AI",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CKIT-062S2-AI.png",
           "imageLocal": "assets/boards/CY8CKIT-062S2-AI.jpg"
@@ -4529,11 +4828,15 @@
         "slug": "cy8ckit-062s2-ai",
         "vendor": "Infineon",
         "name": "PSOC™ 6 Artificial Intelligence Evaluation Kit",
+        "maker": "Infineon",
         "partNumber": "CY8CKIT-062S2-AI",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CKIT-062S2-AI.png",
         "imageLocal": "assets/boards/CY8CKIT-062S2-AI.jpg"
       },
       "manufacturers": [
+        "Infineon"
+      ],
+      "makers": [
         "Infineon"
       ]
     },
@@ -4564,6 +4867,7 @@
           "slug": "cy8ckit-062s2-ai",
           "vendor": "Infineon",
           "name": "PSOC™ 6 Artificial Intelligence Evaluation Kit",
+          "maker": "Infineon",
           "partNumber": "CY8CKIT-062S2-AI",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CKIT-062S2-AI.png",
           "imageLocal": "assets/boards/CY8CKIT-062S2-AI.jpg"
@@ -4573,11 +4877,15 @@
         "slug": "cy8ckit-062s2-ai",
         "vendor": "Infineon",
         "name": "PSOC™ 6 Artificial Intelligence Evaluation Kit",
+        "maker": "Infineon",
         "partNumber": "CY8CKIT-062S2-AI",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CKIT-062S2-AI.png",
         "imageLocal": "assets/boards/CY8CKIT-062S2-AI.jpg"
       },
       "manufacturers": [
+        "Infineon"
+      ],
+      "makers": [
         "Infineon"
       ]
     },
@@ -4607,6 +4915,7 @@
           "slug": "cy8ckit-062s2-ai",
           "vendor": "Infineon",
           "name": "PSOC™ 6 Artificial Intelligence Evaluation Kit",
+          "maker": "Infineon",
           "partNumber": "CY8CKIT-062S2-AI",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CKIT-062S2-AI.png",
           "imageLocal": "assets/boards/CY8CKIT-062S2-AI.jpg"
@@ -4616,11 +4925,15 @@
         "slug": "cy8ckit-062s2-ai",
         "vendor": "Infineon",
         "name": "PSOC™ 6 Artificial Intelligence Evaluation Kit",
+        "maker": "Infineon",
         "partNumber": "CY8CKIT-062S2-AI",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CKIT-062S2-AI.png",
         "imageLocal": "assets/boards/CY8CKIT-062S2-AI.jpg"
       },
       "manufacturers": [
+        "Infineon"
+      ],
+      "makers": [
         "Infineon"
       ]
     },
@@ -4649,6 +4962,7 @@
           "slug": "kitcskpasco2tobo1",
           "vendor": "Infineon",
           "name": "XENSIV™ KIT CSK PASCO2",
+          "maker": "Infineon",
           "partNumber": "KITCSKPASCO2TOBO1",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/KITCSKPASCO2TOBO1.png",
           "imageLocal": "assets/boards/XENSIV.jpg"
@@ -4658,11 +4972,15 @@
         "slug": "kitcskpasco2tobo1",
         "vendor": "Infineon",
         "name": "XENSIV™ KIT CSK PASCO2",
+        "maker": "Infineon",
         "partNumber": "KITCSKPASCO2TOBO1",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/KITCSKPASCO2TOBO1.png",
         "imageLocal": "assets/boards/XENSIV.jpg"
       },
       "manufacturers": [
+        "Infineon"
+      ],
+      "makers": [
         "Infineon"
       ]
     },
@@ -4693,6 +5011,7 @@
           "slug": "aes-qcs6490-dk-g",
           "vendor": "Qualcomm",
           "name": "VisionAI-Kit 6490",
+          "maker": "Tria",
           "integrator": "Tria / Qualcomm",
           "partNumber": "AES-QCS6490-DK-G",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-QCS6490-DK-G.png"
@@ -4702,12 +5021,16 @@
         "slug": "aes-qcs6490-dk-g",
         "vendor": "Qualcomm",
         "name": "VisionAI-Kit 6490",
+        "maker": "Tria",
         "integrator": "Tria / Qualcomm",
         "partNumber": "AES-QCS6490-DK-G",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-QCS6490-DK-G.png"
       },
       "manufacturers": [
         "Qualcomm"
+      ],
+      "makers": [
+        "Tria"
       ]
     },
     {
@@ -4735,6 +5058,7 @@
           "slug": "ek-ra6m4",
           "vendor": "Renesas",
           "name": "Evaluation Kit for RA6M4 MCU Group",
+          "maker": "Renesas",
           "partNumber": "EK-RA6M4",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EK-RA6M4.png",
           "imageLocal": "assets/boards/EK-RA6M4.jpg"
@@ -4744,11 +5068,15 @@
         "slug": "ek-ra6m4",
         "vendor": "Renesas",
         "name": "Evaluation Kit for RA6M4 MCU Group",
+        "maker": "Renesas",
         "partNumber": "EK-RA6M4",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EK-RA6M4.png",
         "imageLocal": "assets/boards/EK-RA6M4.jpg"
       },
       "manufacturers": [
+        "Renesas"
+      ],
+      "makers": [
         "Renesas"
       ]
     },
@@ -4777,6 +5105,7 @@
           "slug": "ek-ra8m1",
           "vendor": "Renesas",
           "name": "Evaluation Kit for RA8M1 MCU Group",
+          "maker": "Renesas",
           "partNumber": "EK-RA8M1",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EK-RA8M1.png",
           "imageLocal": "assets/boards/EK-RA8M1.jpg"
@@ -4786,11 +5115,15 @@
         "slug": "ek-ra8m1",
         "vendor": "Renesas",
         "name": "Evaluation Kit for RA8M1 MCU Group",
+        "maker": "Renesas",
         "partNumber": "EK-RA8M1",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EK-RA8M1.png",
         "imageLocal": "assets/boards/EK-RA8M1.jpg"
       },
       "manufacturers": [
+        "Renesas"
+      ],
+      "makers": [
         "Renesas"
       ]
     },
@@ -4821,6 +5154,7 @@
           "slug": "aes-rasynb-120",
           "vendor": "Renesas",
           "name": "RASynBoard NDP120 Evaluation Kit",
+          "maker": "Tria",
           "integrator": "Tria / Renesas",
           "partNumber": "AES-RASYNB-120",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-RASYNB-120.png",
@@ -4831,6 +5165,7 @@
         "slug": "aes-rasynb-120",
         "vendor": "Renesas",
         "name": "RASynBoard NDP120 Evaluation Kit",
+        "maker": "Tria",
         "integrator": "Tria / Renesas",
         "partNumber": "AES-RASYNB-120",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-RASYNB-120.png",
@@ -4838,6 +5173,9 @@
       },
       "manufacturers": [
         "Renesas"
+      ],
+      "makers": [
+        "Tria"
       ]
     },
     {
@@ -4866,6 +5204,7 @@
           "slug": "steval-mkboxpro",
           "vendor": "STMicroelectronics",
           "name": "SensorTile.box PRO",
+          "maker": "STMicroelectronics",
           "partNumber": "STEVAL-MKBOXPRO",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STEVAL-MKBOXPRO.png",
           "imageLocal": "assets/boards/SensorTilebox-PRO.jpg"
@@ -4875,11 +5214,15 @@
         "slug": "steval-mkboxpro",
         "vendor": "STMicroelectronics",
         "name": "SensorTile.box PRO",
+        "maker": "STMicroelectronics",
         "partNumber": "STEVAL-MKBOXPRO",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STEVAL-MKBOXPRO.png",
         "imageLocal": "assets/boards/SensorTilebox-PRO.jpg"
       },
       "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
         "STMicroelectronics"
       ]
     },
@@ -4909,6 +5252,7 @@
           "slug": "iotc-bridge-app",
           "vendor": "Avnet",
           "name": "/IOTCONNECT Bridge Mobile Gateway App",
+          "maker": "Avnet",
           "partNumber": "IOTC-BRIDGE-APP",
           "imageLocal": "assets/boards/IOTC-BRIDGE-APP.jpg"
         }
@@ -4917,10 +5261,14 @@
         "slug": "iotc-bridge-app",
         "vendor": "Avnet",
         "name": "/IOTCONNECT Bridge Mobile Gateway App",
+        "maker": "Avnet",
         "partNumber": "IOTC-BRIDGE-APP",
         "imageLocal": "assets/boards/IOTC-BRIDGE-APP.jpg"
       },
       "manufacturers": [
+        "Avnet"
+      ],
+      "makers": [
         "Avnet"
       ]
     },
@@ -4949,6 +5297,7 @@
           "slug": "nucleo-wl55jc",
           "vendor": "STMicroelectronics",
           "name": "STM32WL55JC Nucleo-64 for LPWAN",
+          "maker": "STMicroelectronics",
           "partNumber": "NUCLEO-WL55JC",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/NUCLEO-WL55JC1.png"
         }
@@ -4957,10 +5306,14 @@
         "slug": "nucleo-wl55jc",
         "vendor": "STMicroelectronics",
         "name": "STM32WL55JC Nucleo-64 for LPWAN",
+        "maker": "STMicroelectronics",
         "partNumber": "NUCLEO-WL55JC",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/NUCLEO-WL55JC1.png"
       },
       "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
         "STMicroelectronics"
       ]
     },
@@ -4990,6 +5343,7 @@
           "slug": "mpfs-disco-kit",
           "vendor": "Microchip",
           "name": "PolarFire Discovery Kit",
+          "maker": "Microchip",
           "partNumber": "MPFS-DISCO-KIT",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/MPFS-DISCO-KIT.png",
           "imageLocal": "assets/boards/MPFS-DISCO-KIT.png"
@@ -4999,11 +5353,15 @@
         "slug": "mpfs-disco-kit",
         "vendor": "Microchip",
         "name": "PolarFire Discovery Kit",
+        "maker": "Microchip",
         "partNumber": "MPFS-DISCO-KIT",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/MPFS-DISCO-KIT.png",
         "imageLocal": "assets/boards/MPFS-DISCO-KIT.png"
       },
       "manufacturers": [
+        "Microchip"
+      ],
+      "makers": [
         "Microchip"
       ]
     },
@@ -5033,6 +5391,7 @@
           "slug": "ev63j76a",
           "vendor": "Microchip",
           "name": "SAMA7D65 Curiosity Kit",
+          "maker": "Microchip",
           "partNumber": "EV63J76A",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EV63J76A.png"
         }
@@ -5041,10 +5400,14 @@
         "slug": "ev63j76a",
         "vendor": "Microchip",
         "name": "SAMA7D65 Curiosity Kit",
+        "maker": "Microchip",
         "partNumber": "EV63J76A",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EV63J76A.png"
       },
       "manufacturers": [
+        "Microchip"
+      ],
+      "makers": [
         "Microchip"
       ]
     },
@@ -5073,6 +5436,7 @@
           "slug": "msc-sm2s-imx8plus",
           "vendor": "NXP",
           "name": "MSC SM2S-IMX8PLUS",
+          "maker": "Tria",
           "integrator": "Tria / NXP",
           "partNumber": "MSC SM2S-IMX8PLUS",
           "imageLocal": "assets/boards/board_SM_MSC_IMX8PLUS_small.png"
@@ -5082,12 +5446,16 @@
         "slug": "msc-sm2s-imx8plus",
         "vendor": "NXP",
         "name": "MSC SM2S-IMX8PLUS",
+        "maker": "Tria",
         "integrator": "Tria / NXP",
         "partNumber": "MSC SM2S-IMX8PLUS",
         "imageLocal": "assets/boards/board_SM_MSC_IMX8PLUS_small.png"
       },
       "manufacturers": [
         "NXP"
+      ],
+      "makers": [
+        "Tria"
       ]
     },
     {
@@ -5117,6 +5485,7 @@
           "slug": "aes-rzb-v2l-sk-g",
           "vendor": "Renesas",
           "name": "RZBoard V2L",
+          "maker": "Tria",
           "integrator": "Tria / Renesas",
           "partNumber": "AES-RZB-V2L-SK-G",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-RZB-V2L-SK-G.png",
@@ -5127,6 +5496,7 @@
         "slug": "aes-rzb-v2l-sk-g",
         "vendor": "Renesas",
         "name": "RZBoard V2L",
+        "maker": "Tria",
         "integrator": "Tria / Renesas",
         "partNumber": "AES-RZB-V2L-SK-G",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-RZB-V2L-SK-G.png",
@@ -5134,6 +5504,9 @@
       },
       "manufacturers": [
         "Renesas"
+      ],
+      "makers": [
+        "Tria"
       ]
     },
     {
@@ -5163,6 +5536,7 @@
           "slug": "stm32n6570-dk",
           "vendor": "STMicroelectronics",
           "name": "STM32N6 Discovery Kit",
+          "maker": "STMicroelectronics",
           "partNumber": "STM32N6570-DK",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32N6570-DK.png",
           "imageLocal": "assets/boards/STM32N6570-DK.jpg"
@@ -5172,11 +5546,15 @@
         "slug": "stm32n6570-dk",
         "vendor": "STMicroelectronics",
         "name": "STM32N6 Discovery Kit",
+        "maker": "STMicroelectronics",
         "partNumber": "STM32N6570-DK",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32N6570-DK.png",
         "imageLocal": "assets/boards/STM32N6570-DK.jpg"
       },
       "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
         "STMicroelectronics"
       ]
     },
@@ -5207,6 +5585,7 @@
           "slug": "stm32n6570-dk",
           "vendor": "STMicroelectronics",
           "name": "STM32N6 Discovery Kit",
+          "maker": "STMicroelectronics",
           "partNumber": "STM32N6570-DK",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32N6570-DK.png",
           "imageLocal": "assets/boards/STM32N6570-DK.jpg"
@@ -5216,11 +5595,15 @@
         "slug": "stm32n6570-dk",
         "vendor": "STMicroelectronics",
         "name": "STM32N6 Discovery Kit",
+        "maker": "STMicroelectronics",
         "partNumber": "STM32N6570-DK",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32N6570-DK.png",
         "imageLocal": "assets/boards/STM32N6570-DK.jpg"
       },
       "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
         "STMicroelectronics"
       ]
     },
@@ -5248,6 +5631,7 @@
           "slug": "b-u585i-iot02a",
           "vendor": "STMicroelectronics",
           "name": "STM32U5 Discovery Kit",
+          "maker": "STMicroelectronics",
           "partNumber": "B-U585I-IOT02A",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/B-U585I-IOT02A.png",
           "imageLocal": "assets/boards/STM32U5.jpg"
@@ -5257,11 +5641,15 @@
         "slug": "b-u585i-iot02a",
         "vendor": "STMicroelectronics",
         "name": "STM32U5 Discovery Kit",
+        "maker": "STMicroelectronics",
         "partNumber": "B-U585I-IOT02A",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/B-U585I-IOT02A.png",
         "imageLocal": "assets/boards/STM32U5.jpg"
       },
       "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
         "STMicroelectronics"
       ]
     },
@@ -5291,6 +5679,7 @@
           "slug": "ev19j06a",
           "vendor": "Microchip",
           "name": "PIC32CX-BZ3 and WBZ35x Curiosity Board",
+          "maker": "Microchip",
           "partNumber": "EV19J06A",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EV19J06A.png"
         }
@@ -5299,10 +5688,14 @@
         "slug": "ev19j06a",
         "vendor": "Microchip",
         "name": "PIC32CX-BZ3 and WBZ35x Curiosity Board",
+        "maker": "Microchip",
         "partNumber": "EV19J06A",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EV19J06A.png"
       },
       "manufacturers": [
+        "Microchip"
+      ],
+      "makers": [
         "Microchip"
       ]
     },
@@ -5332,6 +5725,7 @@
           "slug": "iotc-bridge-app",
           "vendor": "Avnet",
           "name": "/IOTCONNECT Bridge Mobile Gateway App",
+          "maker": "Avnet",
           "partNumber": "IOTC-BRIDGE-APP",
           "imageLocal": "assets/boards/IOTC-BRIDGE-APP.jpg"
         }
@@ -5340,10 +5734,14 @@
         "slug": "iotc-bridge-app",
         "vendor": "Avnet",
         "name": "/IOTCONNECT Bridge Mobile Gateway App",
+        "maker": "Avnet",
         "partNumber": "IOTC-BRIDGE-APP",
         "imageLocal": "assets/boards/IOTC-BRIDGE-APP.jpg"
       },
       "manufacturers": [
+        "Avnet"
+      ],
+      "makers": [
         "Avnet"
       ]
     },
@@ -5374,6 +5772,7 @@
           "slug": "b-u585i-iot02a",
           "vendor": "STMicroelectronics",
           "name": "STM32U5 Discovery Kit",
+          "maker": "STMicroelectronics",
           "partNumber": "B-U585I-IOT02A",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/B-U585I-IOT02A.png",
           "imageLocal": "assets/boards/STM32U5.jpg"
@@ -5383,11 +5782,15 @@
         "slug": "b-u585i-iot02a",
         "vendor": "STMicroelectronics",
         "name": "STM32U5 Discovery Kit",
+        "maker": "STMicroelectronics",
         "partNumber": "B-U585I-IOT02A",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/B-U585I-IOT02A.png",
         "imageLocal": "assets/boards/STM32U5.jpg"
       },
       "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
         "STMicroelectronics"
       ]
     },
@@ -5418,6 +5821,7 @@
           "slug": "stm32mp257f-ev1",
           "vendor": "STMicroelectronics",
           "name": "STM32MP2 Evaluation Board",
+          "maker": "STMicroelectronics",
           "partNumber": "STM32MP257F-EV1",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-EV1.png",
           "imageLocal": "assets/boards/STM32MP257F-EV1.jpg"
@@ -5427,11 +5831,15 @@
         "slug": "stm32mp257f-ev1",
         "vendor": "STMicroelectronics",
         "name": "STM32MP2 Evaluation Board",
+        "maker": "STMicroelectronics",
         "partNumber": "STM32MP257F-EV1",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-EV1.png",
         "imageLocal": "assets/boards/STM32MP257F-EV1.jpg"
       },
       "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
         "STMicroelectronics"
       ]
     },
@@ -5462,6 +5870,7 @@
           "slug": "ev36w50a",
           "vendor": "Microchip",
           "name": "WFI32-IoT Development Board",
+          "maker": "Microchip",
           "partNumber": "EV36W50A",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EV36W50A.png",
           "imageLocal": "assets/boards/EV36W50A.jpg"
@@ -5471,11 +5880,15 @@
         "slug": "ev36w50a",
         "vendor": "Microchip",
         "name": "WFI32-IoT Development Board",
+        "maker": "Microchip",
         "partNumber": "EV36W50A",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EV36W50A.png",
         "imageLocal": "assets/boards/EV36W50A.jpg"
       },
       "manufacturers": [
+        "Microchip"
+      ],
+      "makers": [
         "Microchip"
       ]
     },
@@ -5506,6 +5919,7 @@
           "slug": "te-mikrobus-clicks",
           "vendor": "TE Connectivity",
           "name": "TE Connectivity mikroBUS Click Sensor Boards",
+          "maker": "TE Connectivity",
           "partNumber": "TE-MIKROBUS-CLICKS"
         }
       ],
@@ -5513,9 +5927,13 @@
         "slug": "te-mikrobus-clicks",
         "vendor": "TE Connectivity",
         "name": "TE Connectivity mikroBUS Click Sensor Boards",
+        "maker": "TE Connectivity",
         "partNumber": "TE-MIKROBUS-CLICKS"
       },
       "manufacturers": [
+        "TE Connectivity"
+      ],
+      "makers": [
         "TE Connectivity"
       ]
     },
@@ -5546,6 +5964,7 @@
           "slug": "amphenol-mikrobus-clicks",
           "vendor": "Amphenol",
           "name": "Amphenol mikroBUS Click Sensor Boards",
+          "maker": "Amphenol",
           "partNumber": "AMPHENOL-MIKROBUS-CLICKS"
         }
       ],
@@ -5553,9 +5972,13 @@
         "slug": "amphenol-mikrobus-clicks",
         "vendor": "Amphenol",
         "name": "Amphenol mikroBUS Click Sensor Boards",
+        "maker": "Amphenol",
         "partNumber": "AMPHENOL-MIKROBUS-CLICKS"
       },
       "manufacturers": [
+        "Amphenol"
+      ],
+      "makers": [
         "Amphenol"
       ]
     },
@@ -5583,6 +6006,7 @@
           "slug": "frdm-imx93",
           "vendor": "NXP",
           "name": "IMX93 Freedom Board",
+          "maker": "NXP",
           "partNumber": "FRDM-IMX93",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-IMX93.png",
           "imageLocal": "assets/boards/FRDM-IMX93.jpg"
@@ -5592,11 +6016,15 @@
         "slug": "frdm-imx93",
         "vendor": "NXP",
         "name": "IMX93 Freedom Board",
+        "maker": "NXP",
         "partNumber": "FRDM-IMX93",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-IMX93.png",
         "imageLocal": "assets/boards/FRDM-IMX93.jpg"
       },
       "manufacturers": [
+        "NXP"
+      ],
+      "makers": [
         "NXP"
       ]
     },
@@ -5627,6 +6055,7 @@
           "slug": "aes-qcs6490-dk-g",
           "vendor": "Qualcomm",
           "name": "VisionAI-Kit 6490",
+          "maker": "Tria",
           "integrator": "Tria / Qualcomm",
           "partNumber": "AES-QCS6490-DK-G",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-QCS6490-DK-G.png"
@@ -5636,12 +6065,16 @@
         "slug": "aes-qcs6490-dk-g",
         "vendor": "Qualcomm",
         "name": "VisionAI-Kit 6490",
+        "maker": "Tria",
         "integrator": "Tria / Qualcomm",
         "partNumber": "AES-QCS6490-DK-G",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-QCS6490-DK-G.png"
       },
       "manufacturers": [
         "Qualcomm"
+      ],
+      "makers": [
+        "Tria"
       ]
     },
     {
@@ -5672,6 +6105,7 @@
           "slug": "kit-pse84-eval",
           "vendor": "Infineon",
           "name": "PSOC Edge E84 Evaluation Kit",
+          "maker": "Infineon",
           "partNumber": "KIT_PSE84_EVAL",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/KIT_PSE84_EVAL.png"
         }
@@ -5680,10 +6114,14 @@
         "slug": "kit-pse84-eval",
         "vendor": "Infineon",
         "name": "PSOC Edge E84 Evaluation Kit",
+        "maker": "Infineon",
         "partNumber": "KIT_PSE84_EVAL",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/KIT_PSE84_EVAL.png"
       },
       "manufacturers": [
+        "Infineon"
+      ],
+      "makers": [
         "Infineon"
       ]
     },
@@ -5714,6 +6152,7 @@
           "slug": "kit-pse84-eval",
           "vendor": "Infineon",
           "name": "PSOC Edge E84 Evaluation Kit",
+          "maker": "Infineon",
           "partNumber": "KIT_PSE84_EVAL",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/KIT_PSE84_EVAL.png"
         }
@@ -5722,10 +6161,14 @@
         "slug": "kit-pse84-eval",
         "vendor": "Infineon",
         "name": "PSOC Edge E84 Evaluation Kit",
+        "maker": "Infineon",
         "partNumber": "KIT_PSE84_EVAL",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/KIT_PSE84_EVAL.png"
       },
       "manufacturers": [
+        "Infineon"
+      ],
+      "makers": [
         "Infineon"
       ]
     },
@@ -5756,6 +6199,7 @@
           "slug": "kit-pse84-eval",
           "vendor": "Infineon",
           "name": "PSOC Edge E84 Evaluation Kit",
+          "maker": "Infineon",
           "partNumber": "KIT_PSE84_EVAL",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/KIT_PSE84_EVAL.png"
         }
@@ -5764,10 +6208,14 @@
         "slug": "kit-pse84-eval",
         "vendor": "Infineon",
         "name": "PSOC Edge E84 Evaluation Kit",
+        "maker": "Infineon",
         "partNumber": "KIT_PSE84_EVAL",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/KIT_PSE84_EVAL.png"
       },
       "manufacturers": [
+        "Infineon"
+      ],
+      "makers": [
         "Infineon"
       ]
     },
@@ -5798,6 +6246,7 @@
           "slug": "kitpse84aitobo1",
           "vendor": "Infineon",
           "name": "PSOC Edge E84 AI Evaluation Kit",
+          "maker": "Infineon",
           "partNumber": "KITPSE84AITOBO1",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/KITPSE84AITOBO1.png"
         }
@@ -5806,10 +6255,14 @@
         "slug": "kitpse84aitobo1",
         "vendor": "Infineon",
         "name": "PSOC Edge E84 AI Evaluation Kit",
+        "maker": "Infineon",
         "partNumber": "KITPSE84AITOBO1",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/KITPSE84AITOBO1.png"
       },
       "manufacturers": [
+        "Infineon"
+      ],
+      "makers": [
         "Infineon"
       ]
     },
@@ -5839,6 +6292,7 @@
           "slug": "kit-pse84-eval",
           "vendor": "Infineon",
           "name": "PSOC Edge E84 Evaluation Kit",
+          "maker": "Infineon",
           "partNumber": "KIT_PSE84_EVAL",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/KIT_PSE84_EVAL.png"
         }
@@ -5847,10 +6301,14 @@
         "slug": "kit-pse84-eval",
         "vendor": "Infineon",
         "name": "PSOC Edge E84 Evaluation Kit",
+        "maker": "Infineon",
         "partNumber": "KIT_PSE84_EVAL",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/KIT_PSE84_EVAL.png"
       },
       "manufacturers": [
+        "Infineon"
+      ],
+      "makers": [
         "Infineon"
       ]
     },
@@ -5880,6 +6338,7 @@
           "slug": "kit-pse84-eval",
           "vendor": "Infineon",
           "name": "PSOC Edge E84 Evaluation Kit",
+          "maker": "Infineon",
           "partNumber": "KIT_PSE84_EVAL",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/KIT_PSE84_EVAL.png"
         }
@@ -5888,10 +6347,14 @@
         "slug": "kit-pse84-eval",
         "vendor": "Infineon",
         "name": "PSOC Edge E84 Evaluation Kit",
+        "maker": "Infineon",
         "partNumber": "KIT_PSE84_EVAL",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/KIT_PSE84_EVAL.png"
       },
       "manufacturers": [
+        "Infineon"
+      ],
+      "makers": [
         "Infineon"
       ]
     },
@@ -5922,6 +6385,7 @@
           "slug": "kit-pse84-eval",
           "vendor": "Infineon",
           "name": "PSOC Edge E84 Evaluation Kit",
+          "maker": "Infineon",
           "partNumber": "KIT_PSE84_EVAL",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/KIT_PSE84_EVAL.png"
         }
@@ -5930,10 +6394,14 @@
         "slug": "kit-pse84-eval",
         "vendor": "Infineon",
         "name": "PSOC Edge E84 Evaluation Kit",
+        "maker": "Infineon",
         "partNumber": "KIT_PSE84_EVAL",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/KIT_PSE84_EVAL.png"
       },
       "manufacturers": [
+        "Infineon"
+      ],
+      "makers": [
         "Infineon"
       ]
     },
@@ -5964,6 +6432,7 @@
           "slug": "cy8ckit-062s2-ai",
           "vendor": "Infineon",
           "name": "PSOC™ 6 Artificial Intelligence Evaluation Kit",
+          "maker": "Infineon",
           "partNumber": "CY8CKIT-062S2-AI",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CKIT-062S2-AI.png",
           "imageLocal": "assets/boards/CY8CKIT-062S2-AI.jpg"
@@ -5973,11 +6442,15 @@
         "slug": "cy8ckit-062s2-ai",
         "vendor": "Infineon",
         "name": "PSOC™ 6 Artificial Intelligence Evaluation Kit",
+        "maker": "Infineon",
         "partNumber": "CY8CKIT-062S2-AI",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CKIT-062S2-AI.png",
         "imageLocal": "assets/boards/CY8CKIT-062S2-AI.jpg"
       },
       "manufacturers": [
+        "Infineon"
+      ],
+      "makers": [
         "Infineon"
       ]
     },
@@ -6008,6 +6481,7 @@
           "slug": "cy8ckit-062s2-ai",
           "vendor": "Infineon",
           "name": "PSOC™ 6 Artificial Intelligence Evaluation Kit",
+          "maker": "Infineon",
           "partNumber": "CY8CKIT-062S2-AI",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CKIT-062S2-AI.png",
           "imageLocal": "assets/boards/CY8CKIT-062S2-AI.jpg"
@@ -6017,11 +6491,15 @@
         "slug": "cy8ckit-062s2-ai",
         "vendor": "Infineon",
         "name": "PSOC™ 6 Artificial Intelligence Evaluation Kit",
+        "maker": "Infineon",
         "partNumber": "CY8CKIT-062S2-AI",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CKIT-062S2-AI.png",
         "imageLocal": "assets/boards/CY8CKIT-062S2-AI.jpg"
       },
       "manufacturers": [
+        "Infineon"
+      ],
+      "makers": [
         "Infineon"
       ]
     },
@@ -6049,6 +6527,7 @@
           "slug": "cy8ckit-062-wifi-bt",
           "vendor": "Infineon",
           "name": "PSOC™ 6 Wi-Fi Bluetooth® pioneer kit",
+          "maker": "Infineon",
           "partNumber": "CY8CKIT-062-WIFI-BT",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CKIT-062-WIFI-BT.png",
           "imageLocal": "assets/boards/CY8CKIT-062-WIFI-BT.jpg"
@@ -6058,11 +6537,15 @@
         "slug": "cy8ckit-062-wifi-bt",
         "vendor": "Infineon",
         "name": "PSOC™ 6 Wi-Fi Bluetooth® pioneer kit",
+        "maker": "Infineon",
         "partNumber": "CY8CKIT-062-WIFI-BT",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CKIT-062-WIFI-BT.png",
         "imageLocal": "assets/boards/CY8CKIT-062-WIFI-BT.jpg"
       },
       "manufacturers": [
+        "Infineon"
+      ],
+      "makers": [
         "Infineon"
       ]
     },
@@ -6090,6 +6573,7 @@
           "slug": "cy8cproto-062-4343w",
           "vendor": "Infineon",
           "name": "PSOC™ 6 Wi-Fi Bluetooth® prototyping kit",
+          "maker": "Infineon",
           "partNumber": "CY8CPROTO-062-4343W",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CPROTO-062-4343W.png",
           "imageLocal": "assets/boards/PSOC6kit.jpg"
@@ -6099,11 +6583,15 @@
         "slug": "cy8cproto-062-4343w",
         "vendor": "Infineon",
         "name": "PSOC™ 6 Wi-Fi Bluetooth® prototyping kit",
+        "maker": "Infineon",
         "partNumber": "CY8CPROTO-062-4343W",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CPROTO-062-4343W.png",
         "imageLocal": "assets/boards/PSOC6kit.jpg"
       },
       "manufacturers": [
+        "Infineon"
+      ],
+      "makers": [
         "Infineon"
       ]
     },
@@ -6131,6 +6619,7 @@
           "slug": "cy8cproto-062s3-4343w",
           "vendor": "Infineon",
           "name": "PSOC™ 62S3 Wi-Fi Bluetooth® prototyping kit",
+          "maker": "Infineon",
           "partNumber": "CY8CPROTO-062S3-4343W",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CPROTO-062S3-4343W.png",
           "imageLocal": "assets/boards/CY8CPROTO-062S3-4343W.jpg"
@@ -6140,11 +6629,15 @@
         "slug": "cy8cproto-062s3-4343w",
         "vendor": "Infineon",
         "name": "PSOC™ 62S3 Wi-Fi Bluetooth® prototyping kit",
+        "maker": "Infineon",
         "partNumber": "CY8CPROTO-062S3-4343W",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CY8CPROTO-062S3-4343W.png",
         "imageLocal": "assets/boards/CY8CPROTO-062S3-4343W.jpg"
       },
       "manufacturers": [
+        "Infineon"
+      ],
+      "makers": [
         "Infineon"
       ]
     },
@@ -6170,7 +6663,8 @@
       "id": "home-assistant-bridge",
       "boards": [],
       "board": null,
-      "manufacturers": []
+      "manufacturers": [],
+      "makers": []
     },
     {
       "repo": "iotc-relay-service",
@@ -6193,7 +6687,8 @@
       "id": "iotconnect-relay-service",
       "boards": [],
       "board": null,
-      "manufacturers": []
+      "manufacturers": [],
+      "makers": []
     },
     {
       "repo": "iotc-mcx-zephyr-demos",
@@ -6220,6 +6715,7 @@
           "slug": "frdm-mcxn947",
           "vendor": "NXP",
           "name": "FRDM Development Board for MCX N94/N54 MCUs",
+          "maker": "NXP",
           "partNumber": "FRDM-MCXN947",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-MCXN947.png"
         }
@@ -6228,10 +6724,14 @@
         "slug": "frdm-mcxn947",
         "vendor": "NXP",
         "name": "FRDM Development Board for MCX N94/N54 MCUs",
+        "maker": "NXP",
         "partNumber": "FRDM-MCXN947",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-MCXN947.png"
       },
       "manufacturers": [
+        "NXP"
+      ],
+      "makers": [
         "NXP"
       ]
     },
@@ -6260,6 +6760,7 @@
           "slug": "aes-maaxb-osm93-dk-g",
           "vendor": "NXP",
           "name": "NXP MaaXBoard OSM93",
+          "maker": "Tria",
           "integrator": "Tria / NXP",
           "partNumber": "AES-MAAXB-OSM93-DK-G",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-MAAXB-OSM93-DK-G.png",
@@ -6270,6 +6771,7 @@
         "slug": "aes-maaxb-osm93-dk-g",
         "vendor": "NXP",
         "name": "NXP MaaXBoard OSM93",
+        "maker": "Tria",
         "integrator": "Tria / NXP",
         "partNumber": "AES-MAAXB-OSM93-DK-G",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-MAAXB-OSM93-DK-G.png",
@@ -6277,6 +6779,9 @@
       },
       "manufacturers": [
         "NXP"
+      ],
+      "makers": [
+        "Tria"
       ]
     },
     {
@@ -6300,7 +6805,8 @@
       "id": "arduino-uno-q-app-lab",
       "boards": [],
       "board": null,
-      "manufacturers": []
+      "manufacturers": [],
+      "makers": []
     },
     {
       "repo": "iotc-greengrass-c-sdk",
@@ -6324,7 +6830,8 @@
       "id": "iotconnect-greengrass-c-component-sdk",
       "boards": [],
       "board": null,
-      "manufacturers": []
+      "manufacturers": [],
+      "makers": []
     },
     {
       "repo": "iotc-python-greengrass-components",
@@ -6348,7 +6855,8 @@
       "id": "iotconnect-python-greengrass-components",
       "boards": [],
       "board": null,
-      "manufacturers": []
+      "manufacturers": [],
+      "makers": []
     },
     {
       "repo": "x-cube-iotc-st67-sdk",
@@ -6372,7 +6880,8 @@
       "id": "x-cube-st67-wi-fi-sdk",
       "boards": [],
       "board": null,
-      "manufacturers": []
+      "manufacturers": [],
+      "makers": []
     },
     {
       "repo": "iotc-node-sdk",
@@ -6395,7 +6904,8 @@
       "id": "iotconnect-node-js-sdk",
       "boards": [],
       "board": null,
-      "manufacturers": []
+      "manufacturers": [],
+      "makers": []
     },
     {
       "repo": "iotc-dotnet-sdk",
@@ -6418,7 +6928,8 @@
       "id": "iotconnect-net-sdk",
       "boards": [],
       "board": null,
-      "manufacturers": []
+      "manufacturers": [],
+      "makers": []
     },
     {
       "repo": "iotc-ios-swift-sdk",
@@ -6441,7 +6952,8 @@
       "id": "iotconnect-ios-swift-sdk",
       "boards": [],
       "board": null,
-      "manufacturers": []
+      "manufacturers": [],
+      "makers": []
     },
     {
       "repo": "iotc-android-sdk",
@@ -6464,7 +6976,8 @@
       "id": "iotconnect-android-sdk",
       "boards": [],
       "board": null,
-      "manufacturers": []
+      "manufacturers": [],
+      "makers": []
     },
     {
       "repo": "iotc-generic-c-sdk",
@@ -6485,7 +6998,8 @@
       "id": "iotconnect-generic-c-sdk",
       "boards": [],
       "board": null,
-      "manufacturers": []
+      "manufacturers": [],
+      "makers": []
     },
     {
       "repo": "iotc-yocto-c-sdk",
@@ -6509,7 +7023,8 @@
       "id": "iotconnect-yocto-c-sdk",
       "boards": [],
       "board": null,
-      "manufacturers": []
+      "manufacturers": [],
+      "makers": []
     },
     {
       "repo": "iotc-yocto-python-sdk",
@@ -6533,7 +7048,8 @@
       "id": "iotconnect-yocto-python-sdk",
       "boards": [],
       "board": null,
-      "manufacturers": []
+      "manufacturers": [],
+      "makers": []
     },
     {
       "repo": "iotc-python-sdk",
@@ -6556,7 +7072,8 @@
       "id": "iotconnect-python-sdk",
       "boards": [],
       "board": null,
-      "manufacturers": []
+      "manufacturers": [],
+      "makers": []
     },
     {
       "repo": "iotc-python-rest-api",
@@ -6577,7 +7094,8 @@
       "id": "iotconnect-python-rest-api",
       "boards": [],
       "board": null,
-      "manufacturers": []
+      "manufacturers": [],
+      "makers": []
     },
     {
       "repo": "iotc-nrf-sdk",
@@ -6605,6 +7123,7 @@
           "slug": "nrf6943",
           "vendor": "Nordic",
           "name": "Thingy-91",
+          "maker": "Nordic",
           "partNumber": "nRF6943",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/Nordic-Thingy-91.png"
         },
@@ -6612,6 +7131,7 @@
           "slug": "nrf52840-dk",
           "vendor": "Nordic",
           "name": "nRF52840 DK",
+          "maker": "Nordic",
           "partNumber": "nRF52840-DK",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/nrf5280.png"
         }
@@ -6620,10 +7140,14 @@
         "slug": "nrf6943",
         "vendor": "Nordic",
         "name": "Thingy-91",
+        "maker": "Nordic",
         "partNumber": "nRF6943",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/Nordic-Thingy-91.png"
       },
       "manufacturers": [
+        "Nordic"
+      ],
+      "makers": [
         "Nordic"
       ]
     },
@@ -6653,6 +7177,7 @@
           "slug": "mpfs-disco-kit",
           "vendor": "Microchip",
           "name": "PolarFire Discovery Kit",
+          "maker": "Microchip",
           "partNumber": "MPFS-DISCO-KIT",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/MPFS-DISCO-KIT.png",
           "imageLocal": "assets/boards/MPFS-DISCO-KIT.png"
@@ -6662,11 +7187,15 @@
         "slug": "mpfs-disco-kit",
         "vendor": "Microchip",
         "name": "PolarFire Discovery Kit",
+        "maker": "Microchip",
         "partNumber": "MPFS-DISCO-KIT",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/MPFS-DISCO-KIT.png",
         "imageLocal": "assets/boards/MPFS-DISCO-KIT.png"
       },
       "manufacturers": [
+        "Microchip"
+      ],
+      "makers": [
         "Microchip"
       ]
     },
@@ -6696,6 +7225,7 @@
           "slug": "mpfs-disco-kit",
           "vendor": "Microchip",
           "name": "PolarFire Discovery Kit",
+          "maker": "Microchip",
           "partNumber": "MPFS-DISCO-KIT",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/MPFS-DISCO-KIT.png",
           "imageLocal": "assets/boards/MPFS-DISCO-KIT.png"
@@ -6705,11 +7235,15 @@
         "slug": "mpfs-disco-kit",
         "vendor": "Microchip",
         "name": "PolarFire Discovery Kit",
+        "maker": "Microchip",
         "partNumber": "MPFS-DISCO-KIT",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/MPFS-DISCO-KIT.png",
         "imageLocal": "assets/boards/MPFS-DISCO-KIT.png"
       },
       "manufacturers": [
+        "Microchip"
+      ],
+      "makers": [
         "Microchip"
       ]
     },
@@ -6739,6 +7273,7 @@
           "slug": "mpfs-disco-kit",
           "vendor": "Microchip",
           "name": "PolarFire Discovery Kit",
+          "maker": "Microchip",
           "partNumber": "MPFS-DISCO-KIT",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/MPFS-DISCO-KIT.png",
           "imageLocal": "assets/boards/MPFS-DISCO-KIT.png"
@@ -6748,11 +7283,15 @@
         "slug": "mpfs-disco-kit",
         "vendor": "Microchip",
         "name": "PolarFire Discovery Kit",
+        "maker": "Microchip",
         "partNumber": "MPFS-DISCO-KIT",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/MPFS-DISCO-KIT.png",
         "imageLocal": "assets/boards/MPFS-DISCO-KIT.png"
       },
       "manufacturers": [
+        "Microchip"
+      ],
+      "makers": [
         "Microchip"
       ]
     },
@@ -6782,6 +7321,7 @@
           "slug": "mpfs-video-kit",
           "vendor": "Microchip",
           "name": "PolarFire SoC Video Kit",
+          "maker": "Microchip",
           "partNumber": "MPFS-VIDEO-KIT",
           "imageLocal": "assets/boards/MPFS-VIDEO-KIT.jpg"
         }
@@ -6790,10 +7330,14 @@
         "slug": "mpfs-video-kit",
         "vendor": "Microchip",
         "name": "PolarFire SoC Video Kit",
+        "maker": "Microchip",
         "partNumber": "MPFS-VIDEO-KIT",
         "imageLocal": "assets/boards/MPFS-VIDEO-KIT.jpg"
       },
       "manufacturers": [
+        "Microchip"
+      ],
+      "makers": [
         "Microchip"
       ]
     },
@@ -6823,6 +7367,7 @@
           "slug": "mpfs-video-kit",
           "vendor": "Microchip",
           "name": "PolarFire SoC Video Kit",
+          "maker": "Microchip",
           "partNumber": "MPFS-VIDEO-KIT",
           "imageLocal": "assets/boards/MPFS-VIDEO-KIT.jpg"
         }
@@ -6831,10 +7376,14 @@
         "slug": "mpfs-video-kit",
         "vendor": "Microchip",
         "name": "PolarFire SoC Video Kit",
+        "maker": "Microchip",
         "partNumber": "MPFS-VIDEO-KIT",
         "imageLocal": "assets/boards/MPFS-VIDEO-KIT.jpg"
       },
       "manufacturers": [
+        "Microchip"
+      ],
+      "makers": [
         "Microchip"
       ]
     },
@@ -6864,6 +7413,7 @@
           "slug": "mpfs-video-kit",
           "vendor": "Microchip",
           "name": "PolarFire SoC Video Kit",
+          "maker": "Microchip",
           "partNumber": "MPFS-VIDEO-KIT",
           "imageLocal": "assets/boards/MPFS-VIDEO-KIT.jpg"
         }
@@ -6872,10 +7422,14 @@
         "slug": "mpfs-video-kit",
         "vendor": "Microchip",
         "name": "PolarFire SoC Video Kit",
+        "maker": "Microchip",
         "partNumber": "MPFS-VIDEO-KIT",
         "imageLocal": "assets/boards/MPFS-VIDEO-KIT.jpg"
       },
       "manufacturers": [
+        "Microchip"
+      ],
+      "makers": [
         "Microchip"
       ]
     },
@@ -6905,6 +7459,7 @@
           "slug": "ev63j76a",
           "vendor": "Microchip",
           "name": "SAMA7D65 Curiosity Kit",
+          "maker": "Microchip",
           "partNumber": "EV63J76A",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EV63J76A.png"
         }
@@ -6913,10 +7468,14 @@
         "slug": "ev63j76a",
         "vendor": "Microchip",
         "name": "SAMA7D65 Curiosity Kit",
+        "maker": "Microchip",
         "partNumber": "EV63J76A",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EV63J76A.png"
       },
       "manufacturers": [
+        "Microchip"
+      ],
+      "makers": [
         "Microchip"
       ]
     },
@@ -6945,6 +7504,7 @@
           "slug": "ev63j76a",
           "vendor": "Microchip",
           "name": "SAMA7D65 Curiosity Kit",
+          "maker": "Microchip",
           "partNumber": "EV63J76A",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EV63J76A.png"
         }
@@ -6953,10 +7513,14 @@
         "slug": "ev63j76a",
         "vendor": "Microchip",
         "name": "SAMA7D65 Curiosity Kit",
+        "maker": "Microchip",
         "partNumber": "EV63J76A",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EV63J76A.png"
       },
       "manufacturers": [
+        "Microchip"
+      ],
+      "makers": [
         "Microchip"
       ]
     },
@@ -6986,6 +7550,7 @@
           "slug": "ev63j76a",
           "vendor": "Microchip",
           "name": "SAMA7D65 Curiosity Kit",
+          "maker": "Microchip",
           "partNumber": "EV63J76A",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EV63J76A.png"
         }
@@ -6994,10 +7559,14 @@
         "slug": "ev63j76a",
         "vendor": "Microchip",
         "name": "SAMA7D65 Curiosity Kit",
+        "maker": "Microchip",
         "partNumber": "EV63J76A",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EV63J76A.png"
       },
       "manufacturers": [
+        "Microchip"
+      ],
+      "makers": [
         "Microchip"
       ]
     },
@@ -7025,6 +7594,7 @@
           "slug": "ev63j76a",
           "vendor": "Microchip",
           "name": "SAMA7D65 Curiosity Kit",
+          "maker": "Microchip",
           "partNumber": "EV63J76A",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EV63J76A.png"
         }
@@ -7033,10 +7603,14 @@
         "slug": "ev63j76a",
         "vendor": "Microchip",
         "name": "SAMA7D65 Curiosity Kit",
+        "maker": "Microchip",
         "partNumber": "EV63J76A",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EV63J76A.png"
       },
       "manufacturers": [
+        "Microchip"
+      ],
+      "makers": [
         "Microchip"
       ]
     },
@@ -7065,6 +7639,7 @@
           "slug": "jetson-orin",
           "vendor": "NVIDIA",
           "name": "Jetson AGX Orin Developer Kit",
+          "maker": "NVIDIA",
           "partNumber": "JETSON-ORIN",
           "imageLocal": "assets/boards/JETSON-ORIN.jpg"
         }
@@ -7073,10 +7648,14 @@
         "slug": "jetson-orin",
         "vendor": "NVIDIA",
         "name": "Jetson AGX Orin Developer Kit",
+        "maker": "NVIDIA",
         "partNumber": "JETSON-ORIN",
         "imageLocal": "assets/boards/JETSON-ORIN.jpg"
       },
       "manufacturers": [
+        "NVIDIA"
+      ],
+      "makers": [
         "NVIDIA"
       ]
     },
@@ -7105,6 +7684,7 @@
           "slug": "frdm-imx93",
           "vendor": "NXP",
           "name": "IMX93 Freedom Board",
+          "maker": "NXP",
           "partNumber": "FRDM-IMX93",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-IMX93.png",
           "imageLocal": "assets/boards/FRDM-IMX93.jpg"
@@ -7114,11 +7694,15 @@
         "slug": "frdm-imx93",
         "vendor": "NXP",
         "name": "IMX93 Freedom Board",
+        "maker": "NXP",
         "partNumber": "FRDM-IMX93",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-IMX93.png",
         "imageLocal": "assets/boards/FRDM-IMX93.jpg"
       },
       "manufacturers": [
+        "NXP"
+      ],
+      "makers": [
         "NXP"
       ]
     },
@@ -7148,6 +7732,7 @@
           "slug": "frdm-imx93",
           "vendor": "NXP",
           "name": "IMX93 Freedom Board",
+          "maker": "NXP",
           "partNumber": "FRDM-IMX93",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-IMX93.png",
           "imageLocal": "assets/boards/FRDM-IMX93.jpg"
@@ -7157,11 +7742,15 @@
         "slug": "frdm-imx93",
         "vendor": "NXP",
         "name": "IMX93 Freedom Board",
+        "maker": "NXP",
         "partNumber": "FRDM-IMX93",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-IMX93.png",
         "imageLocal": "assets/boards/FRDM-IMX93.jpg"
       },
       "manufacturers": [
+        "NXP"
+      ],
+      "makers": [
         "NXP"
       ]
     },
@@ -7189,6 +7778,7 @@
           "slug": "frdm-imx93",
           "vendor": "NXP",
           "name": "IMX93 Freedom Board",
+          "maker": "NXP",
           "partNumber": "FRDM-IMX93",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-IMX93.png",
           "imageLocal": "assets/boards/FRDM-IMX93.jpg"
@@ -7198,11 +7788,15 @@
         "slug": "frdm-imx93",
         "vendor": "NXP",
         "name": "IMX93 Freedom Board",
+        "maker": "NXP",
         "partNumber": "FRDM-IMX93",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-IMX93.png",
         "imageLocal": "assets/boards/FRDM-IMX93.jpg"
       },
       "manufacturers": [
+        "NXP"
+      ],
+      "makers": [
         "NXP"
       ]
     },
@@ -7231,6 +7825,7 @@
           "slug": "frdm-imx93",
           "vendor": "NXP",
           "name": "IMX93 Freedom Board",
+          "maker": "NXP",
           "partNumber": "FRDM-IMX93",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-IMX93.png",
           "imageLocal": "assets/boards/FRDM-IMX93.jpg"
@@ -7240,11 +7835,15 @@
         "slug": "frdm-imx93",
         "vendor": "NXP",
         "name": "IMX93 Freedom Board",
+        "maker": "NXP",
         "partNumber": "FRDM-IMX93",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-IMX93.png",
         "imageLocal": "assets/boards/FRDM-IMX93.jpg"
       },
       "manufacturers": [
+        "NXP"
+      ],
+      "makers": [
         "NXP"
       ]
     },
@@ -7274,6 +7873,7 @@
           "slug": "frdm-imx93",
           "vendor": "NXP",
           "name": "IMX93 Freedom Board",
+          "maker": "NXP",
           "partNumber": "FRDM-IMX93",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-IMX93.png",
           "imageLocal": "assets/boards/FRDM-IMX93.jpg"
@@ -7283,11 +7883,15 @@
         "slug": "frdm-imx93",
         "vendor": "NXP",
         "name": "IMX93 Freedom Board",
+        "maker": "NXP",
         "partNumber": "FRDM-IMX93",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-IMX93.png",
         "imageLocal": "assets/boards/FRDM-IMX93.jpg"
       },
       "manufacturers": [
+        "NXP"
+      ],
+      "makers": [
         "NXP"
       ]
     },
@@ -7317,6 +7921,7 @@
           "slug": "rz-v2h-evk",
           "vendor": "Renesas",
           "name": "RZ/V2H Evaluation Kit",
+          "maker": "Renesas",
           "partNumber": "RZ-V2H-EVK",
           "imageLocal": "assets/boards/RZ-V2H-EVK.jpg"
         }
@@ -7325,10 +7930,14 @@
         "slug": "rz-v2h-evk",
         "vendor": "Renesas",
         "name": "RZ/V2H Evaluation Kit",
+        "maker": "Renesas",
         "partNumber": "RZ-V2H-EVK",
         "imageLocal": "assets/boards/RZ-V2H-EVK.jpg"
       },
       "manufacturers": [
+        "Renesas"
+      ],
+      "makers": [
         "Renesas"
       ]
     },
@@ -7356,6 +7965,7 @@
           "slug": "rz-v2h-evk",
           "vendor": "Renesas",
           "name": "RZ/V2H Evaluation Kit",
+          "maker": "Renesas",
           "partNumber": "RZ-V2H-EVK",
           "imageLocal": "assets/boards/RZ-V2H-EVK.jpg"
         }
@@ -7364,10 +7974,14 @@
         "slug": "rz-v2h-evk",
         "vendor": "Renesas",
         "name": "RZ/V2H Evaluation Kit",
+        "maker": "Renesas",
         "partNumber": "RZ-V2H-EVK",
         "imageLocal": "assets/boards/RZ-V2H-EVK.jpg"
       },
       "manufacturers": [
+        "Renesas"
+      ],
+      "makers": [
         "Renesas"
       ]
     },
@@ -7396,6 +8010,7 @@
           "slug": "stm32mp135f-dk",
           "vendor": "STMicroelectronics",
           "name": "STM32MP135 Discovery Kit",
+          "maker": "STMicroelectronics",
           "partNumber": "STM32MP135F-DK",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP135F-DK.png",
           "imageLocal": "assets/boards/STM32MP135F.jpg"
@@ -7405,11 +8020,15 @@
         "slug": "stm32mp135f-dk",
         "vendor": "STMicroelectronics",
         "name": "STM32MP135 Discovery Kit",
+        "maker": "STMicroelectronics",
         "partNumber": "STM32MP135F-DK",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP135F-DK.png",
         "imageLocal": "assets/boards/STM32MP135F.jpg"
       },
       "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
         "STMicroelectronics"
       ]
     },
@@ -7438,6 +8057,7 @@
           "slug": "stm32mp135f-dk",
           "vendor": "STMicroelectronics",
           "name": "STM32MP135 Discovery Kit",
+          "maker": "STMicroelectronics",
           "partNumber": "STM32MP135F-DK",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP135F-DK.png",
           "imageLocal": "assets/boards/STM32MP135F.jpg"
@@ -7447,11 +8067,15 @@
         "slug": "stm32mp135f-dk",
         "vendor": "STMicroelectronics",
         "name": "STM32MP135 Discovery Kit",
+        "maker": "STMicroelectronics",
         "partNumber": "STM32MP135F-DK",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP135F-DK.png",
         "imageLocal": "assets/boards/STM32MP135F.jpg"
       },
       "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
         "STMicroelectronics"
       ]
     },
@@ -7481,6 +8105,7 @@
           "slug": "stm32mp135f-dk",
           "vendor": "STMicroelectronics",
           "name": "STM32MP135 Discovery Kit",
+          "maker": "STMicroelectronics",
           "partNumber": "STM32MP135F-DK",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP135F-DK.png",
           "imageLocal": "assets/boards/STM32MP135F.jpg"
@@ -7490,11 +8115,15 @@
         "slug": "stm32mp135f-dk",
         "vendor": "STMicroelectronics",
         "name": "STM32MP135 Discovery Kit",
+        "maker": "STMicroelectronics",
         "partNumber": "STM32MP135F-DK",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP135F-DK.png",
         "imageLocal": "assets/boards/STM32MP135F.jpg"
       },
       "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
         "STMicroelectronics"
       ]
     },
@@ -7522,6 +8151,7 @@
           "slug": "stm32mp135f-dk",
           "vendor": "STMicroelectronics",
           "name": "STM32MP135 Discovery Kit",
+          "maker": "STMicroelectronics",
           "partNumber": "STM32MP135F-DK",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP135F-DK.png",
           "imageLocal": "assets/boards/STM32MP135F.jpg"
@@ -7531,11 +8161,15 @@
         "slug": "stm32mp135f-dk",
         "vendor": "STMicroelectronics",
         "name": "STM32MP135 Discovery Kit",
+        "maker": "STMicroelectronics",
         "partNumber": "STM32MP135F-DK",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP135F-DK.png",
         "imageLocal": "assets/boards/STM32MP135F.jpg"
       },
       "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
         "STMicroelectronics"
       ]
     },
@@ -7563,6 +8197,7 @@
           "slug": "stm32mp135f-dk",
           "vendor": "STMicroelectronics",
           "name": "STM32MP135 Discovery Kit",
+          "maker": "STMicroelectronics",
           "partNumber": "STM32MP135F-DK",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP135F-DK.png",
           "imageLocal": "assets/boards/STM32MP135F.jpg"
@@ -7572,11 +8207,15 @@
         "slug": "stm32mp135f-dk",
         "vendor": "STMicroelectronics",
         "name": "STM32MP135 Discovery Kit",
+        "maker": "STMicroelectronics",
         "partNumber": "STM32MP135F-DK",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP135F-DK.png",
         "imageLocal": "assets/boards/STM32MP135F.jpg"
       },
       "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
         "STMicroelectronics"
       ]
     },
@@ -7605,6 +8244,7 @@
           "slug": "stm32mp157f-dk2",
           "vendor": "STMicroelectronics",
           "name": "STM32MP157 Discovery Kit",
+          "maker": "STMicroelectronics",
           "partNumber": "STM32MP157F-DK2",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/stm32mp157.png",
           "imageLocal": "assets/boards/STM32MP157F.jpg"
@@ -7614,11 +8254,15 @@
         "slug": "stm32mp157f-dk2",
         "vendor": "STMicroelectronics",
         "name": "STM32MP157 Discovery Kit",
+        "maker": "STMicroelectronics",
         "partNumber": "STM32MP157F-DK2",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/stm32mp157.png",
         "imageLocal": "assets/boards/STM32MP157F.jpg"
       },
       "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
         "STMicroelectronics"
       ]
     },
@@ -7647,6 +8291,7 @@
           "slug": "stm32mp157f-dk2",
           "vendor": "STMicroelectronics",
           "name": "STM32MP157 Discovery Kit",
+          "maker": "STMicroelectronics",
           "partNumber": "STM32MP157F-DK2",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/stm32mp157.png",
           "imageLocal": "assets/boards/STM32MP157F.jpg"
@@ -7656,11 +8301,15 @@
         "slug": "stm32mp157f-dk2",
         "vendor": "STMicroelectronics",
         "name": "STM32MP157 Discovery Kit",
+        "maker": "STMicroelectronics",
         "partNumber": "STM32MP157F-DK2",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/stm32mp157.png",
         "imageLocal": "assets/boards/STM32MP157F.jpg"
       },
       "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
         "STMicroelectronics"
       ]
     },
@@ -7690,6 +8339,7 @@
           "slug": "stm32mp157f-dk2",
           "vendor": "STMicroelectronics",
           "name": "STM32MP157 Discovery Kit",
+          "maker": "STMicroelectronics",
           "partNumber": "STM32MP157F-DK2",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/stm32mp157.png",
           "imageLocal": "assets/boards/STM32MP157F.jpg"
@@ -7699,11 +8349,15 @@
         "slug": "stm32mp157f-dk2",
         "vendor": "STMicroelectronics",
         "name": "STM32MP157 Discovery Kit",
+        "maker": "STMicroelectronics",
         "partNumber": "STM32MP157F-DK2",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/stm32mp157.png",
         "imageLocal": "assets/boards/STM32MP157F.jpg"
       },
       "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
         "STMicroelectronics"
       ]
     },
@@ -7731,6 +8385,7 @@
           "slug": "stm32mp157f-dk2",
           "vendor": "STMicroelectronics",
           "name": "STM32MP157 Discovery Kit",
+          "maker": "STMicroelectronics",
           "partNumber": "STM32MP157F-DK2",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/stm32mp157.png",
           "imageLocal": "assets/boards/STM32MP157F.jpg"
@@ -7740,11 +8395,15 @@
         "slug": "stm32mp157f-dk2",
         "vendor": "STMicroelectronics",
         "name": "STM32MP157 Discovery Kit",
+        "maker": "STMicroelectronics",
         "partNumber": "STM32MP157F-DK2",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/stm32mp157.png",
         "imageLocal": "assets/boards/STM32MP157F.jpg"
       },
       "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
         "STMicroelectronics"
       ]
     },
@@ -7772,6 +8431,7 @@
           "slug": "stm32mp157f-dk2",
           "vendor": "STMicroelectronics",
           "name": "STM32MP157 Discovery Kit",
+          "maker": "STMicroelectronics",
           "partNumber": "STM32MP157F-DK2",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/stm32mp157.png",
           "imageLocal": "assets/boards/STM32MP157F.jpg"
@@ -7781,11 +8441,15 @@
         "slug": "stm32mp157f-dk2",
         "vendor": "STMicroelectronics",
         "name": "STM32MP157 Discovery Kit",
+        "maker": "STMicroelectronics",
         "partNumber": "STM32MP157F-DK2",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/stm32mp157.png",
         "imageLocal": "assets/boards/STM32MP157F.jpg"
       },
       "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
         "STMicroelectronics"
       ]
     },
@@ -7814,6 +8478,7 @@
           "slug": "stm32mp257f-dk",
           "vendor": "STMicroelectronics",
           "name": "STM32MP2 Discovery Kit",
+          "maker": "STMicroelectronics",
           "partNumber": "STM32MP257F-DK",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-DK.png",
           "imageLocal": "assets/boards/STM32MP257F-DK.jpg"
@@ -7823,11 +8488,15 @@
         "slug": "stm32mp257f-dk",
         "vendor": "STMicroelectronics",
         "name": "STM32MP2 Discovery Kit",
+        "maker": "STMicroelectronics",
         "partNumber": "STM32MP257F-DK",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-DK.png",
         "imageLocal": "assets/boards/STM32MP257F-DK.jpg"
       },
       "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
         "STMicroelectronics"
       ]
     },
@@ -7857,6 +8526,7 @@
           "slug": "stm32mp257f-dk",
           "vendor": "STMicroelectronics",
           "name": "STM32MP2 Discovery Kit",
+          "maker": "STMicroelectronics",
           "partNumber": "STM32MP257F-DK",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-DK.png",
           "imageLocal": "assets/boards/STM32MP257F-DK.jpg"
@@ -7866,11 +8536,15 @@
         "slug": "stm32mp257f-dk",
         "vendor": "STMicroelectronics",
         "name": "STM32MP2 Discovery Kit",
+        "maker": "STMicroelectronics",
         "partNumber": "STM32MP257F-DK",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-DK.png",
         "imageLocal": "assets/boards/STM32MP257F-DK.jpg"
       },
       "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
         "STMicroelectronics"
       ]
     },
@@ -7898,6 +8572,7 @@
           "slug": "stm32mp257f-dk",
           "vendor": "STMicroelectronics",
           "name": "STM32MP2 Discovery Kit",
+          "maker": "STMicroelectronics",
           "partNumber": "STM32MP257F-DK",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-DK.png",
           "imageLocal": "assets/boards/STM32MP257F-DK.jpg"
@@ -7907,11 +8582,15 @@
         "slug": "stm32mp257f-dk",
         "vendor": "STMicroelectronics",
         "name": "STM32MP2 Discovery Kit",
+        "maker": "STMicroelectronics",
         "partNumber": "STM32MP257F-DK",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-DK.png",
         "imageLocal": "assets/boards/STM32MP257F-DK.jpg"
       },
       "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
         "STMicroelectronics"
       ]
     },
@@ -7939,6 +8618,7 @@
           "slug": "stm32mp257f-dk",
           "vendor": "STMicroelectronics",
           "name": "STM32MP2 Discovery Kit",
+          "maker": "STMicroelectronics",
           "partNumber": "STM32MP257F-DK",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-DK.png",
           "imageLocal": "assets/boards/STM32MP257F-DK.jpg"
@@ -7948,11 +8628,15 @@
         "slug": "stm32mp257f-dk",
         "vendor": "STMicroelectronics",
         "name": "STM32MP2 Discovery Kit",
+        "maker": "STMicroelectronics",
         "partNumber": "STM32MP257F-DK",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-DK.png",
         "imageLocal": "assets/boards/STM32MP257F-DK.jpg"
       },
       "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
         "STMicroelectronics"
       ]
     },
@@ -7981,6 +8665,7 @@
           "slug": "stm32mp257f-ev1",
           "vendor": "STMicroelectronics",
           "name": "STM32MP2 Evaluation Board",
+          "maker": "STMicroelectronics",
           "partNumber": "STM32MP257F-EV1",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-EV1.png",
           "imageLocal": "assets/boards/STM32MP257F-EV1.jpg"
@@ -7990,11 +8675,15 @@
         "slug": "stm32mp257f-ev1",
         "vendor": "STMicroelectronics",
         "name": "STM32MP2 Evaluation Board",
+        "maker": "STMicroelectronics",
         "partNumber": "STM32MP257F-EV1",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-EV1.png",
         "imageLocal": "assets/boards/STM32MP257F-EV1.jpg"
       },
       "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
         "STMicroelectronics"
       ]
     },
@@ -8024,6 +8713,7 @@
           "slug": "stm32mp257f-ev1",
           "vendor": "STMicroelectronics",
           "name": "STM32MP2 Evaluation Board",
+          "maker": "STMicroelectronics",
           "partNumber": "STM32MP257F-EV1",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-EV1.png",
           "imageLocal": "assets/boards/STM32MP257F-EV1.jpg"
@@ -8033,11 +8723,15 @@
         "slug": "stm32mp257f-ev1",
         "vendor": "STMicroelectronics",
         "name": "STM32MP2 Evaluation Board",
+        "maker": "STMicroelectronics",
         "partNumber": "STM32MP257F-EV1",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-EV1.png",
         "imageLocal": "assets/boards/STM32MP257F-EV1.jpg"
       },
       "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
         "STMicroelectronics"
       ]
     },
@@ -8066,6 +8760,7 @@
           "slug": "aes-maaxb-osm93-dk-g",
           "vendor": "NXP",
           "name": "NXP MaaXBoard OSM93",
+          "maker": "Tria",
           "integrator": "Tria / NXP",
           "partNumber": "AES-MAAXB-OSM93-DK-G",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-MAAXB-OSM93-DK-G.png",
@@ -8076,6 +8771,7 @@
         "slug": "aes-maaxb-osm93-dk-g",
         "vendor": "NXP",
         "name": "NXP MaaXBoard OSM93",
+        "maker": "Tria",
         "integrator": "Tria / NXP",
         "partNumber": "AES-MAAXB-OSM93-DK-G",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-MAAXB-OSM93-DK-G.png",
@@ -8083,6 +8779,9 @@
       },
       "manufacturers": [
         "NXP"
+      ],
+      "makers": [
+        "Tria"
       ]
     },
     {
@@ -8112,6 +8811,7 @@
           "slug": "aes-qcs6490-dk-g",
           "vendor": "Qualcomm",
           "name": "VisionAI-Kit 6490",
+          "maker": "Tria",
           "integrator": "Tria / Qualcomm",
           "partNumber": "AES-QCS6490-DK-G",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-QCS6490-DK-G.png"
@@ -8121,12 +8821,16 @@
         "slug": "aes-qcs6490-dk-g",
         "vendor": "Qualcomm",
         "name": "VisionAI-Kit 6490",
+        "maker": "Tria",
         "integrator": "Tria / Qualcomm",
         "partNumber": "AES-QCS6490-DK-G",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-QCS6490-DK-G.png"
       },
       "manufacturers": [
         "Qualcomm"
+      ],
+      "makers": [
+        "Tria"
       ]
     },
     {
@@ -8157,6 +8861,7 @@
           "slug": "aes-qcs6490-dk-g",
           "vendor": "Qualcomm",
           "name": "VisionAI-Kit 6490",
+          "maker": "Tria",
           "integrator": "Tria / Qualcomm",
           "partNumber": "AES-QCS6490-DK-G",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-QCS6490-DK-G.png"
@@ -8166,12 +8871,16 @@
         "slug": "aes-qcs6490-dk-g",
         "vendor": "Qualcomm",
         "name": "VisionAI-Kit 6490",
+        "maker": "Tria",
         "integrator": "Tria / Qualcomm",
         "partNumber": "AES-QCS6490-DK-G",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-QCS6490-DK-G.png"
       },
       "manufacturers": [
         "Qualcomm"
+      ],
+      "makers": [
+        "Tria"
       ]
     },
     {
@@ -8200,6 +8909,7 @@
           "slug": "aes-qcs6490-dk-g",
           "vendor": "Qualcomm",
           "name": "VisionAI-Kit 6490",
+          "maker": "Tria",
           "integrator": "Tria / Qualcomm",
           "partNumber": "AES-QCS6490-DK-G",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-QCS6490-DK-G.png"
@@ -8209,12 +8919,16 @@
         "slug": "aes-qcs6490-dk-g",
         "vendor": "Qualcomm",
         "name": "VisionAI-Kit 6490",
+        "maker": "Tria",
         "integrator": "Tria / Qualcomm",
         "partNumber": "AES-QCS6490-DK-G",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-QCS6490-DK-G.png"
       },
       "manufacturers": [
         "Qualcomm"
+      ],
+      "makers": [
+        "Tria"
       ]
     },
     {
@@ -8241,6 +8955,7 @@
           "slug": "frdm-imx93",
           "vendor": "NXP",
           "name": "IMX93 Freedom Board",
+          "maker": "NXP",
           "partNumber": "FRDM-IMX93",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-IMX93.png",
           "imageLocal": "assets/boards/FRDM-IMX93.jpg"
@@ -8250,11 +8965,15 @@
         "slug": "frdm-imx93",
         "vendor": "NXP",
         "name": "IMX93 Freedom Board",
+        "maker": "NXP",
         "partNumber": "FRDM-IMX93",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-IMX93.png",
         "imageLocal": "assets/boards/FRDM-IMX93.jpg"
       },
       "manufacturers": [
+        "NXP"
+      ],
+      "makers": [
         "NXP"
       ]
     },
@@ -8282,6 +9001,7 @@
           "slug": "rpi5-4gb-single",
           "vendor": "Broadcom",
           "name": "Raspberry Pi5 4GB",
+          "maker": "Raspberry Pi",
           "integrator": "Raspberry Pi",
           "partNumber": "RPI5-4GB-SINGLE",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/RPI5.png"
@@ -8291,12 +9011,16 @@
         "slug": "rpi5-4gb-single",
         "vendor": "Broadcom",
         "name": "Raspberry Pi5 4GB",
+        "maker": "Raspberry Pi",
         "integrator": "Raspberry Pi",
         "partNumber": "RPI5-4GB-SINGLE",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/RPI5.png"
       },
       "manufacturers": [
         "Broadcom"
+      ],
+      "makers": [
+        "Raspberry Pi"
       ]
     },
     {
@@ -8323,6 +9047,7 @@
           "slug": "stm32mp135f-dk",
           "vendor": "STMicroelectronics",
           "name": "STM32MP135 Discovery Kit",
+          "maker": "STMicroelectronics",
           "partNumber": "STM32MP135F-DK",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP135F-DK.png",
           "imageLocal": "assets/boards/STM32MP135F.jpg"
@@ -8332,11 +9057,15 @@
         "slug": "stm32mp135f-dk",
         "vendor": "STMicroelectronics",
         "name": "STM32MP135 Discovery Kit",
+        "maker": "STMicroelectronics",
         "partNumber": "STM32MP135F-DK",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP135F-DK.png",
         "imageLocal": "assets/boards/STM32MP135F.jpg"
       },
       "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
         "STMicroelectronics"
       ]
     },
@@ -8364,6 +9093,7 @@
           "slug": "stm32mp157f-dk2",
           "vendor": "STMicroelectronics",
           "name": "STM32MP157 Discovery Kit",
+          "maker": "STMicroelectronics",
           "partNumber": "STM32MP157F-DK2",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/stm32mp157.png",
           "imageLocal": "assets/boards/STM32MP157F.jpg"
@@ -8373,11 +9103,15 @@
         "slug": "stm32mp157f-dk2",
         "vendor": "STMicroelectronics",
         "name": "STM32MP157 Discovery Kit",
+        "maker": "STMicroelectronics",
         "partNumber": "STM32MP157F-DK2",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/stm32mp157.png",
         "imageLocal": "assets/boards/STM32MP157F.jpg"
       },
       "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
         "STMicroelectronics"
       ]
     },
@@ -8405,6 +9139,7 @@
           "slug": "stm32mp215f-dk",
           "vendor": "STMicroelectronics",
           "name": "STM32MP215F-DK Discovery Kit",
+          "maker": "STMicroelectronics",
           "partNumber": "STM32MP215F-DK",
           "imageLocal": "assets/boards/STM32MP215F-DK.jpg"
         }
@@ -8413,10 +9148,14 @@
         "slug": "stm32mp215f-dk",
         "vendor": "STMicroelectronics",
         "name": "STM32MP215F-DK Discovery Kit",
+        "maker": "STMicroelectronics",
         "partNumber": "STM32MP215F-DK",
         "imageLocal": "assets/boards/STM32MP215F-DK.jpg"
       },
       "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
         "STMicroelectronics"
       ]
     },
@@ -8444,6 +9183,7 @@
           "slug": "stm32mp257f-dk",
           "vendor": "STMicroelectronics",
           "name": "STM32MP2 Discovery Kit",
+          "maker": "STMicroelectronics",
           "partNumber": "STM32MP257F-DK",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-DK.png",
           "imageLocal": "assets/boards/STM32MP257F-DK.jpg"
@@ -8453,11 +9193,15 @@
         "slug": "stm32mp257f-dk",
         "vendor": "STMicroelectronics",
         "name": "STM32MP2 Discovery Kit",
+        "maker": "STMicroelectronics",
         "partNumber": "STM32MP257F-DK",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-DK.png",
         "imageLocal": "assets/boards/STM32MP257F-DK.jpg"
       },
       "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
         "STMicroelectronics"
       ]
     },
@@ -8485,6 +9229,7 @@
           "slug": "stm32mp257f-ev1",
           "vendor": "STMicroelectronics",
           "name": "STM32MP2 Evaluation Board",
+          "maker": "STMicroelectronics",
           "partNumber": "STM32MP257F-EV1",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-EV1.png",
           "imageLocal": "assets/boards/STM32MP257F-EV1.jpg"
@@ -8494,11 +9239,15 @@
         "slug": "stm32mp257f-ev1",
         "vendor": "STMicroelectronics",
         "name": "STM32MP2 Evaluation Board",
+        "maker": "STMicroelectronics",
         "partNumber": "STM32MP257F-EV1",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-EV1.png",
         "imageLocal": "assets/boards/STM32MP257F-EV1.jpg"
       },
       "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
         "STMicroelectronics"
       ]
     },
@@ -8526,6 +9275,7 @@
           "slug": "arduino-uno-q",
           "vendor": "Qualcomm",
           "name": "Arduino UNO Q",
+          "maker": "Arduino",
           "integrator": "Arduino",
           "partNumber": "ARDUINO-UNO-Q",
           "imageLocal": "assets/boards/ARDUINO-UNO-Q.jpg"
@@ -8535,12 +9285,16 @@
         "slug": "arduino-uno-q",
         "vendor": "Qualcomm",
         "name": "Arduino UNO Q",
+        "maker": "Arduino",
         "integrator": "Arduino",
         "partNumber": "ARDUINO-UNO-Q",
         "imageLocal": "assets/boards/ARDUINO-UNO-Q.jpg"
       },
       "manufacturers": [
         "Qualcomm"
+      ],
+      "makers": [
+        "Arduino"
       ]
     },
     {
@@ -8567,6 +9321,7 @@
           "slug": "curiosity-pic64gx1000-kit",
           "vendor": "Microchip",
           "name": "PIC64GX Curiosity Kit",
+          "maker": "Microchip",
           "partNumber": "CURIOSITY-PIC64GX1000-KIT",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CURIOSITY-PIC64GX1000-KIT.png",
           "imageLocal": "assets/boards/CURIOSITY-PIC64GX1000-KIT.png"
@@ -8576,11 +9331,15 @@
         "slug": "curiosity-pic64gx1000-kit",
         "vendor": "Microchip",
         "name": "PIC64GX Curiosity Kit",
+        "maker": "Microchip",
         "partNumber": "CURIOSITY-PIC64GX1000-KIT",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CURIOSITY-PIC64GX1000-KIT.png",
         "imageLocal": "assets/boards/CURIOSITY-PIC64GX1000-KIT.png"
       },
       "manufacturers": [
+        "Microchip"
+      ],
+      "makers": [
         "Microchip"
       ]
     },
@@ -8608,6 +9367,7 @@
           "slug": "s32g-vnp-gldbox",
           "vendor": "NXP",
           "name": "GoldBox for Vehicle Networking Development Platform",
+          "maker": "NXP",
           "partNumber": "S32G-VNP-GLDBOX",
           "image": "https://apn-portal.my.salesforce.com/servlet/servlet.ImageServer?id=0158W00000CPkYGQA1&oid=00DE0000000c48tMAA"
         }
@@ -8616,10 +9376,14 @@
         "slug": "s32g-vnp-gldbox",
         "vendor": "NXP",
         "name": "GoldBox for Vehicle Networking Development Platform",
+        "maker": "NXP",
         "partNumber": "S32G-VNP-GLDBOX",
         "image": "https://apn-portal.my.salesforce.com/servlet/servlet.ImageServer?id=0158W00000CPkYGQA1&oid=00DE0000000c48tMAA"
       },
       "manufacturers": [
+        "NXP"
+      ],
+      "makers": [
         "NXP"
       ]
     },
@@ -8647,6 +9411,7 @@
           "slug": "aes-mc-sbc-imx8m-g",
           "vendor": "NXP",
           "name": "NXP MaaXBoard 8M",
+          "maker": "Tria",
           "integrator": "Tria / NXP",
           "partNumber": "AES-MC-SBC-IMX8M-G",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-MC-SBC-IMX8M-G.png",
@@ -8657,6 +9422,7 @@
         "slug": "aes-mc-sbc-imx8m-g",
         "vendor": "NXP",
         "name": "NXP MaaXBoard 8M",
+        "maker": "Tria",
         "integrator": "Tria / NXP",
         "partNumber": "AES-MC-SBC-IMX8M-G",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-MC-SBC-IMX8M-G.png",
@@ -8664,6 +9430,9 @@
       },
       "manufacturers": [
         "NXP"
+      ],
+      "makers": [
+        "Tria"
       ]
     },
     {
@@ -8690,6 +9459,7 @@
           "slug": "aes-maaxb-8ulp-sk-g",
           "vendor": "NXP",
           "name": "NXP MaaXBoard ULP",
+          "maker": "Tria",
           "integrator": "Tria / NXP",
           "partNumber": "AES-MAAXB-8ULP-SK-G",
           "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-MAAXB-8ULP-SK-G.png",
@@ -8700,6 +9470,7 @@
         "slug": "aes-maaxb-8ulp-sk-g",
         "vendor": "NXP",
         "name": "NXP MaaXBoard ULP",
+        "maker": "Tria",
         "integrator": "Tria / NXP",
         "partNumber": "AES-MAAXB-8ULP-SK-G",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-MAAXB-8ULP-SK-G.png",
@@ -8707,6 +9478,9 @@
       },
       "manufacturers": [
         "NXP"
+      ],
+      "makers": [
+        "Tria"
       ]
     },
     {
@@ -8734,6 +9508,7 @@
           "slug": "rz-g3e-evk",
           "vendor": "Renesas",
           "name": "RZ/G3E Evaluation Kit",
+          "maker": "Renesas",
           "partNumber": "RZ-G3E-EVK",
           "imageLocal": "assets/boards/RZ-G3E-EVK.jpg"
         }
@@ -8742,10 +9517,14 @@
         "slug": "rz-g3e-evk",
         "vendor": "Renesas",
         "name": "RZ/G3E Evaluation Kit",
+        "maker": "Renesas",
         "partNumber": "RZ-G3E-EVK",
         "imageLocal": "assets/boards/RZ-G3E-EVK.jpg"
       },
       "manufacturers": [
+        "Renesas"
+      ],
+      "makers": [
         "Renesas"
       ]
     }

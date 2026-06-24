@@ -95,7 +95,8 @@ for row in brows:
     buy = next((x["url"] for x in res if x["kind"] == "buy"), None)
     integrator = str(row.get("Manufacturer") or "Other").strip()
     silicon = str(row.get("Silicon") or "").strip() or integrator   # vendor = silicon (chip maker)
-    d = {"slug": sg, "vendor": silicon, "integrator": integrator,
+    maker = integrator.split(" / ")[0].strip() or integrator        # board maker / integrator (e.g. "Tria")
+    d = {"slug": sg, "vendor": silicon, "integrator": integrator, "maker": maker,
          "name": nm or pn, "partNumber": pn,
          "image": resolve_image(row.get("Image File")),
          "imageLocal": (IMAGE_LOCAL + img_local) if img_local else None,
@@ -115,7 +116,7 @@ def resolve_ref(ref, listing_name):
     if k in boards_by_name: return boards_by_name[k]
     missing_boards.setdefault(ref, set()).add(listing_name)
     sg = "x-" + slug(ref)
-    board_defs.setdefault(sg, {"slug": sg, "vendor": "Other", "integrator": "Other", "name": ref, "partNumber": "",
+    board_defs.setdefault(sg, {"slug": sg, "vendor": "Other", "integrator": "Other", "maker": "Other", "name": ref, "partNumber": "",
                                "image": None, "imageLocal": None, "link": None, "buy": None,
                                "qualifications": [], "tags": [], "resources": []})
     return sg
@@ -170,7 +171,7 @@ except Exception as e:
 # ---------- assemble index ----------
 def board_ref(sg):
     b = board_defs[sg]
-    o = {"slug": sg, "vendor": b["vendor"], "name": b["name"]}
+    o = {"slug": sg, "vendor": b["vendor"], "name": b["name"], "maker": b.get("maker", b["vendor"])}
     integ = b.get("integrator", b["vendor"])
     if integ and integ != b["vendor"]: o["integrator"] = integ
     if b.get("partNumber"): o["partNumber"] = b["partNumber"]
@@ -195,11 +196,12 @@ for L in listings:
     if L["category"] == "sample" and len(boards) > 1:
         for b in boards:
             out.append({**base, "id": f'{slug(L["name"])}::{b["slug"]}', "boards": [b],
-                        "board": b, "manufacturers": [b["vendor"]]})
+                        "board": b, "manufacturers": [b["vendor"]], "makers": [b.get("maker", b["vendor"])]})
     else:
         out.append({**base, "id": slug(L["name"]), "boards": boards,
                     "board": boards[0] if boards else None,
-                    "manufacturers": sorted({b["vendor"] for b in boards}) if boards else []})
+                    "manufacturers": sorted({b["vendor"] for b in boards}) if boards else [],
+                    "makers": sorted({b.get("maker", b["vendor"]) for b in boards}) if boards else []})
 
 vis = [r for r in out if not r["hidden"]]
 mfrs = sorted({m for r in vis for m in r["manufacturers"] if m and m != "Other"})
@@ -225,6 +227,7 @@ for sg in sorted([s for s in board_defs if not s.startswith("x-")],
     rec = {k: b[k] for k in ["slug","vendor","name","partNumber","image","imageLocal",
                              "link","buy","qualifications","tags","resources"]}
     rec["integrator"] = b.get("integrator", b["vendor"])
+    rec["maker"] = b.get("maker", b["vendor"])
     rec["listings"] = board_listings.get(sg, 0)
     busd.append(rec)
 
@@ -237,6 +240,10 @@ for r in vis:
         tagcount[t] = tagcount.get(t, 0) + 1
 topics = [{"tag": t, "count": c} for t, c in
           sorted(tagcount.items(), key=lambda kv: (-kv[1], kv[0]))]
+
+# board-maker facet = integrators only (makers that build on someone else's silicon),
+# so you can slice by Tria / Advantech / Seeed… as well as by silicon vendor.
+makers = sorted({b["maker"] for b in busd if b["maker"] != b["vendor"] and b["maker"] != "Other"})
 
 # partner showcase metadata
 boardcount = {}; listingcount = {}
@@ -258,7 +265,7 @@ index = {
     "org": ORG, "generated": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
     "pagesUrl": PAGES_URL, "imageBase": IMAGE_BASE, "imageLocalBase": IMAGE_LOCAL, "brandBase": BRAND_BASE,
     "partners": partners,
-    "facets": {"manufacturers": mfrs, "topics": topics, "boards": busd},
+    "facets": {"manufacturers": mfrs, "makers": makers, "topics": topics, "boards": busd},
     "counts": {"total": len(vis), "manufacturers": len(mfrs), "boards": len(busd),
                "sdks": sum(1 for r in vis if r["category"] in ("sdk","library")),
                "examples": sum(1 for r in vis if r["category"] == "sample"),
