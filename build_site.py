@@ -258,13 +258,48 @@ for m in sorted(set(list(boardcount) + list(listingcount))):
                      "logo": (BRAND_BASE + PARTNER_LOGO[m]) if m in PARTNER_LOGO else None,
                      "info": info, "boards": boardcount.get(m, 0), "listings": listingcount.get(m, 0)})
 
+# ---------- Avnet entity line cards (per-distributor scoped views) ----------
+# key, display name, tagline, logo, column in data/manufacturers-by-entity.csv
+ENTITY_CFG = [
+    ("newark", "Newark", "element14 · Americas", "assets/entities/newark.png", "Newark"),
+    ("farnell", "Farnell", "element14 · UK & Europe", "assets/entities/farnell.png", "Farnell"),
+    ("element14", "element14", "Asia Pacific", "assets/entities/element14.svg", "Element 14"),
+    ("silica", "Avnet Silica", "EMEA", "assets/entities/silica.png", "Silica"),
+    ("avnet-americas", "Avnet Americas", "Americas", "assets/entities/avnet.png", "Avnet Americas"),
+    ("avnet-apac", "Avnet APAC", "Asia Pacific", "assets/entities/avnet.png", "Avnet Asia"),
+    ("ebv", "EBV Elektronik", "EMEA", "assets/entities/ebv.png", "EBV"),
+    ("abacus", "Avnet Abacus", "EMEA", "assets/entities/abacus.png", "Abacus"),
+]
+# catalog vendor / maker name -> manufacturer name in the line-card matrix
+ENTITY_ALIAS = {
+    "STMicroelectronics": "STMicroelectronics", "Infineon": "Infineon", "Microchip": "Microchip",
+    "NXP": "NXP", "Renesas": "Renesas", "AMD": "AMD", "Intel": "Intel", "Nordic": "Nordic Semiconductor",
+    "Broadcom": "Broadcom", "Semtech": "Semtech", "Qualcomm": "Qualcomm RF360",
+    "Tria": "Avnet", "Advantech": "Advantech", "Seeed Studio": "Seeed Studio", "ADLINK": "ADLINK Technology",
+    "Asus": "ASUS", "Dell": "Dell Technologies", "Arduino": "Arduino", "Raspberry Pi": "Raspberry Pi",
+}
+def load_entities():
+    path = os.path.join(DATA, "manufacturers-by-entity.csv")
+    if not os.path.exists(path): return []
+    rowsby = {}
+    with open(path, newline="", encoding="utf-8") as f:
+        for row in csv.DictReader(f):
+            rowsby[str(row.get("Manufacturer") or "").strip().lower()] = row
+    out = []
+    for key, name, tagline, logo, col in ENTITY_CFG:
+        vendors = sorted(cat for cat, csvname in ENTITY_ALIAS.items()
+                         if (rowsby.get(csvname.lower(), {}).get(col) or "").strip().upper() == "X")
+        out.append({"key": key, "name": name, "tagline": tagline, "logo": logo, "vendors": vendors})
+    return out
+entities = load_entities()
+
 n_guides = sum(len([x for x in b["resources"] if x["kind"] in ("quickstart","developer")]) for b in busd)
 n_demos  = sum(len([x for x in b["resources"] if x["kind"] == "demo"]) for b in busd)
 
 index = {
     "org": ORG, "generated": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
     "pagesUrl": PAGES_URL, "imageBase": IMAGE_BASE, "imageLocalBase": IMAGE_LOCAL, "brandBase": BRAND_BASE,
-    "partners": partners,
+    "partners": partners, "entities": entities,
     "facets": {"manufacturers": mfrs, "makers": makers, "topics": topics, "boards": busd},
     "counts": {"total": len(vis), "manufacturers": len(mfrs), "boards": len(busd),
                "sdks": sum(1 for r in vis if r["category"] in ("sdk","library")),

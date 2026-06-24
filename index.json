@@ -1,6 +1,6 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-06-24T13:25:54Z",
+  "generated": "2026-06-24T16:43:09Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
@@ -125,6 +125,164 @@
       "info": null,
       "boards": 0,
       "listings": 1
+    }
+  ],
+  "entities": [
+    {
+      "key": "newark",
+      "name": "Newark",
+      "tagline": "element14 · Americas",
+      "logo": "assets/entities/newark.png",
+      "vendors": [
+        "AMD",
+        "Advantech",
+        "Arduino",
+        "Asus",
+        "Broadcom",
+        "Infineon",
+        "Microchip",
+        "NXP",
+        "Nordic",
+        "Raspberry Pi",
+        "Renesas",
+        "STMicroelectronics",
+        "Seeed Studio",
+        "Semtech",
+        "Tria"
+      ]
+    },
+    {
+      "key": "farnell",
+      "name": "Farnell",
+      "tagline": "element14 · UK & Europe",
+      "logo": "assets/entities/farnell.png",
+      "vendors": [
+        "AMD",
+        "Advantech",
+        "Arduino",
+        "Broadcom",
+        "Infineon",
+        "Intel",
+        "Microchip",
+        "NXP",
+        "Nordic",
+        "Raspberry Pi",
+        "Renesas",
+        "STMicroelectronics",
+        "Seeed Studio",
+        "Semtech",
+        "Tria"
+      ]
+    },
+    {
+      "key": "element14",
+      "name": "element14",
+      "tagline": "Asia Pacific",
+      "logo": "assets/entities/element14.svg",
+      "vendors": [
+        "AMD",
+        "Advantech",
+        "Arduino",
+        "Broadcom",
+        "Infineon",
+        "Intel",
+        "Microchip",
+        "NXP",
+        "Nordic",
+        "Raspberry Pi",
+        "Renesas",
+        "STMicroelectronics",
+        "Seeed Studio",
+        "Semtech",
+        "Tria"
+      ]
+    },
+    {
+      "key": "silica",
+      "name": "Avnet Silica",
+      "tagline": "EMEA",
+      "logo": "assets/entities/silica.png",
+      "vendors": [
+        "AMD",
+        "Microchip",
+        "NXP",
+        "Nordic",
+        "Qualcomm",
+        "Renesas",
+        "STMicroelectronics",
+        "Semtech"
+      ]
+    },
+    {
+      "key": "avnet-americas",
+      "name": "Avnet Americas",
+      "tagline": "Americas",
+      "logo": "assets/entities/avnet.png",
+      "vendors": [
+        "ADLINK",
+        "AMD",
+        "Advantech",
+        "Arduino",
+        "Asus",
+        "Broadcom",
+        "Dell",
+        "Infineon",
+        "Intel",
+        "Microchip",
+        "NXP",
+        "Nordic",
+        "Qualcomm",
+        "Renesas",
+        "STMicroelectronics",
+        "Semtech"
+      ]
+    },
+    {
+      "key": "avnet-apac",
+      "name": "Avnet APAC",
+      "tagline": "Asia Pacific",
+      "logo": "assets/entities/avnet.png",
+      "vendors": [
+        "AMD",
+        "Advantech",
+        "Infineon",
+        "Microchip",
+        "NXP",
+        "Nordic",
+        "Renesas",
+        "STMicroelectronics",
+        "Semtech"
+      ]
+    },
+    {
+      "key": "ebv",
+      "name": "EBV Elektronik",
+      "tagline": "EMEA",
+      "logo": "assets/entities/ebv.png",
+      "vendors": [
+        "AMD",
+        "Broadcom",
+        "Infineon",
+        "Intel",
+        "Microchip",
+        "NXP",
+        "Renesas",
+        "STMicroelectronics"
+      ]
+    },
+    {
+      "key": "abacus",
+      "name": "Avnet Abacus",
+      "tagline": "EMEA",
+      "logo": "assets/entities/abacus.png",
+      "vendors": [
+        "AMD",
+        "Advantech",
+        "Intel",
+        "NXP",
+        "Renesas",
+        "STMicroelectronics"
+      ]
     }
   ],
   "facets": {

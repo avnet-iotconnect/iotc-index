@@ -13,6 +13,8 @@
 <style>
   :root{
     --brand:#41C363; --brand-deep:#15803D; --brand-bright:#6BD489; --brand-ink:#0B2014;
+    --brand-on:#06200F; --brand-hover:#2EA94F;
+    --hero-grad:linear-gradient(135deg,#071A0F 0%,#0F4F2B 52%,#1E9347 100%);
     --ink:#0C1B2A; --body:#2E4053; --muted:#54637A; --dim:#5C6A7E;
     --bg:#FFFFFF; --soft:#F3F7FC; --soft-2:#EAF1F9; --line:#E0E8F1; --line-2:#D2DEEC;
     --card:#FFFFFF; --shadow:0 1px 2px rgba(12,27,42,.05),0 8px 24px rgba(12,27,42,.06);
@@ -41,14 +43,19 @@
   .nav .links a:hover{color:var(--ink);background:var(--soft);}
   .nav .spacer{flex:1;}
   .btn{display:inline-flex;align-items:center;gap:8px;border-radius:10px;font-weight:600;font-size:14px;padding:10px 16px;cursor:pointer;border:1px solid transparent;transition:.15s;white-space:nowrap;}
-  .btn-primary{background:var(--brand);color:#06200F;box-shadow:0 6px 18px rgba(65,195,99,.36);}
-  .btn-primary:hover{background:#2EA94F;}
+  .btn-primary{background:var(--brand);color:var(--brand-on);box-shadow:0 6px 18px rgba(65,195,99,.36);}
+  .btn-primary:hover{background:var(--brand-hover);}
   .btn-ghost{background:#fff;border-color:var(--line-2);color:var(--ink);}
   .btn-ghost:hover{border-color:var(--brand);color:var(--brand-deep);}
   @media(max-width:820px){.nav .links{display:none;}}
 
   /* ---------- hero ---------- */
-  .hero{position:relative;overflow:hidden;background:linear-gradient(135deg,#071A0F 0%,#0F4F2B 52%,#1E9347 100%);color:#EAF6EE;}
+  .hero{position:relative;overflow:hidden;background:var(--hero-grad);color:#EAF6EE;}
+  .brand .avnet.entity-logo{height:30px;max-width:160px;width:auto;object-fit:contain;}
+  .ent-bar{background:var(--soft);border-bottom:1px solid var(--line);font-size:13px;color:var(--muted);}
+  .ent-bar .wrap{display:flex;align-items:center;gap:10px;padding:8px 24px;flex-wrap:wrap;}
+  .ent-bar b{color:var(--ink);}
+  .ent-bar a{color:var(--brand-deep);font-weight:600;margin-left:auto;}
   .hero::after{content:"";position:absolute;inset:0;background:radial-gradient(900px 500px at 82% -10%,rgba(65,195,99,.48),transparent 60%);pointer-events:none;}
   .hero-grid{position:relative;z-index:2;display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center;padding:66px 0 72px;}
   .eyebrow{display:inline-flex;align-items:center;gap:9px;font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#A7E8BD;margin-bottom:18px;}
@@ -656,6 +663,55 @@ window.addEventListener("hashchange",()=>{
   if(bm&&state.boardBySlug[bm[1]])openDrawer(bm[1]);
 });
 
+/* ---------------- entity (per-distributor) views ---------------- */
+const ENTITY_THEME={
+  newark:{brand:"#0085CA",deep:"#03658F",bright:"#36A9E0",on:"#fff",hover:"#0A93D8",hero:"linear-gradient(135deg,#06243A 0%,#03658F 52%,#0085CA 100%)"},
+  farnell:{brand:"#2E8E3A",deep:"#1F6128",bright:"#5FB246",on:"#fff",hover:"#359A42",hero:"linear-gradient(135deg,#071A0F 0%,#1F6128 52%,#2E8E3A 100%)"},
+  element14:{brand:"#008C92",deep:"#00666B",bright:"#2BB0B6",on:"#fff",hover:"#009BA1",hero:"linear-gradient(135deg,#04201F 0%,#00666B 52%,#008C92 100%)"},
+  silica:{brand:"#41C363",deep:"#15803D",bright:"#6BD489",on:"#06200F",hover:"#2EA94F",hero:"linear-gradient(135deg,#071A0F 0%,#0F4F2B 52%,#1E9347 100%)"},
+  "avnet-americas":{brand:"#41C363",deep:"#15803D",bright:"#6BD489",on:"#06200F",hover:"#2EA94F",hero:"linear-gradient(135deg,#071A0F 0%,#0F4F2B 52%,#1E9347 100%)"},
+  "avnet-apac":{brand:"#41C363",deep:"#15803D",bright:"#6BD489",on:"#06200F",hover:"#2EA94F",hero:"linear-gradient(135deg,#071A0F 0%,#0F4F2B 52%,#1E9347 100%)"},
+  ebv:{brand:"#C8960F",deep:"#876509",bright:"#E6B73C",on:"#fff",hover:"#DBA614",hero:"linear-gradient(135deg,#2A1F06 0%,#876509 52%,#C8960F 100%)"},
+  abacus:{brand:"#41C363",deep:"#15803D",bright:"#6BD489",on:"#06200F",hover:"#2EA94F",hero:"linear-gradient(135deg,#071A0F 0%,#0F4F2B 52%,#1E9347 100%)"}};
+function recomputeDerived(fullPartners){
+  const B=state.boards,R=state.repos,F=state.data.facets,byName={};
+  (fullPartners||[]).forEach(p=>byName[p.name]=p);
+  const bc={},lc={};
+  B.forEach(b=>bc[b.vendor]=(bc[b.vendor]||0)+1);
+  R.forEach(r=>(r.manufacturers||[]).forEach(m=>lc[m]=(lc[m]||0)+1));
+  state.partners=Object.keys(bc).filter(v=>v&&v!=="Other").map(v=>({name:v,slug:mslug(v),
+    logo:(byName[v]||{}).logo||null,info:(byName[v]||{}).info||null,boards:bc[v],listings:lc[v]||0}))
+    .sort((a,b)=>b.boards-a.boards);
+  F.manufacturers=[...new Set(B.map(b=>b.vendor))].filter(v=>v&&v!=="Other").sort();
+  F.makers=[...new Set(B.filter(b=>b.maker&&b.maker!==b.vendor&&b.maker!=="Other").map(b=>b.maker))].sort();
+  const tc={};R.forEach(r=>(r.features||[]).forEach(t=>tc[t]=(tc[t]||0)+1));
+  F.topics=Object.entries(tc).map(([tag,count])=>({tag,count})).sort((a,b)=>b.count-a.count||a.tag.localeCompare(b.tag));
+  state.data.counts={total:R.length,boards:B.length,manufacturers:F.manufacturers.length,
+    sdks:R.filter(r=>r.category==="sdk"||r.category==="library").length,
+    examples:R.filter(r=>r.category==="sample").length,
+    guides:B.reduce((n,b)=>n+(b.resources||[]).filter(x=>x.kind==="quickstart"||x.kind==="developer").length,0),
+    partners:state.partners.filter(p=>p.logo).length};
+}
+function applyEntity(e){
+  state.entity=e;
+  const t=ENTITY_THEME[e.key]||ENTITY_THEME.silica,rs=document.documentElement.style;
+  rs.setProperty("--brand",t.brand);rs.setProperty("--brand-deep",t.deep);rs.setProperty("--brand-bright",t.bright);
+  rs.setProperty("--brand-on",t.on);rs.setProperty("--brand-hover",t.hover);rs.setProperty("--hero-grad",t.hero);
+  const fullPartners=(state.data.partners||[]).slice(),vs=new Set(e.vendors);
+  state.boards=state.boards.filter(b=>vs.has(b.vendor)||vs.has(b.maker));
+  state.repos=state.repos.filter(r=>(r.manufacturers||[]).some(m=>vs.has(m))||(r.makers||[]).some(m=>vs.has(m)));
+  state.boardBySlug={};state.boards.forEach(b=>state.boardBySlug[b.slug]=b);
+  recomputeDerived(fullPartners);
+  document.querySelectorAll(".brand .avnet").forEach(img=>{img.src=e.logo;img.classList.add("entity-logo");img.alt=e.name;});
+  const eb=document.querySelector(".eyebrow");if(eb)eb.textContent=`${e.name} · /IOTCONNECT line card`;
+  const lede=document.querySelector(".hero .lede");
+  if(lede)lede.innerHTML=`The <b style="color:#fff">${esc(e.name)}</b> /IOTCONNECT line card — ${e.vendors.length} silicon &amp; board partners, each with pre-enabled boards, SDKs and ready-to-run demos. <a href="${location.pathname}" style="color:#fff;text-decoration:underline">See the full Avnet catalog →</a>`;
+  document.title=`${e.name} · /IOTCONNECT line card`;
+  const bar=document.createElement("div");bar.className="ent-bar";
+  bar.innerHTML=`<div class="wrap">Viewing the <b>${esc(e.name)}</b> line card${e.tagline?` · ${esc(e.tagline)}`:""} <a href="${location.pathname}">← All Avnet /IOTCONNECT lines</a></div>`;
+  const nav=document.querySelector(".nav");if(nav)nav.after(bar);
+}
+
 /* ---------------- boot ---------------- */
 (async()=>{
   try{
@@ -667,6 +723,10 @@ window.addEventListener("hashchange",()=>{
     state.repos=(data.repos||[]).filter(x=>!x.hidden);
     state.partners=data.partners||[];
     state.boards.forEach(b=>state.boardBySlug[b.slug]=b);
+    // per-distributor view: ?entity=newark|farnell|element14|silica|avnet-americas|avnet-apac|ebv|abacus
+    const entKey=(new URLSearchParams(location.search).get("entity")||"").toLowerCase();
+    const entity=entKey&&(data.entities||[]).find(e=>e.key===entKey);
+    if(entity)applyEntity(entity);
     $("#ctHw").textContent=state.boards.length;$("#ctSw").textContent=state.repos.length;
     $("#genline").textContent="updated "+ (data.generated||"").slice(0,10);
     // initial view from hash (#software / #maker / #hardware)
