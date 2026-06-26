@@ -1,6 +1,6 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-06-26T20:49:14Z",
+  "generated": "2026-06-26T20:58:57Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
@@ -116,7 +116,7 @@
       "logo": "assets/brand/renesas-logo.png",
       "info": "https://www.avnet.com/iotconnect/renesas",
       "boards": 18,
-      "listings": 19
+      "listings": 20
     },
     {
       "name": "STMicroelectronics",
@@ -341,7 +341,7 @@
       },
       {
         "tag": "gateway",
-        "count": 30
+        "count": 31
       },
       {
         "tag": "vision",
@@ -353,7 +353,7 @@
       },
       {
         "tag": "sensors",
-        "count": 22
+        "count": 23
       },
       {
         "tag": "wifi",
@@ -412,15 +412,15 @@
         "count": 7
       },
       {
+        "tag": "lora",
+        "count": 7
+      },
+      {
         "tag": "lorawan",
         "count": 7
       },
       {
         "tag": "gesture",
-        "count": 6
-      },
-      {
-        "tag": "lora",
         "count": 6
       },
       {
@@ -1206,7 +1206,7 @@
         "resources": [],
         "integrator": "Renesas",
         "maker": "Renesas",
-        "listings": 0
+        "listings": 1
       },
       {
         "slug": "fpb-ra2e1",
@@ -3266,11 +3266,11 @@
     ]
   },
   "counts": {
-    "total": 184,
+    "total": 185,
     "manufacturers": 17,
     "boards": 89,
     "sdks": 30,
-    "examples": 149,
+    "examples": 150,
     "guides": 80,
     "demos": 12,
     "partners": 9
@@ -4951,6 +4951,58 @@
         "maker": "Renesas",
         "partNumber": "FPB-RA0E1",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FPB-RA0E1.png"
+      },
+      "manufacturers": [
+        "Renesas"
+      ],
+      "makers": [
+        "Renesas"
+      ]
+    },
+    {
+      "repo": "iotc-lora-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-lora-demos",
+      "displayName": "LoRaWAN Sensor Monitoring",
+      "description": "Guide for onboarding LoRaWAN devices to IOTCONNECT. It walks through creating templates and configuring device attributes such as temperature, pressure, humidity and accelerometer for ST ASTRA1B and NUCLEO-WL55JC boards, creating LoRaWAN devices in the portal and sending telemetry and commands.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "gateway",
+        "lora",
+        "sensors"
+      ],
+      "stars": 0,
+      "updated": "2025-05-09T17:10:06Z",
+      "image": null,
+      "dashboards": [
+        "https://saleshosted.z13.web.core.windows.net/dashboard/avt-awspoc/aws-ggl-dash1.PNG"
+      ],
+      "photos": [
+        "https://saleshosted.z13.web.core.windows.net/images/demos/lorawan.png"
+      ],
+      "described": true,
+      "hidden": false,
+      "id": "lorawan-sensor-monitoring::fpb-ra0e2",
+      "boards": [
+        {
+          "slug": "fpb-ra0e2",
+          "vendor": "Renesas",
+          "name": "Fast Prototyping Board for RA0E2 MCU Group",
+          "maker": "Renesas",
+          "partNumber": "FPB-RA0E2",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FPB-RA0E2.png"
+        }
+      ],
+      "board": {
+        "slug": "fpb-ra0e2",
+        "vendor": "Renesas",
+        "name": "Fast Prototyping Board for RA0E2 MCU Group",
+        "maker": "Renesas",
+        "partNumber": "FPB-RA0E2",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FPB-RA0E2.png"
       },
       "manufacturers": [
         "Renesas"

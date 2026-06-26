@@ -1,6 +1,6 @@
 # /IOTCONNECT Index — Audit Report
 
-_Generated 2026-06-26T20:49:14Z_  ·  184 listings · 89 boards (78 in use) · 17 manufacturers · 212 resources
+_Generated 2026-06-26T20:58:57Z_  ·  185 listings · 89 boards (79 in use) · 17 manufacturers · 212 resources
 
 ## ⚠ Boards referenced but missing from the Boards sheet
 - none — every referenced board is defined.
@@ -16,7 +16,6 @@ _Generated 2026-06-26T20:49:14Z_  ·  184 listings · 89 boards (78 in use) · 1
 - STMicroelectronics · Arduino OPTA RS485 (AFX00001)
 - Infineon · PSOC™ Control C3M5 Evaluation Kit (KIT_PSC3M5_EVK)
 - Infineon · XENSIV™ KIT CSK BGT60TR13C (KIT_CSK_BGT60TR13C)
-- Renesas · Fast Prototyping Board for RA0E2 MCU Group (FPB-RA0E2)
 - STMicroelectronics · STM32 Nucleo-144 development board with STM32H755ZI MCU (NUCLEO-H755ZI-Q)
 - AMD · VE2302 Development Kit (AES-VE2302-DK-G)
 - NXP · NXP MaaXBoard Mini (AES-MC-SBC-IMX8MINI-G)
