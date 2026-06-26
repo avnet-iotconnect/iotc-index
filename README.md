@@ -39,11 +39,31 @@ just navigate to what you want and copy the link.
 |---|---|---|
 | One **manufacturer** | `#partner/<slug>` (or `?partner=<slug>`) | `…/#partner/st` · `…/#partner/nxp` |
 | A specific **board** | `#board/<slug>` | `…/#board/aes-rzb-v2l-sk-g` |
+| A **sample / demo** | `#demo/<id>` | `…/#demo/drone` |
 | A **view** | `#hardware` · `#software` · `#maker` | `…/#software` |
+| An **Avnet line card** | `?entity=<key>` | `…/?entity=ebv` · `…/?entity=newark` |
 
 Manufacturer resolves by name, slug, or alias — `st`, `nxp`, `infineon`, `microchip`,
 `renesas`, plus any other vendor in the catalog (`advantech`, `amd`, `nordic`,
 `raspberry-pi`, `tria-nxp`, …). `st` is a shortcut for `stmicroelectronics`.
+
+### Avnet line cards
+
+Each Avnet operating company has its own **branded, scoped view** — its own logo and
+colours, showing only the lines it franchises — via `?entity=<key>`:
+
+| Company | Line card |
+|---|---|
+| **Newark** — element14, Americas | https://avnet-iotconnect.github.io/iotc-index/?entity=newark |
+| **Farnell** — element14, UK & Europe | https://avnet-iotconnect.github.io/iotc-index/?entity=farnell |
+| **element14** — Asia Pacific | https://avnet-iotconnect.github.io/iotc-index/?entity=element14 |
+| **Avnet Silica** — EMEA | https://avnet-iotconnect.github.io/iotc-index/?entity=silica |
+| **Avnet Americas** | https://avnet-iotconnect.github.io/iotc-index/?entity=avnet-americas |
+| **Avnet APAC** | https://avnet-iotconnect.github.io/iotc-index/?entity=avnet-apac |
+| **EBV Elektronik** — EMEA | https://avnet-iotconnect.github.io/iotc-index/?entity=ebv |
+| **Avnet Abacus** — EMEA | https://avnet-iotconnect.github.io/iotc-index/?entity=abacus |
+
+EBV renders in EBV Blue; every other line card uses the Avnet green theme.
 
 ---
 
