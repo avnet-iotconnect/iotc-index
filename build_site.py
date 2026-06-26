@@ -128,6 +128,10 @@ def resolve_listing_image(v):
     if re.match(r'^(https?:|data:|//|assets/|\./)', s): return s
     return resolve_image(s)   # bare filename -> Azure board host (fallback)
 
+def gallery(v):
+    """Pipe-separated media URLs (Dashboards / Photos columns) -> resolved list."""
+    return [u for u in (resolve_listing_image(x) for x in str(v or "").split("|")) if u]
+
 listings = []
 for row in lrows:
     if not row.get("Name"): continue
@@ -143,6 +147,8 @@ for row in lrows:
         "boards": refs, "description": str(row.get("Description") or "").strip(),
         "url": (str(row.get("Link")).strip() or None) if row.get("Link") else None,
         "image": resolve_listing_image(row.get("Image")),
+        "dashboards": gallery(row.get("Dashboards")),   # /IOTCONNECT cloud screenshots
+        "photos": gallery(row.get("Photos")),           # real hardware-in-action photos
     })
 
 # ---------- live GitHub facts ----------
@@ -191,7 +197,7 @@ for L in listings:
             "languages": L["languages"] or (live or {}).get("languages", []),
             "features": L["features"], "stars": (live or {}).get("stars", 0),
             "updated": (live or {}).get("updated", "2026-06-01T00:00:00Z"),
-            "image": L["image"],
+            "image": L["image"], "dashboards": L["dashboards"], "photos": L["photos"],
             "described": bool(L["description"] or L["repo"]), "hidden": False}
     if L["category"] == "sample" and len(boards) > 1:
         for b in boards:

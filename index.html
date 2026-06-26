@@ -206,6 +206,30 @@
   .relitem .rt .rn{font-weight:600;font-size:14px;color:var(--ink);}
   .relitem .rt .rd{font-size:12px;color:var(--muted);display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden;}
   .relitem .pill{font-family:'JetBrains Mono',monospace;font-size:9.5px;text-transform:uppercase;padding:3px 7px;border-radius:5px;background:var(--soft);border:1px solid var(--line);color:var(--muted);}
+  button.relitem{width:100%;font:inherit;text-align:left;background:none;border:0;border-bottom:1px solid var(--line);cursor:pointer;}
+  button.relitem:hover .rn{color:var(--brand-deep);}
+  /* dashboard-first card thumbnail (screenshots/photos fill edge-to-edge) */
+  .imgwrap.shot{background:#0d1b14;}
+  .imgwrap img.shot{object-fit:cover;padding:0;}
+  .imgwrap.shot::before{font-size:26px;background:linear-gradient(135deg,#0d1b14,#10271a);color:#2f5d44;}
+  .qbadge.media{background:rgba(7,26,15,.92);color:#D7F3E0;display:inline-flex;align-items:center;gap:5px;}
+  /* sample detail drawer: gallery + meta */
+  .dr-vendor .pill-cat{font-family:'JetBrains Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:.05em;background:var(--soft-2);color:var(--brand-deep);padding:3px 8px;border-radius:6px;}
+  .dr-vendor .led-dot{width:7px;height:7px;border-radius:50%;background:var(--st);box-shadow:0 0 7px var(--st);}
+  .dr-desc{font-size:14px;color:var(--body);line-height:1.55;margin-top:18px;}
+  .dr-gallery{margin:20px 0 6px;}
+  .dr-gmain{position:relative;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#0d1b14;aspect-ratio:16/10;display:grid;place-items:center;}
+  .dr-gmain::before{content:attr(data-mono);position:absolute;inset:0;display:grid;place-items:center;font-family:'JetBrains Mono',monospace;font-weight:600;font-size:46px;color:#2f5d44;}
+  .dr-gmain img{position:relative;width:100%;height:100%;object-fit:cover;}
+  .dr-gmain.contain{background:#fff;}
+  .dr-gmain.contain img{object-fit:contain;padding:18px;}
+  .dr-gmain .gcap{position:absolute;left:0;right:0;bottom:0;padding:9px 13px;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.04em;color:#fff;background:linear-gradient(0deg,rgba(0,0,0,.62),transparent);}
+  .dr-gthumbs{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap;}
+  .gthumb{width:66px;height:46px;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:#fff;cursor:pointer;padding:0;flex:0 0 auto;}
+  .gthumb img{width:100%;height:100%;object-fit:cover;}
+  .gthumb.active{border-color:var(--brand);box-shadow:0 0 0 2px var(--brand);}
+  button.reslink{width:100%;font:inherit;text-align:left;color:inherit;}
+  .reslink .ic img{width:100%;height:100%;object-fit:contain;}
 
   footer{background:var(--brand-ink);color:#AECFBA;padding:46px 0 32px;}
   footer .fg{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:28px;}
@@ -349,7 +373,7 @@ const mono=s=>(String(s||"").trim()[0]||"·").toUpperCase();
 const vcolor=v=>VENDOR_COLOR[v]||VENDOR_COLOR.Other;
 function timeAgo(iso){const d=(Date.now()-new Date(iso).getTime())/864e5;if(isNaN(d))return"";if(d<1)return"today";if(d<7)return Math.floor(d)+"d";if(d<60)return Math.floor(d/7)+"w";if(d<730)return Math.floor(d/30)+"mo";return Math.floor(d/365)+"y";}
 
-const state={data:null,boards:[],repos:[],partners:[],boardBySlug:{},
+const state={data:null,boards:[],repos:[],partners:[],boardBySlug:{},repoById:{},
   view:"hardware",query:"",filters:{manufacturer:[],maker:[],topic:[],language:[],type:[],status:[],qual:[]}};
 const EMPTY_FILTERS=()=>({manufacturer:[],maker:[],topic:[],language:[],type:[],status:[],qual:[]});
 const anyFilter=()=>Object.values(state.filters).some(a=>a.length)||state.query;
@@ -368,6 +392,23 @@ function boardImgEl(b,cls=""){
   const local=(b.image&&b.imageLocal)?b.imageLocal:"";
   if(!primary) return "";
   return `<img class="${cls}" src="${esc(primary)}" ${local?`data-local="${esc(local)}"`:""} alt="${esc(b.name)}" loading="lazy" onerror="imgErr(this)">`;
+}
+/* dashboard-first thumbnail for a listing card (falls back to the board image) */
+function mediaLead(r){
+  const d=r.dashboards||[],p=r.photos||[];
+  const url=d[0]||p[0]||"";
+  if(!url)return null;
+  const b=(r.boards&&r.boards[0])||r.board||null;
+  return {url,fb:b?(b.image||b.imageLocal||""):"",isDash:!!d[0]};
+}
+/* ordered media for the sample drawer gallery: dashboards -> photos -> board(s) */
+function listingMedia(r){
+  const m=[];
+  (r.dashboards||[]).forEach(u=>m.push({u,cap:"/IOTCONNECT dashboard",dash:true}));
+  (r.photos||[]).forEach(u=>m.push({u,cap:"Demo in action"}));
+  (r.boards||[]).forEach(b=>{const bi=b&&(b.image||b.imageLocal);if(bi)m.push({u:bi,cap:b.name,contain:true});});
+  if(!m.length&&r.image)m.push({u:r.image,cap:r.displayName,contain:true});
+  return m;
 }
 
 /* ---------------- hero + partners ---------------- */
@@ -468,44 +509,43 @@ function repoCard(r){
   const boards=r.boards||[];
   const st=r.status||"none";
   const stColor=`var(--st-${st})`;
+  const cat=`<span class="tag-tl">${esc(r.category)}</span>`;
+  const stt=`<span class="tag-tr" style="--st:${stColor}"><span class="led"></span>${esc(st)}</span>`;
+  const lead=mediaLead(r);
   let img;
-  if(!boards.length){
-    const tags=`<span class="tag-tl">${esc(r.category)}</span><span class="tag-tr" style="--st:${stColor}"><span class="led"></span>${esc(st)}</span>`;
+  if(lead){
+    img=`<div class="imgwrap shot" data-mono="${esc(mono(r.displayName||r.repo))}">
+      <img class="shot" src="${esc(lead.url)}" ${lead.fb?`data-local="${esc(lead.fb)}"`:""} alt="${esc(r.displayName||"")}" loading="lazy" onerror="imgErr(this)">${cat}${stt}
+      <div class="qbadges"><span class="qbadge media">${lead.isDash?"📊 live dashboard":"📷 demo"}</span></div></div>`;
+  }else if(!boards.length){
     if(r.image){
       const isLogo=/\.svg(\?|$)/i.test(r.image);
       img=`<div class="imgwrap ${isLogo?"tech":""}" data-mono="${esc((r.languages&&r.languages[0])||"/")}">
-        <img class="${isLogo?"techlogo":""}" src="${esc(r.image)}" alt="${esc(r.displayName||"")}" loading="lazy" onerror="imgErr(this)">${tags}
+        <img class="${isLogo?"techlogo":""}" src="${esc(r.image)}" alt="${esc(r.displayName||"")}" loading="lazy" onerror="imgErr(this)">${cat}${stt}
         <div class="qbadges"><span class="qbadge" style="background:#15803D">${esc((r.languages&&r.languages[0])||"platform-agnostic")}</span></div></div>`;
     }else{
-      img=`<div class="imgwrap" data-mono="{ }">${tags}
+      img=`<div class="imgwrap" data-mono="{ }">${cat}${stt}
         <div class="qbadges"><span class="qbadge" style="background:#15803D">platform-agnostic</span></div></div>`;
     }
   }else if(boards.length===1){
-    img=`<div class="imgwrap" data-mono="${esc(mono(boards[0].partNumber||boards[0].name))}">${boardImgEl(boards[0])}
-      <span class="tag-tl">${esc(r.category)}</span>
-      <span class="tag-tr" style="--st:${stColor}"><span class="led"></span>${esc(st)}</span></div>`;
+    img=`<div class="imgwrap" data-mono="${esc(mono(boards[0].partNumber||boards[0].name))}">${boardImgEl(boards[0])}${cat}${stt}</div>`;
   }else{
     const show=boards.slice(0,3),n=Math.min(show.length,3);
-    img=`<div class="imgwrap multi n${n}" data-mono="">${show.map(b=>boardImgEl(b)).join("")}
-      <span class="tag-tl">${esc(r.category)}</span>
-      <span class="tag-tr" style="--st:${stColor}"><span class="led"></span>${esc(st)}</span>
+    img=`<div class="imgwrap multi n${n}" data-mono="">${show.map(b=>boardImgEl(b)).join("")}${cat}${stt}
       <div class="qbadges"><span class="qbadge" style="background:#15803D">${boards.length} boards</span></div></div>`;
   }
   const langs=(r.languages||[]).slice(0,2).map(l=>`<span class="badge lang">${esc(l)}</span>`).join("");
   const topics=(r.features||[]).filter(t=>!["telemetry","commands","ota","twin"].includes(t)).slice(0,2).map(t=>`<span class="badge">${esc(t)}</span>`).join("");
-  const hasUrl=!!r.url;
-  const meta=`<div class="foot"><div class="res"><span>★ ${r.stars??0}</span><span>${timeAgo(r.updated)}</span></div><span class="arrow">${hasUrl?"↗":""}</span></div>`;
-  const inner=`${img}
+  const meta=`<div class="foot"><div class="res"><span>★ ${r.stars??0}</span><span>${timeAgo(r.updated)}</span></div><span class="arrow">→</span></div>`;
+  return `<div class="card" data-listing="${esc(r.id)}" role="button" tabindex="0" aria-label="${esc(r.displayName||r.repo)} — view details">${img}
     <div class="body">
       <div class="cname">${esc(r.displayName||r.repo)}</div>
       ${r.repo?`<div class="cpn">${esc(r.repo)}</div>`:""}
       <div class="cdesc">${esc(r.description||"No description.")}</div>
       <div class="badges">${langs}${topics}</div>
       ${meta}
-    </div>`;
-  return hasUrl
-    ? `<a class="card" href="${esc(r.url)}" target="_blank" rel="noopener">${inner}</a>`
-    : `<div class="card" style="cursor:default">${inner}</div>`;
+    </div>
+  </div>`;
 }
 
 /* ---------------- render ---------------- */
@@ -588,6 +628,14 @@ function trapFocus(e){
   else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}
 }
 function relatedRepos(slug){return state.repos.filter(r=>(r.boards||[]).some(b=>b.slug===slug));}
+function showDrawer(hash){
+  const dr=$("#drawer");
+  if(!dr.classList.contains("open"))lastFocus=document.activeElement;
+  $("#scrim").classList.add("open");dr.classList.add("open");dr.setAttribute("aria-hidden","false");
+  dr.removeEventListener("keydown",trapFocus);dr.addEventListener("keydown",trapFocus);
+  $("#drClose").focus();
+  if(history.replaceState)history.replaceState(null,"",hash);
+}
 function openDrawer(slug){
   const b=state.boardBySlug[slug];if(!b)return;
   const res=b.resources||[];
@@ -602,7 +650,7 @@ function openDrawer(slug){
   const relHtml=rel.length?`<div class="related">
      <div class="resgroup"><h3>📦 In this catalog · ${rel.length}</h3>${
      rel.map(r=>{const inner=`<div class="rt"><div class="rn">${esc(r.displayName||r.repo)}</div><div class="rd">${esc(r.description||"")}</div></div><span class="pill">${esc(r.category)}</span>`;
-        return r.url?`<a class="relitem" href="${esc(r.url)}" target="_blank" rel="noopener">${inner}</a>`:`<div class="relitem">${inner}</div>`;}).join("")}</div></div>`:"";
+        return `<button class="relitem" data-listing="${esc(r.id)}">${inner}</button>`;}).join("")}</div></div>`:"";
   const quals=(b.qualifications||[]).map(q=>`<span class="dr-qual">${esc(q)}</span>`).join("");
   const buy=b.buy?`<a class="btn btn-primary" href="${esc(b.buy)}" target="_blank" rel="noopener">🛒 Buy on Avnet</a>`:"";
   const prod=b.link?`<a class="btn btn-ghost" href="${esc(b.link)}" target="_blank" rel="noopener">Product page ↗</a>`:"";
@@ -621,12 +669,8 @@ function openDrawer(slug){
       ${relHtml}
     </div>`;
   $("#drClose").onclick=closeDrawer;
-  const dr=$("#drawer");
-  lastFocus=document.activeElement;
-  $("#scrim").classList.add("open");dr.classList.add("open");dr.setAttribute("aria-hidden","false");
-  dr.addEventListener("keydown",trapFocus);
-  $("#drClose").focus();
-  if(history.replaceState)history.replaceState(null,"","#board/"+slug);
+  $("#drawer").querySelectorAll("[data-listing]").forEach(x=>x.onclick=()=>openListing(x.dataset.listing));
+  showDrawer("#board/"+slug);
 }
 function closeDrawer(){
   const dr=$("#drawer");if(!dr.classList.contains("open"))return;
@@ -635,10 +679,64 @@ function closeDrawer(){
   if(lastFocus&&lastFocus.focus){lastFocus.focus();lastFocus=null;}
   syncHash();}   /* restore #partner/<slug> if a manufacturer filter is active, else clear */
 
+/* sample/SDK detail drawer — gallery (dashboards + photos + board) + boards + links */
+let galleryMedia=[];
+function openListing(id){
+  const r=state.repoById[id];if(!r)return;
+  galleryMedia=listingMedia(r);
+  const first=galleryMedia[0];
+  const gallery=galleryMedia.length?`<div class="dr-gallery">
+      <div class="dr-gmain ${first.contain?"contain":""}" data-mono="${esc(mono(r.displayName||r.repo))}">
+        <img id="gMain" src="${esc(first.u)}" alt="${esc(first.cap)}" onerror="imgErr(this)">
+        <span class="gcap" id="gCap">${esc(first.cap)}</span>
+      </div>
+      ${galleryMedia.length>1?`<div class="dr-gthumbs">${galleryMedia.map((m,i)=>
+        `<button class="gthumb ${i?"":"active"}" data-gi="${i}" title="${esc(m.cap)}"><img src="${esc(m.u)}" alt="" loading="lazy" onerror="this.parentNode.style.display='none'"></button>`).join("")}</div>`:""}
+    </div>`:"";
+  const boards=(r.boards||[]).filter(b=>b&&b.slug);
+  const boardsHtml=boards.length?`<div class="resgroup"><h3>📟 Runs on${boards.length>1?` · ${boards.length}`:""}</h3>${
+    boards.map(b=>{const known=!!state.boardBySlug[b.slug];
+      const inner=`<span class="ic">${boardImgEl(b)||"📟"}</span><span class="tx"><span class="tt">${esc(b.name)}</span><span class="kd">${esc(b.partNumber||b.vendor||"")}</span></span>${known?'<span class="go">→</span>':""}`;
+      return known?`<button class="reslink" data-board-link="${esc(b.slug)}">${inner}</button>`:`<div class="reslink" style="cursor:default">${inner}</div>`;}).join("")
+    }</div>`:"";
+  const gh=r.url?`<a class="btn btn-primary" href="${esc(r.url)}" target="_blank" rel="noopener">${r.repo?"View on GitHub ↗":"Open ↗"}</a>`:"";
+  let qs="";
+  for(const b of boards){const bd=state.boardBySlug[b.slug];const q=bd&&(bd.resources||[]).find(x=>x.kind==="quickstart");
+    if(q){qs=`<a class="btn btn-ghost" href="${esc(q.url)}" target="_blank" rel="noopener">⚡ QuickStart</a>`;break;}}
+  const langs=(r.languages||[]).map(l=>`<span class="dr-qual" style="background:#0B2014">${esc(l)}</span>`).join("");
+  const topics=(r.features||[]).map(t=>`<span class="dr-qual" style="background:var(--brand-deep)">${esc(t)}</span>`).join("");
+  $("#drawer").innerHTML=`
+    <div class="dr-head">
+      <button class="dr-close" id="drClose">×</button>
+      <div class="dr-vendor"><span class="pill-cat">${esc(r.category)}</span><span class="led-dot" style="--st:var(--st-${esc(r.status||"none")})"></span><span>${esc(r.status||"")}</span></div>
+      <h2>${esc(r.displayName||r.repo)}</h2>
+      ${r.repo?`<div class="dr-pn">${esc(r.repo)}</div>`:""}
+      ${(langs||topics)?`<div class="dr-quals">${langs}${topics}</div>`:""}
+    </div>
+    <div class="dr-body">
+      ${gallery}
+      ${(gh||qs)?`<div class="dr-cta">${gh}${qs}</div>`:""}
+      ${r.description?`<p class="dr-desc">${esc(r.description)}</p>`:""}
+      ${boardsHtml}
+    </div>`;
+  $("#drClose").onclick=closeDrawer;
+  $("#drawer").querySelectorAll(".gthumb").forEach(t=>t.onclick=()=>{
+    const m=galleryMedia[+t.dataset.gi];if(!m)return;
+    const im=$("#gMain");im.style.display="";im.removeAttribute("data-tried");im.src=m.u;im.alt=m.cap;
+    $("#gCap").textContent=m.cap;
+    $("#drawer").querySelector(".dr-gmain").classList.toggle("contain",!!m.contain);
+    $("#drawer").querySelectorAll(".gthumb").forEach(x=>x.classList.toggle("active",x===t));
+  });
+  $("#drawer").querySelectorAll("[data-board-link]").forEach(x=>x.onclick=()=>openDrawer(x.dataset.boardLink));
+  showDrawer("#demo/"+id);
+}
+
 /* ---------------- events ---------------- */
 document.addEventListener("click",e=>{
   const card=e.target.closest(".card[data-board]");
   if(card){openDrawer(card.dataset.board);return;}
+  const lcard=e.target.closest(".card[data-listing]");
+  if(lcard){openListing(lcard.dataset.listing);return;}
   const chipEl=e.target.closest(".chip");
   if(chipEl){const {key,val}=chipEl.dataset;const arr=state.filters[key];const i=arr.indexOf(val);i>=0?arr.splice(i,1):arr.push(val);renderFilters();render();syncHash();return;}
   if(e.target.id==="clearall"){state.filters=EMPTY_FILTERS();state.query="";$("#q").value="";renderFilters();render();syncHash();return;}
@@ -653,14 +751,19 @@ $("#viewSeg").addEventListener("click",e=>{const b=e.target.closest("button");if
 $("#scrim").addEventListener("click",closeDrawer);
 document.addEventListener("keydown",e=>{
   if(e.key==="Escape"){closeDrawer();return;}
-  if((e.key==="Enter"||e.key===" ")){const c=e.target.closest(".card[data-board]");if(c){e.preventDefault();openDrawer(c.dataset.board);}}
+  if((e.key==="Enter"||e.key===" ")){
+    const c=e.target.closest(".card[data-board]");if(c){e.preventDefault();openDrawer(c.dataset.board);return;}
+    const lc=e.target.closest(".card[data-listing]");if(lc){e.preventDefault();openListing(lc.dataset.listing);}
+  }
 });
 let qt;$("#q").addEventListener("input",e=>{clearTimeout(qt);qt=setTimeout(()=>{state.query=e.target.value.trim();render();},110);});
 window.addEventListener("hashchange",()=>{
   const pm=location.hash.match(/#partner\/(.+)/);
   if(pm){applyPartner(pm[1],true);return;}
   const bm=location.hash.match(/#board\/(.+)/);
-  if(bm&&state.boardBySlug[bm[1]])openDrawer(bm[1]);
+  if(bm&&state.boardBySlug[bm[1]]){openDrawer(bm[1]);return;}
+  const dm=location.hash.match(/#demo\/(.+)/);
+  if(dm&&state.repoById[dm[1]])openListing(dm[1]);
 });
 
 /* ---------------- entity (per-distributor) views ---------------- */
@@ -695,6 +798,7 @@ function applyEntity(e){
   state.boards=state.boards.filter(b=>vs.has(b.vendor)||vs.has(b.maker));
   state.repos=state.repos.filter(r=>(r.manufacturers||[]).some(m=>vs.has(m))||(r.makers||[]).some(m=>vs.has(m)));
   state.boardBySlug={};state.boards.forEach(b=>state.boardBySlug[b.slug]=b);
+  state.repoById={};state.repos.forEach(r=>state.repoById[r.id]=r);
   recomputeDerived(fullPartners);
   document.querySelectorAll(".brand .avnet").forEach(img=>{img.src=e.logo;img.classList.add("entity-logo");img.alt=e.name;});
   const eb=document.querySelector(".eyebrow");if(eb)eb.textContent=`${e.name} · /IOTCONNECT line card`;
@@ -717,6 +821,7 @@ function applyEntity(e){
     state.repos=(data.repos||[]).filter(x=>!x.hidden);
     state.partners=data.partners||[];
     state.boards.forEach(b=>state.boardBySlug[b.slug]=b);
+    state.repos.forEach(r=>state.repoById[r.id]=r);
     // per-distributor view: ?entity=newark|farnell|element14|silica|avnet-americas|avnet-apac|ebv|abacus
     const entKey=(new URLSearchParams(location.search).get("entity")||"").toLowerCase();
     const entity=entKey&&(data.entities||[]).find(e=>e.key===entKey);
@@ -733,8 +838,10 @@ function applyEntity(e){
     const pm=location.hash.match(/#partner\/(.+)/);
     const qp=new URLSearchParams(location.search).get("partner");
     if(pm)applyPartner(pm[1],false); else if(qp)applyPartner(qp,false);
-    // ... or a board
+    // ... or a board ...
     const m=location.hash.match(/#board\/(.+)/);if(m&&state.boardBySlug[m[1]])openDrawer(m[1]);
+    // ... or a sample/demo
+    const dm=location.hash.match(/#demo\/(.+)/);if(dm&&state.repoById[dm[1]])openListing(dm[1]);
   }catch(err){
     $("#results").innerHTML=`<div class="grid"><div class="empty">Failed to load <span class="mono">index.json</span>: ${esc(err.message)}.<br>Run <span class="mono">python build_site.py</span> and serve over HTTP.</div></div>`;
   }
