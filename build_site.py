@@ -133,8 +133,10 @@ def gallery(v):
     return [u for u in (resolve_listing_image(x) for x in str(v or "").split("|")) if u]
 
 listings = []
+catalogued_repos = set()   # every repo with a row (incl. Include=no) — acknowledged, so not "uncatalogued"
 for row in lrows:
     if not row.get("Name"): continue
+    if row.get("Repo"): catalogued_repos.add(str(row.get("Repo")).strip())
     if str(row.get("Include") or "yes").lower() == "no": continue
     name = str(row.get("Name")).strip()
     refs = [resolve_ref(r, name) for r in split(row.get("Boards"))]
@@ -353,7 +355,7 @@ changed_index = write_stable(os.path.join(OUT, "index.json"), index_text, r'"gen
 orphan = [d for s, d in board_defs.items() if not s.startswith("x-") and s not in used_slugs]
 no_image = [d for s, d in board_defs.items()
             if not s.startswith("x-") and not d.get("image") and not d.get("imageLocal")]
-uncatalogued = [r for r in org_repos if not r.get("archived") and r["name"] not in used_repos] if org_repos else []
+uncatalogued = [r for r in org_repos if not r.get("archived") and r["name"] not in catalogued_repos] if org_repos else []
 incomplete = [L["name"] for L in listings
               if (L["category"] == "sample" and not L["features"]) or (not L["description"] and not L["repo"])]
 

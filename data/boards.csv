@@ -82,3 +82,9 @@ NVIDIA,Jetson AGX Orin Developer Kit,JETSON-ORIN,,JETSON-ORIN.jpg,https://develo
 Renesas,RZ/G3E Evaluation Kit,RZ-G3E-EVK,,RZ-G3E-EVK.jpg,https://www.renesas.com/en/design-resources/boards-kits/rz-g3e-evkit,no,no,"AI, HMI, NPU",yes,Renesas
 Renesas,RZ/V2H Evaluation Kit,RZ-V2H-EVK,,RZ-V2H-EVK.jpg,https://www.renesas.com/en/design-resources/boards-kits/rz-v2h-evk,no,no,"AI, Vision",yes,Renesas
 STMicroelectronics,STM32MP215F-DK Discovery Kit,STM32MP215F-DK,,STM32MP215F-DK.jpg,https://www.st.com/en/evaluation-tools/stm32mp215f-dk.html,no,no,"AI, IoT, Edge",yes,STMicroelectronics
+Brainboxes,Brainboxes BB-400 Industrial Edge Controller,BB-400,,BB-400.jpg,https://www.brainboxes.com/product/industrial-edge-controller/bb-400,,,,yes,Broadcom
+Renesas,EK-RA6W1 Wi-Fi 6 MCU Evaluation Kit,RTK7WKA6W1S04000BK,,RTK7WKA6W1S04000BK.png,https://www.renesas.com/en/design-resources/boards-kits/ek-ra6w1,,,,yes,Renesas
+Realtek,AMB82-MINI (Ameba Pro 2 Mini) AIoT Camera Dev Board,AMB82-MINI,,AMB82-MINI.png,https://www.amebaiot.com/en/amebapro2/,,,,yes,Realtek
+Arduino,Arduino Pro Portenta H7,ABX00042,,ABX00042.png,https://docs.arduino.cc/hardware/portenta-h7/,,,,yes,STMicroelectronics
+Arduino,Arduino PRO Portenta C33,ABX00074,,ABX00074.jpg,https://store.arduino.cc/products/portenta-c33,,,,yes,Renesas
+SparkFun,SparkFun ESP32 Thing,DEV-13907,,DEV-13907.jpg,https://www.sparkfun.com/sparkfun-esp32-thing.html,,,,yes,Espressif

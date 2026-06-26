@@ -1,6 +1,6 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-06-26T17:05:41Z",
+  "generated": "2026-06-26T20:32:31Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
@@ -35,8 +35,16 @@
       "slug": "broadcom",
       "logo": null,
       "info": null,
+      "boards": 2,
+      "listings": 3
+    },
+    {
+      "name": "Espressif",
+      "slug": "espressif",
+      "logo": null,
+      "info": null,
       "boards": 1,
-      "listings": 2
+      "listings": 1
     },
     {
       "name": "Infineon",
@@ -52,7 +60,7 @@
       "logo": "assets/brand/intel-logo.svg",
       "info": null,
       "boards": 4,
-      "listings": 0
+      "listings": 2
     },
     {
       "name": "Microchip",
@@ -60,7 +68,7 @@
       "logo": "assets/brand/microchip-logo.png",
       "info": "https://www.avnet.com/iotconnect/microchip",
       "boards": 9,
-      "listings": 19
+      "listings": 22
     },
     {
       "name": "NVIDIA",
@@ -68,7 +76,7 @@
       "logo": "assets/brand/nvidia-logo.svg",
       "info": null,
       "boards": 6,
-      "listings": 4
+      "listings": 6
     },
     {
       "name": "NXP",
@@ -76,7 +84,7 @@
       "logo": "assets/brand/nxp-logo.png",
       "info": "https://www.avnet.com/iotconnect/nxp",
       "boards": 10,
-      "listings": 19
+      "listings": 20
     },
     {
       "name": "Nordic",
@@ -95,20 +103,28 @@
       "listings": 8
     },
     {
+      "name": "Realtek",
+      "slug": "realtek",
+      "logo": null,
+      "info": null,
+      "boards": 1,
+      "listings": 1
+    },
+    {
       "name": "Renesas",
       "slug": "renesas",
       "logo": "assets/brand/renesas-logo.png",
       "info": "https://www.avnet.com/iotconnect/renesas",
-      "boards": 16,
-      "listings": 14
+      "boards": 18,
+      "listings": 19
     },
     {
       "name": "STMicroelectronics",
       "slug": "stmicroelectronics",
       "logo": "assets/brand/st-logo.png",
       "info": "https://www.avnet.com/iotconnect/st",
-      "boards": 15,
-      "listings": 43
+      "boards": 16,
+      "listings": 57
     },
     {
       "name": "Semtech",
@@ -291,12 +307,15 @@
       "Amphenol",
       "Avnet",
       "Broadcom",
+      "Espressif",
       "Infineon",
+      "Intel",
       "Microchip",
       "NVIDIA",
       "NXP",
       "Nordic",
       "Qualcomm",
+      "Realtek",
       "Renesas",
       "STMicroelectronics",
       "Semtech",
@@ -307,16 +326,22 @@
       "Advantech",
       "Arduino",
       "Asus",
+      "Brainboxes",
       "Dell",
       "Kerlink",
       "Raspberry Pi",
       "Seeed Studio",
+      "SparkFun",
       "Tria"
     ],
     "topics": [
       {
         "tag": "edge-ai",
-        "count": 57
+        "count": 61
+      },
+      {
+        "tag": "gateway",
+        "count": 30
       },
       {
         "tag": "vision",
@@ -331,19 +356,31 @@
         "count": 22
       },
       {
-        "tag": "gateway",
-        "count": 17
+        "tag": "wifi",
+        "count": 21
       },
       {
         "tag": "greengrass",
-        "count": 17
+        "count": 20
+      },
+      {
+        "tag": "ble",
+        "count": 18
+      },
+      {
+        "tag": "yocto",
+        "count": 15
+      },
+      {
+        "tag": "kvs",
+        "count": 14
       },
       {
         "tag": "mpu",
         "count": 14
       },
       {
-        "tag": "kvs",
+        "tag": "modustoolbox",
         "count": 13
       },
       {
@@ -355,27 +392,27 @@
         "count": 12
       },
       {
-        "tag": "ble",
+        "tag": "freertos",
         "count": 12
       },
       {
-        "tag": "modustoolbox",
-        "count": 12
+        "tag": "tls",
+        "count": 11
       },
       {
         "tag": "npu",
         "count": 10
       },
       {
+        "tag": "webrtc",
+        "count": 8
+      },
+      {
         "tag": "fpga",
         "count": 7
       },
       {
-        "tag": "webrtc",
-        "count": 7
-      },
-      {
-        "tag": "wifi",
+        "tag": "lorawan",
         "count": 7
       },
       {
@@ -387,11 +424,27 @@
         "count": 6
       },
       {
+        "tag": "modbus",
+        "count": 6
+      },
+      {
         "tag": "predictive-maintenance",
         "count": 5
       },
       {
+        "tag": "secure-element",
+        "count": 5
+      },
+      {
         "tag": "anomaly-detection",
+        "count": 4
+      },
+      {
+        "tag": "at-commands",
+        "count": 4
+      },
+      {
+        "tag": "cellular",
         "count": 4
       },
       {
@@ -400,10 +453,6 @@
       },
       {
         "tag": "agriculture",
-        "count": 3
-      },
-      {
-        "tag": "cellular",
         "count": 3
       },
       {
@@ -439,6 +488,14 @@
         "count": 3
       },
       {
+        "tag": "snap",
+        "count": 3
+      },
+      {
+        "tag": "audio-classification",
+        "count": 2
+      },
+      {
         "tag": "imu",
         "count": 2
       },
@@ -451,11 +508,27 @@
         "count": 2
       },
       {
-        "tag": "yocto",
+        "tag": "wolfssl",
+        "count": 2
+      },
+      {
+        "tag": "x509",
         "count": 2
       },
       {
         "tag": "asset-tracking",
+        "count": 1
+      },
+      {
+        "tag": "azure-rtos",
+        "count": 1
+      },
+      {
+        "tag": "chirpstack",
+        "count": 1
+      },
+      {
+        "tag": "cmake",
         "count": 1
       },
       {
@@ -464,6 +537,10 @@
       },
       {
         "tag": "drone",
+        "count": 1
+      },
+      {
+        "tag": "esp32",
         "count": 1
       },
       {
@@ -479,11 +556,59 @@
         "count": 1
       },
       {
+        "tag": "hardware-crypto",
+        "count": 1
+      },
+      {
+        "tag": "meta-layer",
+        "count": 1
+      },
+      {
+        "tag": "ml",
+        "count": 1
+      },
+      {
+        "tag": "mlops",
+        "count": 1
+      },
+      {
+        "tag": "object-detection",
+        "count": 1
+      },
+      {
+        "tag": "pkcs11",
+        "count": 1
+      },
+      {
+        "tag": "pmod",
+        "count": 1
+      },
+      {
+        "tag": "sdk",
+        "count": 1
+      },
+      {
         "tag": "siren-detection",
         "count": 1
       },
       {
+        "tag": "tf-m",
+        "count": 1
+      },
+      {
+        "tag": "trustzone",
+        "count": 1
+      },
+      {
         "tag": "uav",
+        "count": 1
+      },
+      {
+        "tag": "vision-ai",
+        "count": 1
+      },
+      {
+        "tag": "wifi-provisioning",
         "count": 1
       },
       {
@@ -529,6 +654,22 @@
         "listings": 0
       },
       {
+        "slug": "amb82-mini",
+        "vendor": "Realtek",
+        "name": "AMB82-MINI (Ameba Pro 2 Mini) AIoT Camera Dev Board",
+        "partNumber": "AMB82-MINI",
+        "image": null,
+        "imageLocal": "assets/boards/AMB82-MINI.png",
+        "link": "https://www.amebaiot.com/en/amebapro2/",
+        "buy": null,
+        "qualifications": [],
+        "tags": [],
+        "resources": [],
+        "integrator": "Realtek",
+        "maker": "Realtek",
+        "listings": 1
+      },
+      {
         "slug": "amphenol-mikrobus-clicks",
         "vendor": "Amphenol",
         "name": "Amphenol mikroBUS Click Sensor Boards",
@@ -567,6 +708,38 @@
         "integrator": "Arduino",
         "maker": "Arduino",
         "listings": 0
+      },
+      {
+        "slug": "abx00074",
+        "vendor": "Renesas",
+        "name": "Arduino PRO Portenta C33",
+        "partNumber": "ABX00074",
+        "image": null,
+        "imageLocal": "assets/boards/ABX00074.jpg",
+        "link": "https://store.arduino.cc/products/portenta-c33",
+        "buy": null,
+        "qualifications": [],
+        "tags": [],
+        "resources": [],
+        "integrator": "Arduino",
+        "maker": "Arduino",
+        "listings": 1
+      },
+      {
+        "slug": "abx00042",
+        "vendor": "STMicroelectronics",
+        "name": "Arduino Pro Portenta H7",
+        "partNumber": "ABX00042",
+        "image": null,
+        "imageLocal": "assets/boards/ABX00042.png",
+        "link": "https://docs.arduino.cc/hardware/portenta-h7/",
+        "buy": null,
+        "qualifications": [],
+        "tags": [],
+        "resources": [],
+        "integrator": "Arduino",
+        "maker": "Arduino",
+        "listings": 1
       },
       {
         "slug": "arduino-uno-q",
@@ -659,6 +832,22 @@
         "listings": 2
       },
       {
+        "slug": "bb-400",
+        "vendor": "Broadcom",
+        "name": "Brainboxes BB-400 Industrial Edge Controller",
+        "partNumber": "BB-400",
+        "image": null,
+        "imageLocal": "assets/boards/BB-400.jpg",
+        "link": "https://www.brainboxes.com/product/industrial-edge-controller/bb-400",
+        "buy": null,
+        "qualifications": [],
+        "tags": [],
+        "resources": [],
+        "integrator": "Brainboxes",
+        "maker": "Brainboxes",
+        "listings": 1
+      },
+      {
         "slug": "ck-rk65n",
         "vendor": "Renesas",
         "name": "CK-RX65N Cloud Kit",
@@ -729,7 +918,7 @@
         ],
         "integrator": "Renesas",
         "maker": "Renesas",
-        "listings": 1
+        "listings": 2
       },
       {
         "slug": "us159-da16200mevz",
@@ -758,7 +947,7 @@
         ],
         "integrator": "Renesas",
         "maker": "Renesas",
-        "listings": 1
+        "listings": 2
       },
       {
         "slug": "us159-da16600evz",
@@ -784,7 +973,7 @@
         ],
         "integrator": "Renesas",
         "maker": "Renesas",
-        "listings": 1
+        "listings": 3
       },
       {
         "slug": "3200",
@@ -805,7 +994,7 @@
         "resources": [],
         "integrator": "Dell",
         "maker": "Dell",
-        "listings": 0
+        "listings": 1
       },
       {
         "slug": "5200",
@@ -826,7 +1015,7 @@
         "resources": [],
         "integrator": "Dell",
         "maker": "Dell",
-        "listings": 0
+        "listings": 1
       },
       {
         "slug": "da16600mod-devkt",
@@ -897,6 +1086,22 @@
         "resources": [],
         "integrator": "Advantech",
         "maker": "Advantech",
+        "listings": 2
+      },
+      {
+        "slug": "rtk7wka6w1s04000bk",
+        "vendor": "Renesas",
+        "name": "EK-RA6W1 Wi-Fi 6 MCU Evaluation Kit",
+        "partNumber": "RTK7WKA6W1S04000BK",
+        "image": null,
+        "imageLocal": "assets/boards/RTK7WKA6W1S04000BK.png",
+        "link": "https://www.renesas.com/en/design-resources/boards-kits/ek-ra6w1",
+        "buy": null,
+        "qualifications": [],
+        "tags": [],
+        "resources": [],
+        "integrator": "Renesas",
+        "maker": "Renesas",
         "listings": 1
       },
       {
@@ -949,7 +1154,7 @@
         ],
         "integrator": "Renesas",
         "maker": "Renesas",
-        "listings": 1
+        "listings": 3
       },
       {
         "slug": "ek-ra8m1",
@@ -1221,7 +1426,7 @@
         ],
         "integrator": "Tria / NXP",
         "maker": "Tria",
-        "listings": 2
+        "listings": 3
       },
       {
         "slug": "mxe-210",
@@ -1318,7 +1523,7 @@
         ],
         "integrator": "Tria / NXP",
         "maker": "Tria",
-        "listings": 1
+        "listings": 2
       },
       {
         "slug": "aes-mc-sbc-imx8mini-g",
@@ -1476,7 +1681,7 @@
         "resources": [],
         "integrator": "Asus",
         "maker": "Asus",
-        "listings": 0
+        "listings": 1
       },
       {
         "slug": "ev19j06a",
@@ -1521,7 +1726,7 @@
         ],
         "integrator": "Microchip",
         "maker": "Microchip",
-        "listings": 1
+        "listings": 2
       },
       {
         "slug": "mpfs-disco-kit",
@@ -1606,7 +1811,7 @@
         ],
         "integrator": "STMicroelectronics",
         "maker": "STMicroelectronics",
-        "listings": 1
+        "listings": 2
       },
       {
         "slug": "kitpse84aitobo1",
@@ -1972,7 +2177,7 @@
         ],
         "integrator": "Raspberry Pi",
         "maker": "Raspberry Pi",
-        "listings": 2
+        "listings": 3
       },
       {
         "slug": "aes-rasynb-120",
@@ -2329,7 +2534,7 @@
         ],
         "integrator": "STMicroelectronics",
         "maker": "STMicroelectronics",
-        "listings": 1
+        "listings": 2
       },
       {
         "slug": "som-6873",
@@ -2349,6 +2554,22 @@
         "resources": [],
         "integrator": "Advantech",
         "maker": "Advantech",
+        "listings": 1
+      },
+      {
+        "slug": "dev-13907",
+        "vendor": "Espressif",
+        "name": "SparkFun ESP32 Thing",
+        "partNumber": "DEV-13907",
+        "image": null,
+        "imageLocal": "assets/boards/DEV-13907.jpg",
+        "link": "https://www.sparkfun.com/sparkfun-esp32-thing.html",
+        "buy": null,
+        "qualifications": [],
+        "tags": [],
+        "resources": [],
+        "integrator": "SparkFun",
+        "maker": "SparkFun",
         "listings": 1
       },
       {
@@ -2399,7 +2620,7 @@
         ],
         "integrator": "STMicroelectronics",
         "maker": "STMicroelectronics",
-        "listings": 1
+        "listings": 3
       },
       {
         "slug": "b-l475e-iot01a2",
@@ -2477,7 +2698,7 @@
         ],
         "integrator": "STMicroelectronics",
         "maker": "STMicroelectronics",
-        "listings": 10
+        "listings": 11
       },
       {
         "slug": "stm32mp157f-dk2",
@@ -2539,7 +2760,7 @@
         ],
         "integrator": "STMicroelectronics",
         "maker": "STMicroelectronics",
-        "listings": 9
+        "listings": 12
       },
       {
         "slug": "stm32mp257f-dk",
@@ -2713,7 +2934,7 @@
         ],
         "integrator": "STMicroelectronics",
         "maker": "STMicroelectronics",
-        "listings": 2
+        "listings": 3
       },
       {
         "slug": "b-u585i-iot02a",
@@ -2754,7 +2975,7 @@
         ],
         "integrator": "STMicroelectronics",
         "maker": "STMicroelectronics",
-        "listings": 3
+        "listings": 9
       },
       {
         "slug": "nucleo-wl55jc",
@@ -2928,7 +3149,7 @@
         ],
         "integrator": "Microchip",
         "maker": "Microchip",
-        "listings": 2
+        "listings": 4
       },
       {
         "slug": "wirnet-istation",
@@ -3045,11 +3266,11 @@
     ]
   },
   "counts": {
-    "total": 149,
-    "manufacturers": 14,
-    "boards": 83,
-    "sdks": 18,
-    "examples": 131,
+    "total": 185,
+    "manufacturers": 17,
+    "boards": 89,
+    "sdks": 31,
+    "examples": 149,
     "guides": 80,
     "demos": 12,
     "partners": 9
@@ -10284,6 +10505,1733 @@
       "makers": [
         "Renesas"
       ]
+    },
+    {
+      "repo": "iotc-python-lite-snap-examples",
+      "url": "https://github.com/avnet-iotconnect/iotc-python-lite-snap-examples",
+      "displayName": "IOTCONNECT Python Lite SDK - Snap Examples",
+      "description": "Working example applications for deploying the /IOTCONNECT Python Lite SDK and REST CLI via the Snapcraft package manager on snapd-enabled Linux devices. Includes a generic hello-telemetry quickstart plus board-specific examples (Advantech ICAM-540, Raspberry Pi 5 vision AI, Microchip PIC64GX, AMD Ryzen AI ONNX card demo, Brainboxes BB-400) and a catalog of validated edge platforms in BOARD_CATALOG.md.",
+      "category": "sdk",
+      "status": "beta",
+      "languages": [
+        "Python"
+      ],
+      "features": [
+        "edge-ai",
+        "gateway",
+        "object-detection",
+        "snap",
+        "vision-ai"
+      ],
+      "stars": 1,
+      "updated": "2026-06-09T14:18:04Z",
+      "image": "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-snap-examples/main/examples/raspberry-pi5-iotc-vision-ai-pi5/media/dasboard-img.png",
+      "dashboards": [],
+      "photos": [],
+      "described": true,
+      "hidden": false,
+      "id": "iotconnect-python-lite-sdk-snap-examples",
+      "boards": [
+        {
+          "slug": "icam-540-30w",
+          "vendor": "NVIDIA",
+          "name": "Edge AI Camera",
+          "maker": "Advantech",
+          "integrator": "Advantech",
+          "partNumber": "ICAM-540-30W",
+          "image": "https://apn-portal.my.salesforce.com/servlet/servlet.ImageServer?id=015aq000000IvZJAA0&oid=00DE0000000c48tMAA"
+        },
+        {
+          "slug": "rpi5-4gb-single",
+          "vendor": "Broadcom",
+          "name": "Raspberry Pi5 4GB",
+          "maker": "Raspberry Pi",
+          "integrator": "Raspberry Pi",
+          "partNumber": "RPI5-4GB-SINGLE",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/RPI5.png"
+        },
+        {
+          "slug": "curiosity-pic64gx1000-kit",
+          "vendor": "Microchip",
+          "name": "PIC64GX Curiosity Kit",
+          "maker": "Microchip",
+          "partNumber": "CURIOSITY-PIC64GX1000-KIT",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CURIOSITY-PIC64GX1000-KIT.png",
+          "imageLocal": "assets/boards/CURIOSITY-PIC64GX1000-KIT.png"
+        },
+        {
+          "slug": "bb-400",
+          "vendor": "Broadcom",
+          "name": "Brainboxes BB-400 Industrial Edge Controller",
+          "maker": "Brainboxes",
+          "integrator": "Brainboxes",
+          "partNumber": "BB-400",
+          "imageLocal": "assets/boards/BB-400.jpg"
+        }
+      ],
+      "board": {
+        "slug": "icam-540-30w",
+        "vendor": "NVIDIA",
+        "name": "Edge AI Camera",
+        "maker": "Advantech",
+        "integrator": "Advantech",
+        "partNumber": "ICAM-540-30W",
+        "image": "https://apn-portal.my.salesforce.com/servlet/servlet.ImageServer?id=015aq000000IvZJAA0&oid=00DE0000000c48tMAA"
+      },
+      "manufacturers": [
+        "Broadcom",
+        "Microchip",
+        "NVIDIA"
+      ],
+      "makers": [
+        "Advantech",
+        "Brainboxes",
+        "Microchip",
+        "Raspberry Pi"
+      ]
+    },
+    {
+      "repo": "iotc-freertos-ek-ra6w1",
+      "url": "https://github.com/avnet-iotconnect/iotc-freertos-ek-ra6w1",
+      "displayName": "FreeRTOS on Renesas EK-RA6W1 (Wi-Fi 6 MCU)",
+      "description": "FreeRTOS sample for the Renesas EK-RA6W1 evaluation kit (Cortex-M33 dual-band Wi-Fi 6 MCU, motherboard plus module) that connects to /IOTCONNECT over a secure MQTT/TLS link. Built on the Renesas RA Flexible Software Package (FSP) and an AWS IoT example base, with Wi-Fi credentials provisioned via a serial CLI or the Renesas Wi-Fi Provisioning mobile app.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [
+        "C",
+        "Python"
+      ],
+      "features": [
+        "freertos",
+        "wifi",
+        "wifi-provisioning"
+      ],
+      "stars": 0,
+      "updated": "2026-05-04T16:31:13Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "described": true,
+      "hidden": false,
+      "id": "freertos-on-renesas-ek-ra6w1-wi-fi-6-mcu",
+      "boards": [
+        {
+          "slug": "rtk7wka6w1s04000bk",
+          "vendor": "Renesas",
+          "name": "EK-RA6W1 Wi-Fi 6 MCU Evaluation Kit",
+          "maker": "Renesas",
+          "partNumber": "RTK7WKA6W1S04000BK",
+          "imageLocal": "assets/boards/RTK7WKA6W1S04000BK.png"
+        }
+      ],
+      "board": {
+        "slug": "rtk7wka6w1s04000bk",
+        "vendor": "Renesas",
+        "name": "EK-RA6W1 Wi-Fi 6 MCU Evaluation Kit",
+        "maker": "Renesas",
+        "partNumber": "RTK7WKA6W1S04000BK",
+        "imageLocal": "assets/boards/RTK7WKA6W1S04000BK.png"
+      },
+      "manufacturers": [
+        "Renesas"
+      ],
+      "makers": [
+        "Renesas"
+      ]
+    },
+    {
+      "repo": "stm32n6570_dk_w6x_iot_reference",
+      "url": "https://github.com/avnet-iotconnect/stm32n6570_dk_w6x_iot_reference",
+      "displayName": "Secure MQTT-over-TLS Reference on STM32N6570-DK with ST67W611M1 Wi-Fi 6",
+      "description": "FreeRTOS reference firmware for the STM32N6570-DK paired with the ST67W611M1 Wi-Fi 6 module, providing a flash/provision/validate bring-up workflow for secure MQTT-over-TLS to AWS IoT Core or Mosquitto. Uses LwIP networking and MbedTLS 3.1.1 accelerated by STM32N6 hardware crypto (RNG, SHA256, AES, PKA) with PKCS#11 key/certificate management. Includes LED-control and button-event MQTT demos.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [
+        "C",
+        "Python",
+        "C++",
+        "Assembly",
+        "PowerShell"
+      ],
+      "features": [
+        "freertos",
+        "hardware-crypto",
+        "pkcs11",
+        "tls",
+        "wifi"
+      ],
+      "stars": 0,
+      "updated": "2026-04-22T23:08:01Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "described": true,
+      "hidden": false,
+      "id": "secure-mqtt-over-tls-reference-on-stm32n6570-dk-with-st67w611m1-wi-fi-6",
+      "boards": [
+        {
+          "slug": "stm32n6570-dk",
+          "vendor": "STMicroelectronics",
+          "name": "STM32N6 Discovery Kit",
+          "maker": "STMicroelectronics",
+          "partNumber": "STM32N6570-DK",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32N6570-DK.png",
+          "imageLocal": "assets/boards/STM32N6570-DK.jpg"
+        }
+      ],
+      "board": {
+        "slug": "stm32n6570-dk",
+        "vendor": "STMicroelectronics",
+        "name": "STM32N6 Discovery Kit",
+        "maker": "STMicroelectronics",
+        "partNumber": "STM32N6570-DK",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32N6570-DK.png",
+        "imageLocal": "assets/boards/STM32N6570-DK.jpg"
+      },
+      "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
+        "STMicroelectronics"
+      ]
+    },
+    {
+      "repo": "iotc-ameba-pro2-webrtc-kvs",
+      "url": "https://github.com/avnet-iotconnect/iotc-ameba-pro2-webrtc-kvs",
+      "displayName": "WebRTC/KVS Video Streaming on Ameba Pro 2 (AMB82-MINI) with /IOTCONNECT",
+      "description": "Firmware demo for the Realtek RTL8735B (Ameba Pro 2 Mini / AMB82-MINI) that streams live camera video over WebRTC via Amazon Kinesis Video Streams, with /IOTCONNECT handling device management, MQTT telemetry, and automatic AWS credential delivery. A single config script applies device certificates and credentials, and the firmware is built with CMake and the Ameba GCC toolchain.",
+      "category": "demo",
+      "status": "beta",
+      "languages": [
+        "C",
+        "CMake",
+        "Shell"
+      ],
+      "features": [
+        "kvs",
+        "webrtc",
+        "wifi"
+      ],
+      "stars": 1,
+      "updated": "2026-04-21T01:56:10Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "described": true,
+      "hidden": false,
+      "id": "webrtc-kvs-video-streaming-on-ameba-pro-2-amb82-mini-with-iotconnect",
+      "boards": [
+        {
+          "slug": "amb82-mini",
+          "vendor": "Realtek",
+          "name": "AMB82-MINI (Ameba Pro 2 Mini) AIoT Camera Dev Board",
+          "maker": "Realtek",
+          "partNumber": "AMB82-MINI",
+          "imageLocal": "assets/boards/AMB82-MINI.png"
+        }
+      ],
+      "board": {
+        "slug": "amb82-mini",
+        "vendor": "Realtek",
+        "name": "AMB82-MINI (Ameba Pro 2 Mini) AIoT Camera Dev Board",
+        "maker": "Realtek",
+        "partNumber": "AMB82-MINI",
+        "imageLocal": "assets/boards/AMB82-MINI.png"
+      },
+      "manufacturers": [
+        "Realtek"
+      ],
+      "makers": [
+        "Realtek"
+      ]
+    },
+    {
+      "repo": "iotc-freertos-stm32-u5",
+      "url": "https://github.com/avnet-iotconnect/iotc-freertos-stm32-u5",
+      "displayName": "FreeRTOS on STM32U5 IoT Discovery Kit for /IOTCONNECT",
+      "description": "Sample application and partial SDK that connects the STM32U5 IoT Discovery Kit (B-U585I-IOT02A) to /IOTCONNECT over FreeRTOS. It includes both a non-TrustZone and a Trusted Firmware-M (TF-M) project, uses the onboard Wi-Fi module for connectivity and mbedTLS for TLS-secured cloud sessions, and ships a QuickStart binary for quick evaluation. Built on the AWS FreeRTOS reference integration.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "freertos",
+        "tls",
+        "trustzone",
+        "wifi"
+      ],
+      "stars": 0,
+      "updated": "2026-02-20T23:39:15Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "described": true,
+      "hidden": false,
+      "id": "freertos-on-stm32u5-iot-discovery-kit-for-iotconnect",
+      "boards": [
+        {
+          "slug": "b-u585i-iot02a",
+          "vendor": "STMicroelectronics",
+          "name": "STM32U5 Discovery Kit",
+          "maker": "STMicroelectronics",
+          "partNumber": "B-U585I-IOT02A",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/B-U585I-IOT02A.png",
+          "imageLocal": "assets/boards/STM32U5.jpg"
+        }
+      ],
+      "board": {
+        "slug": "b-u585i-iot02a",
+        "vendor": "STMicroelectronics",
+        "name": "STM32U5 Discovery Kit",
+        "maker": "STMicroelectronics",
+        "partNumber": "B-U585I-IOT02A",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/B-U585I-IOT02A.png",
+        "imageLocal": "assets/boards/STM32U5.jpg"
+      },
+      "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
+        "STMicroelectronics"
+      ]
+    },
+    {
+      "repo": "iotc-gg-nucleus-snap",
+      "url": "https://github.com/avnet-iotconnect/iotc-gg-nucleus-snap",
+      "displayName": "Greengrass v2 Nucleus Snap for Ubuntu Core (/IOTCONNECT)",
+      "description": "A Snapcraft-packaged AWS IoT Greengrass v2 Nucleus Classic runtime for Ubuntu Core, prebuilt for amd64/arm64/armhf/riscv64 with an interactive /IOTCONNECT onboarding flow that provisions Greengrass from an /IOTCONNECT connection kit. Derived from the upstream AWS Greengrass snap, it bundles boto3/awsiotsdk and a configure hook that creates the IoT Core Thing and Greengrass Core device.",
+      "category": "library",
+      "status": "beta",
+      "languages": [
+        "Python",
+        "Shell"
+      ],
+      "features": [
+        "gateway",
+        "greengrass",
+        "snap"
+      ],
+      "stars": 0,
+      "updated": "2026-01-31T20:53:13Z",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9e/UbuntuCoF.svg",
+      "dashboards": [],
+      "photos": [],
+      "described": true,
+      "hidden": false,
+      "id": "greengrass-v2-nucleus-snap-for-ubuntu-core-iotconnect",
+      "boards": [],
+      "board": null,
+      "manufacturers": [],
+      "makers": []
+    },
+    {
+      "repo": "iotc-python-lite-snap",
+      "url": "https://github.com/avnet-iotconnect/iotc-python-lite-snap",
+      "displayName": "/IOTCONNECT Python Lite SDK as a Snap",
+      "description": "A Snapcraft package that bundles the /IOTCONNECT Python Lite SDK for Linux edge devices (amd64/arm64), providing device provisioning, a quickstart telemetry app, and a UNIX-socket bridge so external apps can stream JSON to /IOTCONNECT. Includes OTA delivery of models/scripts into the persistent $SNAP_COMMON area and a REST-based provisioning flow for device onboarding.",
+      "category": "sdk",
+      "status": "beta",
+      "languages": [
+        "Python"
+      ],
+      "features": [
+        "gateway",
+        "snap"
+      ],
+      "stars": 0,
+      "updated": "2025-11-10T16:30:42Z",
+      "image": "https://snapcraft.io/iotconnect/badge.svg",
+      "dashboards": [],
+      "photos": [],
+      "described": true,
+      "hidden": false,
+      "id": "iotconnect-python-lite-sdk-as-a-snap",
+      "boards": [],
+      "board": null,
+      "manufacturers": [],
+      "makers": []
+    },
+    {
+      "repo": "iotc-freertos-stm32-h5",
+      "url": "https://github.com/avnet-iotconnect/iotc-freertos-stm32-h5",
+      "displayName": "FreeRTOS on STM32H573I-DK with ST Secure Manager",
+      "description": "A sample application built on X-CUBE-FreeRTOS that connects the STM32H573I-DK Discovery Kit to /IOTCONNECT, using the /IOTCONNECT FreeRTOS SDK and ST's Secure Manager for secured device identity. Ships with a prebuilt binary for quick evaluation plus a developer guide for source-level customization.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "freertos",
+        "secure-element"
+      ],
+      "stars": 0,
+      "updated": "2025-10-29T23:38:40Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "described": true,
+      "hidden": false,
+      "id": "freertos-on-stm32h573i-dk-with-st-secure-manager",
+      "boards": [
+        {
+          "slug": "stm32h573i-dk",
+          "vendor": "STMicroelectronics",
+          "name": "STM32H5 Discovery Kit",
+          "maker": "STMicroelectronics",
+          "partNumber": "STM32H573I-DK",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/stm32h573DK.png",
+          "imageLocal": "assets/boards/STM32H5.jpg"
+        }
+      ],
+      "board": {
+        "slug": "stm32h573i-dk",
+        "vendor": "STMicroelectronics",
+        "name": "STM32H5 Discovery Kit",
+        "maker": "STMicroelectronics",
+        "partNumber": "STM32H573I-DK",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/stm32h573DK.png",
+        "imageLocal": "assets/boards/STM32H5.jpg"
+      },
+      "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
+        "STMicroelectronics"
+      ]
+    },
+    {
+      "repo": "iotc-freertos-stm32-u5-ml-demo-v2",
+      "url": "https://github.com/avnet-iotconnect/iotc-freertos-stm32-u5-ml-demo-v2",
+      "displayName": "Edge Audio Classification on STM32U5 with FreeRTOS and Cloud Retraining",
+      "description": "FreeRTOS firmware for the STM32U5 (B-U585I-IOT02A Discovery kit) running on-device audio classification of urban noise events (alarms, dog barking, water, race cars, horns), paired with an AWS CDK retraining pipeline that recompiles models and delivers them to the edge via /IOTCONNECT OTA.",
+      "category": "demo",
+      "status": "beta",
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "audio-classification",
+        "edge-ai",
+        "freertos",
+        "ml"
+      ],
+      "stars": 0,
+      "updated": "2025-09-05T03:15:20Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "described": true,
+      "hidden": false,
+      "id": "edge-audio-classification-on-stm32u5-with-freertos-and-cloud-retraining",
+      "boards": [
+        {
+          "slug": "b-u585i-iot02a",
+          "vendor": "STMicroelectronics",
+          "name": "STM32U5 Discovery Kit",
+          "maker": "STMicroelectronics",
+          "partNumber": "B-U585I-IOT02A",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/B-U585I-IOT02A.png",
+          "imageLocal": "assets/boards/STM32U5.jpg"
+        }
+      ],
+      "board": {
+        "slug": "b-u585i-iot02a",
+        "vendor": "STMicroelectronics",
+        "name": "STM32U5 Discovery Kit",
+        "maker": "STMicroelectronics",
+        "partNumber": "B-U585I-IOT02A",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/B-U585I-IOT02A.png",
+        "imageLocal": "assets/boards/STM32U5.jpg"
+      },
+      "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
+        "STMicroelectronics"
+      ]
+    },
+    {
+      "repo": "iotc-aws-greengrass",
+      "url": "https://github.com/avnet-iotconnect/iotc-aws-greengrass",
+      "displayName": "/IOTCONNECT AWS Greengrass SDK Component Template",
+      "description": "A board-agnostic AWS IoT Greengrass v2 custom-component template that bridges a Greengrass core device to Avnet /IOTCONNECT over AWS IoT Core. The core component (com.iotconnect.sdk2) uses the awsiotsdk Greengrass core IPC for MQTT pub/sub, and an optional Simulator component generates temperature/anomaly readings (scikit-learn declared as a dependency, values produced via simulation) published through the Greengrass pub/sub bus.",
+      "category": "sdk",
+      "status": "beta",
+      "languages": [
+        "Python"
+      ],
+      "features": [
+        "gateway",
+        "greengrass"
+      ],
+      "stars": 0,
+      "updated": "2025-05-27T12:56:27Z",
+      "image": "https://opengraph.githubassets.com/1/avnet-iotconnect/iotc-aws-greengrass",
+      "dashboards": [],
+      "photos": [],
+      "described": true,
+      "hidden": false,
+      "id": "iotconnect-aws-greengrass-sdk-component-template",
+      "boards": [],
+      "board": null,
+      "manufacturers": [],
+      "makers": []
+    },
+    {
+      "repo": "meta-iotc-sdk-lite",
+      "url": "https://github.com/avnet-iotconnect/meta-iotc-sdk-lite",
+      "displayName": "/IOTCONNECT Yocto Meta-Layer for the Python Lite SDK",
+      "description": "A Yocto/BitBake meta-layer that provides a recipe (python3-iotc-lite-sdk) for integrating the /IOTCONNECT Python Lite SDK into custom embedded Linux images. Lets developers pre-integrate /IOTCONNECT connectivity when building Yocto-based distributions for embedded platforms.",
+      "category": "library",
+      "status": "beta",
+      "languages": [
+        "BitBake",
+        "Python"
+      ],
+      "features": [
+        "meta-layer",
+        "yocto"
+      ],
+      "stars": 0,
+      "updated": "2025-04-29T17:39:57Z",
+      "image": "https://avatars.githubusercontent.com/u/79603029?v=4",
+      "dashboards": [],
+      "photos": [],
+      "described": true,
+      "hidden": false,
+      "id": "iotconnect-yocto-meta-layer-for-the-python-lite-sdk",
+      "boards": [],
+      "board": null,
+      "manufacturers": [],
+      "makers": []
+    },
+    {
+      "repo": "iotc-python-examples",
+      "url": "https://github.com/avnet-iotconnect/iotc-python-examples",
+      "displayName": "/IOTCONNECT Python Examples Collection",
+      "description": "A collection of Python-based /IOTCONNECT examples and demos running on Linux gateways and edge devices, covering BLE sensor ingestion (STEVAL-PROTEUS1, SensorTile.box PRO) bridged through an STM32MP157F-DK2 gateway, Modbus motor monitoring on the Asus PE100A, Dell Edge Gateway 3200/5200 connectivity, and a Yocto-built LoRaWAN gateway that bridges a ChirpStack LoRa Network Server to /IOTCONNECT on the STM32MP157F-DK2. Examples connect to /IOTCONNECT on AWS and Azure using the Python SDK.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [
+        "Python"
+      ],
+      "features": [
+        "ble",
+        "gateway",
+        "lorawan",
+        "modbus",
+        "yocto"
+      ],
+      "stars": 1,
+      "updated": "2025-04-26T00:15:34Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "described": true,
+      "hidden": false,
+      "id": "iotconnect-python-examples-collection::pe100a",
+      "boards": [
+        {
+          "slug": "pe100a",
+          "vendor": "NVIDIA",
+          "name": "PE100A",
+          "maker": "Asus",
+          "integrator": "Asus",
+          "partNumber": "PE100A",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/Asus_PE100a.png"
+        }
+      ],
+      "board": {
+        "slug": "pe100a",
+        "vendor": "NVIDIA",
+        "name": "PE100A",
+        "maker": "Asus",
+        "integrator": "Asus",
+        "partNumber": "PE100A",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/Asus_PE100a.png"
+      },
+      "manufacturers": [
+        "NVIDIA"
+      ],
+      "makers": [
+        "Asus"
+      ]
+    },
+    {
+      "repo": "iotc-python-examples",
+      "url": "https://github.com/avnet-iotconnect/iotc-python-examples",
+      "displayName": "/IOTCONNECT Python Examples Collection",
+      "description": "A collection of Python-based /IOTCONNECT examples and demos running on Linux gateways and edge devices, covering BLE sensor ingestion (STEVAL-PROTEUS1, SensorTile.box PRO) bridged through an STM32MP157F-DK2 gateway, Modbus motor monitoring on the Asus PE100A, Dell Edge Gateway 3200/5200 connectivity, and a Yocto-built LoRaWAN gateway that bridges a ChirpStack LoRa Network Server to /IOTCONNECT on the STM32MP157F-DK2. Examples connect to /IOTCONNECT on AWS and Azure using the Python SDK.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [
+        "Python"
+      ],
+      "features": [
+        "ble",
+        "gateway",
+        "lorawan",
+        "modbus",
+        "yocto"
+      ],
+      "stars": 1,
+      "updated": "2025-04-26T00:15:34Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "described": true,
+      "hidden": false,
+      "id": "iotconnect-python-examples-collection::3200",
+      "boards": [
+        {
+          "slug": "3200",
+          "vendor": "Intel",
+          "name": "Dell Edge Gateway 3200",
+          "maker": "Dell",
+          "integrator": "Dell",
+          "partNumber": "3200",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/Dell_3200.png"
+        }
+      ],
+      "board": {
+        "slug": "3200",
+        "vendor": "Intel",
+        "name": "Dell Edge Gateway 3200",
+        "maker": "Dell",
+        "integrator": "Dell",
+        "partNumber": "3200",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/Dell_3200.png"
+      },
+      "manufacturers": [
+        "Intel"
+      ],
+      "makers": [
+        "Dell"
+      ]
+    },
+    {
+      "repo": "iotc-python-examples",
+      "url": "https://github.com/avnet-iotconnect/iotc-python-examples",
+      "displayName": "/IOTCONNECT Python Examples Collection",
+      "description": "A collection of Python-based /IOTCONNECT examples and demos running on Linux gateways and edge devices, covering BLE sensor ingestion (STEVAL-PROTEUS1, SensorTile.box PRO) bridged through an STM32MP157F-DK2 gateway, Modbus motor monitoring on the Asus PE100A, Dell Edge Gateway 3200/5200 connectivity, and a Yocto-built LoRaWAN gateway that bridges a ChirpStack LoRa Network Server to /IOTCONNECT on the STM32MP157F-DK2. Examples connect to /IOTCONNECT on AWS and Azure using the Python SDK.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [
+        "Python"
+      ],
+      "features": [
+        "ble",
+        "gateway",
+        "lorawan",
+        "modbus",
+        "yocto"
+      ],
+      "stars": 1,
+      "updated": "2025-04-26T00:15:34Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "described": true,
+      "hidden": false,
+      "id": "iotconnect-python-examples-collection::5200",
+      "boards": [
+        {
+          "slug": "5200",
+          "vendor": "Intel",
+          "name": "Dell Edge Gateway 5200",
+          "maker": "Dell",
+          "integrator": "Dell",
+          "partNumber": "5200",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/Dell-5200.png"
+        }
+      ],
+      "board": {
+        "slug": "5200",
+        "vendor": "Intel",
+        "name": "Dell Edge Gateway 5200",
+        "maker": "Dell",
+        "integrator": "Dell",
+        "partNumber": "5200",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/Dell-5200.png"
+      },
+      "manufacturers": [
+        "Intel"
+      ],
+      "makers": [
+        "Dell"
+      ]
+    },
+    {
+      "repo": "iotc-python-examples",
+      "url": "https://github.com/avnet-iotconnect/iotc-python-examples",
+      "displayName": "/IOTCONNECT Python Examples Collection",
+      "description": "A collection of Python-based /IOTCONNECT examples and demos running on Linux gateways and edge devices, covering BLE sensor ingestion (STEVAL-PROTEUS1, SensorTile.box PRO) bridged through an STM32MP157F-DK2 gateway, Modbus motor monitoring on the Asus PE100A, Dell Edge Gateway 3200/5200 connectivity, and a Yocto-built LoRaWAN gateway that bridges a ChirpStack LoRa Network Server to /IOTCONNECT on the STM32MP157F-DK2. Examples connect to /IOTCONNECT on AWS and Azure using the Python SDK.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [
+        "Python"
+      ],
+      "features": [
+        "ble",
+        "gateway",
+        "lorawan",
+        "modbus",
+        "yocto"
+      ],
+      "stars": 1,
+      "updated": "2025-04-26T00:15:34Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "described": true,
+      "hidden": false,
+      "id": "iotconnect-python-examples-collection::stm32mp157f-dk2",
+      "boards": [
+        {
+          "slug": "stm32mp157f-dk2",
+          "vendor": "STMicroelectronics",
+          "name": "STM32MP157 Discovery Kit",
+          "maker": "STMicroelectronics",
+          "partNumber": "STM32MP157F-DK2",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/stm32mp157.png",
+          "imageLocal": "assets/boards/STM32MP157F.jpg"
+        }
+      ],
+      "board": {
+        "slug": "stm32mp157f-dk2",
+        "vendor": "STMicroelectronics",
+        "name": "STM32MP157 Discovery Kit",
+        "maker": "STMicroelectronics",
+        "partNumber": "STM32MP157F-DK2",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/stm32mp157.png",
+        "imageLocal": "assets/boards/STM32MP157F.jpg"
+      },
+      "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
+        "STMicroelectronics"
+      ]
+    },
+    {
+      "repo": "iotc-python-examples",
+      "url": "https://github.com/avnet-iotconnect/iotc-python-examples",
+      "displayName": "/IOTCONNECT Python Examples Collection",
+      "description": "A collection of Python-based /IOTCONNECT examples and demos running on Linux gateways and edge devices, covering BLE sensor ingestion (STEVAL-PROTEUS1, SensorTile.box PRO) bridged through an STM32MP157F-DK2 gateway, Modbus motor monitoring on the Asus PE100A, Dell Edge Gateway 3200/5200 connectivity, and a Yocto-built LoRaWAN gateway that bridges a ChirpStack LoRa Network Server to /IOTCONNECT on the STM32MP157F-DK2. Examples connect to /IOTCONNECT on AWS and Azure using the Python SDK.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [
+        "Python"
+      ],
+      "features": [
+        "ble",
+        "gateway",
+        "lorawan",
+        "modbus",
+        "yocto"
+      ],
+      "stars": 1,
+      "updated": "2025-04-26T00:15:34Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "described": true,
+      "hidden": false,
+      "id": "iotconnect-python-examples-collection::steval-proteus1",
+      "boards": [
+        {
+          "slug": "steval-proteus1",
+          "vendor": "STMicroelectronics",
+          "name": "Proteus",
+          "maker": "STMicroelectronics",
+          "partNumber": "STEVAL-PROTEUS1",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STEVAL-PROTEUS1.png",
+          "imageLocal": "assets/boards/proteus.jpg"
+        }
+      ],
+      "board": {
+        "slug": "steval-proteus1",
+        "vendor": "STMicroelectronics",
+        "name": "Proteus",
+        "maker": "STMicroelectronics",
+        "partNumber": "STEVAL-PROTEUS1",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STEVAL-PROTEUS1.png",
+        "imageLocal": "assets/boards/proteus.jpg"
+      },
+      "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
+        "STMicroelectronics"
+      ]
+    },
+    {
+      "repo": "iotc-python-examples",
+      "url": "https://github.com/avnet-iotconnect/iotc-python-examples",
+      "displayName": "/IOTCONNECT Python Examples Collection",
+      "description": "A collection of Python-based /IOTCONNECT examples and demos running on Linux gateways and edge devices, covering BLE sensor ingestion (STEVAL-PROTEUS1, SensorTile.box PRO) bridged through an STM32MP157F-DK2 gateway, Modbus motor monitoring on the Asus PE100A, Dell Edge Gateway 3200/5200 connectivity, and a Yocto-built LoRaWAN gateway that bridges a ChirpStack LoRa Network Server to /IOTCONNECT on the STM32MP157F-DK2. Examples connect to /IOTCONNECT on AWS and Azure using the Python SDK.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [
+        "Python"
+      ],
+      "features": [
+        "ble",
+        "gateway",
+        "lorawan",
+        "modbus",
+        "yocto"
+      ],
+      "stars": 1,
+      "updated": "2025-04-26T00:15:34Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "described": true,
+      "hidden": false,
+      "id": "iotconnect-python-examples-collection::steval-mkboxpro",
+      "boards": [
+        {
+          "slug": "steval-mkboxpro",
+          "vendor": "STMicroelectronics",
+          "name": "SensorTile.box PRO",
+          "maker": "STMicroelectronics",
+          "partNumber": "STEVAL-MKBOXPRO",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STEVAL-MKBOXPRO.png",
+          "imageLocal": "assets/boards/SensorTilebox-PRO.jpg"
+        }
+      ],
+      "board": {
+        "slug": "steval-mkboxpro",
+        "vendor": "STMicroelectronics",
+        "name": "SensorTile.box PRO",
+        "maker": "STMicroelectronics",
+        "partNumber": "STEVAL-MKBOXPRO",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STEVAL-MKBOXPRO.png",
+        "imageLocal": "assets/boards/SensorTilebox-PRO.jpg"
+      },
+      "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
+        "STMicroelectronics"
+      ]
+    },
+    {
+      "repo": "iotc-freertos-wfi32",
+      "url": "https://github.com/avnet-iotconnect/iotc-freertos-wfi32",
+      "displayName": "Microchip WFI32-IoT FreeRTOS Demo for /IOTCONNECT",
+      "description": "FreeRTOS-based demo connecting the Microchip WFI32-IoT Development Board to Avnet /IOTCONNECT over MQTT/TLS, using the on-board ATECC608B secure element (Trust&GO) for X.509 cloud authentication and reporting light/temperature sensor data.",
+      "category": "demo",
+      "status": "beta",
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "freertos",
+        "secure-element",
+        "tls",
+        "wifi",
+        "wolfssl"
+      ],
+      "stars": 0,
+      "updated": "2025-02-24T16:51:42Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "described": true,
+      "hidden": false,
+      "id": "microchip-wfi32-iot-freertos-demo-for-iotconnect",
+      "boards": [
+        {
+          "slug": "ev36w50a",
+          "vendor": "Microchip",
+          "name": "WFI32-IoT Development Board",
+          "maker": "Microchip",
+          "partNumber": "EV36W50A",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EV36W50A.png",
+          "imageLocal": "assets/boards/EV36W50A.jpg"
+        }
+      ],
+      "board": {
+        "slug": "ev36w50a",
+        "vendor": "Microchip",
+        "name": "WFI32-IoT Development Board",
+        "maker": "Microchip",
+        "partNumber": "EV36W50A",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EV36W50A.png",
+        "imageLocal": "assets/boards/EV36W50A.jpg"
+      },
+      "manufacturers": [
+        "Microchip"
+      ],
+      "makers": [
+        "Microchip"
+      ]
+    },
+    {
+      "repo": "iotc-freertos-da16k-atcmd-lib",
+      "url": "https://github.com/avnet-iotconnect/iotc-freertos-da16k-atcmd-lib",
+      "displayName": "FreeRTOS DA16K AT-Command Interface Library for /IOTCONNECT",
+      "description": "Portable C library that drives the /IOTCONNECT AT-command interface of Dialog DA16200/DA16600 Wi-Fi PMOD modules over UART (115200 8-N-1), letting any FreeRTOS-based MCU send telemetry and receive cloud-to-device commands by implementing four UART hooks (init, get_char, write, close). Ships reference platform implementations for the Renesas EK-RA6M4 and CK-RA6M5 v2 Cloud Kit.",
+      "category": "library",
+      "status": "beta",
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "at-commands",
+        "freertos",
+        "pmod",
+        "wifi"
+      ],
+      "stars": 0,
+      "updated": "2025-02-04T22:25:44Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "described": true,
+      "hidden": false,
+      "id": "freertos-da16k-at-command-interface-library-for-iotconnect",
+      "boards": [
+        {
+          "slug": "us159-da16200mevz",
+          "vendor": "Renesas",
+          "name": "DA16200 Ultra Low Power Wi-Fi Pmod Module Evaluation Board",
+          "maker": "Renesas",
+          "partNumber": "US159-DA16200MEVZ",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/US159-DA16200MEVZ.png",
+          "imageLocal": "assets/boards/US159-DA16200MEVZ.jpg"
+        },
+        {
+          "slug": "us159-da16600evz",
+          "vendor": "Renesas",
+          "name": "DA16600 Ultra Low Power Wi-Fi and Bluetooth Low Energy Combo Pmod Module Evaluation Board",
+          "maker": "Renesas",
+          "partNumber": "US159-DA16600EVZ",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/US159-DA16600EVZ.png",
+          "imageLocal": "assets/boards/US159-DA16600EVZ.jpg"
+        },
+        {
+          "slug": "ek-ra6m4",
+          "vendor": "Renesas",
+          "name": "Evaluation Kit for RA6M4 MCU Group",
+          "maker": "Renesas",
+          "partNumber": "EK-RA6M4",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EK-RA6M4.png",
+          "imageLocal": "assets/boards/EK-RA6M4.jpg"
+        },
+        {
+          "slug": "ck-ra6m5",
+          "vendor": "Renesas",
+          "name": "Cloud Kit Based on RA6M5 MCU Group",
+          "maker": "Renesas",
+          "partNumber": "CK-RA6M5",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/CK-RA6M5.png",
+          "imageLocal": "assets/boards/CK-RA6M5.jpg"
+        }
+      ],
+      "board": {
+        "slug": "us159-da16200mevz",
+        "vendor": "Renesas",
+        "name": "DA16200 Ultra Low Power Wi-Fi Pmod Module Evaluation Board",
+        "maker": "Renesas",
+        "partNumber": "US159-DA16200MEVZ",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/US159-DA16200MEVZ.png",
+        "imageLocal": "assets/boards/US159-DA16200MEVZ.jpg"
+      },
+      "manufacturers": [
+        "Renesas"
+      ],
+      "makers": [
+        "Renesas"
+      ]
+    },
+    {
+      "repo": "iotc-freertos-ek-ra6m4-pmod",
+      "url": "https://github.com/avnet-iotconnect/iotc-freertos-ek-ra6m4-pmod",
+      "displayName": "Renesas EK-RA6M4 to /IOTCONNECT via DA16K AT-Command PMOD Gateway",
+      "description": "FreeRTOS sample for the Renesas EK-RA6M4 that connects to Avnet /IOTCONNECT through a DA16600 Wi-Fi/BLE PMOD module acting as an AT-command gateway over the PMOD1 connector. Built with the Renesas FSP 5.0.0 / e2 studio toolchain and the iotc-freertos-da16k-atcmd-lib, it ships a prebuilt binary and demonstrates cloud-to-device commands (LED control and blink frequency).",
+      "category": "sample",
+      "status": "beta",
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "at-commands",
+        "freertos",
+        "gateway",
+        "wifi"
+      ],
+      "stars": 0,
+      "updated": "2025-02-04T22:24:48Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "described": true,
+      "hidden": false,
+      "id": "renesas-ek-ra6m4-to-iotconnect-via-da16k-at-command-pmod-gateway::ek-ra6m4",
+      "boards": [
+        {
+          "slug": "ek-ra6m4",
+          "vendor": "Renesas",
+          "name": "Evaluation Kit for RA6M4 MCU Group",
+          "maker": "Renesas",
+          "partNumber": "EK-RA6M4",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EK-RA6M4.png",
+          "imageLocal": "assets/boards/EK-RA6M4.jpg"
+        }
+      ],
+      "board": {
+        "slug": "ek-ra6m4",
+        "vendor": "Renesas",
+        "name": "Evaluation Kit for RA6M4 MCU Group",
+        "maker": "Renesas",
+        "partNumber": "EK-RA6M4",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EK-RA6M4.png",
+        "imageLocal": "assets/boards/EK-RA6M4.jpg"
+      },
+      "manufacturers": [
+        "Renesas"
+      ],
+      "makers": [
+        "Renesas"
+      ]
+    },
+    {
+      "repo": "iotc-freertos-ek-ra6m4-pmod",
+      "url": "https://github.com/avnet-iotconnect/iotc-freertos-ek-ra6m4-pmod",
+      "displayName": "Renesas EK-RA6M4 to /IOTCONNECT via DA16K AT-Command PMOD Gateway",
+      "description": "FreeRTOS sample for the Renesas EK-RA6M4 that connects to Avnet /IOTCONNECT through a DA16600 Wi-Fi/BLE PMOD module acting as an AT-command gateway over the PMOD1 connector. Built with the Renesas FSP 5.0.0 / e2 studio toolchain and the iotc-freertos-da16k-atcmd-lib, it ships a prebuilt binary and demonstrates cloud-to-device commands (LED control and blink frequency).",
+      "category": "sample",
+      "status": "beta",
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "at-commands",
+        "freertos",
+        "gateway",
+        "wifi"
+      ],
+      "stars": 0,
+      "updated": "2025-02-04T22:24:48Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "described": true,
+      "hidden": false,
+      "id": "renesas-ek-ra6m4-to-iotconnect-via-da16k-at-command-pmod-gateway::us159-da16600evz",
+      "boards": [
+        {
+          "slug": "us159-da16600evz",
+          "vendor": "Renesas",
+          "name": "DA16600 Ultra Low Power Wi-Fi and Bluetooth Low Energy Combo Pmod Module Evaluation Board",
+          "maker": "Renesas",
+          "partNumber": "US159-DA16600EVZ",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/US159-DA16600EVZ.png",
+          "imageLocal": "assets/boards/US159-DA16600EVZ.jpg"
+        }
+      ],
+      "board": {
+        "slug": "us159-da16600evz",
+        "vendor": "Renesas",
+        "name": "DA16600 Ultra Low Power Wi-Fi and Bluetooth Low Energy Combo Pmod Module Evaluation Board",
+        "maker": "Renesas",
+        "partNumber": "US159-DA16600EVZ",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/US159-DA16600EVZ.png",
+        "imageLocal": "assets/boards/US159-DA16600EVZ.jpg"
+      },
+      "manufacturers": [
+        "Renesas"
+      ],
+      "makers": [
+        "Renesas"
+      ]
+    },
+    {
+      "repo": "iotc-freertos-wolfssl-wfi32",
+      "url": "https://github.com/avnet-iotconnect/iotc-freertos-wolfssl-wfi32",
+      "displayName": "WFI32-IoT FreeRTOS Demo with wolfSSL and ATECC608B",
+      "description": "FreeRTOS demo for the Microchip WFI32-IoT Development Board that connects to /IOTCONNECT over MQTT using a wolfSSL TLS stack and X.509 certificates provisioned via the on-board ATECC608B secure element (Trust&GO). Reports built-in light and temperature sensor readings plus LED/switch state and accepts remote LED control commands.",
+      "category": "demo",
+      "status": "beta",
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "freertos",
+        "secure-element",
+        "tls",
+        "wifi",
+        "wolfssl"
+      ],
+      "stars": 0,
+      "updated": "2025-02-04T22:23:43Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "described": true,
+      "hidden": false,
+      "id": "wfi32-iot-freertos-demo-with-wolfssl-and-atecc608b",
+      "boards": [
+        {
+          "slug": "ev36w50a",
+          "vendor": "Microchip",
+          "name": "WFI32-IoT Development Board",
+          "maker": "Microchip",
+          "partNumber": "EV36W50A",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EV36W50A.png",
+          "imageLocal": "assets/boards/EV36W50A.jpg"
+        }
+      ],
+      "board": {
+        "slug": "ev36w50a",
+        "vendor": "Microchip",
+        "name": "WFI32-IoT Development Board",
+        "maker": "Microchip",
+        "partNumber": "EV36W50A",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EV36W50A.png",
+        "imageLocal": "assets/boards/EV36W50A.jpg"
+      },
+      "manufacturers": [
+        "Microchip"
+      ],
+      "makers": [
+        "Microchip"
+      ]
+    },
+    {
+      "repo": "iotc-freertos-sdk",
+      "url": "https://github.com/avnet-iotconnect/iotc-freertos-sdk",
+      "displayName": "/IOTCONNECT FreeRTOS C SDK",
+      "description": "The /IOTCONNECT C SDK for FreeRTOS, providing device connectivity (TLS over coreHTTP/lwIP) plus supporting libraries (cJSON, littlefs) for the STM32U5 (B-U585I-IOT02A) and STM32H5 (STM32H573I-DK) Discovery kits. Supports X.509 mutual authentication. Board-specific application ports live in the dedicated iotc-freertos-stm32-u5 and iotc-freertos-stm32-h5 repositories.",
+      "category": "sdk",
+      "status": "beta",
+      "languages": [
+        "C",
+        "Shell"
+      ],
+      "features": [
+        "freertos",
+        "tls",
+        "x509"
+      ],
+      "stars": 0,
+      "updated": "2025-01-30T00:53:27Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "described": true,
+      "hidden": false,
+      "id": "iotconnect-freertos-c-sdk",
+      "boards": [
+        {
+          "slug": "b-u585i-iot02a",
+          "vendor": "STMicroelectronics",
+          "name": "STM32U5 Discovery Kit",
+          "maker": "STMicroelectronics",
+          "partNumber": "B-U585I-IOT02A",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/B-U585I-IOT02A.png",
+          "imageLocal": "assets/boards/STM32U5.jpg"
+        },
+        {
+          "slug": "stm32h573i-dk",
+          "vendor": "STMicroelectronics",
+          "name": "STM32H5 Discovery Kit",
+          "maker": "STMicroelectronics",
+          "partNumber": "STM32H573I-DK",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/stm32h573DK.png",
+          "imageLocal": "assets/boards/STM32H5.jpg"
+        }
+      ],
+      "board": {
+        "slug": "b-u585i-iot02a",
+        "vendor": "STMicroelectronics",
+        "name": "STM32U5 Discovery Kit",
+        "maker": "STMicroelectronics",
+        "partNumber": "B-U585I-IOT02A",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/B-U585I-IOT02A.png",
+        "imageLocal": "assets/boards/STM32U5.jpg"
+      },
+      "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
+        "STMicroelectronics"
+      ]
+    },
+    {
+      "repo": "iotc-stm32-u5-esp32-c3-demo",
+      "url": "https://github.com/avnet-iotconnect/iotc-stm32-u5-esp32-c3-demo",
+      "displayName": "STM32U5 + ESP32-C3 Wi-Fi Connectivity to /IOTCONNECT via AT Commands",
+      "description": "Connects an STM32 B-U585I-IOT02A Discovery board to Avnet /IOTCONNECT over MQTT by driving an ESP32-C3-MINI Wi-Fi module through ESP-AT AT commands. The device certificate, key and CA are flashed into the ESP32-C3 AT firmware, and the STM32 runs a modified I-CUBE-ExpressLink PubSub project.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "at-commands",
+        "esp32",
+        "tls",
+        "wifi"
+      ],
+      "stars": 2,
+      "updated": "2024-10-21T07:12:39Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "described": true,
+      "hidden": false,
+      "id": "stm32u5-esp32-c3-wi-fi-connectivity-to-iotconnect-via-at-commands",
+      "boards": [
+        {
+          "slug": "b-u585i-iot02a",
+          "vendor": "STMicroelectronics",
+          "name": "STM32U5 Discovery Kit",
+          "maker": "STMicroelectronics",
+          "partNumber": "B-U585I-IOT02A",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/B-U585I-IOT02A.png",
+          "imageLocal": "assets/boards/STM32U5.jpg"
+        }
+      ],
+      "board": {
+        "slug": "b-u585i-iot02a",
+        "vendor": "STMicroelectronics",
+        "name": "STM32U5 Discovery Kit",
+        "maker": "STMicroelectronics",
+        "partNumber": "B-U585I-IOT02A",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/B-U585I-IOT02A.png",
+        "imageLocal": "assets/boards/STM32U5.jpg"
+      },
+      "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
+        "STMicroelectronics"
+      ]
+    },
+    {
+      "repo": "meta-iotconnect-demos",
+      "url": "https://github.com/avnet-iotconnect/meta-iotconnect-demos",
+      "displayName": "/IOTCONNECT Yocto Demo Application Layer (meta-iotconnect-demos)",
+      "description": "A Yocto/OpenEmbedded BitBake meta-layer providing /IOTCONNECT demo application recipes (C and Python SDK demos fetched from companion repos) plus systemd service, config, and helper-script recipes (LED control, memory usage, OTA file-change reporting) to integrate Avnet /IOTCONNECT into custom embedded Linux images. The kirkstone-branch CI builds bootable demo images for the NXP MaaXBoard 8M, Tria MSC SM2S-IMX8PLUS, and STMicroelectronics STM32MP157F-DK2 / STM32MP135F-DK boards. Used together with the meta-iotconnect-docs quick-start guides.",
+      "category": "library",
+      "status": "beta",
+      "languages": [
+        "BitBake",
+        "Shell"
+      ],
+      "features": [
+        "edge-ai",
+        "yocto"
+      ],
+      "stars": 1,
+      "updated": "2024-09-24T22:11:03Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "described": true,
+      "hidden": false,
+      "id": "iotconnect-yocto-demo-application-layer-meta-iotconnect-demos",
+      "boards": [
+        {
+          "slug": "aes-mc-sbc-imx8m-g",
+          "vendor": "NXP",
+          "name": "NXP MaaXBoard 8M",
+          "maker": "Tria",
+          "integrator": "Tria / NXP",
+          "partNumber": "AES-MC-SBC-IMX8M-G",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-MC-SBC-IMX8M-G.png",
+          "imageLocal": "assets/boards/AES-MC-SBC-IMX8M-G.jpg"
+        },
+        {
+          "slug": "msc-sm2s-imx8plus",
+          "vendor": "NXP",
+          "name": "MSC SM2S-IMX8PLUS",
+          "maker": "Tria",
+          "integrator": "Tria / NXP",
+          "partNumber": "MSC SM2S-IMX8PLUS",
+          "imageLocal": "assets/boards/board_SM_MSC_IMX8PLUS_small.png"
+        },
+        {
+          "slug": "stm32mp157f-dk2",
+          "vendor": "STMicroelectronics",
+          "name": "STM32MP157 Discovery Kit",
+          "maker": "STMicroelectronics",
+          "partNumber": "STM32MP157F-DK2",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/stm32mp157.png",
+          "imageLocal": "assets/boards/STM32MP157F.jpg"
+        },
+        {
+          "slug": "stm32mp135f-dk",
+          "vendor": "STMicroelectronics",
+          "name": "STM32MP135 Discovery Kit",
+          "maker": "STMicroelectronics",
+          "partNumber": "STM32MP135F-DK",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP135F-DK.png",
+          "imageLocal": "assets/boards/STM32MP135F.jpg"
+        }
+      ],
+      "board": {
+        "slug": "aes-mc-sbc-imx8m-g",
+        "vendor": "NXP",
+        "name": "NXP MaaXBoard 8M",
+        "maker": "Tria",
+        "integrator": "Tria / NXP",
+        "partNumber": "AES-MC-SBC-IMX8M-G",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/AES-MC-SBC-IMX8M-G.png",
+        "imageLocal": "assets/boards/AES-MC-SBC-IMX8M-G.jpg"
+      },
+      "manufacturers": [
+        "NXP",
+        "STMicroelectronics"
+      ],
+      "makers": [
+        "STMicroelectronics",
+        "Tria"
+      ]
+    },
+    {
+      "repo": "iotc-arduino-pro-portenta-h7-demo",
+      "url": "https://github.com/avnet-iotconnect/iotc-arduino-pro-portenta-h7-demo",
+      "displayName": "Arduino Pro Portenta H7 to /IOTCONNECT (X.509 over Wi-Fi)",
+      "description": "Arduino IDE sketch that connects an Arduino Pro Portenta H7 (STM32H747XI) to /IOTCONNECT on AWS over Wi-Fi using X.509 certificate authentication with BearSSL/MQTT. It publishes a simulated temperature reading plus NTP-acquired UTC time once per minute and receives cloud-to-device commands, demonstrating bidirectional MQTT.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [
+        "C++"
+      ],
+      "features": [
+        "secure-element",
+        "tls",
+        "wifi",
+        "x509"
+      ],
+      "stars": 0,
+      "updated": "2024-07-06T21:58:41Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "described": true,
+      "hidden": false,
+      "id": "arduino-pro-portenta-h7-to-iotconnect-x-509-over-wi-fi",
+      "boards": [
+        {
+          "slug": "abx00042",
+          "vendor": "STMicroelectronics",
+          "name": "Arduino Pro Portenta H7",
+          "maker": "Arduino",
+          "integrator": "Arduino",
+          "partNumber": "ABX00042",
+          "imageLocal": "assets/boards/ABX00042.png"
+        }
+      ],
+      "board": {
+        "slug": "abx00042",
+        "vendor": "STMicroelectronics",
+        "name": "Arduino Pro Portenta H7",
+        "maker": "Arduino",
+        "integrator": "Arduino",
+        "partNumber": "ABX00042",
+        "imageLocal": "assets/boards/ABX00042.png"
+      },
+      "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
+        "Arduino"
+      ]
+    },
+    {
+      "repo": "iotc-arduino-pro-portenta-c33-demo",
+      "url": "https://github.com/avnet-iotconnect/iotc-arduino-pro-portenta-c33-demo",
+      "displayName": "Arduino Portenta C33 IoTConnect Demo (AWS)",
+      "description": "Arduino IDE sketch (C33SecureProv.ino) that connects an Arduino PRO Portenta C33 SOM to /IOTCONNECT on AWS over Wi-Fi, publishing a simulated temperature value plus NTP-acquired UTC time at 1-minute intervals and receiving cloud-to-device commands over MQTT for full bidirectional communication. Authentication uses an X.509 device certificate (stored in arduino_secrets.h) with TLS, leveraging the board's onboard secure element.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [
+        "C++"
+      ],
+      "features": [
+        "secure-element",
+        "tls",
+        "wifi"
+      ],
+      "stars": 0,
+      "updated": "2024-07-06T21:56:23Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "described": true,
+      "hidden": false,
+      "id": "arduino-portenta-c33-iotconnect-demo-aws",
+      "boards": [
+        {
+          "slug": "abx00074",
+          "vendor": "Renesas",
+          "name": "Arduino PRO Portenta C33",
+          "maker": "Arduino",
+          "integrator": "Arduino",
+          "partNumber": "ABX00074",
+          "imageLocal": "assets/boards/ABX00074.jpg"
+        }
+      ],
+      "board": {
+        "slug": "abx00074",
+        "vendor": "Renesas",
+        "name": "Arduino PRO Portenta C33",
+        "maker": "Arduino",
+        "integrator": "Arduino",
+        "partNumber": "ABX00074",
+        "imageLocal": "assets/boards/ABX00074.jpg"
+      },
+      "manufacturers": [
+        "Renesas"
+      ],
+      "makers": [
+        "Arduino"
+      ]
+    },
+    {
+      "repo": "meta-iotconnect",
+      "url": "https://github.com/avnet-iotconnect/meta-iotconnect",
+      "displayName": "/IOTCONNECT Yocto Meta-Layer (meta-iotconnect)",
+      "description": "A Yocto/OpenEmbedded BitBake meta-layer providing recipes that integrate the /IOTCONNECT C and Python SDKs into custom embedded Linux images. Add iotc-c-sdk or python3-iotconnect-sdk to your image via RDEPENDS to gain cloud connectivity.",
+      "category": "library",
+      "status": "beta",
+      "languages": [
+        "BitBake"
+      ],
+      "features": [
+        "sdk",
+        "yocto"
+      ],
+      "stars": 0,
+      "updated": "2024-06-04T12:40:24Z",
+      "image": "https://avatars.githubusercontent.com/u/79603029?v=4",
+      "dashboards": [],
+      "photos": [],
+      "described": true,
+      "hidden": false,
+      "id": "iotconnect-yocto-meta-layer-meta-iotconnect",
+      "boards": [],
+      "board": null,
+      "manufacturers": [],
+      "makers": []
+    },
+    {
+      "repo": "iotc-lora-gateway-example",
+      "url": "https://github.com/avnet-iotconnect/iotc-lora-gateway-example",
+      "displayName": "LoRaWAN Gateway on STM32MP157 with ChirpStack and /IOTCONNECT",
+      "description": "Yocto (Kirkstone) meta-layers and a Dockerized build that turn an STM32MP157x-DKx Discovery kit into a ChirpStack LoRaWAN network-server gateway, bridging a RAK5146 concentrator's LoRa nodes into /IOTCONNECT as a gateway device with child node devices. Includes a Python demo app (lora_demo.py) that auto-generates IOTConnect templates and forwards node telemetry.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [
+        "Python"
+      ],
+      "features": [
+        "chirpstack",
+        "gateway",
+        "lorawan",
+        "yocto"
+      ],
+      "stars": 0,
+      "updated": "2024-05-22T20:57:41Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "described": true,
+      "hidden": false,
+      "id": "lorawan-gateway-on-stm32mp157-with-chirpstack-and-iotconnect",
+      "boards": [
+        {
+          "slug": "stm32mp157f-dk2",
+          "vendor": "STMicroelectronics",
+          "name": "STM32MP157 Discovery Kit",
+          "maker": "STMicroelectronics",
+          "partNumber": "STM32MP157F-DK2",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/stm32mp157.png",
+          "imageLocal": "assets/boards/STM32MP157F.jpg"
+        }
+      ],
+      "board": {
+        "slug": "stm32mp157f-dk2",
+        "vendor": "STMicroelectronics",
+        "name": "STM32MP157 Discovery Kit",
+        "maker": "STMicroelectronics",
+        "partNumber": "STM32MP157F-DK2",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/stm32mp157.png",
+        "imageLocal": "assets/boards/STM32MP157F.jpg"
+      },
+      "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
+        "STMicroelectronics"
+      ]
+    },
+    {
+      "repo": "meta-iotconnect-c-demo-source",
+      "url": "https://github.com/avnet-iotconnect/meta-iotconnect-c-demo-source",
+      "displayName": "/IOTCONNECT Yocto C Demo (Generic C SDK)",
+      "description": "A board-agnostic Linux/Yocto C application that connects to /IOTCONNECT using the iotc-generic-c-sdk submodule. It reads a JSON config (device/company/environment, certs, auth type) to publish telemetry and dispatch shell-script commands. A CMake-based local_build flow with debug-files lets the same source be built and debugged on a host (including _WIN32 shims) outside the Yocto environment.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "cmake",
+        "tls",
+        "yocto"
+      ],
+      "stars": 0,
+      "updated": "2024-05-15T11:41:38Z",
+      "image": "https://avatars.githubusercontent.com/u/69922175?v=4",
+      "dashboards": [],
+      "photos": [],
+      "described": true,
+      "hidden": false,
+      "id": "iotconnect-yocto-c-demo-generic-c-sdk",
+      "boards": [],
+      "board": null,
+      "manufacturers": [],
+      "makers": []
+    },
+    {
+      "repo": "meta-iotconnect-python-demo-source",
+      "url": "https://github.com/avnet-iotconnect/meta-iotconnect-python-demo-source",
+      "displayName": "IoTConnect Python Demo Source for Yocto",
+      "description": "Application source bundled by the meta-iotconnect Yocto layer: a Python sample that loads device credentials from file, connects to /IOTCONNECT, and periodically streams device states, paired with an A/B primary-backup launcher script that fails over to a backup install on crash and an OTA payload template for installing reboot-less script or full-application updates. Board-agnostic Yocto image content rather than a board-specific example.",
+      "category": "library",
+      "status": "beta",
+      "languages": [
+        "Python",
+        "Shell"
+      ],
+      "features": [
+        "yocto"
+      ],
+      "stars": 0,
+      "updated": "2024-05-14T13:54:58Z",
+      "image": "https://www.yoctoproject.org/wp-content/uploads/sites/32/2023/10/cropped-favicon-300x300.png",
+      "dashboards": [],
+      "photos": [],
+      "described": true,
+      "hidden": false,
+      "id": "iotconnect-python-demo-source-for-yocto",
+      "boards": [],
+      "board": null,
+      "manufacturers": [],
+      "makers": []
+    },
+    {
+      "repo": "avnet-iotc-mtb-super-manifest",
+      "url": "https://github.com/avnet-iotconnect/avnet-iotc-mtb-super-manifest",
+      "displayName": "/IOTCONNECT ModusToolbox Super-Manifest",
+      "description": "ModusToolbox super-manifest (v2.0) that aggregates the URIs of Avnet /IOTCONNECT code-example and middleware/BSP manifests, making the /IOTCONNECT enablement examples discoverable inside the Infineon ModusToolbox IDE Project Creator. Board-agnostic tooling infrastructure consumed by ModusToolbox.",
+      "category": "library",
+      "status": "beta",
+      "languages": [],
+      "features": [
+        "modustoolbox"
+      ],
+      "stars": 0,
+      "updated": "2024-05-09T21:15:29Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "described": true,
+      "hidden": false,
+      "id": "iotconnect-modustoolbox-super-manifest",
+      "boards": [],
+      "board": null,
+      "manufacturers": [],
+      "makers": []
+    },
+    {
+      "repo": "iotc-arduino-sdk",
+      "url": "https://github.com/avnet-iotconnect/iotc-arduino-sdk",
+      "displayName": "/IOTCONNECT Arduino SDK",
+      "description": "Arduino/PlatformIO C/C++ SDK that connects WiFi-capable Arduino boards to Avnet /IOTCONNECT over MQTT, developed and tested on the SparkFun ESP32 Thing. Depends on the WiFiSecure library for TLS and PubSubClient for MQTT, and ships an ESP sensors sample with GPIO LED/button examples.",
+      "category": "sdk",
+      "status": "beta",
+      "languages": [
+        "C",
+        "C++"
+      ],
+      "features": [
+        "tls",
+        "wifi"
+      ],
+      "stars": 0,
+      "updated": "2024-02-15T18:01:03Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "described": true,
+      "hidden": false,
+      "id": "iotconnect-arduino-sdk",
+      "boards": [
+        {
+          "slug": "dev-13907",
+          "vendor": "Espressif",
+          "name": "SparkFun ESP32 Thing",
+          "maker": "SparkFun",
+          "integrator": "SparkFun",
+          "partNumber": "DEV-13907",
+          "imageLocal": "assets/boards/DEV-13907.jpg"
+        }
+      ],
+      "board": {
+        "slug": "dev-13907",
+        "vendor": "Espressif",
+        "name": "SparkFun ESP32 Thing",
+        "maker": "SparkFun",
+        "integrator": "SparkFun",
+        "partNumber": "DEV-13907",
+        "imageLocal": "assets/boards/DEV-13907.jpg"
+      },
+      "manufacturers": [
+        "Espressif"
+      ],
+      "makers": [
+        "SparkFun"
+      ]
+    },
+    {
+      "repo": "aws-stm32-ml-at-edge-accelerator",
+      "url": "https://github.com/avnet-iotconnect/aws-stm32-ml-at-edge-accelerator",
+      "displayName": "AWS STM32 ML-at-Edge Accelerator",
+      "description": "End-to-end MLOps accelerator that trains an audio classification model in a SageMaker pipeline using STM32Cube.AI and deploys it over-the-air via FreeRTOS to STM32U5 edge devices. Devices connect to AWS IoT Core over MQTT; messages are stored in Amazon Timestream and visualised in AWS Managed Grafana. The whole stack is provisioned with AWS CDK.",
+      "category": "demo",
+      "status": "beta",
+      "languages": [
+        "C",
+        "Python",
+        "TypeScript"
+      ],
+      "features": [
+        "audio-classification",
+        "edge-ai",
+        "freertos",
+        "mlops"
+      ],
+      "stars": 0,
+      "updated": "2024-01-17T15:02:32Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "described": true,
+      "hidden": false,
+      "id": "aws-stm32-ml-at-edge-accelerator",
+      "boards": [
+        {
+          "slug": "b-u585i-iot02a",
+          "vendor": "STMicroelectronics",
+          "name": "STM32U5 Discovery Kit",
+          "maker": "STMicroelectronics",
+          "partNumber": "B-U585I-IOT02A",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/B-U585I-IOT02A.png",
+          "imageLocal": "assets/boards/STM32U5.jpg"
+        }
+      ],
+      "board": {
+        "slug": "b-u585i-iot02a",
+        "vendor": "STMicroelectronics",
+        "name": "STM32U5 Discovery Kit",
+        "maker": "STMicroelectronics",
+        "partNumber": "B-U585I-IOT02A",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/B-U585I-IOT02A.png",
+        "imageLocal": "assets/boards/STM32U5.jpg"
+      },
+      "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
+        "STMicroelectronics"
+      ]
+    },
+    {
+      "repo": "iotc-azurertos-stm32-u5",
+      "url": "https://github.com/avnet-iotconnect/iotc-azurertos-stm32-u5",
+      "displayName": "Azure RTOS on STM32U5 with TF-M for /IOTCONNECT",
+      "description": "SDK and sample application that connects the STM32U5 IoT Discovery Kit to /IOTCONNECT over Azure RTOS, built on X-Cube-Azure with Trusted Firmware-M (TF-M) secure firmware. Supports onboard Wi-Fi connectivity and optional cellular via the BG96 module from the P-L496G-CELL02 combo.",
+      "category": "sample",
+      "status": "beta",
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "azure-rtos",
+        "cellular",
+        "tf-m",
+        "tls",
+        "wifi"
+      ],
+      "stars": 0,
+      "updated": "2024-01-17T14:33:58Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "described": true,
+      "hidden": false,
+      "id": "azure-rtos-on-stm32u5-with-tf-m-for-iotconnect",
+      "boards": [
+        {
+          "slug": "b-u585i-iot02a",
+          "vendor": "STMicroelectronics",
+          "name": "STM32U5 Discovery Kit",
+          "maker": "STMicroelectronics",
+          "partNumber": "B-U585I-IOT02A",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/B-U585I-IOT02A.png",
+          "imageLocal": "assets/boards/STM32U5.jpg"
+        }
+      ],
+      "board": {
+        "slug": "b-u585i-iot02a",
+        "vendor": "STMicroelectronics",
+        "name": "STM32U5 Discovery Kit",
+        "maker": "STMicroelectronics",
+        "partNumber": "B-U585I-IOT02A",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/B-U585I-IOT02A.png",
+        "imageLocal": "assets/boards/STM32U5.jpg"
+      },
+      "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
+        "STMicroelectronics"
+      ]
+    },
+    {
+      "repo": "iotc-yocto-greengrass-sdk",
+      "url": "https://github.com/avnet-iotconnect/iotc-yocto-greengrass-sdk",
+      "displayName": "IOTCONNECT Yocto Greengrass SDK",
+      "description": "A Yocto meta-layer / SDK intended for integrating AWS IoT Greengrass with /IOTCONNECT on embedded Linux targets. The repository is currently empty (no code, README, commits, or files), so its scope is inferred solely from the repository name.",
+      "category": "library",
+      "status": "beta",
+      "languages": [],
+      "features": [
+        "greengrass",
+        "yocto"
+      ],
+      "stars": 0,
+      "updated": "2023-08-17T15:26:18Z",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/00/Yocto_Project_logo.svg",
+      "dashboards": [],
+      "photos": [],
+      "described": true,
+      "hidden": false,
+      "id": "iotconnect-yocto-greengrass-sdk",
+      "boards": [],
+      "board": null,
+      "manufacturers": [],
+      "makers": []
     }
   ]
 }
