@@ -155,6 +155,7 @@
   .vrow .vn{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.04em;color:var(--muted);text-transform:uppercase;}
   .cname{font-weight:700;font-size:15px;color:var(--ink);line-height:1.25;margin-bottom:4px;}
   .cpn{font-family:'JetBrains Mono',monospace;font-size:11.5px;color:var(--brand-deep);margin-bottom:8px;}
+  .cpn.cboard{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
   .cdesc{font-size:13px;color:var(--body);margin-bottom:12px;flex:1;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;}
   .badges{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:11px;}
   .badge{font-family:'JetBrains Mono',monospace;font-size:10px;padding:3px 7px;border-radius:5px;background:var(--soft);color:var(--muted);border:1px solid var(--line);}
@@ -537,10 +538,30 @@ function repoCard(r){
   const langs=(r.languages||[]).slice(0,2).map(l=>`<span class="badge lang">${esc(l)}</span>`).join("");
   const topics=(r.features||[]).filter(t=>!["telemetry","commands","ota","twin"].includes(t)).slice(0,2).map(t=>`<span class="badge">${esc(t)}</span>`).join("");
   const meta=`<div class="foot"><div class="res"><span>★ ${r.stars??0}</span><span>${timeAgo(r.updated)}</span></div><span class="arrow">→</span></div>`;
+  // manufacturer + board line, so same-demo-different-board cards are distinguishable
+  const b0=r.board||(boards[0])||null, nb=boards.length;
+  let vrow="", sub="";
+  if(b0){
+    const mf=r.manufacturers||[];
+    const vlabel = nb>1
+      ? (mf.length<=1 ? esc(mf[0]||b0.vendor)
+          : mf.slice(0,2).map(esc).join(" · ")+(mf.length>2?` +${mf.length-2}`:""))
+      : esc(b0.vendor)+((b0.maker&&b0.maker!==b0.vendor)?` · ${esc(b0.maker)}`:"");
+    vrow=`<div class="vrow"><span class="vd" style="background:${vcolor(b0.vendor)}"></span><span class="vn">${vlabel}</span></div>`;
+    const bn = b0.partNumber
+      ? esc(b0.partNumber)+((b0.name&&b0.name!==b0.partNumber)?` · ${esc(b0.name)}`:"")
+      : esc(b0.name);   // part number first: it's the distinguishing token, never ellipsis-clipped
+    sub = nb===1
+      ? `<div class="cpn cboard" title="${esc((b0.partNumber?b0.partNumber+" · ":"")+ (b0.name||""))}">${bn}</div>`
+      : (r.repo?`<div class="cpn">${esc(r.repo)}</div>`:"");
+  }else{
+    sub = r.repo?`<div class="cpn">${esc(r.repo)}</div>`:"";
+  }
   return `<div class="card" data-listing="${esc(r.id)}" role="button" tabindex="0" aria-label="${esc(r.displayName||r.repo)} — view details">${img}
     <div class="body">
+      ${vrow}
       <div class="cname">${esc(r.displayName||r.repo)}</div>
-      ${r.repo?`<div class="cpn">${esc(r.repo)}</div>`:""}
+      ${sub}
       <div class="cdesc">${esc(r.description||"No description.")}</div>
       <div class="badges">${langs}${topics}</div>
       ${meta}
