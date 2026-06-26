@@ -1,6 +1,6 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-06-26T04:47:28Z",
+  "generated": "2026-06-26T17:05:41Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
@@ -19,7 +19,7 @@
       "slug": "amphenol",
       "logo": null,
       "info": null,
-      "boards": 0,
+      "boards": 1,
       "listings": 1
     },
     {
@@ -67,7 +67,7 @@
       "slug": "nvidia",
       "logo": "assets/brand/nvidia-logo.svg",
       "info": null,
-      "boards": 4,
+      "boards": 6,
       "listings": 4
     },
     {
@@ -123,7 +123,7 @@
       "slug": "te-connectivity",
       "logo": null,
       "info": null,
-      "boards": 0,
+      "boards": 1,
       "listings": 1
     }
   ],
@@ -511,6 +511,42 @@
         "integrator": "Avnet",
         "maker": "Avnet",
         "listings": 2
+      },
+      {
+        "slug": "mic-710ail",
+        "vendor": "NVIDIA",
+        "name": "AI System (Lite) Based on NVIDIA® Jetson Nano",
+        "partNumber": "MIC-710AIL",
+        "image": null,
+        "imageLocal": "assets/boards/MIC-710AIL.jpg",
+        "link": null,
+        "buy": null,
+        "qualifications": [],
+        "tags": [],
+        "resources": [],
+        "integrator": "Advantech",
+        "maker": "Advantech",
+        "listings": 0
+      },
+      {
+        "slug": "amphenol-mikrobus-clicks",
+        "vendor": "Amphenol",
+        "name": "Amphenol mikroBUS Click Sensor Boards",
+        "partNumber": "AMPHENOL-MIKROBUS-CLICKS",
+        "image": null,
+        "imageLocal": "assets/boards/AMPHENOL-MIKROBUS-CLICKS.jpg",
+        "link": null,
+        "buy": null,
+        "qualifications": [],
+        "tags": [
+          "clicks",
+          "sensors",
+          "mikrobus"
+        ],
+        "resources": [],
+        "integrator": "Amphenol",
+        "maker": "Amphenol",
+        "listings": 1
       },
       {
         "slug": "afx00001",
@@ -2011,6 +2047,26 @@
         "listings": 1
       },
       {
+        "slug": "j4021",
+        "vendor": "NVIDIA",
+        "name": "reComputer J4021 - Edge AI Computer with NVIDIA Jetson Orin NX 16GB",
+        "partNumber": "J4021",
+        "image": null,
+        "imageLocal": "assets/boards/J4021.jpg",
+        "link": null,
+        "buy": null,
+        "qualifications": [],
+        "tags": [
+          "ai",
+          "vision",
+          "edge"
+        ],
+        "resources": [],
+        "integrator": "Seeed Studio",
+        "maker": "Seeed Studio",
+        "listings": 1
+      },
+      {
         "slug": "rz-g3e-evk",
         "vendor": "Renesas",
         "name": "RZ/G3E Evaluation Kit",
@@ -2728,6 +2784,26 @@
         "listings": 1
       },
       {
+        "slug": "te-mikrobus-clicks",
+        "vendor": "TE Connectivity",
+        "name": "TE Connectivity mikroBUS Click Sensor Boards",
+        "partNumber": "TE-MIKROBUS-CLICKS",
+        "image": null,
+        "imageLocal": "assets/boards/TE-MIKROBUS-CLICKS.jpg",
+        "link": null,
+        "buy": null,
+        "qualifications": [],
+        "tags": [
+          "clicks",
+          "sensors",
+          "mikrobus"
+        ],
+        "resources": [],
+        "integrator": "TE Connectivity",
+        "maker": "TE Connectivity",
+        "listings": 1
+      },
+      {
         "slug": "nrf6943",
         "vendor": "Nordic",
         "name": "Thingy-91",
@@ -2971,7 +3047,7 @@
   "counts": {
     "total": 149,
     "manufacturers": 14,
-    "boards": 79,
+    "boards": 83,
     "sdks": 18,
     "examples": 131,
     "guides": 80,
@@ -3562,7 +3638,8 @@
           "name": "reComputer J4021 - Edge AI Computer with NVIDIA Jetson Orin NX 16GB",
           "maker": "Seeed Studio",
           "integrator": "Seeed Studio",
-          "partNumber": "J4021"
+          "partNumber": "J4021",
+          "imageLocal": "assets/boards/J4021.jpg"
         }
       ],
       "board": {
@@ -3571,7 +3648,8 @@
         "name": "reComputer J4021 - Edge AI Computer with NVIDIA Jetson Orin NX 16GB",
         "maker": "Seeed Studio",
         "integrator": "Seeed Studio",
-        "partNumber": "J4021"
+        "partNumber": "J4021",
+        "imageLocal": "assets/boards/J4021.jpg"
       },
       "manufacturers": [
         "NVIDIA"
@@ -6416,7 +6494,8 @@
           "vendor": "TE Connectivity",
           "name": "TE Connectivity mikroBUS Click Sensor Boards",
           "maker": "TE Connectivity",
-          "partNumber": "TE-MIKROBUS-CLICKS"
+          "partNumber": "TE-MIKROBUS-CLICKS",
+          "imageLocal": "assets/boards/TE-MIKROBUS-CLICKS.jpg"
         }
       ],
       "board": {
@@ -6424,7 +6503,8 @@
         "vendor": "TE Connectivity",
         "name": "TE Connectivity mikroBUS Click Sensor Boards",
         "maker": "TE Connectivity",
-        "partNumber": "TE-MIKROBUS-CLICKS"
+        "partNumber": "TE-MIKROBUS-CLICKS",
+        "imageLocal": "assets/boards/TE-MIKROBUS-CLICKS.jpg"
       },
       "manufacturers": [
         "TE Connectivity"
@@ -6468,7 +6548,8 @@
           "vendor": "Amphenol",
           "name": "Amphenol mikroBUS Click Sensor Boards",
           "maker": "Amphenol",
-          "partNumber": "AMPHENOL-MIKROBUS-CLICKS"
+          "partNumber": "AMPHENOL-MIKROBUS-CLICKS",
+          "imageLocal": "assets/boards/AMPHENOL-MIKROBUS-CLICKS.jpg"
         }
       ],
       "board": {
@@ -6476,7 +6557,8 @@
         "vendor": "Amphenol",
         "name": "Amphenol mikroBUS Click Sensor Boards",
         "maker": "Amphenol",
-        "partNumber": "AMPHENOL-MIKROBUS-CLICKS"
+        "partNumber": "AMPHENOL-MIKROBUS-CLICKS",
+        "imageLocal": "assets/boards/AMPHENOL-MIKROBUS-CLICKS.jpg"
       },
       "manufacturers": [
         "Amphenol"

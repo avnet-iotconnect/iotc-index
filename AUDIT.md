@@ -1,15 +1,12 @@
 # /IOTCONNECT Index — Audit Report
 
-_Generated 2026-06-26T03:59:55Z_  ·  149 listings · 79 boards (69 in use) · 14 manufacturers · 212 resources
+_Generated 2026-06-26T17:05:41Z_  ·  149 listings · 83 boards (69 in use) · 14 manufacturers · 212 resources
 
 ## ⚠ Boards referenced but missing from the Boards sheet
 - none — every referenced board is defined.
 
 ## Boards with no image (Azure or local)
-- NVIDIA · AI System (Lite) Based on NVIDIA® Jetson Nano (MIC-710AIL)
-- NVIDIA · reComputer J4021 - Edge AI Computer with NVIDIA Jetson Orin NX 16GB (J4021)
-- TE Connectivity · TE Connectivity mikroBUS Click Sensor Boards (TE-MIKROBUS-CLICKS)
-- Amphenol · Amphenol mikroBUS Click Sensor Boards (AMPHENOL-MIKROBUS-CLICKS)
+- none.
 
 ## Boards not used by any listing (orphans)
 - Intel · MXE-230 Series with Intel (MXE-210)
