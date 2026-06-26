@@ -1,6 +1,6 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-06-26T20:32:31Z",
+  "generated": "2026-06-26T20:49:14Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
@@ -380,10 +380,6 @@
         "count": 14
       },
       {
-        "tag": "modustoolbox",
-        "count": 13
-      },
-      {
         "tag": "video",
         "count": 13
       },
@@ -393,6 +389,10 @@
       },
       {
         "tag": "freertos",
+        "count": 12
+      },
+      {
+        "tag": "modustoolbox",
         "count": 12
       },
       {
@@ -3266,10 +3266,10 @@
     ]
   },
   "counts": {
-    "total": 185,
+    "total": 184,
     "manufacturers": 17,
     "boards": 89,
-    "sdks": 31,
+    "sdks": 30,
     "examples": 149,
     "guides": 80,
     "demos": 12,
@@ -12024,30 +12024,6 @@
       "described": true,
       "hidden": false,
       "id": "iotconnect-python-demo-source-for-yocto",
-      "boards": [],
-      "board": null,
-      "manufacturers": [],
-      "makers": []
-    },
-    {
-      "repo": "avnet-iotc-mtb-super-manifest",
-      "url": "https://github.com/avnet-iotconnect/avnet-iotc-mtb-super-manifest",
-      "displayName": "/IOTCONNECT ModusToolbox Super-Manifest",
-      "description": "ModusToolbox super-manifest (v2.0) that aggregates the URIs of Avnet /IOTCONNECT code-example and middleware/BSP manifests, making the /IOTCONNECT enablement examples discoverable inside the Infineon ModusToolbox IDE Project Creator. Board-agnostic tooling infrastructure consumed by ModusToolbox.",
-      "category": "library",
-      "status": "beta",
-      "languages": [],
-      "features": [
-        "modustoolbox"
-      ],
-      "stars": 0,
-      "updated": "2024-05-09T21:15:29Z",
-      "image": null,
-      "dashboards": [],
-      "photos": [],
-      "described": true,
-      "hidden": false,
-      "id": "iotconnect-modustoolbox-super-manifest",
       "boards": [],
       "board": null,
       "manufacturers": [],
