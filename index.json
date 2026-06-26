@@ -1,6 +1,6 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-06-26T03:59:35Z",
+  "generated": "2026-06-26T04:47:28Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
@@ -3548,7 +3548,9 @@
       "stars": 0,
       "updated": "2025-10-29T23:19:14Z",
       "image": null,
-      "dashboards": [],
+      "dashboards": [
+        "https://saleshosted.z13.web.core.windows.net/dashboard/r2/nvidia.png"
+      ],
       "photos": [],
       "described": true,
       "hidden": false,
@@ -3596,7 +3598,9 @@
       "stars": 0,
       "updated": "2025-10-29T23:19:14Z",
       "image": null,
-      "dashboards": [],
+      "dashboards": [
+        "https://saleshosted.z13.web.core.windows.net/dashboard/r2/nvidia.png"
+      ],
       "photos": [],
       "described": true,
       "hidden": false,
@@ -3646,7 +3650,9 @@
       "stars": 0,
       "updated": "2025-10-29T23:19:14Z",
       "image": null,
-      "dashboards": [],
+      "dashboards": [
+        "https://saleshosted.z13.web.core.windows.net/dashboard/r2/nvidia.png"
+      ],
       "photos": [],
       "described": true,
       "hidden": false,
@@ -4043,11 +4049,16 @@
       "stars": 0,
       "updated": "2026-04-09T21:44:36Z",
       "image": null,
-      "dashboards": [],
-      "photos": [],
+      "dashboards": [
+        "https://saleshosted.z13.web.core.windows.net/images/events/2025/AWS-CXO-SJC/IMG_0442.JPEG",
+        "https://saleshosted.z13.web.core.windows.net/dashboard/avt-awspoc/aws-ggl-dash1.PNG"
+      ],
+      "photos": [
+        "https://saleshosted.z13.web.core.windows.net/images/demos/ggl-awscxo.png"
+      ],
       "described": true,
       "hidden": false,
-      "id": "ggl-basic-health-serial",
+      "id": "ggl-basic-health-serial::stm32mp257f-dk",
       "boards": [
         {
           "slug": "stm32mp257f-dk",
@@ -4091,11 +4102,16 @@
       "stars": 0,
       "updated": "2026-04-09T21:44:36Z",
       "image": null,
-      "dashboards": [],
-      "photos": [],
+      "dashboards": [
+        "https://saleshosted.z13.web.core.windows.net/images/events/2025/AWS-CXO-SJC/IMG_0442.JPEG",
+        "https://saleshosted.z13.web.core.windows.net/dashboard/avt-awspoc/aws-ggl-dash1.PNG"
+      ],
+      "photos": [
+        "https://saleshosted.z13.web.core.windows.net/images/demos/ggl-awscxo.png"
+      ],
       "described": true,
       "hidden": false,
-      "id": "ggl-basic-health-serial",
+      "id": "ggl-basic-health-serial::frdm-imx93",
       "boards": [
         {
           "slug": "frdm-imx93",
@@ -4139,11 +4155,16 @@
       "stars": 0,
       "updated": "2026-04-09T21:44:36Z",
       "image": null,
-      "dashboards": [],
-      "photos": [],
+      "dashboards": [
+        "https://saleshosted.z13.web.core.windows.net/images/events/2025/AWS-CXO-SJC/IMG_0442.JPEG",
+        "https://saleshosted.z13.web.core.windows.net/dashboard/avt-awspoc/aws-ggl-dash1.PNG"
+      ],
+      "photos": [
+        "https://saleshosted.z13.web.core.windows.net/images/demos/ggl-awscxo.png"
+      ],
       "described": true,
       "hidden": false,
-      "id": "ggl-basic-health-serial",
+      "id": "ggl-basic-health-serial::stm32mp135f-dk",
       "boards": [
         {
           "slug": "stm32mp135f-dk",
@@ -4187,11 +4208,16 @@
       "stars": 0,
       "updated": "2026-04-09T21:44:36Z",
       "image": null,
-      "dashboards": [],
-      "photos": [],
+      "dashboards": [
+        "https://saleshosted.z13.web.core.windows.net/images/events/2025/AWS-CXO-SJC/IMG_0442.JPEG",
+        "https://saleshosted.z13.web.core.windows.net/dashboard/avt-awspoc/aws-ggl-dash1.PNG"
+      ],
+      "photos": [
+        "https://saleshosted.z13.web.core.windows.net/images/demos/ggl-awscxo.png"
+      ],
       "described": true,
       "hidden": false,
-      "id": "ggl-basic-health-serial",
+      "id": "ggl-basic-health-serial::rpi5-4gb-single",
       "boards": [
         {
           "slug": "rpi5-4gb-single",
@@ -4293,7 +4319,7 @@
       "photos": [],
       "described": true,
       "hidden": false,
-      "id": "ggl-components-ai-vision-demo-proteus-ble-sensortilebox-pro-ble",
+      "id": "ggl-components-ai-vision-demo-proteus-ble-sensortilebox-pro-ble::stm32mp135f-dk",
       "boards": [
         {
           "slug": "stm32mp135f-dk",
@@ -4344,7 +4370,7 @@
       "photos": [],
       "described": true,
       "hidden": false,
-      "id": "ggl-components-ai-vision-demo-proteus-ble-sensortilebox-pro-ble",
+      "id": "ggl-components-ai-vision-demo-proteus-ble-sensortilebox-pro-ble::stm32mp257f-dk",
       "boards": [
         {
           "slug": "stm32mp257f-dk",
@@ -5138,9 +5164,7 @@
       "updated": "2025-08-08T19:48:42Z",
       "image": null,
       "dashboards": [
-        "https://saleshosted.z13.web.core.windows.net/dashboard/ifx-awspoc/babycry1.PNG",
-        "https://saleshosted.z13.web.core.windows.net/dashboard/ifx-awspoc/gest-detect1.PNG",
-        "https://saleshosted.z13.web.core.windows.net/dashboard/ifx-awspoc/human_activity1.PNG"
+        "https://saleshosted.z13.web.core.windows.net/dashboard/ifx-awspoc/gest-detect1.PNG"
       ],
       "photos": [],
       "described": true,
@@ -5883,9 +5907,7 @@
       "stars": 0,
       "updated": "2026-06-01T00:00:00Z",
       "image": null,
-      "dashboards": [
-        "https://private-user-images.githubusercontent.com/44109284/324119940-f5e593ca-aedd-43ea-a491-2896aab8d3f0.gif?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTYwOTA2MDksIm5iZiI6MTc1NjA5MDMwOSwicGF0aCI6Ii80NDEwOTI4NC8zMjQxMTk5NDAtZjVlNTkzY2EtYWVkZC00M2VhLWE0OTEtMjg5NmFhYjhkM2YwLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA4MjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwODI1VDAyNTE0OVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQ2ZjdjYjI5MDI2M2NkY2IwZGQyMWU4OGJhYjNkMjRiMTlhMDFkMjZhYmYxZmM0MjI2NWViYTA3ODNmNGNhMzQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.IfgFCMOXGzSnhl40dfFSeI1ZqY5tfdfbWryrCX0_FQU"
-      ],
+      "dashboards": [],
       "photos": [
         "https://saleshosted.z13.web.core.windows.net/images/demos/Tria-Parking_RZ.png"
       ],
@@ -6925,7 +6947,9 @@
       "stars": 2,
       "updated": "2026-04-10T09:15:24Z",
       "image": null,
-      "dashboards": [],
+      "dashboards": [
+        "https://saleshosted.z13.web.core.windows.net/dashboard/ifx-awspoc/human_activity1.PNG"
+      ],
       "photos": [],
       "described": true,
       "hidden": false,
@@ -6976,7 +7000,9 @@
       "stars": 1,
       "updated": "2025-08-14T18:50:13Z",
       "image": null,
-      "dashboards": [],
+      "dashboards": [
+        "https://saleshosted.z13.web.core.windows.net/dashboard/ifx-awspoc/babycry1.PNG"
+      ],
       "photos": [],
       "described": true,
       "hidden": false,

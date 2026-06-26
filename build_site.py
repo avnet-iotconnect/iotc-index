@@ -209,6 +209,26 @@ for L in listings:
                     "manufacturers": sorted({b["vendor"] for b in boards}) if boards else [],
                     "makers": sorted({b.get("maker", b["vendor"]) for b in boards}) if boards else []})
 
+# Guarantee globally-unique ids. Same-named single-board listings (authored as
+# separate per-board rows) would otherwise both take the bare slug(name) id and
+# collide in the front end's last-wins repoById map -> clicking any of them opens
+# the wrong drawer. First occurrence keeps the clean slug (so existing
+# #demo/<id> deep-links are preserved); colliders gain a ::boardslug suffix
+# (matching the multi-board convention), with a -N counter as a final backstop.
+seen = {}
+for r in out:
+    i = r["id"]
+    if i not in seen:
+        seen[i] = 1; continue
+    b = r.get("board")
+    cand = f'{i}::{b["slug"]}' if b and b.get("slug") else i
+    if cand in seen:
+        n = 2
+        while f'{cand}-{n}' in seen: n += 1
+        cand = f'{cand}-{n}'
+    r["id"] = cand; seen[cand] = 1
+assert len({r["id"] for r in out}) == len(out), "duplicate listing ids after de-collision"
+
 vis = [r for r in out if not r["hidden"]]
 mfrs = sorted({m for r in vis for m in r["manufacturers"] if m and m != "Other"})
 used_slugs = {b["slug"] for r in vis for b in r["boards"]}
