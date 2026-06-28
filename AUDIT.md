@@ -1,6 +1,6 @@
 # /IOTCONNECT Index — Audit Report
 
-_Generated 2026-06-26T20:58:57Z_  ·  185 listings · 89 boards (79 in use) · 17 manufacturers · 212 resources
+_Generated 2026-06-28T17:50:29Z_  ·  185 listings · 89 boards (79 in use) · 17 manufacturers · 211 resources
 
 ## ⚠ Boards referenced but missing from the Boards sheet
 - none — every referenced board is defined.
@@ -9,7 +9,7 @@ _Generated 2026-06-26T20:58:57Z_  ·  185 listings · 89 boards (79 in use) · 1
 - none.
 
 ## Boards not used by any listing (orphans)
-- Intel · MXE-230 Series with Intel (MXE-210)
+- Intel · MXE-230 Series Fanless Embedded Computer (MXE-230)
 - AMD · Kria KV260 Vision AI Starter Kit (SK-KV260-G)
 - NVIDIA · AI System (Lite) Based on NVIDIA® Jetson Nano (MIC-710AIL)
 - Intel · UNO-148_V2 (UNO-148_V2)

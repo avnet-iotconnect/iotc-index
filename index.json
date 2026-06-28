@@ -1,6 +1,6 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-06-26T20:58:57Z",
+  "generated": "2026-06-28T17:50:29Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
@@ -1429,10 +1429,10 @@
         "listings": 3
       },
       {
-        "slug": "mxe-210",
+        "slug": "mxe-230",
         "vendor": "Intel",
-        "name": "MXE-230 Series with Intel",
-        "partNumber": "MXE-210",
+        "name": "MXE-230 Series Fanless Embedded Computer",
+        "partNumber": "MXE-230",
         "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ADLINK_MXE-230.png",
         "imageLocal": null,
         "link": "https://www.adlinktech.com/products/industrial_pcs_fanless_embedded_pcs/integratedfanlessembeddedcomputers/mxe-230_series",
@@ -1541,11 +1541,6 @@
             "kind": "buy",
             "title": "Buy AES-MC-SBC-IMX8MINI-G on Avnet",
             "url": "https://www.avnet.com/shop/us/products/avnet-engineering-services/aes-mc-sbc-imx8mini-g-3074457345643866383"
-          },
-          {
-            "kind": "developer",
-            "title": "Compilation Guide",
-            "url": "https://github.com/avnet-iotconnect/iotc-yocto-python-sdk/blob/hardknott/board_specific_readmes/maaxboard.md"
           },
           {
             "kind": "video",
@@ -3271,7 +3266,7 @@
     "boards": 89,
     "sdks": 30,
     "examples": 150,
-    "guides": 80,
+    "guides": 79,
     "demos": 12,
     "partners": 9
   },
@@ -4859,7 +4854,7 @@
       "repo": "iotc-lora-demos",
       "url": "https://github.com/avnet-iotconnect/iotc-lora-demos",
       "displayName": "LoRaWAN Sensor Monitoring",
-      "description": "Guide for onboarding LoRaWAN devices to IOTCONNECT. It walks through creating templates and configuring device attributes such as temperature, pressure, humidity and accelerometer for ST ASTRA1B and NUCLEO-WL55JC boards, creating LoRaWAN devices in the portal and sending telemetry and commands.",
+      "description": "Onboard Renesas RA boards (FPB-RA0E1, FPB-RA0E2, FPB-RA2E1, EK-RA2L1) as LoRaWAN end-nodes that stream HS3001 temperature/humidity and sensor data to /IOTCONNECT. Precompiled demos pair each board with a Semtech SX1261/SX1262 LoRa shield and deliver telemetry through a Kerlink Wirnet LoRaWAN gateway running ChirpStack.",
       "category": "sample",
       "status": "beta",
       "languages": [
@@ -4911,7 +4906,7 @@
       "repo": "iotc-lora-demos",
       "url": "https://github.com/avnet-iotconnect/iotc-lora-demos",
       "displayName": "LoRaWAN Sensor Monitoring",
-      "description": "Guide for onboarding LoRaWAN devices to IOTCONNECT. It walks through creating templates and configuring device attributes such as temperature, pressure, humidity and accelerometer for ST ASTRA1B and NUCLEO-WL55JC boards, creating LoRaWAN devices in the portal and sending telemetry and commands.",
+      "description": "Onboard Renesas RA boards (FPB-RA0E1, FPB-RA0E2, FPB-RA2E1, EK-RA2L1) as LoRaWAN end-nodes that stream HS3001 temperature/humidity and sensor data to /IOTCONNECT. Precompiled demos pair each board with a Semtech SX1261/SX1262 LoRa shield and deliver telemetry through a Kerlink Wirnet LoRaWAN gateway running ChirpStack.",
       "category": "sample",
       "status": "beta",
       "languages": [
@@ -4963,7 +4958,7 @@
       "repo": "iotc-lora-demos",
       "url": "https://github.com/avnet-iotconnect/iotc-lora-demos",
       "displayName": "LoRaWAN Sensor Monitoring",
-      "description": "Guide for onboarding LoRaWAN devices to IOTCONNECT. It walks through creating templates and configuring device attributes such as temperature, pressure, humidity and accelerometer for ST ASTRA1B and NUCLEO-WL55JC boards, creating LoRaWAN devices in the portal and sending telemetry and commands.",
+      "description": "Onboard Renesas RA boards (FPB-RA0E1, FPB-RA0E2, FPB-RA2E1, EK-RA2L1) as LoRaWAN end-nodes that stream HS3001 temperature/humidity and sensor data to /IOTCONNECT. Precompiled demos pair each board with a Semtech SX1261/SX1262 LoRa shield and deliver telemetry through a Kerlink Wirnet LoRaWAN gateway running ChirpStack.",
       "category": "sample",
       "status": "beta",
       "languages": [
@@ -5015,7 +5010,7 @@
       "repo": "iotc-lora-demos",
       "url": "https://github.com/avnet-iotconnect/iotc-lora-demos",
       "displayName": "LoRaWAN Sensor Monitoring",
-      "description": "Guide for onboarding LoRaWAN devices to IOTCONNECT. It walks through creating templates and configuring device attributes such as temperature, pressure, humidity and accelerometer for ST ASTRA1B and NUCLEO-WL55JC boards, creating LoRaWAN devices in the portal and sending telemetry and commands.",
+      "description": "Onboard Renesas RA boards (FPB-RA0E1, FPB-RA0E2, FPB-RA2E1, EK-RA2L1) as LoRaWAN end-nodes that stream HS3001 temperature/humidity and sensor data to /IOTCONNECT. Precompiled demos pair each board with a Semtech SX1261/SX1262 LoRa shield and deliver telemetry through a Kerlink Wirnet LoRaWAN gateway running ChirpStack.",
       "category": "sample",
       "status": "beta",
       "languages": [
@@ -5067,7 +5062,7 @@
       "repo": "iotc-lora-demos",
       "url": "https://github.com/avnet-iotconnect/iotc-lora-demos",
       "displayName": "LoRaWAN Sensor Monitoring",
-      "description": "Guide for onboarding LoRaWAN devices to IOTCONNECT. It walks through creating templates and configuring device attributes such as temperature, pressure, humidity and accelerometer for ST ASTRA1B and NUCLEO-WL55JC boards, creating LoRaWAN devices in the portal and sending telemetry and commands.",
+      "description": "Onboard Renesas RA boards (FPB-RA0E1, FPB-RA0E2, FPB-RA2E1, EK-RA2L1) as LoRaWAN end-nodes that stream HS3001 temperature/humidity and sensor data to /IOTCONNECT. Precompiled demos pair each board with a Semtech SX1261/SX1262 LoRa shield and deliver telemetry through a Kerlink Wirnet LoRaWAN gateway running ChirpStack.",
       "category": "sample",
       "status": "beta",
       "languages": [

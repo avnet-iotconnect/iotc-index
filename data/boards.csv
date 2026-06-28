@@ -1,5 +1,5 @@
 Manufacturer,Board Name,Part Number,Image File,Image Local,Product Link,AWS Qualified,Greengrass,Tags,Include,Silicon
-ADLINK,MXE-230 Series with Intel,MXE-210,ADLINK_MXE-230.png,,https://www.adlinktech.com/products/industrial_pcs_fanless_embedded_pcs/integratedfanlessembeddedcomputers/mxe-230_series,yes,yes,Greengrass,yes,Intel
+ADLINK,MXE-230 Series Fanless Embedded Computer,MXE-230,ADLINK_MXE-230.png,,https://www.adlinktech.com/products/industrial_pcs_fanless_embedded_pcs/integratedfanlessembeddedcomputers/mxe-230_series,yes,yes,Greengrass,yes,Intel
 AMD,Kria KV260 Vision AI Starter Kit,SK-KV260-G,https://www.amd.com/content/dam/amd/en/images/products/som/2362834-kv260-product.jpg,,https://www.amd.com/en/products/system-on-modules/kria/k26/kv260-vision-starter-kit.html,no,yes,Greengrass,yes,AMD
 Advantech,AI System (Lite) Based on NVIDIA® Jetson Nano,MIC-710AIL,,MIC-710AIL.jpg,,no,no,,yes,NVIDIA
 Advantech,Edge AI Camera,ICAM-540-30W,https://apn-portal.my.salesforce.com/servlet/servlet.ImageServer?id=015aq000000IvZJAA0&oid=00DE0000000c48tMAA,,https://www.advantech.com/en-us/products/edge-ai-camera/sub_d51faf9f-1457-4702-93f7-f613d7b1460e,no,no,Greengrass,yes,NVIDIA

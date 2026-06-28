@@ -11,7 +11,6 @@ AES-MC-SBC-IMX8M-G,board,demo,Demo Guide: Track Voyager,https://github.com/avnet
 AES-MC-SBC-IMX8M-G,board,demo,MaaXBoard Voyager Demo - Dynamic Dashboard Template (JSON),https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-yocto-c-sdk/voyager-demo/templates/dashboard/MaaXBoard%20Voyager%20Demo_dashboard_export.json
 AES-MC-SBC-IMX8M-G,board,doc,MaaXBoard Voyager Demo - Voyager Sensors Device Template (JSON),https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-yocto-c-sdk/voyager-demo/templates/device/Voyager%20Sensors_template.JSON
 AES-MC-SBC-IMX8MINI-G,board,buy,Buy AES-MC-SBC-IMX8MINI-G on Avnet,https://www.avnet.com/shop/us/products/avnet-engineering-services/aes-mc-sbc-imx8mini-g-3074457345643866383
-AES-MC-SBC-IMX8MINI-G,board,developer,Compilation Guide,https://github.com/avnet-iotconnect/iotc-yocto-python-sdk/blob/hardknott/board_specific_readmes/maaxboard.md
 AES-MC-SBC-IMX8MINI-G,board,video,Video: Chip to Cloud EV Charging Solution,https://bcove.video/3A04q5f
 AES-MC-SBC-IMXRT1176-G,board,quickstart,QuickStart Guide,https://github.com/avnet-iotconnect/iotc-azurertos-sdk/blob/main/samples/maaxboardrt/QUICKSTART.md
 AES-MC-SBC-IMXRT1176-G,board,doc,GitHub Repository Root,https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/maaxboardrt
