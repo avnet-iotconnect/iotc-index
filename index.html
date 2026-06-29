@@ -147,6 +147,7 @@
   .tag-tl{position:absolute;top:10px;left:10px;z-index:3;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.06em;text-transform:uppercase;padding:4px 8px;border-radius:6px;background:rgba(255,255,255,.92);color:var(--brand-deep);border:1px solid var(--line);font-weight:600;}
   .tag-tr{position:absolute;top:10px;right:10px;z-index:3;display:inline-flex;align-items:center;gap:6px;font-family:'JetBrains Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:.05em;padding:4px 8px;border-radius:6px;background:rgba(255,255,255,.92);border:1px solid var(--line);color:var(--st);font-weight:600;}
   .tag-tr .led{width:7px;height:7px;border-radius:50%;background:var(--st);box-shadow:0 0 7px var(--st);}
+  .tag-tr.rel{text-transform:none;color:var(--brand-deep);}   /* release tag badge (no status LED) */
   .qbadges{position:absolute;left:10px;bottom:10px;z-index:3;display:flex;gap:5px;flex-wrap:wrap;}
   .qbadge{font-family:'JetBrains Mono',monospace;font-size:9.5px;font-weight:600;letter-spacing:.03em;background:rgba(9,32,19,.86);color:#D7F3E0;border-radius:5px;padding:3px 7px;}
   .body{padding:14px 15px 13px;display:flex;flex-direction:column;flex:1;}
@@ -217,6 +218,7 @@
   /* sample detail drawer: gallery + meta */
   .dr-vendor .pill-cat{font-family:'JetBrains Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:.05em;background:var(--soft-2);color:var(--brand-deep);padding:3px 8px;border-radius:6px;}
   .dr-vendor .led-dot{width:7px;height:7px;border-radius:50%;background:var(--st);box-shadow:0 0 7px var(--st);}
+  .dr-vendor .rel-tag{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:600;color:var(--brand-deep);background:var(--soft);border:1px solid var(--line);padding:3px 8px;border-radius:6px;}
   .dr-desc{font-size:14px;color:var(--body);line-height:1.55;margin-top:18px;}
   .dr-gallery{margin:20px 0 6px;}
   .dr-gmain{position:relative;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#0d1b14;aspect-ratio:16/10;display:grid;place-items:center;}
@@ -261,11 +263,14 @@
     <a data-jump="hardware">Hardware</a>
     <a data-jump="software">SDKs &amp; Demos</a>
     <a data-jump="partners">Partners</a>
-    <a href="https://docs.iotconnect.io/" target="_blank" rel="noopener">Docs ↗</a>
+    <a href="https://www.iotconnect.io" target="_blank" rel="noopener">Product ↗</a>
+    <a href="https://docs.iotconnect.io/iotconnect/" target="_blank" rel="noopener">Docs ↗</a>
+    <a href="https://www.avnet.com/americas/solutions/iot/iotconnect/training/" target="_blank" rel="noopener">Training ↗</a>
+    <a href="https://aws.amazon.com/marketplace/seller-profile?id=seller-gqopqcki66fjk" target="_blank" rel="noopener">AWS Marketplace ↗</a>
   </div>
   <span class="spacer"></span>
   <a class="btn btn-ghost" href="https://github.com/avnet-iotconnect" target="_blank" rel="noopener">GitHub</a>
-  <a class="btn btn-primary" href="https://subscription.iotconnect.io/" target="_blank" rel="noopener">Start free</a>
+  <a class="btn btn-primary" href="https://subscription.iotconnect.io/subscribe" target="_blank" rel="noopener">Start free</a>
 </div></nav>
 
 <!-- HERO -->
@@ -333,8 +338,11 @@
       <p class="lede">An Avnet platform. This enablement hub indexes the open-source <span class="mono">avnet-iotconnect</span> hardware, SDKs and demos.</p>
     </div>
     <div><h4>Platform</h4>
-      <a href="https://docs.iotconnect.io/" target="_blank" rel="noopener">Documentation</a>
-      <a href="https://subscription.iotconnect.io/" target="_blank" rel="noopener">Start free trial</a>
+      <a href="https://www.iotconnect.io" target="_blank" rel="noopener">Product</a>
+      <a href="https://docs.iotconnect.io/iotconnect/" target="_blank" rel="noopener">Documentation</a>
+      <a href="https://www.avnet.com/americas/solutions/iot/iotconnect/training/" target="_blank" rel="noopener">Training</a>
+      <a href="https://aws.amazon.com/marketplace/seller-profile?id=seller-gqopqcki66fjk" target="_blank" rel="noopener">AWS Marketplace</a>
+      <a href="https://subscription.iotconnect.io/subscribe" target="_blank" rel="noopener">Start free trial</a>
       <a href="https://docs.iotconnect.io/iotconnect/sdk/sdk-flavors/" target="_blank" rel="noopener">SDK flavors</a>
     </div>
     <div><h4>Build</h4>
@@ -508,10 +516,9 @@ function boardCard(b){
 }
 function repoCard(r){
   const boards=r.boards||[];
-  const st=r.status||"none";
-  const stColor=`var(--st-${st})`;
   const cat=`<span class="tag-tl">${esc(r.category)}</span>`;
-  const stt=`<span class="tag-tr" style="--st:${stColor}"><span class="led"></span>${esc(st)}</span>`;
+  // show the latest GitHub release tag; no release -> no label
+  const stt=r.release?`<span class="tag-tr rel">${esc(r.release)}</span>`:"";
   const lead=mediaLead(r);
   let img;
   if(lead){
@@ -729,7 +736,7 @@ function openListing(id){
   $("#drawer").innerHTML=`
     <div class="dr-head">
       <button class="dr-close" id="drClose">×</button>
-      <div class="dr-vendor"><span class="pill-cat">${esc(r.category)}</span><span class="led-dot" style="--st:var(--st-${esc(r.status||"none")})"></span><span>${esc(r.status||"")}</span></div>
+      <div class="dr-vendor"><span class="pill-cat">${esc(r.category)}</span>${r.release?`<span class="rel-tag">${esc(r.release)}</span>`:""}</div>
       <h2>${esc(r.displayName||r.repo)}</h2>
       ${r.repo?`<div class="dr-pn">${esc(r.repo)}</div>`:""}
       ${(langs||topics)?`<div class="dr-quals">${langs}${topics}</div>`:""}

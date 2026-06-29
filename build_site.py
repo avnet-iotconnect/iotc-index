@@ -176,6 +176,19 @@ try:
 except Exception as e:
     print(f"[info] GitHub facts unavailable ({e}); using workbook data only.", file=sys.stderr)
 
+# latest GitHub release tag per listing repo — shown on cards in place of a status label
+# (no release -> no label). Needs a token; without one, no tags are emitted.
+n_rel = 0
+if TOKEN:
+    for repo in sorted({L["repo"] for L in listings if L["repo"]}):
+        try:
+            tag = (gh_get(f"/repos/{ORG}/{repo}/releases/latest") or {}).get("tag_name")
+            if tag:
+                facts.setdefault(repo, {})["release"] = tag; n_rel += 1
+        except Exception:
+            pass   # 404 = repo has no published release
+    print(f"[info] release tags: {n_rel} repos have a GitHub release.", file=sys.stderr)
+
 # ---------- assemble index ----------
 def board_ref(sg):
     b = board_defs[sg]
@@ -196,6 +209,7 @@ for L in listings:
             "url": L["url"] or (f'https://github.com/{ORG}/{L["repo"]}' if L["repo"] else None),
             "displayName": L["name"], "description": L["description"] or (live or {}).get("description", ""),
             "category": L["category"], "status": L["status"],
+            "release": (live or {}).get("release"),
             "languages": L["languages"] or (live or {}).get("languages", []),
             "features": L["features"], "stars": (live or {}).get("stars", 0),
             "updated": (live or {}).get("updated", "2026-06-01T00:00:00Z"),
