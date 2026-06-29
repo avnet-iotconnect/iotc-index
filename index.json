@@ -1,6 +1,6 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-06-29T13:51:46Z",
+  "generated": "2026-06-29T17:34:21Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
@@ -124,7 +124,7 @@
       "logo": "assets/brand/st-logo.png",
       "info": "https://www.avnet.com/iotconnect/st",
       "boards": 16,
-      "listings": 57
+      "listings": 56
     },
     {
       "name": "Semtech",
@@ -622,7 +622,7 @@
         "vendor": "Avnet",
         "name": "/IOTCONNECT Bridge Mobile Gateway App",
         "partNumber": "IOTC-BRIDGE-APP",
-        "image": null,
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/iotc-bridge_app.JPG",
         "imageLocal": "assets/boards/IOTC-BRIDGE-APP.jpg",
         "link": "https://github.com/avnet-iotconnect/iotc-gateway-mobile-app",
         "buy": null,
@@ -2869,7 +2869,7 @@
         ],
         "integrator": "STMicroelectronics",
         "maker": "STMicroelectronics",
-        "listings": 4
+        "listings": 3
       },
       {
         "slug": "stm32mp215f-dk",
@@ -4095,7 +4095,7 @@
       ],
       "stars": 0,
       "updated": "2026-06-01T00:00:00Z",
-      "image": null,
+      "image": "https://saleshosted.z13.web.core.windows.net/images/boards/advantech-ryzen-placard.JPG",
       "dashboards": [],
       "photos": [
         "https://iotcimage.s3.us-east-1.amazonaws.com/demo_hardware/IMG_1598.JPEG"
@@ -4256,7 +4256,7 @@
       ],
       "stars": 0,
       "updated": "2026-06-01T00:00:00Z",
-      "image": null,
+      "image": "https://saleshosted.z13.web.core.windows.net/images/boards/amd-gesture-placard.JPG",
       "dashboards": [
         "https://saleshosted.z13.web.core.windows.net/dashboard/avt-awspoc/zuboard-ASL.PNG"
       ],
@@ -4792,7 +4792,7 @@
       ],
       "stars": 0,
       "updated": "2026-03-30T19:21:15Z",
-      "image": null,
+      "image": "https://saleshosted.z13.web.core.windows.net/images/boards/st-n6andstm32.JPG",
       "dashboards": [
         "https://saleshosted.z13.web.core.windows.net/dashboard/r3/STM-vision-AI-demonstrator.PNG"
       ],
@@ -4898,7 +4898,7 @@
       ],
       "stars": 0,
       "updated": "2025-05-09T17:10:06Z",
-      "image": null,
+      "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ren-wireless-placard.JPG",
       "dashboards": [
         "https://saleshosted.z13.web.core.windows.net/dashboard/avt-awspoc/aws-ggl-dash1.PNG"
       ],
@@ -4951,7 +4951,7 @@
       ],
       "stars": 0,
       "updated": "2025-05-09T17:10:06Z",
-      "image": null,
+      "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ren-wireless-placard.JPG",
       "dashboards": [
         "https://saleshosted.z13.web.core.windows.net/dashboard/avt-awspoc/aws-ggl-dash1.PNG"
       ],
@@ -5004,7 +5004,7 @@
       ],
       "stars": 0,
       "updated": "2025-05-09T17:10:06Z",
-      "image": null,
+      "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ren-wireless-placard.JPG",
       "dashboards": [
         "https://saleshosted.z13.web.core.windows.net/dashboard/avt-awspoc/aws-ggl-dash1.PNG"
       ],
@@ -5057,7 +5057,7 @@
       ],
       "stars": 0,
       "updated": "2025-05-09T17:10:06Z",
-      "image": null,
+      "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ren-wireless-placard.JPG",
       "dashboards": [
         "https://saleshosted.z13.web.core.windows.net/dashboard/avt-awspoc/aws-ggl-dash1.PNG"
       ],
@@ -5110,7 +5110,7 @@
       ],
       "stars": 0,
       "updated": "2025-05-09T17:10:06Z",
-      "image": null,
+      "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ren-wireless-placard.JPG",
       "dashboards": [
         "https://saleshosted.z13.web.core.windows.net/dashboard/avt-awspoc/aws-ggl-dash1.PNG"
       ],
@@ -5163,8 +5163,8 @@
         "wifi"
       ],
       "stars": 0,
-      "updated": "2026-06-28T18:49:53Z",
-      "image": null,
+      "updated": "2026-06-29T14:54:45Z",
+      "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ren-wireless-placard.JPG",
       "dashboards": [
         "https://saleshosted.z13.web.core.windows.net/dashboard/r3/REN-CKRA6M5-macnine_mon.PNG"
       ],
@@ -5217,7 +5217,7 @@
       ],
       "stars": 4,
       "updated": "2026-05-09T14:16:15Z",
-      "image": null,
+      "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ren-tinyml2edgeai-placard.JPG",
       "dashboards": [
         "https://saleshosted.z13.web.core.windows.net/dashboard/avt-awspoc/rzb-none.PNG",
         "https://saleshosted.z13.web.core.windows.net/dashboard/avt-awspoc/rzb-imgclass.PNG",
@@ -5497,7 +5497,7 @@
       ],
       "stars": 0,
       "updated": "2025-07-28T18:16:53Z",
-      "image": null,
+      "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ifx-psoc6andedge-deepcraft.JPG",
       "dashboards": [
         "https://saleshosted.z13.web.core.windows.net/dashboard/ifx-awspoc/fall-detect1.PNG",
         "https://saleshosted.z13.web.core.windows.net/dashboard/ifx-awspoc/fall-detect2-usecase.PNG"
@@ -5551,7 +5551,7 @@
       ],
       "stars": 1,
       "updated": "2025-08-08T19:48:42Z",
-      "image": null,
+      "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ifx-psoc6andedge-deepcraft.JPG",
       "dashboards": [
         "https://saleshosted.z13.web.core.windows.net/dashboard/ifx-awspoc/gest-detect1.PNG"
       ],
@@ -5605,7 +5605,7 @@
       ],
       "stars": 1,
       "updated": "2025-08-08T19:48:42Z",
-      "image": null,
+      "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ifx-psoc6andedge-deepcraft.JPG",
       "dashboards": [],
       "photos": [
         "https://saleshosted.z13.web.core.windows.net/images/events/2024/Oktobertech/IMG_2570.JPEG",
@@ -5659,7 +5659,7 @@
       ],
       "stars": 1,
       "updated": "2025-08-08T19:48:42Z",
-      "image": null,
+      "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ifx-psoc6andedge-deepcraft.JPG",
       "dashboards": [
         "https://saleshosted.z13.web.core.windows.net/dashboard/ifx-awspoc/siren-det1.PNG"
       ],
@@ -5819,7 +5819,7 @@
       ],
       "stars": 0,
       "updated": "2025-02-04T22:24:29Z",
-      "image": null,
+      "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ren-tinyml2edgeai-placard.JPG",
       "dashboards": [
         "https://saleshosted.z13.web.core.windows.net/dashboard/avt-awspoc/ren-ekra6_and_ekra8.PNG"
       ],
@@ -5871,7 +5871,7 @@
       ],
       "stars": 0,
       "updated": "2025-02-04T22:24:29Z",
-      "image": null,
+      "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ren-tinyml2edgeai-placard.JPG",
       "dashboards": [
         "https://saleshosted.z13.web.core.windows.net/dashboard/avt-awspoc/ren-ekra6_and_ekra8.PNG"
       ],
@@ -5980,7 +5980,7 @@
       ],
       "stars": 0,
       "updated": "2024-05-29T16:39:00Z",
-      "image": null,
+      "image": "https://saleshosted.z13.web.core.windows.net/images/boards/iotc-bridge_app.JPG",
       "dashboards": [
         "https://github.com/avnet-iotconnect/iotc-gateway-mobile-app/blob/main/images/dashboard.png"
       ],
@@ -6033,7 +6033,7 @@
       ],
       "stars": 0,
       "updated": "2024-05-29T16:39:00Z",
-      "image": null,
+      "image": "https://saleshosted.z13.web.core.windows.net/images/boards/iotc-bridge_app.JPG",
       "dashboards": [
         "https://github.com/avnet-iotconnect/iotc-gateway-mobile-app/blob/main/images/dashboard.png"
       ],
@@ -6048,6 +6048,7 @@
           "name": "/IOTCONNECT Bridge Mobile Gateway App",
           "maker": "Avnet",
           "partNumber": "IOTC-BRIDGE-APP",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/iotc-bridge_app.JPG",
           "imageLocal": "assets/boards/IOTC-BRIDGE-APP.jpg"
         }
       ],
@@ -6057,6 +6058,7 @@
         "name": "/IOTCONNECT Bridge Mobile Gateway App",
         "maker": "Avnet",
         "partNumber": "IOTC-BRIDGE-APP",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/iotc-bridge_app.JPG",
         "imageLocal": "assets/boards/IOTC-BRIDGE-APP.jpg"
       },
       "manufacturers": [
@@ -6137,7 +6139,7 @@
       ],
       "stars": 0,
       "updated": "2026-06-01T00:00:00Z",
-      "image": null,
+      "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-scalable-ai-placard.JPG",
       "dashboards": [
         "https://saleshosted.z13.web.core.windows.net/dashboard/mcp-awspoc/asset_mon-main.PNG",
         "https://saleshosted.z13.web.core.windows.net/dashboard/mcp-awspoc/asset_mon-zone_a-mat.PNG",
@@ -6196,7 +6198,7 @@
       ],
       "stars": 0,
       "updated": "2026-06-01T00:00:00Z",
-      "image": null,
+      "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-scalable-ai-placard.JPG",
       "dashboards": [
         "https://saleshosted.z13.web.core.windows.net/dashboard/mcp-awspoc/asset_mon-main.PNG",
         "https://saleshosted.z13.web.core.windows.net/dashboard/mcp-awspoc/asset_mon-zone_a-mat.PNG",
@@ -6427,7 +6429,7 @@
       ],
       "stars": 9,
       "updated": "2026-05-11T22:52:02Z",
-      "image": null,
+      "image": "https://saleshosted.z13.web.core.windows.net/images/boards/st-n6andstm32.JPG",
       "dashboards": [
         "https://saleshosted.z13.web.core.windows.net/dashboard/avt-avnet/stm32N6-object-detection.PNG",
         "https://github.com/avnet-iotconnect/iotc-stm32-n6-demos/blob/main/media/dashboard.jpg"
@@ -6604,6 +6606,7 @@
           "name": "/IOTCONNECT Bridge Mobile Gateway App",
           "maker": "Avnet",
           "partNumber": "IOTC-BRIDGE-APP",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/iotc-bridge_app.JPG",
           "imageLocal": "assets/boards/IOTC-BRIDGE-APP.jpg"
         }
       ],
@@ -6613,6 +6616,7 @@
         "name": "/IOTCONNECT Bridge Mobile Gateway App",
         "maker": "Avnet",
         "partNumber": "IOTC-BRIDGE-APP",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/iotc-bridge_app.JPG",
         "imageLocal": "assets/boards/IOTC-BRIDGE-APP.jpg"
       },
       "manufacturers": [
@@ -6710,29 +6714,23 @@
       "id": "vision-ai-demonstrator",
       "boards": [
         {
-          "slug": "stm32mp257f-ev1",
-          "vendor": "STMicroelectronics",
-          "name": "STM32MP2 Evaluation Board",
-          "maker": "STMicroelectronics",
-          "partNumber": "STM32MP257F-EV1",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-EV1.png",
-          "imageLocal": "assets/boards/STM32MP257F-EV1.jpg"
+          "slug": "x-uno",
+          "vendor": "Other",
+          "name": "uno",
+          "maker": "Other"
         }
       ],
       "board": {
-        "slug": "stm32mp257f-ev1",
-        "vendor": "STMicroelectronics",
-        "name": "STM32MP2 Evaluation Board",
-        "maker": "STMicroelectronics",
-        "partNumber": "STM32MP257F-EV1",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-EV1.png",
-        "imageLocal": "assets/boards/STM32MP257F-EV1.jpg"
+        "slug": "x-uno",
+        "vendor": "Other",
+        "name": "uno",
+        "maker": "Other"
       },
       "manufacturers": [
-        "STMicroelectronics"
+        "Other"
       ],
       "makers": [
-        "STMicroelectronics"
+        "Other"
       ]
     },
     {
@@ -6917,8 +6915,8 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-06-22T22:24:45Z",
-      "image": null,
+      "updated": "2026-06-29T16:48:01Z",
+      "image": "https://saleshosted.z13.web.core.windows.net/images/boards/nxp-imx93andmcxn.JPG",
       "dashboards": [
         "https://saleshosted.z13.web.core.windows.net/dashboard/r3/nxp-frdm93-workersafty.PNG"
       ],
@@ -7026,7 +7024,9 @@
       "stars": 0,
       "updated": "2026-06-15T16:00:56Z",
       "image": null,
-      "dashboards": [],
+      "dashboards": [
+        "https://github.com/avnet-iotconnect/avnet-iotc-mtb-psoc-edge-aivision-webrtc/raw/main/images/setup.jpg"
+      ],
       "photos": [],
       "described": true,
       "hidden": false,
@@ -7125,7 +7125,7 @@
       ],
       "stars": 0,
       "updated": "2026-04-16T21:43:00Z",
-      "image": null,
+      "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ifx-psoc6andedge-deepcraft.JPG",
       "dashboards": [],
       "photos": [],
       "described": true,
@@ -7175,7 +7175,7 @@
       ],
       "stars": 0,
       "updated": "2026-04-16T21:43:00Z",
-      "image": null,
+      "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ifx-psoc6andedge-deepcraft.JPG",
       "dashboards": [],
       "photos": [],
       "described": true,
@@ -7273,7 +7273,7 @@
       ],
       "stars": 0,
       "updated": "2025-10-27T14:52:26Z",
-      "image": null,
+      "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ifx-psoc6andedge-deepcraft.JPG",
       "dashboards": [],
       "photos": [],
       "described": true,
@@ -7681,7 +7681,7 @@
       ],
       "stars": 0,
       "updated": "2025-11-22T04:11:37Z",
-      "image": null,
+      "image": "https://saleshosted.z13.web.core.windows.net/images/boards/nxp-imx93andmcxn.JPG",
       "dashboards": [],
       "photos": [],
       "described": true,
@@ -7782,7 +7782,9 @@
       "updated": "2026-02-20T22:24:24Z",
       "image": "assets/tech/arduino.svg",
       "dashboards": [],
-      "photos": [],
+      "photos": [
+        "https://saleshosted.z13.web.core.windows.net/images/boards/arduino-unoq-placard.JPG"
+      ],
       "described": true,
       "hidden": false,
       "id": "arduino-uno-q-app-lab",
@@ -8190,8 +8192,8 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-06-22T22:24:45Z",
-      "image": null,
+      "updated": "2026-06-29T16:48:01Z",
+      "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-scalable-ai-placard.JPG",
       "dashboards": [],
       "photos": [],
       "described": true,
@@ -8241,8 +8243,8 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-06-22T22:24:45Z",
-      "image": null,
+      "updated": "2026-06-29T16:48:01Z",
+      "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-scalable-ai-placard.JPG",
       "dashboards": [],
       "photos": [],
       "described": true,
@@ -8292,8 +8294,8 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-06-22T22:24:45Z",
-      "image": null,
+      "updated": "2026-06-29T16:48:01Z",
+      "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-scalable-ai-placard.JPG",
       "dashboards": [],
       "photos": [],
       "described": true,
@@ -8343,7 +8345,7 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-06-22T22:24:45Z",
+      "updated": "2026-06-29T16:48:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -8392,7 +8394,7 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-06-22T22:24:45Z",
+      "updated": "2026-06-29T16:48:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -8441,7 +8443,7 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-06-22T22:24:45Z",
+      "updated": "2026-06-29T16:48:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -8490,8 +8492,8 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-06-22T22:24:45Z",
-      "image": null,
+      "updated": "2026-06-29T16:48:01Z",
+      "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-kws-placard.JPG",
       "dashboards": [],
       "photos": [],
       "described": true,
@@ -8538,8 +8540,8 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-06-22T22:24:45Z",
-      "image": null,
+      "updated": "2026-06-29T16:48:01Z",
+      "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-kws-placard.JPG",
       "dashboards": [],
       "photos": [],
       "described": true,
@@ -8587,8 +8589,8 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-06-22T22:24:45Z",
-      "image": null,
+      "updated": "2026-06-29T16:48:01Z",
+      "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-kws-placard.JPG",
       "dashboards": [],
       "photos": [],
       "described": true,
@@ -8634,8 +8636,8 @@
         "sensors"
       ],
       "stars": 3,
-      "updated": "2026-06-22T22:24:45Z",
-      "image": null,
+      "updated": "2026-06-29T16:48:01Z",
+      "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-kws-placard.JPG",
       "dashboards": [],
       "photos": [],
       "described": true,
@@ -8682,7 +8684,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-06-22T22:24:45Z",
+      "updated": "2026-06-29T16:48:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -8730,7 +8732,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-06-22T22:24:45Z",
+      "updated": "2026-06-29T16:48:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -8781,7 +8783,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-06-22T22:24:45Z",
+      "updated": "2026-06-29T16:48:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -8830,7 +8832,7 @@
         "file-upload"
       ],
       "stars": 3,
-      "updated": "2026-06-22T22:24:45Z",
+      "updated": "2026-06-29T16:48:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -8880,7 +8882,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-06-22T22:24:45Z",
+      "updated": "2026-06-29T16:48:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -8931,7 +8933,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-06-22T22:24:45Z",
+      "updated": "2026-06-29T16:48:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -8982,8 +8984,8 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-06-22T22:24:45Z",
-      "image": null,
+      "updated": "2026-06-29T16:48:01Z",
+      "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ren-rzv2h-placard.JPG",
       "dashboards": [],
       "photos": [],
       "described": true,
@@ -9029,8 +9031,8 @@
         "sensors"
       ],
       "stars": 3,
-      "updated": "2026-06-22T22:24:45Z",
-      "image": null,
+      "updated": "2026-06-29T16:48:01Z",
+      "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ren-rzv2h-placard.JPG",
       "dashboards": [],
       "photos": [],
       "described": true,
@@ -9077,7 +9079,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-06-22T22:24:45Z",
+      "updated": "2026-06-29T16:48:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9127,7 +9129,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-06-22T22:24:45Z",
+      "updated": "2026-06-29T16:48:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9178,7 +9180,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-06-22T22:24:45Z",
+      "updated": "2026-06-29T16:48:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9227,7 +9229,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-06-22T22:24:45Z",
+      "updated": "2026-06-29T16:48:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9276,7 +9278,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-06-22T22:24:45Z",
+      "updated": "2026-06-29T16:48:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9326,7 +9328,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-06-22T22:24:45Z",
+      "updated": "2026-06-29T16:48:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9376,7 +9378,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-06-22T22:24:45Z",
+      "updated": "2026-06-29T16:48:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9427,7 +9429,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-06-22T22:24:45Z",
+      "updated": "2026-06-29T16:48:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9476,7 +9478,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-06-22T22:24:45Z",
+      "updated": "2026-06-29T16:48:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9525,7 +9527,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-06-22T22:24:45Z",
+      "updated": "2026-06-29T16:48:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9575,7 +9577,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-06-22T22:24:45Z",
+      "updated": "2026-06-29T16:48:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9626,7 +9628,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-06-22T22:24:45Z",
+      "updated": "2026-06-29T16:48:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9675,7 +9677,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-06-22T22:24:45Z",
+      "updated": "2026-06-29T16:48:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9724,7 +9726,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-06-22T22:24:45Z",
+      "updated": "2026-06-29T16:48:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9774,7 +9776,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-06-22T22:24:45Z",
+      "updated": "2026-06-29T16:48:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9825,7 +9827,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-06-22T22:24:45Z",
+      "updated": "2026-06-29T16:48:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9875,7 +9877,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-06-22T22:24:45Z",
+      "updated": "2026-06-29T16:48:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9929,7 +9931,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-06-22T22:24:45Z",
+      "updated": "2026-06-29T16:48:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9982,7 +9984,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-06-22T22:24:45Z",
+      "updated": "2026-06-29T16:48:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10033,7 +10035,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-06-22T22:24:45Z",
+      "updated": "2026-06-29T16:48:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10423,8 +10425,8 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-06-22T22:24:45Z",
-      "image": null,
+      "updated": "2026-06-29T16:48:01Z",
+      "image": "https://saleshosted.z13.web.core.windows.net/images/boards/arduino-unoq-placard.JPG",
       "dashboards": [],
       "photos": [],
       "described": true,
@@ -10472,8 +10474,8 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-06-22T22:24:45Z",
-      "image": null,
+      "updated": "2026-06-29T16:48:01Z",
+      "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-scalable-ai-placard.JPG",
       "dashboards": [],
       "photos": [],
       "described": true,
@@ -10521,7 +10523,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-06-22T22:24:45Z",
+      "updated": "2026-06-29T16:48:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10568,7 +10570,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-06-22T22:24:45Z",
+      "updated": "2026-06-29T16:48:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10619,7 +10621,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-06-22T22:24:45Z",
+      "updated": "2026-06-29T16:48:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10671,8 +10673,8 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-06-22T22:24:45Z",
-      "image": null,
+      "updated": "2026-06-29T16:48:01Z",
+      "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ren-rzg3e-placard.JPG",
       "dashboards": [],
       "photos": [],
       "described": true,
@@ -10807,7 +10809,7 @@
       ],
       "stars": 0,
       "updated": "2026-05-04T16:31:13Z",
-      "image": null,
+      "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ren-wireless-placard.JPG",
       "dashboards": [],
       "photos": [],
       "described": true,
