@@ -1,6 +1,6 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-06-28T17:50:29Z",
+  "generated": "2026-06-29T11:57:09Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
@@ -5127,7 +5127,7 @@
         "wifi"
       ],
       "stars": 0,
-      "updated": "2026-06-23T16:02:36Z",
+      "updated": "2026-06-28T18:49:53Z",
       "image": null,
       "dashboards": [
         "https://saleshosted.z13.web.core.windows.net/dashboard/r3/REN-CKRA6M5-macnine_mon.PNG"
