@@ -1,6 +1,6 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-06-29T11:57:09Z",
+  "generated": "2026-06-29T13:51:46Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
@@ -3278,6 +3278,7 @@
       "description": "The core C library forming the foundation for /IOTCONNECT in C.",
       "category": "library",
       "status": "stable",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -3302,6 +3303,7 @@
       "description": "Core Python library for /IOTCONNECT integrations.",
       "category": "library",
       "status": "stable",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -3326,6 +3328,7 @@
       "description": "C SDK and samples for Azure RTOS devices across ST, NXP, Microchip and Renesas eval boards.",
       "category": "sdk",
       "status": "stable",
+      "release": "v1.1.2",
       "languages": [
         "C"
       ],
@@ -3434,6 +3437,7 @@
       "description": "SDK for Renesas DA16200/DA16600 Wi-Fi modules.",
       "category": "sdk",
       "status": "stable",
+      "release": "1.1.0",
       "languages": [
         "C"
       ],
@@ -3507,6 +3511,7 @@
       "description": "ModusToolbox SDK for /IOTCONNECT on Infineon PSoC devices.",
       "category": "sdk",
       "status": "stable",
+      "release": "v2.0.0",
       "languages": [
         "C"
       ],
@@ -3571,6 +3576,7 @@
       "description": "Full-featured Python SDK for /IOTCONNECT on embedded Linux.",
       "category": "sdk",
       "status": "stable",
+      "release": "v1.0.0",
       "languages": [
         "Python"
       ],
@@ -3639,6 +3645,7 @@
       "description": "Hackster guide for getting started with the AVR IoT Cellular Mini. It walks through setting up the board, activating the SIM, collecting sensor data and connecting to IOTCONNECT via the provided C SDK. The demo monitors temperature, light and button presses and sends telemetry to the cloud.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -3691,6 +3698,7 @@
       "description": "Guide for onboarding LoRaWAN devices to IOTCONNECT. It walks through creating templates and configuring device attributes such as temperature, pressure, humidity and accelerometer for ST ASTRA1B and NUCLEO-WL55JC boards, creating LoRaWAN devices in the portal and sending telemetry and commands.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -3745,6 +3753,7 @@
       "description": "IOTCONNECT C SDK example for the AVR IoT Cellular Mini board. The application records button presses and collects on‑board sensor readings (temperature and RGB light) and sends telemetry to IOTCONNECT. It also supports simple commands to control LEDs and guides you through provisioning the board and activating the cellular modem.",
       "category": "sample",
       "status": "beta",
+      "release": "01.02.00",
       "languages": [
         "C++"
       ],
@@ -3795,6 +3804,7 @@
       "description": "Drone demo for /IOTCONNECT.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "C++"
       ],
@@ -3829,6 +3839,7 @@
       "description": "This demo performs compute-intensive AI inference on the edge and sends the processed results to the cloud. IoTConnect then visualizes the inference output and system performance in real time.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -3881,6 +3892,7 @@
       "description": "This demo performs compute-intensive AI inference on the edge and sends the processed results to the cloud. IoTConnect then visualizes the inference output and system performance in real time.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -3933,6 +3945,7 @@
       "description": "This demo performs compute-intensive AI inference on the edge and sends the processed results to the cloud. IoTConnect then visualizes the inference output and system performance in real time.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -3985,6 +3998,7 @@
       "description": "This demo features the STM32MP135, a cost-effective MPU running ST’s OpenSTLinux and X-Linux-AI packages. The device performs real-time object detection, locally identifying up to three objects and sending results to the cloud. The AI model can be toggled independently of the IOTCONNECT connection for uninterrupted functionality.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -4040,6 +4054,7 @@
       "description": "Telehealth demo using the IOTCONNECT mobile gateway application. Wearable or remote health sensors connect via Bluetooth to the mobile app, which forwards vital signs and events to IOTCONNECT for monitoring and visualisation.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Mobile"
       ],
@@ -4068,6 +4083,7 @@
       "description": "This platform runs AI inference using Ryzen’s CPU/GPU/NPU architecture to perform advanced vision processing at the edge. Inference output and system metrics are delivered to IoTConnect for cloud-level insight and device management.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -4121,6 +4137,7 @@
       "description": "Collaborative demo with Witekio discussing the challenges and considerations in EV charging software. It highlights the need for load balancing, secure user authentication, remote monitoring and integration with backend management platforms for smart EV chargers.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "C++"
       ],
@@ -4174,6 +4191,7 @@
       "description": "Electric Vehicle Supply Equipment (EVSE) demo that connects a charging station to IOTCONNECT. It showcases how to monitor charging sessions, report energy consumption and control the charger via cloud commands, providing a starting point for building smart EV charging solutions.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -4226,6 +4244,7 @@
       "description": "Uses the ZU1CG MPSoC’s FPGA fabric to perform vision-based industrial gesture recognition with custom edge-optimized logic. A trained American Sign Language (ASL) classification model using Vitis AI. Detected gestures drive industrial control actions while reporting telemetry to IOTCONNECT.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -4281,6 +4300,7 @@
       "description": "Python SDK for building AWS Greengrass components that integrate with IOTCONNECT. The SDK provides examples showing how to send telemetry, receive commands and perform OTA updates from IOTCONNECT.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -4334,6 +4354,7 @@
       "description": "Python SDK for building AWS Greengrass components that integrate with IOTCONNECT. The SDK provides examples showing how to send telemetry, receive commands and perform OTA updates from IOTCONNECT.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -4387,6 +4408,7 @@
       "description": "Python SDK for building AWS Greengrass components that integrate with IOTCONNECT. The SDK provides examples showing how to send telemetry, receive commands and perform OTA updates from IOTCONNECT.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -4440,6 +4462,7 @@
       "description": "Python SDK for building AWS Greengrass components that integrate with IOTCONNECT. The SDK provides examples showing how to send telemetry, receive commands and perform OTA updates from IOTCONNECT.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -4493,6 +4516,7 @@
       "description": "Python SDK for building AWS Greengrass components that integrate with IOTCONNECT. The SDK provides examples showing how to send telemetry, receive commands and perform OTA updates from IOTCONNECT.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -4546,6 +4570,7 @@
       "description": "Collection of AWS Greengrass components built with the IOTCONNECT Python SDK. Includes an AI vision demo that detects objects using a connected camera and BLE demos that gather battery, accelerometer, gyroscope and temperature data from sensors and send it to IOTCONNECT.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -4597,6 +4622,7 @@
       "description": "Collection of AWS Greengrass components built with the IOTCONNECT Python SDK. Includes an AI vision demo that detects objects using a connected camera and BLE demos that gather battery, accelerometer, gyroscope and temperature data from sensors and send it to IOTCONNECT.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -4648,6 +4674,7 @@
       "description": "Collection of AWS Greengrass components built with the IOTCONNECT Python SDK. Includes an AI vision demo that detects objects using a connected camera and BLE demos that gather battery, accelerometer, gyroscope and temperature data from sensors and send it to IOTCONNECT.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -4699,6 +4726,7 @@
       "description": "Controlling a wheeled vehicle in ROS2.  CV Controller using Edge Impulse custom model to detect Face and Hands (open and close).  Demonstration running at 45FPS",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -4753,6 +4781,7 @@
       "description": "Image classification demo for the STM32MP2 platform. The project converts a TensorFlow model to TFLite, deploys it via IOTCONNECT OTA and performs inference on images from a USB or MIPI camera. It includes instructions for flashing the device, setting up the camera and running the application using a MobileNet V2 model.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -4805,6 +4834,7 @@
       "description": "Demonstration of remote ISP tuning using IOTCONNECT. On STM32MP257F Discovery Kit it allows users to stream live video, adjust image signal processor parameters like exposure and gain, and view real‑time telemetry from the image sensor through a cloud dashboard.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -4857,6 +4887,7 @@
       "description": "Onboard Renesas RA boards (FPB-RA0E1, FPB-RA0E2, FPB-RA2E1, EK-RA2L1) as LoRaWAN end-nodes that stream HS3001 temperature/humidity and sensor data to /IOTCONNECT. Precompiled demos pair each board with a Semtech SX1261/SX1262 LoRa shield and deliver telemetry through a Kerlink Wirnet LoRaWAN gateway running ChirpStack.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -4909,6 +4940,7 @@
       "description": "Onboard Renesas RA boards (FPB-RA0E1, FPB-RA0E2, FPB-RA2E1, EK-RA2L1) as LoRaWAN end-nodes that stream HS3001 temperature/humidity and sensor data to /IOTCONNECT. Precompiled demos pair each board with a Semtech SX1261/SX1262 LoRa shield and deliver telemetry through a Kerlink Wirnet LoRaWAN gateway running ChirpStack.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -4961,6 +4993,7 @@
       "description": "Onboard Renesas RA boards (FPB-RA0E1, FPB-RA0E2, FPB-RA2E1, EK-RA2L1) as LoRaWAN end-nodes that stream HS3001 temperature/humidity and sensor data to /IOTCONNECT. Precompiled demos pair each board with a Semtech SX1261/SX1262 LoRa shield and deliver telemetry through a Kerlink Wirnet LoRaWAN gateway running ChirpStack.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -5013,6 +5046,7 @@
       "description": "Onboard Renesas RA boards (FPB-RA0E1, FPB-RA0E2, FPB-RA2E1, EK-RA2L1) as LoRaWAN end-nodes that stream HS3001 temperature/humidity and sensor data to /IOTCONNECT. Precompiled demos pair each board with a Semtech SX1261/SX1262 LoRa shield and deliver telemetry through a Kerlink Wirnet LoRaWAN gateway running ChirpStack.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -5065,6 +5099,7 @@
       "description": "Onboard Renesas RA boards (FPB-RA0E1, FPB-RA0E2, FPB-RA2E1, EK-RA2L1) as LoRaWAN end-nodes that stream HS3001 temperature/humidity and sensor data to /IOTCONNECT. Precompiled demos pair each board with a Semtech SX1261/SX1262 LoRa shield and deliver telemetry through a Kerlink Wirnet LoRaWAN gateway running ChirpStack.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -5119,6 +5154,7 @@
       "description": "Example project for the Renesas CK‑RA6M5 v2 Cloud Kit. It uses an IOTCONNECT AT‑command‑enabled Wi‑Fi module (DA16600) to connect the board to IOTCONNECT. The demo sends telemetry and supports commands such as toggling the red LED and setting the LED blink frequency on the board.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -5170,6 +5206,7 @@
       "description": "Quickstart guide for connecting the Renesas RZBoard V2L to IOTCONNECT and running the on‑board AI camera demo. The document covers flashing the SD card image, configuring the board and IOTCONNECT account, and using an attached USB camera for object recognition with real‑time telemetry streamed to IOTCONNECT.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -5229,6 +5266,7 @@
       "description": "The Vision AI Kit IQ9 Demonstrates 9 conncurent video feeds, decoded with various AI models running in real time.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -5282,6 +5320,7 @@
       "description": "NEAI anomaly detection demo using the STM32MP157F Discovery Kit and the STEVAL‑PROTEUS1 sensor module. The application runs AI models on the edge to detect unusual patterns and reports anomalies to IOTCONNECT for real‑time monitoring.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -5335,6 +5374,7 @@
       "description": "NEAI anomaly detection demo using the STM32MP157F Discovery Kit and the STEVAL‑PROTEUS1 sensor module. The application runs AI models on the edge to detect unusual patterns and reports anomalies to IOTCONNECT for real‑time monitoring.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -5388,6 +5428,7 @@
       "description": "Quick‑start application for the STM32H573I‑DK Discovery Kit using the IOTCONNECT Azure RTOS SDK. The guide demonstrates how to program the board, provision secure credentials using STM32 Trust TEE and connect the device to IOTCONNECT. It includes step‑by‑step instructions for flashing the demo firmware and configuring IOTCONNECT templates and devices.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -5445,6 +5486,7 @@
       "description": "This fall detection demo integrates Infineon's ModusToolbox™ machine‑learning flow with Avnet's IOTCONNECT platform. The application uses data from the on‑board inertial measurement unit (IMU) to recognise when a person has fallen and reports these events to IOTCONNECT.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -5498,6 +5540,7 @@
       "description": "This project demonstrates ModusToolbox™ machine learning with Imagimob ready models, combining audio and radar sensor data. It can detect a variety of audio events such as sirens, baby cry, alarms, coughs and snoring, and also recognises hand gestures using the board's radar sensor.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -5550,6 +5593,7 @@
       "description": "This project demonstrates ModusToolbox™ machine learning with Imagimob ready models, combining audio and radar sensor data. It can detect a variety of audio events such as sirens, baby cry, alarms, coughs and snoring, and also recognises hand gestures using the board's radar sensor.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -5604,6 +5648,7 @@
       "description": "This project demonstrates ModusToolbox™ machine learning with Imagimob ready models, combining audio and radar sensor data. It can detect a variety of audio events such as sirens, baby cry, alarms, coughs and snoring, and also recognises hand gestures using the board's radar sensor.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -5656,6 +5701,7 @@
       "description": "Quickstart for Infineon’s XENSIV PAS CO2 kit. The guide shows how to connect the sensor board to IOTCONNECT using the Optiga Trust M secure element for hardware security. It walks through flashing the PSoC6 Wi‑Fi/Bluetooth controller, provisioning the secure element and registering the device on IOTCONNECT, then demonstrates streaming CO₂ measurements to an IOTCONNECT dashboard.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -5709,6 +5755,7 @@
       "description": "On-device hand-gesture recognition using Qualcomm’s advanced CPU/GPU/NPU AI engine. The system translates left- and right-hand movements into real-time robotic control signals while streaming the results to IoTConnect.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -5762,6 +5809,7 @@
       "description": "Example project for the Renesas EK‑RA8M1 evaluation kit that uses a DA16600 Wi‑Fi/BLE module to connect to IOTCONNECT. The application streams telemetry and allows controlling the on‑board LEDs via IOTCONNECT commands. It includes guidance for configuring IOTCONNECT credentials and automatically provisioning the Wi‑Fi module.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -5813,6 +5861,7 @@
       "description": "Example project for the Renesas EK‑RA8M1 evaluation kit that uses a DA16600 Wi‑Fi/BLE module to connect to IOTCONNECT. The application streams telemetry and allows controlling the on‑board LEDs via IOTCONNECT commands. It includes guidance for configuring IOTCONNECT credentials and automatically provisioning the Wi‑Fi module.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -5864,6 +5913,7 @@
       "description": "The RASynPuck demo was created to showcase the RASynBoard and Avnet's Cloud Solution IOTCONNECT.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -5919,6 +5969,7 @@
       "description": "Mobile phone/tablet application that acts as a Bluetooth gateway for IOTCONNECT. The app connects to edge devices such as the ST SensorTile.box Pro, captures telemetry via BLE and forwards it to IOTCONNECT. It guides users through account setup, device onboarding and viewing live dashboards on the platform.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Mobile"
       ],
@@ -5971,6 +6022,7 @@
       "description": "Mobile phone/tablet application that acts as a Bluetooth gateway for IOTCONNECT. The app connects to edge devices such as the ST SensorTile.box Pro, captures telemetry via BLE and forwards it to IOTCONNECT. It guides users through account setup, device onboarding and viewing live dashboards on the platform.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Mobile"
       ],
@@ -6021,6 +6073,7 @@
       "description": "This demo shows how STMicroelectronics' STM32WBA (BLE) and STM32WL (LoRa) work together as a unified device for Amazon Sidewalk. IOTCONNECT simplifies onboarding by integrating these devices as a single wireless type, streamlining deployments compared to the traditional AWS console process.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -6073,6 +6126,7 @@
       "description": "This demo showcases a smart factory monitoring system using embedded devices to simulate real industrial equipment such as pumps, compressors, cranes, and inspection systems. Telemetry is securely transmitted to the cloud, where real-time KPIs—like utilization, duty cycles, rejection rates, and anomaly detection—are calculated using DURATION-based logic. The system demonstrates how manufacturers can gain operational insights, trigger alerts, and improve uptime without requiring physical assets on-site.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -6131,6 +6185,7 @@
       "description": "This demo showcases a smart factory monitoring system using embedded devices to simulate real industrial equipment such as pumps, compressors, cranes, and inspection systems. Telemetry is securely transmitted to the cloud, where real-time KPIs—like utilization, duty cycles, rejection rates, and anomaly detection—are calculated using DURATION-based logic. The system demonstrates how manufacturers can gain operational insights, trigger alerts, and improve uptime without requiring physical assets on-site.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -6187,6 +6242,7 @@
       "description": "Connected Tractor demostration enabling the features of the tractor to be remotely monitored and controlled.  Demo is highlighting SimpleFlex, the intelligent combination of a standard Computer-On-Modules with a standard carrier board. It combines the advantages of Standard SBC and Custom SBC by choosing the COM from a huge portfolio of CPU and memory configurations.  The app will run on multiple SMARC devices from Tria.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -6241,6 +6297,7 @@
       "description": "SPARK is a smart parking and EV charging demo running on the Renesas RZBoard V2L. It uses a convolutional neural network to detect vehicle occupancy in real‑time, scales to hundreds of parking spots and can stream analytics data to IOTCONNECT or display it locally via HDMI.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "C++"
       ],
@@ -6296,6 +6353,7 @@
       "description": "Edge AI demo for the STM32N6 platform demonstrating object detection using an embedded vision model. The application streams detection results to IOTCONNECT where bounding boxes and labels can be visualised.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -6357,6 +6415,7 @@
       "description": "This demo showcases a new STMicroelectronics microcontroller with an integrated NPU for edge AI, using the ST Cube AI library for real-time person detection. The system assigns a unique ID to the first person in the frame and dynamically tracks them using a motorized camera base, keeping the individual centered in the frame.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -6411,6 +6470,7 @@
       "description": "Hardware-anchored device authentication using the STSAFE-A secure element on the STM32U5. The board provisions cryptographic credentials and connects to /IOTCONNECT with a verified identity, demonstrating telemetry and command flows built on a hardware root of trust.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -6467,6 +6527,7 @@
       "description": "Mobile phone/tablet application that acts as a Bluetooth gateway for IOTCONNECT. The app connects to edge devices such as the ST SensorTile.box Pro, captures telemetry via BLE and forwards it to IOTCONNECT. It guides users through account setup, device onboarding and viewing live dashboards on the platform.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Mobile"
       ],
@@ -6517,6 +6578,7 @@
       "description": "Mobile phone/tablet application that acts as a Bluetooth gateway for IOTCONNECT. The app connects to edge devices such as the ST SensorTile.box Pro, captures telemetry via BLE and forwards it to IOTCONNECT. It guides users through account setup, device onboarding and viewing live dashboards on the platform.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Mobile"
       ],
@@ -6567,6 +6629,7 @@
       "description": "Smart‑city noise detection demo for the STM32U5 MCU. The system uses machine‑learning to classify sounds such as alarms, dog barks, speech and car horns and runs inference locally on the microcontroller. Recognised events and confidence scores are sent to IOTCONNECT for visualisation.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -6623,6 +6686,7 @@
       "description": "This demo highlights the STM32MP257 evaluation kit's real-time image classification capabilities using an S3 bucket as the image source. Leveraging its Neural-ART Accelerator, the device processes images locally, sending results with labels and confidence scores to the cloud for centralized analysis",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -6678,6 +6742,7 @@
       "description": "This example connects the WFI32-IoT Development Board to Avnet's IOTCONNECT platform built on Microsoft Azure and uses Azure RTOS to simplify cloud firmware development.  The WFI32 board features integrated sensors and supports mikroBUS™ expansion for additional click‑board sensors.",
       "category": "sample",
       "status": "beta",
+      "release": "v1.1.2",
       "languages": [
         "C"
       ],
@@ -6734,6 +6799,7 @@
       "description": "This example connects the WFI32-IoT Development Board to Avnet's IOTCONNECT platform built on Microsoft Azure and uses Azure RTOS to simplify cloud firmware development.  The WFI32 board features integrated sensors and supports mikroBUS™ expansion for additional click‑board sensors.",
       "category": "sample",
       "status": "beta",
+      "release": "v1.1.2",
       "languages": [
         "C"
       ],
@@ -6788,6 +6854,7 @@
       "description": "This example connects the WFI32-IoT Development Board to Avnet's IOTCONNECT platform built on Microsoft Azure and uses Azure RTOS to simplify cloud firmware development.  The WFI32 board features integrated sensors and supports mikroBUS™ expansion for additional click‑board sensors.",
       "category": "sample",
       "status": "beta",
+      "release": "v1.1.2",
       "languages": [
         "C"
       ],
@@ -6842,6 +6909,7 @@
       "description": "Quickstart demo for the NXP FRDM i.MX 93 platform using the IOTCONNECT Python Lite SDK. The board features tri‑radio connectivity (Wi‑Fi 6, Bluetooth 5.4 and 802.15.4), enabling rapid development of IoT applications. This project shows how to push telemetry to IOTCONNECT and receive commands from the cloud.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -6892,6 +6960,7 @@
       "description": "Vision-guided pick-and-place demo pairing the TRIA Vision AI Kit (QCS6490) with a Hiwonder xArm robotic arm. On-device object detection on the Qualcomm NPU drives the arm in real time while results and control telemetry stream to /IOTCONNECT.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -6943,6 +7012,7 @@
       "description": "DEEPCRAFT AI Vision demo on the Infineon PSOC Edge E84 that streams live camera and inference results over WebRTC. Built with ModusToolbox and integrated with /IOTCONNECT for cloud monitoring and control.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -6993,6 +7063,7 @@
       "description": "DEEPCRAFT motion and IMU demo for the Infineon PSOC Edge E84 that classifies movement patterns locally and reports events to /IOTCONNECT. A ModusToolbox starting point for gesture and activity-aware applications.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -7042,6 +7113,7 @@
       "description": "Runs Infineon DEEPCRAFT Ready Models on the PSOC Edge E84 to detect audio and sensor events out of the box. Integrated with /IOTCONNECT for live event visualization and device management.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -7091,6 +7163,7 @@
       "description": "Runs Infineon DEEPCRAFT Ready Models on the PSOC Edge E84 to detect audio and sensor events out of the box. Integrated with /IOTCONNECT for live event visualization and device management.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -7140,6 +7213,7 @@
       "description": "Secure PSOC Edge E84 demo running DEEPCRAFT ready models inside a PSA-certified Trusted Firmware-M (TF-M) environment. Shows how to combine hardware-backed security with on-device AI while connected to /IOTCONNECT.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -7188,6 +7262,7 @@
       "description": "DEEPCRAFT voice assistant demo on the Infineon PSOC Edge E84 performing local wake-word and command recognition. Recognized events are reported to /IOTCONNECT for cloud-side automation.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -7236,6 +7311,7 @@
       "description": "DEEPCRAFT baby monitor demo on the PSOC Edge E84 that detects infant cries and other sounds locally and alerts /IOTCONNECT. A smart-home audio AI reference built with ModusToolbox.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -7285,6 +7361,7 @@
       "description": "Imagimob human activity detection on the PSOC 6 AI Kit, classifying movements from the on-board IMU. Detected activities are streamed to /IOTCONNECT using the ModusToolbox machine-learning flow.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -7338,6 +7415,7 @@
       "description": "Imagimob sound-classification baby monitor on the PSOC 6 AI Kit that recognizes infant cries from the on-board microphone. Alerts and audio-event telemetry are sent to /IOTCONNECT.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -7391,6 +7469,7 @@
       "description": "Minimal ModusToolbox starter that connects an Infineon PSOC 6 Wi-Fi board to /IOTCONNECT. A clean baseline for sending telemetry and handling cloud commands before adding application logic.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -7439,6 +7518,7 @@
       "description": "Minimal ModusToolbox starter that connects an Infineon PSOC 6 Wi-Fi board to /IOTCONNECT. A clean baseline for sending telemetry and handling cloud commands before adding application logic.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -7487,6 +7567,7 @@
       "description": "Minimal ModusToolbox starter that connects an Infineon PSOC 6 Wi-Fi board to /IOTCONNECT. A clean baseline for sending telemetry and handling cloud commands before adding application logic.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -7535,6 +7616,7 @@
       "description": "Bridges a Home Assistant instance to /IOTCONNECT over MQTT, exposing smart-home entities as cloud telemetry and accepting commands back. Lets existing Home Assistant deployments gain /IOTCONNECT dashboards and rules.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -7562,6 +7644,7 @@
       "description": "Lightweight relay that plugs existing applications into /IOTCONNECT without rewriting them. Forwards local data to the cloud and routes commands back, simplifying brownfield integrations.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -7588,6 +7671,7 @@
       "description": "Zephyr RTOS example applications connecting the NXP FRDM-MCXN947 to /IOTCONNECT. Demonstrates telemetry, commands and a Zephyr-based development workflow for NXP MCX MCUs.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -7635,6 +7719,7 @@
       "description": "Demo applications for the TRIA MaaXBoard OSM93 connecting the i.MX 93 SBC to /IOTCONNECT. Showcases edge processing and cloud telemetry on a compact embedded Linux platform.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -7686,6 +7771,7 @@
       "description": "Hands-on application lab for connecting the Arduino Uno Q to /IOTCONNECT. Guides developers through building cloud-connected sketches and Python apps with telemetry and command handling.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -7712,6 +7798,7 @@
       "description": "C SDK for building AWS IoT Greengrass components that integrate with /IOTCONNECT. Provides native-code building blocks for telemetry, command handling and edge processing on Greengrass gateways.",
       "category": "sdk",
       "status": "beta",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -7739,6 +7826,7 @@
       "description": "Ready-to-deploy AWS IoT Greengrass components written in Python for /IOTCONNECT. Reusable building blocks that send telemetry, receive commands and extend Greengrass edge deployments.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -7766,6 +7854,7 @@
       "description": "/IOTCONNECT SDK for the STMicroelectronics ST67 Wi-Fi module, packaged as an STM32Cube expansion. Connects STM32 designs to the cloud over Wi-Fi with telemetry and command support.",
       "category": "sdk",
       "status": "beta",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -7793,6 +7882,7 @@
       "description": "Node.js SDK for connecting JavaScript and TypeScript applications to /IOTCONNECT. Handles device authentication, telemetry publishing and command callbacks for server and gateway apps.",
       "category": "sdk",
       "status": "beta",
+      "release": null,
       "languages": [
         "JavaScript"
       ],
@@ -7819,6 +7909,7 @@
       "description": ".NET SDK for integrating C# applications and services with /IOTCONNECT. Provides device connectivity, telemetry and command handling for Windows and cross-platform .NET deployments.",
       "category": "sdk",
       "status": "beta",
+      "release": null,
       "languages": [
         "C#"
       ],
@@ -7845,6 +7936,7 @@
       "description": "Swift SDK for connecting native iOS applications to /IOTCONNECT. Enables mobile apps to act as device clients or gateways, publishing telemetry and responding to cloud commands.",
       "category": "sdk",
       "status": "beta",
+      "release": "1.0.0",
       "languages": [
         "Swift"
       ],
@@ -7871,6 +7963,7 @@
       "description": "Android SDK for connecting Java and Kotlin apps to /IOTCONNECT. Lets mobile devices serve as edge clients or BLE gateways, streaming telemetry and handling commands.",
       "category": "sdk",
       "status": "beta",
+      "release": "3.1.4",
       "languages": [
         "Java"
       ],
@@ -7897,6 +7990,7 @@
       "description": "Portable generic C SDK for /IOTCONNECT designed to run across a wide range of platforms and RTOSes. A flexible foundation for bringing custom C-based devices online with telemetry, commands and OTA.",
       "category": "sdk",
       "status": "beta",
+      "release": "v1.0.2",
       "languages": [
         "C"
       ],
@@ -7921,6 +8015,7 @@
       "description": "C SDK packaged for Yocto-based embedded Linux builds connecting to /IOTCONNECT. Integrates into custom Linux images to provide native telemetry and command handling on MPU platforms.",
       "category": "sdk",
       "status": "beta",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -7948,6 +8043,7 @@
       "description": "Python SDK packaged for Yocto-based embedded Linux distributions connecting to /IOTCONNECT. Simplifies adding cloud telemetry and command support to custom Linux images on MPU platforms.",
       "category": "sdk",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -7975,6 +8071,7 @@
       "description": "Full-featured Python SDK for /IOTCONNECT — the most common starting point for desktop, server and embedded Linux device-to-cloud integrations.",
       "category": "sdk",
       "status": "stable",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -8001,6 +8098,7 @@
       "description": "Python client for the /IOTCONNECT REST API — manage devices, templates and telemetry programmatically.",
       "category": "library",
       "status": "stable",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -8025,6 +8123,7 @@
       "description": "/IOTCONNECT SDK for Nordic nRF9160 and nRF52 devices — connect the Thingy:91 and nRF52840 DK over cellular or BLE to the cloud.",
       "category": "sdk",
       "status": "beta",
+      "release": "v2.0.0",
       "languages": [
         "C"
       ],
@@ -8081,6 +8180,7 @@
       "description": "Runs a larger model with batched execution on the PolarFire SoC to maximize hardware neural-network acceleration gains while reporting results to /IOTCONNECT.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -8131,6 +8231,7 @@
       "description": "Demonstrates a compact fixed-point neural-network accelerator on the PolarFire SoC using the same /IOTCONNECT command interface as the template-correlation classifier.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -8181,6 +8282,7 @@
       "description": "Validates end-to-end cloud command/control and telemetry on the PolarFire SoC with a deterministic template-correlation classifier.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -8231,6 +8333,7 @@
       "description": "Validates end-to-end cloud command/control and telemetry on the PolarFire SoC Video Kit with a deterministic template-correlation classifier.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -8279,6 +8382,7 @@
       "description": "Demonstrates a compact fixed-point neural-network accelerator on the PolarFire SoC Video Kit using the same /IOTCONNECT command interface as the template-correlation classifier.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -8327,6 +8431,7 @@
       "description": "Runs a larger model with batched execution on the PolarFire SoC Video Kit to maximize hardware neural-network acceleration gains.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -8375,6 +8480,7 @@
       "description": "Turns the SAMA7D65-Curiosity Kit into a USB-microphone keyword spotter that publishes inference results to /IOTCONNECT.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -8423,6 +8529,7 @@
       "description": "Plays a voice-controlled blackjack game on the SAMA7D65-Curiosity Kit driven by on-device keyword spotting.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -8470,6 +8577,7 @@
       "description": "Provides a complete on-board retraining pipeline for customizing the SAMA7D65 keyword-spotting model.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -8518,6 +8626,7 @@
       "description": "Reads voltage, current, and power from the on-board PAC1934 power-monitor IC and publishes the measurements to /IOTCONNECT.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -8564,6 +8673,7 @@
       "description": "Streams live video from the Jetson Orin to AWS Kinesis Video Streams using the KVS PutMedia API.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -8611,6 +8721,7 @@
       "description": "Runs the eIQ Vision AI driver-monitoring system on the FRDM i.MX 93 to detect driver attention and alertness.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -8660,6 +8771,7 @@
       "description": "Extends the i.MX 93 driver-monitoring vision demo with face recognition to identify the driver alongside attention tracking.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -8710,6 +8822,7 @@
       "description": "Captures media on the FRDM-IMX93 and uploads the resulting files to /IOTCONNECT.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -8758,6 +8871,7 @@
       "description": "Streams live video from the FRDM-IMX93 to AWS Kinesis Video Streams using the KVS PutMedia API.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -8807,6 +8921,7 @@
       "description": "Streams live video from the FRDM-IMX93 over AWS Kinesis Video Streams WebRTC for low-latency viewing.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -8857,6 +8972,7 @@
       "description": "Runs a full Python computer-vision AI inference pipeline on the Renesas RZ/V2H EVK and reports results to /IOTCONNECT.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -8905,6 +9021,7 @@
       "description": "Streams real-time system metrics from the Renesas RZ/V2H EVK to /IOTCONNECT.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -8951,6 +9068,7 @@
       "description": "Runs the X-LINUX-AI object-detection vision pipeline on the STM32MP135F-DK and publishes detections to /IOTCONNECT.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -9000,6 +9118,7 @@
       "description": "Streams live video from the STM32MP135F-DK to AWS Kinesis Video Streams using the KVS PutMedia API.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -9049,6 +9168,7 @@
       "description": "Streams live video from the STM32MP135F-DK over AWS Kinesis Video Streams WebRTC for low-latency viewing.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -9099,6 +9219,7 @@
       "description": "Streams telemetry from the STEVAL-MKBOXPRO BLE sensor pack to /IOTCONNECT via the STM32MP135F-DK.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -9147,6 +9268,7 @@
       "description": "Streams telemetry from the standard STEVAL-PROTEUS sensor pack to /IOTCONNECT via the STM32MP135F-DK.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -9195,6 +9317,7 @@
       "description": "Runs the X-LINUX-AI object-detection vision pipeline on the STM32MP157F-DK2 and publishes detections to /IOTCONNECT.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -9244,6 +9367,7 @@
       "description": "Streams live video from the STM32MP157F-DK2 to AWS Kinesis Video Streams using the KVS PutMedia API.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -9293,6 +9417,7 @@
       "description": "Streams live video from the STM32MP157F-DK2 over AWS Kinesis Video Streams WebRTC for low-latency viewing.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -9343,6 +9468,7 @@
       "description": "Streams telemetry from the STEVAL-MKBOXPRO BLE sensor pack to /IOTCONNECT via the STM32MP157F-DK2.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -9391,6 +9517,7 @@
       "description": "Streams telemetry from the standard STEVAL-PROTEUS sensor pack to /IOTCONNECT via the STM32MP157F-DK2.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -9439,6 +9566,7 @@
       "description": "Streams live video from the STM32MP257F-DK to AWS Kinesis Video Streams using the KVS PutMedia API.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -9488,6 +9616,7 @@
       "description": "Streams live video from the STM32MP257F-DK over AWS Kinesis Video Streams WebRTC for low-latency viewing.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -9538,6 +9667,7 @@
       "description": "Streams telemetry from the STEVAL-MKBOXPRO BLE sensor pack to /IOTCONNECT via the STM32MP257F-DK.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -9586,6 +9716,7 @@
       "description": "Streams telemetry from the standard STEVAL-PROTEUS sensor pack to /IOTCONNECT via the STM32MP257F-DK.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -9634,6 +9765,7 @@
       "description": "Streams live video from the STM32MP257F-EV1 to AWS Kinesis Video Streams using the KVS PutMedia API.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -9683,6 +9815,7 @@
       "description": "Streams live video from the STM32MP257F-EV1 over AWS Kinesis Video Streams WebRTC for low-latency viewing.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -9733,6 +9866,7 @@
       "description": "Runs the eIQ Vision AI driver-monitoring system on the Tria MaaXBoard OSM93 to detect driver attention and alertness.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -9784,6 +9918,7 @@
       "description": "Streams live video from the Tria Vision AI-Kit 6490 to AWS Kinesis Video Streams using the KVS PutMedia API.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -9835,6 +9970,7 @@
       "description": "Streams live video from the Tria Vision AI-Kit 6490 over AWS Kinesis Video Streams WebRTC for low-latency viewing.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -9887,6 +10023,7 @@
       "description": "Sends AI inference and system-status telemetry from the Tria Vision AI-Kit 6490 to /IOTCONNECT.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -9937,6 +10074,7 @@
       "description": "Deploy /IOTCONNECT telemetry and commands as an AWS IoT Greengrass nucleus-lite component on the FRDM i.MX93 board.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -9985,6 +10123,7 @@
       "description": "Deploy /IOTCONNECT telemetry and commands as an AWS IoT Greengrass nucleus-lite component on the Raspberry Pi 5.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -10033,6 +10172,7 @@
       "description": "Deploy /IOTCONNECT telemetry and commands as an AWS IoT Greengrass nucleus-lite component on the STM32MP135F Discovery Kit.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -10081,6 +10221,7 @@
       "description": "Deploy /IOTCONNECT telemetry and commands as an AWS IoT Greengrass nucleus-lite component on the STM32MP157F Discovery Kit.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -10129,6 +10270,7 @@
       "description": "Deploy /IOTCONNECT telemetry and commands as an AWS IoT Greengrass nucleus-lite component on the STM32MP215F Discovery Kit.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -10175,6 +10317,7 @@
       "description": "Deploy /IOTCONNECT telemetry and commands as an AWS IoT Greengrass nucleus-lite component on the STM32MP257F Discovery Kit.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -10223,6 +10366,7 @@
       "description": "Deploy /IOTCONNECT telemetry and commands as an AWS IoT Greengrass nucleus-lite component on the STM32MP257F Evaluation Board.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -10271,6 +10415,7 @@
       "description": "Get started with the /IOTCONNECT Python Lite SDK on the Arduino UNO Q: stream telemetry, receive cloud commands and run OTA updates from a Python app.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -10319,6 +10464,7 @@
       "description": "Get started with the /IOTCONNECT Python Lite SDK on the Microchip PIC64GX Curiosity Kit: stream telemetry, receive cloud commands and run OTA updates from a Python app.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -10367,6 +10513,7 @@
       "description": "Get started with the /IOTCONNECT Python Lite SDK on the NXP S32G GoldBox: stream telemetry, receive cloud commands and run OTA updates from a Python app.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -10413,6 +10560,7 @@
       "description": "Get started with the /IOTCONNECT Python Lite SDK on the Avnet MaaXBoard 8M: stream telemetry, receive cloud commands and run OTA updates from a Python app.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -10463,6 +10611,7 @@
       "description": "Get started with the /IOTCONNECT Python Lite SDK on the Avnet MaaXBoard 8ULP: stream telemetry, receive cloud commands and run OTA updates from a Python app.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -10513,6 +10662,7 @@
       "description": "Get started with the /IOTCONNECT Python Lite SDK on the Renesas RZ/G3E Evaluation Kit: stream telemetry, receive cloud commands and run OTA updates from a Python app.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -10560,6 +10710,7 @@
       "description": "Working example applications for deploying the /IOTCONNECT Python Lite SDK and REST CLI via the Snapcraft package manager on snapd-enabled Linux devices. Includes a generic hello-telemetry quickstart plus board-specific examples (Advantech ICAM-540, Raspberry Pi 5 vision AI, Microchip PIC64GX, AMD Ryzen AI ONNX card demo, Brainboxes BB-400) and a catalog of validated edge platforms in BOARD_CATALOG.md.",
       "category": "sdk",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -10644,6 +10795,7 @@
       "description": "FreeRTOS sample for the Renesas EK-RA6W1 evaluation kit (Cortex-M33 dual-band Wi-Fi 6 MCU, motherboard plus module) that connects to /IOTCONNECT over a secure MQTT/TLS link. Built on the Renesas RA Flexible Software Package (FSP) and an AWS IoT example base, with Wi-Fi credentials provisioned via a serial CLI or the Renesas Wi-Fi Provisioning mobile app.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "C",
         "Python"
@@ -10693,6 +10845,7 @@
       "description": "FreeRTOS reference firmware for the STM32N6570-DK paired with the ST67W611M1 Wi-Fi 6 module, providing a flash/provision/validate bring-up workflow for secure MQTT-over-TLS to AWS IoT Core or Mosquitto. Uses LwIP networking and MbedTLS 3.1.1 accelerated by STM32N6 hardware crypto (RNG, SHA256, AES, PKA) with PKCS#11 key/certificate management. Includes LED-control and button-event MQTT demos.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "C",
         "Python",
@@ -10749,6 +10902,7 @@
       "description": "Firmware demo for the Realtek RTL8735B (Ameba Pro 2 Mini / AMB82-MINI) that streams live camera video over WebRTC via Amazon Kinesis Video Streams, with /IOTCONNECT handling device management, MQTT telemetry, and automatic AWS credential delivery. A single config script applies device certificates and credentials, and the firmware is built with CMake and the Ameba GCC toolchain.",
       "category": "demo",
       "status": "beta",
+      "release": null,
       "languages": [
         "C",
         "CMake",
@@ -10799,6 +10953,7 @@
       "description": "Sample application and partial SDK that connects the STM32U5 IoT Discovery Kit (B-U585I-IOT02A) to /IOTCONNECT over FreeRTOS. It includes both a non-TrustZone and a Trusted Firmware-M (TF-M) project, uses the onboard Wi-Fi module for connectivity and mbedTLS for TLS-secured cloud sessions, and ships a QuickStart binary for quick evaluation. Built on the AWS FreeRTOS reference integration.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -10850,6 +11005,7 @@
       "description": "A Snapcraft-packaged AWS IoT Greengrass v2 Nucleus Classic runtime for Ubuntu Core, prebuilt for amd64/arm64/armhf/riscv64 with an interactive /IOTCONNECT onboarding flow that provisions Greengrass from an /IOTCONNECT connection kit. Derived from the upstream AWS Greengrass snap, it bundles boto3/awsiotsdk and a configure hook that creates the IoT Core Thing and Greengrass Core device.",
       "category": "library",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python",
         "Shell"
@@ -10879,6 +11035,7 @@
       "description": "A Snapcraft package that bundles the /IOTCONNECT Python Lite SDK for Linux edge devices (amd64/arm64), providing device provisioning, a quickstart telemetry app, and a UNIX-socket bridge so external apps can stream JSON to /IOTCONNECT. Includes OTA delivery of models/scripts into the persistent $SNAP_COMMON area and a REST-based provisioning flow for device onboarding.",
       "category": "sdk",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -10906,6 +11063,7 @@
       "description": "A sample application built on X-CUBE-FreeRTOS that connects the STM32H573I-DK Discovery Kit to /IOTCONNECT, using the /IOTCONNECT FreeRTOS SDK and ST's Secure Manager for secured device identity. Ships with a prebuilt binary for quick evaluation plus a developer guide for source-level customization.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -10955,6 +11113,7 @@
       "description": "FreeRTOS firmware for the STM32U5 (B-U585I-IOT02A Discovery kit) running on-device audio classification of urban noise events (alarms, dog barking, water, race cars, horns), paired with an AWS CDK retraining pipeline that recompiles models and delivers them to the edge via /IOTCONNECT OTA.",
       "category": "demo",
       "status": "beta",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -11006,6 +11165,7 @@
       "description": "A board-agnostic AWS IoT Greengrass v2 custom-component template that bridges a Greengrass core device to Avnet /IOTCONNECT over AWS IoT Core. The core component (com.iotconnect.sdk2) uses the awsiotsdk Greengrass core IPC for MQTT pub/sub, and an optional Simulator component generates temperature/anomaly readings (scikit-learn declared as a dependency, values produced via simulation) published through the Greengrass pub/sub bus.",
       "category": "sdk",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -11033,6 +11193,7 @@
       "description": "A Yocto/BitBake meta-layer that provides a recipe (python3-iotc-lite-sdk) for integrating the /IOTCONNECT Python Lite SDK into custom embedded Linux images. Lets developers pre-integrate /IOTCONNECT connectivity when building Yocto-based distributions for embedded platforms.",
       "category": "library",
       "status": "beta",
+      "release": null,
       "languages": [
         "BitBake",
         "Python"
@@ -11061,6 +11222,7 @@
       "description": "A collection of Python-based /IOTCONNECT examples and demos running on Linux gateways and edge devices, covering BLE sensor ingestion (STEVAL-PROTEUS1, SensorTile.box PRO) bridged through an STM32MP157F-DK2 gateway, Modbus motor monitoring on the Asus PE100A, Dell Edge Gateway 3200/5200 connectivity, and a Yocto-built LoRaWAN gateway that bridges a ChirpStack LoRa Network Server to /IOTCONNECT on the STM32MP157F-DK2. Examples connect to /IOTCONNECT on AWS and Azure using the Python SDK.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -11113,6 +11275,7 @@
       "description": "A collection of Python-based /IOTCONNECT examples and demos running on Linux gateways and edge devices, covering BLE sensor ingestion (STEVAL-PROTEUS1, SensorTile.box PRO) bridged through an STM32MP157F-DK2 gateway, Modbus motor monitoring on the Asus PE100A, Dell Edge Gateway 3200/5200 connectivity, and a Yocto-built LoRaWAN gateway that bridges a ChirpStack LoRa Network Server to /IOTCONNECT on the STM32MP157F-DK2. Examples connect to /IOTCONNECT on AWS and Azure using the Python SDK.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -11165,6 +11328,7 @@
       "description": "A collection of Python-based /IOTCONNECT examples and demos running on Linux gateways and edge devices, covering BLE sensor ingestion (STEVAL-PROTEUS1, SensorTile.box PRO) bridged through an STM32MP157F-DK2 gateway, Modbus motor monitoring on the Asus PE100A, Dell Edge Gateway 3200/5200 connectivity, and a Yocto-built LoRaWAN gateway that bridges a ChirpStack LoRa Network Server to /IOTCONNECT on the STM32MP157F-DK2. Examples connect to /IOTCONNECT on AWS and Azure using the Python SDK.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -11217,6 +11381,7 @@
       "description": "A collection of Python-based /IOTCONNECT examples and demos running on Linux gateways and edge devices, covering BLE sensor ingestion (STEVAL-PROTEUS1, SensorTile.box PRO) bridged through an STM32MP157F-DK2 gateway, Modbus motor monitoring on the Asus PE100A, Dell Edge Gateway 3200/5200 connectivity, and a Yocto-built LoRaWAN gateway that bridges a ChirpStack LoRa Network Server to /IOTCONNECT on the STM32MP157F-DK2. Examples connect to /IOTCONNECT on AWS and Azure using the Python SDK.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -11269,6 +11434,7 @@
       "description": "A collection of Python-based /IOTCONNECT examples and demos running on Linux gateways and edge devices, covering BLE sensor ingestion (STEVAL-PROTEUS1, SensorTile.box PRO) bridged through an STM32MP157F-DK2 gateway, Modbus motor monitoring on the Asus PE100A, Dell Edge Gateway 3200/5200 connectivity, and a Yocto-built LoRaWAN gateway that bridges a ChirpStack LoRa Network Server to /IOTCONNECT on the STM32MP157F-DK2. Examples connect to /IOTCONNECT on AWS and Azure using the Python SDK.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -11321,6 +11487,7 @@
       "description": "A collection of Python-based /IOTCONNECT examples and demos running on Linux gateways and edge devices, covering BLE sensor ingestion (STEVAL-PROTEUS1, SensorTile.box PRO) bridged through an STM32MP157F-DK2 gateway, Modbus motor monitoring on the Asus PE100A, Dell Edge Gateway 3200/5200 connectivity, and a Yocto-built LoRaWAN gateway that bridges a ChirpStack LoRa Network Server to /IOTCONNECT on the STM32MP157F-DK2. Examples connect to /IOTCONNECT on AWS and Azure using the Python SDK.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -11373,6 +11540,7 @@
       "description": "FreeRTOS-based demo connecting the Microchip WFI32-IoT Development Board to Avnet /IOTCONNECT over MQTT/TLS, using the on-board ATECC608B secure element (Trust&GO) for X.509 cloud authentication and reporting light/temperature sensor data.",
       "category": "demo",
       "status": "beta",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -11425,6 +11593,7 @@
       "description": "Portable C library that drives the /IOTCONNECT AT-command interface of Dialog DA16200/DA16600 Wi-Fi PMOD modules over UART (115200 8-N-1), letting any FreeRTOS-based MCU send telemetry and receive cloud-to-device commands by implementing four UART hooks (init, get_char, write, close). Ships reference platform implementations for the Renesas EK-RA6M4 and CK-RA6M5 v2 Cloud Kit.",
       "category": "library",
       "status": "beta",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -11503,6 +11672,7 @@
       "description": "FreeRTOS sample for the Renesas EK-RA6M4 that connects to Avnet /IOTCONNECT through a DA16600 Wi-Fi/BLE PMOD module acting as an AT-command gateway over the PMOD1 connector. Built with the Renesas FSP 5.0.0 / e2 studio toolchain and the iotc-freertos-da16k-atcmd-lib, it ships a prebuilt binary and demonstrates cloud-to-device commands (LED control and blink frequency).",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -11554,6 +11724,7 @@
       "description": "FreeRTOS sample for the Renesas EK-RA6M4 that connects to Avnet /IOTCONNECT through a DA16600 Wi-Fi/BLE PMOD module acting as an AT-command gateway over the PMOD1 connector. Built with the Renesas FSP 5.0.0 / e2 studio toolchain and the iotc-freertos-da16k-atcmd-lib, it ships a prebuilt binary and demonstrates cloud-to-device commands (LED control and blink frequency).",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -11605,6 +11776,7 @@
       "description": "FreeRTOS demo for the Microchip WFI32-IoT Development Board that connects to /IOTCONNECT over MQTT using a wolfSSL TLS stack and X.509 certificates provisioned via the on-board ATECC608B secure element (Trust&GO). Reports built-in light and temperature sensor readings plus LED/switch state and accepts remote LED control commands.",
       "category": "demo",
       "status": "beta",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -11657,6 +11829,7 @@
       "description": "The /IOTCONNECT C SDK for FreeRTOS, providing device connectivity (TLS over coreHTTP/lwIP) plus supporting libraries (cJSON, littlefs) for the STM32U5 (B-U585I-IOT02A) and STM32H5 (STM32H573I-DK) Discovery kits. Supports X.509 mutual authentication. Board-specific application ports live in the dedicated iotc-freertos-stm32-u5 and iotc-freertos-stm32-h5 repositories.",
       "category": "sdk",
       "status": "beta",
+      "release": null,
       "languages": [
         "C",
         "Shell"
@@ -11717,6 +11890,7 @@
       "description": "Connects an STM32 B-U585I-IOT02A Discovery board to Avnet /IOTCONNECT over MQTT by driving an ESP32-C3-MINI Wi-Fi module through ESP-AT AT commands. The device certificate, key and CA are flashed into the ESP32-C3 AT firmware, and the STM32 runs a modified I-CUBE-ExpressLink PubSub project.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -11768,6 +11942,7 @@
       "description": "A Yocto/OpenEmbedded BitBake meta-layer providing /IOTCONNECT demo application recipes (C and Python SDK demos fetched from companion repos) plus systemd service, config, and helper-script recipes (LED control, memory usage, OTA file-change reporting) to integrate Avnet /IOTCONNECT into custom embedded Linux images. The kirkstone-branch CI builds bootable demo images for the NXP MaaXBoard 8M, Tria MSC SM2S-IMX8PLUS, and STMicroelectronics STM32MP157F-DK2 / STM32MP135F-DK boards. Used together with the meta-iotconnect-docs quick-start guides.",
       "category": "library",
       "status": "beta",
+      "release": null,
       "languages": [
         "BitBake",
         "Shell"
@@ -11849,6 +12024,7 @@
       "description": "Arduino IDE sketch that connects an Arduino Pro Portenta H7 (STM32H747XI) to /IOTCONNECT on AWS over Wi-Fi using X.509 certificate authentication with BearSSL/MQTT. It publishes a simulated temperature reading plus NTP-acquired UTC time once per minute and receives cloud-to-device commands, demonstrating bidirectional MQTT.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "C++"
       ],
@@ -11900,6 +12076,7 @@
       "description": "Arduino IDE sketch (C33SecureProv.ino) that connects an Arduino PRO Portenta C33 SOM to /IOTCONNECT on AWS over Wi-Fi, publishing a simulated temperature value plus NTP-acquired UTC time at 1-minute intervals and receiving cloud-to-device commands over MQTT for full bidirectional communication. Authentication uses an X.509 device certificate (stored in arduino_secrets.h) with TLS, leveraging the board's onboard secure element.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "C++"
       ],
@@ -11950,6 +12127,7 @@
       "description": "A Yocto/OpenEmbedded BitBake meta-layer providing recipes that integrate the /IOTCONNECT C and Python SDKs into custom embedded Linux images. Add iotc-c-sdk or python3-iotconnect-sdk to your image via RDEPENDS to gain cloud connectivity.",
       "category": "library",
       "status": "beta",
+      "release": null,
       "languages": [
         "BitBake"
       ],
@@ -11977,6 +12155,7 @@
       "description": "Yocto (Kirkstone) meta-layers and a Dockerized build that turn an STM32MP157x-DKx Discovery kit into a ChirpStack LoRaWAN network-server gateway, bridging a RAK5146 concentrator's LoRa nodes into /IOTCONNECT as a gateway device with child node devices. Includes a Python demo app (lora_demo.py) that auto-generates IOTConnect templates and forwards node telemetry.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -12028,6 +12207,7 @@
       "description": "A board-agnostic Linux/Yocto C application that connects to /IOTCONNECT using the iotc-generic-c-sdk submodule. It reads a JSON config (device/company/environment, certs, auth type) to publish telemetry and dispatch shell-script commands. A CMake-based local_build flow with debug-files lets the same source be built and debugged on a host (including _WIN32 shims) outside the Yocto environment.",
       "category": "sample",
       "status": "beta",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -12056,6 +12236,7 @@
       "description": "Application source bundled by the meta-iotconnect Yocto layer: a Python sample that loads device credentials from file, connects to /IOTCONNECT, and periodically streams device states, paired with an A/B primary-backup launcher script that fails over to a backup install on crash and an OTA payload template for installing reboot-less script or full-application updates. Board-agnostic Yocto image content rather than a board-specific example.",
       "category": "library",
       "status": "beta",
+      "release": null,
       "languages": [
         "Python",
         "Shell"
@@ -12083,6 +12264,7 @@
       "description": "Arduino/PlatformIO C/C++ SDK that connects WiFi-capable Arduino boards to Avnet /IOTCONNECT over MQTT, developed and tested on the SparkFun ESP32 Thing. Depends on the WiFiSecure library for TLS and PubSubClient for MQTT, and ships an ESP sensors sample with GPIO LED/button examples.",
       "category": "sdk",
       "status": "beta",
+      "release": "v1.0.1",
       "languages": [
         "C",
         "C++"
@@ -12133,6 +12315,7 @@
       "description": "End-to-end MLOps accelerator that trains an audio classification model in a SageMaker pipeline using STM32Cube.AI and deploys it over-the-air via FreeRTOS to STM32U5 edge devices. Devices connect to AWS IoT Core over MQTT; messages are stored in Amazon Timestream and visualised in AWS Managed Grafana. The whole stack is provisioned with AWS CDK.",
       "category": "demo",
       "status": "beta",
+      "release": null,
       "languages": [
         "C",
         "Python",
@@ -12186,6 +12369,7 @@
       "description": "SDK and sample application that connects the STM32U5 IoT Discovery Kit to /IOTCONNECT over Azure RTOS, built on X-Cube-Azure with Trusted Firmware-M (TF-M) secure firmware. Supports onboard Wi-Fi connectivity and optional cellular via the BG96 module from the P-L496G-CELL02 combo.",
       "category": "sample",
       "status": "beta",
+      "release": "1.1.1",
       "languages": [
         "C"
       ],
@@ -12238,6 +12422,7 @@
       "description": "A Yocto meta-layer / SDK intended for integrating AWS IoT Greengrass with /IOTCONNECT on embedded Linux targets. The repository is currently empty (no code, README, commits, or files), so its scope is inferred solely from the repository name.",
       "category": "library",
       "status": "beta",
+      "release": null,
       "languages": [],
       "features": [
         "greengrass",
