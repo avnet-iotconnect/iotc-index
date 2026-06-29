@@ -41,6 +41,15 @@
   .nav .links{display:flex;gap:6px;margin-left:8px;}
   .nav .links a{padding:8px 12px;border-radius:8px;color:var(--muted);font-weight:500;font-size:14px;cursor:pointer;transition:.15s;}
   .nav .links a:hover{color:var(--ink);background:var(--soft);}
+  .navdd{position:relative;}
+  .navdd-btn{padding:8px 12px;border-radius:8px;color:var(--muted);font-weight:500;font-size:14px;font-family:inherit;cursor:pointer;background:none;border:none;display:inline-flex;align-items:center;gap:5px;transition:.15s;}
+  .navdd-btn:hover,.navdd-btn[aria-expanded="true"]{color:var(--ink);background:var(--soft);}
+  .navdd-btn .caret{font-size:11px;transition:transform .15s;}
+  .navdd-btn[aria-expanded="true"] .caret{transform:rotate(180deg);}
+  .navdd-menu{position:absolute;top:calc(100% + 6px);left:0;min-width:210px;background:#fff;border:1px solid var(--line);border-radius:11px;box-shadow:var(--shadow-lg);padding:6px;display:none;flex-direction:column;z-index:70;}
+  .navdd-menu.open{display:flex;}
+  .navdd-menu a{padding:9px 12px;border-radius:7px;color:var(--body);font-size:14px;font-weight:500;white-space:nowrap;}
+  .navdd-menu a:hover{background:var(--soft);color:var(--brand-deep);}
   .nav .spacer{flex:1;}
   .btn{display:inline-flex;align-items:center;gap:8px;border-radius:10px;font-weight:600;font-size:14px;padding:10px 16px;cursor:pointer;border:1px solid transparent;transition:.15s;white-space:nowrap;}
   .btn-primary{background:var(--brand);color:var(--brand-on);box-shadow:0 6px 18px rgba(65,195,99,.36);}
@@ -263,10 +272,15 @@
     <a data-jump="hardware">Hardware</a>
     <a data-jump="software">SDKs &amp; Demos</a>
     <a data-jump="partners">Partners</a>
-    <a href="https://www.iotconnect.io" target="_blank" rel="noopener">Product ↗</a>
-    <a href="https://docs.iotconnect.io/iotconnect/" target="_blank" rel="noopener">Docs ↗</a>
-    <a href="https://www.avnet.com/americas/solutions/iot/iotconnect/training/" target="_blank" rel="noopener">Training ↗</a>
-    <a href="https://aws.amazon.com/marketplace/seller-profile?id=seller-gqopqcki66fjk" target="_blank" rel="noopener">AWS Marketplace ↗</a>
+    <div class="navdd">
+      <button class="navdd-btn" id="moreBtn" aria-haspopup="true" aria-expanded="false">Resources <span class="caret">▾</span></button>
+      <div class="navdd-menu" id="moreMenu" role="menu" aria-label="Resources">
+        <a href="https://www.iotconnect.io" target="_blank" rel="noopener" role="menuitem">Product ↗</a>
+        <a href="https://docs.iotconnect.io/iotconnect/" target="_blank" rel="noopener" role="menuitem">Docs ↗</a>
+        <a href="https://www.avnet.com/americas/solutions/iot/iotconnect/training/" target="_blank" rel="noopener" role="menuitem">Training ↗</a>
+        <a href="https://aws.amazon.com/marketplace/seller-profile?id=seller-gqopqcki66fjk" target="_blank" rel="noopener" role="menuitem">AWS Marketplace ↗</a>
+      </div>
+    </div>
   </div>
   <span class="spacer"></span>
   <a class="btn btn-ghost" href="https://github.com/avnet-iotconnect" target="_blank" rel="noopener">GitHub</a>
@@ -775,10 +789,17 @@ document.addEventListener("click",e=>{
   const jump=e.target.closest("[data-jump]");
   if(jump){const v=jump.dataset.jump;if(v==="partners"){document.getElementById("partners").scrollIntoView({behavior:"smooth"});}else{setView(v);document.getElementById("hardware").scrollIntoView({behavior:"smooth",block:"start"});}return;}
 });
+/* Resources nav dropdown: toggle on the button, close on item-click or outside-click */
+document.addEventListener("click",e=>{
+  const m=$("#moreMenu");if(!m)return;
+  const btn=e.target.closest("#moreBtn");
+  if(btn){const open=!m.classList.contains("open");m.classList.toggle("open",open);btn.setAttribute("aria-expanded",String(open));return;}
+  if(e.target.closest("#moreMenu")||!e.target.closest(".navdd")){m.classList.remove("open");const b=$("#moreBtn");if(b)b.setAttribute("aria-expanded","false");}
+});
 $("#viewSeg").addEventListener("click",e=>{const b=e.target.closest("button");if(b)setView(b.dataset.v);});
 $("#scrim").addEventListener("click",closeDrawer);
 document.addEventListener("keydown",e=>{
-  if(e.key==="Escape"){closeDrawer();return;}
+  if(e.key==="Escape"){const m=$("#moreMenu");if(m&&m.classList.contains("open")){m.classList.remove("open");const b=$("#moreBtn");if(b)b.setAttribute("aria-expanded","false");}closeDrawer();return;}
   if((e.key==="Enter"||e.key===" ")){
     const c=e.target.closest(".card[data-board]");if(c){e.preventDefault();openDrawer(c.dataset.board);return;}
     const lc=e.target.closest(".card[data-listing]");if(lc){e.preventDefault();openListing(lc.dataset.listing);}
