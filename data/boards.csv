@@ -73,7 +73,7 @@ Tria / Renesas,RZBoard V2L,AES-RZB-V2L-SK-G,AES-RZB-V2L-SK-G.png,AES-RZB-V2L-SK-
 Seeed Studio,reComputer J4021 - Edge AI Computer with NVIDIA Jetson Orin NX 16GB,J4021,,J4021.jpg,,no,no,"ai,vision,edge",yes,NVIDIA
 Kerlink,Wirnet iStation Outdoor LoRaWAN Gateway,WIRNET-ISTATION,,WIRNET-ISTATION.png,https://www.kerlink.com/product/wirnet-istation/,no,no,"lora,lorawan,gateway",yes,Semtech
 Advantech,SOM-6873 AMD Ryzen Embedded 8000 COM Express Compact Type 6 Module,SOM-6873,,SOM-6873.jpg,https://www.advantech.com/en-us/products/e5f3ee70-5c26-4757-93f4-a9d4150a860f/som-6873/mod_1d0156b1-61b6-48fb-b768-549bb1be3c1c,no,no,"ai,vision,edge",yes,AMD
-Avnet,/IOTCONNECT Bridge Mobile Gateway App,IOTC-BRIDGE-APP,,IOTC-BRIDGE-APP.jpg,https://github.com/avnet-iotconnect/iotc-gateway-mobile-app,no,no,"gateway,ble,mobile",yes,Avnet
+Avnet,/IOTCONNECT Bridge Mobile Gateway App,IOTC-BRIDGE-APP,https://saleshosted.z13.web.core.windows.net/images/boards/iotc-bridge_app.JPG,IOTC-BRIDGE-APP.jpg,https://github.com/avnet-iotconnect/iotc-gateway-mobile-app,no,no,"gateway,ble,mobile",yes,Avnet
 TE Connectivity,TE Connectivity mikroBUS Click Sensor Boards,TE-MIKROBUS-CLICKS,,TE-MIKROBUS-CLICKS.jpg,,no,no,"clicks,sensors,mikrobus",yes,TE Connectivity
 Amphenol,Amphenol mikroBUS Click Sensor Boards,AMPHENOL-MIKROBUS-CLICKS,,AMPHENOL-MIKROBUS-CLICKS.jpg,,no,no,"clicks,sensors,mikrobus",yes,Amphenol
 Arduino,Arduino UNO Q,ARDUINO-UNO-Q,,ARDUINO-UNO-Q.jpg,https://store.arduino.cc/products/uno-q,no,no,"AI, IoT, Linux",yes,Qualcomm
