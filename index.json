@@ -1,6 +1,6 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-06-29T17:34:21Z",
+  "generated": "2026-06-30T14:23:32Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
@@ -337,7 +337,7 @@
     "topics": [
       {
         "tag": "edge-ai",
-        "count": 61
+        "count": 62
       },
       {
         "tag": "gateway",
@@ -345,7 +345,7 @@
       },
       {
         "tag": "vision",
-        "count": 30
+        "count": 31
       },
       {
         "tag": "ai",
@@ -396,12 +396,12 @@
         "count": 12
       },
       {
-        "tag": "tls",
+        "tag": "npu",
         "count": 11
       },
       {
-        "tag": "npu",
-        "count": 10
+        "tag": "tls",
+        "count": 11
       },
       {
         "tag": "webrtc",
@@ -605,6 +605,10 @@
       },
       {
         "tag": "vision-ai",
+        "count": 1
+      },
+      {
+        "tag": "vlm",
         "count": 1
       },
       {
@@ -3261,11 +3265,11 @@
     ]
   },
   "counts": {
-    "total": 185,
+    "total": 186,
     "manufacturers": 17,
     "boards": 89,
     "sdks": 30,
-    "examples": 150,
+    "examples": 151,
     "guides": 79,
     "demos": 12,
     "partners": 9
@@ -5163,7 +5167,7 @@
         "wifi"
       ],
       "stars": 0,
-      "updated": "2026-06-29T14:54:45Z",
+      "updated": "2026-06-29T21:48:21Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ren-wireless-placard.JPG",
       "dashboards": [
         "https://saleshosted.z13.web.core.windows.net/dashboard/r3/REN-CKRA6M5-macnine_mon.PNG"
@@ -6915,7 +6919,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-06-29T16:48:01Z",
+      "updated": "2026-06-29T21:17:11Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/nxp-imx93andmcxn.JPG",
       "dashboards": [
         "https://saleshosted.z13.web.core.windows.net/dashboard/r3/nxp-frdm93-workersafty.PNG"
@@ -8192,7 +8196,7 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-06-29T16:48:01Z",
+      "updated": "2026-06-29T21:17:11Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-scalable-ai-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -8243,7 +8247,7 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-06-29T16:48:01Z",
+      "updated": "2026-06-29T21:17:11Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-scalable-ai-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -8294,7 +8298,7 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-06-29T16:48:01Z",
+      "updated": "2026-06-29T21:17:11Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-scalable-ai-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -8345,7 +8349,7 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-06-29T16:48:01Z",
+      "updated": "2026-06-29T21:17:11Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -8394,7 +8398,7 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-06-29T16:48:01Z",
+      "updated": "2026-06-29T21:17:11Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -8443,7 +8447,7 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-06-29T16:48:01Z",
+      "updated": "2026-06-29T21:17:11Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -8492,7 +8496,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-06-29T16:48:01Z",
+      "updated": "2026-06-29T21:17:11Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-kws-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -8540,7 +8544,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-06-29T16:48:01Z",
+      "updated": "2026-06-29T21:17:11Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-kws-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -8589,7 +8593,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-06-29T16:48:01Z",
+      "updated": "2026-06-29T21:17:11Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-kws-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -8636,7 +8640,7 @@
         "sensors"
       ],
       "stars": 3,
-      "updated": "2026-06-29T16:48:01Z",
+      "updated": "2026-06-29T21:17:11Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-kws-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -8684,7 +8688,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-06-29T16:48:01Z",
+      "updated": "2026-06-29T21:17:11Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -8732,7 +8736,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-06-29T16:48:01Z",
+      "updated": "2026-06-29T21:17:11Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -8783,7 +8787,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-06-29T16:48:01Z",
+      "updated": "2026-06-29T21:17:11Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -8832,7 +8836,7 @@
         "file-upload"
       ],
       "stars": 3,
-      "updated": "2026-06-29T16:48:01Z",
+      "updated": "2026-06-29T21:17:11Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -8882,7 +8886,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-06-29T16:48:01Z",
+      "updated": "2026-06-29T21:17:11Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -8933,7 +8937,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-06-29T16:48:01Z",
+      "updated": "2026-06-29T21:17:11Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -8984,7 +8988,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-06-29T16:48:01Z",
+      "updated": "2026-06-29T21:17:11Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ren-rzv2h-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -9031,7 +9035,7 @@
         "sensors"
       ],
       "stars": 3,
-      "updated": "2026-06-29T16:48:01Z",
+      "updated": "2026-06-29T21:17:11Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ren-rzv2h-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -9079,7 +9083,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-06-29T16:48:01Z",
+      "updated": "2026-06-29T21:17:11Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9129,7 +9133,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-06-29T16:48:01Z",
+      "updated": "2026-06-29T21:17:11Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9180,7 +9184,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-06-29T16:48:01Z",
+      "updated": "2026-06-29T21:17:11Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9229,7 +9233,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-06-29T16:48:01Z",
+      "updated": "2026-06-29T21:17:11Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9278,7 +9282,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-06-29T16:48:01Z",
+      "updated": "2026-06-29T21:17:11Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9328,7 +9332,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-06-29T16:48:01Z",
+      "updated": "2026-06-29T21:17:11Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9378,7 +9382,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-06-29T16:48:01Z",
+      "updated": "2026-06-29T21:17:11Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9429,7 +9433,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-06-29T16:48:01Z",
+      "updated": "2026-06-29T21:17:11Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9478,7 +9482,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-06-29T16:48:01Z",
+      "updated": "2026-06-29T21:17:11Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9527,7 +9531,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-06-29T16:48:01Z",
+      "updated": "2026-06-29T21:17:11Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9577,7 +9581,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-06-29T16:48:01Z",
+      "updated": "2026-06-29T21:17:11Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9628,7 +9632,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-06-29T16:48:01Z",
+      "updated": "2026-06-29T21:17:11Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9677,7 +9681,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-06-29T16:48:01Z",
+      "updated": "2026-06-29T21:17:11Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9726,7 +9730,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-06-29T16:48:01Z",
+      "updated": "2026-06-29T21:17:11Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9776,7 +9780,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-06-29T16:48:01Z",
+      "updated": "2026-06-29T21:17:11Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9827,7 +9831,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-06-29T16:48:01Z",
+      "updated": "2026-06-29T21:17:11Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9877,7 +9881,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-06-29T16:48:01Z",
+      "updated": "2026-06-29T21:17:11Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9931,7 +9935,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-06-29T16:48:01Z",
+      "updated": "2026-06-29T21:17:11Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9984,7 +9988,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-06-29T16:48:01Z",
+      "updated": "2026-06-29T21:17:11Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10035,7 +10039,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-06-29T16:48:01Z",
+      "updated": "2026-06-29T21:17:11Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10425,7 +10429,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-06-29T16:48:01Z",
+      "updated": "2026-06-29T21:17:11Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/arduino-unoq-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -10474,7 +10478,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-06-29T16:48:01Z",
+      "updated": "2026-06-29T21:17:11Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-scalable-ai-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -10523,7 +10527,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-06-29T16:48:01Z",
+      "updated": "2026-06-29T21:17:11Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10570,7 +10574,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-06-29T16:48:01Z",
+      "updated": "2026-06-29T21:17:11Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10621,7 +10625,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-06-29T16:48:01Z",
+      "updated": "2026-06-29T21:17:11Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10673,7 +10677,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-06-29T16:48:01Z",
+      "updated": "2026-06-29T21:17:11Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ren-rzg3e-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -12438,6 +12442,38 @@
       "described": true,
       "hidden": false,
       "id": "iotconnect-yocto-greengrass-sdk",
+      "boards": [],
+      "board": null,
+      "manufacturers": [],
+      "makers": []
+    },
+    {
+      "repo": "iotc-nuc-vlm-demo",
+      "url": "https://github.com/avnet-iotconnect/iotc-nuc-vlm-demo",
+      "displayName": "Construction Site Safety VLM (Intel NUC)",
+      "description": "Physical-AI edge demo on an Intel NUC (Core Ultra) running two vision pipelines at once: open-vocabulary construction object detection (YOLO-World) on the NPU for PPE-compliance and machine danger-zone safety alerts, plus a vision-language model (Qwen2-VL/2.5-VL, INT4) on the Arc iGPU for scene hazard checks and ad-hoc Q&A. Per-class counts, safety flags, VLM latency and live CPU/iGPU/NPU/memory/temperature metrics stream to /IOTCONNECT; the VLM is hot-swappable from the cloud.",
+      "category": "sample",
+      "status": "beta",
+      "release": null,
+      "languages": [
+        "Python"
+      ],
+      "features": [
+        "edge-ai",
+        "npu",
+        "vision",
+        "vlm"
+      ],
+      "stars": 0,
+      "updated": "2026-06-30T14:10:42Z",
+      "image": "https://raw.githubusercontent.com/avnet-iotconnect/iotc-nuc-vlm-demo/main/docs/images/viewer-7b.png",
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-nuc-vlm-demo/main/docs/images/dashboard.png"
+      ],
+      "photos": [],
+      "described": true,
+      "hidden": false,
+      "id": "construction-site-safety-vlm-intel-nuc",
       "boards": [],
       "board": null,
       "manufacturers": [],
