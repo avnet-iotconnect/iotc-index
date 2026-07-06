@@ -1,6 +1,6 @@
 # /IOTCONNECT Index — Audit Report
 
-_Generated 2026-06-30T14:23:32Z_  ·  186 listings · 89 boards (80 in use) · 17 manufacturers · 211 resources
+_Generated 2026-07-06T11:26:14Z_  ·  186 listings · 89 boards (80 in use) · 17 manufacturers · 211 resources
 
 ## ⚠ Boards referenced but missing from the Boards sheet
 - **uno** — referenced by: Vision AI Demonstrator
@@ -21,7 +21,8 @@ _Generated 2026-06-30T14:23:32Z_  ·  186 listings · 89 boards (80 in use) · 1
 - NXP · NXP MaaXBoard Mini (AES-MC-SBC-IMX8MINI-G)
 
 ## Org repos with no listing (candidates to add)
-- none — every public repo has a listing.
+- iotc-zephyr-demos — Use-case-first Zephyr RTOS demos for Avnet IOTCONNECT across NXP boards: quickstart, telemetry, C2D, and Click sensors.
+- iotc-zephyr-sdk — Vendor-neutral Zephyr RTOS SDK for Avnet IOTCONNECT: device client, provisioning, and hardware-sealed-key support.
 
 ## Listings missing description or topics
 - none.
