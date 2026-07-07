@@ -1,6 +1,6 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-07-07T01:49:51Z",
+  "generated": "2026-07-07T02:11:40Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
@@ -84,7 +84,7 @@
       "logo": "assets/brand/nxp-logo.png",
       "info": "https://www.avnet.com/iotconnect/nxp",
       "boards": 11,
-      "listings": 23
+      "listings": 28
     },
     {
       "name": "Nordic",
@@ -349,7 +349,7 @@
       },
       {
         "tag": "sensors",
-        "count": 26
+        "count": 27
       },
       {
         "tag": "ai",
@@ -380,6 +380,10 @@
         "count": 14
       },
       {
+        "tag": "mcu",
+        "count": 13
+      },
+      {
         "tag": "video",
         "count": 13
       },
@@ -404,12 +408,8 @@
         "count": 11
       },
       {
-        "tag": "secure-element",
-        "count": 9
-      },
-      {
-        "tag": "mcu",
-        "count": 8
+        "tag": "zephyr",
+        "count": 10
       },
       {
         "tag": "webrtc",
@@ -428,6 +428,10 @@
         "count": 7
       },
       {
+        "tag": "secure-element",
+        "count": 7
+      },
+      {
         "tag": "gesture",
         "count": 6
       },
@@ -440,7 +444,7 @@
         "count": 5
       },
       {
-        "tag": "zephyr",
+        "tag": "x509",
         "count": 5
       },
       {
@@ -456,11 +460,11 @@
         "count": 4
       },
       {
-        "tag": "agriculture",
-        "count": 3
+        "tag": "clicks",
+        "count": 4
       },
       {
-        "tag": "clicks",
+        "tag": "agriculture",
         "count": 3
       },
       {
@@ -513,10 +517,6 @@
       },
       {
         "tag": "wolfssl",
-        "count": 2
-      },
-      {
-        "tag": "x509",
         "count": 2
       },
       {
@@ -1258,7 +1258,7 @@
         ],
         "integrator": "NXP",
         "maker": "NXP",
-        "listings": 2
+        "listings": 5
       },
       {
         "slug": "s32g-vnp-gldbox",
@@ -1348,7 +1348,7 @@
         ],
         "integrator": "NXP",
         "maker": "NXP",
-        "listings": 1
+        "listings": 2
       },
       {
         "slug": "frdm-imx93",
@@ -1383,7 +1383,7 @@
         ],
         "integrator": "NXP",
         "maker": "NXP",
-        "listings": 10
+        "listings": 11
       },
       {
         "slug": "jetson-orin",
@@ -3301,11 +3301,11 @@
     ]
   },
   "counts": {
-    "total": 190,
+    "total": 195,
     "manufacturers": 17,
     "boards": 90,
     "sdks": 31,
-    "examples": 159,
+    "examples": 164,
     "guides": 80,
     "demos": 12,
     "partners": 9
@@ -12547,9 +12547,9 @@
     },
     {
       "repo": "iotc-zephyr-demos",
-      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos",
-      "displayName": "IOTCONNECT Zephyr Demos",
-      "description": "Use-case-first Zephyr RTOS demos for /IOTCONNECT across NXP boards: a quickstart (on-device key-gen + provisioning), telemetry, cloud-to-device LED control, and mikroBUS Click sensor telemetry. One portable app runs on many boards via per-board Kconfig + devicetree overlays; the MCXN947 paths are hardware-verified on the TF-M hardware-sealed-key build.",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/quickstart",
+      "displayName": "Zephyr Quickstart — On-Device Provisioning",
+      "description": "Zephyr RTOS quickstart for /IOTCONNECT: the device generates its own EC P-256 key pair on-device and self-provisions via the REST discovery API, then connects — no key ever leaves the board. On the FRDM-MCXN947 TF-M build the private key is sealed in Protected Storage; on the FRDM-IMX93 the identity persists to on-SOM eMMC across power cycles.",
       "category": "sample",
       "status": "beta",
       "release": null,
@@ -12558,8 +12558,7 @@
       ],
       "features": [
         "mcu",
-        "secure-element",
-        "sensors",
+        "x509",
         "zephyr"
       ],
       "stars": 0,
@@ -12569,7 +12568,7 @@
       "photos": [],
       "described": true,
       "hidden": false,
-      "id": "iotconnect-zephyr-demos::frdm-mcxn947",
+      "id": "zephyr-quickstart-on-device-provisioning::frdm-mcxn947",
       "boards": [
         {
           "slug": "frdm-mcxn947",
@@ -12597,9 +12596,9 @@
     },
     {
       "repo": "iotc-zephyr-demos",
-      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos",
-      "displayName": "IOTCONNECT Zephyr Demos",
-      "description": "Use-case-first Zephyr RTOS demos for /IOTCONNECT across NXP boards: a quickstart (on-device key-gen + provisioning), telemetry, cloud-to-device LED control, and mikroBUS Click sensor telemetry. One portable app runs on many boards via per-board Kconfig + devicetree overlays; the MCXN947 paths are hardware-verified on the TF-M hardware-sealed-key build.",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/quickstart",
+      "displayName": "Zephyr Quickstart — On-Device Provisioning",
+      "description": "Zephyr RTOS quickstart for /IOTCONNECT: the device generates its own EC P-256 key pair on-device and self-provisions via the REST discovery API, then connects — no key ever leaves the board. On the FRDM-MCXN947 TF-M build the private key is sealed in Protected Storage; on the FRDM-IMX93 the identity persists to on-SOM eMMC across power cycles.",
       "category": "sample",
       "status": "beta",
       "release": null,
@@ -12608,8 +12607,7 @@
       ],
       "features": [
         "mcu",
-        "secure-element",
-        "sensors",
+        "x509",
         "zephyr"
       ],
       "stars": 0,
@@ -12619,7 +12617,7 @@
       "photos": [],
       "described": true,
       "hidden": false,
-      "id": "iotconnect-zephyr-demos::frdm-imx93",
+      "id": "zephyr-quickstart-on-device-provisioning::frdm-imx93",
       "boards": [
         {
           "slug": "frdm-imx93",
@@ -12649,9 +12647,9 @@
     },
     {
       "repo": "iotc-zephyr-demos",
-      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos",
-      "displayName": "IOTCONNECT Zephyr Demos",
-      "description": "Use-case-first Zephyr RTOS demos for /IOTCONNECT across NXP boards: a quickstart (on-device key-gen + provisioning), telemetry, cloud-to-device LED control, and mikroBUS Click sensor telemetry. One portable app runs on many boards via per-board Kconfig + devicetree overlays; the MCXN947 paths are hardware-verified on the TF-M hardware-sealed-key build.",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/quickstart",
+      "displayName": "Zephyr Quickstart — On-Device Provisioning",
+      "description": "Zephyr RTOS quickstart for /IOTCONNECT: the device generates its own EC P-256 key pair on-device and self-provisions via the REST discovery API, then connects — no key ever leaves the board. On the FRDM-MCXN947 TF-M build the private key is sealed in Protected Storage; on the FRDM-IMX93 the identity persists to on-SOM eMMC across power cycles.",
       "category": "sample",
       "status": "beta",
       "release": null,
@@ -12660,8 +12658,7 @@
       ],
       "features": [
         "mcu",
-        "secure-element",
-        "sensors",
+        "x509",
         "zephyr"
       ],
       "stars": 0,
@@ -12671,7 +12668,7 @@
       "photos": [],
       "described": true,
       "hidden": false,
-      "id": "iotconnect-zephyr-demos::mimxrt1170-evkb",
+      "id": "zephyr-quickstart-on-device-provisioning::mimxrt1170-evkb",
       "boards": [
         {
           "slug": "mimxrt1170-evkb",
@@ -12689,6 +12686,254 @@
         "maker": "NXP",
         "partNumber": "MIMXRT1170-EVKB",
         "imageLocal": "assets/boards/MIMXRT1170-EVKB.jpg"
+      },
+      "manufacturers": [
+        "NXP"
+      ],
+      "makers": [
+        "NXP"
+      ]
+    },
+    {
+      "repo": "iotc-zephyr-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/telemetry",
+      "displayName": "Zephyr Telemetry",
+      "description": "Zephyr RTOS telemetry demo for /IOTCONNECT: one portable application that reports sensor readings and live device vitals (uptime, heap, network) to the cloud, running unchanged across NXP boards via per-board Kconfig + devicetree overlays — hardware-verified on MCXN947, i.MX93 (Cortex-A55) and i.MX RT1170.",
+      "category": "sample",
+      "status": "beta",
+      "release": null,
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "mcu",
+        "sensors",
+        "zephyr"
+      ],
+      "stars": 0,
+      "updated": "2026-07-06T19:32:34Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "described": true,
+      "hidden": false,
+      "id": "zephyr-telemetry::frdm-mcxn947",
+      "boards": [
+        {
+          "slug": "frdm-mcxn947",
+          "vendor": "NXP",
+          "name": "FRDM Development Board for MCX N94/N54 MCUs",
+          "maker": "NXP",
+          "partNumber": "FRDM-MCXN947",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-MCXN947.png"
+        }
+      ],
+      "board": {
+        "slug": "frdm-mcxn947",
+        "vendor": "NXP",
+        "name": "FRDM Development Board for MCX N94/N54 MCUs",
+        "maker": "NXP",
+        "partNumber": "FRDM-MCXN947",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-MCXN947.png"
+      },
+      "manufacturers": [
+        "NXP"
+      ],
+      "makers": [
+        "NXP"
+      ]
+    },
+    {
+      "repo": "iotc-zephyr-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/telemetry",
+      "displayName": "Zephyr Telemetry",
+      "description": "Zephyr RTOS telemetry demo for /IOTCONNECT: one portable application that reports sensor readings and live device vitals (uptime, heap, network) to the cloud, running unchanged across NXP boards via per-board Kconfig + devicetree overlays — hardware-verified on MCXN947, i.MX93 (Cortex-A55) and i.MX RT1170.",
+      "category": "sample",
+      "status": "beta",
+      "release": null,
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "mcu",
+        "sensors",
+        "zephyr"
+      ],
+      "stars": 0,
+      "updated": "2026-07-06T19:32:34Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "described": true,
+      "hidden": false,
+      "id": "zephyr-telemetry::frdm-imx93",
+      "boards": [
+        {
+          "slug": "frdm-imx93",
+          "vendor": "NXP",
+          "name": "IMX93 Freedom Board",
+          "maker": "NXP",
+          "partNumber": "FRDM-IMX93",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-IMX93.png",
+          "imageLocal": "assets/boards/FRDM-IMX93.jpg"
+        }
+      ],
+      "board": {
+        "slug": "frdm-imx93",
+        "vendor": "NXP",
+        "name": "IMX93 Freedom Board",
+        "maker": "NXP",
+        "partNumber": "FRDM-IMX93",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-IMX93.png",
+        "imageLocal": "assets/boards/FRDM-IMX93.jpg"
+      },
+      "manufacturers": [
+        "NXP"
+      ],
+      "makers": [
+        "NXP"
+      ]
+    },
+    {
+      "repo": "iotc-zephyr-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/telemetry",
+      "displayName": "Zephyr Telemetry",
+      "description": "Zephyr RTOS telemetry demo for /IOTCONNECT: one portable application that reports sensor readings and live device vitals (uptime, heap, network) to the cloud, running unchanged across NXP boards via per-board Kconfig + devicetree overlays — hardware-verified on MCXN947, i.MX93 (Cortex-A55) and i.MX RT1170.",
+      "category": "sample",
+      "status": "beta",
+      "release": null,
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "mcu",
+        "sensors",
+        "zephyr"
+      ],
+      "stars": 0,
+      "updated": "2026-07-06T19:32:34Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "described": true,
+      "hidden": false,
+      "id": "zephyr-telemetry::mimxrt1170-evkb",
+      "boards": [
+        {
+          "slug": "mimxrt1170-evkb",
+          "vendor": "NXP",
+          "name": "i.MX RT1170 Evaluation Kit (EVKB)",
+          "maker": "NXP",
+          "partNumber": "MIMXRT1170-EVKB",
+          "imageLocal": "assets/boards/MIMXRT1170-EVKB.jpg"
+        }
+      ],
+      "board": {
+        "slug": "mimxrt1170-evkb",
+        "vendor": "NXP",
+        "name": "i.MX RT1170 Evaluation Kit (EVKB)",
+        "maker": "NXP",
+        "partNumber": "MIMXRT1170-EVKB",
+        "imageLocal": "assets/boards/MIMXRT1170-EVKB.jpg"
+      },
+      "manufacturers": [
+        "NXP"
+      ],
+      "makers": [
+        "NXP"
+      ]
+    },
+    {
+      "repo": "iotc-zephyr-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/c2d-led",
+      "displayName": "Zephyr Cloud-to-Device LED Control",
+      "description": "Cloud-to-device command demo on Zephyr RTOS: send a command from the /IOTCONNECT portal and the board switches its LED, demonstrating the C2D command path (parse, act, acknowledge) that any cloud-controlled Zephyr device builds on.",
+      "category": "sample",
+      "status": "beta",
+      "release": null,
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "mcu",
+        "zephyr"
+      ],
+      "stars": 0,
+      "updated": "2026-07-06T19:32:34Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "described": true,
+      "hidden": false,
+      "id": "zephyr-cloud-to-device-led-control",
+      "boards": [
+        {
+          "slug": "frdm-mcxn947",
+          "vendor": "NXP",
+          "name": "FRDM Development Board for MCX N94/N54 MCUs",
+          "maker": "NXP",
+          "partNumber": "FRDM-MCXN947",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-MCXN947.png"
+        }
+      ],
+      "board": {
+        "slug": "frdm-mcxn947",
+        "vendor": "NXP",
+        "name": "FRDM Development Board for MCX N94/N54 MCUs",
+        "maker": "NXP",
+        "partNumber": "FRDM-MCXN947",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-MCXN947.png"
+      },
+      "manufacturers": [
+        "NXP"
+      ],
+      "makers": [
+        "NXP"
+      ]
+    },
+    {
+      "repo": "iotc-zephyr-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/click-telemetry",
+      "displayName": "Zephyr Click Sensor Telemetry (TF-M Sealed Key)",
+      "description": "mikroBUS Click boards streaming sensor telemetry to /IOTCONNECT from Zephyr RTOS on the FRDM-MCXN947 — hardware-verified on the TrustZone/TF-M build, where the device private key is sealed in Protected Storage and crypto runs in the secure world. Four Click sensors to AWS IoT Core from one portable app.",
+      "category": "sample",
+      "status": "beta",
+      "release": null,
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "clicks",
+        "mcu",
+        "secure-element",
+        "sensors",
+        "zephyr"
+      ],
+      "stars": 0,
+      "updated": "2026-07-06T19:32:34Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "described": true,
+      "hidden": false,
+      "id": "zephyr-click-sensor-telemetry-tf-m-sealed-key",
+      "boards": [
+        {
+          "slug": "frdm-mcxn947",
+          "vendor": "NXP",
+          "name": "FRDM Development Board for MCX N94/N54 MCUs",
+          "maker": "NXP",
+          "partNumber": "FRDM-MCXN947",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-MCXN947.png"
+        }
+      ],
+      "board": {
+        "slug": "frdm-mcxn947",
+        "vendor": "NXP",
+        "name": "FRDM Development Board for MCX N94/N54 MCUs",
+        "maker": "NXP",
+        "partNumber": "FRDM-MCXN947",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-MCXN947.png"
       },
       "manufacturers": [
         "NXP"
