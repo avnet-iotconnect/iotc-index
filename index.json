@@ -1,6 +1,6 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-07-07T00:51:07Z",
+  "generated": "2026-07-07T01:49:51Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
@@ -3305,7 +3305,7 @@
     "manufacturers": 17,
     "boards": 90,
     "sdks": 31,
-    "examples": 154,
+    "examples": 159,
     "guides": 80,
     "demos": 12,
     "partners": 9
@@ -10942,7 +10942,7 @@
       "url": "https://github.com/avnet-iotconnect/iotc-ameba-pro2-webrtc-kvs",
       "displayName": "WebRTC/KVS Video Streaming on Ameba Pro 2 (AMB82-MINI) with /IOTCONNECT",
       "description": "Firmware demo for the Realtek RTL8735B (Ameba Pro 2 Mini / AMB82-MINI) that streams live camera video over WebRTC via Amazon Kinesis Video Streams, with /IOTCONNECT handling device management, MQTT telemetry, and automatic AWS credential delivery. A single config script applies device certificates and credentials, and the firmware is built with CMake and the Ameba GCC toolchain.",
-      "category": "demo",
+      "category": "sample",
       "status": "beta",
       "release": null,
       "languages": [
@@ -11153,7 +11153,7 @@
       "url": "https://github.com/avnet-iotconnect/iotc-freertos-stm32-u5-ml-demo-v2",
       "displayName": "Edge Audio Classification on STM32U5 with FreeRTOS and Cloud Retraining",
       "description": "FreeRTOS firmware for the STM32U5 (B-U585I-IOT02A Discovery kit) running on-device audio classification of urban noise events (alarms, dog barking, water, race cars, horns), paired with an AWS CDK retraining pipeline that recompiles models and delivers them to the edge via /IOTCONNECT OTA.",
-      "category": "demo",
+      "category": "sample",
       "status": "beta",
       "release": null,
       "languages": [
@@ -11580,7 +11580,7 @@
       "url": "https://github.com/avnet-iotconnect/iotc-freertos-wfi32",
       "displayName": "Microchip WFI32-IoT FreeRTOS Demo for /IOTCONNECT",
       "description": "FreeRTOS-based demo connecting the Microchip WFI32-IoT Development Board to Avnet /IOTCONNECT over MQTT/TLS, using the on-board ATECC608B secure element (Trust&GO) for X.509 cloud authentication and reporting light/temperature sensor data.",
-      "category": "demo",
+      "category": "sample",
       "status": "beta",
       "release": null,
       "languages": [
@@ -11816,7 +11816,7 @@
       "url": "https://github.com/avnet-iotconnect/iotc-freertos-wolfssl-wfi32",
       "displayName": "WFI32-IoT FreeRTOS Demo with wolfSSL and ATECC608B",
       "description": "FreeRTOS demo for the Microchip WFI32-IoT Development Board that connects to /IOTCONNECT over MQTT using a wolfSSL TLS stack and X.509 certificates provisioned via the on-board ATECC608B secure element (Trust&GO). Reports built-in light and temperature sensor readings plus LED/switch state and accepts remote LED control commands.",
-      "category": "demo",
+      "category": "sample",
       "status": "beta",
       "release": null,
       "languages": [
@@ -12355,7 +12355,7 @@
       "url": "https://github.com/avnet-iotconnect/aws-stm32-ml-at-edge-accelerator",
       "displayName": "AWS STM32 ML-at-Edge Accelerator",
       "description": "End-to-end MLOps accelerator that trains an audio classification model in a SageMaker pipeline using STM32Cube.AI and deploys it over-the-air via FreeRTOS to STM32U5 edge devices. Devices connect to AWS IoT Core over MQTT; messages are stored in Amazon Timestream and visualised in AWS Managed Grafana. The whole stack is provisioned with AWS CDK.",
-      "category": "demo",
+      "category": "sample",
       "status": "beta",
       "release": null,
       "languages": [
