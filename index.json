@@ -1,6 +1,6 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-07-06T11:26:14Z",
+  "generated": "2026-07-07T00:51:07Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
@@ -83,8 +83,8 @@
       "slug": "nxp",
       "logo": "assets/brand/nxp-logo.png",
       "info": "https://www.avnet.com/iotconnect/nxp",
-      "boards": 10,
-      "listings": 20
+      "boards": 11,
+      "listings": 23
     },
     {
       "name": "Nordic",
@@ -348,12 +348,12 @@
         "count": 31
       },
       {
-        "tag": "ai",
-        "count": 25
+        "tag": "sensors",
+        "count": 26
       },
       {
-        "tag": "sensors",
-        "count": 23
+        "tag": "ai",
+        "count": 25
       },
       {
         "tag": "wifi",
@@ -396,12 +396,20 @@
         "count": 12
       },
       {
+        "tag": "tls",
+        "count": 12
+      },
+      {
         "tag": "npu",
         "count": 11
       },
       {
-        "tag": "tls",
-        "count": 11
+        "tag": "secure-element",
+        "count": 9
+      },
+      {
+        "tag": "mcu",
+        "count": 8
       },
       {
         "tag": "webrtc",
@@ -432,7 +440,7 @@
         "count": 5
       },
       {
-        "tag": "secure-element",
+        "tag": "zephyr",
         "count": 5
       },
       {
@@ -445,10 +453,6 @@
       },
       {
         "tag": "cellular",
-        "count": 4
-      },
-      {
-        "tag": "mcu",
         "count": 4
       },
       {
@@ -613,10 +617,6 @@
       },
       {
         "tag": "wifi-provisioning",
-        "count": 1
-      },
-      {
-        "tag": "zephyr",
         "count": 1
       }
     ],
@@ -1258,7 +1258,7 @@
         ],
         "integrator": "NXP",
         "maker": "NXP",
-        "listings": 1
+        "listings": 2
       },
       {
         "slug": "s32g-vnp-gldbox",
@@ -1315,6 +1315,42 @@
         "listings": 2
       },
       {
+        "slug": "mimxrt1170-evkb",
+        "vendor": "NXP",
+        "name": "i.MX RT1170 Evaluation Kit (EVKB)",
+        "partNumber": "MIMXRT1170-EVKB",
+        "image": null,
+        "imageLocal": "assets/boards/MIMXRT1170-EVKB.jpg",
+        "link": "https://www.nxp.com/design/design-center/development-boards-and-designs/i-mx-evaluation-and-development-boards/i-mx-rt1170-evaluation-kit:MIMXRT1170-EVKB",
+        "buy": "https://www.avnet.com/shop/us/products/nxp/mimxrt1170-evkb-3074457345652149814/",
+        "qualifications": [],
+        "tags": [
+          "mcu",
+          "edge",
+          "zephyr"
+        ],
+        "resources": [
+          {
+            "kind": "buy",
+            "title": "Buy MIMXRT1170-EVKB on Avnet",
+            "url": "https://www.avnet.com/shop/us/products/nxp/mimxrt1170-evkb-3074457345652149814/"
+          },
+          {
+            "kind": "quickstart",
+            "title": "QuickStart Guide",
+            "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/blob/main/boards/mimxrt1170-evkb/QUICKSTART.md"
+          },
+          {
+            "kind": "doc",
+            "title": "GitHub Repository Root",
+            "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos"
+          }
+        ],
+        "integrator": "NXP",
+        "maker": "NXP",
+        "listings": 1
+      },
+      {
         "slug": "frdm-imx93",
         "vendor": "NXP",
         "name": "IMX93 Freedom Board",
@@ -1347,7 +1383,7 @@
         ],
         "integrator": "NXP",
         "maker": "NXP",
-        "listings": 9
+        "listings": 10
       },
       {
         "slug": "jetson-orin",
@@ -3265,12 +3301,12 @@
     ]
   },
   "counts": {
-    "total": 186,
+    "total": 190,
     "manufacturers": 17,
-    "boards": 89,
-    "sdks": 30,
-    "examples": 151,
-    "guides": 79,
+    "boards": 90,
+    "sdks": 31,
+    "examples": 154,
+    "guides": 80,
     "demos": 12,
     "partners": 9
   },
@@ -12478,6 +12514,188 @@
       "board": null,
       "manufacturers": [],
       "makers": []
+    },
+    {
+      "repo": "iotc-zephyr-sdk",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-sdk",
+      "displayName": "IOTCONNECT Zephyr SDK",
+      "description": "Vendor-neutral Zephyr RTOS SDK for /IOTCONNECT, packaged as a west-importable Zephyr module over the portable iotc-c-lib protocol core. Provides the device client, DRA-based provisioning and identity, TLS credentials and hardware-sealed-key (TF-M) support from one code base that targets NXP MCX, Nordic, Renesas RA and ST silicon — bringing up a new board is a Kconfig + devicetree exercise, not a fork.",
+      "category": "sdk",
+      "status": "beta",
+      "release": null,
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "mcu",
+        "secure-element",
+        "tls",
+        "zephyr"
+      ],
+      "stars": 0,
+      "updated": "2026-07-06T18:48:33Z",
+      "image": "assets/tech/zephyr.svg",
+      "dashboards": [],
+      "photos": [],
+      "described": true,
+      "hidden": false,
+      "id": "iotconnect-zephyr-sdk",
+      "boards": [],
+      "board": null,
+      "manufacturers": [],
+      "makers": []
+    },
+    {
+      "repo": "iotc-zephyr-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos",
+      "displayName": "IOTCONNECT Zephyr Demos",
+      "description": "Use-case-first Zephyr RTOS demos for /IOTCONNECT across NXP boards: a quickstart (on-device key-gen + provisioning), telemetry, cloud-to-device LED control, and mikroBUS Click sensor telemetry. One portable app runs on many boards via per-board Kconfig + devicetree overlays; the MCXN947 paths are hardware-verified on the TF-M hardware-sealed-key build.",
+      "category": "sample",
+      "status": "beta",
+      "release": null,
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "mcu",
+        "secure-element",
+        "sensors",
+        "zephyr"
+      ],
+      "stars": 0,
+      "updated": "2026-07-06T19:32:34Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "described": true,
+      "hidden": false,
+      "id": "iotconnect-zephyr-demos::frdm-mcxn947",
+      "boards": [
+        {
+          "slug": "frdm-mcxn947",
+          "vendor": "NXP",
+          "name": "FRDM Development Board for MCX N94/N54 MCUs",
+          "maker": "NXP",
+          "partNumber": "FRDM-MCXN947",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-MCXN947.png"
+        }
+      ],
+      "board": {
+        "slug": "frdm-mcxn947",
+        "vendor": "NXP",
+        "name": "FRDM Development Board for MCX N94/N54 MCUs",
+        "maker": "NXP",
+        "partNumber": "FRDM-MCXN947",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-MCXN947.png"
+      },
+      "manufacturers": [
+        "NXP"
+      ],
+      "makers": [
+        "NXP"
+      ]
+    },
+    {
+      "repo": "iotc-zephyr-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos",
+      "displayName": "IOTCONNECT Zephyr Demos",
+      "description": "Use-case-first Zephyr RTOS demos for /IOTCONNECT across NXP boards: a quickstart (on-device key-gen + provisioning), telemetry, cloud-to-device LED control, and mikroBUS Click sensor telemetry. One portable app runs on many boards via per-board Kconfig + devicetree overlays; the MCXN947 paths are hardware-verified on the TF-M hardware-sealed-key build.",
+      "category": "sample",
+      "status": "beta",
+      "release": null,
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "mcu",
+        "secure-element",
+        "sensors",
+        "zephyr"
+      ],
+      "stars": 0,
+      "updated": "2026-07-06T19:32:34Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "described": true,
+      "hidden": false,
+      "id": "iotconnect-zephyr-demos::frdm-imx93",
+      "boards": [
+        {
+          "slug": "frdm-imx93",
+          "vendor": "NXP",
+          "name": "IMX93 Freedom Board",
+          "maker": "NXP",
+          "partNumber": "FRDM-IMX93",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-IMX93.png",
+          "imageLocal": "assets/boards/FRDM-IMX93.jpg"
+        }
+      ],
+      "board": {
+        "slug": "frdm-imx93",
+        "vendor": "NXP",
+        "name": "IMX93 Freedom Board",
+        "maker": "NXP",
+        "partNumber": "FRDM-IMX93",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-IMX93.png",
+        "imageLocal": "assets/boards/FRDM-IMX93.jpg"
+      },
+      "manufacturers": [
+        "NXP"
+      ],
+      "makers": [
+        "NXP"
+      ]
+    },
+    {
+      "repo": "iotc-zephyr-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos",
+      "displayName": "IOTCONNECT Zephyr Demos",
+      "description": "Use-case-first Zephyr RTOS demos for /IOTCONNECT across NXP boards: a quickstart (on-device key-gen + provisioning), telemetry, cloud-to-device LED control, and mikroBUS Click sensor telemetry. One portable app runs on many boards via per-board Kconfig + devicetree overlays; the MCXN947 paths are hardware-verified on the TF-M hardware-sealed-key build.",
+      "category": "sample",
+      "status": "beta",
+      "release": null,
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "mcu",
+        "secure-element",
+        "sensors",
+        "zephyr"
+      ],
+      "stars": 0,
+      "updated": "2026-07-06T19:32:34Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "described": true,
+      "hidden": false,
+      "id": "iotconnect-zephyr-demos::mimxrt1170-evkb",
+      "boards": [
+        {
+          "slug": "mimxrt1170-evkb",
+          "vendor": "NXP",
+          "name": "i.MX RT1170 Evaluation Kit (EVKB)",
+          "maker": "NXP",
+          "partNumber": "MIMXRT1170-EVKB",
+          "imageLocal": "assets/boards/MIMXRT1170-EVKB.jpg"
+        }
+      ],
+      "board": {
+        "slug": "mimxrt1170-evkb",
+        "vendor": "NXP",
+        "name": "i.MX RT1170 Evaluation Kit (EVKB)",
+        "maker": "NXP",
+        "partNumber": "MIMXRT1170-EVKB",
+        "imageLocal": "assets/boards/MIMXRT1170-EVKB.jpg"
+      },
+      "manufacturers": [
+        "NXP"
+      ],
+      "makers": [
+        "NXP"
+      ]
     }
   ]
 }

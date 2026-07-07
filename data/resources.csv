@@ -210,3 +210,6 @@ STM32MP157F-DK2,board,developer,Yocto Build Guide (STM32MP1),https://github.com/
 STM32MP135F-DK,board,developer,Yocto Build Guide (STM32MP1),https://github.com/avnet-iotconnect/meta-iotconnect-docs/tree/main/Build/STM32MP1
 STM32MP257F-EV1,board,developer,Yocto Build Guide (mickledore),https://github.com/avnet-iotconnect/meta-iotconnect-docs/tree/main/Build/STM32MP257-EV1/mickledore
 STM32MP257F-DK,board,demo,X-LINUX-AI Vision Demo (Yocto),https://github.com/avnet-iotconnect/meta-iotconnect-docs/tree/main/QuickStart/ST/STM32MP257/demo-iotc-x-linux-ai
+MIMXRT1170-EVKB,board,buy,Buy MIMXRT1170-EVKB on Avnet,https://www.avnet.com/shop/us/products/nxp/mimxrt1170-evkb-3074457345652149814/
+MIMXRT1170-EVKB,board,quickstart,QuickStart Guide,https://github.com/avnet-iotconnect/iotc-zephyr-demos/blob/main/boards/mimxrt1170-evkb/QUICKSTART.md
+MIMXRT1170-EVKB,board,doc,GitHub Repository Root,https://github.com/avnet-iotconnect/iotc-zephyr-demos
