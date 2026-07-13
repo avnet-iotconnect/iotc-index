@@ -1,6 +1,6 @@
 # /IOTCONNECT Index — Audit Report
 
-_Generated 2026-07-07T02:11:40Z_  ·  195 listings · 90 boards (81 in use) · 17 manufacturers · 214 resources
+_Generated 2026-07-13T10:23:03Z_  ·  195 listings · 90 boards (81 in use) · 17 manufacturers · 214 resources
 
 ## ⚠ Boards referenced but missing from the Boards sheet
 - **uno** — referenced by: Vision AI Demonstrator
@@ -21,7 +21,7 @@ _Generated 2026-07-07T02:11:40Z_  ·  195 listings · 90 boards (81 in use) · 1
 - NXP · NXP MaaXBoard Mini (AES-MC-SBC-IMX8MINI-G)
 
 ## Org repos with no listing (candidates to add)
-- none — every public repo has a listing.
+- iotc-mcp-server — MCP server for AI models for use with Avnet /IOTCONNECT REST API operations
 
 ## Listings missing description or topics
 - none.
