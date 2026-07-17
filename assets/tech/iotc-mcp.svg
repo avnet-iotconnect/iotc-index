@@ -1,0 +1,15 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="/IOTCONNECT MCP Connector">
+  <title>/IOTCONNECT MCP Connector</title>
+  <defs>
+    <linearGradient id="iotcMcpG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#41C363"/>
+      <stop offset="1" stop-color="#15803D"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="15" fill="url(#iotcMcpG)"/>
+  <path d="M16 47 L33 14 L41 14 L24 47 Z" fill="#fff" opacity="0.13"/>
+  <g transform="translate(32,32) rotate(45)" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round">
+    <rect x="-20" y="-7" width="24" height="14" rx="7"/>
+    <rect x="-4" y="-7" width="24" height="14" rx="7"/>
+  </g>
+</svg>
