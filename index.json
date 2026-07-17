@@ -1,6 +1,6 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-07-13T10:23:03Z",
+  "generated": "2026-07-17T14:19:02Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
@@ -353,7 +353,7 @@
       },
       {
         "tag": "ai",
-        "count": 25
+        "count": 26
       },
       {
         "tag": "wifi",
@@ -520,6 +520,10 @@
         "count": 2
       },
       {
+        "tag": "agents",
+        "count": 1
+      },
+      {
         "tag": "asset-tracking",
         "count": 1
       },
@@ -561,6 +565,10 @@
       },
       {
         "tag": "hardware-crypto",
+        "count": 1
+      },
+      {
+        "tag": "mcp",
         "count": 1
       },
       {
@@ -3301,11 +3309,12 @@
     ]
   },
   "counts": {
-    "total": 195,
+    "total": 196,
     "manufacturers": 17,
     "boards": 90,
-    "sdks": 31,
-    "examples": 164,
+    "sdks": 28,
+    "tools": 6,
+    "examples": 162,
     "guides": 80,
     "demos": 12,
     "partners": 9
@@ -6955,7 +6964,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-07-11T18:34:04Z",
+      "updated": "2026-07-16T18:13:07Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/nxp-imx93andmcxn.JPG",
       "dashboards": [
         "https://saleshosted.z13.web.core.windows.net/dashboard/r3/nxp-frdm93-workersafty.PNG"
@@ -7654,7 +7663,7 @@
       "url": "https://github.com/avnet-iotconnect/iotc-home-assistant-bridge",
       "displayName": "Home Assistant Bridge",
       "description": "Bridges a Home Assistant instance to /IOTCONNECT over MQTT, exposing smart-home entities as cloud telemetry and accepting commands back. Lets existing Home Assistant deployments gain /IOTCONNECT dashboards and rules.",
-      "category": "sample",
+      "category": "tool",
       "status": "beta",
       "release": null,
       "languages": [
@@ -7682,7 +7691,7 @@
       "url": "https://github.com/avnet-iotconnect/iotc-relay-service",
       "displayName": "IoTConnect Relay Service",
       "description": "Lightweight relay that plugs existing applications into /IOTCONNECT without rewriting them. Forwards local data to the cloud and routes commands back, simplifying brownfield integrations.",
-      "category": "sample",
+      "category": "tool",
       "status": "beta",
       "release": null,
       "languages": [
@@ -8138,7 +8147,7 @@
       "url": "https://github.com/avnet-iotconnect/iotc-python-rest-api",
       "displayName": "/IOTCONNECT Python REST API",
       "description": "Python client for the /IOTCONNECT REST API — manage devices, templates and telemetry programmatically.",
-      "category": "library",
+      "category": "tool",
       "status": "stable",
       "release": null,
       "languages": [
@@ -8232,7 +8241,7 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-07-11T18:34:04Z",
+      "updated": "2026-07-16T18:13:07Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-scalable-ai-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -8283,7 +8292,7 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-07-11T18:34:04Z",
+      "updated": "2026-07-16T18:13:07Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-scalable-ai-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -8334,7 +8343,7 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-07-11T18:34:04Z",
+      "updated": "2026-07-16T18:13:07Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-scalable-ai-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -8385,7 +8394,7 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-07-11T18:34:04Z",
+      "updated": "2026-07-16T18:13:07Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -8434,7 +8443,7 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-07-11T18:34:04Z",
+      "updated": "2026-07-16T18:13:07Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -8483,7 +8492,7 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-07-11T18:34:04Z",
+      "updated": "2026-07-16T18:13:07Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -8532,7 +8541,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-07-11T18:34:04Z",
+      "updated": "2026-07-16T18:13:07Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-kws-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -8580,7 +8589,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-07-11T18:34:04Z",
+      "updated": "2026-07-16T18:13:07Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-kws-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -8629,7 +8638,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-07-11T18:34:04Z",
+      "updated": "2026-07-16T18:13:07Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-kws-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -8676,7 +8685,7 @@
         "sensors"
       ],
       "stars": 3,
-      "updated": "2026-07-11T18:34:04Z",
+      "updated": "2026-07-16T18:13:07Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-kws-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -8724,7 +8733,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-07-11T18:34:04Z",
+      "updated": "2026-07-16T18:13:07Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -8772,7 +8781,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-07-11T18:34:04Z",
+      "updated": "2026-07-16T18:13:07Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -8823,7 +8832,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-07-11T18:34:04Z",
+      "updated": "2026-07-16T18:13:07Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -8872,7 +8881,7 @@
         "file-upload"
       ],
       "stars": 3,
-      "updated": "2026-07-11T18:34:04Z",
+      "updated": "2026-07-16T18:13:07Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -8922,7 +8931,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-07-11T18:34:04Z",
+      "updated": "2026-07-16T18:13:07Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -8973,7 +8982,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-07-11T18:34:04Z",
+      "updated": "2026-07-16T18:13:07Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9024,7 +9033,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-07-11T18:34:04Z",
+      "updated": "2026-07-16T18:13:07Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ren-rzv2h-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -9071,7 +9080,7 @@
         "sensors"
       ],
       "stars": 3,
-      "updated": "2026-07-11T18:34:04Z",
+      "updated": "2026-07-16T18:13:07Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ren-rzv2h-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -9119,7 +9128,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-07-11T18:34:04Z",
+      "updated": "2026-07-16T18:13:07Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9169,7 +9178,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-07-11T18:34:04Z",
+      "updated": "2026-07-16T18:13:07Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9220,7 +9229,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-07-11T18:34:04Z",
+      "updated": "2026-07-16T18:13:07Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9269,7 +9278,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-07-11T18:34:04Z",
+      "updated": "2026-07-16T18:13:07Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9318,7 +9327,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-07-11T18:34:04Z",
+      "updated": "2026-07-16T18:13:07Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9368,7 +9377,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-07-11T18:34:04Z",
+      "updated": "2026-07-16T18:13:07Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9418,7 +9427,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-07-11T18:34:04Z",
+      "updated": "2026-07-16T18:13:07Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9469,7 +9478,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-07-11T18:34:04Z",
+      "updated": "2026-07-16T18:13:07Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9518,7 +9527,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-07-11T18:34:04Z",
+      "updated": "2026-07-16T18:13:07Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9567,7 +9576,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-07-11T18:34:04Z",
+      "updated": "2026-07-16T18:13:07Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9617,7 +9626,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-07-11T18:34:04Z",
+      "updated": "2026-07-16T18:13:07Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9668,7 +9677,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-07-11T18:34:04Z",
+      "updated": "2026-07-16T18:13:07Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9717,7 +9726,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-07-11T18:34:04Z",
+      "updated": "2026-07-16T18:13:07Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9766,7 +9775,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-07-11T18:34:04Z",
+      "updated": "2026-07-16T18:13:07Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9816,7 +9825,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-07-11T18:34:04Z",
+      "updated": "2026-07-16T18:13:07Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9867,7 +9876,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-07-11T18:34:04Z",
+      "updated": "2026-07-16T18:13:07Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9917,7 +9926,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-07-11T18:34:04Z",
+      "updated": "2026-07-16T18:13:07Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9971,7 +9980,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-07-11T18:34:04Z",
+      "updated": "2026-07-16T18:13:07Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10024,7 +10033,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-07-11T18:34:04Z",
+      "updated": "2026-07-16T18:13:07Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10075,7 +10084,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-07-11T18:34:04Z",
+      "updated": "2026-07-16T18:13:07Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10465,7 +10474,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-07-11T18:34:04Z",
+      "updated": "2026-07-16T18:13:07Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/arduino-unoq-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -10514,7 +10523,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-07-11T18:34:04Z",
+      "updated": "2026-07-16T18:13:07Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-scalable-ai-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -10563,7 +10572,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-07-11T18:34:04Z",
+      "updated": "2026-07-16T18:13:07Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10610,7 +10619,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-07-11T18:34:04Z",
+      "updated": "2026-07-16T18:13:07Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10661,7 +10670,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-07-11T18:34:04Z",
+      "updated": "2026-07-16T18:13:07Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10713,7 +10722,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-07-11T18:34:04Z",
+      "updated": "2026-07-16T18:13:07Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ren-rzg3e-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -11045,7 +11054,7 @@
       "url": "https://github.com/avnet-iotconnect/iotc-gg-nucleus-snap",
       "displayName": "Greengrass v2 Nucleus Snap for Ubuntu Core (/IOTCONNECT)",
       "description": "A Snapcraft-packaged AWS IoT Greengrass v2 Nucleus Classic runtime for Ubuntu Core, prebuilt for amd64/arm64/armhf/riscv64 with an interactive /IOTCONNECT onboarding flow that provisions Greengrass from an /IOTCONNECT connection kit. Derived from the upstream AWS Greengrass snap, it bundles boto3/awsiotsdk and a configure hook that creates the IoT Core Thing and Greengrass Core device.",
-      "category": "library",
+      "category": "tool",
       "status": "beta",
       "release": null,
       "languages": [
@@ -11075,7 +11084,7 @@
       "url": "https://github.com/avnet-iotconnect/iotc-python-lite-snap",
       "displayName": "/IOTCONNECT Python Lite SDK as a Snap",
       "description": "A Snapcraft package that bundles the /IOTCONNECT Python Lite SDK for Linux edge devices (amd64/arm64), providing device provisioning, a quickstart telemetry app, and a UNIX-socket bridge so external apps can stream JSON to /IOTCONNECT. Includes OTA delivery of models/scripts into the persistent $SNAP_COMMON area and a REST-based provisioning flow for device onboarding.",
-      "category": "sdk",
+      "category": "tool",
       "status": "beta",
       "release": null,
       "languages": [
@@ -12501,7 +12510,7 @@
         "vlm"
       ],
       "stars": 0,
-      "updated": "2026-07-11T17:18:04Z",
+      "updated": "2026-07-14T23:16:23Z",
       "image": "https://raw.githubusercontent.com/avnet-iotconnect/iotc-nuc-vlm-demo/main/docs/images/viewer-7b.png",
       "dashboards": [
         "https://raw.githubusercontent.com/avnet-iotconnect/iotc-nuc-vlm-demo/main/docs/images/dashboard.png"
@@ -12562,7 +12571,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-07-11T17:00:42Z",
+      "updated": "2026-07-13T17:08:08Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -12611,7 +12620,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-07-11T17:00:42Z",
+      "updated": "2026-07-13T17:08:08Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -12662,7 +12671,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-07-11T17:00:42Z",
+      "updated": "2026-07-13T17:08:08Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -12711,7 +12720,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-07-11T17:00:42Z",
+      "updated": "2026-07-13T17:08:08Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -12760,7 +12769,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-07-11T17:00:42Z",
+      "updated": "2026-07-13T17:08:08Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -12811,7 +12820,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-07-11T17:00:42Z",
+      "updated": "2026-07-13T17:08:08Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -12859,7 +12868,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-07-11T17:00:42Z",
+      "updated": "2026-07-13T17:08:08Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -12910,7 +12919,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-07-11T17:00:42Z",
+      "updated": "2026-07-13T17:08:08Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -12941,6 +12950,35 @@
       "makers": [
         "NXP"
       ]
+    },
+    {
+      "repo": "iotc-mcp-server",
+      "url": "https://github.com/avnet-iotconnect/iotc-mcp-server",
+      "displayName": "/IOTCONNECT MCP Server",
+      "description": "Model Context Protocol (MCP) server that exposes Avnet /IOTCONNECT REST API operations to AI models and agents, letting LLM-based tools manage devices, telemetry and templates programmatically.",
+      "category": "tool",
+      "status": "stable",
+      "release": null,
+      "languages": [
+        "Python"
+      ],
+      "features": [
+        "agents",
+        "ai",
+        "mcp"
+      ],
+      "stars": 0,
+      "updated": "2026-07-08T18:12:22Z",
+      "image": "assets/tech/python.svg",
+      "dashboards": [],
+      "photos": [],
+      "described": true,
+      "hidden": false,
+      "id": "iotconnect-mcp-server",
+      "boards": [],
+      "board": null,
+      "manufacturers": [],
+      "makers": []
     }
   ]
 }
