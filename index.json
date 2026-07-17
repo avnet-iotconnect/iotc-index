@@ -1,6 +1,6 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-07-17T15:25:14Z",
+  "generated": "2026-07-17T16:06:23Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
@@ -625,6 +625,98 @@
       },
       {
         "tag": "wifi-provisioning",
+        "count": 1
+      }
+    ],
+    "models": [
+      {
+        "model": "deepcraft",
+        "name": "DEEPCRAFT (Imagimob) Ready Models",
+        "task": "audio & sensor event detection",
+        "framework": "DEEPCRAFT / ModusToolbox ML",
+        "vendor": "Infineon",
+        "link": "https://www.infineon.com/deepcraft",
+        "count": 13
+      },
+      {
+        "model": "stm32-modelzoo-od",
+        "name": "STM32 Model Zoo - Object Detection",
+        "task": "object detection",
+        "framework": "X-CUBE-AI / X-LINUX-AI",
+        "vendor": "STMicroelectronics",
+        "link": "https://github.com/STMicroelectronics/stm32ai-modelzoo",
+        "count": 5
+      },
+      {
+        "model": "stm32-modelzoo-aed",
+        "name": "STM32 Model Zoo - Audio Event Detection",
+        "task": "audio classification",
+        "framework": "X-CUBE-AI / STM32Cube.AI",
+        "vendor": "STMicroelectronics",
+        "link": "https://github.com/STMicroelectronics/stm32ai-modelzoo",
+        "count": 3
+      },
+      {
+        "model": "nanoedge-ai",
+        "name": "ST NanoEdge AI (NEAI)",
+        "task": "anomaly detection",
+        "framework": "NanoEdge AI Studio",
+        "vendor": "STMicroelectronics",
+        "link": "https://www.st.com/en/development-tools/nanoedgeaistudio.html",
+        "count": 2
+      },
+      {
+        "model": "cnn-occupancy",
+        "name": "CNN Vehicle-Occupancy",
+        "task": "object detection",
+        "framework": "TFLite",
+        "vendor": "Avnet (custom)",
+        "link": null,
+        "count": 1
+      },
+      {
+        "model": "mobilenet",
+        "name": "MobileNet",
+        "task": "image classification",
+        "framework": "TFLite / X-CUBE-AI",
+        "vendor": "Google / STMicroelectronics",
+        "link": "https://keras.io/api/applications/mobilenet/",
+        "count": 1
+      },
+      {
+        "model": "qwen2-vl",
+        "name": "Qwen2-VL / Qwen2.5-VL",
+        "task": "vision-language model (VLM)",
+        "framework": "OpenVINO (Intel iGPU)",
+        "vendor": "Alibaba",
+        "link": "https://huggingface.co/Qwen",
+        "count": 1
+      },
+      {
+        "model": "yolo-ultralytics",
+        "name": "YOLO (Ultralytics custom-trained)",
+        "task": "object detection",
+        "framework": "ONNX / TFLite",
+        "vendor": "Ultralytics",
+        "link": "https://docs.ultralytics.com",
+        "count": 1
+      },
+      {
+        "model": "yolo-world",
+        "name": "YOLO-World",
+        "task": "open-vocabulary object detection",
+        "framework": "OpenVINO (Intel NPU)",
+        "vendor": "Tencent / Ultralytics",
+        "link": "https://docs.ultralytics.com/models/yolo-world/",
+        "count": 1
+      },
+      {
+        "model": "yolox",
+        "name": "YOLOX (quantized)",
+        "task": "object detection",
+        "framework": "LiteRT + QNN HTP delegate",
+        "vendor": "Megvii / Qualcomm",
+        "link": "https://aihub.qualcomm.com",
         "count": 1
       }
     ],
@@ -3315,6 +3407,7 @@
     "sdks": 28,
     "tools": 6,
     "examples": 162,
+    "models": 10,
     "guides": 80,
     "demos": 12,
     "partners": 9
@@ -3337,6 +3430,7 @@
       "image": "assets/tech/c.svg",
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "iotconnect-core-c-library",
@@ -3362,6 +3456,7 @@
       "image": "assets/tech/python.svg",
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "iotconnect-python-library",
@@ -3387,6 +3482,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "iotconnect-c-sdk-for-azure-rtos",
@@ -3496,6 +3592,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "iotconnect-da16k-sdk",
@@ -3570,6 +3667,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "iotconnect-modustoolbox-sdk",
@@ -3635,6 +3733,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "iotconnect-python-lite-sdk",
@@ -3710,6 +3809,7 @@
         "https://saleshosted.z13.web.core.windows.net/dashboard/r3/MCP-AVR-agrisense.PNG"
       ],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "agrisense-with-avr-iot",
@@ -3765,6 +3865,7 @@
       "photos": [
         "https://saleshosted.z13.web.core.windows.net/images/demos/lorawan.png"
       ],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "astra-asset-tracker",
@@ -3816,6 +3917,7 @@
         "https://saleshosted.z13.web.core.windows.net/dashboard/avt-awspoc/mcp-avriot.PNG"
       ],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "avr-iot-mini-cellular",
@@ -3873,6 +3975,7 @@
         "https://iotcimage.s3.us-east-1.amazonaws.com/demo_hardware/drone2.jpg",
         "https://iotcimage.s3.us-east-1.amazonaws.com/demo_hardware/drone1.jpg"
       ],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "drone",
@@ -3904,6 +4007,7 @@
         "https://saleshosted.z13.web.core.windows.net/dashboard/r2/nvidia.png"
       ],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "edge-ai-inference-pipeline-jetson-orin-nx::j4021",
@@ -3957,6 +4061,7 @@
         "https://saleshosted.z13.web.core.windows.net/dashboard/r2/nvidia.png"
       ],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "edge-ai-inference-pipeline-jetson-orin-nx::seeed-j2021",
@@ -4010,6 +4115,7 @@
         "https://saleshosted.z13.web.core.windows.net/dashboard/r2/nvidia.png"
       ],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "edge-ai-inference-pipeline-jetson-orin-nx",
@@ -4066,6 +4172,16 @@
       "photos": [
         "https://saleshosted.z13.web.core.windows.net/images/demos/MP157-object-det.png"
       ],
+      "models": [
+        {
+          "slug": "stm32-modelzoo-od",
+          "name": "STM32 Model Zoo - Object Detection",
+          "task": "object detection",
+          "framework": "X-CUBE-AI / X-LINUX-AI",
+          "vendor": "STMicroelectronics",
+          "link": "https://github.com/STMicroelectronics/stm32ai-modelzoo"
+        }
+      ],
       "described": true,
       "hidden": false,
       "id": "edge-ai-object-detection-fruit",
@@ -4117,6 +4233,7 @@
       "image": "assets/listings/telehealth.png",
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "telehealth-mobile-gateway",
@@ -4149,6 +4266,7 @@
       "photos": [
         "https://iotcimage.s3.us-east-1.amazonaws.com/demo_hardware/IMG_1598.JPEG"
       ],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "edge-people-detection-tracking-with-ryzen-7-ai",
@@ -4203,6 +4321,7 @@
       "photos": [
         "https://saleshosted.z13.web.core.windows.net/images/demos/NXP%20EV%20Charging.png"
       ],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "ev-charging-commercial",
@@ -4256,6 +4375,7 @@
       "photos": [
         "https://saleshosted.z13.web.core.windows.net/images/demos/NXP-EVSE2.png"
       ],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "ev-charging-residential",
@@ -4312,6 +4432,7 @@
       "photos": [
         "https://saleshosted.z13.web.core.windows.net/images/demos/AMD-ZUBoard.png"
       ],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "fpga-driven-industrial-gesture-recognition",
@@ -4366,6 +4487,7 @@
       "photos": [
         "https://saleshosted.z13.web.core.windows.net/images/demos/ggl-awscxo.png"
       ],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "ggl-basic-health-serial",
@@ -4420,6 +4542,7 @@
       "photos": [
         "https://saleshosted.z13.web.core.windows.net/images/demos/ggl-awscxo.png"
       ],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "ggl-basic-health-serial::stm32mp257f-dk",
@@ -4474,6 +4597,7 @@
       "photos": [
         "https://saleshosted.z13.web.core.windows.net/images/demos/ggl-awscxo.png"
       ],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "ggl-basic-health-serial::frdm-imx93",
@@ -4528,6 +4652,7 @@
       "photos": [
         "https://saleshosted.z13.web.core.windows.net/images/demos/ggl-awscxo.png"
       ],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "ggl-basic-health-serial::stm32mp135f-dk",
@@ -4582,6 +4707,7 @@
       "photos": [
         "https://saleshosted.z13.web.core.windows.net/images/demos/ggl-awscxo.png"
       ],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "ggl-basic-health-serial::rpi5-4gb-single",
@@ -4634,6 +4760,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "ggl-components-ai-vision-demo-proteus-ble-sensortilebox-pro-ble",
@@ -4686,6 +4813,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "ggl-components-ai-vision-demo-proteus-ble-sensortilebox-pro-ble::stm32mp135f-dk",
@@ -4738,6 +4866,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "ggl-components-ai-vision-demo-proteus-ble-sensortilebox-pro-ble::stm32mp257f-dk",
@@ -4793,6 +4922,7 @@
         "https://iotcimage.s3.us-east-1.amazonaws.com/demo_hardware/IMG_1599.JPEG",
         "https://saleshosted.z13.web.core.windows.net/images/demos/Vision_AI-Kit_Robotics.png"
       ],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "hand-gesture-robotics-control",
@@ -4846,6 +4976,16 @@
         "https://saleshosted.z13.web.core.windows.net/dashboard/r3/STM-vision-AI-demonstrator.PNG"
       ],
       "photos": [],
+      "models": [
+        {
+          "slug": "mobilenet",
+          "name": "MobileNet",
+          "task": "image classification",
+          "framework": "TFLite / X-CUBE-AI",
+          "vendor": "Google / STMicroelectronics",
+          "link": "https://keras.io/api/applications/mobilenet/"
+        }
+      ],
       "described": true,
       "hidden": false,
       "id": "image-classification-and-remote-training",
@@ -4899,6 +5039,7 @@
         "https://saleshosted.z13.web.core.windows.net/dashboard/r3/ST-ISP-Demo.PNG"
       ],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "isp",
@@ -4954,6 +5095,7 @@
       "photos": [
         "https://saleshosted.z13.web.core.windows.net/images/demos/lorawan.png"
       ],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "lorawan-sensor-monitoring::ek-ra2l1",
@@ -5007,6 +5149,7 @@
       "photos": [
         "https://saleshosted.z13.web.core.windows.net/images/demos/lorawan.png"
       ],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "lorawan-sensor-monitoring::fpb-ra0e1",
@@ -5060,6 +5203,7 @@
       "photos": [
         "https://saleshosted.z13.web.core.windows.net/images/demos/lorawan.png"
       ],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "lorawan-sensor-monitoring::fpb-ra0e2",
@@ -5113,6 +5257,7 @@
       "photos": [
         "https://saleshosted.z13.web.core.windows.net/images/demos/lorawan.png"
       ],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "lorawan-sensor-monitoring::fpb-ra2e1",
@@ -5166,6 +5311,7 @@
       "photos": [
         "https://saleshosted.z13.web.core.windows.net/images/demos/lorawan.png"
       ],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "lorawan-sensor-monitoring::wirnet-istation",
@@ -5218,6 +5364,7 @@
         "https://saleshosted.z13.web.core.windows.net/dashboard/r3/REN-CKRA6M5-macnine_mon.PNG"
       ],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "machine-monitoring",
@@ -5276,6 +5423,7 @@
       "photos": [
         "https://saleshosted.z13.web.core.windows.net/images/demos/NXPboards.png"
       ],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "managing-edge-ai-rzboard-v2l",
@@ -5332,6 +5480,7 @@
       "photos": [
         "https://saleshosted.z13.web.core.windows.net/images/demos/Vision-AI-KIT-IQ9-Demo.png"
       ],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "multi-stream-video-and-ai",
@@ -5386,6 +5535,16 @@
         "https://saleshosted.z13.web.core.windows.net/dashboard/r3/proteus-NEAI.PNG"
       ],
       "photos": [],
+      "models": [
+        {
+          "slug": "nanoedge-ai",
+          "name": "ST NanoEdge AI (NEAI)",
+          "task": "anomaly detection",
+          "framework": "NanoEdge AI Studio",
+          "vendor": "STMicroelectronics",
+          "link": "https://www.st.com/en/development-tools/nanoedgeaistudio.html"
+        }
+      ],
       "described": true,
       "hidden": false,
       "id": "nano-edge-ai-anomaly-detection::steval-proteus1",
@@ -5440,6 +5599,16 @@
         "https://saleshosted.z13.web.core.windows.net/dashboard/r3/proteus-NEAI.PNG"
       ],
       "photos": [],
+      "models": [
+        {
+          "slug": "nanoedge-ai",
+          "name": "ST NanoEdge AI (NEAI)",
+          "task": "anomaly detection",
+          "framework": "NanoEdge AI Studio",
+          "vendor": "STMicroelectronics",
+          "link": "https://www.st.com/en/development-tools/nanoedgeaistudio.html"
+        }
+      ],
       "described": true,
       "hidden": false,
       "id": "nano-edge-ai-anomaly-detection::stm32mp157f-dk2",
@@ -5498,6 +5667,7 @@
       "photos": [
         "https://saleshosted.z13.web.core.windows.net/images/demos/st-h57-pwrinverter.png"
       ],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "protected-hybrid-solar-inverter",
@@ -5552,6 +5722,16 @@
         "https://saleshosted.z13.web.core.windows.net/dashboard/ifx-awspoc/fall-detect2-usecase.PNG"
       ],
       "photos": [],
+      "models": [
+        {
+          "slug": "deepcraft",
+          "name": "DEEPCRAFT (Imagimob) Ready Models",
+          "task": "audio & sensor event detection",
+          "framework": "DEEPCRAFT / ModusToolbox ML",
+          "vendor": "Infineon",
+          "link": "https://www.infineon.com/deepcraft"
+        }
+      ],
       "described": true,
       "hidden": false,
       "id": "psoc6-ai-kit-fall-detect",
@@ -5605,6 +5785,16 @@
         "https://saleshosted.z13.web.core.windows.net/dashboard/ifx-awspoc/gest-detect1.PNG"
       ],
       "photos": [],
+      "models": [
+        {
+          "slug": "deepcraft",
+          "name": "DEEPCRAFT (Imagimob) Ready Models",
+          "task": "audio & sensor event detection",
+          "framework": "DEEPCRAFT / ModusToolbox ML",
+          "vendor": "Infineon",
+          "link": "https://www.infineon.com/deepcraft"
+        }
+      ],
       "described": true,
       "hidden": false,
       "id": "psoc6-ai-kit-gesture-detect",
@@ -5660,6 +5850,16 @@
         "https://saleshosted.z13.web.core.windows.net/images/events/2024/Oktobertech/IMG_2570.JPEG",
         "https://saleshosted.z13.web.core.windows.net/images/demos/psoc6-smarter-sensing.png"
       ],
+      "models": [
+        {
+          "slug": "deepcraft",
+          "name": "DEEPCRAFT (Imagimob) Ready Models",
+          "task": "audio & sensor event detection",
+          "framework": "DEEPCRAFT / ModusToolbox ML",
+          "vendor": "Infineon",
+          "link": "https://www.infineon.com/deepcraft"
+        }
+      ],
       "described": true,
       "hidden": false,
       "id": "psoc6-ai-kit-ready-models",
@@ -5713,6 +5913,16 @@
         "https://saleshosted.z13.web.core.windows.net/dashboard/ifx-awspoc/siren-det1.PNG"
       ],
       "photos": [],
+      "models": [
+        {
+          "slug": "deepcraft",
+          "name": "DEEPCRAFT (Imagimob) Ready Models",
+          "task": "audio & sensor event detection",
+          "framework": "DEEPCRAFT / ModusToolbox ML",
+          "vendor": "Infineon",
+          "link": "https://www.infineon.com/deepcraft"
+        }
+      ],
       "described": true,
       "hidden": false,
       "id": "psoc6-ai-kit-siren-detection",
@@ -5767,6 +5977,7 @@
       "photos": [
         "https://saleshosted.z13.web.core.windows.net/images/demos/ifx-xensiv-EW.png"
       ],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "psoc6-xensiv-co2-monitor",
@@ -5821,6 +6032,7 @@
         "https://saleshosted.z13.web.core.windows.net/dashboard/r2/tria-qualcom-dragonwing.png"
       ],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "qcs6490-vision-ai-demo",
@@ -5873,6 +6085,7 @@
         "https://saleshosted.z13.web.core.windows.net/dashboard/avt-awspoc/ren-ekra6_and_ekra8.PNG"
       ],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "ra-cloud-ready-platforms::ek-ra6m4",
@@ -5925,6 +6138,7 @@
         "https://saleshosted.z13.web.core.windows.net/dashboard/avt-awspoc/ren-ekra6_and_ekra8.PNG"
       ],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "ra-cloud-ready-platforms::ek-ra8m1",
@@ -5979,6 +6193,7 @@
         "https://saleshosted.z13.web.core.windows.net/dashboard/avt-awspoc/rasynboard1.PNG"
       ],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "rasyn-puck",
@@ -6034,6 +6249,7 @@
         "https://github.com/avnet-iotconnect/iotc-gateway-mobile-app/blob/main/images/dashboard.png"
       ],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "sensortile-box-pro-with-bridge-mobile-app::steval-mkboxpro",
@@ -6087,6 +6303,7 @@
         "https://github.com/avnet-iotconnect/iotc-gateway-mobile-app/blob/main/images/dashboard.png"
       ],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "sensortile-box-pro-with-bridge-mobile-app::iotc-bridge-app",
@@ -6142,6 +6359,7 @@
         "https://saleshosted.z13.web.core.windows.net/images/demos/reinvent24-sidewalk.png",
         "https://saleshosted.z13.web.core.windows.net/images/demos/sidewalk.png"
       ],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "sidewalk",
@@ -6199,6 +6417,7 @@
       "photos": [
         "https://saleshosted.z13.web.core.windows.net/images/demos/polarfire.png"
       ],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "smart-asset-monitoring::mpfs-disco-kit",
@@ -6258,6 +6477,7 @@
       "photos": [
         "https://saleshosted.z13.web.core.windows.net/images/demos/polarfire.png"
       ],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "smart-asset-monitoring::ev63j76a",
@@ -6311,6 +6531,7 @@
       "photos": [
         "https://saleshosted.z13.web.core.windows.net/images/demos/NXPboards.png"
       ],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "smart-tractor",
@@ -6364,6 +6585,16 @@
       "dashboards": [],
       "photos": [
         "https://saleshosted.z13.web.core.windows.net/images/demos/Tria-Parking_RZ.png"
+      ],
+      "models": [
+        {
+          "slug": "cnn-occupancy",
+          "name": "CNN Vehicle-Occupancy",
+          "task": "object detection",
+          "framework": "TFLite",
+          "vendor": "Avnet (custom)",
+          "link": null
+        }
       ],
       "described": true,
       "hidden": false,
@@ -6429,6 +6660,16 @@
         "https://saleshosted.z13.web.core.windows.net/images/demos/reinvent-ppltracker.png",
         "https://saleshosted.z13.web.core.windows.net/images/demos/reinvent24.png"
       ],
+      "models": [
+        {
+          "slug": "stm32-modelzoo-od",
+          "name": "STM32 Model Zoo - Object Detection",
+          "task": "object detection",
+          "framework": "X-CUBE-AI / X-LINUX-AI",
+          "vendor": "STMicroelectronics",
+          "link": "https://github.com/STMicroelectronics/stm32ai-modelzoo"
+        }
+      ],
       "described": true,
       "hidden": false,
       "id": "stm32n6-edge-ai-demos",
@@ -6484,6 +6725,16 @@
         "https://github.com/avnet-iotconnect/iotc-stm32-n6-demos/blob/main/media/dashboard.jpg"
       ],
       "photos": [],
+      "models": [
+        {
+          "slug": "stm32-modelzoo-od",
+          "name": "STM32 Model Zoo - Object Detection",
+          "task": "object detection",
+          "framework": "X-CUBE-AI / X-LINUX-AI",
+          "vendor": "STMicroelectronics",
+          "link": "https://github.com/STMicroelectronics/stm32ai-modelzoo"
+        }
+      ],
       "described": true,
       "hidden": false,
       "id": "stm32n6-edge-ai-object-detection",
@@ -6541,6 +6792,7 @@
         "https://saleshosted.z13.web.core.windows.net/images/demos/sensors_convg_STSAFE2.png",
         "https://saleshosted.z13.web.core.windows.net/images/demos/stsafe.png"
       ],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "stsafe-secure-authentication",
@@ -6594,6 +6846,7 @@
         "https://saleshosted.z13.web.core.windows.net/dashboard/r2/mcp-telehealth.png"
       ],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "telehealth::ev19j06a",
@@ -6645,6 +6898,7 @@
         "https://saleshosted.z13.web.core.windows.net/dashboard/r2/mcp-telehealth.png"
       ],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "telehealth::iotc-bridge-app",
@@ -6702,6 +6956,16 @@
         "https://saleshosted.z13.web.core.windows.net/images/demos/EW-EBV-U5_Indeema.png",
         "https://saleshosted.z13.web.core.windows.net/images/demos/U5-case.png"
       ],
+      "models": [
+        {
+          "slug": "stm32-modelzoo-aed",
+          "name": "STM32 Model Zoo - Audio Event Detection",
+          "task": "audio classification",
+          "framework": "X-CUBE-AI / STM32Cube.AI",
+          "vendor": "STMicroelectronics",
+          "link": "https://github.com/STMicroelectronics/stm32ai-modelzoo"
+        }
+      ],
       "described": true,
       "hidden": false,
       "id": "urban-sound-event-classifier",
@@ -6758,6 +7022,7 @@
       "photos": [
         "https://saleshosted.z13.web.core.windows.net/images/demos/reinvent24-stm32mp2.png"
       ],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "vision-ai-demonstrator",
@@ -6809,6 +7074,7 @@
         "https://saleshosted.z13.web.core.windows.net/images/demos/wfi32.png",
         "https://saleshosted.z13.web.core.windows.net/images/demos/mcp-wfi32.png"
       ],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "wfi-32-sensor-clicks::ev36w50a",
@@ -6866,6 +7132,7 @@
         "https://saleshosted.z13.web.core.windows.net/images/demos/wfi32.png",
         "https://saleshosted.z13.web.core.windows.net/images/demos/mcp-wfi32.png"
       ],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "wfi-32-sensor-clicks::te-mikrobus-clicks",
@@ -6921,6 +7188,7 @@
         "https://saleshosted.z13.web.core.windows.net/images/demos/wfi32.png",
         "https://saleshosted.z13.web.core.windows.net/images/demos/mcp-wfi32.png"
       ],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "wfi-32-sensor-clicks::amphenol-mikrobus-clicks",
@@ -6970,6 +7238,7 @@
         "https://saleshosted.z13.web.core.windows.net/dashboard/r3/nxp-frdm93-workersafty.PNG"
       ],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "worker-safety-compliance",
@@ -7022,6 +7291,24 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [
+        {
+          "slug": "yolox",
+          "name": "YOLOX (quantized)",
+          "task": "object detection",
+          "framework": "LiteRT + QNN HTP delegate",
+          "vendor": "Megvii / Qualcomm",
+          "link": "https://aihub.qualcomm.com"
+        },
+        {
+          "slug": "yolo-ultralytics",
+          "name": "YOLO (Ultralytics custom-trained)",
+          "task": "object detection",
+          "framework": "ONNX / TFLite",
+          "vendor": "Ultralytics",
+          "link": "https://docs.ultralytics.com"
+        }
+      ],
       "described": true,
       "hidden": false,
       "id": "vision-ai-robotic-arm",
@@ -7077,6 +7364,16 @@
         "https://github.com/avnet-iotconnect/avnet-iotc-mtb-psoc-edge-aivision-webrtc/raw/main/images/setup.jpg"
       ],
       "photos": [],
+      "models": [
+        {
+          "slug": "deepcraft",
+          "name": "DEEPCRAFT (Imagimob) Ready Models",
+          "task": "audio & sensor event detection",
+          "framework": "DEEPCRAFT / ModusToolbox ML",
+          "vendor": "Infineon",
+          "link": "https://www.infineon.com/deepcraft"
+        }
+      ],
       "described": true,
       "hidden": false,
       "id": "psoc-edge-ai-vision-webrtc",
@@ -7127,6 +7424,16 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [
+        {
+          "slug": "deepcraft",
+          "name": "DEEPCRAFT (Imagimob) Ready Models",
+          "task": "audio & sensor event detection",
+          "framework": "DEEPCRAFT / ModusToolbox ML",
+          "vendor": "Infineon",
+          "link": "https://www.infineon.com/deepcraft"
+        }
+      ],
       "described": true,
       "hidden": false,
       "id": "psoc-edge-motion-sensing",
@@ -7177,6 +7484,16 @@
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ifx-psoc6andedge-deepcraft.JPG",
       "dashboards": [],
       "photos": [],
+      "models": [
+        {
+          "slug": "deepcraft",
+          "name": "DEEPCRAFT (Imagimob) Ready Models",
+          "task": "audio & sensor event detection",
+          "framework": "DEEPCRAFT / ModusToolbox ML",
+          "vendor": "Infineon",
+          "link": "https://www.infineon.com/deepcraft"
+        }
+      ],
       "described": true,
       "hidden": false,
       "id": "psoc-edge-deepcraft-ready-models::kit-pse84-eval",
@@ -7227,6 +7544,16 @@
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ifx-psoc6andedge-deepcraft.JPG",
       "dashboards": [],
       "photos": [],
+      "models": [
+        {
+          "slug": "deepcraft",
+          "name": "DEEPCRAFT (Imagimob) Ready Models",
+          "task": "audio & sensor event detection",
+          "framework": "DEEPCRAFT / ModusToolbox ML",
+          "vendor": "Infineon",
+          "link": "https://www.infineon.com/deepcraft"
+        }
+      ],
       "described": true,
       "hidden": false,
       "id": "psoc-edge-deepcraft-ready-models::kitpse84aitobo1",
@@ -7276,6 +7603,16 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [
+        {
+          "slug": "deepcraft",
+          "name": "DEEPCRAFT (Imagimob) Ready Models",
+          "task": "audio & sensor event detection",
+          "framework": "DEEPCRAFT / ModusToolbox ML",
+          "vendor": "Infineon",
+          "link": "https://www.infineon.com/deepcraft"
+        }
+      ],
       "described": true,
       "hidden": false,
       "id": "psoc-edge-secure-psa-with-tf-m",
@@ -7325,6 +7662,16 @@
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ifx-psoc6andedge-deepcraft.JPG",
       "dashboards": [],
       "photos": [],
+      "models": [
+        {
+          "slug": "deepcraft",
+          "name": "DEEPCRAFT (Imagimob) Ready Models",
+          "task": "audio & sensor event detection",
+          "framework": "DEEPCRAFT / ModusToolbox ML",
+          "vendor": "Infineon",
+          "link": "https://www.infineon.com/deepcraft"
+        }
+      ],
       "described": true,
       "hidden": false,
       "id": "psoc-edge-voice-assistant",
@@ -7375,6 +7722,16 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [
+        {
+          "slug": "deepcraft",
+          "name": "DEEPCRAFT (Imagimob) Ready Models",
+          "task": "audio & sensor event detection",
+          "framework": "DEEPCRAFT / ModusToolbox ML",
+          "vendor": "Infineon",
+          "link": "https://www.infineon.com/deepcraft"
+        }
+      ],
       "described": true,
       "hidden": false,
       "id": "psoc-edge-baby-monitor",
@@ -7427,6 +7784,16 @@
         "https://saleshosted.z13.web.core.windows.net/dashboard/ifx-awspoc/human_activity1.PNG"
       ],
       "photos": [],
+      "models": [
+        {
+          "slug": "deepcraft",
+          "name": "DEEPCRAFT (Imagimob) Ready Models",
+          "task": "audio & sensor event detection",
+          "framework": "DEEPCRAFT / ModusToolbox ML",
+          "vendor": "Infineon",
+          "link": "https://www.infineon.com/deepcraft"
+        }
+      ],
       "described": true,
       "hidden": false,
       "id": "psoc-ai-kit-human-activity-detection",
@@ -7481,6 +7848,16 @@
         "https://saleshosted.z13.web.core.windows.net/dashboard/ifx-awspoc/babycry1.PNG"
       ],
       "photos": [],
+      "models": [
+        {
+          "slug": "deepcraft",
+          "name": "DEEPCRAFT (Imagimob) Ready Models",
+          "task": "audio & sensor event detection",
+          "framework": "DEEPCRAFT / ModusToolbox ML",
+          "vendor": "Infineon",
+          "link": "https://www.infineon.com/deepcraft"
+        }
+      ],
       "described": true,
       "hidden": false,
       "id": "psoc-ai-kit-baby-monitor",
@@ -7530,6 +7907,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "modustoolbox-basic-example::cy8ckit-062-wifi-bt",
@@ -7579,6 +7957,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "modustoolbox-basic-example::cy8cproto-062-4343w",
@@ -7628,6 +8007,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "modustoolbox-basic-example::cy8cproto-062s3-4343w",
@@ -7678,6 +8058,7 @@
       "image": "assets/tech/homeassistant.svg",
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "home-assistant-bridge",
@@ -7705,6 +8086,7 @@
       "image": "assets/tech/iotc-relay.svg",
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "iotconnect-relay-service",
@@ -7733,6 +8115,7 @@
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/nxp-imx93andmcxn.JPG",
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "mcx-zephyr-demos",
@@ -7781,6 +8164,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "maaxboard-osm93-demos",
@@ -7834,6 +8218,7 @@
       "photos": [
         "https://saleshosted.z13.web.core.windows.net/images/boards/arduino-unoq-placard.JPG"
       ],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "arduino-uno-q-app-lab",
@@ -7862,6 +8247,7 @@
       "image": "assets/tech/c.svg",
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "iotconnect-greengrass-c-component-sdk",
@@ -7890,6 +8276,7 @@
       "image": "assets/tech/python.svg",
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "iotconnect-python-greengrass-components",
@@ -7918,6 +8305,7 @@
       "image": "assets/tech/c.svg",
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "x-cube-st67-wi-fi-sdk",
@@ -7945,6 +8333,7 @@
       "image": "assets/tech/nodejs.svg",
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "iotconnect-node-js-sdk",
@@ -7972,6 +8361,7 @@
       "image": "assets/tech/dotnet.svg",
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "iotconnect-net-sdk",
@@ -7999,6 +8389,7 @@
       "image": "assets/tech/swift.svg",
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "iotconnect-ios-swift-sdk",
@@ -8026,6 +8417,7 @@
       "image": "assets/tech/android.svg",
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "iotconnect-android-sdk",
@@ -8051,6 +8443,7 @@
       "image": "assets/tech/c.svg",
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "iotconnect-generic-c-sdk",
@@ -8079,6 +8472,7 @@
       "image": "assets/tech/linux.svg",
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "iotconnect-yocto-c-sdk",
@@ -8107,6 +8501,7 @@
       "image": "assets/tech/linux.svg",
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "iotconnect-yocto-python-sdk",
@@ -8134,6 +8529,7 @@
       "image": "assets/tech/python.svg",
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "iotconnect-python-sdk",
@@ -8159,6 +8555,7 @@
       "image": "assets/tech/iotc-rest-api.svg",
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "iotconnect-python-rest-api",
@@ -8188,6 +8585,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "iotconnect-nrf-connect-sdk",
@@ -8245,6 +8643,7 @@
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-scalable-ai-placard.JPG",
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "polarfire-soc-dk-complex-neural-network-accelerator",
@@ -8296,6 +8695,7 @@
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-scalable-ai-placard.JPG",
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "polarfire-soc-dk-simple-neural-network-accelerator",
@@ -8347,6 +8747,7 @@
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-scalable-ai-placard.JPG",
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "polarfire-soc-dk-template-correlation-classifier",
@@ -8398,6 +8799,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "polarfire-video-kit-template-correlation-classifier",
@@ -8447,6 +8849,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "polarfire-video-kit-simple-neural-network-accelerator",
@@ -8496,6 +8899,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "polarfire-video-kit-complex-neural-network-accelerator",
@@ -8545,6 +8949,7 @@
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-kws-placard.JPG",
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "sama7d65-curiosity-keyword-spotting",
@@ -8593,6 +8998,7 @@
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-kws-placard.JPG",
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "sama7d65-curiosity-voice-blackjack-kws-game",
@@ -8642,6 +9048,7 @@
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-kws-placard.JPG",
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "sama7d65-curiosity-kws-training-studio",
@@ -8689,6 +9096,7 @@
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-kws-placard.JPG",
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "sama7d65-curiosity-pac1934-power-monitoring",
@@ -8737,6 +9145,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "jetson-orin-amazon-kvs-putmedia",
@@ -8785,6 +9194,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "i-mx93-driver-monitoring-dms-vision-ai",
@@ -8836,6 +9246,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "i-mx93-driver-monitoring-with-face-recognition",
@@ -8885,6 +9296,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "i-mx93-media-capture-file-upload",
@@ -8935,6 +9347,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "i-mx93-amazon-kvs-putmedia",
@@ -8986,6 +9399,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "i-mx93-amazon-kvs-webrtc",
@@ -9037,6 +9451,7 @@
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ren-rzv2h-placard.JPG",
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "rz-v2h-evk-ai-inference-vision",
@@ -9084,6 +9499,7 @@
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ren-rzv2h-placard.JPG",
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "rz-v2h-evk-system-monitor",
@@ -9132,6 +9548,16 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [
+        {
+          "slug": "stm32-modelzoo-od",
+          "name": "STM32 Model Zoo - Object Detection",
+          "task": "object detection",
+          "framework": "X-CUBE-AI / X-LINUX-AI",
+          "vendor": "STMicroelectronics",
+          "link": "https://github.com/STMicroelectronics/stm32ai-modelzoo"
+        }
+      ],
       "described": true,
       "hidden": false,
       "id": "stm32mp135f-dk-x-linux-ai-vision",
@@ -9182,6 +9608,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "stm32mp135f-dk-amazon-kvs-putmedia",
@@ -9233,6 +9660,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "stm32mp135f-dk-amazon-kvs-webrtc",
@@ -9282,6 +9710,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "stm32mp135f-dk-mkboxpro-ble-sensors",
@@ -9331,6 +9760,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "stm32mp135f-dk-proteus-sensors",
@@ -9381,6 +9811,16 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [
+        {
+          "slug": "stm32-modelzoo-od",
+          "name": "STM32 Model Zoo - Object Detection",
+          "task": "object detection",
+          "framework": "X-CUBE-AI / X-LINUX-AI",
+          "vendor": "STMicroelectronics",
+          "link": "https://github.com/STMicroelectronics/stm32ai-modelzoo"
+        }
+      ],
       "described": true,
       "hidden": false,
       "id": "stm32mp157f-dk2-x-linux-ai-vision",
@@ -9431,6 +9871,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "stm32mp157f-dk2-amazon-kvs-putmedia",
@@ -9482,6 +9923,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "stm32mp157f-dk2-amazon-kvs-webrtc",
@@ -9531,6 +9973,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "stm32mp157f-dk2-mkboxpro-ble-sensors",
@@ -9580,6 +10023,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "stm32mp157f-dk2-proteus-sensors",
@@ -9630,6 +10074,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "stm32mp257-dk-amazon-kvs-putmedia",
@@ -9681,6 +10126,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "stm32mp257-dk-amazon-kvs-webrtc",
@@ -9730,6 +10176,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "stm32mp257-dk-mkboxpro-ble-sensors",
@@ -9779,6 +10226,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "stm32mp257-dk-proteus-sensors",
@@ -9829,6 +10277,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "stm32mp257-ev1-amazon-kvs-putmedia",
@@ -9880,6 +10329,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "stm32mp257-ev1-amazon-kvs-webrtc",
@@ -9930,6 +10380,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "maaxboard-osm93-driver-monitoring-dms-vision-ai",
@@ -9984,6 +10435,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "vision-ai-kit-6490-amazon-kvs-putmedia",
@@ -10037,6 +10489,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "vision-ai-kit-6490-amazon-kvs-webrtc",
@@ -10088,6 +10541,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "vision-ai-kit-6490-vision-ai-telemetry",
@@ -10137,6 +10591,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "i-mx93-greengrass-nucleus-lite",
@@ -10186,6 +10641,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "raspberry-pi-5-greengrass-nucleus-lite",
@@ -10235,6 +10691,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "stm32mp135f-dk-greengrass-nucleus-lite",
@@ -10284,6 +10741,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "stm32mp157f-dk2-greengrass-nucleus-lite",
@@ -10333,6 +10791,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "stm32mp215f-dk-greengrass-nucleus-lite",
@@ -10380,6 +10839,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "stm32mp257f-dk-greengrass-nucleus-lite",
@@ -10429,6 +10889,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "stm32mp257f-ev1-greengrass-nucleus-lite",
@@ -10478,6 +10939,7 @@
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/arduino-unoq-placard.JPG",
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "arduino-uno-q-python-lite-sdk",
@@ -10527,6 +10989,7 @@
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-scalable-ai-placard.JPG",
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "pic64gx-curiosity-python-lite-sdk",
@@ -10576,6 +11039,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "s32g-goldbox-python-lite-sdk",
@@ -10623,6 +11087,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "maaxboard-8m-python-lite-sdk",
@@ -10674,6 +11139,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "maaxboard-8ulp-python-lite-sdk",
@@ -10726,6 +11192,7 @@
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ren-rzg3e-placard.JPG",
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "rz-g3e-evk-python-lite-sdk",
@@ -10777,6 +11244,7 @@
       "image": "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-snap-examples/main/examples/raspberry-pi5-iotc-vision-ai-pi5/media/dasboard-img.png",
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "iotconnect-python-lite-sdk-snap-examples",
@@ -10861,6 +11329,7 @@
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ren-wireless-placard.JPG",
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "freertos-on-renesas-ek-ra6w1-wi-fi-6-mcu",
@@ -10916,6 +11385,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "secure-mqtt-over-tls-reference-on-stm32n6570-dk-with-st67w611m1-wi-fi-6",
@@ -10969,6 +11439,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "webrtc-kvs-video-streaming-on-ameba-pro-2-amb82-mini-with-iotconnect",
@@ -11019,6 +11490,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "freertos-on-stm32u5-iot-discovery-kit-for-iotconnect",
@@ -11071,6 +11543,7 @@
       "image": "assets/tech/iotc-gg-snap.svg",
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "greengrass-v2-nucleus-snap-for-ubuntu-core-iotconnect",
@@ -11099,6 +11572,7 @@
       "image": "assets/tech/iotc-lite-snap.svg",
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "iotconnect-python-lite-sdk-as-a-snap",
@@ -11127,6 +11601,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "freertos-on-stm32h573i-dk-with-st-secure-manager",
@@ -11179,6 +11654,16 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [
+        {
+          "slug": "stm32-modelzoo-aed",
+          "name": "STM32 Model Zoo - Audio Event Detection",
+          "task": "audio classification",
+          "framework": "X-CUBE-AI / STM32Cube.AI",
+          "vendor": "STMicroelectronics",
+          "link": "https://github.com/STMicroelectronics/stm32ai-modelzoo"
+        }
+      ],
       "described": true,
       "hidden": false,
       "id": "edge-audio-classification-on-stm32u5-with-freertos-and-cloud-retraining",
@@ -11229,6 +11714,7 @@
       "image": "https://opengraph.githubassets.com/1/avnet-iotconnect/iotc-aws-greengrass",
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "iotconnect-aws-greengrass-sdk-component-template",
@@ -11258,6 +11744,7 @@
       "image": "https://avatars.githubusercontent.com/u/79603029?v=4",
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "iotconnect-yocto-meta-layer-for-the-python-lite-sdk",
@@ -11289,6 +11776,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "iotconnect-python-examples-collection::pe100a",
@@ -11342,6 +11830,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "iotconnect-python-examples-collection::3200",
@@ -11395,6 +11884,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "iotconnect-python-examples-collection::5200",
@@ -11448,6 +11938,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "iotconnect-python-examples-collection::stm32mp157f-dk2",
@@ -11501,6 +11992,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "iotconnect-python-examples-collection::steval-proteus1",
@@ -11554,6 +12046,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "iotconnect-python-examples-collection::steval-mkboxpro",
@@ -11607,6 +12100,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "microchip-wfi32-iot-freertos-demo-for-iotconnect",
@@ -11659,6 +12153,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "freertos-da16k-at-command-interface-library-for-iotconnect",
@@ -11738,6 +12233,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "renesas-ek-ra6m4-to-iotconnect-via-da16k-at-command-pmod-gateway::ek-ra6m4",
@@ -11790,6 +12286,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "renesas-ek-ra6m4-to-iotconnect-via-da16k-at-command-pmod-gateway::us159-da16600evz",
@@ -11843,6 +12340,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "wfi32-iot-freertos-demo-with-wolfssl-and-atecc608b",
@@ -11895,6 +12393,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "iotconnect-freertos-c-sdk",
@@ -11956,6 +12455,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "stm32u5-esp32-c3-wi-fi-connectivity-to-iotconnect-via-at-commands",
@@ -12007,6 +12507,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "iotconnect-yocto-demo-application-layer-meta-iotconnect-demos",
@@ -12090,6 +12591,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "arduino-pro-portenta-h7-to-iotconnect-x-509-over-wi-fi",
@@ -12141,6 +12643,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "arduino-portenta-c33-iotconnect-demo-aws",
@@ -12191,6 +12694,7 @@
       "image": "https://avatars.githubusercontent.com/u/79603029?v=4",
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "iotconnect-yocto-meta-layer-meta-iotconnect",
@@ -12221,6 +12725,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "lorawan-gateway-on-stm32mp157-with-chirpstack-and-iotconnect",
@@ -12272,6 +12777,7 @@
       "image": "https://avatars.githubusercontent.com/u/69922175?v=4",
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "iotconnect-yocto-c-demo-generic-c-sdk",
@@ -12300,6 +12806,7 @@
       "image": "https://www.yoctoproject.org/wp-content/uploads/sites/32/2023/10/cropped-favicon-300x300.png",
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "iotconnect-python-demo-source-for-yocto",
@@ -12329,6 +12836,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "iotconnect-arduino-sdk",
@@ -12383,6 +12891,16 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [
+        {
+          "slug": "stm32-modelzoo-aed",
+          "name": "STM32 Model Zoo - Audio Event Detection",
+          "task": "audio classification",
+          "framework": "X-CUBE-AI / STM32Cube.AI",
+          "vendor": "STMicroelectronics",
+          "link": "https://github.com/STMicroelectronics/stm32ai-modelzoo"
+        }
+      ],
       "described": true,
       "hidden": false,
       "id": "aws-stm32-ml-at-edge-accelerator",
@@ -12436,6 +12954,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "azure-rtos-on-stm32u5-with-tf-m-for-iotconnect",
@@ -12484,6 +13003,7 @@
       "image": "https://upload.wikimedia.org/wikipedia/commons/0/00/Yocto_Project_logo.svg",
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "iotconnect-yocto-greengrass-sdk",
@@ -12516,6 +13036,24 @@
         "https://raw.githubusercontent.com/avnet-iotconnect/iotc-nuc-vlm-demo/main/docs/images/dashboard.png"
       ],
       "photos": [],
+      "models": [
+        {
+          "slug": "yolo-world",
+          "name": "YOLO-World",
+          "task": "open-vocabulary object detection",
+          "framework": "OpenVINO (Intel NPU)",
+          "vendor": "Tencent / Ultralytics",
+          "link": "https://docs.ultralytics.com/models/yolo-world/"
+        },
+        {
+          "slug": "qwen2-vl",
+          "name": "Qwen2-VL / Qwen2.5-VL",
+          "task": "vision-language model (VLM)",
+          "framework": "OpenVINO (Intel iGPU)",
+          "vendor": "Alibaba",
+          "link": "https://huggingface.co/Qwen"
+        }
+      ],
       "described": true,
       "hidden": false,
       "id": "construction-site-safety-vlm-intel-nuc",
@@ -12546,6 +13084,7 @@
       "image": "assets/tech/zephyr.svg",
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "iotconnect-zephyr-sdk",
@@ -12575,6 +13114,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "zephyr-quickstart-on-device-provisioning::frdm-mcxn947",
@@ -12624,6 +13164,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "zephyr-quickstart-on-device-provisioning::frdm-imx93",
@@ -12675,6 +13216,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "zephyr-quickstart-on-device-provisioning::mimxrt1170-evkb",
@@ -12724,6 +13266,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "zephyr-telemetry::frdm-mcxn947",
@@ -12773,6 +13316,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "zephyr-telemetry::frdm-imx93",
@@ -12824,6 +13368,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "zephyr-telemetry::mimxrt1170-evkb",
@@ -12872,6 +13417,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "zephyr-cloud-to-device-led-control",
@@ -12923,6 +13469,7 @@
       "image": null,
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "zephyr-click-sensor-telemetry-tf-m-sealed-key",
@@ -12972,6 +13519,7 @@
       "image": "assets/tech/iotc-mcp.svg",
       "dashboards": [],
       "photos": [],
+      "models": [],
       "described": true,
       "hidden": false,
       "id": "iotconnect-mcp-server",

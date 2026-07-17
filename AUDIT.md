@@ -1,6 +1,6 @@
 # /IOTCONNECT Index — Audit Report
 
-_Generated 2026-07-17T14:19:02Z_  ·  196 listings · 90 boards (81 in use) · 17 manufacturers · 214 resources
+_Generated 2026-07-17T16:06:23Z_  ·  196 listings · 90 boards (81 in use) · 17 manufacturers · 214 resources
 
 ## ⚠ Boards referenced but missing from the Boards sheet
 - **uno** — referenced by: Vision AI Demonstrator
@@ -25,3 +25,9 @@ _Generated 2026-07-17T14:19:02Z_  ·  196 listings · 90 boards (81 in use) · 1
 
 ## Listings missing description or topics
 - none.
+
+## ⚠ Listings referencing an undefined model
+- none — every referenced model is defined.
+
+## Models with no example (candidates to map or drop)
+- none — every model powers at least one example.
