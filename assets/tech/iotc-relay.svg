@@ -1,15 +1,7 @@
-<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="/IOTCONNECT Relay Service">
+<svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="/IOTCONNECT Relay Service">
   <title>/IOTCONNECT Relay Service</title>
-  <defs>
-    <linearGradient id="iotcRelayG" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#41C363"/>
-      <stop offset="1" stop-color="#15803D"/>
-    </linearGradient>
-  </defs>
-  <rect x="4" y="4" width="56" height="56" rx="15" fill="url(#iotcRelayG)"/>
-  <path d="M16 47 L33 14 L41 14 L24 47 Z" fill="#fff" opacity="0.13"/>
-  <g fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
-    <polyline points="19,20 33,32 19,44"/>
-    <polyline points="33,20 47,32 33,44"/>
-  </g>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#41C363"/><stop offset="1" stop-color="#15803D"/></linearGradient></defs>
+  <g transform="translate(70,4) scale(0.9375)"><rect x="0" y="0" width="64" height="64" rx="16" fill="url(#g)"/><path d="M14 56 L34 8 L45 8 L25 56 Z" fill="#fff" opacity="0.13"/><g fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><polyline points="19,20 33,32 19,44"/><polyline points="33,20 47,32 33,44"/></g></g>
+  <text x="100" y="99" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="25" font-weight="800" fill="#15803D">/IOTCONNECT</text>
+  <text x="100" y="120" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12.5" font-weight="600" letter-spacing="0.5" fill="#5C6B7A">RELAY SERVICE</text>
 </svg>

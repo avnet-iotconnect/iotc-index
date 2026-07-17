@@ -1,0 +1,7 @@
+<svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="/IOTCONNECT Greengrass Nucleus Snap">
+  <title>/IOTCONNECT Greengrass Nucleus Snap</title>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#41C363"/><stop offset="1" stop-color="#15803D"/></linearGradient></defs>
+  <g transform="translate(70,4) scale(0.9375)"><rect x="0" y="0" width="64" height="64" rx="16" fill="url(#g)"/><path d="M14 56 L34 8 L45 8 L25 56 Z" fill="#fff" opacity="0.13"/><g transform="translate(12.8,12.8) scale(1.6)" fill="#fff"><path d="M8.17 11.335a.106.106 0 0 0-.173.022L1.754 23.466a.105.105 0 0 0 .032.133c.04.029.101.027.138-.012l8.89-9.11a.107.107 0 0 0 .005-.144l-2.649-3Zm9.76-3.519L.146.39C.041.346-.047.478.028.56l12.034 12.874a.11.11 0 0 0 .075.034.102.102 0 0 0 .075-.03L17.96 7.99a.106.106 0 0 0-.032-.174Zm6.047.547-2.188-4.405a.21.21 0 0 0-.189-.117h-8.77a.212.212 0 0 0-.08.408l10.96 4.405a.211.211 0 0 0 .268-.29z"/></g></g>
+  <text x="100" y="99" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="25" font-weight="800" fill="#15803D">/IOTCONNECT</text>
+  <text x="100" y="120" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12.5" font-weight="600" letter-spacing="0.5" fill="#5C6B7A">GREENGRASS SNAP</text>
+</svg>
