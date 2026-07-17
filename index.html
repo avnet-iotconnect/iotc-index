@@ -437,7 +437,7 @@ function listingMedia(r){
 /* ---------------- hero + partners ---------------- */
 function renderHero(){
   const c=state.data.counts;
-  const stats=[["boards","Boards"],["sdks","SDKs"],["examples","Demos"],["guides","Guides"]];
+  const stats=[["boards","Boards"],["sdks","SDKs"],["tools","Tools"],["examples","Demos"],["guides","Guides"]];
   $("#heroStats").innerHTML=stats.map(([k,l])=>`<div class="s"><div class="n">${c[k]??"—"}</div><div class="l">${l}</div></div>`).join("");
   // collage: 4 marquee boards with images, distinct vendors
   const pref=["STM32N6570-DK","CY8CKIT-062S2-AI","AES-RZB-V2L-SK-G","FRDM-IMX93","AES-QCS6490-DK-G","EK-RA8M1"];

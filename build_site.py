@@ -345,6 +345,7 @@ index = {
     "facets": {"manufacturers": mfrs, "makers": makers, "topics": topics, "boards": busd},
     "counts": {"total": len(vis), "manufacturers": len(mfrs), "boards": len(busd),
                "sdks": sum(1 for r in vis if r["category"] in ("sdk","library")),
+               "tools": sum(1 for r in vis if r["category"] == "tool"),
                "examples": sum(1 for r in vis if r["category"] == "sample"),
                "guides": n_guides, "demos": n_demos,
                "partners": sum(1 for p in partners if p["logo"])},
