@@ -107,6 +107,23 @@ for row in brows:
     if pn: boards_by_pn[pn.lower()] = sg
     if nm: boards_by_name[nm.lower()] = sg
 
+# ---------- Models (AI/ML model registry) ----------
+mrows, _ = read_csv("models")
+model_defs = {}   # slug -> {slug,name,task,framework,vendor,source,link}
+for row in mrows:
+    if str(row.get("Include") or "yes").lower() == "no": continue
+    mid = str(row.get("Model") or "").strip()
+    if not mid: continue
+    model_defs[mid] = {
+        "slug": mid, "name": str(row.get("Display Name") or mid).strip(),
+        "task": str(row.get("Task") or "").strip(),
+        "framework": str(row.get("Framework") or "").strip(),
+        "vendor": str(row.get("Vendor") or "").strip(),
+        "source": str(row.get("Source") or "").strip(),
+        "link": str(row.get("Link") or "").strip() or None,
+    }
+unknown_models = {}   # bad model ref -> {listing names} (surfaced in AUDIT)
+
 # ---------- Listings ----------
 lrows, _ = read_csv("listings")
 missing_boards = {}
@@ -140,7 +157,14 @@ for row in lrows:
     if str(row.get("Include") or "yes").lower() == "no": continue
     name = str(row.get("Name")).strip()
     refs = [resolve_ref(r, name) for r in split(row.get("Boards"))]
+    mids = []
+    for mid in split(row.get("Models")):
+        if mid in model_defs:
+            mids.append(mid)
+        else:
+            unknown_models.setdefault(mid, set()).add(name)
     listings.append({
+        "models": mids,
         "name": name, "repo": (str(row.get("Repo")).strip() or None) if row.get("Repo") else None,
         "category": str(row.get("Type") or "uncategorized").strip().lower(),
         "status": str(row.get("Status") or DEFAULT_STATUS).strip().lower(),
@@ -200,6 +224,11 @@ def board_ref(sg):
     if b.get("imageLocal"): o["imageLocal"] = b["imageLocal"]
     return o
 
+def model_ref(mid):
+    m = model_defs[mid]
+    return {"slug": m["slug"], "name": m["name"], "task": m["task"],
+            "framework": m["framework"], "vendor": m["vendor"], "link": m["link"]}
+
 out = []; used_repos = set()
 for L in listings:
     live = facts.get(L["repo"]) if L["repo"] else None
@@ -214,6 +243,7 @@ for L in listings:
             "features": L["features"], "stars": (live or {}).get("stars", 0),
             "updated": (live or {}).get("updated", "2026-06-01T00:00:00Z"),
             "image": L["image"], "dashboards": L["dashboards"], "photos": L["photos"],
+            "models": [model_ref(m) for m in L["models"]],
             "described": bool(L["description"] or L["repo"]), "hidden": False}
     if L["category"] == "sample" and len(boards) > 1:
         for b in boards:
@@ -283,6 +313,17 @@ for r in vis:
 topics = [{"tag": t, "count": c} for t, c in
           sorted(tagcount.items(), key=lambda kv: (-kv[1], kv[0]))]
 
+# AI-model facet (frequency of models across visible listings) — powers the Model
+# filter and model search; also gives each in-use model its board/example reach.
+modelcount = {}
+for r in vis:
+    for m in r["models"]:
+        modelcount[m["slug"]] = modelcount.get(m["slug"], 0) + 1
+models_facet = [{"model": s, "name": model_defs[s]["name"], "task": model_defs[s]["task"],
+                 "framework": model_defs[s]["framework"], "vendor": model_defs[s]["vendor"],
+                 "link": model_defs[s]["link"], "count": c}
+                for s, c in sorted(modelcount.items(), key=lambda kv: (-kv[1], kv[0])) if s in model_defs]
+
 # board-maker facet = integrators only (makers that build on someone else's silicon),
 # so you can slice by Tria / Advantech / Seeed… as well as by silicon vendor.
 makers = sorted({b["maker"] for b in busd if b["maker"] != b["vendor"] and b["maker"] != "Other"})
@@ -342,11 +383,12 @@ index = {
     "org": ORG, "generated": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
     "pagesUrl": PAGES_URL, "imageBase": IMAGE_BASE, "imageLocalBase": IMAGE_LOCAL, "brandBase": BRAND_BASE,
     "partners": partners, "entities": entities,
-    "facets": {"manufacturers": mfrs, "makers": makers, "topics": topics, "boards": busd},
+    "facets": {"manufacturers": mfrs, "makers": makers, "topics": topics, "models": models_facet, "boards": busd},
     "counts": {"total": len(vis), "manufacturers": len(mfrs), "boards": len(busd),
                "sdks": sum(1 for r in vis if r["category"] in ("sdk","library")),
                "tools": sum(1 for r in vis if r["category"] == "tool"),
                "examples": sum(1 for r in vis if r["category"] == "sample"),
+               "models": len(models_facet),
                "guides": n_guides, "demos": n_demos,
                "partners": sum(1 for p in partners if p["logo"])},
     "repos": out,
@@ -394,11 +436,21 @@ else:
     A.append("- (run with GITHUB_TOKEN to detect uncatalogued repos)")
 A += ["", "## Listings missing description or topics"]
 A += [f"- {n}" for n in incomplete] or ["- none."]
+orphan_models = [model_defs[m]["name"] for m in model_defs if m not in modelcount]
+A += ["", "## ⚠ Listings referencing an undefined model"]
+if unknown_models:
+    for ref, who in sorted(unknown_models.items()):
+        A.append(f"- **{ref}** — referenced by: {', '.join(sorted(who))}")
+else:
+    A.append("- none — every referenced model is defined.")
+A += ["", "## Models with no example (candidates to map or drop)"]
+A += [f"- {n}" for n in sorted(orphan_models)] or ["- none — every model powers at least one example."]
 changed_audit = write_stable(os.path.join(OUT, "AUDIT.md"), "\n".join(A) + "\n", r'_Generated \S+Z_')
 
 print(f"index.json: {len(vis)} listings, {len(mfrs)} manufacturers, {len(busd)} boards, "
       f"{len(res_rows)} resources, {n_guides} guides, {n_demos} demos")
 print(f"AUDIT: {len(missing_boards)} missing-board refs, {len(no_image)} no-image, {len(orphan)} orphan, "
-      f"{len(uncatalogued)} uncatalogued repos, {len(incomplete)} incomplete listings")
+      f"{len(uncatalogued)} uncatalogued repos, {len(incomplete)} incomplete listings, "
+      f"{len(models_facet)} models in use, {len(unknown_models)} bad model refs")
 print("changed: " + (", ".join(f for f, c in [("index.json", changed_index), ("AUDIT.md", changed_audit)] if c)
                      or "nothing (timestamp-only; no rewrite)"))

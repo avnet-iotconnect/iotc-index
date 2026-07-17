@@ -170,6 +170,7 @@
   .badges{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:11px;}
   .badge{font-family:'JetBrains Mono',monospace;font-size:10px;padding:3px 7px;border-radius:5px;background:var(--soft);color:var(--muted);border:1px solid var(--line);}
   .badge.lang{color:var(--brand-deep);border-color:#BBE6C8;background:#EAF8EF;}
+  .badge.model{color:#fff;border-color:transparent;background:linear-gradient(180deg,#41C363,#15803D);font-weight:600;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
   .foot{display:flex;justify-content:space-between;align-items:center;font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--muted);border-top:1px solid var(--line);padding-top:10px;margin-top:auto;}
   .foot .res{display:flex;gap:9px;}
   .foot .res span{display:inline-flex;align-items:center;gap:3px;}
@@ -397,7 +398,7 @@ const vcolor=v=>VENDOR_COLOR[v]||VENDOR_COLOR.Other;
 function timeAgo(iso){const d=(Date.now()-new Date(iso).getTime())/864e5;if(isNaN(d))return"";if(d<1)return"today";if(d<7)return Math.floor(d)+"d";if(d<60)return Math.floor(d/7)+"w";if(d<730)return Math.floor(d/30)+"mo";return Math.floor(d/365)+"y";}
 
 const state={data:null,boards:[],repos:[],partners:[],boardBySlug:{},repoById:{},
-  view:"hardware",query:"",filters:{manufacturer:[],maker:[],topic:[],language:[],type:[],status:[],qual:[]}};
+  view:"hardware",query:"",filters:{manufacturer:[],maker:[],topic:[],model:[],language:[],type:[],status:[],qual:[]}};
 const EMPTY_FILTERS=()=>({manufacturer:[],maker:[],topic:[],language:[],type:[],status:[],qual:[]});
 const anyFilter=()=>Object.values(state.filters).some(a=>a.length)||state.query;
 
@@ -471,10 +472,12 @@ function renderFilters(){
     html+=`<div class="frow"><span class="flabel">Qualified</span>${chip("qual","AWS Qualified","AWS Qualified")}${chip("qual","Greengrass","Greengrass")}</div>`;
   }else{
     const topics=state.data.facets.topics.slice(0,16).map(t=>chip("topic",t.tag,`${t.tag}`)).join("");
+    const models=(state.data.facets.models||[]).map(m=>chip("model",m.model,`${m.name}`)).join("");
     const langs=[...new Set(state.repos.flatMap(r=>r.languages||[]))].sort();
     const types=[...new Set(state.repos.map(r=>r.category).filter(c=>c&&c!=="uncategorized"))].sort();
-    html+=`<div class="frow"><span class="flabel">Topic</span>${topics}</div>
-      <div class="frow"><span class="flabel">Type</span>${types.map(t=>chip("type",t,t)).join("")}</div>
+    html+=`<div class="frow"><span class="flabel">Topic</span>${topics}</div>`+
+      (models?`<div class="frow"><span class="flabel">AI model</span>${models}</div>`:"")+
+      `<div class="frow"><span class="flabel">Type</span>${types.map(t=>chip("type",t,t)).join("")}</div>
       <div class="frow"><span class="flabel">Language</span>${langs.map(l=>chip("language",l,l)).join("")}</div>`;
   }
   el.innerHTML=html;
@@ -498,11 +501,13 @@ function repoMatch(r){
   if(!hasAny(f.manufacturer,r.manufacturers))return false;
   if(!hasAny(f.maker,r.makers))return false;
   if(!hasAny(f.topic,r.features))return false;
+  if(!hasAny(f.model,(r.models||[]).map(m=>m.slug)))return false;
   if(!hasAny(f.type,[r.category]))return false;
   if(!hasAny(f.language,r.languages))return false;
   if(state.query){const q=state.query.toLowerCase();
     const hay=[r.repo,r.displayName,r.description,(r.languages||[]).join(" "),(r.manufacturers||[]).join(" "),
-      (r.boards||[]).map(b=>b.name+" "+(b.partNumber||"")).join(" "),(r.features||[]).join(" ")].join(" ").toLowerCase();
+      (r.boards||[]).map(b=>b.name+" "+(b.partNumber||"")).join(" "),(r.features||[]).join(" "),
+      (r.models||[]).map(m=>m.slug+" "+m.name+" "+(m.task||"")+" "+(m.framework||"")+" "+(m.vendor||"")).join(" ")].join(" ").toLowerCase();
     if(!hay.includes(q))return false;}
   return true;
 }
@@ -558,6 +563,7 @@ function repoCard(r){
   }
   const langs=(r.languages||[]).slice(0,2).map(l=>`<span class="badge lang">${esc(l)}</span>`).join("");
   const topics=(r.features||[]).filter(t=>!["telemetry","commands","ota","twin"].includes(t)).slice(0,2).map(t=>`<span class="badge">${esc(t)}</span>`).join("");
+  const mdls=(r.models||[]).slice(0,2).map(m=>`<span class="badge model" title="${esc((m.task||"")+(m.framework?" · "+m.framework:""))}">◆ ${esc(m.name)}</span>`).join("");
   const meta=`<div class="foot"><div class="res"><span>★ ${r.stars??0}</span><span>${timeAgo(r.updated)}</span></div><span class="arrow">→</span></div>`;
   // manufacturer + board line, so same-demo-different-board cards are distinguishable
   const b0=r.board||(boards[0])||null, nb=boards.length;
@@ -584,7 +590,7 @@ function repoCard(r){
       <div class="cname">${esc(r.displayName||r.repo)}</div>
       ${sub}
       <div class="cdesc">${esc(r.description||"No description.")}</div>
-      <div class="badges">${langs}${topics}</div>
+      <div class="badges">${mdls}${langs}${topics}</div>
       ${meta}
     </div>
   </div>`;
