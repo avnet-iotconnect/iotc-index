@@ -1,6 +1,6 @@
 # /IOTCONNECT Index — Audit Report
 
-_Generated 2026-07-17T16:06:23Z_  ·  196 listings · 90 boards (81 in use) · 17 manufacturers · 214 resources
+_Generated 2026-07-20T09:57:58Z_  ·  196 listings · 90 boards (81 in use) · 17 manufacturers · 214 resources
 
 ## ⚠ Boards referenced but missing from the Boards sheet
 - **uno** — referenced by: Vision AI Demonstrator
@@ -21,7 +21,8 @@ _Generated 2026-07-17T16:06:23Z_  ·  196 listings · 90 boards (81 in use) · 1
 - NXP · NXP MaaXBoard Mini (AES-MC-SBC-IMX8MINI-G)
 
 ## Org repos with no listing (candidates to add)
-- none — every public repo has a listing.
+- iotc-mchp-wfi32-freertos-wolfssl — /IOTCONNECT demo for Microchip WFI32-IoT with wolfSSL and Amazon-FreeRTOS.
+- iotc-mchp-sama7d65-rnwf11 — Connect Microchip SAMA7D65 to /IOTCONNECT via RNWF11 Wi-Fi module.
 
 ## Listings missing description or topics
 - none.
