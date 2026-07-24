@@ -89,3 +89,4 @@ Arduino,Arduino Pro Portenta H7,ABX00042,,ABX00042.png,https://docs.arduino.cc/h
 Arduino,Arduino PRO Portenta C33,ABX00074,,ABX00074.jpg,https://store.arduino.cc/products/portenta-c33,,,,yes,Renesas
 SparkFun,SparkFun ESP32 Thing,DEV-13907,,DEV-13907.jpg,https://www.sparkfun.com/sparkfun-esp32-thing.html,,,,yes,Espressif
 NXP,i.MX RT1170 Evaluation Kit (EVKB),MIMXRT1170-EVKB,,MIMXRT1170-EVKB.jpg,https://www.nxp.com/design/design-center/development-boards-and-designs/i-mx-evaluation-and-development-boards/i-mx-rt1170-evaluation-kit:MIMXRT1170-EVKB,no,no,"mcu,edge,zephyr",yes,NXP
+NXP,IMX95 Freedom Board,FRDM-IMX95,,,https://www.nxp.com/design/design-center/development-boards-and-designs/frdm-imx-95-development-board:FRDM-IMX95,no,no,,yes,NXP
