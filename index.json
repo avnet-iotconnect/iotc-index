@@ -1,6 +1,6 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-07-24T18:42:54Z",
+  "generated": "2026-07-24T22:02:40Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
@@ -680,6 +680,15 @@
         "framework": "eIQ Vision AI (TFLite / Vela)",
         "vendor": "NXP",
         "link": "https://www.nxp.com/eiq",
+        "count": 3
+      },
+      {
+        "model": "jetson-inference",
+        "name": "NVIDIA Jetson Inference (DetectNet / PoseNet / SegNet / ImageNet / DepthNet / ActionNet)",
+        "task": "multi-task vision (detection, pose, segmentation, classification, depth, action)",
+        "framework": "TensorRT (jetson-inference)",
+        "vendor": "NVIDIA",
+        "link": "https://github.com/dusty-nv/jetson-inference",
         "count": 3
       },
       {
@@ -3503,7 +3512,7 @@
     "sdks": 28,
     "tools": 6,
     "examples": 165,
-    "models": 18,
+    "models": 19,
     "guides": 80,
     "demos": 12,
     "partners": 9
@@ -4103,7 +4112,16 @@
         "https://saleshosted.z13.web.core.windows.net/dashboard/r2/nvidia.png"
       ],
       "photos": [],
-      "models": [],
+      "models": [
+        {
+          "slug": "jetson-inference",
+          "name": "NVIDIA Jetson Inference (DetectNet / PoseNet / SegNet / ImageNet / DepthNet / ActionNet)",
+          "task": "multi-task vision (detection, pose, segmentation, classification, depth, action)",
+          "framework": "TensorRT (jetson-inference)",
+          "vendor": "NVIDIA",
+          "link": "https://github.com/dusty-nv/jetson-inference"
+        }
+      ],
       "described": true,
       "hidden": false,
       "id": "edge-ai-inference-pipeline-jetson-orin-nx::j4021",
@@ -4157,7 +4175,16 @@
         "https://saleshosted.z13.web.core.windows.net/dashboard/r2/nvidia.png"
       ],
       "photos": [],
-      "models": [],
+      "models": [
+        {
+          "slug": "jetson-inference",
+          "name": "NVIDIA Jetson Inference (DetectNet / PoseNet / SegNet / ImageNet / DepthNet / ActionNet)",
+          "task": "multi-task vision (detection, pose, segmentation, classification, depth, action)",
+          "framework": "TensorRT (jetson-inference)",
+          "vendor": "NVIDIA",
+          "link": "https://github.com/dusty-nv/jetson-inference"
+        }
+      ],
       "described": true,
       "hidden": false,
       "id": "edge-ai-inference-pipeline-jetson-orin-nx::seeed-j2021",
@@ -4211,7 +4238,16 @@
         "https://saleshosted.z13.web.core.windows.net/dashboard/r2/nvidia.png"
       ],
       "photos": [],
-      "models": [],
+      "models": [
+        {
+          "slug": "jetson-inference",
+          "name": "NVIDIA Jetson Inference (DetectNet / PoseNet / SegNet / ImageNet / DepthNet / ActionNet)",
+          "task": "multi-task vision (detection, pose, segmentation, classification, depth, action)",
+          "framework": "TensorRT (jetson-inference)",
+          "vendor": "NVIDIA",
+          "link": "https://github.com/dusty-nv/jetson-inference"
+        }
+      ],
       "described": true,
       "hidden": false,
       "id": "edge-ai-inference-pipeline-jetson-orin-nx",
