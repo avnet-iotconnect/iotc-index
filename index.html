@@ -124,14 +124,34 @@
   .search input{width:100%;background:#fff;border:1px solid var(--line-2);border-radius:11px;padding:11px 14px 11px 40px;font-family:'JetBrains Mono',monospace;font-size:13px;color:var(--ink);outline:none;transition:.15s;}
   .search input:focus{border-color:var(--brand);box-shadow:0 0 0 3px rgba(65,195,99,.18);}
   .search svg{position:absolute;left:13px;top:50%;transform:translateY(-50%);width:16px;height:16px;stroke:var(--dim);}
-  .filters{display:flex;flex-direction:column;gap:7px;}
-  .frow{display:flex;flex-wrap:wrap;gap:6px;align-items:center;}
-  .flabel{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--dim);min-width:92px;}
+  .filters{position:relative;}
   .chip{background:#fff;border:1px solid var(--line-2);color:var(--body);padding:5px 11px;border-radius:999px;font-size:12px;font-weight:500;cursor:pointer;transition:.13s;display:inline-flex;align-items:center;gap:6px;}
   .chip:hover{border-color:var(--brand);color:var(--brand-deep);}
   .chip.active{background:var(--brand);border-color:var(--brand);color:#fff;}
   .vdot{width:9px;height:9px;border-radius:3px;display:inline-block;}
-  .clear{margin-left:auto;background:none;border:none;color:var(--brand-deep);font-size:12px;font-weight:600;cursor:pointer;}
+  .clear{background:none;border:none;color:var(--brand-deep);font-size:12px;font-weight:600;cursor:pointer;padding:7px 4px;}
+  /* compact facet navigation: a row of dropdown buttons + a single overlay panel + active pills */
+  .facetbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;}
+  .facetbtn{display:inline-flex;align-items:center;gap:6px;background:#fff;border:1px solid var(--line-2);color:var(--body);padding:7px 12px;border-radius:10px;font-size:12.5px;font-weight:600;cursor:pointer;font-family:inherit;transition:.13s;white-space:nowrap;}
+  .facetbtn:hover{border-color:var(--brand);color:var(--brand-deep);}
+  .facetbtn.on{border-color:var(--brand);color:var(--brand-deep);background:var(--soft);}
+  .facetbtn.open{border-color:var(--brand);box-shadow:0 0 0 3px rgba(65,195,99,.15);}
+  .facetbtn .fcount{background:var(--brand);color:#fff;font-family:'JetBrains Mono',monospace;font-size:10px;border-radius:20px;padding:1px 6px;}
+  .facetbtn .caret{width:9px;height:6px;fill:none;stroke:currentColor;stroke-width:1.7;transition:transform .16s;}
+  .facetbtn.open .caret{transform:rotate(180deg);}
+  .popover{position:absolute;top:calc(100% + 7px);left:0;right:0;z-index:70;background:#fff;border:1px solid var(--line);border-radius:13px;box-shadow:var(--shadow-lg);padding:13px;max-height:min(58vh,380px);overflow:auto;}
+  .pophead{display:flex;justify-content:space-between;align-items:center;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--dim);margin-bottom:10px;}
+  .popclose{background:var(--brand);color:#fff;border:none;border-radius:8px;padding:5px 13px;font-size:11px;font-weight:700;cursor:pointer;font-family:inherit;}
+  .popchips{display:flex;flex-wrap:wrap;gap:6px;}
+  .pills{display:flex;flex-wrap:wrap;gap:6px;margin-top:9px;}
+  .pill{display:inline-flex;align-items:center;gap:6px;background:var(--brand);border:1px solid var(--brand);color:#fff;padding:4px 6px 4px 10px;border-radius:999px;font-size:11.5px;font-weight:600;cursor:pointer;font-family:inherit;}
+  .pill:hover{background:var(--brand-hover);}
+  .pill .x{font-size:14px;line-height:.9;opacity:.9;}
+  @media(max-width:640px){
+    .facetbar{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;padding-bottom:3px;scrollbar-width:none;}
+    .facetbar::-webkit-scrollbar{display:none;}
+    .facetbtn{flex:0 0 auto;}
+  }
   .resultbar{font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--muted);margin:16px 0 12px;}
 
   .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(258px,1fr));gap:18px;}
@@ -398,8 +418,8 @@ const vcolor=v=>VENDOR_COLOR[v]||VENDOR_COLOR.Other;
 function timeAgo(iso){const d=(Date.now()-new Date(iso).getTime())/864e5;if(isNaN(d))return"";if(d<1)return"today";if(d<7)return Math.floor(d)+"d";if(d<60)return Math.floor(d/7)+"w";if(d<730)return Math.floor(d/30)+"mo";return Math.floor(d/365)+"y";}
 
 const state={data:null,boards:[],repos:[],partners:[],boardBySlug:{},repoById:{},
-  view:"hardware",query:"",filters:{manufacturer:[],maker:[],topic:[],model:[],language:[],type:[],status:[],qual:[]}};
-const EMPTY_FILTERS=()=>({manufacturer:[],maker:[],topic:[],language:[],type:[],status:[],qual:[]});
+  view:"hardware",query:"",openFacet:null,filters:{manufacturer:[],maker:[],topic:[],model:[],language:[],type:[],status:[],qual:[]}};
+const EMPTY_FILTERS=()=>({manufacturer:[],maker:[],topic:[],model:[],language:[],type:[],status:[],qual:[]});
 const anyFilter=()=>Object.values(state.filters).some(a=>a.length)||state.query;
 
 function skel(n=8){$("#grid").innerHTML=Array.from({length:n},()=>`<div class="skel"></div>`).join("");}
@@ -460,27 +480,44 @@ function renderPartners(){
 
 /* ---------------- filters ---------------- */
 function chip(key,val,label,extra=""){const a=(state.filters[key]||[]).includes(val);return `<button class="chip ${a?"active":""}" data-key="${key}" data-val="${esc(val)}">${extra}${esc(label)}</button>`;}
+const FACET_LABELS={manufacturer:"Silicon",maker:"Board maker",qual:"Qualified",model:"AI model",topic:"Topic",type:"Type",language:"Language"};
+function facetOptions(key){
+  const F=state.data.facets;
+  if(key==="manufacturer")return (F.manufacturers||[]).map(v=>({val:v,label:v,dot:vcolor(v)}));
+  if(key==="maker")return (F.makers||[]).map(v=>({val:v,label:v,dot:vcolor(v)}));
+  if(key==="qual")return [{val:"AWS Qualified",label:"AWS Qualified"},{val:"Greengrass",label:"Greengrass"}];
+  if(key==="model")return (F.models||[]).map(m=>({val:m.model,label:m.name}));
+  if(key==="topic")return (F.topics||[]).map(t=>({val:t.tag,label:t.tag}));
+  if(key==="type")return [...new Set(state.repos.map(r=>r.category).filter(c=>c&&c!=="uncategorized"))].sort().map(t=>({val:t,label:t}));
+  if(key==="language")return [...new Set(state.repos.flatMap(r=>r.languages||[]))].sort().map(l=>({val:l,label:l}));
+  return [];
+}
+// Compact facet nav: a row of dropdown buttons, one overlay panel for the open facet,
+// and dismissible pills for the active selections. Keeps the sticky toolbar short so it
+// never buries the results — the option lists appear on demand as an overlay.
 function renderFilters(){
-  const f=document.createDocumentFragment(),el=$("#filters");
-  const makers=state.data.facets.makers||[];
-  let html=`<div class="frow"><span class="flabel">Silicon</span>${
-    state.data.facets.manufacturers.map(v=>chip("manufacturer",v,v,`<span class="vdot" style="background:${vcolor(v)}"></span>`)).join("")
-  }${anyFilter()?`<button class="clear" id="clearall">Clear all</button>`:""}</div>
-    <div class="frow"><span class="flabel">Board maker</span>${
-    makers.map(v=>chip("maker",v,v,`<span class="vdot" style="background:${vcolor(v)}"></span>`)).join("")}</div>`;
-  if(state.view==="hardware"){
-    html+=`<div class="frow"><span class="flabel">Qualified</span>${chip("qual","AWS Qualified","AWS Qualified")}${chip("qual","Greengrass","Greengrass")}</div>`;
-  }else{
-    const topics=state.data.facets.topics.slice(0,16).map(t=>chip("topic",t.tag,`${t.tag}`)).join("");
-    const models=(state.data.facets.models||[]).map(m=>chip("model",m.model,`${m.name}`)).join("");
-    const langs=[...new Set(state.repos.flatMap(r=>r.languages||[]))].sort();
-    const types=[...new Set(state.repos.map(r=>r.category).filter(c=>c&&c!=="uncategorized"))].sort();
-    html+=`<div class="frow"><span class="flabel">Topic</span>${topics}</div>`+
-      (models?`<div class="frow"><span class="flabel">AI model</span>${models}</div>`:"")+
-      `<div class="frow"><span class="flabel">Type</span>${types.map(t=>chip("type",t,t)).join("")}</div>
-      <div class="frow"><span class="flabel">Language</span>${langs.map(l=>chip("language",l,l)).join("")}</div>`;
+  const el=$("#filters");
+  const keys = state.view==="hardware" ? ["manufacturer","maker","qual"]
+             : ["manufacturer","maker","model","topic","type","language"];
+  const btns = keys.map(k=>{
+    const opts=facetOptions(k); if(!opts.length) return "";
+    const n=(state.filters[k]||[]).length, open=state.openFacet===k;
+    return `<button class="facetbtn ${n?"on":""} ${open?"open":""}" data-facet="${k}">${FACET_LABELS[k]}`+
+      `${n?`<span class="fcount">${n}</span>`:""}<svg class="caret" viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4"/></svg></button>`;
+  }).join("");
+  const pills=[];
+  keys.forEach(k=>(state.filters[k]||[]).forEach(v=>{
+    const o=facetOptions(k).find(o=>o.val===v);
+    pills.push(`<button class="pill" data-key="${k}" data-val="${esc(v)}" aria-label="Remove ${esc(o?o.label:v)}">${esc(o?o.label:v)}<span class="x" aria-hidden="true">×</span></button>`);
+  }));
+  let pop="";
+  if(state.openFacet && keys.includes(state.openFacet)){
+    const k=state.openFacet, opts=facetOptions(k);
+    pop=`<div class="popover"><div class="pophead">${FACET_LABELS[k]}<button class="popclose" data-facet="close">Done</button></div>`+
+      `<div class="popchips">${opts.map(o=>chip(k,o.val,o.label,o.dot?`<span class="vdot" style="background:${o.dot}"></span>`:"")).join("")}</div></div>`;
   }
-  el.innerHTML=html;
+  el.innerHTML=`<div class="facetbar">${btns}${anyFilter()?`<button class="clear" id="clearall">Clear all</button>`:""}</div>`+
+    `${pills.length?`<div class="pills">${pills.join("")}</div>`:""}${pop}`;
 }
 
 /* ---------------- matching ---------------- */
@@ -624,7 +661,7 @@ function applyPartner(idCsv,scroll){
 }
 
 function setView(v){
-  state.view=v;
+  state.view=v;state.openFacet=null;
   document.querySelectorAll("#viewSeg button").forEach(b=>b.classList.toggle("active",b.dataset.v===v));
   $("#secTitle").textContent=v==="hardware"?"Pre-enabled hardware":v==="software"?"SDKs, libraries & demos":"Browse by partner";
   $("#secSub").textContent=v==="hardware"?"Development boards with /IOTCONNECT support out of the box — click any board for guides, demos and where to buy.":
@@ -781,13 +818,21 @@ function openListing(id){
 
 /* ---------------- events ---------------- */
 document.addEventListener("click",e=>{
+  // close an open facet dropdown when clicking anywhere outside the filter area
+  if(state.openFacet && !e.target.closest("#filters")){state.openFacet=null;renderFilters();}
+  // facet dropdown button (open/close) or its "Done" button
+  const fbtn=e.target.closest("[data-facet]");
+  if(fbtn){const k=fbtn.dataset.facet;state.openFacet=(k==="close"||state.openFacet===k)?null:k;renderFilters();return;}
+  // dismiss an active-filter pill
+  const pill=e.target.closest(".pill");
+  if(pill){const {key,val}=pill.dataset;const a=state.filters[key];const i=a.indexOf(val);if(i>=0)a.splice(i,1);renderFilters();render();syncHash();return;}
   const card=e.target.closest(".card[data-board]");
   if(card){openDrawer(card.dataset.board);return;}
   const lcard=e.target.closest(".card[data-listing]");
   if(lcard){openListing(lcard.dataset.listing);return;}
   const chipEl=e.target.closest(".chip");
   if(chipEl){const {key,val}=chipEl.dataset;const arr=state.filters[key];const i=arr.indexOf(val);i>=0?arr.splice(i,1):arr.push(val);renderFilters();render();syncHash();return;}
-  if(e.target.id==="clearall"){state.filters=EMPTY_FILTERS();state.query="";$("#q").value="";renderFilters();render();syncHash();return;}
+  if(e.target.id==="clearall"){state.filters=EMPTY_FILTERS();state.query="";state.openFacet=null;$("#q").value="";renderFilters();render();syncHash();return;}
   const pl=e.target.closest(".plogo");
   if(pl){const v=pl.dataset.mfr,arr=state.filters.manufacturer,i=arr.indexOf(v);i>=0?arr.splice(i,1):arr.push(v);
     setView((state.view==="software"||state.view==="maker")?state.view:"hardware");syncHash();
