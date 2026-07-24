@@ -17,3 +17,4 @@ midas-depth,MiDaS (monocular depth),depth estimation,TFLite,Intel / community,Mi
 polarfire-tinyml,PolarFire SoC TinyML NN,neural-net classification (FPGA-accelerated),SmartHLS (FPGA) + software,Microchip,PolarFire SoC ML,https://www.microchip.com/en-us/products/fpgas-and-plds,yes
 eiq-tflm,NXP eIQ TensorFlow-Lite-Micro model,on-MCU classification,eIQ / TFLite-Micro,NXP,NXP eIQ (MCUXpresso),https://www.nxp.com/eiq,yes
 yolov8,YOLOv8 (Ultralytics),object detection,ONNX / TFLite / Hexagon NPU,Ultralytics,Ultralytics,https://docs.ultralytics.com,yes
+jetson-inference,NVIDIA Jetson Inference (DetectNet / PoseNet / SegNet / ImageNet / DepthNet / ActionNet),"multi-task vision (detection, pose, segmentation, classification, depth, action)",TensorRT (jetson-inference),NVIDIA,dusty-nv / jetson-inference,https://github.com/dusty-nv/jetson-inference,yes
