@@ -1,12 +1,12 @@
 # /IOTCONNECT Index — Audit Report
 
-_Generated 2026-07-20T09:57:58Z_  ·  196 listings · 90 boards (81 in use) · 17 manufacturers · 214 resources
+_Generated 2026-07-24T18:42:54Z_  ·  199 listings · 91 boards (82 in use) · 17 manufacturers · 214 resources
 
 ## ⚠ Boards referenced but missing from the Boards sheet
 - **uno** — referenced by: Vision AI Demonstrator
 
 ## Boards with no image (Azure or local)
-- none.
+- NXP · IMX95 Freedom Board (FRDM-IMX95)
 
 ## Boards not used by any listing (orphans)
 - Intel · MXE-230 Series Fanless Embedded Computer (MXE-230)

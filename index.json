@@ -1,6 +1,6 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-07-20T09:57:58Z",
+  "generated": "2026-07-24T18:42:54Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
@@ -36,7 +36,7 @@
       "logo": null,
       "info": null,
       "boards": 2,
-      "listings": 3
+      "listings": 4
     },
     {
       "name": "Espressif",
@@ -83,8 +83,8 @@
       "slug": "nxp",
       "logo": "assets/brand/nxp-logo.png",
       "info": "https://www.avnet.com/iotconnect/nxp",
-      "boards": 11,
-      "listings": 28
+      "boards": 12,
+      "listings": 30
     },
     {
       "name": "Nordic",
@@ -337,19 +337,19 @@
     "topics": [
       {
         "tag": "edge-ai",
-        "count": 62
+        "count": 65
+      },
+      {
+        "tag": "vision",
+        "count": 32
       },
       {
         "tag": "gateway",
         "count": 31
       },
       {
-        "tag": "vision",
-        "count": 31
-      },
-      {
         "tag": "sensors",
-        "count": 27
+        "count": 28
       },
       {
         "tag": "ai",
@@ -400,16 +400,16 @@
         "count": 12
       },
       {
+        "tag": "npu",
+        "count": 12
+      },
+      {
         "tag": "tls",
         "count": 12
       },
       {
-        "tag": "npu",
-        "count": 11
-      },
-      {
         "tag": "zephyr",
-        "count": 10
+        "count": 11
       },
       {
         "tag": "webrtc",
@@ -508,6 +508,10 @@
         "count": 2
       },
       {
+        "tag": "object-detection",
+        "count": 2
+      },
+      {
         "tag": "radar",
         "count": 2
       },
@@ -564,7 +568,15 @@
         "count": 1
       },
       {
+        "tag": "genai",
+        "count": 1
+      },
+      {
         "tag": "hardware-crypto",
+        "count": 1
+      },
+      {
+        "tag": "llm",
         "count": 1
       },
       {
@@ -581,10 +593,6 @@
       },
       {
         "tag": "mlops",
-        "count": 1
-      },
-      {
-        "tag": "object-detection",
         "count": 1
       },
       {
@@ -639,6 +647,15 @@
         "count": 13
       },
       {
+        "model": "polarfire-tinyml",
+        "name": "PolarFire SoC TinyML NN",
+        "task": "neural-net classification (FPGA-accelerated)",
+        "framework": "SmartHLS (FPGA) + software",
+        "vendor": "Microchip",
+        "link": "https://www.microchip.com/en-us/products/fpgas-and-plds",
+        "count": 6
+      },
+      {
         "model": "stm32-modelzoo-od",
         "name": "STM32 Model Zoo - Object Detection",
         "task": "object detection",
@@ -646,6 +663,24 @@
         "vendor": "STMicroelectronics",
         "link": "https://github.com/STMicroelectronics/stm32ai-modelzoo",
         "count": 5
+      },
+      {
+        "model": "dscnn-kws",
+        "name": "DS-CNN Keyword Spotting",
+        "task": "keyword spotting",
+        "framework": "TFLite (Arm ML Zoo) + PyTorch retrain",
+        "vendor": "Arm / Microchip",
+        "link": "https://github.com/ARM-software/ML-zoo",
+        "count": 3
+      },
+      {
+        "model": "eiq-vision-dms",
+        "name": "NXP eIQ Vision AI (Driver Monitoring)",
+        "task": "face / driver monitoring (eye, head-pose, drowsiness)",
+        "framework": "eIQ Vision AI (TFLite / Vela)",
+        "vendor": "NXP",
+        "link": "https://www.nxp.com/eiq",
+        "count": 3
       },
       {
         "model": "stm32-modelzoo-aed",
@@ -657,6 +692,15 @@
         "count": 3
       },
       {
+        "model": "drp-ai",
+        "name": "Renesas DRP-AI (YOLOv3 / EdgeYOLO / UNet)",
+        "task": "object detection / pose / meter reading",
+        "framework": "DRP-AI TVM",
+        "vendor": "Renesas",
+        "link": "https://www.renesas.com/rzv",
+        "count": 2
+      },
+      {
         "model": "nanoedge-ai",
         "name": "ST NanoEdge AI (NEAI)",
         "task": "anomaly detection",
@@ -666,12 +710,57 @@
         "count": 2
       },
       {
+        "model": "yolov8",
+        "name": "YOLOv8 (Ultralytics)",
+        "task": "object detection",
+        "framework": "ONNX / TFLite / Hexagon NPU",
+        "vendor": "Ultralytics",
+        "link": "https://docs.ultralytics.com",
+        "count": 2
+      },
+      {
         "model": "cnn-occupancy",
         "name": "CNN Vehicle-Occupancy",
         "task": "object detection",
         "framework": "TFLite",
         "vendor": "Avnet (custom)",
         "link": null,
+        "count": 1
+      },
+      {
+        "model": "eiq-genai-llm",
+        "name": "NXP eIQ GenAI Flow (Danube-500M)",
+        "task": "on-device conversational AI / LLM",
+        "framework": "eIQ GenAI Flow (CPU / Neutron NPU)",
+        "vendor": "NXP",
+        "link": "https://www.nxp.com/design/design-center/software/embedded-software/eiq-genai-flow-conversational-ai-software-pipeline-on-edge-devices:GEN-AI-FLOW",
+        "count": 1
+      },
+      {
+        "model": "eiq-tflm",
+        "name": "NXP eIQ TensorFlow-Lite-Micro model",
+        "task": "on-MCU classification",
+        "framework": "eIQ / TFLite-Micro",
+        "vendor": "NXP",
+        "link": "https://www.nxp.com/eiq",
+        "count": 1
+      },
+      {
+        "model": "mediapipe-pointnet",
+        "name": "MediaPipe Hands + PointNet",
+        "task": "hand / ASL gesture recognition",
+        "framework": "MediaPipe + PyTorch",
+        "vendor": "Google / community",
+        "link": "https://developers.google.com/mediapipe",
+        "count": 1
+      },
+      {
+        "model": "midas-depth",
+        "name": "MiDaS (monocular depth)",
+        "task": "depth estimation",
+        "framework": "TFLite",
+        "vendor": "Intel / community",
+        "link": "https://github.com/isl-org/MiDaS",
         "count": 1
       },
       {
@@ -690,15 +779,6 @@
         "framework": "OpenVINO (Intel iGPU)",
         "vendor": "Alibaba",
         "link": "https://huggingface.co/Qwen",
-        "count": 1
-      },
-      {
-        "model": "yolo-ultralytics",
-        "name": "YOLO (Ultralytics custom-trained)",
-        "task": "object detection",
-        "framework": "ONNX / TFLite",
-        "vendor": "Ultralytics",
-        "link": "https://docs.ultralytics.com",
         "count": 1
       },
       {
@@ -1358,7 +1438,7 @@
         ],
         "integrator": "NXP",
         "maker": "NXP",
-        "listings": 5
+        "listings": 6
       },
       {
         "slug": "s32g-vnp-gldbox",
@@ -1484,6 +1564,22 @@
         "integrator": "NXP",
         "maker": "NXP",
         "listings": 11
+      },
+      {
+        "slug": "frdm-imx95",
+        "vendor": "NXP",
+        "name": "IMX95 Freedom Board",
+        "partNumber": "FRDM-IMX95",
+        "image": null,
+        "imageLocal": null,
+        "link": "https://www.nxp.com/design/design-center/development-boards-and-designs/frdm-imx-95-development-board:FRDM-IMX95",
+        "buy": null,
+        "qualifications": [],
+        "tags": [],
+        "resources": [],
+        "integrator": "NXP",
+        "maker": "NXP",
+        "listings": 1
       },
       {
         "slug": "jetson-orin",
@@ -2312,7 +2408,7 @@
         ],
         "integrator": "Raspberry Pi",
         "maker": "Raspberry Pi",
-        "listings": 3
+        "listings": 4
       },
       {
         "slug": "aes-rasynb-120",
@@ -3401,13 +3497,13 @@
     ]
   },
   "counts": {
-    "total": 196,
+    "total": 199,
     "manufacturers": 17,
-    "boards": 90,
+    "boards": 91,
     "sdks": 28,
     "tools": 6,
-    "examples": 162,
-    "models": 10,
+    "examples": 165,
+    "models": 18,
     "guides": 80,
     "demos": 12,
     "partners": 9
@@ -4756,7 +4852,7 @@
         "vision"
       ],
       "stars": 0,
-      "updated": "2026-07-20T02:30:51Z",
+      "updated": "2026-07-22T23:24:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -4809,7 +4905,7 @@
         "vision"
       ],
       "stars": 0,
-      "updated": "2026-07-20T02:30:51Z",
+      "updated": "2026-07-22T23:24:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -4862,7 +4958,7 @@
         "vision"
       ],
       "stars": 0,
-      "updated": "2026-07-20T02:30:51Z",
+      "updated": "2026-07-22T23:24:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -5423,7 +5519,16 @@
       "photos": [
         "https://saleshosted.z13.web.core.windows.net/images/demos/NXPboards.png"
       ],
-      "models": [],
+      "models": [
+        {
+          "slug": "drp-ai",
+          "name": "Renesas DRP-AI (YOLOv3 / EdgeYOLO / UNet)",
+          "task": "object detection / pose / meter reading",
+          "framework": "DRP-AI TVM",
+          "vendor": "Renesas",
+          "link": "https://www.renesas.com/rzv"
+        }
+      ],
       "described": true,
       "hidden": false,
       "id": "managing-edge-ai-rzboard-v2l",
@@ -7232,7 +7337,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-07-20T02:30:35Z",
+      "updated": "2026-07-21T01:39:21Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/nxp-imx93andmcxn.JPG",
       "dashboards": [
         "https://saleshosted.z13.web.core.windows.net/dashboard/r3/nxp-frdm93-workersafty.PNG"
@@ -7301,12 +7406,28 @@
           "link": "https://aihub.qualcomm.com"
         },
         {
-          "slug": "yolo-ultralytics",
-          "name": "YOLO (Ultralytics custom-trained)",
+          "slug": "yolov8",
+          "name": "YOLOv8 (Ultralytics)",
           "task": "object detection",
-          "framework": "ONNX / TFLite",
+          "framework": "ONNX / TFLite / Hexagon NPU",
           "vendor": "Ultralytics",
           "link": "https://docs.ultralytics.com"
+        },
+        {
+          "slug": "mediapipe-pointnet",
+          "name": "MediaPipe Hands + PointNet",
+          "task": "hand / ASL gesture recognition",
+          "framework": "MediaPipe + PyTorch",
+          "vendor": "Google / community",
+          "link": "https://developers.google.com/mediapipe"
+        },
+        {
+          "slug": "midas-depth",
+          "name": "MiDaS (monocular depth)",
+          "task": "depth estimation",
+          "framework": "TFLite",
+          "vendor": "Intel / community",
+          "link": "https://github.com/isl-org/MiDaS"
         }
       ],
       "described": true,
@@ -7658,7 +7779,7 @@
         "modustoolbox"
       ],
       "stars": 0,
-      "updated": "2025-10-27T14:52:26Z",
+      "updated": "2026-07-20T18:58:35Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ifx-psoc6andedge-deepcraft.JPG",
       "dashboards": [],
       "photos": [],
@@ -8639,11 +8760,20 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-07-20T02:30:35Z",
+      "updated": "2026-07-21T01:39:21Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-scalable-ai-placard.JPG",
       "dashboards": [],
       "photos": [],
-      "models": [],
+      "models": [
+        {
+          "slug": "polarfire-tinyml",
+          "name": "PolarFire SoC TinyML NN",
+          "task": "neural-net classification (FPGA-accelerated)",
+          "framework": "SmartHLS (FPGA) + software",
+          "vendor": "Microchip",
+          "link": "https://www.microchip.com/en-us/products/fpgas-and-plds"
+        }
+      ],
       "described": true,
       "hidden": false,
       "id": "polarfire-soc-dk-complex-neural-network-accelerator",
@@ -8691,11 +8821,20 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-07-20T02:30:35Z",
+      "updated": "2026-07-21T01:39:21Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-scalable-ai-placard.JPG",
       "dashboards": [],
       "photos": [],
-      "models": [],
+      "models": [
+        {
+          "slug": "polarfire-tinyml",
+          "name": "PolarFire SoC TinyML NN",
+          "task": "neural-net classification (FPGA-accelerated)",
+          "framework": "SmartHLS (FPGA) + software",
+          "vendor": "Microchip",
+          "link": "https://www.microchip.com/en-us/products/fpgas-and-plds"
+        }
+      ],
       "described": true,
       "hidden": false,
       "id": "polarfire-soc-dk-simple-neural-network-accelerator",
@@ -8743,11 +8882,20 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-07-20T02:30:35Z",
+      "updated": "2026-07-21T01:39:21Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-scalable-ai-placard.JPG",
       "dashboards": [],
       "photos": [],
-      "models": [],
+      "models": [
+        {
+          "slug": "polarfire-tinyml",
+          "name": "PolarFire SoC TinyML NN",
+          "task": "neural-net classification (FPGA-accelerated)",
+          "framework": "SmartHLS (FPGA) + software",
+          "vendor": "Microchip",
+          "link": "https://www.microchip.com/en-us/products/fpgas-and-plds"
+        }
+      ],
       "described": true,
       "hidden": false,
       "id": "polarfire-soc-dk-template-correlation-classifier",
@@ -8795,11 +8943,20 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-07-20T02:30:35Z",
+      "updated": "2026-07-21T01:39:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
-      "models": [],
+      "models": [
+        {
+          "slug": "polarfire-tinyml",
+          "name": "PolarFire SoC TinyML NN",
+          "task": "neural-net classification (FPGA-accelerated)",
+          "framework": "SmartHLS (FPGA) + software",
+          "vendor": "Microchip",
+          "link": "https://www.microchip.com/en-us/products/fpgas-and-plds"
+        }
+      ],
       "described": true,
       "hidden": false,
       "id": "polarfire-video-kit-template-correlation-classifier",
@@ -8845,11 +9002,20 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-07-20T02:30:35Z",
+      "updated": "2026-07-21T01:39:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
-      "models": [],
+      "models": [
+        {
+          "slug": "polarfire-tinyml",
+          "name": "PolarFire SoC TinyML NN",
+          "task": "neural-net classification (FPGA-accelerated)",
+          "framework": "SmartHLS (FPGA) + software",
+          "vendor": "Microchip",
+          "link": "https://www.microchip.com/en-us/products/fpgas-and-plds"
+        }
+      ],
       "described": true,
       "hidden": false,
       "id": "polarfire-video-kit-simple-neural-network-accelerator",
@@ -8895,11 +9061,20 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-07-20T02:30:35Z",
+      "updated": "2026-07-21T01:39:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
-      "models": [],
+      "models": [
+        {
+          "slug": "polarfire-tinyml",
+          "name": "PolarFire SoC TinyML NN",
+          "task": "neural-net classification (FPGA-accelerated)",
+          "framework": "SmartHLS (FPGA) + software",
+          "vendor": "Microchip",
+          "link": "https://www.microchip.com/en-us/products/fpgas-and-plds"
+        }
+      ],
       "described": true,
       "hidden": false,
       "id": "polarfire-video-kit-complex-neural-network-accelerator",
@@ -8945,11 +9120,20 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-07-20T02:30:35Z",
+      "updated": "2026-07-21T01:39:21Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-kws-placard.JPG",
       "dashboards": [],
       "photos": [],
-      "models": [],
+      "models": [
+        {
+          "slug": "dscnn-kws",
+          "name": "DS-CNN Keyword Spotting",
+          "task": "keyword spotting",
+          "framework": "TFLite (Arm ML Zoo) + PyTorch retrain",
+          "vendor": "Arm / Microchip",
+          "link": "https://github.com/ARM-software/ML-zoo"
+        }
+      ],
       "described": true,
       "hidden": false,
       "id": "sama7d65-curiosity-keyword-spotting",
@@ -8994,11 +9178,20 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-07-20T02:30:35Z",
+      "updated": "2026-07-21T01:39:21Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-kws-placard.JPG",
       "dashboards": [],
       "photos": [],
-      "models": [],
+      "models": [
+        {
+          "slug": "dscnn-kws",
+          "name": "DS-CNN Keyword Spotting",
+          "task": "keyword spotting",
+          "framework": "TFLite (Arm ML Zoo) + PyTorch retrain",
+          "vendor": "Arm / Microchip",
+          "link": "https://github.com/ARM-software/ML-zoo"
+        }
+      ],
       "described": true,
       "hidden": false,
       "id": "sama7d65-curiosity-voice-blackjack-kws-game",
@@ -9044,11 +9237,20 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-07-20T02:30:35Z",
+      "updated": "2026-07-21T01:39:21Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-kws-placard.JPG",
       "dashboards": [],
       "photos": [],
-      "models": [],
+      "models": [
+        {
+          "slug": "dscnn-kws",
+          "name": "DS-CNN Keyword Spotting",
+          "task": "keyword spotting",
+          "framework": "TFLite (Arm ML Zoo) + PyTorch retrain",
+          "vendor": "Arm / Microchip",
+          "link": "https://github.com/ARM-software/ML-zoo"
+        }
+      ],
       "described": true,
       "hidden": false,
       "id": "sama7d65-curiosity-kws-training-studio",
@@ -9092,7 +9294,7 @@
         "sensors"
       ],
       "stars": 3,
-      "updated": "2026-07-20T02:30:35Z",
+      "updated": "2026-07-21T01:39:21Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-kws-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -9141,7 +9343,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-07-20T02:30:35Z",
+      "updated": "2026-07-21T01:39:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9190,11 +9392,20 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-07-20T02:30:35Z",
+      "updated": "2026-07-21T01:39:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
-      "models": [],
+      "models": [
+        {
+          "slug": "eiq-vision-dms",
+          "name": "NXP eIQ Vision AI (Driver Monitoring)",
+          "task": "face / driver monitoring (eye, head-pose, drowsiness)",
+          "framework": "eIQ Vision AI (TFLite / Vela)",
+          "vendor": "NXP",
+          "link": "https://www.nxp.com/eiq"
+        }
+      ],
       "described": true,
       "hidden": false,
       "id": "i-mx93-driver-monitoring-dms-vision-ai",
@@ -9242,11 +9453,20 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-07-20T02:30:35Z",
+      "updated": "2026-07-21T01:39:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
-      "models": [],
+      "models": [
+        {
+          "slug": "eiq-vision-dms",
+          "name": "NXP eIQ Vision AI (Driver Monitoring)",
+          "task": "face / driver monitoring (eye, head-pose, drowsiness)",
+          "framework": "eIQ Vision AI (TFLite / Vela)",
+          "vendor": "NXP",
+          "link": "https://www.nxp.com/eiq"
+        }
+      ],
       "described": true,
       "hidden": false,
       "id": "i-mx93-driver-monitoring-with-face-recognition",
@@ -9292,7 +9512,7 @@
         "file-upload"
       ],
       "stars": 3,
-      "updated": "2026-07-20T02:30:35Z",
+      "updated": "2026-07-21T01:39:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9343,7 +9563,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-07-20T02:30:35Z",
+      "updated": "2026-07-21T01:39:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9395,7 +9615,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-07-20T02:30:35Z",
+      "updated": "2026-07-21T01:39:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9447,11 +9667,20 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-07-20T02:30:35Z",
+      "updated": "2026-07-21T01:39:21Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ren-rzv2h-placard.JPG",
       "dashboards": [],
       "photos": [],
-      "models": [],
+      "models": [
+        {
+          "slug": "drp-ai",
+          "name": "Renesas DRP-AI (YOLOv3 / EdgeYOLO / UNet)",
+          "task": "object detection / pose / meter reading",
+          "framework": "DRP-AI TVM",
+          "vendor": "Renesas",
+          "link": "https://www.renesas.com/rzv"
+        }
+      ],
       "described": true,
       "hidden": false,
       "id": "rz-v2h-evk-ai-inference-vision",
@@ -9495,7 +9724,7 @@
         "sensors"
       ],
       "stars": 3,
-      "updated": "2026-07-20T02:30:35Z",
+      "updated": "2026-07-21T01:39:21Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ren-rzv2h-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -9544,7 +9773,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-07-20T02:30:35Z",
+      "updated": "2026-07-21T01:39:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9604,7 +9833,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-07-20T02:30:35Z",
+      "updated": "2026-07-21T01:39:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9656,7 +9885,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-07-20T02:30:35Z",
+      "updated": "2026-07-21T01:39:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9706,7 +9935,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-07-20T02:30:35Z",
+      "updated": "2026-07-21T01:39:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9756,7 +9985,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-07-20T02:30:35Z",
+      "updated": "2026-07-21T01:39:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9807,7 +10036,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-07-20T02:30:35Z",
+      "updated": "2026-07-21T01:39:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9867,7 +10096,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-07-20T02:30:35Z",
+      "updated": "2026-07-21T01:39:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9919,7 +10148,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-07-20T02:30:35Z",
+      "updated": "2026-07-21T01:39:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9969,7 +10198,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-07-20T02:30:35Z",
+      "updated": "2026-07-21T01:39:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10019,7 +10248,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-07-20T02:30:35Z",
+      "updated": "2026-07-21T01:39:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10070,7 +10299,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-07-20T02:30:35Z",
+      "updated": "2026-07-21T01:39:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10122,7 +10351,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-07-20T02:30:35Z",
+      "updated": "2026-07-21T01:39:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10172,7 +10401,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-07-20T02:30:35Z",
+      "updated": "2026-07-21T01:39:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10222,7 +10451,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-07-20T02:30:35Z",
+      "updated": "2026-07-21T01:39:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10273,7 +10502,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-07-20T02:30:35Z",
+      "updated": "2026-07-21T01:39:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10325,7 +10554,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-07-20T02:30:35Z",
+      "updated": "2026-07-21T01:39:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10376,11 +10605,20 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-07-20T02:30:35Z",
+      "updated": "2026-07-21T01:39:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
-      "models": [],
+      "models": [
+        {
+          "slug": "eiq-vision-dms",
+          "name": "NXP eIQ Vision AI (Driver Monitoring)",
+          "task": "face / driver monitoring (eye, head-pose, drowsiness)",
+          "framework": "eIQ Vision AI (TFLite / Vela)",
+          "vendor": "NXP",
+          "link": "https://www.nxp.com/eiq"
+        }
+      ],
       "described": true,
       "hidden": false,
       "id": "maaxboard-osm93-driver-monitoring-dms-vision-ai",
@@ -10431,7 +10669,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-07-20T02:30:35Z",
+      "updated": "2026-07-21T01:39:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10485,7 +10723,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-07-20T02:30:35Z",
+      "updated": "2026-07-21T01:39:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10537,7 +10775,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-07-20T02:30:35Z",
+      "updated": "2026-07-21T01:39:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10587,7 +10825,7 @@
         "greengrass"
       ],
       "stars": 0,
-      "updated": "2026-07-20T02:30:51Z",
+      "updated": "2026-07-22T23:24:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10637,7 +10875,7 @@
         "greengrass"
       ],
       "stars": 0,
-      "updated": "2026-07-20T02:30:51Z",
+      "updated": "2026-07-22T23:24:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10687,7 +10925,7 @@
         "greengrass"
       ],
       "stars": 0,
-      "updated": "2026-07-20T02:30:51Z",
+      "updated": "2026-07-22T23:24:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10737,7 +10975,7 @@
         "greengrass"
       ],
       "stars": 0,
-      "updated": "2026-07-20T02:30:51Z",
+      "updated": "2026-07-22T23:24:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10787,7 +11025,7 @@
         "greengrass"
       ],
       "stars": 0,
-      "updated": "2026-07-20T02:30:51Z",
+      "updated": "2026-07-22T23:24:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10835,7 +11073,7 @@
         "greengrass"
       ],
       "stars": 0,
-      "updated": "2026-07-20T02:30:51Z",
+      "updated": "2026-07-22T23:24:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10885,7 +11123,7 @@
         "greengrass"
       ],
       "stars": 0,
-      "updated": "2026-07-20T02:30:51Z",
+      "updated": "2026-07-22T23:24:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10935,7 +11173,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-07-20T02:30:35Z",
+      "updated": "2026-07-21T01:39:21Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/arduino-unoq-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -10985,7 +11223,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-07-20T02:30:35Z",
+      "updated": "2026-07-21T01:39:21Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-scalable-ai-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -11035,7 +11273,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-07-20T02:30:35Z",
+      "updated": "2026-07-21T01:39:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -11083,7 +11321,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-07-20T02:30:35Z",
+      "updated": "2026-07-21T01:39:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -11135,7 +11373,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-07-20T02:30:35Z",
+      "updated": "2026-07-21T01:39:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -11188,7 +11426,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-07-20T02:30:35Z",
+      "updated": "2026-07-21T01:39:21Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ren-rzg3e-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -13527,6 +13765,184 @@
       "board": null,
       "manufacturers": [],
       "makers": []
+    },
+    {
+      "repo": "iotc-python-lite-sdk-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/nxp-frdm-imx-95/genai-flow-demo",
+      "displayName": "i.MX95 — Edge GenAI (eIQ GenAI Flow)",
+      "description": "On-device Generative AI on the NXP FRDM i.MX 95: NXP eIQ GenAI Flow runs a Danube-500M conversational LLM locally (CPU / Neutron NPU) and streams live LLM performance telemetry (tokens/sec, time-to-first-token, CPU, memory, temperature) to /IOTCONNECT.",
+      "category": "sample",
+      "status": "beta",
+      "release": null,
+      "languages": [
+        "Python"
+      ],
+      "features": [
+        "edge-ai",
+        "genai",
+        "llm",
+        "npu"
+      ],
+      "stars": 3,
+      "updated": "2026-07-21T01:39:21Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "models": [
+        {
+          "slug": "eiq-genai-llm",
+          "name": "NXP eIQ GenAI Flow (Danube-500M)",
+          "task": "on-device conversational AI / LLM",
+          "framework": "eIQ GenAI Flow (CPU / Neutron NPU)",
+          "vendor": "NXP",
+          "link": "https://www.nxp.com/design/design-center/software/embedded-software/eiq-genai-flow-conversational-ai-software-pipeline-on-edge-devices:GEN-AI-FLOW"
+        }
+      ],
+      "described": true,
+      "hidden": false,
+      "id": "i-mx95-edge-genai-eiq-genai-flow",
+      "boards": [
+        {
+          "slug": "frdm-imx95",
+          "vendor": "NXP",
+          "name": "IMX95 Freedom Board",
+          "maker": "NXP",
+          "partNumber": "FRDM-IMX95"
+        }
+      ],
+      "board": {
+        "slug": "frdm-imx95",
+        "vendor": "NXP",
+        "name": "IMX95 Freedom Board",
+        "maker": "NXP",
+        "partNumber": "FRDM-IMX95"
+      },
+      "manufacturers": [
+        "NXP"
+      ],
+      "makers": [
+        "NXP"
+      ]
+    },
+    {
+      "repo": "iotc-python-lite-snap-examples",
+      "url": "https://github.com/avnet-iotconnect/iotc-python-lite-snap-examples/tree/main/examples/raspberry-pi5-iotc-vision-ai-pi5",
+      "displayName": "Raspberry Pi 5 — Vision AI (Fruit Counting)",
+      "description": "Runs Ultralytics YOLO on a Raspberry Pi 5 to count fruit in a camera zone and stream counts to /IOTCONNECT every N seconds, with live command control (pause/resume, interval, counting line). Packaged as a Python Lite SDK snap example.",
+      "category": "sample",
+      "status": "beta",
+      "release": null,
+      "languages": [
+        "Python"
+      ],
+      "features": [
+        "edge-ai",
+        "object-detection",
+        "vision"
+      ],
+      "stars": 1,
+      "updated": "2026-06-09T14:18:04Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "models": [
+        {
+          "slug": "yolov8",
+          "name": "YOLOv8 (Ultralytics)",
+          "task": "object detection",
+          "framework": "ONNX / TFLite / Hexagon NPU",
+          "vendor": "Ultralytics",
+          "link": "https://docs.ultralytics.com"
+        }
+      ],
+      "described": true,
+      "hidden": false,
+      "id": "raspberry-pi-5-vision-ai-fruit-counting",
+      "boards": [
+        {
+          "slug": "rpi5-4gb-single",
+          "vendor": "Broadcom",
+          "name": "Raspberry Pi5 4GB",
+          "maker": "Raspberry Pi",
+          "integrator": "Raspberry Pi",
+          "partNumber": "RPI5-4GB-SINGLE",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/RPI5.png"
+        }
+      ],
+      "board": {
+        "slug": "rpi5-4gb-single",
+        "vendor": "Broadcom",
+        "name": "Raspberry Pi5 4GB",
+        "maker": "Raspberry Pi",
+        "integrator": "Raspberry Pi",
+        "partNumber": "RPI5-4GB-SINGLE",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/RPI5.png"
+      },
+      "manufacturers": [
+        "Broadcom"
+      ],
+      "makers": [
+        "Raspberry Pi"
+      ]
+    },
+    {
+      "repo": "iotc-mcx-zephyr-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-mcx-zephyr-demos",
+      "displayName": "MCX N947 — Zephyr TinyML (eIQ)",
+      "description": "Zephyr RTOS example on the NXP FRDM-MCXN947 running an on-MCU NXP eIQ TensorFlow-Lite-Micro model and reporting inference results to /IOTCONNECT.",
+      "category": "sample",
+      "status": "beta",
+      "release": null,
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "edge-ai",
+        "sensors",
+        "zephyr"
+      ],
+      "stars": 0,
+      "updated": "2025-11-22T04:11:37Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "models": [
+        {
+          "slug": "eiq-tflm",
+          "name": "NXP eIQ TensorFlow-Lite-Micro model",
+          "task": "on-MCU classification",
+          "framework": "eIQ / TFLite-Micro",
+          "vendor": "NXP",
+          "link": "https://www.nxp.com/eiq"
+        }
+      ],
+      "described": true,
+      "hidden": false,
+      "id": "mcx-n947-zephyr-tinyml-eiq",
+      "boards": [
+        {
+          "slug": "frdm-mcxn947",
+          "vendor": "NXP",
+          "name": "FRDM Development Board for MCX N94/N54 MCUs",
+          "maker": "NXP",
+          "partNumber": "FRDM-MCXN947",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-MCXN947.png"
+        }
+      ],
+      "board": {
+        "slug": "frdm-mcxn947",
+        "vendor": "NXP",
+        "name": "FRDM Development Board for MCX N94/N54 MCUs",
+        "maker": "NXP",
+        "partNumber": "FRDM-MCXN947",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-MCXN947.png"
+      },
+      "manufacturers": [
+        "NXP"
+      ],
+      "makers": [
+        "NXP"
+      ]
     }
   ]
 }
