@@ -1,6 +1,6 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-07-24T22:02:40Z",
+  "generated": "2026-07-25T16:31:07Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
@@ -710,6 +710,15 @@
         "count": 2
       },
       {
+        "model": "mediapipe-pointnet",
+        "name": "MediaPipe Hands + PointNet",
+        "task": "hand / ASL gesture recognition",
+        "framework": "MediaPipe + PyTorch",
+        "vendor": "Google / community",
+        "link": "https://developers.google.com/mediapipe",
+        "count": 2
+      },
+      {
         "model": "nanoedge-ai",
         "name": "ST NanoEdge AI (NEAI)",
         "task": "anomaly detection",
@@ -752,15 +761,6 @@
         "framework": "eIQ / TFLite-Micro",
         "vendor": "NXP",
         "link": "https://www.nxp.com/eiq",
-        "count": 1
-      },
-      {
-        "model": "mediapipe-pointnet",
-        "name": "MediaPipe Hands + PointNet",
-        "task": "hand / ASL gesture recognition",
-        "framework": "MediaPipe + PyTorch",
-        "vendor": "Google / community",
-        "link": "https://developers.google.com/mediapipe",
         "count": 1
       },
       {
@@ -6173,7 +6173,16 @@
         "https://saleshosted.z13.web.core.windows.net/dashboard/r2/tria-qualcom-dragonwing.png"
       ],
       "photos": [],
-      "models": [],
+      "models": [
+        {
+          "slug": "mediapipe-pointnet",
+          "name": "MediaPipe Hands + PointNet",
+          "task": "hand / ASL gesture recognition",
+          "framework": "MediaPipe + PyTorch",
+          "vendor": "Google / community",
+          "link": "https://developers.google.com/mediapipe"
+        }
+      ],
       "described": true,
       "hidden": false,
       "id": "qcs6490-vision-ai-demo",
