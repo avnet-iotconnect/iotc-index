@@ -1,6 +1,6 @@
 # /IOTCONNECT Index — Audit Report
 
-_Generated 2026-07-24T18:42:54Z_  ·  199 listings · 91 boards (82 in use) · 17 manufacturers · 214 resources
+_Generated 2026-08-10T08:25:07Z_  ·  199 listings · 91 boards (82 in use) · 17 manufacturers · 214 resources
 
 ## ⚠ Boards referenced but missing from the Boards sheet
 - **uno** — referenced by: Vision AI Demonstrator
@@ -22,7 +22,10 @@ _Generated 2026-07-24T18:42:54Z_  ·  199 listings · 91 boards (82 in use) · 1
 
 ## Org repos with no listing (candidates to add)
 - iotc-mchp-wfi32-freertos-wolfssl — /IOTCONNECT demo for Microchip WFI32-IoT with wolfSSL and Amazon-FreeRTOS.
+- iotc-pf-vk-demo — no description
 - iotc-mchp-sama7d65-rnwf11 — Connect Microchip SAMA7D65 to /IOTCONNECT via RNWF11 Wi-Fi module.
+- iotc-mchp-sama7d65-wbz451 — Bluetooth(BLE) project to scan Apple iBeacon advertisement data via Microchip SAMA7D65 and publish to /IOTCONNECT
+- iotc-mchp-pic32cmls60 — Connect Microchip PIC32CMLS60 with WINC1510 to IOTCONNECT sending and receiving telemetry data.
 
 ## Listings missing description or topics
 - none.
