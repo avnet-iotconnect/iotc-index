@@ -1,6 +1,6 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-08-10T08:25:07Z",
+  "generated": "2026-08-12T21:37:22Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
@@ -1580,7 +1580,7 @@
         "name": "IMX95 Freedom Board",
         "partNumber": "FRDM-IMX95",
         "image": null,
-        "imageLocal": null,
+        "imageLocal": "assets/boards/FRDM-IMX95.jpg",
         "link": "https://www.nxp.com/design/design-center/development-boards-and-designs/frdm-imx-95-development-board:FRDM-IMX95",
         "buy": null,
         "qualifications": [],
@@ -3577,7 +3577,7 @@
       "description": "C SDK and samples for Azure RTOS devices across ST, NXP, Microchip and Renesas eval boards.",
       "category": "sdk",
       "status": "stable",
-      "release": "v1.1.2",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -3687,7 +3687,7 @@
       "description": "SDK for Renesas DA16200/DA16600 Wi-Fi modules.",
       "category": "sdk",
       "status": "stable",
-      "release": "1.1.0",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -3762,7 +3762,7 @@
       "description": "ModusToolbox SDK for /IOTCONNECT on Infineon PSoC devices.",
       "category": "sdk",
       "status": "stable",
-      "release": "v2.0.0",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -3828,7 +3828,7 @@
       "description": "Full-featured Python SDK for /IOTCONNECT on embedded Linux.",
       "category": "sdk",
       "status": "stable",
-      "release": "v1.0.0",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -4008,7 +4008,7 @@
       "description": "IOTCONNECT C SDK example for the AVR IoT Cellular Mini board. The application records button presses and collects on‑board sensor readings (temperature and RGB light) and sends telemetry to IOTCONNECT. It also supports simple commands to control LEDs and guides you through provisioning the board and activating the cellular modem.",
       "category": "sample",
       "status": "beta",
-      "release": "01.02.00",
+      "release": null,
       "languages": [
         "C++"
       ],
@@ -4363,7 +4363,9 @@
       "stars": 1,
       "updated": "2026-08-06T14:55:30Z",
       "image": "assets/listings/telehealth.png",
-      "dashboards": [],
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-gateway-mobile-app/main/images/dashboard.png"
+      ],
       "photos": [],
       "models": [],
       "described": true,
@@ -4890,7 +4892,9 @@
       "stars": 0,
       "updated": "2026-07-22T23:24:52Z",
       "image": null,
-      "dashboards": [],
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-greengrass-demos/main/stm32mp157f-dk2/media/mp157f_dashboard.png"
+      ],
       "photos": [],
       "models": [],
       "described": true,
@@ -4996,7 +5000,9 @@
       "stars": 0,
       "updated": "2026-07-22T23:24:52Z",
       "image": null,
-      "dashboards": [],
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-greengrass-demos/main/stm32mp257f-dk/media/mp257f_dashboard.png"
+      ],
       "photos": [],
       "models": [],
       "described": true,
@@ -5986,7 +5992,9 @@
       "stars": 1,
       "updated": "2025-08-08T19:48:42Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ifx-psoc6andedge-deepcraft.JPG",
-      "dashboards": [],
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/avnet-iotc-mtb-ai-imagimob-rm/main/files/mtb_ready_model_dashboard.png"
+      ],
       "photos": [
         "https://saleshosted.z13.web.core.windows.net/images/events/2024/Oktobertech/IMG_2570.JPEG",
         "https://saleshosted.z13.web.core.windows.net/images/demos/psoc6-smarter-sensing.png"
@@ -6396,7 +6404,7 @@
       "updated": "2026-08-06T14:55:30Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/iotc-bridge_app.JPG",
       "dashboards": [
-        "https://github.com/avnet-iotconnect/iotc-gateway-mobile-app/blob/main/images/dashboard.png"
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-gateway-mobile-app/main/images/dashboard.png"
       ],
       "photos": [],
       "models": [],
@@ -6450,7 +6458,7 @@
       "updated": "2026-08-06T14:55:30Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/iotc-bridge_app.JPG",
       "dashboards": [
-        "https://github.com/avnet-iotconnect/iotc-gateway-mobile-app/blob/main/images/dashboard.png"
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-gateway-mobile-app/main/images/dashboard.png"
       ],
       "photos": [],
       "models": [],
@@ -6872,7 +6880,7 @@
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/st-n6andstm32.JPG",
       "dashboards": [
         "https://saleshosted.z13.web.core.windows.net/dashboard/avt-avnet/stm32N6-object-detection.PNG",
-        "https://github.com/avnet-iotconnect/iotc-stm32-n6-demos/blob/main/media/dashboard.jpg"
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-stm32-n6-demos/main/media/dashboard.jpg"
       ],
       "photos": [],
       "models": [
@@ -7204,7 +7212,7 @@
       "description": "This example connects the WFI32-IoT Development Board to Avnet's IOTCONNECT platform built on Microsoft Azure and uses Azure RTOS to simplify cloud firmware development.  The WFI32 board features integrated sensors and supports mikroBUS™ expansion for additional click‑board sensors.",
       "category": "sample",
       "status": "beta",
-      "release": "v1.1.2",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -7262,7 +7270,7 @@
       "description": "This example connects the WFI32-IoT Development Board to Avnet's IOTCONNECT platform built on Microsoft Azure and uses Azure RTOS to simplify cloud firmware development.  The WFI32 board features integrated sensors and supports mikroBUS™ expansion for additional click‑board sensors.",
       "category": "sample",
       "status": "beta",
-      "release": "v1.1.2",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -7318,7 +7326,7 @@
       "description": "This example connects the WFI32-IoT Development Board to Avnet's IOTCONNECT platform built on Microsoft Azure and uses Azure RTOS to simplify cloud firmware development.  The WFI32 board features integrated sensors and supports mikroBUS™ expansion for additional click‑board sensors.",
       "category": "sample",
       "status": "beta",
-      "release": "v1.1.2",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -7382,7 +7390,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-08-07T23:47:02Z",
+      "updated": "2026-08-12T00:16:25Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/nxp-imx93andmcxn.JPG",
       "dashboards": [
         "https://saleshosted.z13.web.core.windows.net/dashboard/r3/nxp-frdm93-workersafty.PNG"
@@ -7439,7 +7447,9 @@
       "stars": 0,
       "updated": "2026-08-07T23:51:40Z",
       "image": null,
-      "dashboards": [],
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-tria-vision-ai-kit-robotic-arm/main/media/dashboard.png"
+      ],
       "photos": [],
       "models": [
         {
@@ -8279,7 +8289,9 @@
       "stars": 0,
       "updated": "2025-11-22T04:11:37Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/nxp-imx93andmcxn.JPG",
-      "dashboards": [],
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-mcx-zephyr-demos/main/media/dashboard.png"
+      ],
       "photos": [],
       "models": [],
       "described": true,
@@ -8328,7 +8340,9 @@
       "stars": 0,
       "updated": "2025-08-25T20:41:51Z",
       "image": null,
-      "dashboards": [],
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/Maaxboard-OSM93-Demos/main/MaaXBoard-OSM93-Demo_v2.1-A1/web/uses/dashboard.png"
+      ],
       "photos": [],
       "models": [],
       "described": true,
@@ -8380,7 +8394,13 @@
       "stars": 0,
       "updated": "2026-02-20T22:24:24Z",
       "image": "assets/tech/arduino.svg",
-      "dashboards": [],
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-arduino-uno-q-app-lab/main/app-configs/air-quality-monitoring/aqm-dashboard.jpg",
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-arduino-uno-q-app-lab/main/app-configs/audio-classification/unoq-dashboard-audioclass.jpg",
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-arduino-uno-q-app-lab/main/app-configs/home-climate-monitoring-and-storage/home-climate-dashboard.jpg",
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-arduino-uno-q-app-lab/main/app-configs/image-classification/img-class-dashboard.jpg",
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-arduino-uno-q-app-lab/main/app-configs/object-detection/unoQ-objdetimg-dashboard.jpg"
+      ],
       "photos": [
         "https://saleshosted.z13.web.core.windows.net/images/boards/arduino-unoq-placard.JPG"
       ],
@@ -8543,7 +8563,7 @@
       "description": "Swift SDK for connecting native iOS applications to /IOTCONNECT. Enables mobile apps to act as device clients or gateways, publishing telemetry and responding to cloud commands.",
       "category": "sdk",
       "status": "beta",
-      "release": "1.0.0",
+      "release": null,
       "languages": [
         "Swift"
       ],
@@ -8571,7 +8591,7 @@
       "description": "Android SDK for connecting Java and Kotlin apps to /IOTCONNECT. Lets mobile devices serve as edge clients or BLE gateways, streaming telemetry and handling commands.",
       "category": "sdk",
       "status": "beta",
-      "release": "3.1.4",
+      "release": null,
       "languages": [
         "Java"
       ],
@@ -8599,7 +8619,7 @@
       "description": "Portable generic C SDK for /IOTCONNECT designed to run across a wide range of platforms and RTOSes. A flexible foundation for bringing custom C-based devices online with telemetry, commands and OTA.",
       "category": "sdk",
       "status": "beta",
-      "release": "v1.0.2",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -8737,7 +8757,7 @@
       "description": "/IOTCONNECT SDK for Nordic nRF9160 and nRF52 devices — connect the Thingy:91 and nRF52840 DK over cellular or BLE to the cloud.",
       "category": "sdk",
       "status": "beta",
-      "release": "v2.0.0",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -8805,7 +8825,7 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-08-07T23:47:02Z",
+      "updated": "2026-08-12T00:16:25Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-scalable-ai-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -8866,7 +8886,7 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-08-07T23:47:02Z",
+      "updated": "2026-08-12T00:16:25Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-scalable-ai-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -8927,7 +8947,7 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-08-07T23:47:02Z",
+      "updated": "2026-08-12T00:16:25Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-scalable-ai-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -8988,7 +9008,7 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-08-07T23:47:02Z",
+      "updated": "2026-08-12T00:16:25Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9047,7 +9067,7 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-08-07T23:47:02Z",
+      "updated": "2026-08-12T00:16:25Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9106,7 +9126,7 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-08-07T23:47:02Z",
+      "updated": "2026-08-12T00:16:25Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9165,7 +9185,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-08-07T23:47:02Z",
+      "updated": "2026-08-12T00:16:25Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-kws-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -9223,7 +9243,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-08-07T23:47:02Z",
+      "updated": "2026-08-12T00:16:25Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-kws-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -9282,7 +9302,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-08-07T23:47:02Z",
+      "updated": "2026-08-12T00:16:25Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-kws-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -9339,7 +9359,7 @@
         "sensors"
       ],
       "stars": 3,
-      "updated": "2026-08-07T23:47:02Z",
+      "updated": "2026-08-12T00:16:25Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-kws-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -9388,7 +9408,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-08-07T23:47:02Z",
+      "updated": "2026-08-12T00:16:25Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9437,7 +9457,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-08-07T23:47:02Z",
+      "updated": "2026-08-12T00:16:25Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9498,7 +9518,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-08-07T23:47:02Z",
+      "updated": "2026-08-12T00:16:25Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9557,7 +9577,7 @@
         "file-upload"
       ],
       "stars": 3,
-      "updated": "2026-08-07T23:47:02Z",
+      "updated": "2026-08-12T00:16:25Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9608,7 +9628,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-08-07T23:47:02Z",
+      "updated": "2026-08-12T00:16:25Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9660,7 +9680,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-08-07T23:47:02Z",
+      "updated": "2026-08-12T00:16:25Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9712,7 +9732,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-08-07T23:47:02Z",
+      "updated": "2026-08-12T00:16:25Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ren-rzv2h-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -9769,7 +9789,7 @@
         "sensors"
       ],
       "stars": 3,
-      "updated": "2026-08-07T23:47:02Z",
+      "updated": "2026-08-12T00:16:25Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ren-rzv2h-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -9818,7 +9838,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-08-07T23:47:02Z",
+      "updated": "2026-08-12T00:16:25Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9878,7 +9898,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-08-07T23:47:02Z",
+      "updated": "2026-08-12T00:16:25Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9930,7 +9950,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-08-07T23:47:02Z",
+      "updated": "2026-08-12T00:16:25Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9980,7 +10000,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-08-07T23:47:02Z",
+      "updated": "2026-08-12T00:16:25Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10030,7 +10050,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-08-07T23:47:02Z",
+      "updated": "2026-08-12T00:16:25Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10081,7 +10101,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-08-07T23:47:02Z",
+      "updated": "2026-08-12T00:16:25Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10141,7 +10161,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-08-07T23:47:02Z",
+      "updated": "2026-08-12T00:16:25Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10193,7 +10213,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-08-07T23:47:02Z",
+      "updated": "2026-08-12T00:16:25Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10243,7 +10263,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-08-07T23:47:02Z",
+      "updated": "2026-08-12T00:16:25Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10293,7 +10313,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-08-07T23:47:02Z",
+      "updated": "2026-08-12T00:16:25Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10344,7 +10364,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-08-07T23:47:02Z",
+      "updated": "2026-08-12T00:16:25Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10396,7 +10416,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-08-07T23:47:02Z",
+      "updated": "2026-08-12T00:16:25Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10446,7 +10466,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-08-07T23:47:02Z",
+      "updated": "2026-08-12T00:16:25Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10496,7 +10516,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-08-07T23:47:02Z",
+      "updated": "2026-08-12T00:16:25Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10547,7 +10567,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-08-07T23:47:02Z",
+      "updated": "2026-08-12T00:16:25Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10599,7 +10619,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-08-07T23:47:02Z",
+      "updated": "2026-08-12T00:16:25Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10650,7 +10670,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-08-07T23:47:02Z",
+      "updated": "2026-08-12T00:16:25Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10714,7 +10734,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-08-07T23:47:02Z",
+      "updated": "2026-08-12T00:16:25Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10768,7 +10788,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-08-07T23:47:02Z",
+      "updated": "2026-08-12T00:16:25Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10820,7 +10840,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-08-07T23:47:02Z",
+      "updated": "2026-08-12T00:16:25Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10872,7 +10892,9 @@
       "stars": 0,
       "updated": "2026-07-22T23:24:52Z",
       "image": null,
-      "dashboards": [],
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-greengrass-demos/main/nxp-frdm-imx-93/media/imx93_dashboard.png"
+      ],
       "photos": [],
       "models": [],
       "described": true,
@@ -11022,7 +11044,9 @@
       "stars": 0,
       "updated": "2026-07-22T23:24:52Z",
       "image": null,
-      "dashboards": [],
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-greengrass-demos/main/stm32mp157f-dk2/media/mp157f_dashboard.png"
+      ],
       "photos": [],
       "models": [],
       "described": true,
@@ -11072,7 +11096,9 @@
       "stars": 0,
       "updated": "2026-07-22T23:24:52Z",
       "image": null,
-      "dashboards": [],
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-greengrass-demos/main/stm32mp215f-dk/media/mp215f_dashboard.png"
+      ],
       "photos": [],
       "models": [],
       "described": true,
@@ -11120,7 +11146,9 @@
       "stars": 0,
       "updated": "2026-07-22T23:24:52Z",
       "image": null,
-      "dashboards": [],
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-greengrass-demos/main/stm32mp257f-dk/media/mp257f_dashboard.png"
+      ],
       "photos": [],
       "models": [],
       "described": true,
@@ -11170,7 +11198,9 @@
       "stars": 0,
       "updated": "2026-07-22T23:24:52Z",
       "image": null,
-      "dashboards": [],
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-greengrass-demos/main/stm32mp257f-ev1/media/mp257f_dashboard.png"
+      ],
       "photos": [],
       "models": [],
       "described": true,
@@ -11218,7 +11248,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-08-07T23:47:02Z",
+      "updated": "2026-08-12T00:16:25Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/arduino-unoq-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -11268,7 +11298,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-08-07T23:47:02Z",
+      "updated": "2026-08-12T00:16:25Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-scalable-ai-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -11318,7 +11348,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-08-07T23:47:02Z",
+      "updated": "2026-08-12T00:16:25Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -11366,7 +11396,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-08-07T23:47:02Z",
+      "updated": "2026-08-12T00:16:25Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -11418,7 +11448,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-08-07T23:47:02Z",
+      "updated": "2026-08-12T00:16:25Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -11471,7 +11501,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-08-07T23:47:02Z",
+      "updated": "2026-08-12T00:16:25Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ren-rzg3e-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -11771,7 +11801,9 @@
       "stars": 0,
       "updated": "2026-02-20T23:39:15Z",
       "image": null,
-      "dashboards": [],
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-freertos-stm32-u5/main-iotc/docs/media/dashboard-u5.png"
+      ],
       "photos": [],
       "models": [],
       "described": true,
@@ -11935,7 +11967,9 @@
       "stars": 0,
       "updated": "2025-09-05T03:15:20Z",
       "image": null,
-      "dashboards": [],
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-freertos-stm32-u5-ml-demo/main/media/sound-classifier-dashboard.png"
+      ],
       "photos": [],
       "models": [
         {
@@ -12381,7 +12415,9 @@
       "stars": 0,
       "updated": "2026-06-01T00:00:00Z",
       "image": null,
-      "dashboards": [],
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-freertos-wfi32/main/media/IoTConnect1.png"
+      ],
       "photos": [],
       "models": [],
       "described": true,
@@ -12514,7 +12550,9 @@
       "stars": 0,
       "updated": "2025-02-04T22:24:48Z",
       "image": null,
-      "dashboards": [],
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-freertos-ek-ra6m4-pmod/master/files/EKRA6M4-dashboard.png"
+      ],
       "photos": [],
       "models": [],
       "described": true,
@@ -12567,7 +12605,9 @@
       "stars": 0,
       "updated": "2025-02-04T22:24:48Z",
       "image": null,
-      "dashboards": [],
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-freertos-ek-ra6m4-pmod/master/files/EKRA6M4-dashboard.png"
+      ],
       "photos": [],
       "models": [],
       "described": true,
@@ -12621,7 +12661,9 @@
       "stars": 0,
       "updated": "2026-06-01T00:00:00Z",
       "image": null,
-      "dashboards": [],
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-freertos-wolfssl-wfi32/main/media/WFI32-dashboard.png"
+      ],
       "photos": [],
       "models": [],
       "described": true,
@@ -13105,7 +13147,7 @@
       "description": "Arduino/PlatformIO C/C++ SDK that connects WiFi-capable Arduino boards to Avnet /IOTCONNECT over MQTT, developed and tested on the SparkFun ESP32 Thing. Depends on the WiFiSecure library for TLS and PubSubClient for MQTT, and ships an ESP sensors sample with GPIO LED/button examples.",
       "category": "sdk",
       "status": "beta",
-      "release": "v1.0.1",
+      "release": null,
       "languages": [
         "C",
         "C++"
@@ -13172,7 +13214,9 @@
       "stars": 0,
       "updated": "2024-01-17T15:02:32Z",
       "image": null,
-      "dashboards": [],
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/aws-stm32-ml-at-edge-accelerator/main/doc/images/grafana-dashboard.png"
+      ],
       "photos": [],
       "models": [
         {
@@ -13221,7 +13265,7 @@
       "description": "SDK and sample application that connects the STM32U5 IoT Discovery Kit to /IOTCONNECT over Azure RTOS, built on X-Cube-Azure with Trusted Firmware-M (TF-M) secure firmware. Supports onboard Wi-Fi connectivity and optional cellular via the BG96 module from the P-L496G-CELL02 combo.",
       "category": "sample",
       "status": "beta",
-      "release": "1.1.1",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -13829,7 +13873,7 @@
         "npu"
       ],
       "stars": 3,
-      "updated": "2026-08-07T23:47:02Z",
+      "updated": "2026-08-12T00:16:25Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -13852,7 +13896,8 @@
           "vendor": "NXP",
           "name": "IMX95 Freedom Board",
           "maker": "NXP",
-          "partNumber": "FRDM-IMX95"
+          "partNumber": "FRDM-IMX95",
+          "imageLocal": "assets/boards/FRDM-IMX95.jpg"
         }
       ],
       "board": {
@@ -13860,7 +13905,8 @@
         "vendor": "NXP",
         "name": "IMX95 Freedom Board",
         "maker": "NXP",
-        "partNumber": "FRDM-IMX95"
+        "partNumber": "FRDM-IMX95",
+        "imageLocal": "assets/boards/FRDM-IMX95.jpg"
       },
       "manufacturers": [
         "NXP"
