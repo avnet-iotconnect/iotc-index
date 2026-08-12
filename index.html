@@ -580,7 +580,7 @@ function repoCard(r){
   if(lead){
     img=`<div class="imgwrap shot" data-mono="${esc(mono(r.displayName||r.repo))}">
       <img class="shot" src="${esc(lead.url)}" ${lead.fb?`data-local="${esc(lead.fb)}"`:""} alt="${esc(r.displayName||"")}" loading="lazy" onerror="imgErr(this)">${cat}${stt}
-      <div class="qbadges"><span class="qbadge media">${lead.isDash?"📊 live dashboard":"📷 demo"}</span></div></div>`;
+      <div class="qbadges"><span class="qbadge media">${lead.isDash?"📊 dynamic dashboard":"📷 demo"}</span></div></div>`;
   }else if(!boards.length){
     if(r.image){
       const isLogo=/\.svg(\?|$)/i.test(r.image);
