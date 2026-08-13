@@ -1,6 +1,6 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-08-13T02:29:04Z",
+  "generated": "2026-08-13T15:17:22Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
@@ -67,8 +67,8 @@
       "slug": "microchip",
       "logo": "assets/brand/microchip-logo.png",
       "info": "https://www.avnet.com/iotconnect/microchip",
-      "boards": 9,
-      "listings": 22
+      "boards": 10,
+      "listings": 26
     },
     {
       "name": "NVIDIA",
@@ -337,19 +337,19 @@
     "topics": [
       {
         "tag": "edge-ai",
-        "count": 65
+        "count": 66
       },
       {
         "tag": "vision",
-        "count": 32
+        "count": 33
       },
       {
         "tag": "gateway",
-        "count": 31
+        "count": 32
       },
       {
         "tag": "sensors",
-        "count": 28
+        "count": 29
       },
       {
         "tag": "ai",
@@ -357,7 +357,7 @@
       },
       {
         "tag": "wifi",
-        "count": 21
+        "count": 23
       },
       {
         "tag": "greengrass",
@@ -365,7 +365,11 @@
       },
       {
         "tag": "ble",
-        "count": 18
+        "count": 19
+      },
+      {
+        "tag": "mpu",
+        "count": 15
       },
       {
         "tag": "yocto",
@@ -376,11 +380,15 @@
         "count": 14
       },
       {
-        "tag": "mpu",
-        "count": 14
+        "tag": "mcu",
+        "count": 13
       },
       {
-        "tag": "mcu",
+        "tag": "npu",
+        "count": 13
+      },
+      {
+        "tag": "tls",
         "count": 13
       },
       {
@@ -400,24 +408,20 @@
         "count": 12
       },
       {
-        "tag": "npu",
-        "count": 12
-      },
-      {
-        "tag": "tls",
-        "count": 12
-      },
-      {
         "tag": "zephyr",
         "count": 11
       },
       {
-        "tag": "webrtc",
+        "tag": "fpga",
         "count": 8
       },
       {
-        "tag": "fpga",
-        "count": 7
+        "tag": "secure-element",
+        "count": 8
+      },
+      {
+        "tag": "webrtc",
+        "count": 8
       },
       {
         "tag": "lora",
@@ -425,10 +429,6 @@
       },
       {
         "tag": "lorawan",
-        "count": 7
-      },
-      {
-        "tag": "secure-element",
         "count": 7
       },
       {
@@ -440,6 +440,10 @@
         "count": 6
       },
       {
+        "tag": "at-commands",
+        "count": 5
+      },
+      {
         "tag": "predictive-maintenance",
         "count": 5
       },
@@ -449,10 +453,6 @@
       },
       {
         "tag": "anomaly-detection",
-        "count": 4
-      },
-      {
-        "tag": "at-commands",
         "count": 4
       },
       {
@@ -1924,6 +1924,22 @@
         "listings": 1
       },
       {
+        "slug": "ev76r77a",
+        "vendor": "Microchip",
+        "name": "PIC32CM LS60 Curiosity Pro",
+        "partNumber": "EV76R77A",
+        "image": null,
+        "imageLocal": "assets/boards/EV76R77A.jpg",
+        "link": "https://www.microchip.com/en-us/development-tool/ev76r77a",
+        "buy": null,
+        "qualifications": [],
+        "tags": [],
+        "resources": [],
+        "integrator": "Microchip",
+        "maker": "Microchip",
+        "listings": 1
+      },
+      {
         "slug": "ev19j06a",
         "vendor": "Microchip",
         "name": "PIC32CX-BZ3 and WBZ35x Curiosity Board",
@@ -2024,7 +2040,7 @@
         ],
         "integrator": "Microchip",
         "maker": "Microchip",
-        "listings": 3
+        "listings": 4
       },
       {
         "slug": "steval-proteus1",
@@ -2742,7 +2758,7 @@
         ],
         "integrator": "Microchip",
         "maker": "Microchip",
-        "listings": 5
+        "listings": 7
       },
       {
         "slug": "steval-mkboxpro",
@@ -3506,12 +3522,12 @@
     ]
   },
   "counts": {
-    "total": 199,
+    "total": 203,
     "manufacturers": 17,
-    "boards": 91,
+    "boards": 92,
     "sdks": 28,
     "tools": 6,
-    "examples": 165,
+    "examples": 169,
     "models": 19,
     "guides": 80,
     "demos": 12,
@@ -3577,7 +3593,7 @@
       "description": "C SDK and samples for Azure RTOS devices across ST, NXP, Microchip and Renesas eval boards.",
       "category": "sdk",
       "status": "stable",
-      "release": "v1.1.2",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -3687,7 +3703,7 @@
       "description": "SDK for Renesas DA16200/DA16600 Wi-Fi modules.",
       "category": "sdk",
       "status": "stable",
-      "release": "1.1.0",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -3762,7 +3778,7 @@
       "description": "ModusToolbox SDK for /IOTCONNECT on Infineon PSoC devices.",
       "category": "sdk",
       "status": "stable",
-      "release": "v2.0.0",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -3828,7 +3844,7 @@
       "description": "Full-featured Python SDK for /IOTCONNECT on embedded Linux.",
       "category": "sdk",
       "status": "stable",
-      "release": "v1.0.0",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -4008,7 +4024,7 @@
       "description": "IOTCONNECT C SDK example for the AVR IoT Cellular Mini board. The application records button presses and collects on‑board sensor readings (temperature and RGB light) and sends telemetry to IOTCONNECT. It also supports simple commands to control LEDs and guides you through provisioning the board and activating the cellular modem.",
       "category": "sample",
       "status": "beta",
-      "release": "01.02.00",
+      "release": null,
       "languages": [
         "C++"
       ],
@@ -7212,7 +7228,7 @@
       "description": "This example connects the WFI32-IoT Development Board to Avnet's IOTCONNECT platform built on Microsoft Azure and uses Azure RTOS to simplify cloud firmware development.  The WFI32 board features integrated sensors and supports mikroBUS™ expansion for additional click‑board sensors.",
       "category": "sample",
       "status": "beta",
-      "release": "v1.1.2",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -7270,7 +7286,7 @@
       "description": "This example connects the WFI32-IoT Development Board to Avnet's IOTCONNECT platform built on Microsoft Azure and uses Azure RTOS to simplify cloud firmware development.  The WFI32 board features integrated sensors and supports mikroBUS™ expansion for additional click‑board sensors.",
       "category": "sample",
       "status": "beta",
-      "release": "v1.1.2",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -7326,7 +7342,7 @@
       "description": "This example connects the WFI32-IoT Development Board to Avnet's IOTCONNECT platform built on Microsoft Azure and uses Azure RTOS to simplify cloud firmware development.  The WFI32 board features integrated sensors and supports mikroBUS™ expansion for additional click‑board sensors.",
       "category": "sample",
       "status": "beta",
-      "release": "v1.1.2",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -8563,7 +8579,7 @@
       "description": "Swift SDK for connecting native iOS applications to /IOTCONNECT. Enables mobile apps to act as device clients or gateways, publishing telemetry and responding to cloud commands.",
       "category": "sdk",
       "status": "beta",
-      "release": "1.0.0",
+      "release": null,
       "languages": [
         "Swift"
       ],
@@ -8591,7 +8607,7 @@
       "description": "Android SDK for connecting Java and Kotlin apps to /IOTCONNECT. Lets mobile devices serve as edge clients or BLE gateways, streaming telemetry and handling commands.",
       "category": "sdk",
       "status": "beta",
-      "release": "3.1.4",
+      "release": null,
       "languages": [
         "Java"
       ],
@@ -8619,7 +8635,7 @@
       "description": "Portable generic C SDK for /IOTCONNECT designed to run across a wide range of platforms and RTOSes. A flexible foundation for bringing custom C-based devices online with telemetry, commands and OTA.",
       "category": "sdk",
       "status": "beta",
-      "release": "v1.0.2",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -8757,7 +8773,7 @@
       "description": "/IOTCONNECT SDK for Nordic nRF9160 and nRF52 devices — connect the Thingy:91 and nRF52840 DK over cellular or BLE to the cloud.",
       "category": "sdk",
       "status": "beta",
-      "release": "v2.0.0",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -12641,8 +12657,8 @@
       ]
     },
     {
-      "repo": "iotc-freertos-wolfssl-wfi32",
-      "url": "https://github.com/avnet-iotconnect/iotc-freertos-wolfssl-wfi32",
+      "repo": "iotc-mchp-wfi32-freertos-wolfssl",
+      "url": "https://github.com/avnet-iotconnect/iotc-mchp-wfi32-freertos-wolfssl",
       "displayName": "WFI32-IoT FreeRTOS Demo with wolfSSL and ATECC608B",
       "description": "FreeRTOS demo for the Microchip WFI32-IoT Development Board that connects to /IOTCONNECT over MQTT using a wolfSSL TLS stack and X.509 certificates provisioned via the on-board ATECC608B secure element (Trust&GO). Reports built-in light and temperature sensor readings plus LED/switch state and accepts remote LED control commands.",
       "category": "sample",
@@ -12659,10 +12675,10 @@
         "wolfssl"
       ],
       "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
+      "updated": "2026-08-08T21:35:08Z",
       "image": null,
       "dashboards": [
-        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-freertos-wolfssl-wfi32/main/media/WFI32-dashboard.png"
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-mchp-wfi32-freertos-wolfssl/main/media/WFI32-dashboard.png"
       ],
       "photos": [],
       "models": [],
@@ -13147,7 +13163,7 @@
       "description": "Arduino/PlatformIO C/C++ SDK that connects WiFi-capable Arduino boards to Avnet /IOTCONNECT over MQTT, developed and tested on the SparkFun ESP32 Thing. Depends on the WiFiSecure library for TLS and PubSubClient for MQTT, and ships an ESP sensors sample with GPIO LED/button examples.",
       "category": "sdk",
       "status": "beta",
-      "release": "v1.0.1",
+      "release": null,
       "languages": [
         "C",
         "C++"
@@ -13265,7 +13281,7 @@
       "description": "SDK and sample application that connects the STM32U5 IoT Discovery Kit to /IOTCONNECT over Azure RTOS, built on X-Cube-Azure with Trusted Firmware-M (TF-M) secure firmware. Supports onboard Wi-Fi connectivity and optional cellular via the BG96 module from the P-L496G-CELL02 combo.",
       "category": "sample",
       "status": "beta",
-      "release": "1.1.1",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -14033,6 +14049,214 @@
       ],
       "makers": [
         "NXP"
+      ]
+    },
+    {
+      "repo": "iotc-pf-vk-demo",
+      "url": "https://github.com/avnet-iotconnect/iotc-pf-vk-demo",
+      "displayName": "PolarFire Video Kit — Vision AI Person Detection",
+      "description": "Person detection on the Microchip PolarFire SoC Video Kit's VectorBlox NPU. Annotated video is served on a local web page while live telemetry, gauges and cloud playback controls appear on an /IOTCONNECT dashboard. Runs fully headless from a looping demo clip, autostarts at boot, and a watchdog recovers from NPU stalls without intervention.",
+      "category": "sample",
+      "status": "beta",
+      "release": null,
+      "languages": [
+        "Python"
+      ],
+      "features": [
+        "edge-ai",
+        "fpga",
+        "npu",
+        "vision"
+      ],
+      "stars": 0,
+      "updated": "2026-08-13T15:13:29Z",
+      "image": null,
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-pf-vk-demo/main/media/dashboard.png"
+      ],
+      "photos": [],
+      "models": [],
+      "described": true,
+      "hidden": false,
+      "id": "polarfire-video-kit-vision-ai-person-detection",
+      "boards": [
+        {
+          "slug": "mpfs-video-kit",
+          "vendor": "Microchip",
+          "name": "PolarFire SoC Video Kit",
+          "maker": "Microchip",
+          "partNumber": "MPFS-VIDEO-KIT",
+          "imageLocal": "assets/boards/MPFS-VIDEO-KIT.jpg"
+        }
+      ],
+      "board": {
+        "slug": "mpfs-video-kit",
+        "vendor": "Microchip",
+        "name": "PolarFire SoC Video Kit",
+        "maker": "Microchip",
+        "partNumber": "MPFS-VIDEO-KIT",
+        "imageLocal": "assets/boards/MPFS-VIDEO-KIT.jpg"
+      },
+      "manufacturers": [
+        "Microchip"
+      ],
+      "makers": [
+        "Microchip"
+      ]
+    },
+    {
+      "repo": "iotc-mchp-sama7d65-rnwf11",
+      "url": "https://github.com/avnet-iotconnect/iotc-mchp-sama7d65-rnwf11",
+      "displayName": "SAMA7D65 Curiosity — RNWF11 Wi-Fi Connectivity",
+      "description": "Connect the Microchip SAMA7D65-Curiosity Kit to /IOTCONNECT via the EV12H55A RNWF11 Wi-Fi add-on board. A variant of the SAMA7D65 Python Lite SDK quickstart that routes all connectivity — DNS, HTTPS discovery and MQTT — through the module's AT-command UART interface, so no Ethernet connection is required at runtime.",
+      "category": "sample",
+      "status": "beta",
+      "release": null,
+      "languages": [
+        "Python"
+      ],
+      "features": [
+        "at-commands",
+        "mpu",
+        "wifi"
+      ],
+      "stars": 0,
+      "updated": "2026-08-07T22:48:32Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "models": [],
+      "described": true,
+      "hidden": false,
+      "id": "sama7d65-curiosity-rnwf11-wi-fi-connectivity",
+      "boards": [
+        {
+          "slug": "ev63j76a",
+          "vendor": "Microchip",
+          "name": "SAMA7D65 Curiosity Kit",
+          "maker": "Microchip",
+          "partNumber": "EV63J76A",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EV63J76A.png"
+        }
+      ],
+      "board": {
+        "slug": "ev63j76a",
+        "vendor": "Microchip",
+        "name": "SAMA7D65 Curiosity Kit",
+        "maker": "Microchip",
+        "partNumber": "EV63J76A",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EV63J76A.png"
+      },
+      "manufacturers": [
+        "Microchip"
+      ],
+      "makers": [
+        "Microchip"
+      ]
+    },
+    {
+      "repo": "iotc-mchp-sama7d65-wbz451",
+      "url": "https://github.com/avnet-iotconnect/iotc-mchp-sama7d65-wbz451",
+      "displayName": "SAMA7D65 + WBZ451 — BLE Beacon Gateway",
+      "description": "BLE beacon demo on Microchip hardware: a WBZ451 Curiosity board broadcasts sensor readings (beacon ID, temperature, TX level) as connectionless iBeacon-style advertisements, a SAMA7D65 Curiosity Linux gateway passively scans and decodes them, and the telemetry lands on an /IOTCONNECT dashboard. A model for battery-powered sensor tags and silent, stateless fleets.",
+      "category": "sample",
+      "status": "beta",
+      "release": null,
+      "languages": [
+        "C",
+        "Python"
+      ],
+      "features": [
+        "ble",
+        "gateway",
+        "sensors"
+      ],
+      "stars": 0,
+      "updated": "2026-08-06T23:59:49Z",
+      "image": null,
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-mchp-sama7d65-wbz451/main/media/dashboard.png"
+      ],
+      "photos": [],
+      "models": [],
+      "described": true,
+      "hidden": false,
+      "id": "sama7d65-wbz451-ble-beacon-gateway",
+      "boards": [
+        {
+          "slug": "ev63j76a",
+          "vendor": "Microchip",
+          "name": "SAMA7D65 Curiosity Kit",
+          "maker": "Microchip",
+          "partNumber": "EV63J76A",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EV63J76A.png"
+        }
+      ],
+      "board": {
+        "slug": "ev63j76a",
+        "vendor": "Microchip",
+        "name": "SAMA7D65 Curiosity Kit",
+        "maker": "Microchip",
+        "partNumber": "EV63J76A",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EV63J76A.png"
+      },
+      "manufacturers": [
+        "Microchip"
+      ],
+      "makers": [
+        "Microchip"
+      ]
+    },
+    {
+      "repo": "iotc-mchp-pic32cmls60",
+      "url": "https://github.com/avnet-iotconnect/iotc-mchp-pic32cmls60",
+      "displayName": "PIC32CM LS60 Curiosity Pro — Secure Wi-Fi Telemetry",
+      "description": "Connects the Microchip PIC32CM LS60 Curiosity Pro (Arm Cortex-M23 with TrustZone and integrated ATECC608 secure element) to /IOTCONNECT over Wi-Fi using a WINC1510 module. Mutual TLS uses the secure element's factory-provisioned X.509 certificates — the private key never leaves the chip. Publishes button, touch and potentiometer telemetry, accepts cloud-to-device commands, and ships prebuilt no-compile firmware with a serial provisioning CLI.",
+      "category": "sample",
+      "status": "beta",
+      "release": null,
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "secure-element",
+        "tls",
+        "wifi"
+      ],
+      "stars": 0,
+      "updated": "2026-08-06T02:52:06Z",
+      "image": null,
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-mchp-pic32cmls60/main/media/dashboard.png"
+      ],
+      "photos": [],
+      "models": [],
+      "described": true,
+      "hidden": false,
+      "id": "pic32cm-ls60-curiosity-pro-secure-wi-fi-telemetry",
+      "boards": [
+        {
+          "slug": "ev76r77a",
+          "vendor": "Microchip",
+          "name": "PIC32CM LS60 Curiosity Pro",
+          "maker": "Microchip",
+          "partNumber": "EV76R77A",
+          "imageLocal": "assets/boards/EV76R77A.jpg"
+        }
+      ],
+      "board": {
+        "slug": "ev76r77a",
+        "vendor": "Microchip",
+        "name": "PIC32CM LS60 Curiosity Pro",
+        "maker": "Microchip",
+        "partNumber": "EV76R77A",
+        "imageLocal": "assets/boards/EV76R77A.jpg"
+      },
+      "manufacturers": [
+        "Microchip"
+      ],
+      "makers": [
+        "Microchip"
       ]
     }
   ]
