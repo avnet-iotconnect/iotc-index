@@ -1,6 +1,6 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-08-13T15:18:32Z",
+  "generated": "2026-08-13T16:32:35Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
@@ -68,7 +68,7 @@
       "logo": "assets/brand/microchip-logo.png",
       "info": "https://www.avnet.com/iotconnect/microchip",
       "boards": 10,
-      "listings": 26
+      "listings": 25
     },
     {
       "name": "NVIDIA",
@@ -357,7 +357,7 @@
       },
       {
         "tag": "wifi",
-        "count": 23
+        "count": 22
       },
       {
         "tag": "greengrass",
@@ -388,10 +388,6 @@
         "count": 13
       },
       {
-        "tag": "tls",
-        "count": 13
-      },
-      {
         "tag": "video",
         "count": 13
       },
@@ -400,12 +396,16 @@
         "count": 12
       },
       {
-        "tag": "freertos",
+        "tag": "modustoolbox",
         "count": 12
       },
       {
-        "tag": "modustoolbox",
+        "tag": "tls",
         "count": 12
+      },
+      {
+        "tag": "freertos",
+        "count": 11
       },
       {
         "tag": "zephyr",
@@ -413,10 +413,6 @@
       },
       {
         "tag": "fpga",
-        "count": 8
-      },
-      {
-        "tag": "secure-element",
         "count": 8
       },
       {
@@ -429,6 +425,10 @@
       },
       {
         "tag": "lorawan",
+        "count": 7
+      },
+      {
+        "tag": "secure-element",
         "count": 7
       },
       {
@@ -517,10 +517,6 @@
       },
       {
         "tag": "smart-city",
-        "count": 2
-      },
-      {
-        "tag": "wolfssl",
         "count": 2
       },
       {
@@ -633,6 +629,10 @@
       },
       {
         "tag": "wifi-provisioning",
+        "count": 1
+      },
+      {
+        "tag": "wolfssl",
         "count": 1
       }
     ],
@@ -3405,7 +3405,7 @@
         ],
         "integrator": "Microchip",
         "maker": "Microchip",
-        "listings": 4
+        "listings": 3
       },
       {
         "slug": "wirnet-istation",
@@ -3522,12 +3522,12 @@
     ]
   },
   "counts": {
-    "total": 203,
+    "total": 202,
     "manufacturers": 17,
     "boards": 92,
     "sdks": 28,
     "tools": 6,
-    "examples": 169,
+    "examples": 168,
     "models": 19,
     "guides": 80,
     "demos": 12,
@@ -3593,7 +3593,7 @@
       "description": "C SDK and samples for Azure RTOS devices across ST, NXP, Microchip and Renesas eval boards.",
       "category": "sdk",
       "status": "stable",
-      "release": "v1.1.2",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -3703,7 +3703,7 @@
       "description": "SDK for Renesas DA16200/DA16600 Wi-Fi modules.",
       "category": "sdk",
       "status": "stable",
-      "release": "1.1.0",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -3778,7 +3778,7 @@
       "description": "ModusToolbox SDK for /IOTCONNECT on Infineon PSoC devices.",
       "category": "sdk",
       "status": "stable",
-      "release": "v2.0.0",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -3844,7 +3844,7 @@
       "description": "Full-featured Python SDK for /IOTCONNECT on embedded Linux.",
       "category": "sdk",
       "status": "stable",
-      "release": "v1.0.0",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -4024,7 +4024,7 @@
       "description": "IOTCONNECT C SDK example for the AVR IoT Cellular Mini board. The application records button presses and collects on‑board sensor readings (temperature and RGB light) and sends telemetry to IOTCONNECT. It also supports simple commands to control LEDs and guides you through provisioning the board and activating the cellular modem.",
       "category": "sample",
       "status": "beta",
-      "release": "01.02.00",
+      "release": null,
       "languages": [
         "C++"
       ],
@@ -7228,7 +7228,7 @@
       "description": "This example connects the WFI32-IoT Development Board to Avnet's IOTCONNECT platform built on Microsoft Azure and uses Azure RTOS to simplify cloud firmware development.  The WFI32 board features integrated sensors and supports mikroBUS™ expansion for additional click‑board sensors.",
       "category": "sample",
       "status": "beta",
-      "release": "v1.1.2",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -7286,7 +7286,7 @@
       "description": "This example connects the WFI32-IoT Development Board to Avnet's IOTCONNECT platform built on Microsoft Azure and uses Azure RTOS to simplify cloud firmware development.  The WFI32 board features integrated sensors and supports mikroBUS™ expansion for additional click‑board sensors.",
       "category": "sample",
       "status": "beta",
-      "release": "v1.1.2",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -7342,7 +7342,7 @@
       "description": "This example connects the WFI32-IoT Development Board to Avnet's IOTCONNECT platform built on Microsoft Azure and uses Azure RTOS to simplify cloud firmware development.  The WFI32 board features integrated sensors and supports mikroBUS™ expansion for additional click‑board sensors.",
       "category": "sample",
       "status": "beta",
-      "release": "v1.1.2",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -8579,7 +8579,7 @@
       "description": "Swift SDK for connecting native iOS applications to /IOTCONNECT. Enables mobile apps to act as device clients or gateways, publishing telemetry and responding to cloud commands.",
       "category": "sdk",
       "status": "beta",
-      "release": "1.0.0",
+      "release": null,
       "languages": [
         "Swift"
       ],
@@ -8607,7 +8607,7 @@
       "description": "Android SDK for connecting Java and Kotlin apps to /IOTCONNECT. Lets mobile devices serve as edge clients or BLE gateways, streaming telemetry and handling commands.",
       "category": "sdk",
       "status": "beta",
-      "release": "3.1.4",
+      "release": null,
       "languages": [
         "Java"
       ],
@@ -8635,7 +8635,7 @@
       "description": "Portable generic C SDK for /IOTCONNECT designed to run across a wide range of platforms and RTOSes. A flexible foundation for bringing custom C-based devices online with telemetry, commands and OTA.",
       "category": "sdk",
       "status": "beta",
-      "release": "v1.0.2",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -8773,7 +8773,7 @@
       "description": "/IOTCONNECT SDK for Nordic nRF9160 and nRF52 devices — connect the Thingy:91 and nRF52840 DK over cellular or BLE to the cloud.",
       "category": "sdk",
       "status": "beta",
-      "release": "v2.0.0",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -12411,62 +12411,6 @@
       ]
     },
     {
-      "repo": "iotc-freertos-wfi32",
-      "url": "https://github.com/avnet-iotconnect/iotc-freertos-wfi32",
-      "displayName": "Microchip WFI32-IoT FreeRTOS Demo for /IOTCONNECT",
-      "description": "FreeRTOS-based demo connecting the Microchip WFI32-IoT Development Board to Avnet /IOTCONNECT over MQTT/TLS, using the on-board ATECC608B secure element (Trust&GO) for X.509 cloud authentication and reporting light/temperature sensor data.",
-      "category": "sample",
-      "status": "beta",
-      "release": null,
-      "languages": [
-        "C"
-      ],
-      "features": [
-        "freertos",
-        "secure-element",
-        "tls",
-        "wifi",
-        "wolfssl"
-      ],
-      "stars": 0,
-      "updated": "2026-06-01T00:00:00Z",
-      "image": null,
-      "dashboards": [
-        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-freertos-wfi32/main/media/IoTConnect1.png"
-      ],
-      "photos": [],
-      "models": [],
-      "described": true,
-      "hidden": false,
-      "id": "microchip-wfi32-iot-freertos-demo-for-iotconnect",
-      "boards": [
-        {
-          "slug": "ev36w50a",
-          "vendor": "Microchip",
-          "name": "WFI32-IoT Development Board",
-          "maker": "Microchip",
-          "partNumber": "EV36W50A",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EV36W50A.png",
-          "imageLocal": "assets/boards/EV36W50A.jpg"
-        }
-      ],
-      "board": {
-        "slug": "ev36w50a",
-        "vendor": "Microchip",
-        "name": "WFI32-IoT Development Board",
-        "maker": "Microchip",
-        "partNumber": "EV36W50A",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/EV36W50A.png",
-        "imageLocal": "assets/boards/EV36W50A.jpg"
-      },
-      "manufacturers": [
-        "Microchip"
-      ],
-      "makers": [
-        "Microchip"
-      ]
-    },
-    {
       "repo": "iotc-freertos-da16k-atcmd-lib",
       "url": "https://github.com/avnet-iotconnect/iotc-freertos-da16k-atcmd-lib",
       "displayName": "FreeRTOS DA16K AT-Command Interface Library for /IOTCONNECT",
@@ -13163,7 +13107,7 @@
       "description": "Arduino/PlatformIO C/C++ SDK that connects WiFi-capable Arduino boards to Avnet /IOTCONNECT over MQTT, developed and tested on the SparkFun ESP32 Thing. Depends on the WiFiSecure library for TLS and PubSubClient for MQTT, and ships an ESP sensors sample with GPIO LED/button examples.",
       "category": "sdk",
       "status": "beta",
-      "release": "v1.0.1",
+      "release": null,
       "languages": [
         "C",
         "C++"
@@ -13281,7 +13225,7 @@
       "description": "SDK and sample application that connects the STM32U5 IoT Discovery Kit to /IOTCONNECT over Azure RTOS, built on X-Cube-Azure with Trusted Firmware-M (TF-M) secure firmware. Supports onboard Wi-Fi connectivity and optional cellular via the BG96 module from the P-L496G-CELL02 combo.",
       "category": "sample",
       "status": "beta",
-      "release": "1.1.1",
+      "release": null,
       "languages": [
         "C"
       ],
