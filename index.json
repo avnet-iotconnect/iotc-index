@@ -1,6 +1,6 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-08-13T16:33:56Z",
+  "generated": "2026-08-13T16:52:28Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
@@ -3593,7 +3593,7 @@
       "description": "C SDK and samples for Azure RTOS devices across ST, NXP, Microchip and Renesas eval boards.",
       "category": "sdk",
       "status": "stable",
-      "release": "v1.1.2",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -3703,7 +3703,7 @@
       "description": "SDK for Renesas DA16200/DA16600 Wi-Fi modules.",
       "category": "sdk",
       "status": "stable",
-      "release": "1.1.0",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -3778,7 +3778,7 @@
       "description": "ModusToolbox SDK for /IOTCONNECT on Infineon PSoC devices.",
       "category": "sdk",
       "status": "stable",
-      "release": "v2.0.0",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -3844,7 +3844,7 @@
       "description": "Full-featured Python SDK for /IOTCONNECT on embedded Linux.",
       "category": "sdk",
       "status": "stable",
-      "release": "v1.0.0",
+      "release": null,
       "languages": [
         "Python"
       ],
@@ -4024,7 +4024,7 @@
       "description": "IOTCONNECT C SDK example for the AVR IoT Cellular Mini board. The application records button presses and collects on‑board sensor readings (temperature and RGB light) and sends telemetry to IOTCONNECT. It also supports simple commands to control LEDs and guides you through provisioning the board and activating the cellular modem.",
       "category": "sample",
       "status": "beta",
-      "release": "01.02.00",
+      "release": null,
       "languages": [
         "C++"
       ],
@@ -4379,9 +4379,7 @@
       "stars": 1,
       "updated": "2026-08-06T14:55:30Z",
       "image": "assets/listings/telehealth.png",
-      "dashboards": [
-        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-gateway-mobile-app/main/images/dashboard.png"
-      ],
+      "dashboards": [],
       "photos": [],
       "models": [],
       "described": true,
@@ -4465,8 +4463,8 @@
       "updated": "2026-06-01T00:00:00Z",
       "image": null,
       "dashboards": [
-        "https://saleshosted.z13.web.core.windows.net/dashboard/avt-avnet/EV-Charging.PNG",
-        "https://saleshosted.z13.web.core.windows.net/dashboard/avt-avnet/EV-charging-imx8.PNG"
+        "https://saleshosted.z13.web.core.windows.net/dashboard/avt-avnet/EV-charging-imx8.PNG",
+        "https://saleshosted.z13.web.core.windows.net/dashboard/avt-avnet/EV-Charging.PNG"
       ],
       "photos": [
         "https://saleshosted.z13.web.core.windows.net/images/demos/NXP%20EV%20Charging.png"
@@ -5247,7 +5245,10 @@
         "https://saleshosted.z13.web.core.windows.net/dashboard/avt-awspoc/aws-ggl-dash1.PNG"
       ],
       "photos": [
-        "https://saleshosted.z13.web.core.windows.net/images/demos/lorawan.png"
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-lora-demos/master/img/IoTC-LoRa-eco.JPG",
+        "https://saleshosted.z13.web.core.windows.net/images/demos/lorawan.png",
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-lora-demos/master/img/ra0e2-setup.jpg",
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-lora-demos/master/img/ra2l1-setup.jpg"
       ],
       "models": [],
       "described": true,
@@ -5301,7 +5302,10 @@
         "https://saleshosted.z13.web.core.windows.net/dashboard/avt-awspoc/aws-ggl-dash1.PNG"
       ],
       "photos": [
-        "https://saleshosted.z13.web.core.windows.net/images/demos/lorawan.png"
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-lora-demos/master/img/IoTC-LoRa-eco.JPG",
+        "https://saleshosted.z13.web.core.windows.net/images/demos/lorawan.png",
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-lora-demos/master/img/ra0e2-setup.jpg",
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-lora-demos/master/img/ra2l1-setup.jpg"
       ],
       "models": [],
       "described": true,
@@ -5355,7 +5359,10 @@
         "https://saleshosted.z13.web.core.windows.net/dashboard/avt-awspoc/aws-ggl-dash1.PNG"
       ],
       "photos": [
-        "https://saleshosted.z13.web.core.windows.net/images/demos/lorawan.png"
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-lora-demos/master/img/IoTC-LoRa-eco.JPG",
+        "https://saleshosted.z13.web.core.windows.net/images/demos/lorawan.png",
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-lora-demos/master/img/ra0e2-setup.jpg",
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-lora-demos/master/img/ra2l1-setup.jpg"
       ],
       "models": [],
       "described": true,
@@ -5409,7 +5416,10 @@
         "https://saleshosted.z13.web.core.windows.net/dashboard/avt-awspoc/aws-ggl-dash1.PNG"
       ],
       "photos": [
-        "https://saleshosted.z13.web.core.windows.net/images/demos/lorawan.png"
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-lora-demos/master/img/IoTC-LoRa-eco.JPG",
+        "https://saleshosted.z13.web.core.windows.net/images/demos/lorawan.png",
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-lora-demos/master/img/ra0e2-setup.jpg",
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-lora-demos/master/img/ra2l1-setup.jpg"
       ],
       "models": [],
       "described": true,
@@ -5463,7 +5473,10 @@
         "https://saleshosted.z13.web.core.windows.net/dashboard/avt-awspoc/aws-ggl-dash1.PNG"
       ],
       "photos": [
-        "https://saleshosted.z13.web.core.windows.net/images/demos/lorawan.png"
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-lora-demos/master/img/IoTC-LoRa-eco.JPG",
+        "https://saleshosted.z13.web.core.windows.net/images/demos/lorawan.png",
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-lora-demos/master/img/ra0e2-setup.jpg",
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-lora-demos/master/img/ra2l1-setup.jpg"
       ],
       "models": [],
       "described": true,
@@ -6256,6 +6269,7 @@
       "updated": "2025-02-04T22:24:29Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ren-tinyml2edgeai-placard.JPG",
       "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-freertos-ek-ra8m1-pmod/main/files/EKRA8M1-dashboard.png",
         "https://saleshosted.z13.web.core.windows.net/dashboard/avt-awspoc/ren-ekra6_and_ekra8.PNG"
       ],
       "photos": [],
@@ -6309,6 +6323,7 @@
       "updated": "2025-02-04T22:24:29Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ren-tinyml2edgeai-placard.JPG",
       "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-freertos-ek-ra8m1-pmod/main/files/EKRA8M1-dashboard.png",
         "https://saleshosted.z13.web.core.windows.net/dashboard/avt-awspoc/ren-ekra6_and_ekra8.PNG"
       ],
       "photos": [],
@@ -7191,10 +7206,13 @@
       "updated": "2026-05-09T14:16:15Z",
       "image": null,
       "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/meta-iotconnect-docs/main/QuickStart/ST/STM32MP257/media/dashboard_stm32mp2_classification_v2.png",
         "https://saleshosted.z13.web.core.windows.net/dashboard/r3/STM-vision-AI-demonstrator.PNG"
       ],
       "photos": [
-        "https://saleshosted.z13.web.core.windows.net/images/demos/reinvent24-stm32mp2.png"
+        "https://saleshosted.z13.web.core.windows.net/images/demos/reinvent24-stm32mp2.png",
+        "https://raw.githubusercontent.com/avnet-iotconnect/meta-iotconnect-docs/main/QuickStart/ST/STM32MP257/media/image-server-architecture.png",
+        "https://raw.githubusercontent.com/avnet-iotconnect/meta-iotconnect-docs/main/QuickStart/ST/STM32MP257/media/dashboard_stm32mp2_all_models.png"
       ],
       "models": [],
       "described": true,
@@ -7228,7 +7246,7 @@
       "description": "This example connects the WFI32-IoT Development Board to Avnet's IOTCONNECT platform built on Microsoft Azure and uses Azure RTOS to simplify cloud firmware development.  The WFI32 board features integrated sensors and supports mikroBUS™ expansion for additional click‑board sensors.",
       "category": "sample",
       "status": "beta",
-      "release": "v1.1.2",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -7286,7 +7304,7 @@
       "description": "This example connects the WFI32-IoT Development Board to Avnet's IOTCONNECT platform built on Microsoft Azure and uses Azure RTOS to simplify cloud firmware development.  The WFI32 board features integrated sensors and supports mikroBUS™ expansion for additional click‑board sensors.",
       "category": "sample",
       "status": "beta",
-      "release": "v1.1.2",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -7342,7 +7360,7 @@
       "description": "This example connects the WFI32-IoT Development Board to Avnet's IOTCONNECT platform built on Microsoft Azure and uses Azure RTOS to simplify cloud firmware development.  The WFI32 board features integrated sensors and supports mikroBUS™ expansion for additional click‑board sensors.",
       "category": "sample",
       "status": "beta",
-      "release": "v1.1.2",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -8305,9 +8323,7 @@
       "stars": 0,
       "updated": "2025-11-22T04:11:37Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/nxp-imx93andmcxn.JPG",
-      "dashboards": [
-        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-mcx-zephyr-demos/main/media/dashboard.png"
-      ],
+      "dashboards": [],
       "photos": [],
       "models": [],
       "described": true,
@@ -8579,7 +8595,7 @@
       "description": "Swift SDK for connecting native iOS applications to /IOTCONNECT. Enables mobile apps to act as device clients or gateways, publishing telemetry and responding to cloud commands.",
       "category": "sdk",
       "status": "beta",
-      "release": "1.0.0",
+      "release": null,
       "languages": [
         "Swift"
       ],
@@ -8607,7 +8623,7 @@
       "description": "Android SDK for connecting Java and Kotlin apps to /IOTCONNECT. Lets mobile devices serve as edge clients or BLE gateways, streaming telemetry and handling commands.",
       "category": "sdk",
       "status": "beta",
-      "release": "3.1.4",
+      "release": null,
       "languages": [
         "Java"
       ],
@@ -8635,7 +8651,7 @@
       "description": "Portable generic C SDK for /IOTCONNECT designed to run across a wide range of platforms and RTOSes. A flexible foundation for bringing custom C-based devices online with telemetry, commands and OTA.",
       "category": "sdk",
       "status": "beta",
-      "release": "v1.0.2",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -8773,7 +8789,7 @@
       "description": "/IOTCONNECT SDK for Nordic nRF9160 and nRF52 devices — connect the Thingy:91 and nRF52840 DK over cellular or BLE to the cloud.",
       "category": "sdk",
       "status": "beta",
-      "release": "v2.0.0",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -8843,8 +8859,12 @@
       "stars": 3,
       "updated": "2026-08-12T00:16:25Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-scalable-ai-placard.JPG",
-      "dashboards": [],
-      "photos": [],
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/microchip-polarfire-soc-dk/images/mchp-polarfire-complex-dashboard.jpg"
+      ],
+      "photos": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/microchip-polarfire-soc-dk/images/top-level.jpg"
+      ],
       "models": [
         {
           "slug": "polarfire-tinyml",
@@ -8905,7 +8925,10 @@
       "updated": "2026-08-12T00:16:25Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-scalable-ai-placard.JPG",
       "dashboards": [],
-      "photos": [],
+      "photos": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/microchip-polarfire-soc-dk/images/neural_network.png",
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/microchip-polarfire-soc-dk/images/design-nn-top.jpg"
+      ],
       "models": [
         {
           "slug": "polarfire-tinyml",
@@ -9026,7 +9049,9 @@
       "stars": 3,
       "updated": "2026-08-12T00:16:25Z",
       "image": null,
-      "dashboards": [],
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/microchip-polarfire-soc-vk/images/mchp-polarfire-track1-dashboard.jpg"
+      ],
       "photos": [],
       "models": [
         {
@@ -9086,7 +9111,10 @@
       "updated": "2026-08-12T00:16:25Z",
       "image": null,
       "dashboards": [],
-      "photos": [],
+      "photos": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/microchip-polarfire-soc-vk/images/design-nn-top.jpg",
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/microchip-polarfire-soc-vk/images/mchp-polarfire-track2-dashboard.jpg"
+      ],
       "models": [
         {
           "slug": "polarfire-tinyml",
@@ -9145,7 +9173,11 @@
       "updated": "2026-08-12T00:16:25Z",
       "image": null,
       "dashboards": [],
-      "photos": [],
+      "photos": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/microchip-polarfire-soc-vk/images/neural_network.png",
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/microchip-polarfire-soc-vk/images/top-level.jpg",
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/microchip-polarfire-soc-vk/images/mchp-polarfire-track3-dashboard.jpg"
+      ],
       "models": [
         {
           "slug": "polarfire-tinyml",
@@ -9203,7 +9235,9 @@
       "stars": 3,
       "updated": "2026-08-12T00:16:25Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-kws-placard.JPG",
-      "dashboards": [],
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/microchip-sama7d65-curiosity/media/kws-blackjack-iotc-live_tabular.jpg"
+      ],
       "photos": [],
       "models": [
         {
@@ -9262,7 +9296,11 @@
       "updated": "2026-08-12T00:16:25Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-kws-placard.JPG",
       "dashboards": [],
-      "photos": [],
+      "photos": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/microchip-sama7d65-curiosity/media/kws-blackjack-1.jpg",
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/microchip-sama7d65-curiosity/media/blackjack-0.png",
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/microchip-sama7d65-curiosity/media/blackjack.png"
+      ],
       "models": [
         {
           "slug": "dscnn-kws",
@@ -9321,7 +9359,11 @@
       "updated": "2026-08-12T00:16:25Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-kws-placard.JPG",
       "dashboards": [],
-      "photos": [],
+      "photos": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/microchip-sama7d65-curiosity/media/kws-trainer-step1and2.jpg",
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/microchip-sama7d65-curiosity/media/kws-trainer-step1a.jpg",
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/microchip-sama7d65-curiosity/media/kws-trainer-datasetAndActivity.jpg"
+      ],
       "models": [
         {
           "slug": "dscnn-kws",
@@ -9475,8 +9517,13 @@
       "stars": 3,
       "updated": "2026-08-12T00:16:25Z",
       "image": null,
-      "dashboards": [],
-      "photos": [],
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/nxp-frdm-imx-93/media/dashboard_reduced.png"
+      ],
+      "photos": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/nxp-frdm-imx-93/media/NXP-imx9-IOTC-crane-operator.png",
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/nxp-frdm-imx-93/media/dms_metrics.png"
+      ],
       "models": [
         {
           "slug": "eiq-vision-dms",
@@ -9537,7 +9584,9 @@
       "updated": "2026-08-12T00:16:25Z",
       "image": null,
       "dashboards": [],
-      "photos": [],
+      "photos": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/nxp-frdm-imx-93/media/NXP-imx9-IOTC-engineer.png"
+      ],
       "models": [
         {
           "slug": "eiq-vision-dms",
@@ -9856,7 +9905,9 @@
       "stars": 3,
       "updated": "2026-08-12T00:16:25Z",
       "image": null,
-      "dashboards": [],
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/stm32mp135f-dk/media/STMP135-objectDet-screenshot.png"
+      ],
       "photos": [],
       "models": [
         {
@@ -10689,7 +10740,9 @@
       "updated": "2026-08-12T00:16:25Z",
       "image": null,
       "dashboards": [],
-      "photos": [],
+      "photos": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/tria-maaxboard-osm93/media/OSM-93-connections.png"
+      ],
       "models": [
         {
           "slug": "eiq-vision-dms",
@@ -10858,7 +10911,9 @@
       "stars": 3,
       "updated": "2026-08-12T00:16:25Z",
       "image": null,
-      "dashboards": [],
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/tria-vision-ai-kit-6490/media/vision-ai-dash.png"
+      ],
       "photos": [],
       "models": [],
       "described": true,
@@ -11011,7 +11066,9 @@
       "updated": "2026-07-22T23:24:52Z",
       "image": null,
       "dashboards": [],
-      "photos": [],
+      "photos": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-greengrass-demos/main/stm32mp135f-dk/media/STM32MP135x-DK_w_gg.png"
+      ],
       "models": [],
       "described": true,
       "hidden": false,
@@ -11415,7 +11472,9 @@
       "updated": "2026-08-12T00:16:25Z",
       "image": null,
       "dashboards": [],
-      "photos": [],
+      "photos": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/tria-maaxboard-8m/media/8m-board-setup.png"
+      ],
       "models": [],
       "described": true,
       "hidden": false,
@@ -11467,7 +11526,9 @@
       "updated": "2026-08-12T00:16:25Z",
       "image": null,
       "dashboards": [],
-      "photos": [],
+      "photos": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/tria-maaxboard-8ulp/media/8ulp_board_setup.png"
+      ],
       "models": [],
       "described": true,
       "hidden": false,
@@ -11657,7 +11718,9 @@
       "updated": "2026-05-04T16:31:13Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ren-wireless-placard.JPG",
       "dashboards": [],
-      "photos": [],
+      "photos": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-freertos-ek-ra6w1/iotc-support/media/board.jpeg"
+      ],
       "models": [],
       "described": true,
       "hidden": false,
@@ -11712,8 +11775,13 @@
       "stars": 0,
       "updated": "2026-04-22T23:08:01Z",
       "image": null,
-      "dashboards": [],
-      "photos": [],
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/stm32n6570_dk_w6x_iot_reference/main/assets/HomeAssistant_OverView.png"
+      ],
+      "photos": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/stm32n6570_dk_w6x_iot_reference/main/assets/aws_mqtt_test_client.png",
+        "https://raw.githubusercontent.com/avnet-iotconnect/stm32n6570_dk_w6x_iot_reference/main/assets/mqtt_cool_sensor_env.png"
+      ],
       "models": [],
       "described": true,
       "hidden": false,
@@ -11766,7 +11834,9 @@
       "stars": 1,
       "updated": "2026-04-21T01:56:10Z",
       "image": null,
-      "dashboards": [],
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-ameba-pro2-webrtc-kvs/main/docs/images/start-stop-stream.png"
+      ],
       "photos": [],
       "models": [],
       "described": true,
@@ -11983,10 +12053,10 @@
       "stars": 0,
       "updated": "2025-09-05T03:15:20Z",
       "image": null,
-      "dashboards": [
-        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-freertos-stm32-u5-ml-demo/main/media/sound-classifier-dashboard.png"
+      "dashboards": [],
+      "photos": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-freertos-stm32-u5-ml-demo-v2/main/media/architecture.png"
       ],
-      "photos": [],
       "models": [
         {
           "slug": "stm32-modelzoo-aed",
@@ -12107,7 +12177,9 @@
       "stars": 1,
       "updated": "2025-04-26T00:15:34Z",
       "image": null,
-      "dashboards": [],
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-examples/main/PE100A_Motor_Monitor_Demo/media/image15.png"
+      ],
       "photos": [],
       "models": [],
       "described": true,
@@ -12161,7 +12233,9 @@
       "stars": 1,
       "updated": "2025-04-26T00:15:34Z",
       "image": null,
-      "dashboards": [],
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-examples/main/PE100A_Motor_Monitor_Demo/media/image15.png"
+      ],
       "photos": [],
       "models": [],
       "described": true,
@@ -12215,7 +12289,9 @@
       "stars": 1,
       "updated": "2025-04-26T00:15:34Z",
       "image": null,
-      "dashboards": [],
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-examples/main/PE100A_Motor_Monitor_Demo/media/image15.png"
+      ],
       "photos": [],
       "models": [],
       "described": true,
@@ -12269,7 +12345,9 @@
       "stars": 1,
       "updated": "2025-04-26T00:15:34Z",
       "image": null,
-      "dashboards": [],
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-examples/main/PE100A_Motor_Monitor_Demo/media/image15.png"
+      ],
       "photos": [],
       "models": [],
       "described": true,
@@ -12323,7 +12401,9 @@
       "stars": 1,
       "updated": "2025-04-26T00:15:34Z",
       "image": null,
-      "dashboards": [],
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-examples/main/PE100A_Motor_Monitor_Demo/media/image15.png"
+      ],
       "photos": [],
       "models": [],
       "described": true,
@@ -12377,7 +12457,9 @@
       "stars": 1,
       "updated": "2025-04-26T00:15:34Z",
       "image": null,
-      "dashboards": [],
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-examples/main/PE100A_Motor_Monitor_Demo/media/image15.png"
+      ],
       "photos": [],
       "models": [],
       "described": true,
@@ -13107,7 +13189,7 @@
       "description": "Arduino/PlatformIO C/C++ SDK that connects WiFi-capable Arduino boards to Avnet /IOTCONNECT over MQTT, developed and tested on the SparkFun ESP32 Thing. Depends on the WiFiSecure library for TLS and PubSubClient for MQTT, and ships an ESP sensors sample with GPIO LED/button examples.",
       "category": "sdk",
       "status": "beta",
-      "release": "v1.0.1",
+      "release": null,
       "languages": [
         "C",
         "C++"
@@ -13225,7 +13307,7 @@
       "description": "SDK and sample application that connects the STM32U5 IoT Discovery Kit to /IOTCONNECT over Azure RTOS, built on X-Cube-Azure with Trusted Firmware-M (TF-M) secure firmware. Supports onboard Wi-Fi connectivity and optional cellular via the BG96 module from the P-L496G-CELL02 combo.",
       "category": "sample",
       "status": "beta",
-      "release": "1.1.1",
+      "release": null,
       "languages": [
         "C"
       ],
@@ -13894,7 +13976,9 @@
       "stars": 1,
       "updated": "2026-08-09T01:15:36Z",
       "image": null,
-      "dashboards": [],
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-snap-examples/main/examples/raspberry-pi5-iotc-vision-ai-pi5/media/dasboard-img.png"
+      ],
       "photos": [],
       "models": [
         {
@@ -13955,8 +14039,12 @@
       "stars": 0,
       "updated": "2025-11-22T04:11:37Z",
       "image": null,
-      "dashboards": [],
-      "photos": [],
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-mcx-zephyr-demos/main/media/dashboard.png"
+      ],
+      "photos": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-mcx-zephyr-demos/main/media/frdm-mcux-n947-side.jpg"
+      ],
       "models": [
         {
           "slug": "eiq-tflm",
@@ -14068,7 +14156,10 @@
       "updated": "2026-08-07T22:48:32Z",
       "image": null,
       "dashboards": [],
-      "photos": [],
+      "photos": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-mchp-sama7d65-rnwf11/main/media/wifi-module.png",
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-mchp-sama7d65-rnwf11/main/environmental-data/media/env-click-seat.png"
+      ],
       "models": [],
       "described": true,
       "hidden": false,

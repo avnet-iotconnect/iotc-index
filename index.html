@@ -178,6 +178,9 @@
   .tag-tr .led{width:7px;height:7px;border-radius:50%;background:var(--st);box-shadow:0 0 7px var(--st);}
   .tag-tr.rel{text-transform:none;color:var(--brand-deep);}   /* release tag badge (no status LED) */
   .qbadges{position:absolute;left:10px;bottom:10px;z-index:3;display:flex;gap:5px;flex-wrap:wrap;}
+  /* small board thumbnail overlaid on demo tiles, so the demo image leads but the hardware stays visible */
+  .imgwrap img.boardchip{position:absolute;right:10px;bottom:10px;z-index:3;width:64px;height:48px;object-fit:contain;background:rgba(255,255,255,.96);border:1px solid var(--line);border-radius:8px;padding:3px;box-shadow:0 2px 8px rgba(0,0,0,.18);}
+  .card:hover .imgwrap img.boardchip{transform:none;}
   .qbadge{font-family:'JetBrains Mono',monospace;font-size:9.5px;font-weight:600;letter-spacing:.03em;background:rgba(9,32,19,.86);color:#D7F3E0;border-radius:5px;padding:3px 7px;}
   .body{padding:14px 15px 13px;display:flex;flex-direction:column;flex:1;}
   .vrow{display:flex;align-items:center;gap:7px;margin-bottom:6px;}
@@ -576,11 +579,21 @@ function repoCard(r){
   // show the latest GitHub release tag; no release -> no label
   const stt=r.release?`<span class="tag-tr rel">${esc(r.release)}</span>`:"";
   const lead=mediaLead(r);
+  // small board thumb overlaid on demo-image tiles (uses the per-card board on expanded rows)
+  const chipB=r.board||boards[0]||null;
+  const chipSrc=chipB?(chipB.image||chipB.imageLocal||""):"";
+  const chip=chipSrc?`<img class="boardchip" src="${esc(chipSrc)}" ${(chipB.image&&chipB.imageLocal)?`data-local="${esc(chipB.imageLocal)}"`:""} alt="${esc(chipB.name||"board")}" loading="lazy" onerror="imgErr(this)">`:"";
   let img;
   if(lead){
     img=`<div class="imgwrap shot" data-mono="${esc(mono(r.displayName||r.repo))}">
       <img class="shot" src="${esc(lead.url)}" ${lead.fb?`data-local="${esc(lead.fb)}"`:""} alt="${esc(r.displayName||"")}" loading="lazy" onerror="imgErr(this)">${cat}${stt}
-      <div class="qbadges"><span class="qbadge media">${lead.isDash?"📊 dynamic dashboard":"📷 demo"}</span></div></div>`;
+      <div class="qbadges"><span class="qbadge media">${lead.isDash?"📊 dynamic dashboard":"📷 demo"}</span></div>${chip}</div>`;
+  }else if(boards.length&&r.image&&!/\.svg(\?|$)/i.test(r.image)){
+    // no dashboard/photo media, but the listing has its own demo image (e.g. a placard):
+    // lead with it instead of the bare board photo, and keep the board visible as a chip
+    img=`<div class="imgwrap shot" data-mono="${esc(mono(r.displayName||r.repo))}">
+      <img class="shot" src="${esc(r.image)}" alt="${esc(r.displayName||"")}" loading="lazy" onerror="imgErr(this)">${cat}${stt}
+      <div class="qbadges"><span class="qbadge media">📷 demo</span></div>${chip}</div>`;
   }else if(!boards.length){
     if(r.image){
       const isLogo=/\.svg(\?|$)/i.test(r.image);
