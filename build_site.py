@@ -175,6 +175,7 @@ for row in lrows:
         "image": resolve_listing_image(row.get("Image")),
         "dashboards": gallery(row.get("Dashboards")),   # /IOTCONNECT cloud screenshots
         "photos": gallery(row.get("Photos")),           # real hardware-in-action photos
+        "overlay": resolve_listing_image(row.get("Overlay")),   # small top-right corner badge image
     })
 
 # ---------- live GitHub facts ----------

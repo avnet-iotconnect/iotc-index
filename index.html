@@ -181,6 +181,10 @@
   /* small board thumbnail overlaid on demo tiles, so the demo image leads but the hardware stays visible */
   .imgwrap img.boardchip{position:absolute;right:10px;bottom:10px;z-index:3;width:64px;height:48px;object-fit:contain;background:rgba(255,255,255,.96);border:1px solid var(--line);border-radius:8px;padding:3px;box-shadow:0 2px 8px rgba(0,0,0,.18);}
   .card:hover .imgwrap img.boardchip{transform:none;}
+  /* optional top-right overlay image (Overlay column); drops below the release tag when both exist */
+  .imgwrap img.cornerchip{position:absolute;right:10px;top:10px;z-index:3;width:64px;height:48px;object-fit:contain;background:rgba(255,255,255,.96);border:1px solid var(--line);border-radius:8px;padding:3px;box-shadow:0 2px 8px rgba(0,0,0,.18);}
+  .card:hover .imgwrap img.cornerchip{transform:none;}
+  .tag-tr.rel~img.cornerchip{top:42px;}
   .qbadge{font-family:'JetBrains Mono',monospace;font-size:9.5px;font-weight:600;letter-spacing:.03em;background:rgba(9,32,19,.86);color:#D7F3E0;border-radius:5px;padding:3px 7px;}
   .body{padding:14px 15px 13px;display:flex;flex-direction:column;flex:1;}
   .vrow{display:flex;align-items:center;gap:7px;margin-bottom:6px;}
@@ -578,6 +582,7 @@ function repoCard(r){
   const cat=`<span class="tag-tl">${esc(r.category)}</span>`;
   // show the latest GitHub release tag; no release -> no label
   const stt=r.release?`<span class="tag-tr rel">${esc(r.release)}</span>`:"";
+  const ovl=r.overlay?`<img class="cornerchip" src="${esc(r.overlay)}" alt="" loading="lazy" onerror="imgErr(this)">`:"";
   const lead=mediaLead(r);
   // small board thumb overlaid on demo-image tiles (uses the per-card board on expanded rows)
   const chipB=r.board||boards[0]||null;
@@ -586,29 +591,29 @@ function repoCard(r){
   let img;
   if(lead){
     img=`<div class="imgwrap shot" data-mono="${esc(mono(r.displayName||r.repo))}">
-      <img class="shot" src="${esc(lead.url)}" ${lead.fb?`data-local="${esc(lead.fb)}"`:""} alt="${esc(r.displayName||"")}" loading="lazy" onerror="imgErr(this)">${cat}${stt}
+      <img class="shot" src="${esc(lead.url)}" ${lead.fb?`data-local="${esc(lead.fb)}"`:""} alt="${esc(r.displayName||"")}" loading="lazy" onerror="imgErr(this)">${cat}${stt}${ovl}
       <div class="qbadges"><span class="qbadge media">${lead.isDash?"📊 dynamic dashboard":"📷 demo"}</span></div>${chip}</div>`;
   }else if(boards.length&&r.image&&!/\.svg(\?|$)/i.test(r.image)){
     // no dashboard/photo media, but the listing has its own demo image (e.g. a placard):
     // lead with it instead of the bare board photo, and keep the board visible as a chip
     img=`<div class="imgwrap shot" data-mono="${esc(mono(r.displayName||r.repo))}">
-      <img class="shot" src="${esc(r.image)}" alt="${esc(r.displayName||"")}" loading="lazy" onerror="imgErr(this)">${cat}${stt}
+      <img class="shot" src="${esc(r.image)}" alt="${esc(r.displayName||"")}" loading="lazy" onerror="imgErr(this)">${cat}${stt}${ovl}
       <div class="qbadges"><span class="qbadge media">📷 demo</span></div>${chip}</div>`;
   }else if(!boards.length){
     if(r.image){
       const isLogo=/\.svg(\?|$)/i.test(r.image);
       img=`<div class="imgwrap ${isLogo?"tech":""}" data-mono="${esc((r.languages&&r.languages[0])||"/")}">
-        <img class="${isLogo?"techlogo":""}" src="${esc(r.image)}" alt="${esc(r.displayName||"")}" loading="lazy" onerror="imgErr(this)">${cat}${stt}
+        <img class="${isLogo?"techlogo":""}" src="${esc(r.image)}" alt="${esc(r.displayName||"")}" loading="lazy" onerror="imgErr(this)">${cat}${stt}${ovl}
         <div class="qbadges"><span class="qbadge" style="background:#15803D">${esc((r.languages&&r.languages[0])||"platform-agnostic")}</span></div></div>`;
     }else{
-      img=`<div class="imgwrap" data-mono="{ }">${cat}${stt}
+      img=`<div class="imgwrap" data-mono="{ }">${cat}${stt}${ovl}
         <div class="qbadges"><span class="qbadge" style="background:#15803D">platform-agnostic</span></div></div>`;
     }
   }else if(boards.length===1){
-    img=`<div class="imgwrap" data-mono="${esc(mono(boards[0].partNumber||boards[0].name))}">${boardImgEl(boards[0])}${cat}${stt}</div>`;
+    img=`<div class="imgwrap" data-mono="${esc(mono(boards[0].partNumber||boards[0].name))}">${boardImgEl(boards[0])}${cat}${stt}${ovl}</div>`;
   }else{
     const show=boards.slice(0,3),n=Math.min(show.length,3);
-    img=`<div class="imgwrap multi n${n}" data-mono="">${show.map(b=>boardImgEl(b)).join("")}${cat}${stt}
+    img=`<div class="imgwrap multi n${n}" data-mono="">${show.map(b=>boardImgEl(b)).join("")}${cat}${stt}${ovl}
       <div class="qbadges"><span class="qbadge" style="background:#15803D">${boards.length} boards</span></div></div>`;
   }
   const langs=(r.languages||[]).slice(0,2).map(l=>`<span class="badge lang">${esc(l)}</span>`).join("");

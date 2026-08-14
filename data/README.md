@@ -21,7 +21,10 @@ as a table and shows **row/cell-level diffs** in commits and PRs.
 | `Description` | Card text. |
 | `Link` | Explicit URL (else derived from `Repo`). |
 | `Include` | `no` hides the row. |
-| `Image` | Picture for **board-less** rows: a tech logo (`assets/tech/python.svg`), a photo (`assets/listings/drone.png`), or a URL. Ignored when `Boards` is set (the board image is used). |
+| `Image` | Picture for **board-less** rows: a tech logo (`assets/tech/python.svg`), a photo (`assets/listings/drone.png`), or a URL. Ignored when `Boards` is set (the board image is used).
+| `Dashboards` | Pipe-separated /IOTCONNECT dashboard screenshot URLs. The first one leads the card tile. |
+| `Photos` | Pipe-separated demo-in-action photo URLs (lead when no Dashboards). |
+| `Overlay` | Optional small badge image shown in the tile's top-right corner (partner logo, sensor, award…). | |
 
 ## `boards.csv` — the hardware registry
 `Manufacturer`, `Board Name`, `Part Number` (the key listings reference), `Image File`
