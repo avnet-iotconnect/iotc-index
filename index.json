@@ -1,6 +1,6 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-08-13T16:53:35Z",
+  "generated": "2026-08-14T01:36:51Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
@@ -10020,7 +10020,9 @@
       "updated": "2026-08-12T00:16:25Z",
       "image": null,
       "dashboards": [],
-      "photos": [],
+      "photos": [
+        "assets/listings/amazon-kinesis-video-streams.png"
+      ],
       "models": [],
       "described": true,
       "hidden": false,
