@@ -1,6 +1,6 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-08-17T18:32:24Z",
+  "generated": "2026-08-17T19:04:56Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
@@ -36,7 +36,7 @@
       "logo": null,
       "info": null,
       "boards": 2,
-      "listings": 4
+      "listings": 7
     },
     {
       "name": "Espressif",
@@ -337,14 +337,14 @@
     "topics": [
       {
         "tag": "edge-ai",
-        "count": 70
-      },
-      {
-        "tag": "gateway",
-        "count": 35
+        "count": 73
       },
       {
         "tag": "vision",
+        "count": 38
+      },
+      {
+        "tag": "gateway",
         "count": 35
       },
       {
@@ -368,6 +368,10 @@
         "count": 19
       },
       {
+        "tag": "npu",
+        "count": 17
+      },
+      {
         "tag": "zephyr",
         "count": 17
       },
@@ -381,10 +385,6 @@
       },
       {
         "tag": "kvs",
-        "count": 14
-      },
-      {
-        "tag": "npu",
         "count": 14
       },
       {
@@ -500,11 +500,19 @@
         "count": 3
       },
       {
+        "tag": "vlm",
+        "count": 3
+      },
+      {
         "tag": "audio-classification",
         "count": 2
       },
       {
         "tag": "genai",
+        "count": 2
+      },
+      {
+        "tag": "hailo",
         "count": 2
       },
       {
@@ -549,6 +557,10 @@
       },
       {
         "tag": "co2",
+        "count": 1
+      },
+      {
+        "tag": "deepx",
         "count": 1
       },
       {
@@ -621,10 +633,6 @@
       },
       {
         "tag": "vision-ai",
-        "count": 1
-      },
-      {
-        "tag": "vlm",
         "count": 1
       },
       {
@@ -705,6 +713,24 @@
         "count": 3
       },
       {
+        "model": "yolov8",
+        "name": "YOLOv8 (Ultralytics)",
+        "task": "object detection",
+        "framework": "ONNX / TFLite / Hexagon NPU",
+        "vendor": "Ultralytics",
+        "link": "https://docs.ultralytics.com",
+        "count": 3
+      },
+      {
+        "model": "clip",
+        "name": "CLIP (vision-language)",
+        "task": "zero-shot image-text similarity / promptable vision",
+        "framework": "Hailo-8 / DEEPX DX-M1 NPU",
+        "vendor": "OpenAI",
+        "link": "https://github.com/openai/CLIP",
+        "count": 2
+      },
+      {
         "model": "drp-ai",
         "name": "Renesas DRP-AI (YOLOv3 / EdgeYOLO / UNet)",
         "task": "object detection / pose / meter reading",
@@ -756,15 +782,6 @@
         "framework": "NanoEdge AI Studio",
         "vendor": "STMicroelectronics",
         "link": "https://www.st.com/en/development-tools/nanoedgeaistudio.html",
-        "count": 2
-      },
-      {
-        "model": "yolov8",
-        "name": "YOLOv8 (Ultralytics)",
-        "task": "object detection",
-        "framework": "ONNX / TFLite / Hexagon NPU",
-        "vendor": "Ultralytics",
-        "link": "https://docs.ultralytics.com",
         "count": 2
       },
       {
@@ -2521,7 +2538,7 @@
         ],
         "integrator": "Raspberry Pi",
         "maker": "Raspberry Pi",
-        "listings": 4
+        "listings": 7
       },
       {
         "slug": "aes-rasynb-120",
@@ -3610,13 +3627,13 @@
     ]
   },
   "counts": {
-    "total": 209,
+    "total": 212,
     "manufacturers": 17,
     "boards": 94,
     "sdks": 28,
     "tools": 6,
-    "examples": 175,
-    "models": 24,
+    "examples": 178,
+    "models": 25,
     "guides": 80,
     "demos": 12,
     "partners": 9
@@ -14816,6 +14833,202 @@
       ],
       "makers": [
         "NXP"
+      ]
+    },
+    {
+      "repo": "iotc-python-lite-sdk-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/raspberry-pi/hailo-vision-multitool",
+      "displayName": "Hailo Vision Multi-Tool - Cloud-Retaskable CNN Vision",
+      "description": "One Raspberry Pi 5 + Hailo-8 M.2 accelerator, three heavyweight YOLOv8m pipelines - object detection, pose estimation, and instance segmentation - switched live from the /IOTCONNECT dashboard. set-mode tears down the running pipeline and boots the next in seconds at ~30 fps camera rate. People and object counts stream to the cloud once per second, and the board serves its own embeddable live pages including an animated object board.",
+      "category": "sample",
+      "status": "beta",
+      "release": null,
+      "languages": [
+        "Python"
+      ],
+      "features": [
+        "edge-ai",
+        "hailo",
+        "npu",
+        "vision"
+      ],
+      "stars": 3,
+      "updated": "2026-08-12T00:16:25Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [
+        "assets/listings/hailo-vision-multitool.svg"
+      ],
+      "models": [
+        {
+          "slug": "yolov8",
+          "name": "YOLOv8 (Ultralytics)",
+          "task": "object detection",
+          "framework": "ONNX / TFLite / Hexagon NPU",
+          "vendor": "Ultralytics",
+          "link": "https://docs.ultralytics.com"
+        }
+      ],
+      "described": true,
+      "hidden": false,
+      "id": "hailo-vision-multi-tool-cloud-retaskable-cnn-vision",
+      "boards": [
+        {
+          "slug": "rpi5-4gb-single",
+          "vendor": "Broadcom",
+          "name": "Raspberry Pi5 4GB",
+          "maker": "Raspberry Pi",
+          "integrator": "Raspberry Pi",
+          "partNumber": "RPI5-4GB-SINGLE",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/RPI5.png"
+        }
+      ],
+      "board": {
+        "slug": "rpi5-4gb-single",
+        "vendor": "Broadcom",
+        "name": "Raspberry Pi5 4GB",
+        "maker": "Raspberry Pi",
+        "integrator": "Raspberry Pi",
+        "partNumber": "RPI5-4GB-SINGLE",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/RPI5.png"
+      },
+      "manufacturers": [
+        "Broadcom"
+      ],
+      "makers": [
+        "Raspberry Pi"
+      ]
+    },
+    {
+      "repo": "iotc-python-lite-sdk-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/raspberry-pi/hailo-clip-ai-vision",
+      "displayName": "Ask the Camera - CLIP Vision on Hailo-8",
+      "description": "Cloud-reprogrammable AI vision on a Raspberry Pi 5 with the Hailo-8 M.2 accelerator: the CLIP vision-language model runs on the NPU and scores the live camera feed against plain-English prompts sent from the /IOTCONNECT dashboard - 'a person waving', 'a red toolbox' - with no retraining and no redeployment. Prompt commands go down, live similarity telemetry comes up, and the board serves embeddable live pages.",
+      "category": "sample",
+      "status": "beta",
+      "release": null,
+      "languages": [
+        "Python"
+      ],
+      "features": [
+        "edge-ai",
+        "hailo",
+        "npu",
+        "vision",
+        "vlm"
+      ],
+      "stars": 3,
+      "updated": "2026-08-12T00:16:25Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [
+        "assets/listings/hailo-clip-ai-vision.svg"
+      ],
+      "models": [
+        {
+          "slug": "clip",
+          "name": "CLIP (vision-language)",
+          "task": "zero-shot image-text similarity / promptable vision",
+          "framework": "Hailo-8 / DEEPX DX-M1 NPU",
+          "vendor": "OpenAI",
+          "link": "https://github.com/openai/CLIP"
+        }
+      ],
+      "described": true,
+      "hidden": false,
+      "id": "ask-the-camera-clip-vision-on-hailo-8",
+      "boards": [
+        {
+          "slug": "rpi5-4gb-single",
+          "vendor": "Broadcom",
+          "name": "Raspberry Pi5 4GB",
+          "maker": "Raspberry Pi",
+          "integrator": "Raspberry Pi",
+          "partNumber": "RPI5-4GB-SINGLE",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/RPI5.png"
+        }
+      ],
+      "board": {
+        "slug": "rpi5-4gb-single",
+        "vendor": "Broadcom",
+        "name": "Raspberry Pi5 4GB",
+        "maker": "Raspberry Pi",
+        "integrator": "Raspberry Pi",
+        "partNumber": "RPI5-4GB-SINGLE",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/RPI5.png"
+      },
+      "manufacturers": [
+        "Broadcom"
+      ],
+      "makers": [
+        "Raspberry Pi"
+      ]
+    },
+    {
+      "repo": "iotc-python-lite-sdk-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/raspberry-pi/deepx-clip-ai-vision",
+      "displayName": "Ask the Camera - CLIP Vision on DEEPX DX-M1",
+      "description": "Cloud-reprogrammable AI vision on a Raspberry Pi 5 with the DEEPX DX-M1 NPU: the CLIP vision-language model scores the live camera feed against plain-English prompts sent from the /IOTCONNECT dashboard, with prompt changes taking effect in about a second - no retraining, no redeployment. Similarity scores, FPS, and silicon temperatures stream to the cloud once per second.",
+      "category": "sample",
+      "status": "beta",
+      "release": null,
+      "languages": [
+        "Python"
+      ],
+      "features": [
+        "deepx",
+        "edge-ai",
+        "npu",
+        "vision",
+        "vlm"
+      ],
+      "stars": 3,
+      "updated": "2026-08-12T00:16:25Z",
+      "image": null,
+      "dashboards": [
+        "assets/listings/deepx-clip-dash.png"
+      ],
+      "photos": [
+        "assets/listings/deepx-clip-ai-vision.svg"
+      ],
+      "models": [
+        {
+          "slug": "clip",
+          "name": "CLIP (vision-language)",
+          "task": "zero-shot image-text similarity / promptable vision",
+          "framework": "Hailo-8 / DEEPX DX-M1 NPU",
+          "vendor": "OpenAI",
+          "link": "https://github.com/openai/CLIP"
+        }
+      ],
+      "described": true,
+      "hidden": false,
+      "id": "ask-the-camera-clip-vision-on-deepx-dx-m1",
+      "boards": [
+        {
+          "slug": "rpi5-4gb-single",
+          "vendor": "Broadcom",
+          "name": "Raspberry Pi5 4GB",
+          "maker": "Raspberry Pi",
+          "integrator": "Raspberry Pi",
+          "partNumber": "RPI5-4GB-SINGLE",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/RPI5.png"
+        }
+      ],
+      "board": {
+        "slug": "rpi5-4gb-single",
+        "vendor": "Broadcom",
+        "name": "Raspberry Pi5 4GB",
+        "maker": "Raspberry Pi",
+        "integrator": "Raspberry Pi",
+        "partNumber": "RPI5-4GB-SINGLE",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/RPI5.png"
+      },
+      "manufacturers": [
+        "Broadcom"
+      ],
+      "makers": [
+        "Raspberry Pi"
       ]
     }
   ]
