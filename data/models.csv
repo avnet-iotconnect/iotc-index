@@ -23,3 +23,4 @@ yunet-sface,YuNet + SFace,face detection & recognition,OpenCV (CPU + Neutron NPU
 smolvlm,SmolVLM-256M,compact vision-language model (VLM),eIQ GenAI Flow,Hugging Face,Hugging Face,https://huggingface.co/HuggingFaceTB/SmolVLM-256M-Instruct,yes
 eiq-tss,NXP eIQ Time Series Studio (Random Forest),vibration anomaly / predictive maintenance,eIQ Time Series Studio,NXP,NXP eIQ TSS,https://www.nxp.com/design/design-center/software/eiq-ai-development-environment/eiq-time-series-studio:EIQ-TIME-SERIES-STUDIO,yes
 tiny-mlp,Tiny-MLP (IOTM hot-swap blob),sensor classification (cloud-updatable weights),bare-metal C inference on Zephyr,Avnet (custom),iotc-zephyr-demos,https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/ml-model-update,yes
+clip,CLIP (vision-language),zero-shot image-text similarity / promptable vision,Hailo-8 / DEEPX DX-M1 NPU,OpenAI,OpenAI CLIP,https://github.com/openai/CLIP,yes
