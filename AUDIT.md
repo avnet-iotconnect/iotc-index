@@ -1,6 +1,6 @@
 # /IOTCONNECT Index — Audit Report
 
-_Generated 2026-08-13T16:32:35Z_  ·  202 listings · 92 boards (83 in use) · 17 manufacturers · 214 resources
+_Generated 2026-08-17T07:50:10Z_  ·  202 listings · 92 boards (83 in use) · 17 manufacturers · 214 resources
 
 ## ⚠ Boards referenced but missing from the Boards sheet
 - **uno** — referenced by: Vision AI Demonstrator
@@ -21,7 +21,7 @@ _Generated 2026-08-13T16:32:35Z_  ·  202 listings · 92 boards (83 in use) · 1
 - NXP · NXP MaaXBoard Mini (AES-MC-SBC-IMX8MINI-G)
 
 ## Org repos with no listing (candidates to add)
-- none — every public repo has a listing.
+- iotc-eiq-imx95-property-alarm — NXP eIQ demo with AI + ML property monitoring on FRDM-iMX95
 
 ## Listings missing description or topics
 - none.

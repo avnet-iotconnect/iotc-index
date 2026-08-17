@@ -1,6 +1,6 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-08-14T02:25:14Z",
+  "generated": "2026-08-17T07:50:10Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
@@ -13451,7 +13451,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-07-11T15:39:37Z",
+      "updated": "2026-08-16T20:37:56Z",
       "image": "assets/tech/zephyr.svg",
       "dashboards": [],
       "photos": [],
@@ -13481,7 +13481,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-08-03T16:38:53Z",
+      "updated": "2026-08-16T20:37:58Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -13531,7 +13531,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-08-03T16:38:53Z",
+      "updated": "2026-08-16T20:37:58Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -13583,7 +13583,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-08-03T16:38:53Z",
+      "updated": "2026-08-16T20:37:58Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -13633,7 +13633,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-08-03T16:38:53Z",
+      "updated": "2026-08-16T20:37:58Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -13683,7 +13683,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-08-03T16:38:53Z",
+      "updated": "2026-08-16T20:37:58Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -13735,7 +13735,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-08-03T16:38:53Z",
+      "updated": "2026-08-16T20:37:58Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -13784,7 +13784,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-08-03T16:38:53Z",
+      "updated": "2026-08-16T20:37:58Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -13836,7 +13836,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-08-03T16:38:53Z",
+      "updated": "2026-08-16T20:37:58Z",
       "image": null,
       "dashboards": [],
       "photos": [],
