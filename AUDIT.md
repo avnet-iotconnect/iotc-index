@@ -1,12 +1,13 @@
 # /IOTCONNECT Index — Audit Report
 
-_Generated 2026-08-17T07:50:10Z_  ·  202 listings · 92 boards (83 in use) · 17 manufacturers · 214 resources
+_Generated 2026-08-17T18:32:24Z_  ·  209 listings · 94 boards (85 in use) · 17 manufacturers · 214 resources
 
 ## ⚠ Boards referenced but missing from the Boards sheet
 - **uno** — referenced by: Vision AI Demonstrator
 
 ## Boards with no image (Azure or local)
-- none.
+- NXP · FRDM Development Board for MCX E31B MCUs (FRDM-MCXE31B)
+- NXP · FRDM Development Board for MCX W72 Wireless MCUs (FRDM-MCXW72)
 
 ## Boards not used by any listing (orphans)
 - Intel · MXE-230 Series Fanless Embedded Computer (MXE-230)

@@ -1,6 +1,6 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-08-17T07:50:10Z",
+  "generated": "2026-08-17T18:32:24Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
@@ -68,7 +68,7 @@
       "logo": "assets/brand/microchip-logo.png",
       "info": "https://www.avnet.com/iotconnect/microchip",
       "boards": 10,
-      "listings": 25
+      "listings": 26
     },
     {
       "name": "NVIDIA",
@@ -83,8 +83,8 @@
       "slug": "nxp",
       "logo": "assets/brand/nxp-logo.png",
       "info": "https://www.avnet.com/iotconnect/nxp",
-      "boards": 12,
-      "listings": 30
+      "boards": 14,
+      "listings": 36
     },
     {
       "name": "Nordic",
@@ -337,19 +337,19 @@
     "topics": [
       {
         "tag": "edge-ai",
-        "count": 66
-      },
-      {
-        "tag": "vision",
-        "count": 33
+        "count": 70
       },
       {
         "tag": "gateway",
-        "count": 32
+        "count": 35
+      },
+      {
+        "tag": "vision",
+        "count": 35
       },
       {
         "tag": "sensors",
-        "count": 29
+        "count": 30
       },
       {
         "tag": "ai",
@@ -368,6 +368,10 @@
         "count": 19
       },
       {
+        "tag": "zephyr",
+        "count": 17
+      },
+      {
         "tag": "mpu",
         "count": 15
       },
@@ -380,11 +384,11 @@
         "count": 14
       },
       {
-        "tag": "mcu",
-        "count": 13
+        "tag": "npu",
+        "count": 14
       },
       {
-        "tag": "npu",
+        "tag": "mcu",
         "count": 13
       },
       {
@@ -405,10 +409,6 @@
       },
       {
         "tag": "freertos",
-        "count": 11
-      },
-      {
-        "tag": "zephyr",
         "count": 11
       },
       {
@@ -440,11 +440,11 @@
         "count": 6
       },
       {
-        "tag": "at-commands",
-        "count": 5
+        "tag": "predictive-maintenance",
+        "count": 6
       },
       {
-        "tag": "predictive-maintenance",
+        "tag": "at-commands",
         "count": 5
       },
       {
@@ -461,6 +461,10 @@
       },
       {
         "tag": "clicks",
+        "count": 4
+      },
+      {
+        "tag": "security",
         "count": 4
       },
       {
@@ -488,10 +492,6 @@
         "count": 3
       },
       {
-        "tag": "security",
-        "count": 3
-      },
-      {
         "tag": "smart-home",
         "count": 3
       },
@@ -504,7 +504,15 @@
         "count": 2
       },
       {
+        "tag": "genai",
+        "count": 2
+      },
+      {
         "tag": "imu",
+        "count": 2
+      },
+      {
+        "tag": "ml",
         "count": 2
       },
       {
@@ -564,10 +572,6 @@
         "count": 1
       },
       {
-        "tag": "genai",
-        "count": 1
-      },
-      {
         "tag": "hardware-crypto",
         "count": 1
       },
@@ -581,10 +585,6 @@
       },
       {
         "tag": "meta-layer",
-        "count": 1
-      },
-      {
-        "tag": "ml",
         "count": 1
       },
       {
@@ -625,6 +625,10 @@
       },
       {
         "tag": "vlm",
+        "count": 1
+      },
+      {
+        "tag": "voice",
         "count": 1
       },
       {
@@ -710,12 +714,39 @@
         "count": 2
       },
       {
+        "model": "eiq-genai-llm",
+        "name": "NXP eIQ GenAI Flow (Danube-500M)",
+        "task": "on-device conversational AI / LLM",
+        "framework": "eIQ GenAI Flow (CPU / Neutron NPU)",
+        "vendor": "NXP",
+        "link": "https://www.nxp.com/design/design-center/software/embedded-software/eiq-genai-flow-conversational-ai-software-pipeline-on-edge-devices:GEN-AI-FLOW",
+        "count": 2
+      },
+      {
+        "model": "eiq-tflm",
+        "name": "NXP eIQ TensorFlow-Lite-Micro model",
+        "task": "on-MCU classification",
+        "framework": "eIQ / TFLite-Micro",
+        "vendor": "NXP",
+        "link": "https://www.nxp.com/eiq",
+        "count": 2
+      },
+      {
         "model": "mediapipe-pointnet",
         "name": "MediaPipe Hands + PointNet",
         "task": "hand / ASL gesture recognition",
         "framework": "MediaPipe + PyTorch",
         "vendor": "Google / community",
         "link": "https://developers.google.com/mediapipe",
+        "count": 2
+      },
+      {
+        "model": "mobilenet",
+        "name": "MobileNet",
+        "task": "image classification",
+        "framework": "TFLite / X-CUBE-AI",
+        "vendor": "Google / STMicroelectronics",
+        "link": "https://keras.io/api/applications/mobilenet/",
         "count": 2
       },
       {
@@ -746,21 +777,12 @@
         "count": 1
       },
       {
-        "model": "eiq-genai-llm",
-        "name": "NXP eIQ GenAI Flow (Danube-500M)",
-        "task": "on-device conversational AI / LLM",
-        "framework": "eIQ GenAI Flow (CPU / Neutron NPU)",
+        "model": "eiq-tss",
+        "name": "NXP eIQ Time Series Studio (Random Forest)",
+        "task": "vibration anomaly / predictive maintenance",
+        "framework": "eIQ Time Series Studio",
         "vendor": "NXP",
-        "link": "https://www.nxp.com/design/design-center/software/embedded-software/eiq-genai-flow-conversational-ai-software-pipeline-on-edge-devices:GEN-AI-FLOW",
-        "count": 1
-      },
-      {
-        "model": "eiq-tflm",
-        "name": "NXP eIQ TensorFlow-Lite-Micro model",
-        "task": "on-MCU classification",
-        "framework": "eIQ / TFLite-Micro",
-        "vendor": "NXP",
-        "link": "https://www.nxp.com/eiq",
+        "link": "https://www.nxp.com/design/design-center/software/eiq-ai-development-environment/eiq-time-series-studio:EIQ-TIME-SERIES-STUDIO",
         "count": 1
       },
       {
@@ -773,21 +795,30 @@
         "count": 1
       },
       {
-        "model": "mobilenet",
-        "name": "MobileNet",
-        "task": "image classification",
-        "framework": "TFLite / X-CUBE-AI",
-        "vendor": "Google / STMicroelectronics",
-        "link": "https://keras.io/api/applications/mobilenet/",
-        "count": 1
-      },
-      {
         "model": "qwen2-vl",
         "name": "Qwen2-VL / Qwen2.5-VL",
         "task": "vision-language model (VLM)",
         "framework": "OpenVINO (Intel iGPU)",
         "vendor": "Alibaba",
         "link": "https://huggingface.co/Qwen",
+        "count": 1
+      },
+      {
+        "model": "smolvlm",
+        "name": "SmolVLM-256M",
+        "task": "compact vision-language model (VLM)",
+        "framework": "eIQ GenAI Flow",
+        "vendor": "Hugging Face",
+        "link": "https://huggingface.co/HuggingFaceTB/SmolVLM-256M-Instruct",
+        "count": 1
+      },
+      {
+        "model": "tiny-mlp",
+        "name": "Tiny-MLP (IOTM hot-swap blob)",
+        "task": "sensor classification (cloud-updatable weights)",
+        "framework": "bare-metal C inference on Zephyr",
+        "vendor": "Avnet (custom)",
+        "link": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/ml-model-update",
         "count": 1
       },
       {
@@ -800,12 +831,30 @@
         "count": 1
       },
       {
+        "model": "yolo11n",
+        "name": "YOLO11n",
+        "task": "object detection & tracking",
+        "framework": "TFLite (NXP Neutron NPU)",
+        "vendor": "Ultralytics",
+        "link": "https://docs.ultralytics.com/models/yolo11/",
+        "count": 1
+      },
+      {
         "model": "yolox",
         "name": "YOLOX (quantized)",
         "task": "object detection",
         "framework": "LiteRT + QNN HTP delegate",
         "vendor": "Megvii / Qualcomm",
         "link": "https://aihub.qualcomm.com",
+        "count": 1
+      },
+      {
+        "model": "yunet-sface",
+        "name": "YuNet + SFace",
+        "task": "face detection & recognition",
+        "framework": "OpenCV (CPU + Neutron NPU)",
+        "vendor": "OpenCV community",
+        "link": "https://github.com/opencv/opencv_zoo",
         "count": 1
       }
     ],
@@ -1418,6 +1467,25 @@
         "listings": 1
       },
       {
+        "slug": "frdm-mcxe31b",
+        "vendor": "NXP",
+        "name": "FRDM Development Board for MCX E31B MCUs",
+        "partNumber": "FRDM-MCXE31B",
+        "image": null,
+        "imageLocal": null,
+        "link": "https://www.nxp.com/design/design-center/development-boards-and-designs/FRDM-MCXE31B",
+        "buy": null,
+        "qualifications": [],
+        "tags": [
+          "mcu",
+          "zephyr"
+        ],
+        "resources": [],
+        "integrator": "NXP",
+        "maker": "NXP",
+        "listings": 1
+      },
+      {
         "slug": "frdm-mcxn947",
         "vendor": "NXP",
         "name": "FRDM Development Board for MCX N94/N54 MCUs",
@@ -1447,7 +1515,27 @@
         ],
         "integrator": "NXP",
         "maker": "NXP",
-        "listings": 6
+        "listings": 7
+      },
+      {
+        "slug": "frdm-mcxw72",
+        "vendor": "NXP",
+        "name": "FRDM Development Board for MCX W72 Wireless MCUs",
+        "partNumber": "FRDM-MCXW72",
+        "image": null,
+        "imageLocal": null,
+        "link": "https://www.nxp.com/design/design-center/development-boards-and-designs/FRDM-MCXW72",
+        "buy": null,
+        "qualifications": [],
+        "tags": [
+          "mcu",
+          "ble",
+          "zephyr"
+        ],
+        "resources": [],
+        "integrator": "NXP",
+        "maker": "NXP",
+        "listings": 1
       },
       {
         "slug": "s32g-vnp-gldbox",
@@ -1537,7 +1625,7 @@
         ],
         "integrator": "NXP",
         "maker": "NXP",
-        "listings": 2
+        "listings": 3
       },
       {
         "slug": "frdm-imx93",
@@ -1572,7 +1660,7 @@
         ],
         "integrator": "NXP",
         "maker": "NXP",
-        "listings": 11
+        "listings": 12
       },
       {
         "slug": "frdm-imx95",
@@ -1588,7 +1676,7 @@
         "resources": [],
         "integrator": "NXP",
         "maker": "NXP",
-        "listings": 1
+        "listings": 2
       },
       {
         "slug": "jetson-orin",
@@ -2684,7 +2772,7 @@
         ],
         "integrator": "Microchip",
         "maker": "Microchip",
-        "listings": 1
+        "listings": 2
       },
       {
         "slug": "atsama5d27-som1-ek1",
@@ -3522,13 +3610,13 @@
     ]
   },
   "counts": {
-    "total": 202,
+    "total": 209,
     "manufacturers": 17,
-    "boards": 92,
+    "boards": 94,
     "sdks": 28,
     "tools": 6,
-    "examples": 168,
-    "models": 19,
+    "examples": 175,
+    "models": 24,
     "guides": 80,
     "demos": 12,
     "partners": 9
@@ -5705,7 +5793,7 @@
         "sensors"
       ],
       "stars": 0,
-      "updated": "2024-10-24T18:53:34Z",
+      "updated": "2026-08-17T18:19:05Z",
       "image": null,
       "dashboards": [
         "https://saleshosted.z13.web.core.windows.net/dashboard/r3/proteus-NEAI.PNG"
@@ -5769,7 +5857,7 @@
         "sensors"
       ],
       "stars": 0,
-      "updated": "2024-10-24T18:53:34Z",
+      "updated": "2026-08-17T18:19:05Z",
       "image": null,
       "dashboards": [
         "https://saleshosted.z13.web.core.windows.net/dashboard/r3/proteus-NEAI.PNG"
@@ -14294,6 +14382,440 @@
       ],
       "makers": [
         "Microchip"
+      ]
+    },
+    {
+      "repo": "iotc-eIQ-IMX95-property-alarm",
+      "url": "https://github.com/avnet-iotconnect/iotc-eIQ-IMX95-property-alarm",
+      "displayName": "Smart Camera Property Alarm (i.MX95 eIQ GenAI)",
+      "description": "Smart camera with property-alarm capabilities on the NXP FRDM-IMX95 (optional Ara240 accelerator): YOLO11n on the Neutron NPU detects and tracks people and objects, YuNet + SFace recognize faces, and intrusion alerts stream to /IOTCONNECT. Voice control via NXP VIT wake word with on-device STT (moonshine) and TTS (VITS), a local SmolVLM-256M describes the scene, and an optional Qwen 2.5 7B agent on Ara240 takes natural-language commands. Based on NXP's eIQ GenAI Flow Demonstrator v3.0.",
+      "category": "sample",
+      "status": "beta",
+      "release": null,
+      "languages": [
+        "Python"
+      ],
+      "features": [
+        "edge-ai",
+        "genai",
+        "npu",
+        "security",
+        "vision",
+        "voice"
+      ],
+      "stars": 0,
+      "updated": "2026-06-01T00:00:00Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [
+        "assets/listings/imx95-property-alarm.jpg"
+      ],
+      "models": [
+        {
+          "slug": "yolo11n",
+          "name": "YOLO11n",
+          "task": "object detection & tracking",
+          "framework": "TFLite (NXP Neutron NPU)",
+          "vendor": "Ultralytics",
+          "link": "https://docs.ultralytics.com/models/yolo11/"
+        },
+        {
+          "slug": "yunet-sface",
+          "name": "YuNet + SFace",
+          "task": "face detection & recognition",
+          "framework": "OpenCV (CPU + Neutron NPU)",
+          "vendor": "OpenCV community",
+          "link": "https://github.com/opencv/opencv_zoo"
+        },
+        {
+          "slug": "smolvlm",
+          "name": "SmolVLM-256M",
+          "task": "compact vision-language model (VLM)",
+          "framework": "eIQ GenAI Flow",
+          "vendor": "Hugging Face",
+          "link": "https://huggingface.co/HuggingFaceTB/SmolVLM-256M-Instruct"
+        },
+        {
+          "slug": "eiq-genai-llm",
+          "name": "NXP eIQ GenAI Flow (Danube-500M)",
+          "task": "on-device conversational AI / LLM",
+          "framework": "eIQ GenAI Flow (CPU / Neutron NPU)",
+          "vendor": "NXP",
+          "link": "https://www.nxp.com/design/design-center/software/embedded-software/eiq-genai-flow-conversational-ai-software-pipeline-on-edge-devices:GEN-AI-FLOW"
+        }
+      ],
+      "described": true,
+      "hidden": false,
+      "id": "smart-camera-property-alarm-i-mx95-eiq-genai",
+      "boards": [
+        {
+          "slug": "frdm-imx95",
+          "vendor": "NXP",
+          "name": "IMX95 Freedom Board",
+          "maker": "NXP",
+          "partNumber": "FRDM-IMX95",
+          "imageLocal": "assets/boards/FRDM-IMX95.jpg"
+        }
+      ],
+      "board": {
+        "slug": "frdm-imx95",
+        "vendor": "NXP",
+        "name": "IMX95 Freedom Board",
+        "maker": "NXP",
+        "partNumber": "FRDM-IMX95",
+        "imageLocal": "assets/boards/FRDM-IMX95.jpg"
+      },
+      "manufacturers": [
+        "NXP"
+      ],
+      "makers": [
+        "NXP"
+      ]
+    },
+    {
+      "repo": "iotc-zephyr-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/eiq-pdm-vibration",
+      "displayName": "Zephyr eIQ Vibration Predictive Maintenance",
+      "description": "On-device predictive maintenance for rotating machines on the NXP FRDM-MCXN947 under Zephyr RTOS: a MIKROE ML Vibro Sens Click (NXP FXLS8974CF accelerometer + onboard fault motors) measures vibration, an eIQ Time Series Studio Random Forest model (0.30 KB RAM, 0.05 ms on the Cortex-M33) classifies machine state on-device, and verdicts stream to /IOTCONNECT with cloud-commanded fault injection. Pretrained model and dataset bundled.",
+      "category": "sample",
+      "status": "beta",
+      "release": null,
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "edge-ai",
+        "predictive-maintenance",
+        "sensors",
+        "zephyr"
+      ],
+      "stars": 0,
+      "updated": "2026-08-16T20:37:58Z",
+      "image": null,
+      "dashboards": [
+        "assets/listings/zephyr-pdm-dash.png"
+      ],
+      "photos": [
+        "assets/listings/zephyr-pdm-hw.jpg"
+      ],
+      "models": [
+        {
+          "slug": "eiq-tss",
+          "name": "NXP eIQ Time Series Studio (Random Forest)",
+          "task": "vibration anomaly / predictive maintenance",
+          "framework": "eIQ Time Series Studio",
+          "vendor": "NXP",
+          "link": "https://www.nxp.com/design/design-center/software/eiq-ai-development-environment/eiq-time-series-studio:EIQ-TIME-SERIES-STUDIO"
+        }
+      ],
+      "described": true,
+      "hidden": false,
+      "id": "zephyr-eiq-vibration-predictive-maintenance",
+      "boards": [
+        {
+          "slug": "frdm-mcxn947",
+          "vendor": "NXP",
+          "name": "FRDM Development Board for MCX N94/N54 MCUs",
+          "maker": "NXP",
+          "partNumber": "FRDM-MCXN947",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-MCXN947.png"
+        }
+      ],
+      "board": {
+        "slug": "frdm-mcxn947",
+        "vendor": "NXP",
+        "name": "FRDM Development Board for MCX N94/N54 MCUs",
+        "maker": "NXP",
+        "partNumber": "FRDM-MCXN947",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-MCXN947.png"
+      },
+      "manufacturers": [
+        "NXP"
+      ],
+      "makers": [
+        "NXP"
+      ]
+    },
+    {
+      "repo": "iotc-zephyr-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/gateway",
+      "displayName": "Zephyr Gateway - Child Devices & Store-and-Forward",
+      "description": "An /IOTCONNECT gateway on the NXP FRDM-i.MX93 (Cortex-A55, Zephyr RTOS) that ingests IOTCONNECT 2.1 JSON from connectivity-less MCUs over UART and forwards each as a child-device record over one MQTT/TLS connection, adding its own gateway health telemetry. Pull the Ethernet cable and nothing is lost: records divert to a raw-sector ring on the on-SOM eMMC with original timestamps, then drain oldest-first on reconnect for a gap-free backfilled timeline.",
+      "category": "sample",
+      "status": "beta",
+      "release": null,
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "gateway",
+        "zephyr"
+      ],
+      "stars": 0,
+      "updated": "2026-08-16T20:37:58Z",
+      "image": null,
+      "dashboards": [
+        "assets/listings/zephyr-gateway-dash.png",
+        "assets/listings/zephyr-gateway-dash-offline.png"
+      ],
+      "photos": [],
+      "models": [],
+      "described": true,
+      "hidden": false,
+      "id": "zephyr-gateway-child-devices-store-and-forward",
+      "boards": [
+        {
+          "slug": "frdm-imx93",
+          "vendor": "NXP",
+          "name": "IMX93 Freedom Board",
+          "maker": "NXP",
+          "partNumber": "FRDM-IMX93",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-IMX93.png",
+          "imageLocal": "assets/boards/FRDM-IMX93.jpg"
+        }
+      ],
+      "board": {
+        "slug": "frdm-imx93",
+        "vendor": "NXP",
+        "name": "IMX93 Freedom Board",
+        "maker": "NXP",
+        "partNumber": "FRDM-IMX93",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-IMX93.png",
+        "imageLocal": "assets/boards/FRDM-IMX93.jpg"
+      },
+      "manufacturers": [
+        "NXP"
+      ],
+      "makers": [
+        "NXP"
+      ]
+    },
+    {
+      "repo": "iotc-zephyr-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/ml-model-update",
+      "displayName": "Zephyr ML Model Hot-Swap (Cloud-Updatable ML)",
+      "description": "The ML model is data, not firmware: on a Microchip SAM E54 Xplained Pro under Zephyr RTOS, a fixed tiny-MLP inference engine runs ~124-byte validated IOTM weight blobs. /IOTCONNECT pushes a new model as a single C2D command - the device CRC-checks it, hot-swaps it without a reboot, persists it to NVS, and its behavior visibly changes (five ready-made models classify light/temperature with different LED policies). Also rides IOTCONNECT's native C2D AI-Model push. Uses the IO1 Xplained Pro sensor wing.",
+      "category": "sample",
+      "status": "beta",
+      "release": null,
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "edge-ai",
+        "ml",
+        "zephyr"
+      ],
+      "stars": 0,
+      "updated": "2026-08-16T20:37:58Z",
+      "image": null,
+      "dashboards": [
+        "assets/listings/zephyr-mlupdate-dash.png"
+      ],
+      "photos": [
+        "assets/listings/zephyr-mlupdate-hw.png"
+      ],
+      "models": [
+        {
+          "slug": "tiny-mlp",
+          "name": "Tiny-MLP (IOTM hot-swap blob)",
+          "task": "sensor classification (cloud-updatable weights)",
+          "framework": "bare-metal C inference on Zephyr",
+          "vendor": "Avnet (custom)",
+          "link": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/ml-model-update"
+        }
+      ],
+      "described": true,
+      "hidden": false,
+      "id": "zephyr-ml-model-hot-swap-cloud-updatable-ml",
+      "boards": [
+        {
+          "slug": "atsame54-xpro",
+          "vendor": "Microchip",
+          "name": "SAM E54 Xplained Pro Evaluation Kit",
+          "maker": "Microchip",
+          "partNumber": "ATSAME54-XPRO",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ATSAME54-XPRO.png",
+          "imageLocal": "assets/boards/ATSAME54-XPRO.jpg"
+        }
+      ],
+      "board": {
+        "slug": "atsame54-xpro",
+        "vendor": "Microchip",
+        "name": "SAM E54 Xplained Pro Evaluation Kit",
+        "maker": "Microchip",
+        "partNumber": "ATSAME54-XPRO",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ATSAME54-XPRO.png",
+        "imageLocal": "assets/boards/ATSAME54-XPRO.jpg"
+      },
+      "manufacturers": [
+        "Microchip"
+      ],
+      "makers": [
+        "Microchip"
+      ]
+    },
+    {
+      "repo": "iotc-zephyr-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/uart-telemetry-source",
+      "displayName": "Zephyr UART Telemetry Source (Constrained MCUs)",
+      "description": "The constrained-tier Zephyr demo for MCUs with no IP transport: the portable iotc-c-lib protocol core compiles straight into the app and emits IOTCONNECT 2.1 telemetry JSON on the console UART every 5 seconds. A companion gateway (see the Zephyr Gateway demo on FRDM-i.MX93) relays the lines to the cloud as child-device records, so connectivity-less MCUs like the FRDM-MCXE31B and FRDM-MCXW72 still contribute to /IOTCONNECT as verified telemetry sources.",
+      "category": "sample",
+      "status": "beta",
+      "release": null,
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "gateway",
+        "zephyr"
+      ],
+      "stars": 0,
+      "updated": "2026-08-16T20:37:58Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "models": [],
+      "described": true,
+      "hidden": false,
+      "id": "zephyr-uart-telemetry-source-constrained-mcus::frdm-mcxe31b",
+      "boards": [
+        {
+          "slug": "frdm-mcxe31b",
+          "vendor": "NXP",
+          "name": "FRDM Development Board for MCX E31B MCUs",
+          "maker": "NXP",
+          "partNumber": "FRDM-MCXE31B"
+        }
+      ],
+      "board": {
+        "slug": "frdm-mcxe31b",
+        "vendor": "NXP",
+        "name": "FRDM Development Board for MCX E31B MCUs",
+        "maker": "NXP",
+        "partNumber": "FRDM-MCXE31B"
+      },
+      "manufacturers": [
+        "NXP"
+      ],
+      "makers": [
+        "NXP"
+      ]
+    },
+    {
+      "repo": "iotc-zephyr-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/uart-telemetry-source",
+      "displayName": "Zephyr UART Telemetry Source (Constrained MCUs)",
+      "description": "The constrained-tier Zephyr demo for MCUs with no IP transport: the portable iotc-c-lib protocol core compiles straight into the app and emits IOTCONNECT 2.1 telemetry JSON on the console UART every 5 seconds. A companion gateway (see the Zephyr Gateway demo on FRDM-i.MX93) relays the lines to the cloud as child-device records, so connectivity-less MCUs like the FRDM-MCXE31B and FRDM-MCXW72 still contribute to /IOTCONNECT as verified telemetry sources.",
+      "category": "sample",
+      "status": "beta",
+      "release": null,
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "gateway",
+        "zephyr"
+      ],
+      "stars": 0,
+      "updated": "2026-08-16T20:37:58Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "models": [],
+      "described": true,
+      "hidden": false,
+      "id": "zephyr-uart-telemetry-source-constrained-mcus::frdm-mcxw72",
+      "boards": [
+        {
+          "slug": "frdm-mcxw72",
+          "vendor": "NXP",
+          "name": "FRDM Development Board for MCX W72 Wireless MCUs",
+          "maker": "NXP",
+          "partNumber": "FRDM-MCXW72"
+        }
+      ],
+      "board": {
+        "slug": "frdm-mcxw72",
+        "vendor": "NXP",
+        "name": "FRDM Development Board for MCX W72 Wireless MCUs",
+        "maker": "NXP",
+        "partNumber": "FRDM-MCXW72"
+      },
+      "manufacturers": [
+        "NXP"
+      ],
+      "makers": [
+        "NXP"
+      ]
+    },
+    {
+      "repo": "iotc-zephyr-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/vision-occupancy",
+      "displayName": "Zephyr Vision Occupancy - Edge Person Detection",
+      "description": "On-device person detection on the NXP MIMXRT1170-EVKB under Zephyr RTOS: the kit's OV5640 MIPI camera streams 720p frames, a TFLite-Micro int8 MobileNet person-detect CNN (96x96 grayscale, CMSIS-NN kernels on the 1 GHz Cortex-M7) classifies each frame on the device, and an occupancy state machine streams the verdict to /IOTCONNECT. No video leaves the board - the cloud sees scores and states, never pixels, unless a snapshot command explicitly requests one frame.",
+      "category": "sample",
+      "status": "beta",
+      "release": null,
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "edge-ai",
+        "vision",
+        "zephyr"
+      ],
+      "stars": 0,
+      "updated": "2026-08-16T20:37:58Z",
+      "image": null,
+      "dashboards": [
+        "assets/listings/zephyr-vision-occupancy-dash.png"
+      ],
+      "photos": [],
+      "models": [
+        {
+          "slug": "eiq-tflm",
+          "name": "NXP eIQ TensorFlow-Lite-Micro model",
+          "task": "on-MCU classification",
+          "framework": "eIQ / TFLite-Micro",
+          "vendor": "NXP",
+          "link": "https://www.nxp.com/eiq"
+        },
+        {
+          "slug": "mobilenet",
+          "name": "MobileNet",
+          "task": "image classification",
+          "framework": "TFLite / X-CUBE-AI",
+          "vendor": "Google / STMicroelectronics",
+          "link": "https://keras.io/api/applications/mobilenet/"
+        }
+      ],
+      "described": true,
+      "hidden": false,
+      "id": "zephyr-vision-occupancy-edge-person-detection",
+      "boards": [
+        {
+          "slug": "mimxrt1170-evkb",
+          "vendor": "NXP",
+          "name": "i.MX RT1170 Evaluation Kit (EVKB)",
+          "maker": "NXP",
+          "partNumber": "MIMXRT1170-EVKB",
+          "imageLocal": "assets/boards/MIMXRT1170-EVKB.jpg"
+        }
+      ],
+      "board": {
+        "slug": "mimxrt1170-evkb",
+        "vendor": "NXP",
+        "name": "i.MX RT1170 Evaluation Kit (EVKB)",
+        "maker": "NXP",
+        "partNumber": "MIMXRT1170-EVKB",
+        "imageLocal": "assets/boards/MIMXRT1170-EVKB.jpg"
+      },
+      "manufacturers": [
+        "NXP"
+      ],
+      "makers": [
+        "NXP"
       ]
     }
   ]
