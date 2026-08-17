@@ -18,3 +18,8 @@ polarfire-tinyml,PolarFire SoC TinyML NN,neural-net classification (FPGA-acceler
 eiq-tflm,NXP eIQ TensorFlow-Lite-Micro model,on-MCU classification,eIQ / TFLite-Micro,NXP,NXP eIQ (MCUXpresso),https://www.nxp.com/eiq,yes
 yolov8,YOLOv8 (Ultralytics),object detection,ONNX / TFLite / Hexagon NPU,Ultralytics,Ultralytics,https://docs.ultralytics.com,yes
 jetson-inference,NVIDIA Jetson Inference (DetectNet / PoseNet / SegNet / ImageNet / DepthNet / ActionNet),"multi-task vision (detection, pose, segmentation, classification, depth, action)",TensorRT (jetson-inference),NVIDIA,dusty-nv / jetson-inference,https://github.com/dusty-nv/jetson-inference,yes
+yolo11n,YOLO11n,object detection & tracking,TFLite (NXP Neutron NPU),Ultralytics,Ultralytics,https://docs.ultralytics.com/models/yolo11/,yes
+yunet-sface,YuNet + SFace,face detection & recognition,OpenCV (CPU + Neutron NPU),OpenCV community,OpenCV Zoo,https://github.com/opencv/opencv_zoo,yes
+smolvlm,SmolVLM-256M,compact vision-language model (VLM),eIQ GenAI Flow,Hugging Face,Hugging Face,https://huggingface.co/HuggingFaceTB/SmolVLM-256M-Instruct,yes
+eiq-tss,NXP eIQ Time Series Studio (Random Forest),vibration anomaly / predictive maintenance,eIQ Time Series Studio,NXP,NXP eIQ TSS,https://www.nxp.com/design/design-center/software/eiq-ai-development-environment/eiq-time-series-studio:EIQ-TIME-SERIES-STUDIO,yes
+tiny-mlp,Tiny-MLP (IOTM hot-swap blob),sensor classification (cloud-updatable weights),bare-metal C inference on Zephyr,Avnet (custom),iotc-zephyr-demos,https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/ml-model-update,yes

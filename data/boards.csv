@@ -91,3 +91,5 @@ SparkFun,SparkFun ESP32 Thing,DEV-13907,,DEV-13907.jpg,https://www.sparkfun.com/
 NXP,i.MX RT1170 Evaluation Kit (EVKB),MIMXRT1170-EVKB,,MIMXRT1170-EVKB.jpg,https://www.nxp.com/design/design-center/development-boards-and-designs/i-mx-evaluation-and-development-boards/i-mx-rt1170-evaluation-kit:MIMXRT1170-EVKB,no,no,"mcu,edge,zephyr",yes,NXP
 NXP,IMX95 Freedom Board,FRDM-IMX95,,FRDM-IMX95.jpg,https://www.nxp.com/design/design-center/development-boards-and-designs/frdm-imx-95-development-board:FRDM-IMX95,no,no,,yes,NXP
 Microchip,PIC32CM LS60 Curiosity Pro,EV76R77A,,EV76R77A.jpg,https://www.microchip.com/en-us/development-tool/ev76r77a,no,no,,yes,Microchip
+NXP,FRDM Development Board for MCX E31B MCUs,FRDM-MCXE31B,,,https://www.nxp.com/design/design-center/development-boards-and-designs/FRDM-MCXE31B,no,no,"mcu,zephyr",yes,NXP
+NXP,FRDM Development Board for MCX W72 Wireless MCUs,FRDM-MCXW72,,,https://www.nxp.com/design/design-center/development-boards-and-designs/FRDM-MCXW72,no,no,"mcu,ble,zephyr",yes,NXP
