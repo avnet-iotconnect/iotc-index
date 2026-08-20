@@ -35,7 +35,7 @@ ATSAMA5D27-SOM1-EK1,board,buy,Buy SAMA5D27 on Newark,https://www.newark.com/micr
 ATSAMA5D27-SOM1-EK1,board,quickstart,SAMA5D27 QuickStart Guide,https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/microchip-sama5d27
 ATSAMA5D27-SOM1-EK1,board,developer,Developer Guide,https://github.com/avnet-iotconnect/meta-iotconnect-docs?tab=readme-ov-file
 ATSAME54-XPRO,board,buy,Buy ATSAME54-XPRO on Avnet,https://www.avnet.com/shop/us/products/microchip/atsame54-xpro-3074457345632695712
-ATSAME54-XPRO,board,quickstart,SAM E54 Xplained Pro QuickStart Guide,https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/same54xpro
+ATSAME54-XPRO,board,quickstart,SAM E54 Xplained Pro QuickStart Guide,https://github.com/avnet-iotconnect/iotc-zephyr-demos/blob/main/boards/sam-e54-xpro/QUICKSTART.md
 B-L475E-IOT01A2,board,buy,Buy B-L475E-IOT01A2 on Avnet,https://www.avnet.com/shop/us/products/stmicroelectronics/b-l475e-iot01a2-3074457345646183681
 B-L475E-IOT01A2,board,quickstart,QuickStart Guide (Azure),https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/stm32l4
 B-U585I-IOT02A,board,buy,Buy B-U585I-IOT02A on Avnet,https://www.avnet.com/shop/us/products/stmicroelectronics/b-u585i-iot02a-3074457345647217745
@@ -91,8 +91,8 @@ FRDM-IMX93,board,buy,Buy FRDM-IMX93 on Avnet,https://www.avnet.com/shop/us/produ
 FRDM-IMX93,board,quickstart,QuickStart Guide,https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/nxp-frdm-imx-93
 FRDM-IMX93,board,doc,GitHub Repository Root,https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/nxp-frdm-imx-93
 FRDM-MCXN947,board,buy,Buy FRDM-MCXN947 on Newark,https://www.newark.com/nxp/frdm-mcxn947/frdm-development-board-for-mcx/dp/85AK8337
-FRDM-MCXN947,board,quickstart,QuickStart Guide,https://github.com/avnet-iotconnect/iotc-mcx-zephyr-demos
-FRDM-MCXN947,board,doc,GitHub Repository Root,https://github.com/avnet-iotconnect/iotc-mcx-zephyr-demos
+FRDM-MCXN947,board,quickstart,QuickStart Guide,https://github.com/avnet-iotconnect/iotc-zephyr-demos/blob/main/boards/frdm-mcxn947/QUICKSTART.md
+FRDM-MCXN947,board,doc,GitHub Repository Root,https://github.com/avnet-iotconnect/iotc-zephyr-demos
 KIT_PSE84_EVAL,board,buy,Buy KIT_PSE84_EVAL on Newark,https://www.newark.com/infineon/kitpse84evaltobo1/eval-kit-32bit-arm-cortex-m55f/dp/49AM4460
 KIT_PSE84_EVAL,board,developer,Developer Guide: PSOC Edge Ready Models,https://github.com/avnet-iotconnect/avnet-iotc-mtb-psoc-edge-rm/blob/main/DEVELOPER_GUIDE.md
 KIT_PSE84_EVAL,board,demo,Getting Started: PSOC Edge E84 Evaluation Kit with /IOTCONNECT (Sound Recognition DEEPCRAFT Ready Model),https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-psoc-edge-e84-eval/README.md
@@ -213,3 +213,4 @@ STM32MP257F-DK,board,demo,X-LINUX-AI Vision Demo (Yocto),https://github.com/avne
 MIMXRT1170-EVKB,board,buy,Buy MIMXRT1170-EVKB on Avnet,https://www.avnet.com/shop/us/products/nxp/mimxrt1170-evkb-3074457345652149814/
 MIMXRT1170-EVKB,board,quickstart,QuickStart Guide,https://github.com/avnet-iotconnect/iotc-zephyr-demos/blob/main/boards/mimxrt1170-evkb/QUICKSTART.md
 MIMXRT1170-EVKB,board,doc,GitHub Repository Root,https://github.com/avnet-iotconnect/iotc-zephyr-demos
+ATSAME54-XPRO,board,doc,GitHub Repository Root,https://github.com/avnet-iotconnect/iotc-zephyr-demos
