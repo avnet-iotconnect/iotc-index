@@ -12,7 +12,7 @@ as a table and shows **row/cell-level diffs** in commits and PRs.
 | Column | Meaning |
 |---|---|
 | `Name` | Card title. |
-| `Type` | `sample`, `sdk`, or `library`. A `sample` with several boards expands to one card per board; an `sdk`/`library` stays one card. |
+| `Type` | `sample`, `sdk`, `library`, or `tool`. A `sample` with several boards expands to one card per board; the other types stay one card. |
 | `Status` | `stable`, `beta`, `experimental`, `maintenance`, `deprecated`. Blank → Config `DEFAULT_STATUS`. |
 | `Repo` | GitHub repo name in the org (drives live stars / last-updated). |
 | `Languages` | Comma-separated. |
@@ -24,6 +24,7 @@ as a table and shows **row/cell-level diffs** in commits and PRs.
 | `Image` | Picture for **board-less** rows: a tech logo (`assets/tech/python.svg`), a photo (`assets/listings/drone.png`), or a URL. Ignored when `Boards` is set (the board image is used).
 | `Dashboards` | Pipe-separated /IOTCONNECT dashboard screenshot URLs. The first one leads the card tile. |
 | `Photos` | Pipe-separated demo-in-action photo URLs (lead when no Dashboards). |
+| `Models` | Comma-separated AI-model ids from `models.csv` (drives the Model filter). |
 | `Overlay` | Optional small badge image shown in the tile's top-right corner (partner logo, sensor, award…). | |
 
 ## `boards.csv` — the hardware registry
@@ -37,6 +38,11 @@ Powers the board detail drawer. `Ref` (a board **Part Number**, or a manufacture
 `RefType` (`board` / `manufacturer`), `Kind` (`buy` · `quickstart` · `developer` · `demo`
 · `webinar` · `video` · `blog` · `doc` · `info`), `Title`, `URL`. The first `buy` row for a
 board becomes its **Buy on Avnet** button.
+
+## `models.csv` — the AI/ML model registry
+`Model` (the id listings reference), `Display Name`, `Task`, `Framework`, `Vendor`,
+`Source`, `Link`, `Include`. Referenced from `listings.csv` `Models`; unknown ids are
+flagged in AUDIT.
 
 ## `config.csv` — key/value settings
 `ORG`, `IMAGE_BASE`, `IMAGE_LOCAL_BASE`, `BRAND_BASE`, `DEFAULT_STATUS`, `PAGES_URL`.
