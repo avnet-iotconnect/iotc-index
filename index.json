@@ -1,6 +1,6 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-08-20T05:17:41Z",
+  "generated": "2026-08-20T05:24:29Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
@@ -337,11 +337,11 @@
     "topics": [
       {
         "tag": "edge-ai",
-        "count": 73
+        "count": 74
       },
       {
         "tag": "vision",
-        "count": 38
+        "count": 39
       },
       {
         "tag": "gateway",
@@ -389,7 +389,7 @@
       },
       {
         "tag": "mcu",
-        "count": 14
+        "count": 13
       },
       {
         "tag": "video",
@@ -452,11 +452,11 @@
         "count": 5
       },
       {
-        "tag": "anomaly-detection",
-        "count": 4
+        "tag": "cellular",
+        "count": 5
       },
       {
-        "tag": "cellular",
+        "tag": "anomaly-detection",
         "count": 4
       },
       {
@@ -686,6 +686,15 @@
         "count": 3
       },
       {
+        "model": "eiq-tflm",
+        "name": "NXP eIQ TensorFlow-Lite-Micro model",
+        "task": "on-MCU classification",
+        "framework": "eIQ / TFLite-Micro",
+        "vendor": "NXP",
+        "link": "https://www.nxp.com/eiq",
+        "count": 3
+      },
+      {
         "model": "eiq-vision-dms",
         "name": "NXP eIQ Vision AI (Driver Monitoring)",
         "task": "face / driver monitoring (eye, head-pose, drowsiness)",
@@ -746,15 +755,6 @@
         "framework": "eIQ GenAI Flow (CPU / Neutron NPU)",
         "vendor": "NXP",
         "link": "https://www.nxp.com/design/design-center/software/embedded-software/eiq-genai-flow-conversational-ai-software-pipeline-on-edge-devices:GEN-AI-FLOW",
-        "count": 2
-      },
-      {
-        "model": "eiq-tflm",
-        "name": "NXP eIQ TensorFlow-Lite-Micro model",
-        "task": "on-MCU classification",
-        "framework": "eIQ / TFLite-Micro",
-        "vendor": "NXP",
-        "link": "https://www.nxp.com/eiq",
         "count": 2
       },
       {
@@ -8416,55 +8416,6 @@
       "makers": []
     },
     {
-      "repo": "iotc-mcx-zephyr-demos",
-      "url": "https://github.com/avnet-iotconnect/iotc-mcx-zephyr-demos",
-      "displayName": "MCX Zephyr Demos",
-      "description": "Zephyr RTOS example applications connecting the NXP FRDM-MCXN947 to /IOTCONNECT. Demonstrates telemetry, commands and a Zephyr-based development workflow for NXP MCX MCUs.",
-      "category": "sample",
-      "status": "beta",
-      "release": null,
-      "languages": [
-        "C"
-      ],
-      "features": [
-        "mcu",
-        "zephyr"
-      ],
-      "stars": 0,
-      "updated": "2025-11-22T04:11:37Z",
-      "image": "https://saleshosted.z13.web.core.windows.net/images/boards/nxp-imx93andmcxn.JPG",
-      "dashboards": [],
-      "photos": [],
-      "models": [],
-      "described": true,
-      "hidden": false,
-      "id": "mcx-zephyr-demos",
-      "boards": [
-        {
-          "slug": "frdm-mcxn947",
-          "vendor": "NXP",
-          "name": "FRDM Development Board for MCX N94/N54 MCUs",
-          "maker": "NXP",
-          "partNumber": "FRDM-MCXN947",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-MCXN947.png"
-        }
-      ],
-      "board": {
-        "slug": "frdm-mcxn947",
-        "vendor": "NXP",
-        "name": "FRDM Development Board for MCX N94/N54 MCUs",
-        "maker": "NXP",
-        "partNumber": "FRDM-MCXN947",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-MCXN947.png"
-      },
-      "manufacturers": [
-        "NXP"
-      ],
-      "makers": [
-        "NXP"
-      ]
-    },
-    {
       "repo": "Maaxboard-OSM93-Demos",
       "url": "https://github.com/avnet-iotconnect/Maaxboard-OSM93-Demos",
       "displayName": "MaaXBoard OSM93 Demos",
@@ -13561,7 +13512,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-08-18T18:13:07Z",
+      "updated": "2026-08-20T05:23:09Z",
       "image": "assets/tech/zephyr.svg",
       "dashboards": [],
       "photos": [],
@@ -13591,7 +13542,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-08-16T20:37:58Z",
+      "updated": "2026-08-20T05:22:11Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -13641,7 +13592,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-08-16T20:37:58Z",
+      "updated": "2026-08-20T05:22:11Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -13693,7 +13644,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-08-16T20:37:58Z",
+      "updated": "2026-08-20T05:22:11Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -13743,7 +13694,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-08-16T20:37:58Z",
+      "updated": "2026-08-20T05:22:11Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -13795,7 +13746,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-08-16T20:37:58Z",
+      "updated": "2026-08-20T05:22:11Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -13845,7 +13796,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-08-16T20:37:58Z",
+      "updated": "2026-08-20T05:22:11Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -13897,7 +13848,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-08-16T20:37:58Z",
+      "updated": "2026-08-20T05:22:11Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -13946,7 +13897,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-08-16T20:37:58Z",
+      "updated": "2026-08-20T05:22:11Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -13998,7 +13949,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-08-16T20:37:58Z",
+      "updated": "2026-08-20T05:22:11Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -14201,7 +14152,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2025-11-22T04:11:37Z",
+      "updated": "2026-08-20T05:22:51Z",
       "image": null,
       "dashboards": [
         "https://raw.githubusercontent.com/avnet-iotconnect/iotc-mcx-zephyr-demos/main/media/dashboard.png"
@@ -14564,7 +14515,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-08-16T20:37:58Z",
+      "updated": "2026-08-20T05:22:11Z",
       "image": null,
       "dashboards": [
         "assets/listings/zephyr-pdm-dash.png"
@@ -14626,7 +14577,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-08-16T20:37:58Z",
+      "updated": "2026-08-20T05:22:11Z",
       "image": null,
       "dashboards": [
         "assets/listings/zephyr-gateway-dash.png",
@@ -14681,7 +14632,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-08-16T20:37:58Z",
+      "updated": "2026-08-20T05:22:11Z",
       "image": null,
       "dashboards": [
         "assets/listings/zephyr-mlupdate-dash.png"
@@ -14745,7 +14696,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-08-16T20:37:58Z",
+      "updated": "2026-08-20T05:22:11Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -14792,7 +14743,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-08-16T20:37:58Z",
+      "updated": "2026-08-20T05:22:11Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -14840,7 +14791,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-08-16T20:37:58Z",
+      "updated": "2026-08-20T05:22:11Z",
       "image": null,
       "dashboards": [
         "assets/listings/zephyr-vision-occupancy-dash.png"
@@ -15086,6 +15037,66 @@
       ],
       "makers": [
         "Raspberry Pi"
+      ]
+    },
+    {
+      "repo": "iotc-zephyr-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/vendor/nxp/face-detect",
+      "displayName": "Zephyr Face Detection - Camera, LCD & Cellular",
+      "description": "Real-time face detection on the NXP FRDM-MCXN947 under Zephyr RTOS: the OV7670 camera streams through the MCXN947's SmartDMA capture engine, a TensorFlow-Lite-Micro face-detection model runs on the Cortex-M33 with CMSIS-NN kernels, and detection boxes render live on the LCD-PAR-S035 - with detection counts published to /IOTCONNECT over an LTE IoT 12 Click cellular modem. Ports the original MCX face-detect application onto upstream Zephyr and the IOTCONNECT Zephyr SDK with on-device key provisioning. The vision pipeline is hardware-verified; the cellular uplink is implemented and pending hardware verification.",
+      "category": "sample",
+      "status": "experimental",
+      "release": null,
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "cellular",
+        "edge-ai",
+        "vision",
+        "zephyr"
+      ],
+      "stars": 0,
+      "updated": "2026-08-20T05:22:11Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "models": [
+        {
+          "slug": "eiq-tflm",
+          "name": "NXP eIQ TensorFlow-Lite-Micro model",
+          "task": "on-MCU classification",
+          "framework": "eIQ / TFLite-Micro",
+          "vendor": "NXP",
+          "link": "https://www.nxp.com/eiq"
+        }
+      ],
+      "described": true,
+      "hidden": false,
+      "id": "zephyr-face-detection-camera-lcd-cellular",
+      "boards": [
+        {
+          "slug": "frdm-mcxn947",
+          "vendor": "NXP",
+          "name": "FRDM Development Board for MCX N94/N54 MCUs",
+          "maker": "NXP",
+          "partNumber": "FRDM-MCXN947",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-MCXN947.png"
+        }
+      ],
+      "board": {
+        "slug": "frdm-mcxn947",
+        "vendor": "NXP",
+        "name": "FRDM Development Board for MCX N94/N54 MCUs",
+        "maker": "NXP",
+        "partNumber": "FRDM-MCXN947",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-MCXN947.png"
+      },
+      "manufacturers": [
+        "NXP"
+      ],
+      "makers": [
+        "NXP"
       ]
     }
   ]
