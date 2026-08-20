@@ -1,6 +1,6 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-08-20T04:52:30Z",
+  "generated": "2026-08-20T05:17:41Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
@@ -68,7 +68,7 @@
       "logo": "assets/brand/microchip-logo.png",
       "info": "https://www.avnet.com/iotconnect/microchip",
       "boards": 10,
-      "listings": 26
+      "listings": 27
     },
     {
       "name": "NVIDIA",
@@ -368,11 +368,11 @@
         "count": 19
       },
       {
-        "tag": "npu",
-        "count": 17
+        "tag": "zephyr",
+        "count": 18
       },
       {
-        "tag": "zephyr",
+        "tag": "npu",
         "count": 17
       },
       {
@@ -389,7 +389,7 @@
       },
       {
         "tag": "mcu",
-        "count": 13
+        "count": 14
       },
       {
         "tag": "video",
@@ -444,11 +444,11 @@
         "count": 6
       },
       {
-        "tag": "at-commands",
-        "count": 5
+        "tag": "x509",
+        "count": 6
       },
       {
-        "tag": "x509",
+        "tag": "at-commands",
         "count": 5
       },
       {
@@ -1522,12 +1522,12 @@
           {
             "kind": "quickstart",
             "title": "QuickStart Guide",
-            "url": "https://github.com/avnet-iotconnect/iotc-mcx-zephyr-demos"
+            "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/blob/main/boards/frdm-mcxn947/QUICKSTART.md"
           },
           {
             "kind": "doc",
             "title": "GitHub Repository Root",
-            "url": "https://github.com/avnet-iotconnect/iotc-mcx-zephyr-demos"
+            "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos"
           }
         ],
         "integrator": "NXP",
@@ -2784,12 +2784,17 @@
           {
             "kind": "quickstart",
             "title": "SAM E54 Xplained Pro QuickStart Guide",
-            "url": "https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/same54xpro"
+            "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/blob/main/boards/sam-e54-xpro/QUICKSTART.md"
+          },
+          {
+            "kind": "doc",
+            "title": "GitHub Repository Root",
+            "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos"
           }
         ],
         "integrator": "Microchip",
         "maker": "Microchip",
-        "listings": 2
+        "listings": 3
       },
       {
         "slug": "atsama5d27-som1-ek1",
@@ -3627,12 +3632,12 @@
     ]
   },
   "counts": {
-    "total": 212,
+    "total": 213,
     "manufacturers": 17,
     "boards": 94,
     "sdks": 28,
     "tools": 6,
-    "examples": 178,
+    "examples": 179,
     "models": 25,
     "guides": 80,
     "demos": 12,
@@ -13542,7 +13547,7 @@
       "repo": "iotc-zephyr-sdk",
       "url": "https://github.com/avnet-iotconnect/iotc-zephyr-sdk",
       "displayName": "IOTCONNECT Zephyr SDK",
-      "description": "Vendor-neutral Zephyr RTOS SDK for /IOTCONNECT, packaged as a west-importable Zephyr module over the portable iotc-c-lib protocol core. Provides the device client, DRA-based provisioning and identity, TLS credentials and hardware-sealed-key (TF-M) support from one code base that targets NXP MCX, Nordic, Renesas RA and ST silicon — bringing up a new board is a Kconfig + devicetree exercise, not a fork.",
+      "description": "Vendor-neutral Zephyr RTOS SDK for /IOTCONNECT, packaged as a west-importable Zephyr module over the portable iotc-c-lib protocol core. Provides the device client, DRA-based provisioning and identity, TLS credentials and hardware-sealed-key (TF-M) support from one code base that targets NXP MCX, Nordic, Renesas RA and ST silicon — bringing up a new board is a Kconfig + devicetree exercise, not a fork. Also provides device-to-cloud file upload (Telemetry Files), native AI-model push handling, and identity persistence to raw eMMC sectors for flash-less targets such as the i.MX93 Cortex-A55.",
       "category": "sdk",
       "status": "beta",
       "release": null,
@@ -13719,6 +13724,58 @@
       ],
       "makers": [
         "NXP"
+      ]
+    },
+    {
+      "repo": "iotc-zephyr-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/quickstart",
+      "displayName": "Zephyr Quickstart — On-Device Provisioning",
+      "description": "Zephyr RTOS quickstart for /IOTCONNECT: the device generates its own EC P-256 key pair on-device and self-provisions via the REST discovery API, then connects — no key ever leaves the board. On the FRDM-MCXN947 TF-M build the private key is sealed in Protected Storage; on the FRDM-IMX93 the identity persists to on-SOM eMMC across power cycles.",
+      "category": "sample",
+      "status": "beta",
+      "release": null,
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "mcu",
+        "x509",
+        "zephyr"
+      ],
+      "stars": 0,
+      "updated": "2026-08-16T20:37:58Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "models": [],
+      "described": true,
+      "hidden": false,
+      "id": "zephyr-quickstart-on-device-provisioning::atsame54-xpro",
+      "boards": [
+        {
+          "slug": "atsame54-xpro",
+          "vendor": "Microchip",
+          "name": "SAM E54 Xplained Pro Evaluation Kit",
+          "maker": "Microchip",
+          "partNumber": "ATSAME54-XPRO",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ATSAME54-XPRO.png",
+          "imageLocal": "assets/boards/ATSAME54-XPRO.jpg"
+        }
+      ],
+      "board": {
+        "slug": "atsame54-xpro",
+        "vendor": "Microchip",
+        "name": "SAM E54 Xplained Pro Evaluation Kit",
+        "maker": "Microchip",
+        "partNumber": "ATSAME54-XPRO",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ATSAME54-XPRO.png",
+        "imageLocal": "assets/boards/ATSAME54-XPRO.jpg"
+      },
+      "manufacturers": [
+        "Microchip"
+      ],
+      "makers": [
+        "Microchip"
       ]
     },
     {
