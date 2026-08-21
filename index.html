@@ -95,6 +95,7 @@
   .partners .label{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--dim);margin-right:6px;}
   .plogo{display:flex;flex-direction:column;align-items:center;gap:6px;padding:10px 16px;border:1px solid var(--line);border-radius:12px;background:#fff;cursor:pointer;transition:.16s;min-width:128px;}
   .plogo:hover{border-color:var(--brand);box-shadow:var(--shadow);transform:translateY(-2px);}
+  .plogo.active{border-color:var(--brand);background:var(--soft);box-shadow:var(--shadow);}
   .plogo img{height:30px;width:auto;max-width:120px;object-fit:contain;filter:grayscale(.2);}
   .plogo .meta{font-size:11px;color:var(--muted);}
   .plogo .meta b{color:var(--brand-deep);}
@@ -525,6 +526,9 @@ function renderFilters(){
   }
   el.innerHTML=`<div class="facetbar">${btns}${anyFilter()?`<button class="clear" id="clearall">Clear all</button>`:""}</div>`+
     `${pills.length?`<div class="pills">${pills.join("")}</div>`:""}${pop}`;
+  // keep the top partner strip in sync with the Silicon filter
+  document.querySelectorAll("#partnerStrip .plogo").forEach(p=>
+    p.classList.toggle("active",(state.filters.manufacturer||[]).includes(p.dataset.mfr)));
 }
 
 /* ---------------- matching ---------------- */
@@ -852,7 +856,10 @@ document.addEventListener("click",e=>{
   if(chipEl){const {key,val}=chipEl.dataset;const arr=state.filters[key];const i=arr.indexOf(val);i>=0?arr.splice(i,1):arr.push(val);renderFilters();render();syncHash();return;}
   if(e.target.id==="clearall"){state.filters=EMPTY_FILTERS();state.query="";state.openFacet=null;$("#q").value="";renderFilters();render();syncHash();return;}
   const pl=e.target.closest(".plogo");
-  if(pl){const v=pl.dataset.mfr,arr=state.filters.manufacturer,i=arr.indexOf(v);i>=0?arr.splice(i,1):arr.push(v);
+  if(pl){const v=pl.dataset.mfr,arr=state.filters.manufacturer;
+    // the strip is single-select navigation: a click *replaces* the supplier filter
+    // (multi-select stays available via the Silicon facet chips); re-click deselects
+    state.filters.manufacturer=(arr.length===1&&arr[0]===v)?[]:[v];
     setView((state.view==="software"||state.view==="maker")?state.view:"hardware");syncHash();
     const t=document.getElementById("hardware");if(t)t.scrollIntoView({behavior:"smooth",block:"start"});return;}
   const jump=e.target.closest("[data-jump]");
