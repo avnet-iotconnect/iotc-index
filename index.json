@@ -1,6 +1,6 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-08-20T05:24:29Z",
+  "generated": "2026-08-21T15:14:43Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
@@ -4736,7 +4736,7 @@
         "greengrass"
       ],
       "stars": 0,
-      "updated": "2026-04-09T21:44:36Z",
+      "updated": "2026-08-20T17:06:08Z",
       "image": null,
       "dashboards": [
         "https://saleshosted.z13.web.core.windows.net/images/events/2025/AWS-CXO-SJC/IMG_0442.JPEG",
@@ -4791,7 +4791,7 @@
         "greengrass"
       ],
       "stars": 0,
-      "updated": "2026-04-09T21:44:36Z",
+      "updated": "2026-08-20T17:06:08Z",
       "image": null,
       "dashboards": [
         "https://saleshosted.z13.web.core.windows.net/images/events/2025/AWS-CXO-SJC/IMG_0442.JPEG",
@@ -4846,7 +4846,7 @@
         "greengrass"
       ],
       "stars": 0,
-      "updated": "2026-04-09T21:44:36Z",
+      "updated": "2026-08-20T17:06:08Z",
       "image": null,
       "dashboards": [
         "https://saleshosted.z13.web.core.windows.net/images/events/2025/AWS-CXO-SJC/IMG_0442.JPEG",
@@ -4901,7 +4901,7 @@
         "greengrass"
       ],
       "stars": 0,
-      "updated": "2026-04-09T21:44:36Z",
+      "updated": "2026-08-20T17:06:08Z",
       "image": null,
       "dashboards": [
         "https://saleshosted.z13.web.core.windows.net/images/events/2025/AWS-CXO-SJC/IMG_0442.JPEG",
@@ -4956,7 +4956,7 @@
         "greengrass"
       ],
       "stars": 0,
-      "updated": "2026-04-09T21:44:36Z",
+      "updated": "2026-08-20T17:06:08Z",
       "image": null,
       "dashboards": [
         "https://saleshosted.z13.web.core.windows.net/images/events/2025/AWS-CXO-SJC/IMG_0442.JPEG",
@@ -8485,7 +8485,7 @@
         "mcu"
       ],
       "stars": 0,
-      "updated": "2026-08-19T20:29:22Z",
+      "updated": "2026-08-20T18:57:32Z",
       "image": "assets/tech/arduino.svg",
       "dashboards": [
         "https://raw.githubusercontent.com/avnet-iotconnect/iotc-arduino-uno-q-app-lab/main/app-configs/air-quality-monitoring/aqm-dashboard.jpg",
@@ -14152,7 +14152,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-08-20T05:22:51Z",
+      "updated": "2026-08-20T05:24:07Z",
       "image": null,
       "dashboards": [
         "https://raw.githubusercontent.com/avnet-iotconnect/iotc-mcx-zephyr-demos/main/media/dashboard.png"
