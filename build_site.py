@@ -446,12 +446,50 @@ else:
     A.append("- none — every referenced model is defined.")
 A += ["", "## Models with no example (candidates to map or drop)"]
 A += [f"- {n}" for n in sorted(orphan_models)] or ["- none — every model powers at least one example."]
+
+# tile imagery: mirror the front end's mediaLead() fallback chain (first Dashboards
+# screenshot, else first Photos shot, else the board photo, else the Image column).
+# Cards resolving to the same lead image are indistinguishable in the grid, so every
+# shared image below is a curation to-do: give each row its own demo-specific
+# Dashboards screenshot or Photos shot so the tile shows *this* demo, not just the board.
+def tile_lead(r):
+    if r["dashboards"]: return r["dashboards"][0], "dashboard"
+    if r["photos"]: return r["photos"][0], "photo"
+    b = r["boards"][0] if r["boards"] else None
+    if b and (b.get("image") or b.get("imageLocal")):
+        return b.get("image") or b["imageLocal"], "board photo"
+    if r["image"]: return r["image"], "Image column"
+    return None, None
+
+tile_groups = {}   # url -> {"kind": str, "cards": [labels]}
+tile_missing = []
+for r in vis:
+    url, kind = tile_lead(r)
+    label = r["displayName"] + (f' · {r["board"]["name"]}' if r.get("board") else "")
+    if not url:
+        tile_missing.append(label)
+    else:
+        g = tile_groups.setdefault(url, {"kind": kind, "cards": []})
+        g["cards"].append(label)
+dup_tiles = {u: g for u, g in tile_groups.items() if len(g["cards"]) > 1}
+n_dup_cards = sum(len(g["cards"]) for g in dup_tiles.values())
+A += ["", f"## Cards sharing a lead tile image ({n_dup_cards} cards in {len(dup_tiles)} groups)"]
+if dup_tiles:
+    A.append("_Each card should lead with its own demo-specific screenshot or photo._")
+    for u, g in sorted(dup_tiles.items(), key=lambda x: (-len(x[1]["cards"]), x[0])):
+        A.append(f"- **{len(g['cards'])}×** ({g['kind']}) `{u}`")
+        A += [f"  - {c}" for c in sorted(g["cards"])]
+else:
+    A.append("- none — every card leads with a unique image.")
+A += ["", "## Cards with no tile imagery at all"]
+A += [f"- {c}" for c in sorted(tile_missing)] or ["- none."]
 changed_audit = write_stable(os.path.join(OUT, "AUDIT.md"), "\n".join(A) + "\n", r'_Generated \S+Z_')
 
 print(f"index.json: {len(vis)} listings, {len(mfrs)} manufacturers, {len(busd)} boards, "
       f"{len(res_rows)} resources, {n_guides} guides, {n_demos} demos")
 print(f"AUDIT: {len(missing_boards)} missing-board refs, {len(no_image)} no-image, {len(orphan)} orphan, "
       f"{len(uncatalogued)} uncatalogued repos, {len(incomplete)} incomplete listings, "
-      f"{len(models_facet)} models in use, {len(unknown_models)} bad model refs")
+      f"{len(models_facet)} models in use, {len(unknown_models)} bad model refs, "
+      f"{n_dup_cards} cards with duplicate tiles, {len(tile_missing)} cards with no tile")
 print("changed: " + (", ".join(f for f, c in [("index.json", changed_index), ("AUDIT.md", changed_audit)] if c)
                      or "nothing (timestamp-only; no rewrite)"))
