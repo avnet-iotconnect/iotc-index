@@ -1,6 +1,6 @@
 # /IOTCONNECT Index — Audit Report
 
-_Generated 2026-08-20T05:17:41Z_  ·  213 listings · 94 boards (85 in use) · 17 manufacturers · 215 resources
+_Generated 2026-08-24T07:55:38Z_  ·  213 listings · 94 boards (85 in use) · 17 manufacturers · 215 resources
 
 ## ⚠ Boards referenced but missing from the Boards sheet
 - **uno** — referenced by: Vision AI Demonstrator
@@ -22,7 +22,7 @@ _Generated 2026-08-20T05:17:41Z_  ·  213 listings · 94 boards (85 in use) · 1
 - NXP · NXP MaaXBoard Mini (AES-MC-SBC-IMX8MINI-G)
 
 ## Org repos with no listing (candidates to add)
-- none — every public repo has a listing.
+- iotc-stm32-n6-w6x-kvs-webrtc — Connect STM32N6570-DK with ST67W611M Wi-Fi module — Amazon Kinesis Video Streams WebRTC camera streaming, controlled via IOTCONNECT
 
 ## Listings missing description or topics
 - none.
