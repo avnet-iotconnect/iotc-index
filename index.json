@@ -1,6 +1,6 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-09-08T17:05:31Z",
+  "generated": "2026-09-08T17:23:39Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
@@ -13648,7 +13648,7 @@
     },
     {
       "repo": "iotc-zephyr-demos",
-      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/quickstart",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/blob/main/QUICKSTART.md",
       "displayName": "Zephyr Quickstart — On-Device Provisioning",
       "description": "Zephyr RTOS quickstart for /IOTCONNECT: the device generates its own EC P-256 key pair on-device and self-provisions via the REST discovery API, then connects — no key ever leaves the board. On the FRDM-MCXN947 TF-M build the private key is sealed in Protected Storage; on the FRDM-IMX93 the identity persists to on-SOM eMMC across power cycles.",
       "category": "sample",
@@ -13698,7 +13698,7 @@
     },
     {
       "repo": "iotc-zephyr-demos",
-      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/quickstart",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/blob/main/QUICKSTART.md",
       "displayName": "Zephyr Quickstart — On-Device Provisioning",
       "description": "Zephyr RTOS quickstart for /IOTCONNECT: the device generates its own EC P-256 key pair on-device and self-provisions via the REST discovery API, then connects — no key ever leaves the board. On the FRDM-MCXN947 TF-M build the private key is sealed in Protected Storage; on the FRDM-IMX93 the identity persists to on-SOM eMMC across power cycles.",
       "category": "sample",
@@ -13750,7 +13750,7 @@
     },
     {
       "repo": "iotc-zephyr-demos",
-      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/quickstart",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/blob/main/QUICKSTART.md",
       "displayName": "Zephyr Quickstart — On-Device Provisioning",
       "description": "Zephyr RTOS quickstart for /IOTCONNECT: the device generates its own EC P-256 key pair on-device and self-provisions via the REST discovery API, then connects — no key ever leaves the board. On the FRDM-MCXN947 TF-M build the private key is sealed in Protected Storage; on the FRDM-IMX93 the identity persists to on-SOM eMMC across power cycles.",
       "category": "sample",
@@ -13800,7 +13800,7 @@
     },
     {
       "repo": "iotc-zephyr-demos",
-      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/quickstart",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/blob/main/QUICKSTART.md",
       "displayName": "Zephyr Quickstart — On-Device Provisioning",
       "description": "Zephyr RTOS quickstart for /IOTCONNECT: the device generates its own EC P-256 key pair on-device and self-provisions via the REST discovery API, then connects — no key ever leaves the board. On the FRDM-MCXN947 TF-M build the private key is sealed in Protected Storage; on the FRDM-IMX93 the identity persists to on-SOM eMMC across power cycles.",
       "category": "sample",
@@ -13852,7 +13852,7 @@
     },
     {
       "repo": "iotc-zephyr-demos",
-      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/quickstart",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/blob/main/QUICKSTART.md",
       "displayName": "Zephyr Quickstart — On-Device Provisioning",
       "description": "Zephyr RTOS quickstart for /IOTCONNECT: the device generates its own EC P-256 key pair on-device and self-provisions via the REST discovery API, then connects — no key ever leaves the board. On the FRDM-MCXN947 TF-M build the private key is sealed in Protected Storage; on the FRDM-IMX93 the identity persists to on-SOM eMMC across power cycles.",
       "category": "sample",
@@ -13902,7 +13902,7 @@
     },
     {
       "repo": "iotc-zephyr-demos",
-      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/telemetry",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/blob/main/demos/telemetry/README.md",
       "displayName": "Zephyr Telemetry",
       "description": "Zephyr RTOS telemetry demo for /IOTCONNECT: one portable application that reports sensor readings and live device vitals (uptime, heap, network) to the cloud, running unchanged across NXP boards via per-board Kconfig + devicetree overlays — hardware-verified on MCXN947, i.MX93 (Cortex-A55) and i.MX RT1170.",
       "category": "sample",
@@ -13952,7 +13952,7 @@
     },
     {
       "repo": "iotc-zephyr-demos",
-      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/telemetry",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/blob/main/demos/telemetry/README.md",
       "displayName": "Zephyr Telemetry",
       "description": "Zephyr RTOS telemetry demo for /IOTCONNECT: one portable application that reports sensor readings and live device vitals (uptime, heap, network) to the cloud, running unchanged across NXP boards via per-board Kconfig + devicetree overlays — hardware-verified on MCXN947, i.MX93 (Cortex-A55) and i.MX RT1170.",
       "category": "sample",
@@ -14004,7 +14004,7 @@
     },
     {
       "repo": "iotc-zephyr-demos",
-      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/telemetry",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/blob/main/demos/telemetry/README.md",
       "displayName": "Zephyr Telemetry",
       "description": "Zephyr RTOS telemetry demo for /IOTCONNECT: one portable application that reports sensor readings and live device vitals (uptime, heap, network) to the cloud, running unchanged across NXP boards via per-board Kconfig + devicetree overlays — hardware-verified on MCXN947, i.MX93 (Cortex-A55) and i.MX RT1170.",
       "category": "sample",
@@ -14054,7 +14054,7 @@
     },
     {
       "repo": "iotc-zephyr-demos",
-      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/telemetry",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/blob/main/demos/telemetry/README.md",
       "displayName": "Zephyr Telemetry",
       "description": "Zephyr RTOS telemetry demo for /IOTCONNECT: one portable application that reports sensor readings and live device vitals (uptime, heap, network) to the cloud, running unchanged across NXP boards via per-board Kconfig + devicetree overlays — hardware-verified on MCXN947, i.MX93 (Cortex-A55) and i.MX RT1170.",
       "category": "sample",
@@ -14106,7 +14106,7 @@
     },
     {
       "repo": "iotc-zephyr-demos",
-      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/telemetry",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/blob/main/demos/telemetry/README.md",
       "displayName": "Zephyr Telemetry",
       "description": "Zephyr RTOS telemetry demo for /IOTCONNECT: one portable application that reports sensor readings and live device vitals (uptime, heap, network) to the cloud, running unchanged across NXP boards via per-board Kconfig + devicetree overlays — hardware-verified on MCXN947, i.MX93 (Cortex-A55) and i.MX RT1170.",
       "category": "sample",
@@ -14156,7 +14156,7 @@
     },
     {
       "repo": "iotc-zephyr-demos",
-      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/c2d-led",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/blob/main/demos/c2d-led/README.md",
       "displayName": "Zephyr Cloud-to-Device LED Control",
       "description": "Cloud-to-device command demo on Zephyr RTOS: send a command from the /IOTCONNECT portal and the board switches its LED, demonstrating the C2D command path (parse, act, acknowledge) that any cloud-controlled Zephyr device builds on.",
       "category": "sample",
@@ -14205,7 +14205,7 @@
     },
     {
       "repo": "iotc-zephyr-demos",
-      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/c2d-led",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/blob/main/demos/c2d-led/README.md",
       "displayName": "Zephyr Cloud-to-Device LED Control",
       "description": "Cloud-to-device command demo on Zephyr RTOS: send a command from the /IOTCONNECT portal and the board switches its LED, demonstrating the C2D command path (parse, act, acknowledge) that any cloud-controlled Zephyr device builds on.",
       "category": "sample",
@@ -14254,7 +14254,7 @@
     },
     {
       "repo": "iotc-zephyr-demos",
-      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/c2d-led",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/blob/main/demos/c2d-led/README.md",
       "displayName": "Zephyr Cloud-to-Device LED Control",
       "description": "Cloud-to-device command demo on Zephyr RTOS: send a command from the /IOTCONNECT portal and the board switches its LED, demonstrating the C2D command path (parse, act, acknowledge) that any cloud-controlled Zephyr device builds on.",
       "category": "sample",
@@ -14305,7 +14305,7 @@
     },
     {
       "repo": "iotc-zephyr-demos",
-      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/c2d-led",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/blob/main/demos/c2d-led/README.md",
       "displayName": "Zephyr Cloud-to-Device LED Control",
       "description": "Cloud-to-device command demo on Zephyr RTOS: send a command from the /IOTCONNECT portal and the board switches its LED, demonstrating the C2D command path (parse, act, acknowledge) that any cloud-controlled Zephyr device builds on.",
       "category": "sample",
@@ -14354,7 +14354,7 @@
     },
     {
       "repo": "iotc-zephyr-demos",
-      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/click-telemetry",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/blob/main/demos/click-telemetry/README.md",
       "displayName": "Zephyr Click Sensor Telemetry (TF-M Sealed Key)",
       "description": "mikroBUS Click boards streaming sensor telemetry to /IOTCONNECT from Zephyr RTOS on the FRDM-MCXN947 — hardware-verified on the TrustZone/TF-M build, where the device private key is sealed in Protected Storage and crypto runs in the secure world. Four Click sensors to AWS IoT Core from one portable app.",
       "category": "sample",
@@ -14406,7 +14406,7 @@
     },
     {
       "repo": "iotc-zephyr-demos",
-      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/click-telemetry",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/blob/main/demos/click-telemetry/README.md",
       "displayName": "Zephyr Click Sensor Telemetry (TF-M Sealed Key)",
       "description": "mikroBUS Click boards streaming sensor telemetry to /IOTCONNECT from Zephyr RTOS on the FRDM-MCXN947 — hardware-verified on the TrustZone/TF-M build, where the device private key is sealed in Protected Storage and crypto runs in the secure world. Four Click sensors to AWS IoT Core from one portable app.",
       "category": "sample",
@@ -14460,7 +14460,7 @@
     },
     {
       "repo": "iotc-zephyr-demos",
-      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/click-telemetry",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/blob/main/demos/click-telemetry/README.md",
       "displayName": "Zephyr Click Sensor Telemetry (TF-M Sealed Key)",
       "description": "mikroBUS Click boards streaming sensor telemetry to /IOTCONNECT from Zephyr RTOS on the FRDM-MCXN947 — hardware-verified on the TrustZone/TF-M build, where the device private key is sealed in Protected Storage and crypto runs in the secure world. Four Click sensors to AWS IoT Core from one portable app.",
       "category": "sample",
@@ -15027,7 +15027,7 @@
     },
     {
       "repo": "iotc-zephyr-demos",
-      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/eiq-pdm-vibration",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/blob/main/demos/eiq-pdm-vibration/QUICKSTART.md",
       "displayName": "Zephyr eIQ Vibration Predictive Maintenance",
       "description": "On-device predictive maintenance for rotating machines on the NXP FRDM-MCXN947 under Zephyr RTOS: a MIKROE ML Vibro Sens Click (NXP FXLS8974CF accelerometer + onboard fault motors) measures vibration, an eIQ Time Series Studio Random Forest model (0.30 KB RAM, 0.05 ms on the Cortex-M33) classifies machine state on-device, and verdicts stream to /IOTCONNECT with cloud-commanded fault injection. Pretrained model and dataset bundled.",
       "category": "sample",
@@ -15091,7 +15091,7 @@
     },
     {
       "repo": "iotc-zephyr-demos",
-      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/gateway",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/blob/main/demos/gateway/QUICKSTART.md",
       "displayName": "Zephyr Gateway - Child Devices & Store-and-Forward",
       "description": "An /IOTCONNECT gateway on the NXP FRDM-i.MX93 (Cortex-A55, Zephyr RTOS) that ingests IOTCONNECT 2.1 JSON from connectivity-less MCUs over UART and forwards each as a child-device record over one MQTT/TLS connection, adding its own gateway health telemetry. Pull the Ethernet cable and nothing is lost: records divert to a raw-sector ring on the on-SOM eMMC with original timestamps, then drain oldest-first on reconnect for a gap-free backfilled timeline.",
       "category": "sample",
@@ -15145,7 +15145,7 @@
     },
     {
       "repo": "iotc-zephyr-demos",
-      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/ml-model-update",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/blob/main/demos/ml-model-update/README.md",
       "displayName": "Zephyr ML Model Hot-Swap (Cloud-Updatable ML)",
       "description": "The ML model is data, not firmware: on a Microchip SAM E54 Xplained Pro under Zephyr RTOS, a fixed tiny-MLP inference engine runs ~124-byte validated IOTM weight blobs. /IOTCONNECT pushes a new model as a single C2D command - the device CRC-checks it, hot-swaps it without a reboot, persists it to NVS, and its behavior visibly changes (five ready-made models classify light/temperature with different LED policies). Also rides IOTCONNECT's native C2D AI-Model push. Uses the IO1 Xplained Pro sensor wing.",
       "category": "sample",
@@ -15210,7 +15210,7 @@
     },
     {
       "repo": "iotc-zephyr-demos",
-      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/uart-telemetry-source",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/blob/main/demos/uart-telemetry-source/README.md",
       "displayName": "Zephyr UART Telemetry Source (Constrained MCUs)",
       "description": "The constrained-tier Zephyr demo for MCUs with no IP transport: the portable iotc-c-lib protocol core compiles straight into the app and emits IOTCONNECT 2.1 telemetry JSON on the console UART every 5 seconds. A companion gateway (see the Zephyr Gateway demo on FRDM-i.MX93) relays the lines to the cloud as child-device records, so connectivity-less MCUs like the FRDM-MCXE31B and FRDM-MCXW72 still contribute to /IOTCONNECT as verified telemetry sources.",
       "category": "sample",
@@ -15259,7 +15259,7 @@
     },
     {
       "repo": "iotc-zephyr-demos",
-      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/uart-telemetry-source",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/blob/main/demos/uart-telemetry-source/README.md",
       "displayName": "Zephyr UART Telemetry Source (Constrained MCUs)",
       "description": "The constrained-tier Zephyr demo for MCUs with no IP transport: the portable iotc-c-lib protocol core compiles straight into the app and emits IOTCONNECT 2.1 telemetry JSON on the console UART every 5 seconds. A companion gateway (see the Zephyr Gateway demo on FRDM-i.MX93) relays the lines to the cloud as child-device records, so connectivity-less MCUs like the FRDM-MCXE31B and FRDM-MCXW72 still contribute to /IOTCONNECT as verified telemetry sources.",
       "category": "sample",
@@ -15308,7 +15308,7 @@
     },
     {
       "repo": "iotc-zephyr-demos",
-      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/vision-occupancy",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/blob/main/demos/vision-occupancy/QUICKSTART.md",
       "displayName": "Zephyr Vision Occupancy - Edge Person Detection",
       "description": "On-device person detection on the NXP MIMXRT1170-EVKB under Zephyr RTOS: the kit's OV5640 MIPI camera streams 720p frames, a TFLite-Micro int8 MobileNet person-detect CNN (96x96 grayscale, CMSIS-NN kernels on the 1 GHz Cortex-M7) classifies each frame on the device, and an occupancy state machine streams the verdict to /IOTCONNECT. No video leaves the board - the cloud sees scores and states, never pixels, unless a snapshot command explicitly requests one frame.",
       "category": "sample",
@@ -15573,7 +15573,7 @@
     },
     {
       "repo": "iotc-zephyr-demos",
-      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/vendor/nxp/face-detect",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/blob/main/vendor/nxp/face-detect/README.md",
       "displayName": "Zephyr Face Detection - Camera, LCD & Cellular",
       "description": "Real-time face detection on the NXP FRDM-MCXN947 under Zephyr RTOS: the OV7670 camera streams through the MCXN947's SmartDMA capture engine, a TensorFlow-Lite-Micro face-detection model runs on the Cortex-M33 with CMSIS-NN kernels, and detection boxes render live on the LCD-PAR-S035 - with detection counts published to /IOTCONNECT over an LTE IoT 12 Click cellular modem. Ports the original MCX face-detect application onto upstream Zephyr and the IOTCONNECT Zephyr SDK with on-device key provisioning. The vision pipeline is hardware-verified; the cellular uplink is implemented and pending hardware verification.",
       "category": "sample",
@@ -15633,7 +15633,7 @@
     },
     {
       "repo": "iotc-zephyr-demos",
-      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/vendor/nxp/npu-benchmark",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/blob/main/vendor/nxp/npu-benchmark/README.md",
       "displayName": "Zephyr NPU Benchmark - eIQ Neutron vs CPU",
       "description": "eIQ Neutron NPU vs CPU inference benchmark on the FRDM-MCXN947 under Zephyr RTOS: runs eIQ TFLM inference on both compute paths and streams the benchmark results to /IOTCONNECT for side-by-side comparison. Requires NXP's eIQ TFLM middleware to build.",
       "category": "sample",
