@@ -1,6 +1,6 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-09-07T13:16:31Z",
+  "generated": "2026-09-08T17:05:31Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
@@ -68,7 +68,7 @@
       "logo": "assets/brand/microchip-logo.png",
       "info": "https://www.avnet.com/iotconnect/microchip",
       "boards": 10,
-      "listings": 27
+      "listings": 30
     },
     {
       "name": "NVIDIA",
@@ -83,8 +83,8 @@
       "slug": "nxp",
       "logo": "assets/brand/nxp-logo.png",
       "info": "https://www.avnet.com/iotconnect/nxp",
-      "boards": 14,
-      "listings": 36
+      "boards": 15,
+      "listings": 42
     },
     {
       "name": "Nordic",
@@ -115,8 +115,8 @@
       "slug": "renesas",
       "logo": "assets/brand/renesas-logo.png",
       "info": "https://www.avnet.com/iotconnect/renesas",
-      "boards": 18,
-      "listings": 20
+      "boards": 19,
+      "listings": 21
     },
     {
       "name": "STMicroelectronics",
@@ -124,7 +124,7 @@
       "logo": "assets/brand/st-logo.png",
       "info": "https://www.avnet.com/iotconnect/st",
       "boards": 16,
-      "listings": 56
+      "listings": 57
     },
     {
       "name": "Semtech",
@@ -337,11 +337,11 @@
     "topics": [
       {
         "tag": "edge-ai",
-        "count": 74
+        "count": 76
       },
       {
         "tag": "vision",
-        "count": 39
+        "count": 41
       },
       {
         "tag": "gateway",
@@ -349,7 +349,11 @@
       },
       {
         "tag": "sensors",
-        "count": 30
+        "count": 34
+      },
+      {
+        "tag": "zephyr",
+        "count": 27
       },
       {
         "tag": "ai",
@@ -357,6 +361,10 @@
       },
       {
         "tag": "wifi",
+        "count": 23
+      },
+      {
+        "tag": "mcu",
         "count": 22
       },
       {
@@ -364,16 +372,16 @@
         "count": 20
       },
       {
+        "tag": "npu",
+        "count": 20
+      },
+      {
         "tag": "ble",
         "count": 19
       },
       {
-        "tag": "zephyr",
-        "count": 18
-      },
-      {
-        "tag": "npu",
-        "count": 17
+        "tag": "kvs",
+        "count": 15
       },
       {
         "tag": "mpu",
@@ -384,19 +392,15 @@
         "count": 15
       },
       {
-        "tag": "kvs",
+        "tag": "video",
         "count": 14
       },
       {
-        "tag": "mcu",
-        "count": 13
-      },
-      {
-        "tag": "video",
-        "count": 13
-      },
-      {
         "tag": "audio",
+        "count": 12
+      },
+      {
+        "tag": "freertos",
         "count": 12
       },
       {
@@ -408,15 +412,15 @@
         "count": 12
       },
       {
-        "tag": "freertos",
-        "count": 11
+        "tag": "webrtc",
+        "count": 10
+      },
+      {
+        "tag": "secure-element",
+        "count": 9
       },
       {
         "tag": "fpga",
-        "count": 8
-      },
-      {
-        "tag": "webrtc",
         "count": 8
       },
       {
@@ -428,8 +432,12 @@
         "count": 7
       },
       {
-        "tag": "secure-element",
+        "tag": "x509",
         "count": 7
+      },
+      {
+        "tag": "clicks",
+        "count": 6
       },
       {
         "tag": "gesture",
@@ -444,10 +452,6 @@
         "count": 6
       },
       {
-        "tag": "x509",
-        "count": 6
-      },
-      {
         "tag": "at-commands",
         "count": 5
       },
@@ -457,10 +461,6 @@
       },
       {
         "tag": "anomaly-detection",
-        "count": 4
-      },
-      {
-        "tag": "clicks",
         "count": 4
       },
       {
@@ -521,6 +521,10 @@
       },
       {
         "tag": "ml",
+        "count": 2
+      },
+      {
+        "tag": "mlops",
         "count": 2
       },
       {
@@ -600,10 +604,6 @@
         "count": 1
       },
       {
-        "tag": "mlops",
-        "count": 1
-      },
-      {
         "tag": "pkcs11",
         "count": 1
       },
@@ -674,16 +674,7 @@
         "framework": "X-CUBE-AI / X-LINUX-AI",
         "vendor": "STMicroelectronics",
         "link": "https://github.com/STMicroelectronics/stm32ai-modelzoo",
-        "count": 5
-      },
-      {
-        "model": "dscnn-kws",
-        "name": "DS-CNN Keyword Spotting",
-        "task": "keyword spotting",
-        "framework": "TFLite (Arm ML Zoo) + PyTorch retrain",
-        "vendor": "Arm / Microchip",
-        "link": "https://github.com/ARM-software/ML-zoo",
-        "count": 3
+        "count": 6
       },
       {
         "model": "eiq-tflm",
@@ -692,6 +683,15 @@
         "framework": "eIQ / TFLite-Micro",
         "vendor": "NXP",
         "link": "https://www.nxp.com/eiq",
+        "count": 4
+      },
+      {
+        "model": "dscnn-kws",
+        "name": "DS-CNN Keyword Spotting",
+        "task": "keyword spotting",
+        "framework": "TFLite (Arm ML Zoo) + PyTorch retrain",
+        "vendor": "Arm / Microchip",
+        "link": "https://github.com/ARM-software/ML-zoo",
         "count": 3
       },
       {
@@ -710,6 +710,15 @@
         "framework": "TensorRT (jetson-inference)",
         "vendor": "NVIDIA",
         "link": "https://github.com/dusty-nv/jetson-inference",
+        "count": 3
+      },
+      {
+        "model": "mobilenet",
+        "name": "MobileNet",
+        "task": "image classification",
+        "framework": "TFLite / X-CUBE-AI",
+        "vendor": "Google / STMicroelectronics",
+        "link": "https://keras.io/api/applications/mobilenet/",
         "count": 3
       },
       {
@@ -764,15 +773,6 @@
         "framework": "MediaPipe + PyTorch",
         "vendor": "Google / community",
         "link": "https://developers.google.com/mediapipe",
-        "count": 2
-      },
-      {
-        "model": "mobilenet",
-        "name": "MobileNet",
-        "task": "image classification",
-        "framework": "TFLite / X-CUBE-AI",
-        "vendor": "Google / STMicroelectronics",
-        "link": "https://keras.io/api/applications/mobilenet/",
         "count": 2
       },
       {
@@ -1364,6 +1364,53 @@
         "listings": 1
       },
       {
+        "slug": "ek-ra8p1",
+        "vendor": "Renesas",
+        "name": "EK-RA8P1 Evaluation Kit for RA8P1 MCU Group",
+        "partNumber": "EK-RA8P1",
+        "image": null,
+        "imageLocal": "assets/boards/EK-RA8P1.webp",
+        "link": "https://www.renesas.com/en/design-resources/boards-kits/ek-ra8p1",
+        "buy": "https://www.avnet.com/americas/product/renesas-electronics/rtk7eka8p1s01001be/evolve-120248010/",
+        "qualifications": [],
+        "tags": [
+          "mcu",
+          "ai",
+          "vision",
+          "npu"
+        ],
+        "resources": [
+          {
+            "kind": "buy",
+            "title": "Buy EK-RA8P1 on Avnet",
+            "url": "https://www.avnet.com/americas/product/renesas-electronics/rtk7eka8p1s01001be/evolve-120248010/"
+          },
+          {
+            "kind": "quickstart",
+            "title": "QuickStart Guide",
+            "url": "https://github.com/avnet-iotconnect/iotc-freertos-ek-ra8p1/blob/main/docs/QUICKSTART.md"
+          },
+          {
+            "kind": "developer",
+            "title": "Developer Guide",
+            "url": "https://github.com/avnet-iotconnect/iotc-freertos-ek-ra8p1/blob/main/docs/DEVELOPER-GUIDE.md"
+          },
+          {
+            "kind": "demo",
+            "title": "Demo Guide: Vision AI",
+            "url": "https://github.com/avnet-iotconnect/iotc-freertos-ek-ra8p1/blob/main/docs/DEMO-GUIDE.md"
+          },
+          {
+            "kind": "doc",
+            "title": "GitHub Repository Root",
+            "url": "https://github.com/avnet-iotconnect/iotc-freertos-ek-ra8p1"
+          }
+        ],
+        "integrator": "Renesas",
+        "maker": "Renesas",
+        "listings": 1
+      },
+      {
         "slug": "ek-ra2l1",
         "vendor": "Renesas",
         "name": "Evaluation Kit for RA2L1 MCU Group",
@@ -1489,15 +1536,31 @@
         "name": "FRDM Development Board for MCX E31B MCUs",
         "partNumber": "FRDM-MCXE31B",
         "image": null,
-        "imageLocal": null,
+        "imageLocal": "assets/boards/FRDM-MCXE31B.jpg",
         "link": "https://www.nxp.com/design/design-center/development-boards-and-designs/FRDM-MCXE31B",
-        "buy": null,
+        "buy": "https://www.newark.com/nxp/frdm-mcxe31b/eval-brd-32bit-160mhz-arm-cortex/dp/49AM8309",
         "qualifications": [],
         "tags": [
           "mcu",
           "zephyr"
         ],
-        "resources": [],
+        "resources": [
+          {
+            "kind": "buy",
+            "title": "Buy FRDM-MCXE31B on Newark",
+            "url": "https://www.newark.com/nxp/frdm-mcxe31b/eval-brd-32bit-160mhz-arm-cortex/dp/49AM8309"
+          },
+          {
+            "kind": "quickstart",
+            "title": "Zephyr QuickStart Guide",
+            "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/blob/main/boards/frdm-mcxe31b/QUICKSTART.md"
+          },
+          {
+            "kind": "doc",
+            "title": "GitHub Repository Root",
+            "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos"
+          }
+        ],
         "integrator": "NXP",
         "maker": "NXP",
         "listings": 1
@@ -1532,7 +1595,7 @@
         ],
         "integrator": "NXP",
         "maker": "NXP",
-        "listings": 7
+        "listings": 8
       },
       {
         "slug": "frdm-mcxw72",
@@ -1540,7 +1603,7 @@
         "name": "FRDM Development Board for MCX W72 Wireless MCUs",
         "partNumber": "FRDM-MCXW72",
         "image": null,
-        "imageLocal": null,
+        "imageLocal": "assets/boards/FRDM-MCXW72.webp",
         "link": "https://www.nxp.com/design/design-center/development-boards-and-designs/FRDM-MCXW72",
         "buy": null,
         "qualifications": [],
@@ -1549,10 +1612,58 @@
           "ble",
           "zephyr"
         ],
-        "resources": [],
+        "resources": [
+          {
+            "kind": "quickstart",
+            "title": "Zephyr QuickStart Guide",
+            "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/blob/main/boards/frdm-mcxw72/QUICKSTART.md"
+          },
+          {
+            "kind": "doc",
+            "title": "GitHub Repository Root",
+            "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos"
+          }
+        ],
         "integrator": "NXP",
         "maker": "NXP",
         "listings": 1
+      },
+      {
+        "slug": "frdm-rw612",
+        "vendor": "NXP",
+        "name": "FRDM Development Board for RW612 Wi-Fi 6 Tri-Radio MCU",
+        "partNumber": "FRDM-RW612",
+        "image": null,
+        "imageLocal": "assets/boards/FRDM-RW612.jpg",
+        "link": "https://www.nxp.com/design/design-center/development-boards-and-designs/FRDM-RW612",
+        "buy": "https://www.avnet.com/americas/product/nxp/frdm-rw612/evolve-116209016/",
+        "qualifications": [],
+        "tags": [
+          "mcu",
+          "wifi",
+          "ble",
+          "zephyr"
+        ],
+        "resources": [
+          {
+            "kind": "buy",
+            "title": "Buy FRDM-RW612 on Avnet",
+            "url": "https://www.avnet.com/americas/product/nxp/frdm-rw612/evolve-116209016/"
+          },
+          {
+            "kind": "quickstart",
+            "title": "Zephyr QuickStart Guide",
+            "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/blob/main/boards/frdm-rw612/QUICKSTART.md"
+          },
+          {
+            "kind": "doc",
+            "title": "GitHub Repository Root",
+            "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos"
+          }
+        ],
+        "integrator": "NXP",
+        "maker": "NXP",
+        "listings": 4
       },
       {
         "slug": "s32g-vnp-gldbox",
@@ -1642,7 +1753,7 @@
         ],
         "integrator": "NXP",
         "maker": "NXP",
-        "listings": 3
+        "listings": 4
       },
       {
         "slug": "frdm-imx93",
@@ -1668,6 +1779,11 @@
             "kind": "quickstart",
             "title": "QuickStart Guide",
             "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/nxp-frdm-imx-93"
+          },
+          {
+            "kind": "quickstart",
+            "title": "Zephyr QuickStart Guide",
+            "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/blob/main/boards/frdm-imx93/QUICKSTART.md"
           },
           {
             "kind": "doc",
@@ -2794,7 +2910,7 @@
         ],
         "integrator": "Microchip",
         "maker": "Microchip",
-        "listings": 3
+        "listings": 6
       },
       {
         "slug": "atsama5d27-som1-ek1",
@@ -3293,6 +3409,11 @@
             "url": "https://github.com/avnet-iotconnect/iotc-stm32-n6-demos/blob/main/doc/QUICKSTART.md"
           },
           {
+            "kind": "demo",
+            "title": "Demo: Amazon KVS WebRTC Streaming",
+            "url": "https://github.com/avnet-iotconnect/iotc-stm32-n6-w6x-kvs-webrtc"
+          },
+          {
             "kind": "blog",
             "title": "Blog: Unlocking the Power of EdgeAI",
             "url": "https://news.avnet.com/news-blog/news-blog-details/2024/Unlocking-the-Power-of-EdgeAI-Avnet-STMicroelectronics-and-AWS-team-up-to-show-the-power-of-the-STM32N6-MCU/default.aspx"
@@ -3300,7 +3421,7 @@
         ],
         "integrator": "STMicroelectronics",
         "maker": "STMicroelectronics",
-        "listings": 3
+        "listings": 4
       },
       {
         "slug": "b-u585i-iot02a",
@@ -3632,15 +3753,15 @@
     ]
   },
   "counts": {
-    "total": 213,
+    "total": 224,
     "manufacturers": 17,
-    "boards": 94,
+    "boards": 96,
     "sdks": 28,
     "tools": 6,
-    "examples": 179,
+    "examples": 190,
     "models": 25,
-    "guides": 80,
-    "demos": 12,
+    "guides": 86,
+    "demos": 14,
     "partners": 9
   },
   "repos": [
@@ -7800,7 +7921,7 @@
         "sensors"
       ],
       "stars": 0,
-      "updated": "2026-04-16T21:43:00Z",
+      "updated": "2026-09-08T15:53:34Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ifx-psoc6andedge-deepcraft.JPG",
       "dashboards": [],
       "photos": [],
@@ -7860,7 +7981,7 @@
         "sensors"
       ],
       "stars": 0,
-      "updated": "2026-04-16T21:43:00Z",
+      "updated": "2026-09-08T15:53:34Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ifx-psoc6andedge-deepcraft.JPG",
       "dashboards": [],
       "photos": [],
@@ -13731,6 +13852,56 @@
     },
     {
       "repo": "iotc-zephyr-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/quickstart",
+      "displayName": "Zephyr Quickstart — On-Device Provisioning",
+      "description": "Zephyr RTOS quickstart for /IOTCONNECT: the device generates its own EC P-256 key pair on-device and self-provisions via the REST discovery API, then connects — no key ever leaves the board. On the FRDM-MCXN947 TF-M build the private key is sealed in Protected Storage; on the FRDM-IMX93 the identity persists to on-SOM eMMC across power cycles.",
+      "category": "sample",
+      "status": "beta",
+      "release": "v1.1.0",
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "mcu",
+        "x509",
+        "zephyr"
+      ],
+      "stars": 0,
+      "updated": "2026-09-06T18:34:52Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "models": [],
+      "described": true,
+      "hidden": false,
+      "id": "zephyr-quickstart-on-device-provisioning::frdm-rw612",
+      "boards": [
+        {
+          "slug": "frdm-rw612",
+          "vendor": "NXP",
+          "name": "FRDM Development Board for RW612 Wi-Fi 6 Tri-Radio MCU",
+          "maker": "NXP",
+          "partNumber": "FRDM-RW612",
+          "imageLocal": "assets/boards/FRDM-RW612.jpg"
+        }
+      ],
+      "board": {
+        "slug": "frdm-rw612",
+        "vendor": "NXP",
+        "name": "FRDM Development Board for RW612 Wi-Fi 6 Tri-Radio MCU",
+        "maker": "NXP",
+        "partNumber": "FRDM-RW612",
+        "imageLocal": "assets/boards/FRDM-RW612.jpg"
+      },
+      "manufacturers": [
+        "NXP"
+      ],
+      "makers": [
+        "NXP"
+      ]
+    },
+    {
+      "repo": "iotc-zephyr-demos",
       "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/telemetry",
       "displayName": "Zephyr Telemetry",
       "description": "Zephyr RTOS telemetry demo for /IOTCONNECT: one portable application that reports sensor readings and live device vitals (uptime, heap, network) to the cloud, running unchanged across NXP boards via per-board Kconfig + devicetree overlays — hardware-verified on MCXN947, i.MX93 (Cortex-A55) and i.MX RT1170.",
@@ -13883,6 +14054,108 @@
     },
     {
       "repo": "iotc-zephyr-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/telemetry",
+      "displayName": "Zephyr Telemetry",
+      "description": "Zephyr RTOS telemetry demo for /IOTCONNECT: one portable application that reports sensor readings and live device vitals (uptime, heap, network) to the cloud, running unchanged across NXP boards via per-board Kconfig + devicetree overlays — hardware-verified on MCXN947, i.MX93 (Cortex-A55) and i.MX RT1170.",
+      "category": "sample",
+      "status": "beta",
+      "release": "v1.1.0",
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "mcu",
+        "sensors",
+        "zephyr"
+      ],
+      "stars": 0,
+      "updated": "2026-09-06T18:34:52Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "models": [],
+      "described": true,
+      "hidden": false,
+      "id": "zephyr-telemetry::atsame54-xpro",
+      "boards": [
+        {
+          "slug": "atsame54-xpro",
+          "vendor": "Microchip",
+          "name": "SAM E54 Xplained Pro Evaluation Kit",
+          "maker": "Microchip",
+          "partNumber": "ATSAME54-XPRO",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ATSAME54-XPRO.png",
+          "imageLocal": "assets/boards/ATSAME54-XPRO.jpg"
+        }
+      ],
+      "board": {
+        "slug": "atsame54-xpro",
+        "vendor": "Microchip",
+        "name": "SAM E54 Xplained Pro Evaluation Kit",
+        "maker": "Microchip",
+        "partNumber": "ATSAME54-XPRO",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ATSAME54-XPRO.png",
+        "imageLocal": "assets/boards/ATSAME54-XPRO.jpg"
+      },
+      "manufacturers": [
+        "Microchip"
+      ],
+      "makers": [
+        "Microchip"
+      ]
+    },
+    {
+      "repo": "iotc-zephyr-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/telemetry",
+      "displayName": "Zephyr Telemetry",
+      "description": "Zephyr RTOS telemetry demo for /IOTCONNECT: one portable application that reports sensor readings and live device vitals (uptime, heap, network) to the cloud, running unchanged across NXP boards via per-board Kconfig + devicetree overlays — hardware-verified on MCXN947, i.MX93 (Cortex-A55) and i.MX RT1170.",
+      "category": "sample",
+      "status": "beta",
+      "release": "v1.1.0",
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "mcu",
+        "sensors",
+        "zephyr"
+      ],
+      "stars": 0,
+      "updated": "2026-09-06T18:34:52Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "models": [],
+      "described": true,
+      "hidden": false,
+      "id": "zephyr-telemetry::frdm-rw612",
+      "boards": [
+        {
+          "slug": "frdm-rw612",
+          "vendor": "NXP",
+          "name": "FRDM Development Board for RW612 Wi-Fi 6 Tri-Radio MCU",
+          "maker": "NXP",
+          "partNumber": "FRDM-RW612",
+          "imageLocal": "assets/boards/FRDM-RW612.jpg"
+        }
+      ],
+      "board": {
+        "slug": "frdm-rw612",
+        "vendor": "NXP",
+        "name": "FRDM Development Board for RW612 Wi-Fi 6 Tri-Radio MCU",
+        "maker": "NXP",
+        "partNumber": "FRDM-RW612",
+        "imageLocal": "assets/boards/FRDM-RW612.jpg"
+      },
+      "manufacturers": [
+        "NXP"
+      ],
+      "makers": [
+        "NXP"
+      ]
+    },
+    {
+      "repo": "iotc-zephyr-demos",
       "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/c2d-led",
       "displayName": "Zephyr Cloud-to-Device LED Control",
       "description": "Cloud-to-device command demo on Zephyr RTOS: send a command from the /IOTCONNECT portal and the board switches its LED, demonstrating the C2D command path (parse, act, acknowledge) that any cloud-controlled Zephyr device builds on.",
@@ -13904,7 +14177,208 @@
       "models": [],
       "described": true,
       "hidden": false,
-      "id": "zephyr-cloud-to-device-led-control",
+      "id": "zephyr-cloud-to-device-led-control::frdm-mcxn947",
+      "boards": [
+        {
+          "slug": "frdm-mcxn947",
+          "vendor": "NXP",
+          "name": "FRDM Development Board for MCX N94/N54 MCUs",
+          "maker": "NXP",
+          "partNumber": "FRDM-MCXN947",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-MCXN947.png"
+        }
+      ],
+      "board": {
+        "slug": "frdm-mcxn947",
+        "vendor": "NXP",
+        "name": "FRDM Development Board for MCX N94/N54 MCUs",
+        "maker": "NXP",
+        "partNumber": "FRDM-MCXN947",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-MCXN947.png"
+      },
+      "manufacturers": [
+        "NXP"
+      ],
+      "makers": [
+        "NXP"
+      ]
+    },
+    {
+      "repo": "iotc-zephyr-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/c2d-led",
+      "displayName": "Zephyr Cloud-to-Device LED Control",
+      "description": "Cloud-to-device command demo on Zephyr RTOS: send a command from the /IOTCONNECT portal and the board switches its LED, demonstrating the C2D command path (parse, act, acknowledge) that any cloud-controlled Zephyr device builds on.",
+      "category": "sample",
+      "status": "beta",
+      "release": "v1.1.0",
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "mcu",
+        "zephyr"
+      ],
+      "stars": 0,
+      "updated": "2026-09-06T18:34:52Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "models": [],
+      "described": true,
+      "hidden": false,
+      "id": "zephyr-cloud-to-device-led-control::mimxrt1170-evkb",
+      "boards": [
+        {
+          "slug": "mimxrt1170-evkb",
+          "vendor": "NXP",
+          "name": "i.MX RT1170 Evaluation Kit (EVKB)",
+          "maker": "NXP",
+          "partNumber": "MIMXRT1170-EVKB",
+          "imageLocal": "assets/boards/MIMXRT1170-EVKB.jpg"
+        }
+      ],
+      "board": {
+        "slug": "mimxrt1170-evkb",
+        "vendor": "NXP",
+        "name": "i.MX RT1170 Evaluation Kit (EVKB)",
+        "maker": "NXP",
+        "partNumber": "MIMXRT1170-EVKB",
+        "imageLocal": "assets/boards/MIMXRT1170-EVKB.jpg"
+      },
+      "manufacturers": [
+        "NXP"
+      ],
+      "makers": [
+        "NXP"
+      ]
+    },
+    {
+      "repo": "iotc-zephyr-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/c2d-led",
+      "displayName": "Zephyr Cloud-to-Device LED Control",
+      "description": "Cloud-to-device command demo on Zephyr RTOS: send a command from the /IOTCONNECT portal and the board switches its LED, demonstrating the C2D command path (parse, act, acknowledge) that any cloud-controlled Zephyr device builds on.",
+      "category": "sample",
+      "status": "beta",
+      "release": "v1.1.0",
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "mcu",
+        "zephyr"
+      ],
+      "stars": 0,
+      "updated": "2026-09-06T18:34:52Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "models": [],
+      "described": true,
+      "hidden": false,
+      "id": "zephyr-cloud-to-device-led-control::atsame54-xpro",
+      "boards": [
+        {
+          "slug": "atsame54-xpro",
+          "vendor": "Microchip",
+          "name": "SAM E54 Xplained Pro Evaluation Kit",
+          "maker": "Microchip",
+          "partNumber": "ATSAME54-XPRO",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ATSAME54-XPRO.png",
+          "imageLocal": "assets/boards/ATSAME54-XPRO.jpg"
+        }
+      ],
+      "board": {
+        "slug": "atsame54-xpro",
+        "vendor": "Microchip",
+        "name": "SAM E54 Xplained Pro Evaluation Kit",
+        "maker": "Microchip",
+        "partNumber": "ATSAME54-XPRO",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ATSAME54-XPRO.png",
+        "imageLocal": "assets/boards/ATSAME54-XPRO.jpg"
+      },
+      "manufacturers": [
+        "Microchip"
+      ],
+      "makers": [
+        "Microchip"
+      ]
+    },
+    {
+      "repo": "iotc-zephyr-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/c2d-led",
+      "displayName": "Zephyr Cloud-to-Device LED Control",
+      "description": "Cloud-to-device command demo on Zephyr RTOS: send a command from the /IOTCONNECT portal and the board switches its LED, demonstrating the C2D command path (parse, act, acknowledge) that any cloud-controlled Zephyr device builds on.",
+      "category": "sample",
+      "status": "beta",
+      "release": "v1.1.0",
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "mcu",
+        "zephyr"
+      ],
+      "stars": 0,
+      "updated": "2026-09-06T18:34:52Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "models": [],
+      "described": true,
+      "hidden": false,
+      "id": "zephyr-cloud-to-device-led-control::frdm-rw612",
+      "boards": [
+        {
+          "slug": "frdm-rw612",
+          "vendor": "NXP",
+          "name": "FRDM Development Board for RW612 Wi-Fi 6 Tri-Radio MCU",
+          "maker": "NXP",
+          "partNumber": "FRDM-RW612",
+          "imageLocal": "assets/boards/FRDM-RW612.jpg"
+        }
+      ],
+      "board": {
+        "slug": "frdm-rw612",
+        "vendor": "NXP",
+        "name": "FRDM Development Board for RW612 Wi-Fi 6 Tri-Radio MCU",
+        "maker": "NXP",
+        "partNumber": "FRDM-RW612",
+        "imageLocal": "assets/boards/FRDM-RW612.jpg"
+      },
+      "manufacturers": [
+        "NXP"
+      ],
+      "makers": [
+        "NXP"
+      ]
+    },
+    {
+      "repo": "iotc-zephyr-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/click-telemetry",
+      "displayName": "Zephyr Click Sensor Telemetry (TF-M Sealed Key)",
+      "description": "mikroBUS Click boards streaming sensor telemetry to /IOTCONNECT from Zephyr RTOS on the FRDM-MCXN947 — hardware-verified on the TrustZone/TF-M build, where the device private key is sealed in Protected Storage and crypto runs in the secure world. Four Click sensors to AWS IoT Core from one portable app.",
+      "category": "sample",
+      "status": "beta",
+      "release": "v1.1.0",
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "clicks",
+        "mcu",
+        "secure-element",
+        "sensors",
+        "zephyr"
+      ],
+      "stars": 0,
+      "updated": "2026-09-06T18:34:52Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "models": [],
+      "described": true,
+      "hidden": false,
+      "id": "zephyr-click-sensor-telemetry-tf-m-sealed-key::frdm-mcxn947",
       "boards": [
         {
           "slug": "frdm-mcxn947",
@@ -13956,24 +14430,78 @@
       "models": [],
       "described": true,
       "hidden": false,
-      "id": "zephyr-click-sensor-telemetry-tf-m-sealed-key",
+      "id": "zephyr-click-sensor-telemetry-tf-m-sealed-key::atsame54-xpro",
       "boards": [
         {
-          "slug": "frdm-mcxn947",
-          "vendor": "NXP",
-          "name": "FRDM Development Board for MCX N94/N54 MCUs",
-          "maker": "NXP",
-          "partNumber": "FRDM-MCXN947",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-MCXN947.png"
+          "slug": "atsame54-xpro",
+          "vendor": "Microchip",
+          "name": "SAM E54 Xplained Pro Evaluation Kit",
+          "maker": "Microchip",
+          "partNumber": "ATSAME54-XPRO",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ATSAME54-XPRO.png",
+          "imageLocal": "assets/boards/ATSAME54-XPRO.jpg"
         }
       ],
       "board": {
-        "slug": "frdm-mcxn947",
+        "slug": "atsame54-xpro",
+        "vendor": "Microchip",
+        "name": "SAM E54 Xplained Pro Evaluation Kit",
+        "maker": "Microchip",
+        "partNumber": "ATSAME54-XPRO",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ATSAME54-XPRO.png",
+        "imageLocal": "assets/boards/ATSAME54-XPRO.jpg"
+      },
+      "manufacturers": [
+        "Microchip"
+      ],
+      "makers": [
+        "Microchip"
+      ]
+    },
+    {
+      "repo": "iotc-zephyr-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/demos/click-telemetry",
+      "displayName": "Zephyr Click Sensor Telemetry (TF-M Sealed Key)",
+      "description": "mikroBUS Click boards streaming sensor telemetry to /IOTCONNECT from Zephyr RTOS on the FRDM-MCXN947 — hardware-verified on the TrustZone/TF-M build, where the device private key is sealed in Protected Storage and crypto runs in the secure world. Four Click sensors to AWS IoT Core from one portable app.",
+      "category": "sample",
+      "status": "beta",
+      "release": "v1.1.0",
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "clicks",
+        "mcu",
+        "secure-element",
+        "sensors",
+        "zephyr"
+      ],
+      "stars": 0,
+      "updated": "2026-09-06T18:34:52Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "models": [],
+      "described": true,
+      "hidden": false,
+      "id": "zephyr-click-sensor-telemetry-tf-m-sealed-key::frdm-rw612",
+      "boards": [
+        {
+          "slug": "frdm-rw612",
+          "vendor": "NXP",
+          "name": "FRDM Development Board for RW612 Wi-Fi 6 Tri-Radio MCU",
+          "maker": "NXP",
+          "partNumber": "FRDM-RW612",
+          "imageLocal": "assets/boards/FRDM-RW612.jpg"
+        }
+      ],
+      "board": {
+        "slug": "frdm-rw612",
         "vendor": "NXP",
-        "name": "FRDM Development Board for MCX N94/N54 MCUs",
+        "name": "FRDM Development Board for RW612 Wi-Fi 6 Tri-Radio MCU",
         "maker": "NXP",
-        "partNumber": "FRDM-MCXN947",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-MCXN947.png"
+        "partNumber": "FRDM-RW612",
+        "imageLocal": "assets/boards/FRDM-RW612.jpg"
       },
       "manufacturers": [
         "NXP"
@@ -14710,7 +15238,8 @@
           "vendor": "NXP",
           "name": "FRDM Development Board for MCX E31B MCUs",
           "maker": "NXP",
-          "partNumber": "FRDM-MCXE31B"
+          "partNumber": "FRDM-MCXE31B",
+          "imageLocal": "assets/boards/FRDM-MCXE31B.jpg"
         }
       ],
       "board": {
@@ -14718,7 +15247,8 @@
         "vendor": "NXP",
         "name": "FRDM Development Board for MCX E31B MCUs",
         "maker": "NXP",
-        "partNumber": "FRDM-MCXE31B"
+        "partNumber": "FRDM-MCXE31B",
+        "imageLocal": "assets/boards/FRDM-MCXE31B.jpg"
       },
       "manufacturers": [
         "NXP"
@@ -14757,7 +15287,8 @@
           "vendor": "NXP",
           "name": "FRDM Development Board for MCX W72 Wireless MCUs",
           "maker": "NXP",
-          "partNumber": "FRDM-MCXW72"
+          "partNumber": "FRDM-MCXW72",
+          "imageLocal": "assets/boards/FRDM-MCXW72.webp"
         }
       ],
       "board": {
@@ -14765,7 +15296,8 @@
         "vendor": "NXP",
         "name": "FRDM Development Board for MCX W72 Wireless MCUs",
         "maker": "NXP",
-        "partNumber": "FRDM-MCXW72"
+        "partNumber": "FRDM-MCXW72",
+        "imageLocal": "assets/boards/FRDM-MCXW72.webp"
       },
       "manufacturers": [
         "NXP"
@@ -15097,6 +15629,194 @@
       ],
       "makers": [
         "NXP"
+      ]
+    },
+    {
+      "repo": "iotc-zephyr-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/tree/main/vendor/nxp/npu-benchmark",
+      "displayName": "Zephyr NPU Benchmark - eIQ Neutron vs CPU",
+      "description": "eIQ Neutron NPU vs CPU inference benchmark on the FRDM-MCXN947 under Zephyr RTOS: runs eIQ TFLM inference on both compute paths and streams the benchmark results to /IOTCONNECT for side-by-side comparison. Requires NXP's eIQ TFLM middleware to build.",
+      "category": "sample",
+      "status": "beta",
+      "release": "v1.1.0",
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "edge-ai",
+        "mcu",
+        "npu",
+        "zephyr"
+      ],
+      "stars": 0,
+      "updated": "2026-09-06T18:34:52Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "models": [
+        {
+          "slug": "eiq-tflm",
+          "name": "NXP eIQ TensorFlow-Lite-Micro model",
+          "task": "on-MCU classification",
+          "framework": "eIQ / TFLite-Micro",
+          "vendor": "NXP",
+          "link": "https://www.nxp.com/eiq"
+        }
+      ],
+      "described": true,
+      "hidden": false,
+      "id": "zephyr-npu-benchmark-eiq-neutron-vs-cpu",
+      "boards": [
+        {
+          "slug": "frdm-mcxn947",
+          "vendor": "NXP",
+          "name": "FRDM Development Board for MCX N94/N54 MCUs",
+          "maker": "NXP",
+          "partNumber": "FRDM-MCXN947",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-MCXN947.png"
+        }
+      ],
+      "board": {
+        "slug": "frdm-mcxn947",
+        "vendor": "NXP",
+        "name": "FRDM Development Board for MCX N94/N54 MCUs",
+        "maker": "NXP",
+        "partNumber": "FRDM-MCXN947",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/FRDM-MCXN947.png"
+      },
+      "manufacturers": [
+        "NXP"
+      ],
+      "makers": [
+        "NXP"
+      ]
+    },
+    {
+      "repo": "iotc-freertos-ek-ra8p1",
+      "url": "https://github.com/avnet-iotconnect/iotc-freertos-ek-ra8p1",
+      "displayName": "Vision AI with Cloud Model Hot-Swap (EK-RA8P1)",
+      "description": "On-device vision AI on the Renesas EK-RA8P1 (1 GHz Cortex-M85 + Ethos-U55 NPU) built on FSP with FreeRTOS — no Linux, no MPU. The kit's OV5640 camera feeds TensorFlow Lite Micro models on the NPU; results stream to /IOTCONNECT as telemetry, annotated snapshots upload on demand, and live WebRTC video reaches the browser through Amazon KVS signaling. Models deploy live from /IOTCONNECT AI Model Management: the device hot-swaps a pushed Vela-compiled model between two inferences — no reflash, no reboot — and persists it in OSPI flash.",
+      "category": "sample",
+      "status": "beta",
+      "release": null,
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "edge-ai",
+        "freertos",
+        "mlops",
+        "npu",
+        "vision",
+        "webrtc"
+      ],
+      "stars": 0,
+      "updated": "2026-09-03T15:17:43Z",
+      "image": null,
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-freertos-ek-ra8p1/main/docs/images/dashboard-live.png"
+      ],
+      "photos": [],
+      "models": [
+        {
+          "slug": "mobilenet",
+          "name": "MobileNet",
+          "task": "image classification",
+          "framework": "TFLite / X-CUBE-AI",
+          "vendor": "Google / STMicroelectronics",
+          "link": "https://keras.io/api/applications/mobilenet/"
+        }
+      ],
+      "described": true,
+      "hidden": false,
+      "id": "vision-ai-with-cloud-model-hot-swap-ek-ra8p1",
+      "boards": [
+        {
+          "slug": "ek-ra8p1",
+          "vendor": "Renesas",
+          "name": "EK-RA8P1 Evaluation Kit for RA8P1 MCU Group",
+          "maker": "Renesas",
+          "partNumber": "EK-RA8P1",
+          "imageLocal": "assets/boards/EK-RA8P1.webp"
+        }
+      ],
+      "board": {
+        "slug": "ek-ra8p1",
+        "vendor": "Renesas",
+        "name": "EK-RA8P1 Evaluation Kit for RA8P1 MCU Group",
+        "maker": "Renesas",
+        "partNumber": "EK-RA8P1",
+        "imageLocal": "assets/boards/EK-RA8P1.webp"
+      },
+      "manufacturers": [
+        "Renesas"
+      ],
+      "makers": [
+        "Renesas"
+      ]
+    },
+    {
+      "repo": "iotc-stm32-n6-w6x-kvs-webrtc",
+      "url": "https://github.com/avnet-iotconnect/iotc-stm32-n6-w6x-kvs-webrtc",
+      "displayName": "STM32N6570-DK — Amazon KVS WebRTC",
+      "description": "Live camera streaming from the STM32N6570-DK to the /IOTCONNECT Video Streaming tab over Amazon Kinesis Video Streams WebRTC, with on-device people detection (YOLOv2 on the STM32N6 Neural-ART NPU) reported as telemetry and drawn on the board's LCD, plus cloud commands for video start/stop, LCD preview and LED control. Firmware variants cover the ST67W611M1 Wi-Fi 6 module (X-NUCLEO-67W61M1) and on-board Ethernet.",
+      "category": "sample",
+      "status": "beta",
+      "release": null,
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "kvs",
+        "npu",
+        "video",
+        "vision",
+        "webrtc",
+        "wifi"
+      ],
+      "stars": 0,
+      "updated": "2026-09-07T14:18:08Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "models": [
+        {
+          "slug": "stm32-modelzoo-od",
+          "name": "STM32 Model Zoo - Object Detection",
+          "task": "object detection",
+          "framework": "X-CUBE-AI / X-LINUX-AI",
+          "vendor": "STMicroelectronics",
+          "link": "https://github.com/STMicroelectronics/stm32ai-modelzoo"
+        }
+      ],
+      "described": true,
+      "hidden": false,
+      "id": "stm32n6570-dk-amazon-kvs-webrtc",
+      "boards": [
+        {
+          "slug": "stm32n6570-dk",
+          "vendor": "STMicroelectronics",
+          "name": "STM32N6 Discovery Kit",
+          "maker": "STMicroelectronics",
+          "partNumber": "STM32N6570-DK",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32N6570-DK.png",
+          "imageLocal": "assets/boards/STM32N6570-DK.jpg"
+        }
+      ],
+      "board": {
+        "slug": "stm32n6570-dk",
+        "vendor": "STMicroelectronics",
+        "name": "STM32N6 Discovery Kit",
+        "maker": "STMicroelectronics",
+        "partNumber": "STM32N6570-DK",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32N6570-DK.png",
+        "imageLocal": "assets/boards/STM32N6570-DK.jpg"
+      },
+      "manufacturers": [
+        "STMicroelectronics"
+      ],
+      "makers": [
+        "STMicroelectronics"
       ]
     }
   ]

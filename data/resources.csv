@@ -214,3 +214,18 @@ MIMXRT1170-EVKB,board,buy,Buy MIMXRT1170-EVKB on Avnet,https://www.avnet.com/sho
 MIMXRT1170-EVKB,board,quickstart,QuickStart Guide,https://github.com/avnet-iotconnect/iotc-zephyr-demos/blob/main/boards/mimxrt1170-evkb/QUICKSTART.md
 MIMXRT1170-EVKB,board,doc,GitHub Repository Root,https://github.com/avnet-iotconnect/iotc-zephyr-demos
 ATSAME54-XPRO,board,doc,GitHub Repository Root,https://github.com/avnet-iotconnect/iotc-zephyr-demos
+FRDM-MCXE31B,board,buy,Buy FRDM-MCXE31B on Newark,https://www.newark.com/nxp/frdm-mcxe31b/eval-brd-32bit-160mhz-arm-cortex/dp/49AM8309
+FRDM-MCXE31B,board,quickstart,Zephyr QuickStart Guide,https://github.com/avnet-iotconnect/iotc-zephyr-demos/blob/main/boards/frdm-mcxe31b/QUICKSTART.md
+FRDM-MCXE31B,board,doc,GitHub Repository Root,https://github.com/avnet-iotconnect/iotc-zephyr-demos
+FRDM-MCXW72,board,quickstart,Zephyr QuickStart Guide,https://github.com/avnet-iotconnect/iotc-zephyr-demos/blob/main/boards/frdm-mcxw72/QUICKSTART.md
+FRDM-MCXW72,board,doc,GitHub Repository Root,https://github.com/avnet-iotconnect/iotc-zephyr-demos
+FRDM-RW612,board,buy,Buy FRDM-RW612 on Avnet,https://www.avnet.com/americas/product/nxp/frdm-rw612/evolve-116209016/
+FRDM-RW612,board,quickstart,Zephyr QuickStart Guide,https://github.com/avnet-iotconnect/iotc-zephyr-demos/blob/main/boards/frdm-rw612/QUICKSTART.md
+FRDM-RW612,board,doc,GitHub Repository Root,https://github.com/avnet-iotconnect/iotc-zephyr-demos
+FRDM-IMX93,board,quickstart,Zephyr QuickStart Guide,https://github.com/avnet-iotconnect/iotc-zephyr-demos/blob/main/boards/frdm-imx93/QUICKSTART.md
+EK-RA8P1,board,buy,Buy EK-RA8P1 on Avnet,https://www.avnet.com/americas/product/renesas-electronics/rtk7eka8p1s01001be/evolve-120248010/
+EK-RA8P1,board,quickstart,QuickStart Guide,https://github.com/avnet-iotconnect/iotc-freertos-ek-ra8p1/blob/main/docs/QUICKSTART.md
+EK-RA8P1,board,developer,Developer Guide,https://github.com/avnet-iotconnect/iotc-freertos-ek-ra8p1/blob/main/docs/DEVELOPER-GUIDE.md
+EK-RA8P1,board,demo,Demo Guide: Vision AI,https://github.com/avnet-iotconnect/iotc-freertos-ek-ra8p1/blob/main/docs/DEMO-GUIDE.md
+EK-RA8P1,board,doc,GitHub Repository Root,https://github.com/avnet-iotconnect/iotc-freertos-ek-ra8p1
+STM32N6570-DK,board,demo,Demo: Amazon KVS WebRTC Streaming,https://github.com/avnet-iotconnect/iotc-stm32-n6-w6x-kvs-webrtc

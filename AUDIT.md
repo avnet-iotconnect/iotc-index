@@ -1,13 +1,12 @@
 # /IOTCONNECT Index — Audit Report
 
-_Generated 2026-09-07T13:16:31Z_  ·  213 listings · 94 boards (85 in use) · 17 manufacturers · 215 resources
+_Generated 2026-09-08T17:05:31Z_  ·  224 listings · 96 boards (87 in use) · 17 manufacturers · 230 resources
 
 ## ⚠ Boards referenced but missing from the Boards sheet
 - **uno** — referenced by: Vision AI Demonstrator
 
 ## Boards with no image (Azure or local)
-- NXP · FRDM Development Board for MCX E31B MCUs (FRDM-MCXE31B)
-- NXP · FRDM Development Board for MCX W72 Wireless MCUs (FRDM-MCXW72)
+- none.
 
 ## Boards not used by any listing (orphans)
 - Intel · MXE-230 Series Fanless Embedded Computer (MXE-230)
@@ -22,9 +21,7 @@ _Generated 2026-09-07T13:16:31Z_  ·  213 listings · 94 boards (85 in use) · 1
 - NXP · NXP MaaXBoard Mini (AES-MC-SBC-IMX8MINI-G)
 
 ## Org repos with no listing (candidates to add)
-- iotc-freertos-ek-ra8p1 — IOTCONNECT EK-RA8P1 Vision AI Demo: Ethos-U55 inference, cloud telemetry, snapshot upload, and over-the-air AI model hot-swap on Renesas FSP/FreeRTOS
 - iotc-mchp-dspic33 — no description
-- iotc-stm32-n6-w6x-kvs-webrtc — Connect STM32N6570-DK with ST67W611M Wi-Fi module — Amazon Kinesis Video Streams WebRTC camera streaming, controlled via IOTCONNECT
 
 ## Listings missing description or topics
 - none.
