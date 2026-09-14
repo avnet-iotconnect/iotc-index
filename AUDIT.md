@@ -1,6 +1,6 @@
 # /IOTCONNECT Index — Audit Report
 
-_Generated 2026-09-14T13:37:30Z_  ·  224 listings · 96 boards (87 in use) · 17 manufacturers · 230 resources
+_Generated 2026-09-14T15:46:24Z_  ·  226 listings · 96 boards (87 in use) · 17 manufacturers · 230 resources
 
 ## ⚠ Boards referenced but missing from the Boards sheet
 - **uno** — referenced by: Vision AI Demonstrator
