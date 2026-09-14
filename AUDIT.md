@@ -1,6 +1,6 @@
 # /IOTCONNECT Index — Audit Report
 
-_Generated 2026-09-08T17:05:31Z_  ·  224 listings · 96 boards (87 in use) · 17 manufacturers · 230 resources
+_Generated 2026-09-14T13:37:30Z_  ·  224 listings · 96 boards (87 in use) · 17 manufacturers · 230 resources
 
 ## ⚠ Boards referenced but missing from the Boards sheet
 - **uno** — referenced by: Vision AI Demonstrator
@@ -21,7 +21,8 @@ _Generated 2026-09-08T17:05:31Z_  ·  224 listings · 96 boards (87 in use) · 1
 - NXP · NXP MaaXBoard Mini (AES-MC-SBC-IMX8MINI-G)
 
 ## Org repos with no listing (candidates to add)
-- iotc-mchp-dspic33 — no description
+- iotc-mchp-dspic33-curosity-rnwf11 — Reference project to connect dsPIC33 Curiosity board to /IOTCONNECT using RNWF11 Wi-Fi module. Uses the General Purpose DIM's such as dsPIC33AK.
+- iotc-mchp-dspic33ck-mcsk-rnwf11 — Reference project to connect Motor Control Starter Kit(MCSK) to /IOTCONNECT using RNWF11 Wi-Fi module to monitor various data parameters and control the motor.
 
 ## Listings missing description or topics
 - none.
