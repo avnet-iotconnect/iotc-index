@@ -1,6 +1,6 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-09-28T14:55:44Z",
+  "generated": "2026-09-30T03:02:10Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
@@ -67,8 +67,8 @@
       "slug": "microchip",
       "logo": "assets/brand/microchip-logo.png",
       "info": "https://www.avnet.com/iotconnect/microchip",
-      "boards": 10,
-      "listings": 30
+      "boards": 12,
+      "listings": 32
     },
     {
       "name": "NVIDIA",
@@ -124,7 +124,7 @@
       "logo": "assets/brand/st-logo.png",
       "info": "https://www.avnet.com/iotconnect/st",
       "boards": 16,
-      "listings": 57
+      "listings": 58
     },
     {
       "name": "Semtech",
@@ -361,11 +361,11 @@
       },
       {
         "tag": "wifi",
-        "count": 23
+        "count": 25
       },
       {
         "tag": "mcu",
-        "count": 22
+        "count": 24
       },
       {
         "tag": "greengrass",
@@ -424,6 +424,10 @@
         "count": 8
       },
       {
+        "tag": "at-commands",
+        "count": 7
+      },
+      {
         "tag": "lora",
         "count": 7
       },
@@ -450,10 +454,6 @@
       {
         "tag": "predictive-maintenance",
         "count": 6
-      },
-      {
-        "tag": "at-commands",
-        "count": 5
       },
       {
         "tag": "cellular",
@@ -601,6 +601,10 @@
       },
       {
         "tag": "meta-layer",
+        "count": 1
+      },
+      {
+        "tag": "motor-control",
         "count": 1
       },
       {
@@ -1331,6 +1335,81 @@
         ],
         "integrator": "Renesas",
         "maker": "Renesas",
+        "listings": 1
+      },
+      {
+        "slug": "ev74h48a",
+        "vendor": "Microchip",
+        "name": "dsPIC33 Curiosity Platform Development Board",
+        "partNumber": "EV74H48A",
+        "image": null,
+        "imageLocal": "assets/boards/EV74H48A.png",
+        "link": "https://www.microchip.com/en-us/development-tool/ev74h48a",
+        "buy": "https://www.newark.com/microchip/ev74h48a/development-board-32bit-dspic33/dp/26AM8535",
+        "qualifications": [],
+        "tags": [
+          "mcu",
+          "wifi"
+        ],
+        "resources": [
+          {
+            "kind": "buy",
+            "title": "Buy EV74H48A on Newark",
+            "url": "https://www.newark.com/microchip/ev74h48a/development-board-32bit-dspic33/dp/26AM8535"
+          },
+          {
+            "kind": "quickstart",
+            "title": "QuickStart Guide",
+            "url": "https://github.com/avnet-iotconnect/iotc-mchp-dspic33-curosity-rnwf11/blob/main/README.md"
+          },
+          {
+            "kind": "developer",
+            "title": "Developer Guide",
+            "url": "https://github.com/avnet-iotconnect/iotc-mchp-dspic33-curosity-rnwf11/blob/main/developer.md"
+          },
+          {
+            "kind": "doc",
+            "title": "GitHub Repository Root",
+            "url": "https://github.com/avnet-iotconnect/iotc-mchp-dspic33-curosity-rnwf11"
+          }
+        ],
+        "integrator": "Microchip",
+        "maker": "Microchip",
+        "listings": 1
+      },
+      {
+        "slug": "ev12f76a",
+        "vendor": "Microchip",
+        "name": "dsPIC33CK Motor Control Starter Kit (MCSK)",
+        "partNumber": "EV12F76A",
+        "image": null,
+        "imageLocal": "assets/boards/EV12F76A.png",
+        "link": "https://www.microchip.com/en-us/development-tool/ev12f76a",
+        "buy": "https://www.newark.com/microchip/ev12f76a/starter-kit-3-ph-bldc-pmsm-motor/dp/85AK4564",
+        "qualifications": [],
+        "tags": [
+          "mcu",
+          "motor-control"
+        ],
+        "resources": [
+          {
+            "kind": "buy",
+            "title": "Buy EV12F76A on Newark",
+            "url": "https://www.newark.com/microchip/ev12f76a/starter-kit-3-ph-bldc-pmsm-motor/dp/85AK4564"
+          },
+          {
+            "kind": "quickstart",
+            "title": "QuickStart Guide",
+            "url": "https://github.com/avnet-iotconnect/iotc-mchp-dspic33ck-mcsk-rnwf11/blob/main/README.md"
+          },
+          {
+            "kind": "doc",
+            "title": "GitHub Repository Root",
+            "url": "https://github.com/avnet-iotconnect/iotc-mchp-dspic33ck-mcsk-rnwf11"
+          }
+        ],
+        "integrator": "Microchip",
+        "maker": "Microchip",
         "listings": 1
       },
       {
@@ -3293,7 +3372,7 @@
         ],
         "integrator": "STMicroelectronics",
         "maker": "STMicroelectronics",
-        "listings": 9
+        "listings": 10
       },
       {
         "slug": "stm32mp257f-ev1",
@@ -3757,14 +3836,14 @@
     ]
   },
   "counts": {
-    "total": 226,
+    "total": 228,
     "manufacturers": 17,
-    "boards": 96,
+    "boards": 98,
     "sdks": 28,
     "tools": 6,
-    "examples": 192,
+    "examples": 194,
     "models": 25,
-    "guides": 86,
+    "guides": 89,
     "demos": 14,
     "partners": 9
   },
@@ -6774,7 +6853,7 @@
         "lora"
       ],
       "stars": 0,
-      "updated": "2026-09-26T15:25:26Z",
+      "updated": "2026-09-29T22:22:22Z",
       "image": null,
       "dashboards": [
         "https://saleshosted.z13.web.core.windows.net/images/events/2024/ReInvent/IMG_2727.JPEG"
@@ -7455,23 +7534,29 @@
       "id": "vision-ai-demonstrator",
       "boards": [
         {
-          "slug": "x-uno",
-          "vendor": "Other",
-          "name": "uno",
-          "maker": "Other"
+          "slug": "stm32mp257f-dk",
+          "vendor": "STMicroelectronics",
+          "name": "STM32MP2 Discovery Kit",
+          "maker": "STMicroelectronics",
+          "partNumber": "STM32MP257F-DK",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-DK.png",
+          "imageLocal": "assets/boards/STM32MP257F-DK.jpg"
         }
       ],
       "board": {
-        "slug": "x-uno",
-        "vendor": "Other",
-        "name": "uno",
-        "maker": "Other"
+        "slug": "stm32mp257f-dk",
+        "vendor": "STMicroelectronics",
+        "name": "STM32MP2 Discovery Kit",
+        "maker": "STMicroelectronics",
+        "partNumber": "STM32MP257F-DK",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/STM32MP257F-DK.png",
+        "imageLocal": "assets/boards/STM32MP257F-DK.jpg"
       },
       "manufacturers": [
-        "Other"
+        "STMicroelectronics"
       ],
       "makers": [
-        "Other"
+        "STMicroelectronics"
       ]
     },
     {
@@ -7659,7 +7744,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/nxp-imx93andmcxn.JPG",
       "dashboards": [
         "https://saleshosted.z13.web.core.windows.net/dashboard/r3/nxp-frdm93-workersafty.PNG"
@@ -9043,7 +9128,7 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-scalable-ai-placard.JPG",
       "dashboards": [
         "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/microchip-polarfire-soc-dk/images/mchp-polarfire-complex-dashboard.jpg"
@@ -9108,7 +9193,7 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-scalable-ai-placard.JPG",
       "dashboards": [],
       "photos": [
@@ -9172,7 +9257,7 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-scalable-ai-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -9233,7 +9318,7 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": null,
       "dashboards": [
         "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/microchip-polarfire-soc-vk/images/mchp-polarfire-track1-dashboard.jpg"
@@ -9294,7 +9379,7 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": null,
       "dashboards": [],
       "photos": [
@@ -9356,7 +9441,7 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": null,
       "dashboards": [],
       "photos": [
@@ -9419,7 +9504,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-kws-placard.JPG",
       "dashboards": [
         "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/microchip-sama7d65-curiosity/media/kws-blackjack-iotc-live_tabular.jpg"
@@ -9479,7 +9564,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-kws-placard.JPG",
       "dashboards": [],
       "photos": [
@@ -9542,7 +9627,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-kws-placard.JPG",
       "dashboards": [],
       "photos": [
@@ -9603,7 +9688,7 @@
         "sensors"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-kws-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -9652,7 +9737,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9701,7 +9786,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": null,
       "dashboards": [
         "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/nxp-frdm-imx-93/media/dashboard_reduced.png"
@@ -9767,7 +9852,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": null,
       "dashboards": [],
       "photos": [
@@ -9828,7 +9913,7 @@
         "file-upload"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9879,7 +9964,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9931,7 +10016,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9983,7 +10068,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ren-rzv2h-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -10040,7 +10125,7 @@
         "sensors"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ren-rzv2h-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -10089,7 +10174,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": null,
       "dashboards": [
         "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/stm32mp135f-dk/media/STMP135-objectDet-screenshot.png"
@@ -10151,7 +10236,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10203,7 +10288,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": null,
       "dashboards": [],
       "photos": [
@@ -10255,7 +10340,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10305,7 +10390,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10356,7 +10441,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10416,7 +10501,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10468,7 +10553,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10518,7 +10603,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10568,7 +10653,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10619,7 +10704,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10671,7 +10756,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10721,7 +10806,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10771,7 +10856,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10822,7 +10907,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10874,7 +10959,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10925,7 +11010,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": null,
       "dashboards": [],
       "photos": [
@@ -10991,7 +11076,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -11045,7 +11130,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -11097,7 +11182,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": null,
       "dashboards": [
         "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/tria-vision-ai-kit-6490/media/vision-ai-dash.png"
@@ -11509,7 +11594,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/arduino-unoq-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -11559,7 +11644,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-scalable-ai-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -11609,7 +11694,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -11657,7 +11742,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": null,
       "dashboards": [],
       "photos": [
@@ -11711,7 +11796,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": null,
       "dashboards": [],
       "photos": [
@@ -11766,7 +11851,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ren-rzg3e-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -14562,7 +14647,7 @@
         "npu"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -15397,7 +15482,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": null,
       "dashboards": [],
       "photos": [
@@ -15462,7 +15547,7 @@
         "vlm"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": null,
       "dashboards": [],
       "photos": [
@@ -15527,7 +15612,7 @@
         "vlm"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": null,
       "dashboards": [
         "assets/listings/deepx-clip-dash.png"
@@ -15842,7 +15927,7 @@
         "vlm"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -15896,7 +15981,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-09-22T01:00:01Z",
+      "updated": "2026-09-29T13:26:55Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -15929,6 +16014,109 @@
       ],
       "makers": [
         "Raspberry Pi"
+      ]
+    },
+    {
+      "repo": "iotc-mchp-dspic33ck-mcsk-rnwf11",
+      "url": "https://github.com/avnet-iotconnect/iotc-mchp-dspic33ck-mcsk-rnwf11",
+      "displayName": "dsPIC33CK MCSK — BLDC Motor Telemetry & Control",
+      "description": "Baremetal C quickstart connecting the dsPIC33CK256MP508 on the Motor Control Starter Kit to /IOTCONNECT through the Microchip RNWF11 UART-to-cloud Wi-Fi module — no RTOS and no MQTT/TLS stack on the DSC: the RNWF11 owns the secured connection and the dsPIC33 drives it with AT commands over UART. Runs Microchip's AN957 BLDC motor-control reference in real time while publishing run state, speed, current and duty-cycle telemetry, with cloud commands to control the motor.",
+      "category": "sample",
+      "status": "beta",
+      "release": null,
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "at-commands",
+        "mcu",
+        "motor-control",
+        "wifi"
+      ],
+      "stars": 0,
+      "updated": "2026-09-29T16:52:05Z",
+      "image": null,
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-mchp-dspic33ck-mcsk-rnwf11/main/media/dashboard-example.png"
+      ],
+      "photos": [],
+      "models": [],
+      "described": true,
+      "hidden": false,
+      "id": "dspic33ck-mcsk-bldc-motor-telemetry-control",
+      "boards": [
+        {
+          "slug": "ev12f76a",
+          "vendor": "Microchip",
+          "name": "dsPIC33CK Motor Control Starter Kit (MCSK)",
+          "maker": "Microchip",
+          "partNumber": "EV12F76A",
+          "imageLocal": "assets/boards/EV12F76A.png"
+        }
+      ],
+      "board": {
+        "slug": "ev12f76a",
+        "vendor": "Microchip",
+        "name": "dsPIC33CK Motor Control Starter Kit (MCSK)",
+        "maker": "Microchip",
+        "partNumber": "EV12F76A",
+        "imageLocal": "assets/boards/EV12F76A.png"
+      },
+      "manufacturers": [
+        "Microchip"
+      ],
+      "makers": [
+        "Microchip"
+      ]
+    },
+    {
+      "repo": "iotc-mchp-dspic33-curosity-rnwf11",
+      "url": "https://github.com/avnet-iotconnect/iotc-mchp-dspic33-curosity-rnwf11",
+      "displayName": "dsPIC33A Curiosity — RNWF11 Cloud Quickstart",
+      "description": "Baremetal C quickstart connecting the dsPIC33AK512MPS512 on the dsPIC33 Curiosity Platform Development Board (General Purpose DIM) to /IOTCONNECT through the Microchip RNWF11 UART-to-cloud Wi-Fi module. No RTOS and no MQTT/TLS stack on the DSC — the RNWF11 holds the device certificate and owns the Wi-Fi/MQTT/TLS session while the dsPIC33 drives it with AT commands, publishing telemetry every 10 seconds.",
+      "category": "sample",
+      "status": "beta",
+      "release": null,
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "at-commands",
+        "mcu",
+        "wifi"
+      ],
+      "stars": 0,
+      "updated": "2026-09-10T20:22:10Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "models": [],
+      "described": true,
+      "hidden": false,
+      "id": "dspic33a-curiosity-rnwf11-cloud-quickstart",
+      "boards": [
+        {
+          "slug": "ev74h48a",
+          "vendor": "Microchip",
+          "name": "dsPIC33 Curiosity Platform Development Board",
+          "maker": "Microchip",
+          "partNumber": "EV74H48A",
+          "imageLocal": "assets/boards/EV74H48A.png"
+        }
+      ],
+      "board": {
+        "slug": "ev74h48a",
+        "vendor": "Microchip",
+        "name": "dsPIC33 Curiosity Platform Development Board",
+        "maker": "Microchip",
+        "partNumber": "EV74H48A",
+        "imageLocal": "assets/boards/EV74H48A.png"
+      },
+      "manufacturers": [
+        "Microchip"
+      ],
+      "makers": [
+        "Microchip"
       ]
     }
   ]

@@ -229,3 +229,10 @@ EK-RA8P1,board,developer,Developer Guide,https://github.com/avnet-iotconnect/iot
 EK-RA8P1,board,demo,Demo Guide: Vision AI,https://github.com/avnet-iotconnect/iotc-freertos-ek-ra8p1/blob/main/docs/DEMO-GUIDE.md
 EK-RA8P1,board,doc,GitHub Repository Root,https://github.com/avnet-iotconnect/iotc-freertos-ek-ra8p1
 STM32N6570-DK,board,demo,Demo: Amazon KVS WebRTC Streaming,https://github.com/avnet-iotconnect/iotc-stm32-n6-w6x-kvs-webrtc
+EV12F76A,board,buy,Buy EV12F76A on Newark,https://www.newark.com/microchip/ev12f76a/starter-kit-3-ph-bldc-pmsm-motor/dp/85AK4564
+EV12F76A,board,quickstart,QuickStart Guide,https://github.com/avnet-iotconnect/iotc-mchp-dspic33ck-mcsk-rnwf11/blob/main/README.md
+EV12F76A,board,doc,GitHub Repository Root,https://github.com/avnet-iotconnect/iotc-mchp-dspic33ck-mcsk-rnwf11
+EV74H48A,board,buy,Buy EV74H48A on Newark,https://www.newark.com/microchip/ev74h48a/development-board-32bit-dspic33/dp/26AM8535
+EV74H48A,board,quickstart,QuickStart Guide,https://github.com/avnet-iotconnect/iotc-mchp-dspic33-curosity-rnwf11/blob/main/README.md
+EV74H48A,board,developer,Developer Guide,https://github.com/avnet-iotconnect/iotc-mchp-dspic33-curosity-rnwf11/blob/main/developer.md
+EV74H48A,board,doc,GitHub Repository Root,https://github.com/avnet-iotconnect/iotc-mchp-dspic33-curosity-rnwf11

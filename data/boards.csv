@@ -95,3 +95,5 @@ NXP,FRDM Development Board for MCX E31B MCUs,FRDM-MCXE31B,,FRDM-MCXE31B.jpg,http
 NXP,FRDM Development Board for MCX W72 Wireless MCUs,FRDM-MCXW72,,FRDM-MCXW72.webp,https://www.nxp.com/design/design-center/development-boards-and-designs/FRDM-MCXW72,no,no,"mcu,ble,zephyr",yes,NXP
 NXP,FRDM Development Board for RW612 Wi-Fi 6 Tri-Radio MCU,FRDM-RW612,,FRDM-RW612.jpg,https://www.nxp.com/design/design-center/development-boards-and-designs/FRDM-RW612,no,no,"mcu,wifi,ble,zephyr",yes,NXP
 Renesas,EK-RA8P1 Evaluation Kit for RA8P1 MCU Group,EK-RA8P1,,EK-RA8P1.webp,https://www.renesas.com/en/design-resources/boards-kits/ek-ra8p1,no,no,"mcu,ai,vision,npu",yes,Renesas
+Microchip,dsPIC33CK Motor Control Starter Kit (MCSK),EV12F76A,,EV12F76A.png,https://www.microchip.com/en-us/development-tool/ev12f76a,no,no,"mcu,motor-control",yes,Microchip
+Microchip,dsPIC33 Curiosity Platform Development Board,EV74H48A,,EV74H48A.png,https://www.microchip.com/en-us/development-tool/ev74h48a,no,no,"mcu,wifi",yes,Microchip
