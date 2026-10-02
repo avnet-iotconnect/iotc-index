@@ -236,3 +236,5 @@ EV74H48A,board,buy,Buy EV74H48A on Newark,https://www.newark.com/microchip/ev74h
 EV74H48A,board,quickstart,QuickStart Guide,https://github.com/avnet-iotconnect/iotc-mchp-dspic33-curosity-rnwf11/blob/main/README.md
 EV74H48A,board,developer,Developer Guide,https://github.com/avnet-iotconnect/iotc-mchp-dspic33-curosity-rnwf11/blob/main/developer.md
 EV74H48A,board,doc,GitHub Repository Root,https://github.com/avnet-iotconnect/iotc-mchp-dspic33-curosity-rnwf11
+INTEL-NUC,board,quickstart,QuickStart Guide,https://github.com/avnet-iotconnect/iotc-nuc-vlm-demo/blob/main/README.md
+INTEL-NUC,board,doc,GitHub Repository Root,https://github.com/avnet-iotconnect/iotc-nuc-vlm-demo

@@ -1,6 +1,6 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-09-30T03:02:10Z",
+  "generated": "2026-10-02T13:38:29Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
@@ -59,8 +59,8 @@
       "slug": "intel",
       "logo": "assets/brand/intel-logo.svg",
       "info": null,
-      "boards": 4,
-      "listings": 2
+      "boards": 5,
+      "listings": 3
     },
     {
       "name": "Microchip",
@@ -1893,6 +1893,38 @@
         "integrator": "NXP",
         "maker": "NXP",
         "listings": 2
+      },
+      {
+        "slug": "intel-nuc",
+        "vendor": "Intel",
+        "name": "Intel NUC Mini PC (Core Ultra)",
+        "partNumber": "INTEL-NUC",
+        "image": null,
+        "imageLocal": "assets/boards/INTEL-NUC.jpg",
+        "link": "https://www.msi.com/Business-Productivity-PC/Cubi-NUC-AI-Plus-3MX",
+        "buy": null,
+        "qualifications": [],
+        "tags": [
+          "ai",
+          "vision",
+          "npu",
+          "edge"
+        ],
+        "resources": [
+          {
+            "kind": "quickstart",
+            "title": "QuickStart Guide",
+            "url": "https://github.com/avnet-iotconnect/iotc-nuc-vlm-demo/blob/main/README.md"
+          },
+          {
+            "kind": "doc",
+            "title": "GitHub Repository Root",
+            "url": "https://github.com/avnet-iotconnect/iotc-nuc-vlm-demo"
+          }
+        ],
+        "integrator": "Intel",
+        "maker": "Intel",
+        "listings": 1
       },
       {
         "slug": "jetson-orin",
@@ -3838,12 +3870,12 @@
   "counts": {
     "total": 228,
     "manufacturers": 17,
-    "boards": 98,
+    "boards": 99,
     "sdks": 28,
     "tools": 6,
     "examples": 194,
     "models": 25,
-    "guides": 89,
+    "guides": 90,
     "demos": 14,
     "partners": 9
   },
@@ -6853,7 +6885,7 @@
         "lora"
       ],
       "stars": 0,
-      "updated": "2026-09-29T22:22:22Z",
+      "updated": "2026-10-01T22:25:19Z",
       "image": null,
       "dashboards": [
         "https://saleshosted.z13.web.core.windows.net/images/events/2024/ReInvent/IMG_2727.JPEG"
@@ -7744,7 +7776,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/nxp-imx93andmcxn.JPG",
       "dashboards": [
         "https://saleshosted.z13.web.core.windows.net/dashboard/r3/nxp-frdm93-workersafty.PNG"
@@ -9128,7 +9160,7 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-scalable-ai-placard.JPG",
       "dashboards": [
         "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/microchip-polarfire-soc-dk/images/mchp-polarfire-complex-dashboard.jpg"
@@ -9193,7 +9225,7 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-scalable-ai-placard.JPG",
       "dashboards": [],
       "photos": [
@@ -9257,7 +9289,7 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-scalable-ai-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -9318,7 +9350,7 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": null,
       "dashboards": [
         "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/microchip-polarfire-soc-vk/images/mchp-polarfire-track1-dashboard.jpg"
@@ -9379,7 +9411,7 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": null,
       "dashboards": [],
       "photos": [
@@ -9441,7 +9473,7 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": null,
       "dashboards": [],
       "photos": [
@@ -9504,7 +9536,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-kws-placard.JPG",
       "dashboards": [
         "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/microchip-sama7d65-curiosity/media/kws-blackjack-iotc-live_tabular.jpg"
@@ -9564,7 +9596,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-kws-placard.JPG",
       "dashboards": [],
       "photos": [
@@ -9627,7 +9659,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-kws-placard.JPG",
       "dashboards": [],
       "photos": [
@@ -9688,7 +9720,7 @@
         "sensors"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-kws-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -9737,7 +9769,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9786,7 +9818,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": null,
       "dashboards": [
         "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/nxp-frdm-imx-93/media/dashboard_reduced.png"
@@ -9852,7 +9884,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": null,
       "dashboards": [],
       "photos": [
@@ -9913,7 +9945,7 @@
         "file-upload"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9964,7 +9996,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10016,7 +10048,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10068,7 +10100,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ren-rzv2h-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -10125,7 +10157,7 @@
         "sensors"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ren-rzv2h-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -10174,7 +10206,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": null,
       "dashboards": [
         "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/stm32mp135f-dk/media/STMP135-objectDet-screenshot.png"
@@ -10236,7 +10268,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10288,7 +10320,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": null,
       "dashboards": [],
       "photos": [
@@ -10340,7 +10372,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10390,7 +10422,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10441,7 +10473,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10501,7 +10533,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10553,7 +10585,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10603,7 +10635,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10653,7 +10685,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10704,7 +10736,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10756,7 +10788,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10806,7 +10838,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10856,7 +10888,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10907,7 +10939,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10959,7 +10991,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -11010,7 +11042,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": null,
       "dashboards": [],
       "photos": [
@@ -11076,7 +11108,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -11130,7 +11162,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -11182,7 +11214,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": null,
       "dashboards": [
         "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/tria-vision-ai-kit-6490/media/vision-ai-dash.png"
@@ -11594,7 +11626,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/arduino-unoq-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -11644,7 +11676,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-scalable-ai-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -11694,7 +11726,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -11742,7 +11774,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": null,
       "dashboards": [],
       "photos": [
@@ -11796,7 +11828,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": null,
       "dashboards": [],
       "photos": [
@@ -11851,7 +11883,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ren-rzg3e-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -13658,7 +13690,7 @@
       "repo": "iotc-nuc-vlm-demo",
       "url": "https://github.com/avnet-iotconnect/iotc-nuc-vlm-demo",
       "displayName": "Construction Site Safety VLM (Intel NUC)",
-      "description": "Physical-AI edge demo on an Intel NUC (Core Ultra) running two vision pipelines at once: open-vocabulary construction object detection (YOLO-World) on the NPU for PPE-compliance and machine danger-zone safety alerts, plus a vision-language model (Qwen2-VL/2.5-VL, INT4) on the Arc iGPU for scene hazard checks and ad-hoc Q&A. Per-class counts, safety flags, VLM latency and live CPU/iGPU/NPU/memory/temperature metrics stream to /IOTCONNECT; the VLM is hot-swappable from the cloud.",
+      "description": "Physical-AI edge demo on an Intel NUC (Core Ultra) running two vision pipelines at once: open-vocabulary construction object detection (YOLO-World) on the NPU for PPE-compliance and machine danger-zone safety alerts, plus a vision-language model (Qwen2-VL/2.5-VL, INT4) on the Arc iGPU for scene hazard checks and ad-hoc Q&A. Per-class counts, safety flags, VLM latency and live CPU/iGPU/NPU/memory/temperature metrics stream to /IOTCONNECT; the VLM is hot-swappable from the cloud. Built and validated on MSI and ASRock Panther Lake mini PCs (Intel Core Ultra Series 3); applicable to any Intel NUC-class Core Ultra device, with Advantech and Tria module support planned.",
       "category": "sample",
       "status": "beta",
       "release": null,
@@ -13699,10 +13731,30 @@
       "described": true,
       "hidden": false,
       "id": "construction-site-safety-vlm-intel-nuc",
-      "boards": [],
-      "board": null,
-      "manufacturers": [],
-      "makers": []
+      "boards": [
+        {
+          "slug": "intel-nuc",
+          "vendor": "Intel",
+          "name": "Intel NUC Mini PC (Core Ultra)",
+          "maker": "Intel",
+          "partNumber": "INTEL-NUC",
+          "imageLocal": "assets/boards/INTEL-NUC.jpg"
+        }
+      ],
+      "board": {
+        "slug": "intel-nuc",
+        "vendor": "Intel",
+        "name": "Intel NUC Mini PC (Core Ultra)",
+        "maker": "Intel",
+        "partNumber": "INTEL-NUC",
+        "imageLocal": "assets/boards/INTEL-NUC.jpg"
+      },
+      "manufacturers": [
+        "Intel"
+      ],
+      "makers": [
+        "Intel"
+      ]
     },
     {
       "repo": "iotc-zephyr-sdk",
@@ -13722,7 +13774,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-08-31T19:57:25Z",
+      "updated": "2026-10-01T16:22:27Z",
       "image": "assets/tech/zephyr.svg",
       "dashboards": [],
       "photos": [],
@@ -13742,7 +13794,7 @@
       "description": "Zephyr RTOS quickstart for /IOTCONNECT: the device generates its own EC P-256 key pair on-device and self-provisions via the REST discovery API, then connects — no key ever leaves the board. On the FRDM-MCXN947 TF-M build the private key is sealed in Protected Storage; on the FRDM-IMX93 the identity persists to on-SOM eMMC across power cycles.",
       "category": "sample",
       "status": "beta",
-      "release": "v1.1.0",
+      "release": "v1.1.1",
       "languages": [
         "C"
       ],
@@ -13752,7 +13804,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-09-09T03:28:19Z",
+      "updated": "2026-10-01T18:22:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -13792,7 +13844,7 @@
       "description": "Zephyr RTOS quickstart for /IOTCONNECT: the device generates its own EC P-256 key pair on-device and self-provisions via the REST discovery API, then connects — no key ever leaves the board. On the FRDM-MCXN947 TF-M build the private key is sealed in Protected Storage; on the FRDM-IMX93 the identity persists to on-SOM eMMC across power cycles.",
       "category": "sample",
       "status": "beta",
-      "release": "v1.1.0",
+      "release": "v1.1.1",
       "languages": [
         "C"
       ],
@@ -13802,7 +13854,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-09-09T03:28:19Z",
+      "updated": "2026-10-01T18:22:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -13844,7 +13896,7 @@
       "description": "Zephyr RTOS quickstart for /IOTCONNECT: the device generates its own EC P-256 key pair on-device and self-provisions via the REST discovery API, then connects — no key ever leaves the board. On the FRDM-MCXN947 TF-M build the private key is sealed in Protected Storage; on the FRDM-IMX93 the identity persists to on-SOM eMMC across power cycles.",
       "category": "sample",
       "status": "beta",
-      "release": "v1.1.0",
+      "release": "v1.1.1",
       "languages": [
         "C"
       ],
@@ -13854,7 +13906,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-09-09T03:28:19Z",
+      "updated": "2026-10-01T18:22:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -13894,7 +13946,7 @@
       "description": "Zephyr RTOS quickstart for /IOTCONNECT: the device generates its own EC P-256 key pair on-device and self-provisions via the REST discovery API, then connects — no key ever leaves the board. On the FRDM-MCXN947 TF-M build the private key is sealed in Protected Storage; on the FRDM-IMX93 the identity persists to on-SOM eMMC across power cycles.",
       "category": "sample",
       "status": "beta",
-      "release": "v1.1.0",
+      "release": "v1.1.1",
       "languages": [
         "C"
       ],
@@ -13904,7 +13956,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-09-09T03:28:19Z",
+      "updated": "2026-10-01T18:22:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -13946,7 +13998,7 @@
       "description": "Zephyr RTOS quickstart for /IOTCONNECT: the device generates its own EC P-256 key pair on-device and self-provisions via the REST discovery API, then connects — no key ever leaves the board. On the FRDM-MCXN947 TF-M build the private key is sealed in Protected Storage; on the FRDM-IMX93 the identity persists to on-SOM eMMC across power cycles.",
       "category": "sample",
       "status": "beta",
-      "release": "v1.1.0",
+      "release": "v1.1.1",
       "languages": [
         "C"
       ],
@@ -13956,7 +14008,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-09-09T03:28:19Z",
+      "updated": "2026-10-01T18:22:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -13996,7 +14048,7 @@
       "description": "Zephyr RTOS telemetry demo for /IOTCONNECT: one portable application that reports sensor readings and live device vitals (uptime, heap, network) to the cloud, running unchanged across NXP boards via per-board Kconfig + devicetree overlays — hardware-verified on MCXN947, i.MX93 (Cortex-A55) and i.MX RT1170.",
       "category": "sample",
       "status": "beta",
-      "release": "v1.1.0",
+      "release": "v1.1.1",
       "languages": [
         "C"
       ],
@@ -14006,7 +14058,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-09-09T03:28:19Z",
+      "updated": "2026-10-01T18:22:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -14046,7 +14098,7 @@
       "description": "Zephyr RTOS telemetry demo for /IOTCONNECT: one portable application that reports sensor readings and live device vitals (uptime, heap, network) to the cloud, running unchanged across NXP boards via per-board Kconfig + devicetree overlays — hardware-verified on MCXN947, i.MX93 (Cortex-A55) and i.MX RT1170.",
       "category": "sample",
       "status": "beta",
-      "release": "v1.1.0",
+      "release": "v1.1.1",
       "languages": [
         "C"
       ],
@@ -14056,7 +14108,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-09-09T03:28:19Z",
+      "updated": "2026-10-01T18:22:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -14098,7 +14150,7 @@
       "description": "Zephyr RTOS telemetry demo for /IOTCONNECT: one portable application that reports sensor readings and live device vitals (uptime, heap, network) to the cloud, running unchanged across NXP boards via per-board Kconfig + devicetree overlays — hardware-verified on MCXN947, i.MX93 (Cortex-A55) and i.MX RT1170.",
       "category": "sample",
       "status": "beta",
-      "release": "v1.1.0",
+      "release": "v1.1.1",
       "languages": [
         "C"
       ],
@@ -14108,7 +14160,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-09-09T03:28:19Z",
+      "updated": "2026-10-01T18:22:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -14148,7 +14200,7 @@
       "description": "Zephyr RTOS telemetry demo for /IOTCONNECT: one portable application that reports sensor readings and live device vitals (uptime, heap, network) to the cloud, running unchanged across NXP boards via per-board Kconfig + devicetree overlays — hardware-verified on MCXN947, i.MX93 (Cortex-A55) and i.MX RT1170.",
       "category": "sample",
       "status": "beta",
-      "release": "v1.1.0",
+      "release": "v1.1.1",
       "languages": [
         "C"
       ],
@@ -14158,7 +14210,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-09-09T03:28:19Z",
+      "updated": "2026-10-01T18:22:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -14200,7 +14252,7 @@
       "description": "Zephyr RTOS telemetry demo for /IOTCONNECT: one portable application that reports sensor readings and live device vitals (uptime, heap, network) to the cloud, running unchanged across NXP boards via per-board Kconfig + devicetree overlays — hardware-verified on MCXN947, i.MX93 (Cortex-A55) and i.MX RT1170.",
       "category": "sample",
       "status": "beta",
-      "release": "v1.1.0",
+      "release": "v1.1.1",
       "languages": [
         "C"
       ],
@@ -14210,7 +14262,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-09-09T03:28:19Z",
+      "updated": "2026-10-01T18:22:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -14250,7 +14302,7 @@
       "description": "Cloud-to-device command demo on Zephyr RTOS: send a command from the /IOTCONNECT portal and the board switches its LED, demonstrating the C2D command path (parse, act, acknowledge) that any cloud-controlled Zephyr device builds on.",
       "category": "sample",
       "status": "beta",
-      "release": "v1.1.0",
+      "release": "v1.1.1",
       "languages": [
         "C"
       ],
@@ -14259,7 +14311,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-09-09T03:28:19Z",
+      "updated": "2026-10-01T18:22:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -14299,7 +14351,7 @@
       "description": "Cloud-to-device command demo on Zephyr RTOS: send a command from the /IOTCONNECT portal and the board switches its LED, demonstrating the C2D command path (parse, act, acknowledge) that any cloud-controlled Zephyr device builds on.",
       "category": "sample",
       "status": "beta",
-      "release": "v1.1.0",
+      "release": "v1.1.1",
       "languages": [
         "C"
       ],
@@ -14308,7 +14360,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-09-09T03:28:19Z",
+      "updated": "2026-10-01T18:22:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -14348,7 +14400,7 @@
       "description": "Cloud-to-device command demo on Zephyr RTOS: send a command from the /IOTCONNECT portal and the board switches its LED, demonstrating the C2D command path (parse, act, acknowledge) that any cloud-controlled Zephyr device builds on.",
       "category": "sample",
       "status": "beta",
-      "release": "v1.1.0",
+      "release": "v1.1.1",
       "languages": [
         "C"
       ],
@@ -14357,7 +14409,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-09-09T03:28:19Z",
+      "updated": "2026-10-01T18:22:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -14399,7 +14451,7 @@
       "description": "Cloud-to-device command demo on Zephyr RTOS: send a command from the /IOTCONNECT portal and the board switches its LED, demonstrating the C2D command path (parse, act, acknowledge) that any cloud-controlled Zephyr device builds on.",
       "category": "sample",
       "status": "beta",
-      "release": "v1.1.0",
+      "release": "v1.1.1",
       "languages": [
         "C"
       ],
@@ -14408,7 +14460,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-09-09T03:28:19Z",
+      "updated": "2026-10-01T18:22:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -14448,7 +14500,7 @@
       "description": "mikroBUS Click boards streaming sensor telemetry to /IOTCONNECT from Zephyr RTOS on the FRDM-MCXN947 — hardware-verified on the TrustZone/TF-M build, where the device private key is sealed in Protected Storage and crypto runs in the secure world. Four Click sensors to AWS IoT Core from one portable app.",
       "category": "sample",
       "status": "beta",
-      "release": "v1.1.0",
+      "release": "v1.1.1",
       "languages": [
         "C"
       ],
@@ -14460,7 +14512,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-09-09T03:28:19Z",
+      "updated": "2026-10-01T18:22:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -14500,7 +14552,7 @@
       "description": "mikroBUS Click boards streaming sensor telemetry to /IOTCONNECT from Zephyr RTOS on the FRDM-MCXN947 — hardware-verified on the TrustZone/TF-M build, where the device private key is sealed in Protected Storage and crypto runs in the secure world. Four Click sensors to AWS IoT Core from one portable app.",
       "category": "sample",
       "status": "beta",
-      "release": "v1.1.0",
+      "release": "v1.1.1",
       "languages": [
         "C"
       ],
@@ -14512,7 +14564,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-09-09T03:28:19Z",
+      "updated": "2026-10-01T18:22:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -14554,7 +14606,7 @@
       "description": "mikroBUS Click boards streaming sensor telemetry to /IOTCONNECT from Zephyr RTOS on the FRDM-MCXN947 — hardware-verified on the TrustZone/TF-M build, where the device private key is sealed in Protected Storage and crypto runs in the secure world. Four Click sensors to AWS IoT Core from one portable app.",
       "category": "sample",
       "status": "beta",
-      "release": "v1.1.0",
+      "release": "v1.1.1",
       "languages": [
         "C"
       ],
@@ -14566,7 +14618,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-09-09T03:28:19Z",
+      "updated": "2026-10-01T18:22:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -14647,7 +14699,7 @@
         "npu"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -15121,7 +15173,7 @@
       "description": "On-device predictive maintenance for rotating machines on the NXP FRDM-MCXN947 under Zephyr RTOS: a MIKROE ML Vibro Sens Click (NXP FXLS8974CF accelerometer + onboard fault motors) measures vibration, an eIQ Time Series Studio Random Forest model (0.30 KB RAM, 0.05 ms on the Cortex-M33) classifies machine state on-device, and verdicts stream to /IOTCONNECT with cloud-commanded fault injection. Pretrained model and dataset bundled.",
       "category": "sample",
       "status": "beta",
-      "release": "v1.1.0",
+      "release": "v1.1.1",
       "languages": [
         "C"
       ],
@@ -15132,7 +15184,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-09-09T03:28:19Z",
+      "updated": "2026-10-01T18:22:01Z",
       "image": null,
       "dashboards": [
         "assets/listings/zephyr-pdm-dash.png"
@@ -15185,7 +15237,7 @@
       "description": "An /IOTCONNECT gateway on the NXP FRDM-i.MX93 (Cortex-A55, Zephyr RTOS) that ingests IOTCONNECT 2.1 JSON from connectivity-less MCUs over UART and forwards each as a child-device record over one MQTT/TLS connection, adding its own gateway health telemetry. Pull the Ethernet cable and nothing is lost: records divert to a raw-sector ring on the on-SOM eMMC with original timestamps, then drain oldest-first on reconnect for a gap-free backfilled timeline.",
       "category": "sample",
       "status": "beta",
-      "release": "v1.1.0",
+      "release": "v1.1.1",
       "languages": [
         "C"
       ],
@@ -15194,7 +15246,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-09-09T03:28:19Z",
+      "updated": "2026-10-01T18:22:01Z",
       "image": null,
       "dashboards": [
         "assets/listings/zephyr-gateway-dash.png",
@@ -15239,7 +15291,7 @@
       "description": "The ML model is data, not firmware: on a Microchip SAM E54 Xplained Pro under Zephyr RTOS, a fixed tiny-MLP inference engine runs ~124-byte validated IOTM weight blobs. /IOTCONNECT pushes a new model as a single C2D command - the device CRC-checks it, hot-swaps it without a reboot, persists it to NVS, and its behavior visibly changes (five ready-made models classify light/temperature with different LED policies). Also rides IOTCONNECT's native C2D AI-Model push. Uses the IO1 Xplained Pro sensor wing.",
       "category": "sample",
       "status": "beta",
-      "release": "v1.1.0",
+      "release": "v1.1.1",
       "languages": [
         "C"
       ],
@@ -15249,7 +15301,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-09-09T03:28:19Z",
+      "updated": "2026-10-01T18:22:01Z",
       "image": null,
       "dashboards": [
         "assets/listings/zephyr-mlupdate-dash.png"
@@ -15304,7 +15356,7 @@
       "description": "The constrained-tier Zephyr demo for MCUs with no IP transport: the portable iotc-c-lib protocol core compiles straight into the app and emits IOTCONNECT 2.1 telemetry JSON on the console UART every 5 seconds. A companion gateway (see the Zephyr Gateway demo on FRDM-i.MX93) relays the lines to the cloud as child-device records, so connectivity-less MCUs like the FRDM-MCXE31B and FRDM-MCXW72 still contribute to /IOTCONNECT as verified telemetry sources.",
       "category": "sample",
       "status": "beta",
-      "release": "v1.1.0",
+      "release": "v1.1.1",
       "languages": [
         "C"
       ],
@@ -15313,7 +15365,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-09-09T03:28:19Z",
+      "updated": "2026-10-01T18:22:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -15353,7 +15405,7 @@
       "description": "The constrained-tier Zephyr demo for MCUs with no IP transport: the portable iotc-c-lib protocol core compiles straight into the app and emits IOTCONNECT 2.1 telemetry JSON on the console UART every 5 seconds. A companion gateway (see the Zephyr Gateway demo on FRDM-i.MX93) relays the lines to the cloud as child-device records, so connectivity-less MCUs like the FRDM-MCXE31B and FRDM-MCXW72 still contribute to /IOTCONNECT as verified telemetry sources.",
       "category": "sample",
       "status": "beta",
-      "release": "v1.1.0",
+      "release": "v1.1.1",
       "languages": [
         "C"
       ],
@@ -15362,7 +15414,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-09-09T03:28:19Z",
+      "updated": "2026-10-01T18:22:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -15402,7 +15454,7 @@
       "description": "On-device person detection on the NXP MIMXRT1170-EVKB under Zephyr RTOS: the kit's OV5640 MIPI camera streams 720p frames, a TFLite-Micro int8 MobileNet person-detect CNN (96x96 grayscale, CMSIS-NN kernels on the 1 GHz Cortex-M7) classifies each frame on the device, and an occupancy state machine streams the verdict to /IOTCONNECT. No video leaves the board - the cloud sees scores and states, never pixels, unless a snapshot command explicitly requests one frame.",
       "category": "sample",
       "status": "beta",
-      "release": "v1.1.0",
+      "release": "v1.1.1",
       "languages": [
         "C"
       ],
@@ -15412,7 +15464,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-09-09T03:28:19Z",
+      "updated": "2026-10-01T18:22:01Z",
       "image": null,
       "dashboards": [
         "assets/listings/zephyr-vision-occupancy-dash.png"
@@ -15482,7 +15534,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": null,
       "dashboards": [],
       "photos": [
@@ -15547,7 +15599,7 @@
         "vlm"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": null,
       "dashboards": [],
       "photos": [
@@ -15612,7 +15664,7 @@
         "vlm"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": null,
       "dashboards": [
         "assets/listings/deepx-clip-dash.png"
@@ -15667,7 +15719,7 @@
       "description": "Real-time face detection on the NXP FRDM-MCXN947 under Zephyr RTOS: the OV7670 camera streams through the MCXN947's SmartDMA capture engine, a TensorFlow-Lite-Micro face-detection model runs on the Cortex-M33 with CMSIS-NN kernels, and detection boxes render live on the LCD-PAR-S035 - with detection counts published to /IOTCONNECT over an LTE IoT 12 Click cellular modem. Ports the original MCX face-detect application onto upstream Zephyr and the IOTCONNECT Zephyr SDK with on-device key provisioning. The vision pipeline is hardware-verified; the cellular uplink is implemented and pending hardware verification.",
       "category": "sample",
       "status": "experimental",
-      "release": "v1.1.0",
+      "release": "v1.1.1",
       "languages": [
         "C"
       ],
@@ -15678,7 +15730,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-09-09T03:28:19Z",
+      "updated": "2026-10-01T18:22:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -15727,7 +15779,7 @@
       "description": "eIQ Neutron NPU vs CPU inference benchmark on the FRDM-MCXN947 under Zephyr RTOS: runs eIQ TFLM inference on both compute paths and streams the benchmark results to /IOTCONNECT for side-by-side comparison. Requires NXP's eIQ TFLM middleware to build.",
       "category": "sample",
       "status": "beta",
-      "release": "v1.1.0",
+      "release": "v1.1.1",
       "languages": [
         "C"
       ],
@@ -15738,7 +15790,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-09-09T03:28:19Z",
+      "updated": "2026-10-01T18:22:01Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -15800,7 +15852,7 @@
         "webrtc"
       ],
       "stars": 0,
-      "updated": "2026-09-03T15:17:43Z",
+      "updated": "2026-10-01T01:55:00Z",
       "image": null,
       "dashboards": [
         "https://raw.githubusercontent.com/avnet-iotconnect/iotc-freertos-ek-ra8p1/main/docs/images/dashboard-live.png"
@@ -15927,7 +15979,7 @@
         "vlm"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -15981,7 +16033,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-09-29T13:26:55Z",
+      "updated": "2026-09-30T19:14:16Z",
       "image": null,
       "dashboards": [],
       "photos": [],

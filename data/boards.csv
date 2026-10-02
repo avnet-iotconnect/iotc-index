@@ -97,3 +97,4 @@ NXP,FRDM Development Board for RW612 Wi-Fi 6 Tri-Radio MCU,FRDM-RW612,,FRDM-RW61
 Renesas,EK-RA8P1 Evaluation Kit for RA8P1 MCU Group,EK-RA8P1,,EK-RA8P1.webp,https://www.renesas.com/en/design-resources/boards-kits/ek-ra8p1,no,no,"mcu,ai,vision,npu",yes,Renesas
 Microchip,dsPIC33CK Motor Control Starter Kit (MCSK),EV12F76A,,EV12F76A.png,https://www.microchip.com/en-us/development-tool/ev12f76a,no,no,"mcu,motor-control",yes,Microchip
 Microchip,dsPIC33 Curiosity Platform Development Board,EV74H48A,,EV74H48A.png,https://www.microchip.com/en-us/development-tool/ev74h48a,no,no,"mcu,wifi",yes,Microchip
+Intel,Intel NUC Mini PC (Core Ultra),INTEL-NUC,,INTEL-NUC.jpg,https://www.msi.com/Business-Productivity-PC/Cubi-NUC-AI-Plus-3MX,no,no,"ai,vision,npu,edge",yes,Intel
