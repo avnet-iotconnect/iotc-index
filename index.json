@@ -1,6 +1,6 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-10-05T15:32:06Z",
+  "generated": "2026-10-12T16:28:31Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
@@ -4130,7 +4130,7 @@
       ],
       "features": [],
       "stars": 2,
-      "updated": "2026-06-03T15:37:59Z",
+      "updated": "2026-10-08T21:29:45Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -6885,7 +6885,7 @@
         "lora"
       ],
       "stars": 0,
-      "updated": "2026-10-01T22:25:19Z",
+      "updated": "2026-10-06T16:24:47Z",
       "image": null,
       "dashboards": [
         "https://saleshosted.z13.web.core.windows.net/images/events/2024/ReInvent/IMG_2727.JPEG"
@@ -13774,7 +13774,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-05T14:47:03Z",
+      "updated": "2026-10-05T19:49:12Z",
       "image": "assets/tech/zephyr.svg",
       "dashboards": [],
       "photos": [],
@@ -13804,7 +13804,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-05T14:47:18Z",
+      "updated": "2026-10-06T01:31:02Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -13854,7 +13854,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-05T14:47:18Z",
+      "updated": "2026-10-06T01:31:02Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -13906,7 +13906,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-05T14:47:18Z",
+      "updated": "2026-10-06T01:31:02Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -13956,7 +13956,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-05T14:47:18Z",
+      "updated": "2026-10-06T01:31:02Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -14008,7 +14008,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-05T14:47:18Z",
+      "updated": "2026-10-06T01:31:02Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -14058,7 +14058,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-05T14:47:18Z",
+      "updated": "2026-10-06T01:31:02Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -14108,7 +14108,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-05T14:47:18Z",
+      "updated": "2026-10-06T01:31:02Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -14160,7 +14160,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-05T14:47:18Z",
+      "updated": "2026-10-06T01:31:02Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -14210,7 +14210,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-05T14:47:18Z",
+      "updated": "2026-10-06T01:31:02Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -14262,7 +14262,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-05T14:47:18Z",
+      "updated": "2026-10-06T01:31:02Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -14311,7 +14311,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-05T14:47:18Z",
+      "updated": "2026-10-06T01:31:02Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -14360,7 +14360,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-05T14:47:18Z",
+      "updated": "2026-10-06T01:31:02Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -14409,7 +14409,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-05T14:47:18Z",
+      "updated": "2026-10-06T01:31:02Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -14460,7 +14460,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-05T14:47:18Z",
+      "updated": "2026-10-06T01:31:02Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -14512,7 +14512,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-05T14:47:18Z",
+      "updated": "2026-10-06T01:31:02Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -14564,7 +14564,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-05T14:47:18Z",
+      "updated": "2026-10-06T01:31:02Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -14618,7 +14618,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-05T14:47:18Z",
+      "updated": "2026-10-06T01:31:02Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -15184,7 +15184,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-05T14:47:18Z",
+      "updated": "2026-10-06T01:31:02Z",
       "image": null,
       "dashboards": [
         "assets/listings/zephyr-pdm-dash.png"
@@ -15246,7 +15246,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-05T14:47:18Z",
+      "updated": "2026-10-06T01:31:02Z",
       "image": null,
       "dashboards": [
         "assets/listings/zephyr-gateway-dash.png",
@@ -15301,7 +15301,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-05T14:47:18Z",
+      "updated": "2026-10-06T01:31:02Z",
       "image": null,
       "dashboards": [
         "assets/listings/zephyr-mlupdate-dash.png"
@@ -15365,7 +15365,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-05T14:47:18Z",
+      "updated": "2026-10-06T01:31:02Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -15414,7 +15414,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-05T14:47:18Z",
+      "updated": "2026-10-06T01:31:02Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -15464,7 +15464,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-05T14:47:18Z",
+      "updated": "2026-10-06T01:31:02Z",
       "image": null,
       "dashboards": [
         "assets/listings/zephyr-vision-occupancy-dash.png"
@@ -15730,7 +15730,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-05T14:47:18Z",
+      "updated": "2026-10-06T01:31:02Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -15790,7 +15790,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-05T14:47:18Z",
+      "updated": "2026-10-06T01:31:02Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -15852,7 +15852,7 @@
         "webrtc"
       ],
       "stars": 0,
-      "updated": "2026-10-01T01:55:00Z",
+      "updated": "2026-10-07T20:37:03Z",
       "image": null,
       "dashboards": [
         "https://raw.githubusercontent.com/avnet-iotconnect/iotc-freertos-ek-ra8p1/main/docs/images/dashboard-live.png"
@@ -15916,7 +15916,7 @@
         "wifi"
       ],
       "stars": 0,
-      "updated": "2026-09-16T21:06:30Z",
+      "updated": "2026-10-05T16:41:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -16086,7 +16086,7 @@
         "wifi"
       ],
       "stars": 0,
-      "updated": "2026-09-29T16:52:05Z",
+      "updated": "2026-10-09T07:58:05Z",
       "image": null,
       "dashboards": [
         "https://raw.githubusercontent.com/avnet-iotconnect/iotc-mchp-dspic33ck-mcsk-rnwf11/main/media/dashboard-example.png"
