@@ -214,6 +214,61 @@ if TOKEN:
             pass   # 404 = repo has no published release
     print(f"[info] release tags: {n_rel} repos have a GitHub release.", file=sys.stderr)
 
+# ---------- GitHub link-rot check ----------
+# Repos rename branches and move files; the catalog can't know. Every github.com /
+# raw.githubusercontent.com URL in the catalog is resolved against the API so dead links
+# surface in AUDIT.md on the next (weekly) build instead of as 404s in the board drawer.
+# Needs a token; only hard 404s are reported (transient/network errors are ignored).
+broken_links = []
+if TOKEN:
+    import concurrent.futures, urllib.error, urllib.parse
+
+    def _gh_api_for(u):
+        u = re.sub(r'[#?].*$', '', u.strip())
+        m = re.match(r'https://raw\.githubusercontent\.com/([^/]+)/([^/]+)/([^/]+)/(.+)$', u)
+        if m:
+            o, r, b, p = m.groups()
+            return f"/repos/{o}/{r}/contents/{urllib.parse.quote(urllib.parse.unquote(p))}?ref={b}"
+        m = re.match(r'https://github\.com/([^/]+)/([^/]+?)(?:\.git)?'
+                     r'(?:/(?:blob|tree|raw)/([^/]+)(?:/(.*))?)?/?$', u)
+        if not m:
+            return None   # releases/wiki/issues pages etc. — not checkable this way
+        o, r, b, p = m.groups()
+        if not b: return f"/repos/{o}/{r}"
+        if p: return f"/repos/{o}/{r}/contents/{urllib.parse.quote(urllib.parse.unquote(p.rstrip('/')))}?ref={b}"
+        return f"/repos/{o}/{r}/branches/{b}"
+
+    _targets = {}   # url -> "who references it"
+    def _tgt(v, label):
+        for u in (v if isinstance(v, list) else [v]):
+            if u and isinstance(u, str) and ("github.com" in u or "githubusercontent.com" in u):
+                _targets.setdefault(u, label)
+    for L in listings:
+        _tgt(L.get("url"), f'{L["name"]} · link')
+        _tgt(L.get("image"), f'{L["name"]} · image')
+        _tgt(L.get("overlay"), f'{L["name"]} · overlay')
+        _tgt(L.get("dashboards"), f'{L["name"]} · dashboards')
+        _tgt(L.get("photos"), f'{L["name"]} · photos')
+    for rr in res_rows:
+        _tgt(str(rr.get("URL") or ""), f'{rr.get("Ref")} · {str(rr.get("Kind") or "").strip()} resource')
+    for d in board_defs.values():
+        if d["slug"].startswith("x-"): continue
+        _tgt(d.get("image"), f'{d["name"]} · board image')
+        _tgt(d.get("link"), f'{d["name"]} · product link')
+
+    def _check(u):
+        api = _gh_api_for(u)
+        if not api: return None
+        try:
+            gh_get(api); return None
+        except urllib.error.HTTPError as e:
+            return (_targets[u], u) if e.code == 404 else None
+        except Exception:
+            return None
+    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as ex:
+        broken_links = sorted(x for x in ex.map(_check, sorted(_targets)) if x)
+    print(f"[info] link check: {len(_targets)} GitHub links, {len(broken_links)} broken.", file=sys.stderr)
+
 # ---------- assemble index ----------
 def board_ref(sg):
     b = board_defs[sg]
@@ -435,6 +490,11 @@ if org_repos:
     A += [f"- {r['name']} — {r.get('description') or 'no description'}" for r in uncatalogued] or ["- none — every public repo has a listing."]
 else:
     A.append("- (run with GITHUB_TOKEN to detect uncatalogued repos)")
+A += ["", "## ⚠ Broken GitHub links (404)"]
+if TOKEN:
+    A += [f"- {label}: {u}" for label, u in broken_links] or ["- none — every GitHub link resolves."]
+else:
+    A.append("- (run with GITHUB_TOKEN to check links)")
 A += ["", "## Listings missing description or topics"]
 A += [f"- {n}" for n in incomplete] or ["- none."]
 orphan_models = [model_defs[m]["name"] for m in model_defs if m not in modelcount]
@@ -452,6 +512,7 @@ print(f"index.json: {len(vis)} listings, {len(mfrs)} manufacturers, {len(busd)} 
       f"{len(res_rows)} resources, {n_guides} guides, {n_demos} demos")
 print(f"AUDIT: {len(missing_boards)} missing-board refs, {len(no_image)} no-image, {len(orphan)} orphan, "
       f"{len(uncatalogued)} uncatalogued repos, {len(incomplete)} incomplete listings, "
-      f"{len(models_facet)} models in use, {len(unknown_models)} bad model refs")
+      f"{len(models_facet)} models in use, {len(unknown_models)} bad model refs, "
+      f"{len(broken_links)} broken links")
 print("changed: " + (", ".join(f for f, c in [("index.json", changed_index), ("AUDIT.md", changed_audit)] if c)
                      or "nothing (timestamp-only; no rewrite)"))

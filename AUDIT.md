@@ -1,6 +1,6 @@
 # /IOTCONNECT Index — Audit Report
 
-_Generated 2026-10-13T21:45:50Z_  ·  228 listings · 99 boards (89 in use) · 17 manufacturers · 238 resources
+_Generated 2026-10-13T21:57:04Z_  ·  228 listings · 99 boards (89 in use) · 17 manufacturers · 238 resources
 
 ## ⚠ Boards referenced but missing from the Boards sheet
 - none — every referenced board is defined.
@@ -22,6 +22,9 @@ _Generated 2026-10-13T21:45:50Z_  ·  228 listings · 99 boards (89 in use) · 1
 
 ## Org repos with no listing (candidates to add)
 - none — every public repo has a listing.
+
+## ⚠ Broken GitHub links (404)
+- none — every GitHub link resolves.
 
 ## Listings missing description or topics
 - none.
