@@ -1,6 +1,6 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-10-12T16:28:31Z",
+  "generated": "2026-10-13T21:45:50Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
@@ -1471,17 +1471,12 @@
           {
             "kind": "quickstart",
             "title": "QuickStart Guide",
-            "url": "https://github.com/avnet-iotconnect/iotc-freertos-ek-ra8p1/blob/main/docs/QUICKSTART.md"
+            "url": "https://github.com/avnet-iotconnect/iotc-freertos-ek-ra8p1/blob/main/README.md"
           },
           {
             "kind": "developer",
             "title": "Developer Guide",
-            "url": "https://github.com/avnet-iotconnect/iotc-freertos-ek-ra8p1/blob/main/docs/DEVELOPER-GUIDE.md"
-          },
-          {
-            "kind": "demo",
-            "title": "Demo Guide: Vision AI",
-            "url": "https://github.com/avnet-iotconnect/iotc-freertos-ek-ra8p1/blob/main/docs/DEMO-GUIDE.md"
+            "url": "https://github.com/avnet-iotconnect/iotc-freertos-ek-ra8p1/blob/main/docs/DEVELOPER.md"
           },
           {
             "kind": "doc",
@@ -3876,7 +3871,7 @@
     "examples": 194,
     "models": 25,
     "guides": 90,
-    "demos": 14,
+    "demos": 13,
     "partners": 9
   },
   "repos": [
@@ -7920,7 +7915,7 @@
         "webrtc"
       ],
       "stars": 0,
-      "updated": "2026-09-10T18:24:26Z",
+      "updated": "2026-10-12T17:29:51Z",
       "image": null,
       "dashboards": [
         "https://github.com/avnet-iotconnect/avnet-iotc-mtb-psoc-edge-aivision-webrtc/raw/main/images/setup.jpg"
@@ -8220,7 +8215,7 @@
         "modustoolbox"
       ],
       "stars": 0,
-      "updated": "2026-09-10T17:30:59Z",
+      "updated": "2026-10-12T17:38:41Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ifx-psoc6andedge-deepcraft.JPG",
       "dashboards": [],
       "photos": [],
@@ -15855,7 +15850,7 @@
       "updated": "2026-10-07T20:37:03Z",
       "image": null,
       "dashboards": [
-        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-freertos-ek-ra8p1/main/docs/images/dashboard-live.png"
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-freertos-ek-ra8p1/main/media/dashboard-live.png"
       ],
       "photos": [],
       "models": [
@@ -16086,7 +16081,7 @@
         "wifi"
       ],
       "stars": 0,
-      "updated": "2026-10-09T07:58:05Z",
+      "updated": "2026-10-12T20:50:28Z",
       "image": null,
       "dashboards": [
         "https://raw.githubusercontent.com/avnet-iotconnect/iotc-mchp-dspic33ck-mcsk-rnwf11/main/media/dashboard-example.png"

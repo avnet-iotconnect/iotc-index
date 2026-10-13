@@ -224,9 +224,8 @@ FRDM-RW612,board,quickstart,Zephyr QuickStart Guide,https://github.com/avnet-iot
 FRDM-RW612,board,doc,GitHub Repository Root,https://github.com/avnet-iotconnect/iotc-zephyr-demos
 FRDM-IMX93,board,quickstart,Zephyr QuickStart Guide,https://github.com/avnet-iotconnect/iotc-zephyr-demos/blob/main/boards/frdm-imx93/QUICKSTART.md
 EK-RA8P1,board,buy,Buy EK-RA8P1 on Avnet,https://www.avnet.com/americas/product/renesas-electronics/rtk7eka8p1s01001be/evolve-120248010/
-EK-RA8P1,board,quickstart,QuickStart Guide,https://github.com/avnet-iotconnect/iotc-freertos-ek-ra8p1/blob/main/docs/QUICKSTART.md
-EK-RA8P1,board,developer,Developer Guide,https://github.com/avnet-iotconnect/iotc-freertos-ek-ra8p1/blob/main/docs/DEVELOPER-GUIDE.md
-EK-RA8P1,board,demo,Demo Guide: Vision AI,https://github.com/avnet-iotconnect/iotc-freertos-ek-ra8p1/blob/main/docs/DEMO-GUIDE.md
+EK-RA8P1,board,quickstart,QuickStart Guide,https://github.com/avnet-iotconnect/iotc-freertos-ek-ra8p1/blob/main/README.md
+EK-RA8P1,board,developer,Developer Guide,https://github.com/avnet-iotconnect/iotc-freertos-ek-ra8p1/blob/main/docs/DEVELOPER.md
 EK-RA8P1,board,doc,GitHub Repository Root,https://github.com/avnet-iotconnect/iotc-freertos-ek-ra8p1
 STM32N6570-DK,board,demo,Demo: Amazon KVS WebRTC Streaming,https://github.com/avnet-iotconnect/iotc-stm32-n6-w6x-kvs-webrtc
 EV12F76A,board,buy,Buy EV12F76A on Newark,https://www.newark.com/microchip/ev12f76a/starter-kit-3-ph-bldc-pmsm-motor/dp/85AK4564
