@@ -1,6 +1,6 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-10-13T21:45:50Z",
+  "generated": "2026-10-14T14:19:57Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
@@ -84,7 +84,7 @@
       "logo": "assets/brand/nxp-logo.png",
       "info": "https://www.avnet.com/iotconnect/nxp",
       "boards": 15,
-      "listings": 42
+      "listings": 44
     },
     {
       "name": "Nordic",
@@ -349,23 +349,23 @@
       },
       {
         "tag": "sensors",
-        "count": 34
+        "count": 35
       },
       {
         "tag": "zephyr",
-        "count": 27
+        "count": 29
       },
       {
         "tag": "ai",
         "count": 26
       },
       {
-        "tag": "wifi",
-        "count": 25
+        "tag": "mcu",
+        "count": 26
       },
       {
-        "tag": "mcu",
-        "count": 24
+        "tag": "wifi",
+        "count": 25
       },
       {
         "tag": "greengrass",
@@ -504,6 +504,10 @@
         "count": 3
       },
       {
+        "tag": "wifi-provisioning",
+        "count": 3
+      },
+      {
         "tag": "audio-classification",
         "count": 2
       },
@@ -604,6 +608,10 @@
         "count": 1
       },
       {
+        "tag": "metering",
+        "count": 1
+      },
+      {
         "tag": "motor-control",
         "count": 1
       },
@@ -645,10 +653,6 @@
       },
       {
         "tag": "voice",
-        "count": 1
-      },
-      {
-        "tag": "wifi-provisioning",
         "count": 1
       },
       {
@@ -1741,7 +1745,7 @@
         ],
         "integrator": "NXP",
         "maker": "NXP",
-        "listings": 4
+        "listings": 6
       },
       {
         "slug": "s32g-vnp-gldbox",
@@ -3863,12 +3867,12 @@
     ]
   },
   "counts": {
-    "total": 228,
+    "total": 230,
     "manufacturers": 17,
     "boards": 99,
     "sdks": 28,
     "tools": 6,
-    "examples": 194,
+    "examples": 196,
     "models": 25,
     "guides": 90,
     "demos": 13,
@@ -14056,7 +14060,9 @@
       "updated": "2026-10-06T01:31:02Z",
       "image": null,
       "dashboards": [],
-      "photos": [],
+      "photos": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/telemetry/docs/images/zephyr_telemetry_header.png"
+      ],
       "models": [],
       "described": true,
       "hidden": false,
@@ -14106,7 +14112,9 @@
       "updated": "2026-10-06T01:31:02Z",
       "image": null,
       "dashboards": [],
-      "photos": [],
+      "photos": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/telemetry/docs/images/zephyr_telemetry_header.png"
+      ],
       "models": [],
       "described": true,
       "hidden": false,
@@ -14158,7 +14166,9 @@
       "updated": "2026-10-06T01:31:02Z",
       "image": null,
       "dashboards": [],
-      "photos": [],
+      "photos": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/telemetry/docs/images/zephyr_telemetry_header.png"
+      ],
       "models": [],
       "described": true,
       "hidden": false,
@@ -14208,7 +14218,9 @@
       "updated": "2026-10-06T01:31:02Z",
       "image": null,
       "dashboards": [],
-      "photos": [],
+      "photos": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/telemetry/docs/images/zephyr_telemetry_header.png"
+      ],
       "models": [],
       "described": true,
       "hidden": false,
@@ -14260,7 +14272,9 @@
       "updated": "2026-10-06T01:31:02Z",
       "image": null,
       "dashboards": [],
-      "photos": [],
+      "photos": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/telemetry/docs/images/zephyr_telemetry_header.png"
+      ],
       "models": [],
       "described": true,
       "hidden": false,
@@ -14309,7 +14323,9 @@
       "updated": "2026-10-06T01:31:02Z",
       "image": null,
       "dashboards": [],
-      "photos": [],
+      "photos": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/c2d-led/docs/images/c2d_led_header.png"
+      ],
       "models": [],
       "described": true,
       "hidden": false,
@@ -14358,7 +14374,9 @@
       "updated": "2026-10-06T01:31:02Z",
       "image": null,
       "dashboards": [],
-      "photos": [],
+      "photos": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/c2d-led/docs/images/c2d_led_header.png"
+      ],
       "models": [],
       "described": true,
       "hidden": false,
@@ -14407,7 +14425,9 @@
       "updated": "2026-10-06T01:31:02Z",
       "image": null,
       "dashboards": [],
-      "photos": [],
+      "photos": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/c2d-led/docs/images/c2d_led_header.png"
+      ],
       "models": [],
       "described": true,
       "hidden": false,
@@ -14458,7 +14478,9 @@
       "updated": "2026-10-06T01:31:02Z",
       "image": null,
       "dashboards": [],
-      "photos": [],
+      "photos": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/c2d-led/docs/images/c2d_led_header.png"
+      ],
       "models": [],
       "described": true,
       "hidden": false,
@@ -14509,8 +14531,13 @@
       "stars": 0,
       "updated": "2026-10-06T01:31:02Z",
       "image": null,
-      "dashboards": [],
-      "photos": [],
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/click-telemetry/docs/images/dashboard.png",
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/click-telemetry/docs/images/rw612-dashboard.png"
+      ],
+      "photos": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/click-telemetry/docs/images/rw612_click_header.png"
+      ],
       "models": [],
       "described": true,
       "hidden": false,
@@ -14561,8 +14588,13 @@
       "stars": 0,
       "updated": "2026-10-06T01:31:02Z",
       "image": null,
-      "dashboards": [],
-      "photos": [],
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/click-telemetry/docs/images/dashboard.png",
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/click-telemetry/docs/images/rw612-dashboard.png"
+      ],
+      "photos": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/click-telemetry/docs/images/rw612_click_header.png"
+      ],
       "models": [],
       "described": true,
       "hidden": false,
@@ -14615,8 +14647,13 @@
       "stars": 0,
       "updated": "2026-10-06T01:31:02Z",
       "image": null,
-      "dashboards": [],
-      "photos": [],
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/click-telemetry/docs/images/dashboard.png",
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/click-telemetry/docs/images/rw612-dashboard.png"
+      ],
+      "photos": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/click-telemetry/docs/images/rw612_click_header.png"
+      ],
       "models": [],
       "described": true,
       "hidden": false,
@@ -16164,6 +16201,115 @@
       ],
       "makers": [
         "Microchip"
+      ]
+    },
+    {
+      "repo": "iotc-zephyr-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/blob/main/demos/kinetis-meter/README.md",
+      "displayName": "Zephyr Kinetis-M Smart Meter - Soft-AP, Meter Ingest & OTA",
+      "description": "The NXP Kinetis-M meter-host architecture in one Zephyr firmware on the FRDM-RW612: an external metrology board streams readings over UART and is published as meter.* telemetry, alongside the onboard P3T1755 temperature sensor. Onboarding is Soft-AP from a phone browser (no console), with cloud-to-device LED commands, MCUboot signed-image OTA, and automatic Wi-Fi recovery that re-raises the setup AP if the stored network stays unreachable.",
+      "category": "sample",
+      "status": "beta",
+      "release": "v1.2.0",
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "mcu",
+        "metering",
+        "sensors",
+        "wifi-provisioning",
+        "zephyr"
+      ],
+      "stars": 0,
+      "updated": "2026-10-06T01:31:02Z",
+      "image": null,
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/kinetis-meter/docs/images/kinetis_meter_dashboard.png"
+      ],
+      "photos": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/kinetis-meter/docs/images/kinetis_meter_setup.jpg"
+      ],
+      "models": [],
+      "described": true,
+      "hidden": false,
+      "id": "zephyr-kinetis-m-smart-meter-soft-ap-meter-ingest-ota",
+      "boards": [
+        {
+          "slug": "frdm-rw612",
+          "vendor": "NXP",
+          "name": "FRDM Development Board for RW612 Wi-Fi 6 Tri-Radio MCU",
+          "maker": "NXP",
+          "partNumber": "FRDM-RW612",
+          "imageLocal": "assets/boards/FRDM-RW612.jpg"
+        }
+      ],
+      "board": {
+        "slug": "frdm-rw612",
+        "vendor": "NXP",
+        "name": "FRDM Development Board for RW612 Wi-Fi 6 Tri-Radio MCU",
+        "maker": "NXP",
+        "partNumber": "FRDM-RW612",
+        "imageLocal": "assets/boards/FRDM-RW612.jpg"
+      },
+      "manufacturers": [
+        "NXP"
+      ],
+      "makers": [
+        "NXP"
+      ]
+    },
+    {
+      "repo": "iotc-zephyr-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-zephyr-demos/blob/main/demos/softap-provisioning/README.md",
+      "displayName": "Zephyr Soft-AP Provisioning - Phone-Browser Onboarding",
+      "description": "Onboard a Zephyr device to /IOTCONNECT from a phone browser: an unprovisioned FRDM-RW612 raises its own Wi-Fi access point and serves a one-page setup portal that handles credential exchange, on-device key generation and cloud configuration; once provisioned it runs the normal telemetry loop. A proof of concept for app-based onboarding — a production app would drive the same device endpoints plus the /IOTCONNECT REST API.",
+      "category": "sample",
+      "status": "experimental",
+      "release": "v1.2.0",
+      "languages": [
+        "C"
+      ],
+      "features": [
+        "mcu",
+        "wifi-provisioning",
+        "zephyr"
+      ],
+      "stars": 0,
+      "updated": "2026-10-06T01:31:02Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/softap-provisioning/docs/images/portal-steps-1-2.png",
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/softap-provisioning/docs/images/portal-steps-3-4.png"
+      ],
+      "models": [],
+      "described": true,
+      "hidden": false,
+      "id": "zephyr-soft-ap-provisioning-phone-browser-onboarding",
+      "boards": [
+        {
+          "slug": "frdm-rw612",
+          "vendor": "NXP",
+          "name": "FRDM Development Board for RW612 Wi-Fi 6 Tri-Radio MCU",
+          "maker": "NXP",
+          "partNumber": "FRDM-RW612",
+          "imageLocal": "assets/boards/FRDM-RW612.jpg"
+        }
+      ],
+      "board": {
+        "slug": "frdm-rw612",
+        "vendor": "NXP",
+        "name": "FRDM Development Board for RW612 Wi-Fi 6 Tri-Radio MCU",
+        "maker": "NXP",
+        "partNumber": "FRDM-RW612",
+        "imageLocal": "assets/boards/FRDM-RW612.jpg"
+      },
+      "manufacturers": [
+        "NXP"
+      ],
+      "makers": [
+        "NXP"
       ]
     }
   ]
