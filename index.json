@@ -1,6 +1,6 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-10-14T14:19:57Z",
+  "generated": "2026-10-14T15:10:24Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
@@ -14060,9 +14060,7 @@
       "updated": "2026-10-06T01:31:02Z",
       "image": null,
       "dashboards": [],
-      "photos": [
-        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/telemetry/docs/images/zephyr_telemetry_header.png"
-      ],
+      "photos": [],
       "models": [],
       "described": true,
       "hidden": false,
@@ -14112,9 +14110,7 @@
       "updated": "2026-10-06T01:31:02Z",
       "image": null,
       "dashboards": [],
-      "photos": [
-        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/telemetry/docs/images/zephyr_telemetry_header.png"
-      ],
+      "photos": [],
       "models": [],
       "described": true,
       "hidden": false,
@@ -14166,9 +14162,7 @@
       "updated": "2026-10-06T01:31:02Z",
       "image": null,
       "dashboards": [],
-      "photos": [
-        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/telemetry/docs/images/zephyr_telemetry_header.png"
-      ],
+      "photos": [],
       "models": [],
       "described": true,
       "hidden": false,
@@ -14218,9 +14212,7 @@
       "updated": "2026-10-06T01:31:02Z",
       "image": null,
       "dashboards": [],
-      "photos": [
-        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/telemetry/docs/images/zephyr_telemetry_header.png"
-      ],
+      "photos": [],
       "models": [],
       "described": true,
       "hidden": false,
@@ -14272,9 +14264,7 @@
       "updated": "2026-10-06T01:31:02Z",
       "image": null,
       "dashboards": [],
-      "photos": [
-        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/telemetry/docs/images/zephyr_telemetry_header.png"
-      ],
+      "photos": [],
       "models": [],
       "described": true,
       "hidden": false,
@@ -14323,9 +14313,7 @@
       "updated": "2026-10-06T01:31:02Z",
       "image": null,
       "dashboards": [],
-      "photos": [
-        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/c2d-led/docs/images/c2d_led_header.png"
-      ],
+      "photos": [],
       "models": [],
       "described": true,
       "hidden": false,
@@ -14374,9 +14362,7 @@
       "updated": "2026-10-06T01:31:02Z",
       "image": null,
       "dashboards": [],
-      "photos": [
-        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/c2d-led/docs/images/c2d_led_header.png"
-      ],
+      "photos": [],
       "models": [],
       "described": true,
       "hidden": false,
@@ -14425,9 +14411,7 @@
       "updated": "2026-10-06T01:31:02Z",
       "image": null,
       "dashboards": [],
-      "photos": [
-        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/c2d-led/docs/images/c2d_led_header.png"
-      ],
+      "photos": [],
       "models": [],
       "described": true,
       "hidden": false,
@@ -14478,9 +14462,7 @@
       "updated": "2026-10-06T01:31:02Z",
       "image": null,
       "dashboards": [],
-      "photos": [
-        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/c2d-led/docs/images/c2d_led_header.png"
-      ],
+      "photos": [],
       "models": [],
       "described": true,
       "hidden": false,
@@ -14532,12 +14514,9 @@
       "updated": "2026-10-06T01:31:02Z",
       "image": null,
       "dashboards": [
-        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/click-telemetry/docs/images/dashboard.png",
-        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/click-telemetry/docs/images/rw612-dashboard.png"
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/click-telemetry/docs/images/dashboard.png"
       ],
-      "photos": [
-        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/click-telemetry/docs/images/rw612_click_header.png"
-      ],
+      "photos": [],
       "models": [],
       "described": true,
       "hidden": false,
@@ -14589,12 +14568,9 @@
       "updated": "2026-10-06T01:31:02Z",
       "image": null,
       "dashboards": [
-        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/click-telemetry/docs/images/dashboard.png",
-        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/click-telemetry/docs/images/rw612-dashboard.png"
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/click-telemetry/docs/images/dashboard.png"
       ],
-      "photos": [
-        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/click-telemetry/docs/images/rw612_click_header.png"
-      ],
+      "photos": [],
       "models": [],
       "described": true,
       "hidden": false,
@@ -14648,12 +14624,9 @@
       "updated": "2026-10-06T01:31:02Z",
       "image": null,
       "dashboards": [
-        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/click-telemetry/docs/images/dashboard.png",
-        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/click-telemetry/docs/images/rw612-dashboard.png"
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/click-telemetry/docs/images/dashboard.png"
       ],
-      "photos": [
-        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/click-telemetry/docs/images/rw612_click_header.png"
-      ],
+      "photos": [],
       "models": [],
       "described": true,
       "hidden": false,
@@ -16280,8 +16253,7 @@
       "image": null,
       "dashboards": [],
       "photos": [
-        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/softap-provisioning/docs/images/portal-steps-1-2.png",
-        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/softap-provisioning/docs/images/portal-steps-3-4.png"
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/softap-provisioning/docs/images/portal-steps-1-2.png"
       ],
       "models": [],
       "described": true,

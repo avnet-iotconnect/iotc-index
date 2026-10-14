@@ -53,6 +53,11 @@ the CSVs in [`data/`](data/).
 - **Imagery:** `Dashboards` / `Photos` are pipe-`|`-separated URLs; first Dashboards image leads the tile.
   Verify every URL returns 200. GitHub-hosted images: use `raw.githubusercontent.com/...` (not `/blob/`) URLs.
   No good image? Leave blank — tile imagery is also curated later with the iotc-index-curator app.
+- **Curate images by LOOKING at them, never by filename.** Download and view each candidate first.
+  `Dashboards` = populated /IOTCONNECT dashboard screenshots only (skip ones full of NA/null values);
+  `Photos` = hardware-in-action or the demo's own UI. Never wire documentation figures (step-by-step
+  walkthroughs, config-JSON screenshots, console output) or text-only title banners — they confuse the
+  drawer gallery. A card with no imagery honestly falls back to its board photo; that beats a bad image.
 
 ## New-board completeness bundle
 
