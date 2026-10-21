@@ -98,3 +98,4 @@ Renesas,EK-RA8P1 Evaluation Kit for RA8P1 MCU Group,EK-RA8P1,,EK-RA8P1.webp,http
 Microchip,dsPIC33CK Motor Control Starter Kit (MCSK),EV12F76A,,EV12F76A.png,https://www.microchip.com/en-us/development-tool/ev12f76a,no,no,"mcu,motor-control",yes,Microchip
 Microchip,dsPIC33 Curiosity Platform Development Board,EV74H48A,,EV74H48A.png,https://www.microchip.com/en-us/development-tool/ev74h48a,no,no,"mcu,wifi",yes,Microchip
 Intel,Intel NUC Mini PC (Core Ultra),INTEL-NUC,,INTEL-NUC.jpg,https://www.msi.com/Business-Productivity-PC/Cubi-NUC-AI-Plus-3MX,no,no,"ai,vision,npu,edge",yes,Intel
+Hailo / Microchip,Hailo-8 M.2 AI Acceleration Module (26 TOPS),HAILO-8-M2,,HAILO-8-M2.webp,https://hailo.ai/products/ai-accelerators/hailo-8-m2-ai-acceleration-module/,no,no,"ai,npu,edge",yes,Microchip

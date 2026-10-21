@@ -1,6 +1,6 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-10-19T14:19:11Z",
+  "generated": "2026-10-21T15:08:32Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
@@ -67,8 +67,8 @@
       "slug": "microchip",
       "logo": "assets/brand/microchip-logo.png",
       "info": "https://www.avnet.com/iotconnect/microchip",
-      "boards": 12,
-      "listings": 32
+      "boards": 13,
+      "listings": 34
     },
     {
       "name": "NVIDIA",
@@ -116,7 +116,7 @@
       "logo": "assets/brand/renesas-logo.png",
       "info": "https://www.avnet.com/iotconnect/renesas",
       "boards": 19,
-      "listings": 21
+      "listings": 23
     },
     {
       "name": "STMicroelectronics",
@@ -282,8 +282,10 @@
         "Intel",
         "Microchip",
         "NXP",
+        "Qualcomm",
         "Renesas",
-        "STMicroelectronics"
+        "STMicroelectronics",
+        "Tria"
       ]
     },
     {
@@ -328,6 +330,7 @@
       "Asus",
       "Brainboxes",
       "Dell",
+      "Hailo",
       "Kerlink",
       "Raspberry Pi",
       "Seeed Studio",
@@ -337,11 +340,11 @@
     "topics": [
       {
         "tag": "edge-ai",
-        "count": 78
+        "count": 82
       },
       {
         "tag": "vision",
-        "count": 43
+        "count": 47
       },
       {
         "tag": "gateway",
@@ -368,11 +371,11 @@
         "count": 25
       },
       {
-        "tag": "greengrass",
-        "count": 20
+        "tag": "npu",
+        "count": 24
       },
       {
-        "tag": "npu",
+        "tag": "greengrass",
         "count": 20
       },
       {
@@ -456,15 +459,27 @@
         "count": 6
       },
       {
+        "tag": "vlm",
+        "count": 6
+      },
+      {
         "tag": "cellular",
         "count": 5
       },
       {
-        "tag": "vlm",
-        "count": 5
+        "tag": "anomaly-detection",
+        "count": 4
       },
       {
-        "tag": "anomaly-detection",
+        "tag": "hailo",
+        "count": 4
+      },
+      {
+        "tag": "industrial",
+        "count": 4
+      },
+      {
+        "tag": "robotics",
         "count": 4
       },
       {
@@ -488,14 +503,6 @@
         "count": 3
       },
       {
-        "tag": "industrial",
-        "count": 3
-      },
-      {
-        "tag": "robotics",
-        "count": 3
-      },
-      {
         "tag": "smart-home",
         "count": 3
       },
@@ -513,10 +520,6 @@
       },
       {
         "tag": "genai",
-        "count": 2
-      },
-      {
-        "tag": "hailo",
         "count": 2
       },
       {
@@ -689,6 +692,24 @@
         "count": 6
       },
       {
+        "model": "yolov8",
+        "name": "YOLOv8 (Ultralytics)",
+        "task": "object detection",
+        "framework": "ONNX / TFLite / Hexagon NPU",
+        "vendor": "Ultralytics",
+        "link": "https://docs.ultralytics.com",
+        "count": 5
+      },
+      {
+        "model": "drp-ai",
+        "name": "Renesas DRP-AI (YOLOv3 / EdgeYOLO / UNet)",
+        "task": "object detection / pose / meter reading",
+        "framework": "DRP-AI TVM",
+        "vendor": "Renesas",
+        "link": "https://www.renesas.com/rzv",
+        "count": 4
+      },
+      {
         "model": "eiq-tflm",
         "name": "NXP eIQ TensorFlow-Lite-Micro model",
         "task": "on-MCU classification",
@@ -696,6 +717,15 @@
         "vendor": "NXP",
         "link": "https://www.nxp.com/eiq",
         "count": 4
+      },
+      {
+        "model": "clip",
+        "name": "CLIP (vision-language)",
+        "task": "zero-shot image-text similarity / promptable vision",
+        "framework": "Hailo-8 / DEEPX DX-M1 NPU",
+        "vendor": "OpenAI",
+        "link": "https://github.com/openai/CLIP",
+        "count": 3
       },
       {
         "model": "dscnn-kws",
@@ -741,33 +771,6 @@
         "vendor": "STMicroelectronics",
         "link": "https://github.com/STMicroelectronics/stm32ai-modelzoo",
         "count": 3
-      },
-      {
-        "model": "yolov8",
-        "name": "YOLOv8 (Ultralytics)",
-        "task": "object detection",
-        "framework": "ONNX / TFLite / Hexagon NPU",
-        "vendor": "Ultralytics",
-        "link": "https://docs.ultralytics.com",
-        "count": 3
-      },
-      {
-        "model": "clip",
-        "name": "CLIP (vision-language)",
-        "task": "zero-shot image-text similarity / promptable vision",
-        "framework": "Hailo-8 / DEEPX DX-M1 NPU",
-        "vendor": "OpenAI",
-        "link": "https://github.com/openai/CLIP",
-        "count": 2
-      },
-      {
-        "model": "drp-ai",
-        "name": "Renesas DRP-AI (YOLOv3 / EdgeYOLO / UNet)",
-        "task": "object detection / pose / meter reading",
-        "framework": "DRP-AI TVM",
-        "vendor": "Renesas",
-        "link": "https://www.renesas.com/rzv",
-        "count": 2
       },
       {
         "model": "eiq-genai-llm",
@@ -1773,6 +1776,37 @@
         "integrator": "NXP",
         "maker": "NXP",
         "listings": 1
+      },
+      {
+        "slug": "hailo-8-m2",
+        "vendor": "Microchip",
+        "name": "Hailo-8 M.2 AI Acceleration Module (26 TOPS)",
+        "partNumber": "HAILO-8-M2",
+        "image": null,
+        "imageLocal": "assets/boards/HAILO-8-M2.webp",
+        "link": "https://hailo.ai/products/ai-accelerators/hailo-8-m2-ai-acceleration-module/",
+        "buy": null,
+        "qualifications": [],
+        "tags": [
+          "ai",
+          "npu",
+          "edge"
+        ],
+        "resources": [
+          {
+            "kind": "quickstart",
+            "title": "Hailo-8 on Raspberry Pi 5 Setup",
+            "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/blob/main/raspberry-pi/hailo-vision-multitool/README.md"
+          },
+          {
+            "kind": "doc",
+            "title": "Raspberry Pi 5 Demos Root",
+            "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/raspberry-pi"
+          }
+        ],
+        "integrator": "Hailo / Microchip",
+        "maker": "Hailo",
+        "listings": 2
       },
       {
         "slug": "mimxrt1060-evkb",
@@ -2911,7 +2945,7 @@
         ],
         "integrator": "Renesas",
         "maker": "Renesas",
-        "listings": 2
+        "listings": 4
       },
       {
         "slug": "aes-rzb-v2l-sk-g",
@@ -3867,14 +3901,14 @@
     ]
   },
   "counts": {
-    "total": 230,
+    "total": 234,
     "manufacturers": 17,
-    "boards": 99,
+    "boards": 100,
     "sdks": 28,
     "tools": 6,
-    "examples": 196,
+    "examples": 200,
     "models": 25,
-    "guides": 90,
+    "guides": 91,
     "demos": 13,
     "partners": 9
   },
@@ -7775,7 +7809,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/nxp-imx93andmcxn.JPG",
       "dashboards": [
         "https://saleshosted.z13.web.core.windows.net/dashboard/r3/nxp-frdm93-workersafty.PNG"
@@ -9159,7 +9193,7 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-scalable-ai-placard.JPG",
       "dashboards": [
         "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/microchip-polarfire-soc-dk/images/mchp-polarfire-complex-dashboard.jpg"
@@ -9224,7 +9258,7 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-scalable-ai-placard.JPG",
       "dashboards": [],
       "photos": [
@@ -9288,7 +9322,7 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-scalable-ai-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -9349,7 +9383,7 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": null,
       "dashboards": [
         "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/microchip-polarfire-soc-vk/images/mchp-polarfire-track1-dashboard.jpg"
@@ -9410,7 +9444,7 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": null,
       "dashboards": [],
       "photos": [
@@ -9472,7 +9506,7 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": null,
       "dashboards": [],
       "photos": [
@@ -9535,7 +9569,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-kws-placard.JPG",
       "dashboards": [
         "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/microchip-sama7d65-curiosity/media/kws-blackjack-iotc-live_tabular.jpg"
@@ -9595,7 +9629,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-kws-placard.JPG",
       "dashboards": [],
       "photos": [
@@ -9658,7 +9692,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-kws-placard.JPG",
       "dashboards": [],
       "photos": [
@@ -9719,7 +9753,7 @@
         "sensors"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-kws-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -9768,7 +9802,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9817,7 +9851,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": null,
       "dashboards": [
         "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/nxp-frdm-imx-93/media/dashboard_reduced.png"
@@ -9883,7 +9917,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": null,
       "dashboards": [],
       "photos": [
@@ -9944,7 +9978,7 @@
         "file-upload"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9995,7 +10029,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10047,7 +10081,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10099,7 +10133,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ren-rzv2h-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -10156,7 +10190,7 @@
         "sensors"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ren-rzv2h-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -10205,7 +10239,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": null,
       "dashboards": [
         "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/stm32mp135f-dk/media/STMP135-objectDet-screenshot.png"
@@ -10267,7 +10301,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10319,7 +10353,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": null,
       "dashboards": [],
       "photos": [
@@ -10371,7 +10405,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10421,7 +10455,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10472,7 +10506,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10532,7 +10566,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10584,7 +10618,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10634,7 +10668,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10684,7 +10718,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10735,7 +10769,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10787,7 +10821,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10837,7 +10871,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10887,7 +10921,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10938,7 +10972,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10990,7 +11024,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -11041,7 +11075,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": null,
       "dashboards": [],
       "photos": [
@@ -11107,7 +11141,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -11161,7 +11195,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -11213,7 +11247,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": null,
       "dashboards": [
         "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/tria-vision-ai-kit-6490/media/vision-ai-dash.png"
@@ -11625,7 +11659,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/arduino-unoq-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -11675,7 +11709,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-scalable-ai-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -11725,7 +11759,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -11773,7 +11807,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": null,
       "dashboards": [],
       "photos": [
@@ -11827,7 +11861,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": null,
       "dashboards": [],
       "photos": [
@@ -11882,7 +11916,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ren-rzg3e-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -14704,7 +14738,7 @@
         "npu"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -15539,7 +15573,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": null,
       "dashboards": [],
       "photos": [
@@ -15557,7 +15591,136 @@
       ],
       "described": true,
       "hidden": false,
-      "id": "hailo-vision-multi-tool-cloud-retaskable-cnn-vision",
+      "id": "hailo-vision-multi-tool-cloud-retaskable-cnn-vision::rpi5-4gb-single",
+      "boards": [
+        {
+          "slug": "rpi5-4gb-single",
+          "vendor": "Broadcom",
+          "name": "Raspberry Pi5 4GB",
+          "maker": "Raspberry Pi",
+          "integrator": "Raspberry Pi",
+          "partNumber": "RPI5-4GB-SINGLE",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/RPI5.png"
+        }
+      ],
+      "board": {
+        "slug": "rpi5-4gb-single",
+        "vendor": "Broadcom",
+        "name": "Raspberry Pi5 4GB",
+        "maker": "Raspberry Pi",
+        "integrator": "Raspberry Pi",
+        "partNumber": "RPI5-4GB-SINGLE",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/RPI5.png"
+      },
+      "manufacturers": [
+        "Broadcom"
+      ],
+      "makers": [
+        "Raspberry Pi"
+      ]
+    },
+    {
+      "repo": "iotc-python-lite-sdk-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/raspberry-pi/hailo-vision-multitool",
+      "displayName": "Hailo Vision Multi-Tool - Cloud-Retaskable CNN Vision",
+      "description": "One Raspberry Pi 5 + Hailo-8 M.2 accelerator, three heavyweight YOLOv8m pipelines - object detection, pose estimation, and instance segmentation - switched live from the /IOTCONNECT dashboard. set-mode tears down the running pipeline and boots the next in seconds at ~30 fps camera rate. People and object counts stream to the cloud once per second, and the board serves its own embeddable live pages including an animated object board.",
+      "category": "sample",
+      "status": "beta",
+      "release": null,
+      "languages": [
+        "Python"
+      ],
+      "features": [
+        "edge-ai",
+        "hailo",
+        "npu",
+        "vision"
+      ],
+      "stars": 3,
+      "updated": "2026-10-20T20:46:52Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [
+        "assets/listings/hailo-vision-multitool.svg"
+      ],
+      "models": [
+        {
+          "slug": "yolov8",
+          "name": "YOLOv8 (Ultralytics)",
+          "task": "object detection",
+          "framework": "ONNX / TFLite / Hexagon NPU",
+          "vendor": "Ultralytics",
+          "link": "https://docs.ultralytics.com"
+        }
+      ],
+      "described": true,
+      "hidden": false,
+      "id": "hailo-vision-multi-tool-cloud-retaskable-cnn-vision::hailo-8-m2",
+      "boards": [
+        {
+          "slug": "hailo-8-m2",
+          "vendor": "Microchip",
+          "name": "Hailo-8 M.2 AI Acceleration Module (26 TOPS)",
+          "maker": "Hailo",
+          "integrator": "Hailo / Microchip",
+          "partNumber": "HAILO-8-M2",
+          "imageLocal": "assets/boards/HAILO-8-M2.webp"
+        }
+      ],
+      "board": {
+        "slug": "hailo-8-m2",
+        "vendor": "Microchip",
+        "name": "Hailo-8 M.2 AI Acceleration Module (26 TOPS)",
+        "maker": "Hailo",
+        "integrator": "Hailo / Microchip",
+        "partNumber": "HAILO-8-M2",
+        "imageLocal": "assets/boards/HAILO-8-M2.webp"
+      },
+      "manufacturers": [
+        "Microchip"
+      ],
+      "makers": [
+        "Hailo"
+      ]
+    },
+    {
+      "repo": "iotc-python-lite-sdk-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/raspberry-pi/hailo-clip-ai-vision",
+      "displayName": "Ask the Camera - CLIP Vision on Hailo-8",
+      "description": "Cloud-reprogrammable AI vision on a Raspberry Pi 5 with the Hailo-8 M.2 accelerator: the CLIP vision-language model runs on the NPU and scores the live camera feed against plain-English prompts sent from the /IOTCONNECT dashboard - 'a person waving', 'a red toolbox' - with no retraining and no redeployment. Prompt commands go down, live similarity telemetry comes up, and the board serves embeddable live pages.",
+      "category": "sample",
+      "status": "beta",
+      "release": null,
+      "languages": [
+        "Python"
+      ],
+      "features": [
+        "edge-ai",
+        "hailo",
+        "npu",
+        "vision",
+        "vlm"
+      ],
+      "stars": 3,
+      "updated": "2026-10-20T20:46:52Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [
+        "assets/listings/hailo-clip-ai-vision.svg"
+      ],
+      "models": [
+        {
+          "slug": "clip",
+          "name": "CLIP (vision-language)",
+          "task": "zero-shot image-text similarity / promptable vision",
+          "framework": "Hailo-8 / DEEPX DX-M1 NPU",
+          "vendor": "OpenAI",
+          "link": "https://github.com/openai/CLIP"
+        }
+      ],
+      "described": true,
+      "hidden": false,
+      "id": "ask-the-camera-clip-vision-on-hailo-8::rpi5-4gb-single",
       "boards": [
         {
           "slug": "rpi5-4gb-single",
@@ -15604,7 +15767,7 @@
         "vlm"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": null,
       "dashboards": [],
       "photos": [
@@ -15622,32 +15785,32 @@
       ],
       "described": true,
       "hidden": false,
-      "id": "ask-the-camera-clip-vision-on-hailo-8",
+      "id": "ask-the-camera-clip-vision-on-hailo-8::hailo-8-m2",
       "boards": [
         {
-          "slug": "rpi5-4gb-single",
-          "vendor": "Broadcom",
-          "name": "Raspberry Pi5 4GB",
-          "maker": "Raspberry Pi",
-          "integrator": "Raspberry Pi",
-          "partNumber": "RPI5-4GB-SINGLE",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/RPI5.png"
+          "slug": "hailo-8-m2",
+          "vendor": "Microchip",
+          "name": "Hailo-8 M.2 AI Acceleration Module (26 TOPS)",
+          "maker": "Hailo",
+          "integrator": "Hailo / Microchip",
+          "partNumber": "HAILO-8-M2",
+          "imageLocal": "assets/boards/HAILO-8-M2.webp"
         }
       ],
       "board": {
-        "slug": "rpi5-4gb-single",
-        "vendor": "Broadcom",
-        "name": "Raspberry Pi5 4GB",
-        "maker": "Raspberry Pi",
-        "integrator": "Raspberry Pi",
-        "partNumber": "RPI5-4GB-SINGLE",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/RPI5.png"
+        "slug": "hailo-8-m2",
+        "vendor": "Microchip",
+        "name": "Hailo-8 M.2 AI Acceleration Module (26 TOPS)",
+        "maker": "Hailo",
+        "integrator": "Hailo / Microchip",
+        "partNumber": "HAILO-8-M2",
+        "imageLocal": "assets/boards/HAILO-8-M2.webp"
       },
       "manufacturers": [
-        "Broadcom"
+        "Microchip"
       ],
       "makers": [
-        "Raspberry Pi"
+        "Hailo"
       ]
     },
     {
@@ -15669,7 +15832,7 @@
         "vlm"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": null,
       "dashboards": [
         "assets/listings/deepx-clip-dash.png"
@@ -15984,7 +16147,7 @@
         "vlm"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -16038,7 +16201,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-10-19T10:46:30Z",
+      "updated": "2026-10-20T20:46:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -16282,6 +16445,138 @@
       ],
       "makers": [
         "NXP"
+      ]
+    },
+    {
+      "repo": "iotc-renesas-rzv2h-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-renesas-rzv2h-demos/blob/main/robotic-arm/README.md",
+      "displayName": "RZ/V2H EVK — XArm Robotic Pick-and-Place",
+      "description": "Vision-driven robotic arm on the Renesas RZ/V2H EVK: a wrist-mounted camera finds a ball with a YOLO model running on the DRP-AI accelerator, and a Hiwonder xArm 1S picks it up and drops it in a box, streaming telemetry to and taking commands from /IOTCONNECT. A port of the Qualcomm QCS6490 Vision AI-Kit robotic-arm demo — same control loop, calibration tools and dashboard, new DRP-AI inference stack.",
+      "category": "sample",
+      "status": "beta",
+      "release": null,
+      "languages": [
+        "Python"
+      ],
+      "features": [
+        "edge-ai",
+        "npu",
+        "robotics",
+        "vision"
+      ],
+      "stars": 0,
+      "updated": "2026-10-21T15:07:07Z",
+      "image": null,
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-renesas-rzv2h-demos/main/robotic-arm/media/dashboard.png"
+      ],
+      "photos": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-renesas-rzv2h-demos/main/robotic-arm/media/final-camera-mounted.png"
+      ],
+      "models": [
+        {
+          "slug": "drp-ai",
+          "name": "Renesas DRP-AI (YOLOv3 / EdgeYOLO / UNet)",
+          "task": "object detection / pose / meter reading",
+          "framework": "DRP-AI TVM",
+          "vendor": "Renesas",
+          "link": "https://www.renesas.com/rzv"
+        }
+      ],
+      "described": true,
+      "hidden": false,
+      "id": "rz-v2h-evk-xarm-robotic-pick-and-place",
+      "boards": [
+        {
+          "slug": "rz-v2h-evk",
+          "vendor": "Renesas",
+          "name": "RZ/V2H Evaluation Kit",
+          "maker": "Renesas",
+          "partNumber": "RZ-V2H-EVK",
+          "imageLocal": "assets/boards/RZ-V2H-EVK.jpg"
+        }
+      ],
+      "board": {
+        "slug": "rz-v2h-evk",
+        "vendor": "Renesas",
+        "name": "RZ/V2H Evaluation Kit",
+        "maker": "Renesas",
+        "partNumber": "RZ-V2H-EVK",
+        "imageLocal": "assets/boards/RZ-V2H-EVK.jpg"
+      },
+      "manufacturers": [
+        "Renesas"
+      ],
+      "makers": [
+        "Renesas"
+      ]
+    },
+    {
+      "repo": "iotc-renesas-rzv2h-demos",
+      "url": "https://github.com/avnet-iotconnect/iotc-renesas-rzv2h-demos/blob/main/pose-safety/README.md",
+      "displayName": "RZ/V2H EVK — Human-Pose Operator Safety",
+      "description": "Operator-safety monitoring on the Renesas RZ/V2H EVK with no robot required: a YOLOv8n-pose model on the DRP-AI accelerator turns everyone in view into a live skeleton, and the app raises events for hazard-zone entry, a person down, a raised-hands stop gesture and bad lifting posture. /IOTCONNECT receives the telemetry and alerts and can flip inference between DRP-AI and CPU while the demo runs.",
+      "category": "sample",
+      "status": "beta",
+      "release": null,
+      "languages": [
+        "Python"
+      ],
+      "features": [
+        "edge-ai",
+        "industrial",
+        "npu",
+        "vision"
+      ],
+      "stars": 0,
+      "updated": "2026-10-21T15:07:07Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "models": [
+        {
+          "slug": "drp-ai",
+          "name": "Renesas DRP-AI (YOLOv3 / EdgeYOLO / UNet)",
+          "task": "object detection / pose / meter reading",
+          "framework": "DRP-AI TVM",
+          "vendor": "Renesas",
+          "link": "https://www.renesas.com/rzv"
+        },
+        {
+          "slug": "yolov8",
+          "name": "YOLOv8 (Ultralytics)",
+          "task": "object detection",
+          "framework": "ONNX / TFLite / Hexagon NPU",
+          "vendor": "Ultralytics",
+          "link": "https://docs.ultralytics.com"
+        }
+      ],
+      "described": true,
+      "hidden": false,
+      "id": "rz-v2h-evk-human-pose-operator-safety",
+      "boards": [
+        {
+          "slug": "rz-v2h-evk",
+          "vendor": "Renesas",
+          "name": "RZ/V2H Evaluation Kit",
+          "maker": "Renesas",
+          "partNumber": "RZ-V2H-EVK",
+          "imageLocal": "assets/boards/RZ-V2H-EVK.jpg"
+        }
+      ],
+      "board": {
+        "slug": "rz-v2h-evk",
+        "vendor": "Renesas",
+        "name": "RZ/V2H Evaluation Kit",
+        "maker": "Renesas",
+        "partNumber": "RZ-V2H-EVK",
+        "imageLocal": "assets/boards/RZ-V2H-EVK.jpg"
+      },
+      "manufacturers": [
+        "Renesas"
+      ],
+      "makers": [
+        "Renesas"
       ]
     }
   ]

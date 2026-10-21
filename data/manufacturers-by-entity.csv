@@ -170,7 +170,7 @@ Autonics,,,X,,,,,,1,
 AV Displays,,,,,,,,X,1,
 Avalue Technology Inc.,,,,,,,,X,1,
 Aven,,,X,,,,,,1,
-Avnet,,,X,X,X,,,,3,AVNET
+Avnet,,,X,X,X,,X,,4,AVNET
 Avnet Embedded,,,,,,,,X,1,
 Avnet Embedded Platforms Group,X,,,,,,,,1,
 Axiom,,,X,,,,,,1,
@@ -1113,7 +1113,7 @@ Qlogic,,X,,,,,,,1,
 Qorvo,X,X,X,,X,X,,,5,QORVO; RFMD
 Quadrangle Products,X,,,,,,,,1,
 Quail Electronics,,,X,,,,,,1,
-Qualcomm RF360,X,,,,,X,,,2,Qualcomm-RF360
+Qualcomm RF360,X,,,,,X,X,,3,Qualcomm-RF360
 Qualtek,,,X,,,,,,1,
 Quam-Nichols,,,X,,,,,,1,
 Quanta Cloud Technology (QCT),X,,,,,,,,1,

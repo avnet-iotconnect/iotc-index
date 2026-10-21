@@ -237,3 +237,5 @@ EV74H48A,board,developer,Developer Guide,https://github.com/avnet-iotconnect/iot
 EV74H48A,board,doc,GitHub Repository Root,https://github.com/avnet-iotconnect/iotc-mchp-dspic33-curosity-rnwf11
 INTEL-NUC,board,quickstart,QuickStart Guide,https://github.com/avnet-iotconnect/iotc-nuc-vlm-demo/blob/main/README.md
 INTEL-NUC,board,doc,GitHub Repository Root,https://github.com/avnet-iotconnect/iotc-nuc-vlm-demo
+HAILO-8-M2,board,quickstart,Hailo-8 on Raspberry Pi 5 Setup,https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/blob/main/raspberry-pi/hailo-vision-multitool/README.md
+HAILO-8-M2,board,doc,Raspberry Pi 5 Demos Root,https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/raspberry-pi

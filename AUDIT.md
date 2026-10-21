@@ -1,6 +1,6 @@
 # /IOTCONNECT Index — Audit Report
 
-_Generated 2026-10-19T14:19:11Z_  ·  230 listings · 99 boards (89 in use) · 17 manufacturers · 238 resources
+_Generated 2026-10-21T15:08:32Z_  ·  234 listings · 100 boards (90 in use) · 17 manufacturers · 240 resources
 
 ## ⚠ Boards referenced but missing from the Boards sheet
 - none — every referenced board is defined.
@@ -21,7 +21,7 @@ _Generated 2026-10-19T14:19:11Z_  ·  230 listings · 99 boards (89 in use) · 1
 - NXP · NXP MaaXBoard Mini (AES-MC-SBC-IMX8MINI-G)
 
 ## Org repos with no listing (candidates to add)
-- iotc-renesas-rzv2h-demos — C:/Program Files/Git/IOTCONNECT XArm YOLO pick-and-place demo for the Renesas RZ/V2H EVK (DRP-AI)
+- none — every public repo has a listing.
 
 ## ⚠ Broken GitHub links (404)
 - none — every GitHub link resolves.
