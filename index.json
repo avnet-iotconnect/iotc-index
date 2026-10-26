@@ -1,6 +1,6 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-10-21T15:08:32Z",
+  "generated": "2026-10-26T13:51:30Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
@@ -7809,7 +7809,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/nxp-imx93andmcxn.JPG",
       "dashboards": [
         "https://saleshosted.z13.web.core.windows.net/dashboard/r3/nxp-frdm93-workersafty.PNG"
@@ -9193,7 +9193,7 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-scalable-ai-placard.JPG",
       "dashboards": [
         "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/microchip-polarfire-soc-dk/images/mchp-polarfire-complex-dashboard.jpg"
@@ -9258,7 +9258,7 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-scalable-ai-placard.JPG",
       "dashboards": [],
       "photos": [
@@ -9322,7 +9322,7 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-scalable-ai-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -9383,7 +9383,7 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": null,
       "dashboards": [
         "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/microchip-polarfire-soc-vk/images/mchp-polarfire-track1-dashboard.jpg"
@@ -9444,7 +9444,7 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": null,
       "dashboards": [],
       "photos": [
@@ -9506,7 +9506,7 @@
         "fpga"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": null,
       "dashboards": [],
       "photos": [
@@ -9569,7 +9569,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-kws-placard.JPG",
       "dashboards": [
         "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/microchip-sama7d65-curiosity/media/kws-blackjack-iotc-live_tabular.jpg"
@@ -9629,7 +9629,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-kws-placard.JPG",
       "dashboards": [],
       "photos": [
@@ -9692,7 +9692,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-kws-placard.JPG",
       "dashboards": [],
       "photos": [
@@ -9753,7 +9753,7 @@
         "sensors"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-kws-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -9802,7 +9802,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -9851,7 +9851,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": null,
       "dashboards": [
         "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/nxp-frdm-imx-93/media/dashboard_reduced.png"
@@ -9917,7 +9917,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": null,
       "dashboards": [],
       "photos": [
@@ -9978,7 +9978,7 @@
         "file-upload"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10029,7 +10029,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10081,7 +10081,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10133,7 +10133,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ren-rzv2h-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -10190,7 +10190,7 @@
         "sensors"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ren-rzv2h-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -10239,7 +10239,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": null,
       "dashboards": [
         "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/stm32mp135f-dk/media/STMP135-objectDet-screenshot.png"
@@ -10301,7 +10301,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10353,7 +10353,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": null,
       "dashboards": [],
       "photos": [
@@ -10405,7 +10405,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10455,7 +10455,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10506,7 +10506,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10566,7 +10566,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10618,7 +10618,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10668,7 +10668,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10718,7 +10718,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10769,7 +10769,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10821,7 +10821,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10871,7 +10871,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10921,7 +10921,7 @@
         "edge-ai"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -10972,7 +10972,7 @@
         "video"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -11024,7 +11024,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -11075,7 +11075,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": null,
       "dashboards": [],
       "photos": [
@@ -11141,7 +11141,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -11195,7 +11195,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -11247,7 +11247,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": null,
       "dashboards": [
         "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-lite-sdk-demos/main/tria-vision-ai-kit-6490/media/vision-ai-dash.png"
@@ -11659,7 +11659,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/arduino-unoq-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -11709,7 +11709,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/mchp-scalable-ai-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -11759,7 +11759,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -11807,7 +11807,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": null,
       "dashboards": [],
       "photos": [
@@ -11861,7 +11861,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": null,
       "dashboards": [],
       "photos": [
@@ -11916,7 +11916,7 @@
         "mpu"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ren-rzg3e-placard.JPG",
       "dashboards": [],
       "photos": [],
@@ -14738,7 +14738,7 @@
         "npu"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -15573,7 +15573,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": null,
       "dashboards": [],
       "photos": [
@@ -15637,7 +15637,7 @@
         "vision"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": null,
       "dashboards": [],
       "photos": [
@@ -15702,7 +15702,7 @@
         "vlm"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": null,
       "dashboards": [],
       "photos": [
@@ -15767,7 +15767,7 @@
         "vlm"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": null,
       "dashboards": [],
       "photos": [
@@ -15832,7 +15832,7 @@
         "vlm"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": null,
       "dashboards": [
         "assets/listings/deepx-clip-dash.png"
@@ -16147,7 +16147,7 @@
         "vlm"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -16201,7 +16201,7 @@
         "webrtc"
       ],
       "stars": 3,
-      "updated": "2026-10-20T20:46:52Z",
+      "updated": "2026-10-21T21:44:21Z",
       "image": null,
       "dashboards": [],
       "photos": [],
