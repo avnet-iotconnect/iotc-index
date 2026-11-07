@@ -99,4 +99,4 @@ Microchip,dsPIC33CK Motor Control Starter Kit (MCSK),EV12F76A,,EV12F76A.png,http
 Microchip,dsPIC33 Curiosity Platform Development Board,EV74H48A,,EV74H48A.png,https://www.microchip.com/en-us/development-tool/ev74h48a,no,no,"mcu,wifi",yes,Microchip
 Intel,Intel NUC Mini PC (Core Ultra),INTEL-NUC,,INTEL-NUC.jpg,https://www.msi.com/Business-Productivity-PC/Cubi-NUC-AI-Plus-3MX,no,no,"ai,vision,npu,edge",yes,Intel
 Hailo / Microchip,Hailo-8 M.2 AI Acceleration Module (26 TOPS),HAILO-8-M2,,HAILO-8-M2.webp,https://hailo.ai/products/ai-accelerators/hailo-8-m2-ai-acceleration-module/,no,no,"ai,npu,edge",yes,Microchip
-Arduino,Arduino VENTUNO Q,ABX00181,,,https://store.arduino.cc/products/ventuno-q,no,no,"AI, Robotics, Linux, NPU",yes,Qualcomm
+Arduino,Arduino VENTUNO Q,ABX00181,,ABX00181.jpg,https://store.arduino.cc/products/ventuno-q,no,no,"AI, Robotics, Linux, NPU",yes,Qualcomm
