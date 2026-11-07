@@ -1,6 +1,6 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-11-02T16:48:23Z",
+  "generated": "2026-11-07T19:23:55Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
@@ -76,7 +76,7 @@
       "logo": "assets/brand/nvidia-logo.svg",
       "info": null,
       "boards": 6,
-      "listings": 6
+      "listings": 7
     },
     {
       "name": "NXP",
@@ -99,8 +99,8 @@
       "slug": "qualcomm",
       "logo": "assets/brand/qualcomm-logo.svg",
       "info": null,
-      "boards": 3,
-      "listings": 8
+      "boards": 4,
+      "listings": 10
     },
     {
       "name": "Realtek",
@@ -340,18 +340,18 @@
     "topics": [
       {
         "tag": "edge-ai",
-        "count": 82
+        "count": 83
       },
       {
         "tag": "vision",
-        "count": 47
-      },
-      {
-        "tag": "gateway",
-        "count": 35
+        "count": 48
       },
       {
         "tag": "sensors",
+        "count": 36
+      },
+      {
+        "tag": "gateway",
         "count": 35
       },
       {
@@ -367,31 +367,27 @@
         "count": 26
       },
       {
-        "tag": "wifi",
+        "tag": "npu",
         "count": 25
       },
       {
-        "tag": "npu",
-        "count": 24
+        "tag": "wifi",
+        "count": 25
       },
       {
         "tag": "greengrass",
         "count": 20
       },
       {
-        "tag": "ble",
-        "count": 19
-      },
-      {
         "tag": "kvs",
         "count": 17
       },
       {
-        "tag": "mpu",
-        "count": 15
+        "tag": "ble",
+        "count": 16
       },
       {
-        "tag": "yocto",
+        "tag": "mpu",
         "count": 15
       },
       {
@@ -415,6 +411,10 @@
         "count": 12
       },
       {
+        "tag": "yocto",
+        "count": 12
+      },
+      {
         "tag": "webrtc",
         "count": 11
       },
@@ -431,11 +431,19 @@
         "count": 7
       },
       {
+        "tag": "gesture",
+        "count": 7
+      },
+      {
+        "tag": "industrial",
+        "count": 7
+      },
+      {
         "tag": "lora",
         "count": 7
       },
       {
-        "tag": "lorawan",
+        "tag": "predictive-maintenance",
         "count": 7
       },
       {
@@ -447,23 +455,15 @@
         "count": 6
       },
       {
-        "tag": "gesture",
-        "count": 6
-      },
-      {
-        "tag": "modbus",
-        "count": 6
-      },
-      {
-        "tag": "predictive-maintenance",
-        "count": 6
-      },
-      {
         "tag": "vlm",
         "count": 6
       },
       {
         "tag": "cellular",
+        "count": 5
+      },
+      {
+        "tag": "robotics",
         "count": 5
       },
       {
@@ -475,11 +475,11 @@
         "count": 4
       },
       {
-        "tag": "industrial",
+        "tag": "lorawan",
         "count": 4
       },
       {
-        "tag": "robotics",
+        "tag": "modbus",
         "count": 4
       },
       {
@@ -551,6 +551,10 @@
         "count": 1
       },
       {
+        "tag": "app-lab",
+        "count": 1
+      },
+      {
         "tag": "asset-tracking",
         "count": 1
       },
@@ -596,6 +600,10 @@
       },
       {
         "tag": "hardware-crypto",
+        "count": 1
+      },
+      {
+        "tag": "linux",
         "count": 1
       },
       {
@@ -698,7 +706,7 @@
         "framework": "ONNX / TFLite / Hexagon NPU",
         "vendor": "Ultralytics",
         "link": "https://docs.ultralytics.com",
-        "count": 5
+        "count": 6
       },
       {
         "model": "drp-ai",
@@ -755,6 +763,15 @@
         "count": 3
       },
       {
+        "model": "mediapipe-pointnet",
+        "name": "MediaPipe Hands + PointNet",
+        "task": "hand / ASL gesture recognition",
+        "framework": "MediaPipe + PyTorch",
+        "vendor": "Google / community",
+        "link": "https://developers.google.com/mediapipe",
+        "count": 3
+      },
+      {
         "model": "mobilenet",
         "name": "MobileNet",
         "task": "image classification",
@@ -782,12 +799,12 @@
         "count": 2
       },
       {
-        "model": "mediapipe-pointnet",
-        "name": "MediaPipe Hands + PointNet",
-        "task": "hand / ASL gesture recognition",
-        "framework": "MediaPipe + PyTorch",
-        "vendor": "Google / community",
-        "link": "https://developers.google.com/mediapipe",
+        "model": "midas-depth",
+        "name": "MiDaS (monocular depth)",
+        "task": "depth estimation",
+        "framework": "TFLite",
+        "vendor": "Intel / community",
+        "link": "https://github.com/isl-org/MiDaS",
         "count": 2
       },
       {
@@ -815,15 +832,6 @@
         "framework": "eIQ Time Series Studio",
         "vendor": "NXP",
         "link": "https://www.nxp.com/design/design-center/software/eiq-ai-development-environment/eiq-time-series-studio:EIQ-TIME-SERIES-STUDIO",
-        "count": 1
-      },
-      {
-        "model": "midas-depth",
-        "name": "MiDaS (monocular depth)",
-        "task": "depth estimation",
-        "framework": "TFLite",
-        "vendor": "Intel / community",
-        "link": "https://github.com/isl-org/MiDaS",
         "count": 1
       },
       {
@@ -1035,6 +1043,43 @@
             "kind": "quickstart",
             "title": "Python Lite SDK — Arduino Uno Q QuickStart",
             "url": "https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/arduino-uno-q"
+          }
+        ],
+        "integrator": "Arduino",
+        "maker": "Arduino",
+        "listings": 2
+      },
+      {
+        "slug": "abx00181",
+        "vendor": "Qualcomm",
+        "name": "Arduino VENTUNO Q",
+        "partNumber": "ABX00181",
+        "image": null,
+        "imageLocal": null,
+        "link": "https://store.arduino.cc/products/ventuno-q",
+        "buy": "https://store.arduino.cc/products/ventuno-q",
+        "qualifications": [],
+        "tags": [
+          "AI",
+          "Robotics",
+          "Linux",
+          "NPU"
+        ],
+        "resources": [
+          {
+            "kind": "buy",
+            "title": "Arduino VENTUNO Q — Arduino Store",
+            "url": "https://store.arduino.cc/products/ventuno-q"
+          },
+          {
+            "kind": "quickstart",
+            "title": "Arduino VENTUNO Q — XArm Vision Demos (iotc-arduino-ventuno-q-robotic-arm)",
+            "url": "https://github.com/avnet-iotconnect/iotc-arduino-ventuno-q-robotic-arm#readme"
+          },
+          {
+            "kind": "doc",
+            "title": "Arduino VENTUNO Q — product page",
+            "url": "https://www.arduino.cc/product-ventuno-q"
           }
         ],
         "integrator": "Arduino",
@@ -2290,7 +2335,7 @@
         "resources": [],
         "integrator": "Asus",
         "maker": "Asus",
-        "listings": 1
+        "listings": 2
       },
       {
         "slug": "ev76r77a",
@@ -3901,14 +3946,14 @@
     ]
   },
   "counts": {
-    "total": 234,
+    "total": 236,
     "manufacturers": 17,
-    "boards": 100,
+    "boards": 101,
     "sdks": 28,
     "tools": 6,
-    "examples": 200,
+    "examples": 202,
     "models": 25,
-    "guides": 91,
+    "guides": 92,
     "demos": 13,
     "partners": 9
   },
@@ -3926,7 +3971,7 @@
       ],
       "features": [],
       "stars": 3,
-      "updated": "2026-07-11T05:39:08Z",
+      "updated": "2026-11-03T19:43:15Z",
       "image": "assets/tech/c.svg",
       "dashboards": [],
       "photos": [],
@@ -7864,7 +7909,7 @@
         "vision"
       ],
       "stars": 0,
-      "updated": "2026-09-01T15:26:09Z",
+      "updated": "2026-11-04T21:52:05Z",
       "image": null,
       "dashboards": [
         "https://raw.githubusercontent.com/avnet-iotconnect/iotc-tria-vision-ai-kit-robotic-arm/main/media/dashboard.png"
@@ -8757,10 +8802,12 @@
         "Python"
       ],
       "features": [
+        "app-lab",
+        "linux",
         "mcu"
       ],
       "stars": 0,
-      "updated": "2026-09-17T07:28:04Z",
+      "updated": "2026-11-07T04:23:13Z",
       "image": "assets/tech/arduino.svg",
       "dashboards": [
         "https://raw.githubusercontent.com/avnet-iotconnect/iotc-arduino-uno-q-app-lab/main/app-configs/air-quality-monitoring/aqm-dashboard.jpg",
@@ -8776,10 +8823,32 @@
       "described": true,
       "hidden": false,
       "id": "arduino-uno-q-app-lab",
-      "boards": [],
-      "board": null,
-      "manufacturers": [],
-      "makers": []
+      "boards": [
+        {
+          "slug": "arduino-uno-q",
+          "vendor": "Qualcomm",
+          "name": "Arduino UNO Q",
+          "maker": "Arduino",
+          "integrator": "Arduino",
+          "partNumber": "ARDUINO-UNO-Q",
+          "imageLocal": "assets/boards/ARDUINO-UNO-Q.jpg"
+        }
+      ],
+      "board": {
+        "slug": "arduino-uno-q",
+        "vendor": "Qualcomm",
+        "name": "Arduino UNO Q",
+        "maker": "Arduino",
+        "integrator": "Arduino",
+        "partNumber": "ARDUINO-UNO-Q",
+        "imageLocal": "assets/boards/ARDUINO-UNO-Q.jpg"
+      },
+      "manufacturers": [
+        "Qualcomm"
+      ],
+      "makers": [
+        "Arduino"
+      ]
     },
     {
       "repo": "iotc-greengrass-c-sdk",
@@ -12522,174 +12591,6 @@
       "models": [],
       "described": true,
       "hidden": false,
-      "id": "iotconnect-python-examples-collection::pe100a",
-      "boards": [
-        {
-          "slug": "pe100a",
-          "vendor": "NVIDIA",
-          "name": "PE100A",
-          "maker": "Asus",
-          "integrator": "Asus",
-          "partNumber": "PE100A",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/Asus_PE100a.png"
-        }
-      ],
-      "board": {
-        "slug": "pe100a",
-        "vendor": "NVIDIA",
-        "name": "PE100A",
-        "maker": "Asus",
-        "integrator": "Asus",
-        "partNumber": "PE100A",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/Asus_PE100a.png"
-      },
-      "manufacturers": [
-        "NVIDIA"
-      ],
-      "makers": [
-        "Asus"
-      ]
-    },
-    {
-      "repo": "iotc-python-examples",
-      "url": "https://github.com/avnet-iotconnect/iotc-python-examples",
-      "displayName": "/IOTCONNECT Python Examples Collection",
-      "description": "A collection of Python-based /IOTCONNECT examples and demos running on Linux gateways and edge devices, covering BLE sensor ingestion (STEVAL-PROTEUS1, SensorTile.box PRO) bridged through an STM32MP157F-DK2 gateway, Modbus motor monitoring on the Asus PE100A, Dell Edge Gateway 3200/5200 connectivity, and a Yocto-built LoRaWAN gateway that bridges a ChirpStack LoRa Network Server to /IOTCONNECT on the STM32MP157F-DK2. Examples connect to /IOTCONNECT on AWS and Azure using the Python SDK.",
-      "category": "sample",
-      "status": "beta",
-      "release": null,
-      "languages": [
-        "Python"
-      ],
-      "features": [
-        "ble",
-        "gateway",
-        "lorawan",
-        "modbus",
-        "yocto"
-      ],
-      "stars": 1,
-      "updated": "2025-04-26T00:15:34Z",
-      "image": null,
-      "dashboards": [
-        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-examples/main/PE100A_Motor_Monitor_Demo/media/image15.png"
-      ],
-      "photos": [],
-      "models": [],
-      "described": true,
-      "hidden": false,
-      "id": "iotconnect-python-examples-collection::3200",
-      "boards": [
-        {
-          "slug": "3200",
-          "vendor": "Intel",
-          "name": "Dell Edge Gateway 3200",
-          "maker": "Dell",
-          "integrator": "Dell",
-          "partNumber": "3200",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/Dell_3200.png"
-        }
-      ],
-      "board": {
-        "slug": "3200",
-        "vendor": "Intel",
-        "name": "Dell Edge Gateway 3200",
-        "maker": "Dell",
-        "integrator": "Dell",
-        "partNumber": "3200",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/Dell_3200.png"
-      },
-      "manufacturers": [
-        "Intel"
-      ],
-      "makers": [
-        "Dell"
-      ]
-    },
-    {
-      "repo": "iotc-python-examples",
-      "url": "https://github.com/avnet-iotconnect/iotc-python-examples",
-      "displayName": "/IOTCONNECT Python Examples Collection",
-      "description": "A collection of Python-based /IOTCONNECT examples and demos running on Linux gateways and edge devices, covering BLE sensor ingestion (STEVAL-PROTEUS1, SensorTile.box PRO) bridged through an STM32MP157F-DK2 gateway, Modbus motor monitoring on the Asus PE100A, Dell Edge Gateway 3200/5200 connectivity, and a Yocto-built LoRaWAN gateway that bridges a ChirpStack LoRa Network Server to /IOTCONNECT on the STM32MP157F-DK2. Examples connect to /IOTCONNECT on AWS and Azure using the Python SDK.",
-      "category": "sample",
-      "status": "beta",
-      "release": null,
-      "languages": [
-        "Python"
-      ],
-      "features": [
-        "ble",
-        "gateway",
-        "lorawan",
-        "modbus",
-        "yocto"
-      ],
-      "stars": 1,
-      "updated": "2025-04-26T00:15:34Z",
-      "image": null,
-      "dashboards": [
-        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-examples/main/PE100A_Motor_Monitor_Demo/media/image15.png"
-      ],
-      "photos": [],
-      "models": [],
-      "described": true,
-      "hidden": false,
-      "id": "iotconnect-python-examples-collection::5200",
-      "boards": [
-        {
-          "slug": "5200",
-          "vendor": "Intel",
-          "name": "Dell Edge Gateway 5200",
-          "maker": "Dell",
-          "integrator": "Dell",
-          "partNumber": "5200",
-          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/Dell-5200.png"
-        }
-      ],
-      "board": {
-        "slug": "5200",
-        "vendor": "Intel",
-        "name": "Dell Edge Gateway 5200",
-        "maker": "Dell",
-        "integrator": "Dell",
-        "partNumber": "5200",
-        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/Dell-5200.png"
-      },
-      "manufacturers": [
-        "Intel"
-      ],
-      "makers": [
-        "Dell"
-      ]
-    },
-    {
-      "repo": "iotc-python-examples",
-      "url": "https://github.com/avnet-iotconnect/iotc-python-examples",
-      "displayName": "/IOTCONNECT Python Examples Collection",
-      "description": "A collection of Python-based /IOTCONNECT examples and demos running on Linux gateways and edge devices, covering BLE sensor ingestion (STEVAL-PROTEUS1, SensorTile.box PRO) bridged through an STM32MP157F-DK2 gateway, Modbus motor monitoring on the Asus PE100A, Dell Edge Gateway 3200/5200 connectivity, and a Yocto-built LoRaWAN gateway that bridges a ChirpStack LoRa Network Server to /IOTCONNECT on the STM32MP157F-DK2. Examples connect to /IOTCONNECT on AWS and Azure using the Python SDK.",
-      "category": "sample",
-      "status": "beta",
-      "release": null,
-      "languages": [
-        "Python"
-      ],
-      "features": [
-        "ble",
-        "gateway",
-        "lorawan",
-        "modbus",
-        "yocto"
-      ],
-      "stars": 1,
-      "updated": "2025-04-26T00:15:34Z",
-      "image": null,
-      "dashboards": [
-        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-examples/main/PE100A_Motor_Monitor_Demo/media/image15.png"
-      ],
-      "photos": [],
-      "models": [],
-      "described": true,
-      "hidden": false,
       "id": "iotconnect-python-examples-collection::stm32mp157f-dk2",
       "boards": [
         {
@@ -13807,7 +13708,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-14T15:39:13Z",
+      "updated": "2026-11-03T09:27:17Z",
       "image": "assets/tech/zephyr.svg",
       "dashboards": [],
       "photos": [],
@@ -13837,7 +13738,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-14T16:54:25Z",
+      "updated": "2026-11-03T06:54:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -13887,7 +13788,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-14T16:54:25Z",
+      "updated": "2026-11-03T06:54:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -13939,7 +13840,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-14T16:54:25Z",
+      "updated": "2026-11-03T06:54:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -13989,7 +13890,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-14T16:54:25Z",
+      "updated": "2026-11-03T06:54:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -14041,7 +13942,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-14T16:54:25Z",
+      "updated": "2026-11-03T06:54:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -14091,7 +13992,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-14T16:54:25Z",
+      "updated": "2026-11-03T06:54:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -14141,7 +14042,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-14T16:54:25Z",
+      "updated": "2026-11-03T06:54:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -14193,7 +14094,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-14T16:54:25Z",
+      "updated": "2026-11-03T06:54:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -14243,7 +14144,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-14T16:54:25Z",
+      "updated": "2026-11-03T06:54:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -14295,7 +14196,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-14T16:54:25Z",
+      "updated": "2026-11-03T06:54:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -14344,7 +14245,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-14T16:54:25Z",
+      "updated": "2026-11-03T06:54:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -14393,7 +14294,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-14T16:54:25Z",
+      "updated": "2026-11-03T06:54:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -14442,7 +14343,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-14T16:54:25Z",
+      "updated": "2026-11-03T06:54:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -14493,7 +14394,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-14T16:54:25Z",
+      "updated": "2026-11-03T06:54:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -14545,7 +14446,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-14T16:54:25Z",
+      "updated": "2026-11-03T06:54:52Z",
       "image": null,
       "dashboards": [
         "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/click-telemetry/docs/images/dashboard.png"
@@ -14599,7 +14500,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-14T16:54:25Z",
+      "updated": "2026-11-03T06:54:52Z",
       "image": null,
       "dashboards": [
         "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/click-telemetry/docs/images/dashboard.png"
@@ -14655,7 +14556,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-14T16:54:25Z",
+      "updated": "2026-11-03T06:54:52Z",
       "image": null,
       "dashboards": [
         "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/click-telemetry/docs/images/dashboard.png"
@@ -15223,7 +15124,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-14T16:54:25Z",
+      "updated": "2026-11-03T06:54:52Z",
       "image": null,
       "dashboards": [
         "assets/listings/zephyr-pdm-dash.png"
@@ -15285,7 +15186,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-14T16:54:25Z",
+      "updated": "2026-11-03T06:54:52Z",
       "image": null,
       "dashboards": [
         "assets/listings/zephyr-gateway-dash.png",
@@ -15340,7 +15241,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-14T16:54:25Z",
+      "updated": "2026-11-03T06:54:52Z",
       "image": null,
       "dashboards": [
         "assets/listings/zephyr-mlupdate-dash.png"
@@ -15404,7 +15305,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-14T16:54:25Z",
+      "updated": "2026-11-03T06:54:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -15453,7 +15354,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-14T16:54:25Z",
+      "updated": "2026-11-03T06:54:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -15503,7 +15404,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-14T16:54:25Z",
+      "updated": "2026-11-03T06:54:52Z",
       "image": null,
       "dashboards": [
         "assets/listings/zephyr-vision-occupancy-dash.png"
@@ -15898,7 +15799,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-14T16:54:25Z",
+      "updated": "2026-11-03T06:54:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -15958,7 +15859,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-14T16:54:25Z",
+      "updated": "2026-11-03T06:54:52Z",
       "image": null,
       "dashboards": [],
       "photos": [],
@@ -16358,7 +16259,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-14T16:54:25Z",
+      "updated": "2026-11-03T06:54:52Z",
       "image": null,
       "dashboards": [
         "https://raw.githubusercontent.com/avnet-iotconnect/iotc-zephyr-demos/main/demos/kinetis-meter/docs/images/kinetis_meter_dashboard.png"
@@ -16412,7 +16313,7 @@
         "zephyr"
       ],
       "stars": 0,
-      "updated": "2026-10-14T16:54:25Z",
+      "updated": "2026-11-03T06:54:52Z",
       "image": null,
       "dashboards": [],
       "photos": [
@@ -16577,6 +16478,292 @@
       ],
       "makers": [
         "Renesas"
+      ]
+    },
+    {
+      "repo": "iotc-arduino-ventuno-q-robotic-arm",
+      "url": "https://github.com/avnet-iotconnect/iotc-arduino-ventuno-q-robotic-arm",
+      "displayName": "Arduino VENTUNO Q — Vision AI Robotic Arm",
+      "description": "Three vision-driven robotic-arm demos on the Arduino VENTUNO Q (Qualcomm Dragonwing IQ-8275, 40 TOPS Hexagon NPU) driving a Hiwonder xArm 1S: ASL gesture control with MediaPipe and PointNet, classical HSV pick-and-place in OpenCV, and NPU-accelerated YOLOv8 plus MiDaS depth pick-and-place. The same arm, camera and /IOTCONNECT setup run all three, so classical CV and deep learning are compared side by side while telemetry streams to the cloud and the arm accepts remote commands. Ported from the TRIA Vision AI Kit 6490 demo.",
+      "category": "sample",
+      "status": "beta",
+      "release": null,
+      "languages": [
+        "Python"
+      ],
+      "features": [
+        "edge-ai",
+        "gesture",
+        "npu",
+        "robotics",
+        "vision"
+      ],
+      "stars": 0,
+      "updated": "2026-11-06T21:38:39Z",
+      "image": null,
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-arduino-ventuno-q-robotic-arm/main/media/dashboard.png"
+      ],
+      "photos": [],
+      "models": [
+        {
+          "slug": "yolov8",
+          "name": "YOLOv8 (Ultralytics)",
+          "task": "object detection",
+          "framework": "ONNX / TFLite / Hexagon NPU",
+          "vendor": "Ultralytics",
+          "link": "https://docs.ultralytics.com"
+        },
+        {
+          "slug": "mediapipe-pointnet",
+          "name": "MediaPipe Hands + PointNet",
+          "task": "hand / ASL gesture recognition",
+          "framework": "MediaPipe + PyTorch",
+          "vendor": "Google / community",
+          "link": "https://developers.google.com/mediapipe"
+        },
+        {
+          "slug": "midas-depth",
+          "name": "MiDaS (monocular depth)",
+          "task": "depth estimation",
+          "framework": "TFLite",
+          "vendor": "Intel / community",
+          "link": "https://github.com/isl-org/MiDaS"
+        }
+      ],
+      "described": true,
+      "hidden": false,
+      "id": "arduino-ventuno-q-vision-ai-robotic-arm",
+      "boards": [
+        {
+          "slug": "abx00181",
+          "vendor": "Qualcomm",
+          "name": "Arduino VENTUNO Q",
+          "maker": "Arduino",
+          "integrator": "Arduino",
+          "partNumber": "ABX00181"
+        }
+      ],
+      "board": {
+        "slug": "abx00181",
+        "vendor": "Qualcomm",
+        "name": "Arduino VENTUNO Q",
+        "maker": "Arduino",
+        "integrator": "Arduino",
+        "partNumber": "ABX00181"
+      },
+      "manufacturers": [
+        "Qualcomm"
+      ],
+      "makers": [
+        "Arduino"
+      ]
+    },
+    {
+      "repo": "iotc-python-examples",
+      "url": "https://github.com/avnet-iotconnect/iotc-python-examples/tree/main/DELL_3200_5200_Demo",
+      "displayName": "Dell Edge Gateway 3200/5200 — Python Telemetry",
+      "description": "Connects the Dell Edge Gateway 3200 and 5200 industrial gateways to /IOTCONNECT on AWS with the Python SDK. Walks through device template creation, device provisioning and running the telemetry program on the gateway, giving a ready starting point for Intel-based industrial edge deployments.",
+      "category": "sample",
+      "status": "beta",
+      "release": null,
+      "languages": [
+        "Python"
+      ],
+      "features": [
+        "gateway",
+        "industrial"
+      ],
+      "stars": 1,
+      "updated": "2025-04-26T00:15:34Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "models": [],
+      "described": true,
+      "hidden": false,
+      "id": "dell-edge-gateway-3200-5200-python-telemetry::3200",
+      "boards": [
+        {
+          "slug": "3200",
+          "vendor": "Intel",
+          "name": "Dell Edge Gateway 3200",
+          "maker": "Dell",
+          "integrator": "Dell",
+          "partNumber": "3200",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/Dell_3200.png"
+        }
+      ],
+      "board": {
+        "slug": "3200",
+        "vendor": "Intel",
+        "name": "Dell Edge Gateway 3200",
+        "maker": "Dell",
+        "integrator": "Dell",
+        "partNumber": "3200",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/Dell_3200.png"
+      },
+      "manufacturers": [
+        "Intel"
+      ],
+      "makers": [
+        "Dell"
+      ]
+    },
+    {
+      "repo": "iotc-python-examples",
+      "url": "https://github.com/avnet-iotconnect/iotc-python-examples/tree/main/DELL_3200_5200_Demo",
+      "displayName": "Dell Edge Gateway 3200/5200 — Python Telemetry",
+      "description": "Connects the Dell Edge Gateway 3200 and 5200 industrial gateways to /IOTCONNECT on AWS with the Python SDK. Walks through device template creation, device provisioning and running the telemetry program on the gateway, giving a ready starting point for Intel-based industrial edge deployments.",
+      "category": "sample",
+      "status": "beta",
+      "release": null,
+      "languages": [
+        "Python"
+      ],
+      "features": [
+        "gateway",
+        "industrial"
+      ],
+      "stars": 1,
+      "updated": "2025-04-26T00:15:34Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "models": [],
+      "described": true,
+      "hidden": false,
+      "id": "dell-edge-gateway-3200-5200-python-telemetry::5200",
+      "boards": [
+        {
+          "slug": "5200",
+          "vendor": "Intel",
+          "name": "Dell Edge Gateway 5200",
+          "maker": "Dell",
+          "integrator": "Dell",
+          "partNumber": "5200",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/Dell-5200.png"
+        }
+      ],
+      "board": {
+        "slug": "5200",
+        "vendor": "Intel",
+        "name": "Dell Edge Gateway 5200",
+        "maker": "Dell",
+        "integrator": "Dell",
+        "partNumber": "5200",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/Dell-5200.png"
+      },
+      "manufacturers": [
+        "Intel"
+      ],
+      "makers": [
+        "Dell"
+      ]
+    },
+    {
+      "repo": "iotc-python-examples",
+      "url": "https://github.com/avnet-iotconnect/iotc-python-examples/tree/main/PE100A_Basic_AWS_Demo",
+      "displayName": "ASUS PE100A — Basic Telemetry (AWS and Azure)",
+      "description": "Basic /IOTCONNECT connection for the ASUS PE100A intelligent edge computer using the Python SDK, with setup documented for both the AWS and Azure platforms. Sends a simple telemetry value to prove out the device template, provisioning and dashboard flow before adding real sensors.",
+      "category": "sample",
+      "status": "beta",
+      "release": null,
+      "languages": [
+        "Python"
+      ],
+      "features": [
+        "gateway"
+      ],
+      "stars": 1,
+      "updated": "2025-04-26T00:15:34Z",
+      "image": null,
+      "dashboards": [],
+      "photos": [],
+      "models": [],
+      "described": true,
+      "hidden": false,
+      "id": "asus-pe100a-basic-telemetry-aws-and-azure",
+      "boards": [
+        {
+          "slug": "pe100a",
+          "vendor": "NVIDIA",
+          "name": "PE100A",
+          "maker": "Asus",
+          "integrator": "Asus",
+          "partNumber": "PE100A",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/Asus_PE100a.png"
+        }
+      ],
+      "board": {
+        "slug": "pe100a",
+        "vendor": "NVIDIA",
+        "name": "PE100A",
+        "maker": "Asus",
+        "integrator": "Asus",
+        "partNumber": "PE100A",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/Asus_PE100a.png"
+      },
+      "manufacturers": [
+        "NVIDIA"
+      ],
+      "makers": [
+        "Asus"
+      ]
+    },
+    {
+      "repo": "iotc-python-examples",
+      "url": "https://github.com/avnet-iotconnect/iotc-python-examples/tree/main/PE100A_Motor_Monitor_Demo",
+      "displayName": "ASUS PE100A — Motor Health Monitor",
+      "description": "Predictive-maintenance demo on the ASUS PE100A that monitors motor vibration and temperature with a Banner QM30VT2 sensor and AC current draw with an Automation Direct current transducer, streaming all three to /IOTCONNECT on AWS for real-time motor health dashboards and alerts.",
+      "category": "sample",
+      "status": "beta",
+      "release": null,
+      "languages": [
+        "Python"
+      ],
+      "features": [
+        "industrial",
+        "modbus",
+        "predictive-maintenance",
+        "sensors"
+      ],
+      "stars": 1,
+      "updated": "2025-04-26T00:15:34Z",
+      "image": null,
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-python-examples/main/PE100A_Motor_Monitor_Demo/media/image15.png"
+      ],
+      "photos": [],
+      "models": [],
+      "described": true,
+      "hidden": false,
+      "id": "asus-pe100a-motor-health-monitor",
+      "boards": [
+        {
+          "slug": "pe100a",
+          "vendor": "NVIDIA",
+          "name": "PE100A",
+          "maker": "Asus",
+          "integrator": "Asus",
+          "partNumber": "PE100A",
+          "image": "https://saleshosted.z13.web.core.windows.net/images/boards/Asus_PE100a.png"
+        }
+      ],
+      "board": {
+        "slug": "pe100a",
+        "vendor": "NVIDIA",
+        "name": "PE100A",
+        "maker": "Asus",
+        "integrator": "Asus",
+        "partNumber": "PE100A",
+        "image": "https://saleshosted.z13.web.core.windows.net/images/boards/Asus_PE100a.png"
+      },
+      "manufacturers": [
+        "NVIDIA"
+      ],
+      "makers": [
+        "Asus"
       ]
     }
   ]
