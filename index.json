@@ -1,6 +1,6 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-11-07T19:27:16Z",
+  "generated": "2026-11-07T19:44:53Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
@@ -100,7 +100,7 @@
       "logo": "assets/brand/qualcomm-logo.svg",
       "info": null,
       "boards": 4,
-      "listings": 10
+      "listings": 11
     },
     {
       "name": "Realtek",
@@ -340,7 +340,7 @@
     "topics": [
       {
         "tag": "edge-ai",
-        "count": 83
+        "count": 85
       },
       {
         "tag": "vision",
@@ -359,11 +359,11 @@
         "count": 29
       },
       {
-        "tag": "ai",
-        "count": 26
+        "tag": "mcu",
+        "count": 27
       },
       {
-        "tag": "mcu",
+        "tag": "ai",
         "count": 26
       },
       {
@@ -503,6 +503,10 @@
         "count": 3
       },
       {
+        "tag": "llm",
+        "count": 3
+      },
+      {
         "tag": "smart-home",
         "count": 3
       },
@@ -511,8 +515,16 @@
         "count": 3
       },
       {
+        "tag": "voice",
+        "count": 3
+      },
+      {
         "tag": "wifi-provisioning",
         "count": 3
+      },
+      {
+        "tag": "app-lab",
+        "count": 2
       },
       {
         "tag": "audio-classification",
@@ -524,6 +536,10 @@
       },
       {
         "tag": "imu",
+        "count": 2
+      },
+      {
+        "tag": "linux",
         "count": 2
       },
       {
@@ -548,10 +564,6 @@
       },
       {
         "tag": "agents",
-        "count": 1
-      },
-      {
-        "tag": "app-lab",
         "count": 1
       },
       {
@@ -600,14 +612,6 @@
       },
       {
         "tag": "hardware-crypto",
-        "count": 1
-      },
-      {
-        "tag": "linux",
-        "count": 1
-      },
-      {
-        "tag": "llm",
         "count": 1
       },
       {
@@ -660,10 +664,6 @@
       },
       {
         "tag": "vision-ai",
-        "count": 1
-      },
-      {
-        "tag": "voice",
         "count": 1
       },
       {
@@ -1084,7 +1084,7 @@
         ],
         "integrator": "Arduino",
         "maker": "Arduino",
-        "listings": 1
+        "listings": 2
       },
       {
         "slug": "steval-astra1b",
@@ -3946,12 +3946,12 @@
     ]
   },
   "counts": {
-    "total": 236,
+    "total": 237,
     "manufacturers": 17,
     "boards": 101,
     "sdks": 28,
     "tools": 6,
-    "examples": 202,
+    "examples": 203,
     "models": 25,
     "guides": 92,
     "demos": 13,
@@ -8794,7 +8794,7 @@
       "repo": "iotc-arduino-uno-q-app-lab",
       "url": "https://github.com/avnet-iotconnect/iotc-arduino-uno-q-app-lab",
       "displayName": "Arduino Uno Q App Lab",
-      "description": "Hands-on application lab for connecting the Arduino Uno Q to /IOTCONNECT. Guides developers through building cloud-connected sketches and Python apps with telemetry and command handling.",
+      "description": "Hands-on application lab for connecting the Arduino UNO Q and Arduino VENTUNO Q to /IOTCONNECT with Arduino App Lab. Over thirty ready-made apps (air quality, vibration anomaly detection, object and face detection, keyword spotting, an edge LLM assistant and more) gain cloud telemetry and commands through the /IOTCONNECT brick in a few lines of Python. The VENTUNO Q connects directly through the brick and adds Qualcomm NPU examples such as the gesture booth, smart mirror, pose detection and on-device speech and dictation assistants.",
       "category": "sample",
       "status": "beta",
       "release": null,
@@ -8803,8 +8803,11 @@
       ],
       "features": [
         "app-lab",
+        "edge-ai",
         "linux",
-        "mcu"
+        "llm",
+        "mcu",
+        "voice"
       ],
       "stars": 0,
       "updated": "2026-11-07T04:23:13Z",
@@ -8822,7 +8825,7 @@
       "models": [],
       "described": true,
       "hidden": false,
-      "id": "arduino-uno-q-app-lab",
+      "id": "arduino-uno-q-app-lab::arduino-uno-q",
       "boards": [
         {
           "slug": "arduino-uno-q",
@@ -8842,6 +8845,69 @@
         "integrator": "Arduino",
         "partNumber": "ARDUINO-UNO-Q",
         "imageLocal": "assets/boards/ARDUINO-UNO-Q.jpg"
+      },
+      "manufacturers": [
+        "Qualcomm"
+      ],
+      "makers": [
+        "Arduino"
+      ]
+    },
+    {
+      "repo": "iotc-arduino-uno-q-app-lab",
+      "url": "https://github.com/avnet-iotconnect/iotc-arduino-uno-q-app-lab",
+      "displayName": "Arduino Uno Q App Lab",
+      "description": "Hands-on application lab for connecting the Arduino UNO Q and Arduino VENTUNO Q to /IOTCONNECT with Arduino App Lab. Over thirty ready-made apps (air quality, vibration anomaly detection, object and face detection, keyword spotting, an edge LLM assistant and more) gain cloud telemetry and commands through the /IOTCONNECT brick in a few lines of Python. The VENTUNO Q connects directly through the brick and adds Qualcomm NPU examples such as the gesture booth, smart mirror, pose detection and on-device speech and dictation assistants.",
+      "category": "sample",
+      "status": "beta",
+      "release": null,
+      "languages": [
+        "Python"
+      ],
+      "features": [
+        "app-lab",
+        "edge-ai",
+        "linux",
+        "llm",
+        "mcu",
+        "voice"
+      ],
+      "stars": 0,
+      "updated": "2026-11-07T04:23:13Z",
+      "image": "assets/tech/arduino.svg",
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-arduino-uno-q-app-lab/main/app-configs/air-quality-monitoring/aqm-dashboard.jpg",
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-arduino-uno-q-app-lab/main/app-configs/audio-classification/unoq-dashboard-audioclass.jpg",
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-arduino-uno-q-app-lab/main/app-configs/home-climate-monitoring-and-storage/home-climate-dashboard.jpg",
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-arduino-uno-q-app-lab/main/app-configs/image-classification/img-class-dashboard.jpg",
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-arduino-uno-q-app-lab/main/app-configs/object-detection/unoQ-objdetimg-dashboard.jpg"
+      ],
+      "photos": [
+        "https://saleshosted.z13.web.core.windows.net/images/boards/arduino-unoq-placard.JPG"
+      ],
+      "models": [],
+      "described": true,
+      "hidden": false,
+      "id": "arduino-uno-q-app-lab::abx00181",
+      "boards": [
+        {
+          "slug": "abx00181",
+          "vendor": "Qualcomm",
+          "name": "Arduino VENTUNO Q",
+          "maker": "Arduino",
+          "integrator": "Arduino",
+          "partNumber": "ABX00181",
+          "imageLocal": "assets/boards/ABX00181.jpg"
+        }
+      ],
+      "board": {
+        "slug": "abx00181",
+        "vendor": "Qualcomm",
+        "name": "Arduino VENTUNO Q",
+        "maker": "Arduino",
+        "integrator": "Arduino",
+        "partNumber": "ABX00181",
+        "imageLocal": "assets/boards/ABX00181.jpg"
       },
       "manufacturers": [
         "Qualcomm"
