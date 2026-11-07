@@ -1,6 +1,6 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-11-07T19:23:55Z",
+  "generated": "2026-11-07T19:27:16Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
@@ -1055,7 +1055,7 @@
         "name": "Arduino VENTUNO Q",
         "partNumber": "ABX00181",
         "image": null,
-        "imageLocal": null,
+        "imageLocal": "assets/boards/ABX00181.jpg",
         "link": "https://store.arduino.cc/products/ventuno-q",
         "buy": "https://store.arduino.cc/products/ventuno-q",
         "qualifications": [],
@@ -16541,7 +16541,8 @@
           "name": "Arduino VENTUNO Q",
           "maker": "Arduino",
           "integrator": "Arduino",
-          "partNumber": "ABX00181"
+          "partNumber": "ABX00181",
+          "imageLocal": "assets/boards/ABX00181.jpg"
         }
       ],
       "board": {
@@ -16550,7 +16551,8 @@
         "name": "Arduino VENTUNO Q",
         "maker": "Arduino",
         "integrator": "Arduino",
-        "partNumber": "ABX00181"
+        "partNumber": "ABX00181",
+        "imageLocal": "assets/boards/ABX00181.jpg"
       },
       "manufacturers": [
         "Qualcomm"
