@@ -1,6 +1,6 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-11-07T19:27:16Z",
+  "generated": "2026-11-16T16:44:23Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
@@ -8120,7 +8120,7 @@
         "sensors"
       ],
       "stars": 0,
-      "updated": "2026-09-13T15:28:59Z",
+      "updated": "2026-11-09T21:52:19Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ifx-psoc6andedge-deepcraft.JPG",
       "dashboards": [],
       "photos": [],
@@ -8180,7 +8180,7 @@
         "sensors"
       ],
       "stars": 0,
-      "updated": "2026-09-13T15:28:59Z",
+      "updated": "2026-11-09T21:52:19Z",
       "image": "https://saleshosted.z13.web.core.windows.net/images/boards/ifx-psoc6andedge-deepcraft.JPG",
       "dashboards": [],
       "photos": [],
@@ -16499,7 +16499,7 @@
         "vision"
       ],
       "stars": 0,
-      "updated": "2026-11-06T21:38:39Z",
+      "updated": "2026-11-09T21:31:36Z",
       "image": null,
       "dashboards": [
         "https://raw.githubusercontent.com/avnet-iotconnect/iotc-arduino-ventuno-q-robotic-arm/main/media/dashboard.png"

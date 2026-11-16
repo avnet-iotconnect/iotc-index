@@ -1,6 +1,6 @@
 # /IOTCONNECT Index — Audit Report
 
-_Generated 2026-11-07T19:27:16Z_  ·  236 listings · 101 boards (91 in use) · 17 manufacturers · 243 resources
+_Generated 2026-11-16T16:44:23Z_  ·  236 listings · 101 boards (91 in use) · 17 manufacturers · 243 resources
 
 ## ⚠ Boards referenced but missing from the Boards sheet
 - none — every referenced board is defined.
@@ -21,7 +21,7 @@ _Generated 2026-11-07T19:27:16Z_  ·  236 listings · 101 boards (91 in use) · 
 - NXP · NXP MaaXBoard Mini (AES-MC-SBC-IMX8MINI-G)
 
 ## Org repos with no listing (candidates to add)
-- none — every public repo has a listing.
+- iotc-arduino-ventuno-q-rover — no description
 
 ## ⚠ Broken GitHub links (404)
 - none — every GitHub link resolves.
