@@ -1,6 +1,6 @@
 {
   "org": "avnet-iotconnect",
-  "generated": "2026-11-16T16:44:23Z",
+  "generated": "2026-11-20T00:38:05Z",
   "pagesUrl": "https://avnet-iotconnect.github.io/iotc-index/",
   "imageBase": "https://saleshosted.z13.web.core.windows.net/images/boards/",
   "imageLocalBase": "assets/boards/",
@@ -100,7 +100,7 @@
       "logo": "assets/brand/qualcomm-logo.svg",
       "info": null,
       "boards": 4,
-      "listings": 10
+      "listings": 11
     },
     {
       "name": "Realtek",
@@ -455,15 +455,15 @@
         "count": 6
       },
       {
+        "tag": "robotics",
+        "count": 6
+      },
+      {
         "tag": "vlm",
         "count": 6
       },
       {
         "tag": "cellular",
-        "count": 5
-      },
-      {
-        "tag": "robotics",
         "count": 5
       },
       {
@@ -532,6 +532,10 @@
       },
       {
         "tag": "mlops",
+        "count": 2
+      },
+      {
+        "tag": "motor-control",
         "count": 2
       },
       {
@@ -620,10 +624,6 @@
       },
       {
         "tag": "metering",
-        "count": 1
-      },
-      {
-        "tag": "motor-control",
         "count": 1
       },
       {
@@ -1084,7 +1084,7 @@
         ],
         "integrator": "Arduino",
         "maker": "Arduino",
-        "listings": 1
+        "listings": 2
       },
       {
         "slug": "steval-astra1b",
@@ -3946,12 +3946,12 @@
     ]
   },
   "counts": {
-    "total": 236,
+    "total": 237,
     "manufacturers": 17,
     "boards": 101,
     "sdks": 28,
     "tools": 6,
-    "examples": 202,
+    "examples": 203,
     "models": 25,
     "guides": 92,
     "demos": 13,
@@ -16766,6 +16766,62 @@
       ],
       "makers": [
         "Asus"
+      ]
+    },
+    {
+      "repo": "iotc-arduino-ventuno-q-rover",
+      "url": "https://github.com/avnet-iotconnect/iotc-arduino-ventuno-q-rover",
+      "displayName": "Arduino VENTUNO Q — Mecanum Rover",
+      "description": "A four-wheel mecanum rover driven from /IOTCONNECT on the Arduino VENTUNO Q, using both of the board's processors: the Qualcomm Dragonwing Linux side runs a Python Lite SDK app that receives cloud commands, and the STM32 microcontroller drives the four motor channels through an Adafruit motor shield over the Arduino Bridge. Drives, strafes, moves diagonally and rotates in place from a web dashboard or the /IOTCONNECT console, publishing motor-shield health, last command, uptime and wheel trim every 10 seconds.",
+      "category": "sample",
+      "status": "beta",
+      "release": null,
+      "languages": [
+        "Python",
+        "C++"
+      ],
+      "features": [
+        "motor-control",
+        "robotics"
+      ],
+      "stars": 0,
+      "updated": "2026-11-20T00:36:57Z",
+      "image": null,
+      "dashboards": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-arduino-ventuno-q-rover/main/media/dashboard-drive.png"
+      ],
+      "photos": [
+        "https://raw.githubusercontent.com/avnet-iotconnect/iotc-arduino-ventuno-q-rover/main/media/rover-profile.png"
+      ],
+      "models": [],
+      "described": true,
+      "hidden": false,
+      "id": "arduino-ventuno-q-mecanum-rover",
+      "boards": [
+        {
+          "slug": "abx00181",
+          "vendor": "Qualcomm",
+          "name": "Arduino VENTUNO Q",
+          "maker": "Arduino",
+          "integrator": "Arduino",
+          "partNumber": "ABX00181",
+          "imageLocal": "assets/boards/ABX00181.jpg"
+        }
+      ],
+      "board": {
+        "slug": "abx00181",
+        "vendor": "Qualcomm",
+        "name": "Arduino VENTUNO Q",
+        "maker": "Arduino",
+        "integrator": "Arduino",
+        "partNumber": "ABX00181",
+        "imageLocal": "assets/boards/ABX00181.jpg"
+      },
+      "manufacturers": [
+        "Qualcomm"
+      ],
+      "makers": [
+        "Arduino"
       ]
     }
   ]
